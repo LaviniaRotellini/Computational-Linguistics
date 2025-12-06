@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “A pretty idea, truly,” said Madame Magloire to herself, as she went and came, “to take in a man like that!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	pretty	pretty	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	idea	idea	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	truly	truly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Madame	Madame	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Magloire	Magloire	PROPN	NNP	Number=Sing	10	flat	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	as	as	SCONJ	IN	_	17	mark	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+22	to	to	PART	TO	_	23	mark	_	_
+23	take	take	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	man	man	NOUN	NN	Number=Sing	23	obl	_	_
+27	like	like	ADP	IN	_	28	case	_	_
+28	that	that	PRON	DT	Number=Sing|PronType=Dem	26	nmod	_	SpaceAfter=No
+29	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = and to lodge him close to one’s self!
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	lodge	lodge	VERB	VB	VerbForm=Inf	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	close	close	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	one	one	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+8	’s	’	NOUN	NNS	Number=Plur	9	compound	_	_
+9	self	self	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And how fortunate that he did nothing but steal!
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	how	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	fortunate	fortunate	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	nothing	nothing	PRON	NN	Number=Sing	6	obj	_	_
+8	but	but	ADP	IN	_	9	case	_	_
+9	steal	steal	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ah, mon Dieu!
+1	Ah	ah	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	mon	mon	ADP	IN	_	4	case	_	_
+4	Dieu	Dieu	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = it makes one shudder to think of it!”
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	shudder	shudder	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	think	think	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, it’s always so!’ she said.
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	always	always	ADV	RB	_	7	advmod	_	_
+7	so	so	ADV	RB	_	11	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	11	punct	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = ‘They are all surprised, these inconsiderate young people, fairly and full grown, to see any natural feeling in a little thing like me!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	all	all	ADV	RB	_	5	advmod	_	_
+5	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+8	inconsiderate	inconsiderate	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	young	young	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	people	people	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	fairly	fairly	ADV	RB	_	15	advmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	full	full	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	see	see	VERB	VB	VerbForm=Inf	15	advcl	_	_
+19	any	any	DET	DT	_	21	det	_	_
+20	natural	natural	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	feeling	feeling	NOUN	NN	Number=Sing	18	obj	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	thing	thing	NOUN	NN	Number=Sing	21	nmod	_	_
+26	like	like	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = They make a plaything of me, use me for their amusement, throw me away when they are tired, and wonder that I feel more than a toy horse or a wooden soldier!
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	plaything	plaything	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	use	use	VERB	VB	VerbForm=Inf	2	conj	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	amusement	amusement	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	throw	throw	VERB	VB	VerbForm=Inf	2	conj	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+16	away	away	ADV	RB	_	14	advmod	_	_
+17	when	when	ADV	WRB	PronType=Int	20	mark	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	tired	tired	ADJ	JJ	Degree=Pos	14	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+27	more	more	ADJ	JJR	Degree=Cmp	31	advmod	_	_
+28	than	than	ADP	IN	_	27	fixed	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	toy	toy	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	horse	horse	NOUN	NN	Number=Sing	26	obj	_	_
+32	or	or	CCONJ	CC	_	35	cc	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+34	wooden	wooden	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	soldier	soldier	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+36	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Yes, yes, that’s the way.
+1	Yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = The old way!’
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

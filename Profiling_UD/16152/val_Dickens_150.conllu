@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I mun’ be ridden o’ her.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mun	mun	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	’	's	PUNCT	''	_	3	punct	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	ridden	ridden	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+7	o	of	ADP	IN	Abbr=Yes	9	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I cannot bear ’t nommore.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	’t	ot	ADV	RB	_	6	advmod	_	_
+6	nommore	nommore	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I ha’ lived under ’t so long, for that I ha’ had’n the pity and comforting words o’ th’ best lass living or dead.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ha	ha	X	GW	_	4	advmod	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	2	punct	_	_
+4	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	under	under	ADP	IN	_	6	case	_	_
+6	’t	’t	NOUN	NN	Number=Sing	4	obl	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	long	long	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	for	for	SCONJ	IN	_	16	mark	_	_
+11	that	that	SCONJ	IN	_	16	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	ha	ha	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+14	’	'	PART	POS	_	13	case	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
+16	’n	’n	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	pity	pity	NOUN	NN	Number=Sing	16	obj	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	comforting	comforting	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	words	word	NOUN	NNS	Number=Plur	16	conj	_	_
+22	o	of	ADP	IN	Abbr=Yes	28	case	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	28	punct	_	_
+24	th	th	ADV	RB	_	28	advmod	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	28	punct	_	_
+26	best	best	ADJ	JJS	Degree=Sup	28	amod	_	_
+27	lass	lass	NOUN	NN	Number=Sing	28	compound	_	_
+28	living	living	NOUN	NN	Number=Sing	21	nmod	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	dead	dead	ADJ	JJ	Degree=Pos	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Haply, but for her, I should ha’ gone battering mad.’
+1	Haply	Haply	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	but	but	CCONJ	CC	_	13	cc	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+9	ha	ha	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+10	’	’	PART	POS	_	9	case	_	_
+11	gone	go	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	battering	batter	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	mad	mad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

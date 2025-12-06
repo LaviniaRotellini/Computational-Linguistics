@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No doubt that is a good device as to ways and means,” said Lydgate, with an edge of irony in his tone.
+1	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	3	det	_	_
+3	doubt	doubt	NOUN	NN	Number=Sing	16	nsubj	_	_
+4	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	device	device	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+9	as	as	ADP	IN	_	11	case	_	_
+10	to	to	ADP	IN	_	9	fixed	_	_
+11	ways	way	NOUN	NNS	Number=Plur	8	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	means	mean	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Lydgate	Lydgate	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	edge	edge	NOUN	NN	Number=Sing	17	nmod	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	irony	irony	NOUN	NN	Number=Sing	21	nmod	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	tone	tone	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “But I can’t be expected to rejoice in it at once, since one of the first results will be that the other medical men will upset or interrupt my methods, if it were only because they are mine.”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	_
+4	ca	can	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	rejoice	rejoice	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	at	at	ADV	RB	_	13	case	_	_
+13	once	once	ADV	RB	NumType=Mult	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	since	since	SCONJ	IN	_	29	mark	_	_
+16	one	one	NUM	CD	NumType=Card	29	nsubj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+20	results	result	NOUN	NNS	Number=Plur	16	nmod	_	_
+21	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	29	cop	_	_
+23	that	that	SCONJ	IN	_	29	mark	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	other	other	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	medical	medical	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	men	man	NOUN	NNS	Number=Plur	29	nsubj	_	_
+28	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	upset	upset	VERB	VB	VerbForm=Inf	7	advcl	_	_
+30	or	or	CCONJ	CC	_	31	cc	_	_
+31	interrupt	interrupt	VERB	VB	VerbForm=Inf	29	conj	_	_
+32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	methods	method	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	29	punct	_	_
+35	if	if	SCONJ	IN	_	42	mark	_	_
+36	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+37	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	cop	_	_
+38	only	only	ADV	RB	_	42	advmod	_	_
+39	because	because	SCONJ	IN	_	42	mark	_	_
+40	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
+41	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	42	cop	_	_
+42	mine	mine	PRON	PRP	_	29	advcl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+44	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

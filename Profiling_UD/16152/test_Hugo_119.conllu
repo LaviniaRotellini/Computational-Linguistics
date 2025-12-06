@@ -1,0 +1,146 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Holà!” cried Clopin, mounted once more upon his cask, “holà!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Holà	Holà	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Clopin	Clopin	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	mounted	mount	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	once	once	ADV	RB	NumType=Mult	10	advmod	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	16	amod	_	_
+11	upon	upon	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	cask	cask	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	holà	holà	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = women, females, is there among you, from the sorceress to her cat, a wench who wants this rascal?
+1	women	woman	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	females	female	NOUN	NNS	Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	there	there	PRON	EX	_	5	expl	_	_
+7	among	among	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	sorceress	sorceress	NOUN	NNS	Number=Plur	5	obl	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	cat	cat	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	wench	wench	NOUN	NN	Number=Sing	5	nsubj	_	_
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+20	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	rascal	rascal	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Holà, Colette la Charonne!
+1	Holà	Holà	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	Colette	Colette	PROPN	NNP	Number=Sing	4	compound	_	_
+4	la	la	PROPN	NNP	Number=Sing	1	appos	_	_
+5	Charonne	Charonne	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Elisabeth Trouvain!
+1	Elisabeth	Elisabeth	PROPN	NNP	Number=Sing	0	root	_	_
+2	Trouvain	Trouvain	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Simone Jodouyne!
+1	Simone	Simone	PROPN	NNP	Number=Sing	0	root	_	_
+2	Jodouyne	Jodouyne	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Marie Piédebou!
+1	Marie	Marie	PROPN	NNP	Number=Sing	0	root	_	_
+2	Piédebou	Piédebou	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Thonne la Longue!
+1	Thonne	Thonne	PROPN	NNP	Number=Sing	0	root	_	_
+2	la	la	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Longue	Longue	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Bérarde Fanouel!
+1	Bérarde	Bérarde	PROPN	NNP	Number=Sing	0	root	_	_
+2	Fanouel	Fanouel	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Michelle
+1	Michelle	Michelle	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 10
+# text = Genaille!
+1	Genaille	Genaille	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Claude Ronge-oreille!
+1	Claude	Claude	PROPN	NNP	Number=Sing	4	compound	_	_
+2	Ronge	Ronge	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No
+4	oreille	oreille	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Mathurine Girorou!—Holà!
+1	Mathurine	Mathurine	PROPN	NNP	Number=Sing	0	root	_	_
+2	Girorou	Girorou	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	—	-	PUNCT	:	_	1	punct	_	SpaceAfter=No
+5	Holà	Holà	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 13
+# text = Isabeau-la-Thierrye!
+1	Isabeau	Isabeau	PROPN	NNP	Number=Sing	5	compound	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	la	la	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No
+5	Thierrye	Thierrye	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Come and see!
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = A man for nothing!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Who wants him?”
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	_
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

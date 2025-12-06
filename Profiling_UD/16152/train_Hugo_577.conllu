@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No one knew the man; as Cosette was no longer in rags, many did not recognize her.
+1	No	no	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	3	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	as	as	SCONJ	IN	_	11	mark	_	_
+8	Cosette	Cosette	PROPN	NNP	Number=Sing	11	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	no	no	ADV	RB	_	11	advmod	_	_
+11	longer	longer	ADV	RBR	Degree=Cmp	3	advcl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	rags	rag	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	many	many	ADJ	JJ	Degree=Pos	18	nsubj	_	_
+16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	recognize	recognize	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Cosette was going away.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	away	away	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = With whom?
+1	With	with	ADP	IN	_	2	case	_	_
+2	whom	whom	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She did not know.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Whither?
+1	Whither	Whither	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = She knew not.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = All that she understood was that she was leaving the Thénardier tavern behind her.
+1	All	all	DET	PDT	_	5	det	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+4	understood	understood	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	Thénardier	Thénardier	PROPN	NNP	Number=Sing	12	compound	_	_
+12	tavern	tavern	NOUN	NN	Number=Sing	9	obj	_	_
+13	behind	behind	ADP	IN	_	14	case	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = No one had thought of bidding her farewell, nor had she thought of taking leave of any one.
+1	No	no	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	bidding	bid	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	farewell	farewell	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	nor	nor	CCONJ	CC	_	11	cc	_	_
+11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	of	of	ADP	IN	_	15	mark	_	_
+15	taking	take	VERB	VBG	VerbForm=Ger	13	xcomp	_	_
+16	leave	leave	NOUN	NN	Number=Sing	15	obj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	one	one	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = She was leaving that hated and hating house.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	that	that	SCONJ	IN	_	5	mark	_	_
+5	hated	hate	VERB	VBN	Tense=Past|VerbForm=Part	3	xcomp	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	hating	hate	VERB	VBG	VerbForm=Ger	5	conj	_	_
+8	house	house	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

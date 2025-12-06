@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius scanned this old man, who was not yet aged, and this little girl, who was not yet a person, for a few days, and thereafter paid no attention to them.
+1	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	scanned	scan	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	old	old	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	yet	yet	ADV	RB	_	11	advmod	_	_
+11	aged	a	ADJ	JJ	Degree=Pos	5	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	girl	girl	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	who	who	PRON	WP	PronType=Rel	23	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+20	not	not	PART	RB	_	23	advmod	_	_
+21	yet	yet	ADV	RB	_	23	advmod	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	person	person	NOUN	NN	Number=Sing	16	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	for	for	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	few	few	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	days	day	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	thereafter	thereafter	ADV	RB	_	32	advmod	_	_
+32	paid	pay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+33	no	no	DET	DT	_	34	det	_	_
+34	attention	attention	NOUN	NN	Number=Sing	32	obj	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = They, on their side, did not appear even to see him.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	side	side	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	appear	appear	VERB	VB	VerbForm=Inf	0	root	_	_
+10	even	even	ADV	RB	_	12	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	see	see	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = They conversed together with a peaceful and indifferent air.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	conversed	converse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	together	together	ADV	RB	_	2	advmod	_	_
+4	with	with	ADP	IN	_	9	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	peaceful	peaceful	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	indifferent	indifferent	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	air	air	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The girl chattered incessantly and merrily.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	girl	girl	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	chattered	chatter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	incessantly	incessantly	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	merrily	merrily	ADV	RB	_	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = The old man talked but little, and, at times, he fixed on her eyes overflowing with an ineffable paternity.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	but	but	CCONJ	CC	_	6	cc	_	_
+6	little	little	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	14	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	times	time	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	fixed	fix	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	eyes	eye	NOUN	NNS	Number=Plur	14	obl	_	_
+18	overflowing	overflow	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+19	with	with	ADP	IN	_	22	case	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	ineffable	ineffable	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	paternity	paternity	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

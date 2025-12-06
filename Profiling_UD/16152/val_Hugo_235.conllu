@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gilliatt's movements were decisive, as are those of all good sailors.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	_
+3	movements	movement	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	decisive	decisive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	those	those	PRON	DT	Number=Plur|PronType=Dem	5	advcl	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	all	all	DET	DT	_	13	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	sailors	sailor	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He never wasted force.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	wasted	waste	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	force	force	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He always proportioned his efforts to the work in hand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	proportioned	proportion	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	efforts	effort	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	work	work	NOUN	NN	Number=Sing	5	nmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	hand	hand	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Hence the prodigies of strength which he executed with ordinary muscles.
+1	Hence	hence	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	prodigies	prodigy	NOUN	NNS	Number=Plur	1	obj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	strength	strength	NOUN	NN	Number=Sing	3	nmod	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	obj	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	executed	execute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	ordinary	ordinary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	muscles	muscle	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = His biceps were no more powerful than that of ordinary men; but his heart was firmer.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	biceps	bicep	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	no	no	ADV	RB	_	6	advmod	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	powerful	powerful	ADJ	JJ	Degree=Pos	0	root	_	_
+7	than	than	ADP	IN	_	8	case	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	6	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	ordinary	ordinary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	men	man	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	6	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	heart	heart	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	firmer	firmer	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = He added, in fact, to strength which is physical, energy which belongs to the moral faculties.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	fact	fact	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	strength	strength	NOUN	NN	Number=Sing	13	nmod	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	physical	physical	ADJ	JJ	Degree=Pos	8	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	energy	energy	NOUN	NN	Number=Sing	2	obj	_	_
+14	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+15	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	to	to	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	moral	moral	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	faculties	faculty	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

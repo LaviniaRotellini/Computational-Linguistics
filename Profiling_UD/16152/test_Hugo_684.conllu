@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Thus he saw what the priest was looking at.
+1	Thus	thus	ADV	RB	_	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	8	obj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	priest	priest	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+9	at	at	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The ladder was erected near the permanent gallows.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	ladder	ladder	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	erected	erect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	near	near	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	permanent	permanent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	gallows	gallow	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There were some people and many soldiers in the Place.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	soldiers	soldier	NOUN	NNS	Number=Plur	2	conj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Place	place	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = A man was dragging a white thing, from which hung something black, along the pavement.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	dragging	drag	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	white	white	NOUN	NN	Number=Sing	7	compound	_	_
+7	thing	thing	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	from	from	ADP	IN	_	10	case	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	obl	_	_
+11	hung	hng	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+12	something	something	PRON	NN	Number=Sing	11	obj	_	_
+13	black	black	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	along	along	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	pavement	pavement	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = This man halted at the foot of the gallows.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	halted	halt	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	foot	foot	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	gallows	gallow	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

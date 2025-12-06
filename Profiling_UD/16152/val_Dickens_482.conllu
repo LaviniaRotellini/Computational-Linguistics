@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Whereas your daughter,’ proceeded Bounderby, ‘is far from being a born lady.
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Whereas	whereas	SCONJ	IN	_	6	mark	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	daughter	daughter	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	4	punct	_	_
+6	proceeded	proceed	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+7	Bounderby	Bounderby	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	far	far	ADJ	JJ	Degree=Pos	0	root	_	_
+12	from	from	SCONJ	IN	_	16	mark	_	_
+13	being	be	AUX	VBG	VerbForm=Ger	16	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	born	born	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	lady	lady	NOUN	NN	Number=Sing	11	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = That you know, yourself.
+1	That	that	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Not that I care a pinch of candle-snuff about such things, for you are very well aware I don’t; but that such is the fact, and you, Tom Gradgrind, can’t change it.
+1	Not	not	PART	RB	_	4	advmod	_	_
+2	that	that	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	pinch	pinch	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	candle	candle	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	snuff	snuff	NOUN	NN	Number=Sing	6	nmod	_	_
+11	about	about	ADP	IN	_	13	case	_	_
+12	such	such	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	things	thing	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	for	for	SCONJ	IN	_	20	mark	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	very	very	ADV	RB	_	20	advmod	_	_
+19	well	well	ADV	RB	Degree=Pos	20	advmod	_	_
+20	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+22	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+23	n’t	n’t	PART	RB	_	20	advmod	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	20	punct	_	_
+25	but	but	CCONJ	CC	_	30	cc	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	30	nsubj	_	_
+27	such	such	ADJ	JJ	Degree=Pos	26	amod	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	fact	fact	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	40	punct	_	_
+32	and	and	CCONJ	CC	_	40	cc	_	_
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	40	nsubj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	Tom	Tom	PROPN	NNP	Number=Sing	33	appos	_	_
+36	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	35	flat	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	40	punct	_	_
+38	ca	can	AUX	MD	VerbForm=Fin	40	aux	_	SpaceAfter=No
+39	n’t	not	PART	RB	_	40	advmod	_	_
+40	change	change	VERB	VB	VerbForm=Inf	30	conj	_	_
+41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 4
+# text = Why do I say this?’
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

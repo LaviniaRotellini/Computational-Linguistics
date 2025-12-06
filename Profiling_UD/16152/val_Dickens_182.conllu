@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Thou changest me from bad to good.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	changest	changest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	bad	bad	NOUN	NN	Number=Sing	3	obl	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	good	good	ADJ	JJ	Degree=Pos	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Thou mak’st me humbly wishfo’ to be more like thee, and fearfo’ to lose thee when this life is ower, and a’ the muddle cleared awa’.
+1	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	mak	mak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	’st	’st	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	humbly	humbly	ADV	RB	_	6	advmod	_	_
+6	wishfo	wishfo	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	_
+8	to	to	PART	TO	_	12	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	like	like	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	thee	thee	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	fearfo	fearfo	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	15	punct	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	lose	lose	VERB	VB	VerbForm=Inf	15	acl	_	_
+19	thee	thee	NUM	CD	NumType=Card	18	obj	_	_
+20	when	when	ADV	WRB	PronType=Int	24	mark	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	life	life	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	ower	ower	ADJ	JJ	Degree=Pos	18	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	32	punct	_	_
+26	and	and	CCONJ	CC	_	32	cc	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	32	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+30	muddle	muddle	ADJ	JJ	Degree=Pos	32	amod	_	_
+31	cleared	clear	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	awa	awa	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Thou’rt an Angel; it may be, thou hast saved my soul alive!’
+1	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’rt	’rt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	Angel	angel	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+7	may	may	AUX	MD	VerbForm=Fin	12	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	12	cop	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+11	hast	hast	ADV	RB	Degree=Pos	12	advmod	_	_
+12	saved	save	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	soul	soul	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	alive	alive	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

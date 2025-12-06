@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Dodo is just the creature not to mind about having anything of her own—children or anything!” said Celia to her husband.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Dodo	Dodo	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	just	just	ADV	RB	_	6	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	creature	creature	NOUN	NN	Number=Sing	22	nsubj	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	mind	mind	VERB	VB	VerbForm=Inf	6	acl	_	_
+10	about	about	SCONJ	IN	_	11	mark	_	_
+11	having	have	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	anything	anything	PRON	NN	Number=Sing	11	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	own	own	ADJ	JJ	Degree=Pos	12	nmod	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+17	children	child	NOUN	NNS	Number=Plur	11	obj	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	anything	anything	PRON	NN	Number=Sing	17	conj	_	SpaceAfter=No
+20	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Celia	Celia	PROPN	NNP	Number=Sing	22	obj	_	_
+24	to	to	ADP	IN	_	26	case	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	husband	husband	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “And if she had had a baby, it never could have been such a dear as Arthur.
+1	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	17	cc	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	baby	baby	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+11	never	never	ADV	RB	_	17	advmod	_	_
+12	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	cop	_	_
+15	such	such	DET	PDT	_	17	det:predet	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	dear	dear	NOUN	NN	Number=Sing	0	root	_	_
+18	as	as	ADP	IN	_	19	case	_	_
+19	Arthur	Arthur	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = Could it, James?
+1	Could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	James	James	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

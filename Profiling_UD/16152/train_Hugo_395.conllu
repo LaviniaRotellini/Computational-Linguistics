@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The half-hour after midnight had just struck when M. Madeleine quitted the Hall of Assizes in Arras.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	half	half	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+4	hour	hour	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	after	after	ADP	IN	_	6	case	_	_
+6	midnight	midnight	NOUN	NN	Number=Sing	4	nmod	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	just	just	ADV	RB	_	9	advmod	_	_
+9	struck	struck	NOUN	NN	Number=Sing	7	obj	_	_
+10	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+11	M.	M.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	Madeleine	Madeleine	PROPN	NNP	Number=Sing	11	flat	_	_
+13	quitted	quit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	Hall	Hall	PROPN	NNP	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Assizes	Assizes	PROPN	NNPS	Number=Plur	15	nmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Arras	Arras	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He regained his inn just in time to set out again by the mail-wagon, in which he had engaged his place.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	regained	regain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	inn	inn	NOUN	NN	Number=Sing	2	obj	_	_
+5	just	just	ADV	RB	_	2	advmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	time	time	NOUN	NN	Number=Sing	2	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	set	set	VERB	VB	VerbForm=Inf	2	acl	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	again	again	ADV	RB	_	9	advmod	_	_
+12	by	by	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	mail	mail	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	wagon	wagon	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	which	which	PRON	WDT	PronType=Rel	22	obl	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	place	place	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = A little before six o’clock in the morning he had arrived at M. sur M., and his first care had been to post a letter to M. Laffitte, then to enter the infirmary and see Fantine.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	little	little	NOUN	NN	Number=Sing	5	obl:npmod	_	_
+3	before	before	ADP	IN	_	5	case	_	_
+4	six	six	NUM	CD	NumType=Card	5	nummod	_	_
+5	o’clock	o’clock	NOUN	NN	Number=Sing	11	obl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	morning	morning	NOUN	NN	Number=Sing	11	obl	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	at	at	ADP	IN	_	15	case	_	_
+13	M.	M.	PROPN	NNP	Number=Sing	14	compound	_	_
+14	sur	sur	PROPN	NNP	Number=Sing	15	compound	_	_
+15	M.	M.	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	24	punct	_	_
+17	and	and	CCONJ	CC	_	24	cc	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+20	care	care	NOUN	NN	Number=Sing	24	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	cop	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	post	post	VERB	VB	VerbForm=Inf	11	conj	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	letter	letter	NOUN	NN	Number=Sing	24	obj	_	_
+27	to	to	ADP	IN	_	29	case	_	_
+28	M.	M.	PROPN	NNP	Number=Sing	29	compound	_	_
+29	Laffitte	Laffitte	PROPN	NNP	Number=Sing	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	11	punct	_	_
+31	then	then	ADV	RB	PronType=Dem	33	advmod	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	enter	enter	VERB	VB	VerbForm=Inf	11	advcl	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	infirmary	infirmary	NOUN	NN	Number=Sing	33	obj	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	see	see	VERB	VB	VerbForm=Inf	11	conj	_	_
+38	Fantine	Fantine	PROPN	NNP	Number=Sing	37	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

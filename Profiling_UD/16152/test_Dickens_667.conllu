@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “All is well, Handel,” said Herbert, “and he is quite satisfied, though eager to see you.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	All	all	DET	DT	_	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	well	well	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Handel	Handel	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	Herbert	Herbert	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	quite	quite	ADV	RB	_	17	advmod	_	_
+17	satisfied	satisfied	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	though	though	SCONJ	IN	_	20	mark	_	_
+20	eager	eager	ADJ	JJ	Degree=Pos	17	advcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	see	see	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = My dear girl is with her father; and if you’ll wait till she comes down, I’ll make you known to her, and then we’ll go upstairs.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	girl	girl	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	father	father	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	4	punct	_	_
+9	and	and	CCONJ	CC	_	21	cc	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	’ll	’ll	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	wait	wait	VERB	VB	VerbForm=Inf	21	advcl	_	_
+14	till	till	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	down	down	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+20	’ll	’ll	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	make	make	VERB	VB	VerbForm=Inf	4	conj	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
+23	known	know	VERB	VBN	Tense=Past|VerbForm=Part	21	xcomp	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	then	then	ADV	RB	PronType=Dem	31	advmod	_	_
+29	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	SpaceAfter=No
+30	’ll	’ll	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	go	go	VERB	VB	VerbForm=Inf	21	conj	_	_
+32	upstairs	upstairs	ADV	RB	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = _That’s_ her father.”
+1	_	_	SYM	NFP	_	6	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	_	_	SYM	NFP	_	6	punct	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	father	father	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

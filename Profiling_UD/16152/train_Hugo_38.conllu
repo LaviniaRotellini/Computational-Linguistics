@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Then, turning to his sister: “Sister, never a precaution on the part of the priest, against his fellow-man.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	turning	turn	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	sister	sister	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	6	punct	_	_
+8	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+9	Sister	sister	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	never	never	ADV	RB	_	13	advmod	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	precaution	precaution	NOUN	NN	Number=Sing	9	appos	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	part	part	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	priest	priest	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	9	punct	_	_
+21	against	against	ADP	IN	_	24	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	fellow-	fellow-	SYM	NFP	_	24	compound	_	SpaceAfter=No
+24	man	man	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = That which his fellow does, God permits.
+1	That	that	SCONJ	IN	_	5	mark	_	_
+2	which	which	DET	WDT	PronType=Int	4	det	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	fellow	fellow	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	God	God	PROPN	NNP	Number=Sing	8	compound	_	_
+8	permits	permit	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Let us confine ourselves to prayer, when we think that a danger is approaching us.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	confine	confine	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	prayer	prayer	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	danger	danger	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	approaching	approach	VERB	VBG	Tense=Pres|VerbForm=Part	10	ccomp	_	_
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Let us pray, not for ourselves, but that our brother may not fall into sin on our account.”
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	pray	pray	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	not	not	ADV	RB	_	7	advmod	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	but	but	CCONJ	CC	_	15	cc	_	_
+10	that	that	SCONJ	IN	_	15	mark	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	brother	brother	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	fall	fall	VERB	VB	VerbForm=Inf	1	conj	_	_
+16	into	into	ADP	IN	_	17	case	_	_
+17	sin	sin	NOUN	NN	Number=Sing	15	obl	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	account	account	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

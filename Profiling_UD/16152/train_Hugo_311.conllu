@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A tolerably long silence ensued.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	tolerably	tolerably	ADV	RB	_	3	advmod	_	_
+3	long	long	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	silence	silence	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	ensued	ensue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He examined the flame of the candle with a stupid air, and from around the wick he took some of the burning wax, which he rolled between his fingers.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	flame	flame	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	candle	candle	NOUN	NN	Number=Sing	4	nmod	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	stupid	stupid	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	air	air	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	from	from	ADP	IN	_	17	case	_	_
+15	around	around	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	wick	wick	NOUN	NN	Number=Sing	19	obl	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	some	some	DET	DT	_	19	obj	_	_
+21	of	of	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	burning	burn	VERB	VBG	VerbForm=Ger	24	amod	_	_
+24	wax	wax	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	19	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	28	obj	_	_
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	rolled	roll	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+29	between	between	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	fingers	finger	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The old woman waited for him.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	woman	woman	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = She even ventured to uplift her voice once more:—
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	even	even	ADV	RB	_	3	advmod	_	_
+3	ventured	venture	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	uplift	uplift	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	voice	voice	NOUN	NN	Number=Sing	5	obj	_	_
+8	once	once	ADV	RB	NumType=Mult	9	advmod	_	_
+9	more	more	ADV	RBR	_	5	advmod	_	SpaceAfter=No
+10	:—	:—	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

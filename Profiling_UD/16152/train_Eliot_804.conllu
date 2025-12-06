@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dorothea was aware of the sting, but it did not hurt her.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sting	sting	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	hurt	hurt	VERB	VB	VerbForm=Inf	3	conj	_	_
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “No,” she said, “I still think that the greater part of the world is mistaken about many things.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+12	that	that	SCONJ	IN	_	20	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	greater	greater	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	part	part	NOUN	NN	Number=Sing	20	nsubj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	world	world	NOUN	NN	Number=Sing	15	nmod	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	mistaken	mistaken	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+21	about	about	ADP	IN	_	23	case	_	_
+22	many	many	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	things	thing	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Surely one may be sane and yet think so, since the greater part of the world has often had to come round from its opinion.”
+1	Surely	surely	ADV	RB	_	5	advmod	_	_
+2	one	one	NUM	CD	NumType=Card	5	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	sane	sane	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	yet	yet	ADV	RB	_	8	advmod	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	so	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	since	since	SCONJ	IN	_	20	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	greater	greater	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	part	part	NOUN	NN	Number=Sing	20	nsubj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	world	world	NOUN	NN	Number=Sing	14	nmod	_	_
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	often	often	ADV	RB	_	20	advmod	_	_
+20	had	have	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	come	come	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	round	round	ADV	RB	_	22	advmod	_	_
+24	from	from	ADP	IN	_	26	case	_	_
+25	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	opinion	opinion	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This woman was a formidable creature who loved no one except her children, and who did not fear any one except her husband.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	formidable	formidable	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	creature	creature	NOUN	NN	Number=Sing	0	root	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	no	no	DET	DT	_	10	det	_	_
+10	one	one	NOUN	NN	Number=Sing	8	obj	_	_
+11	except	except	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	children	child	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	who	who	PRON	WP	PronType=Int	19	nsubj	_	_
+17	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	fear	fear	VERB	VB	VerbForm=Inf	8	conj	_	_
+20	any	any	DET	DT	_	21	det	_	_
+21	one	one	NOUN	NN	Number=Sing	19	obj	_	_
+22	except	except	ADP	IN	_	24	case	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	husband	husband	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = She was a mother because she was mammiferous.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	mother	mother	NOUN	NN	Number=Sing	0	root	_	_
+5	because	because	SCONJ	IN	_	8	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	mammiferous	mammiferous	ADJ	JJ	Degree=Pos	4	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But her maternity stopped short with her daughters, and, as we shall see, did not extend to boys.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	maternity	maternity	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	short	short	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	daughters	daughter	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	19	punct	_	_
+10	and	and	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	19	punct	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	shall	shall	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	see	see	VERB	VB	VerbForm=Inf	19	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	extend	extend	VERB	VB	VerbForm=Inf	4	conj	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	boys	boy	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = The man had but one thought,—how to enrich himself.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	thought	think	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+9	how	how	ADV	WRB	PronType=Int	11	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	enrich	enrich	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+12	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

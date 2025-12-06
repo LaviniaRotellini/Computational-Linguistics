@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A mason returning from his day’s work, left behind him a little package on a bench near the bridge of Austerlitz.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	mason	mason	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	returning	return	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	from	from	ADP	IN	_	8	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	day	day	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	work	work	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	behind	behind	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	package	package	NOUN	NN	Number=Sing	10	obj	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	bench	bench	NOUN	NN	Number=Sing	15	nmod	_	_
+19	near	near	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	bridge	bridge	NOUN	NN	Number=Sing	18	nmod	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	Austerlitz	Austerlitz	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = This package was taken to the police station.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	package	package	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	police	police	NOUN	NN	Number=Sing	8	compound	_	_
+8	station	station	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It was opened, and in it were found two printed dialogues, signed _Lahautière_, a song entitled:
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+10	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+11	printed	printed	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	dialogues	dialogue	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	_Lahautière_	_lahautière_	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	song	song	NOUN	NN	Number=Sing	12	appos	_	_
+19	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
+20	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 4
+# text = “Workmen, band together,” and a tin box full of cartridges.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Workmen	Workmen	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	band	band	NOUN	NN	Number=Sing	11	compound	_	_
+5	together	together	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	tin	tin	NOUN	NN	Number=Sing	11	compound	_	_
+11	box	box	NOUN	NN	Number=Sing	0	root	_	_
+12	full	full	ADJ	JJ	Degree=Pos	11	amod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	cartridges	cartridge	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

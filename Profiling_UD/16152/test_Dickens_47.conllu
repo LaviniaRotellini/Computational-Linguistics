@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Trouble?”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Trouble	trouble	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = echoed my sister; “trouble?”
+1	echoed	echo	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	sister	sister	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	1	punct	_	_
+5	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	trouble	trouble	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = and then entered on a fearful catalogue of all the illnesses I had been guilty of, and all the acts of sleeplessness I had committed, and all the high places I had tumbled from, and all the low places I had tumbled into, and all the injuries I had done myself, and all the times she had wished me in my grave, and I had contumaciously refused to go there.
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	fearful	fearful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	catalogue	catalogue	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	illnesses	illness	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+15	guilty	guilty	NOUN	NN	Number=Sing	11	acl:relcl	_	_
+16	of	of	ADP	IN	_	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	all	all	DET	PDT	_	21	det:predet	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	acts	act	NOUN	NNS	Number=Plur	3	conj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	sleeplessness	sleeplessness	NOUN	NN	Number=Sing	21	nmod	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+26	committed	commit	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	32	punct	_	_
+28	and	and	CCONJ	CC	_	32	cc	_	_
+29	all	all	DET	PDT	_	32	det:predet	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	high	high	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	places	place	NOUN	NNS	Number=Plur	21	conj	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	tumbled	tumble	VERB	VBN	Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+36	from	from	ADP	IN	_	35	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	42	punct	_	_
+38	and	and	CCONJ	CC	_	42	cc	_	_
+39	all	all	DET	PDT	_	42	det:predet	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+41	low	low	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	places	place	NOUN	NNS	Number=Plur	32	conj	_	_
+43	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+44	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	aux	_	_
+45	tumbled	tumble	VERB	VBN	Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+46	into	into	ADP	IN	_	45	obl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	51	punct	_	_
+48	and	and	CCONJ	CC	_	51	cc	_	_
+49	all	all	DET	PDT	_	51	det:predet	_	_
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+51	injuries	injury	NOUN	NNS	Number=Plur	42	conj	_	_
+52	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	54	nsubj	_	_
+53	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	54	aux	_	_
+54	done	do	VERB	VBN	Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+55	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	54	obl:npmod	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	63	punct	_	_
+57	and	and	CCONJ	CC	_	63	cc	_	_
+58	all	all	DET	PDT	_	60	det:predet	_	_
+59	the	the	DET	DT	Definite=Def|PronType=Art	60	det	_	_
+60	times	time	NOUN	NNS	Number=Plur	63	obl:tmod	_	_
+61	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	63	nsubj	_	_
+62	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	63	aux	_	_
+63	wished	wishe	VERB	VBN	Tense=Past|VerbForm=Part	51	conj	_	_
+64	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	63	obj	_	_
+65	in	in	ADP	IN	_	67	case	_	_
+66	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	67	nmod:poss	_	_
+67	grave	grave	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No
+68	,	,	PUNCT	,	_	71	punct	_	_
+69	and	and	CCONJ	CC	_	71	cc	_	_
+70	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	71	nsubj	_	_
+71	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	51	conj	_	_
+72	contumaciously	contumaciously	ADV	RB	_	73	advmod	_	_
+73	refused	refuse	ADJ	JJ	Degree=Pos	71	xcomp	_	_
+74	to	to	PART	TO	_	75	mark	_	_
+75	go	go	VERB	VB	VerbForm=Inf	73	advcl	_	_
+76	there	there	ADV	RB	PronType=Dem	75	advmod	_	SpaceAfter=No
+77	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

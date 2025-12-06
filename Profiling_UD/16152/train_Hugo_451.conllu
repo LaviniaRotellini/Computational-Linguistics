@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All at once, a tragic incident; on the English left, on our right, the head of the column of cuirassiers reared up with a frightful clamor.
+1	All	all	DET	DT	_	7	advmod	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	once	once	ADV	RB	NumType=Mult	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	tragic	tragic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	incident	incident	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	English	english	PROPN	NNP	Number=Sing	7	nmod	_	_
+12	left	left	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	right	right	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	head	head	NOUN	NN	Number=Sing	12	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	column	column	NOUN	NN	Number=Sing	19	nmod	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	cuirassiers	cuirassier	NOUN	NNS	Number=Plur	22	nmod	_	_
+25	reared	rear	VERB	VBN	Tense=Past|VerbForm=Part	12	xcomp	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	_
+27	with	with	ADP	IN	_	30	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	frightful	frightful	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	clamor	clamor	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = On arriving at the culminating point of the crest, ungovernable, utterly given over to fury and their course of extermination of the squares and cannon, the cuirassiers had just caught sight of a trench,—a trench between them and the English.
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	arriving	arrive	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+3	at	at	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	culminating	culminating	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	point	point	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	crest	crest	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	ungovernable	ungovernable	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	utterly	utterly	ADV	RB	_	14	advmod	_	_
+14	given	give	VERB	VBN	Tense=Past|VerbForm=Part	33	advcl	_	_
+15	over	over	ADV	RB	_	14	advmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	fury	fury	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	course	course	NOUN	NN	Number=Sing	17	conj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	extermination	extermination	NOUN	NN	Number=Sing	20	nmod	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	squares	square	NOUN	NNS	Number=Plur	22	nmod	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	cannon	cannon	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	cuirassiers	cuirassier	NOUN	NNS	Number=Plur	33	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	_
+32	just	just	ADV	RB	_	33	advmod	_	_
+33	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+34	sight	sight	NOUN	NN	Number=Sing	33	obj	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	trench	trench	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+38	,—a	,—a	ADP	IN	_	39	case	_	_
+39	trench	trench	NOUN	NN	Number=Sing	33	obl	_	_
+40	between	between	ADP	IN	_	41	case	_	_
+41	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	39	nmod	_	_
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	English	English	PROPN	NNP	Number=Sing	33	conj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	33	punct	_	_
+
+# sent_id = 3
+# text = It was the hollow road of Ohain.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	hollow	hollow	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	road	road	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Ohain	Ohain	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh surely!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	3	discourse	_	_
+3	surely	surely	ADV	RB	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = surely!’ said Mr. Spenlow.
+1	surely	surely	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+6	Spenlow	Spenlow	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = ‘We always, in this house, propose a month--an initiatory month.
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	always	always	ADV	RB	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	house	house	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	propose	propose	VERB	VB	VerbForm=Inf	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	month	month	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+12	--	--	PUNCT	,	_	9	punct	_	SpaceAfter=No
+13	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	initiatory	initiatory	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	month	month	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = I should be happy, myself, to propose two months--three--an indefinite period, in fact--but I have a partner.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	propose	propose	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	two	two	NUM	CD	NumType=Card	11	nummod	_	_
+11	months	month	NOUN	NNS	Number=Plur	17	nmod:npmod	_	SpaceAfter=No
+12	--	--	PUNCT	,	_	11	punct	_	SpaceAfter=No
+13	three	three	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+14	--	--	PUNCT	,	_	11	punct	_	SpaceAfter=No
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	indefinite	indefinite	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	period	period	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	fact	fact	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+21	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+22	but	but	CCONJ	CC	_	24	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	partner	partner	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Mr. Jorkins.’
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Jorkins	Jorkins	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

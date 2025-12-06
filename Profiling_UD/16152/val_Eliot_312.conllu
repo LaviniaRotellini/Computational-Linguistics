@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Now’s the time, Tom, to let us see the good o’ your learning.
+1	Now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	let	let	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	see	see	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	o	o	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	14	punct	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	learning	learn	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Let us see whether you can do better than I can, as have made my fortin without it.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	see	see	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	whether	whether	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	do	do	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	better	better	ADV	RBR	Degree=Cmp	7	advmod	_	_
+9	than	than	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	7	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	fortin	fortin	NOUN	NN	Number=Sing	15	obj	_	_
+18	without	without	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = But I began wi’ doing with little, you see; I could live on a basin o’ porridge and a crust o’ bread-and-cheese.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	wi	wi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	obj	_	SpaceAfter=No
+5	’	's	PUNCT	''	_	6	punct	_	_
+6	doing	do	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	little	little	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	3	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	live	live	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	basin	basin	NOUN	NN	Number=Sing	15	obl	_	_
+19	o	of	ADP	IN	Abbr=Yes	21	case	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	21	punct	_	_
+21	porridge	porridge	NOUN	NN	Number=Sing	18	nmod	_	_
+22	and	and	CCONJ	CC	_	31	cc	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+24	crust	crust	NOUN	NN	Number=Sing	31	compound	_	_
+25	o	of	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	27	punct	_	_
+27	bread	bread	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+29	and	and	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	cheese	cheese	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = But I doubt high living and high learning ’ull make it harder for you, young man, nor it was for me.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	high	high	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	living	living	NOUN	NN	Number=Sing	8	compound	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	high	high	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	learning	learning	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	’ull	’ull	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	make	make	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	harder	harder	ADJ	JJR	Degree=Cmp	10	xcomp	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	young	young	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	man	man	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	nor	nor	CCONJ	CC	_	23	cc	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

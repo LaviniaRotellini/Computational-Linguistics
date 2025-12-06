@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “She can’t ha’ done it,” he said, still without moving his eyes, as if he were only talking to himself:
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	ha	ha	ADJ	JJ	Degree=Pos	12	ccomp	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	5	punct	_	_
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	still	still	ADV	RB	_	12	advmod	_	_
+15	without	without	SCONJ	IN	_	16	mark	_	_
+16	moving	move	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	12	punct	_	_
+20	as	as	SCONJ	IN	_	25	mark	_	_
+21	if	if	SCONJ	IN	_	25	mark	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+24	only	only	ADV	RB	_	25	advmod	_	_
+25	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obl	_	SpaceAfter=No
+28	:	:	PUNCT	:	_	12	punct	_	_
+
+# sent_id = 2
+# text = “it was fear made her hide it...
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	fear	fear	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	hide	hide	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	...	...	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I forgive her for deceiving me... I forgive thee, Hetty...
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	forgive	forgive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	for	for	SCONJ	IN	_	5	mark	_	_
+5	deceiving	deceive	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	...	...	PUNCT	,	_	2	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	forgive	forgive	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	thee	thee	NUM	CD	NumType=Card	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	Hetty	Hetty	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+13	...	...	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = thee wast deceived too...
+1	thee	thee	ADV	RB	_	2	advmod	_	_
+2	wast	wast	ADV	RB	Degree=Pos	3	advmod	_	_
+3	deceived	deceive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	too	too	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	...	...	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = it’s gone hard wi’ thee, my poor Hetty... but they’ll never make me believe it.”
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	wi	wus	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	5	punct	_	_
+7	thee	thee	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	poor	poor	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Hetty	Hetty	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+12	...	...	PUNCT	,	_	7	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+15	’ll	’ll	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	make	make	VERB	VB	VerbForm=Inf	7	conj	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	believe	believe	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

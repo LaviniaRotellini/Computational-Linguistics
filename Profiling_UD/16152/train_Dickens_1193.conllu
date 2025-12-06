@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘We had not,’ said Miss Clarissa, ‘been in the habit of frequent association with our brother Francis; but there was no decided division or disunion between us.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+4	not	not	PART	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Miss	miss	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Clarissa	Clarissa	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	‘	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	habit	habit	NOUN	NN	Number=Sing	7	appos	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	frequent	frequent	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	association	association	NOUN	NN	Number=Sing	15	nmod	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	brother	brother	NOUN	NN	Number=Sing	18	nmod	_	_
+22	Francis	Francis	PROPN	NNP	Number=Sing	21	appos	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	7	punct	_	_
+24	but	but	CCONJ	CC	_	26	cc	_	_
+25	there	there	PRON	EX	_	26	expl	_	_
+26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+27	no	no	DET	DT	_	29	det	_	_
+28	decided	decided	NOUN	NN	Number=Sing	29	compound	_	_
+29	division	division	NOUN	NN	Number=Sing	26	nsubj	_	_
+30	or	or	CCONJ	CC	_	31	cc	_	_
+31	disunion	disunion	NOUN	NN	Number=Sing	29	conj	_	_
+32	between	between	ADP	IN	_	33	case	_	_
+33	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Francis took his road; we took ours.
+1	Francis	Francis	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	road	road	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	ours	ours	PRON	PRP	_	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = We considered it conducive to the happiness of all parties that it should be so.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	considered	consider	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	conducive	conducive	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	happiness	happiness	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	parties	party	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	so	so	ADV	RB	_	2	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And it was so.’
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	so	so	ADV	RB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

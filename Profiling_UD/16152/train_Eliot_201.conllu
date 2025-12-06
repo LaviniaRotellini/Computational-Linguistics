@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, indeed:
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	indeed	indeed	ADV	RB	_	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 2
+# text = I was not born to very splendid chances.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	splendid	splendid	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	chances	chance	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Few men have been more cramped than I have been,” said Fred, with some sense of surprise at his own virtue, considering how hardly he was dealt with.
+1	Few	few	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	men	man	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	cramped	cramped	ADJ	JJ	Degree=Pos	0	root	_	_
+7	than	than	SCONJ	IN	_	13	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+14	Fred	Fred	PROPN	NNP	Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	some	some	DET	DT	_	18	det	_	_
+18	sense	sense	NOUN	NN	Number=Sing	14	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	surprise	surprise	NOUN	NN	Number=Sing	18	nmod	_	_
+21	at	at	ADP	IN	_	24	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	own	own	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	virtue	virtue	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	13	punct	_	_
+26	considering	consider	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+27	how	how	ADV	WRB	PronType=Int	28	advmod	_	_
+28	hardly	hardly	ADV	RB	Degree=Pos	31	advmod	_	_
+29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj:pass	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	ccomp	_	_
+32	with	with	ADP	IN	_	31	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = “It really seems a little too bad to have to ride a broken-winded hunter, and see men, who, are not half such good judges as yourself, able to throw away any amount of money on buying bad bargains.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	really	really	ADV	RB	_	4	advmod	_	_
+4	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	8	advmod	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	4	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	have	have	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	ride	ride	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	winded	win	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	hunter	hunter	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	men	man	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	who	who	PRON	WP	PronType=Rel	30	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	30	punct	_	_
+25	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+26	not	not	PART	RB	_	30	advmod	_	_
+27	half	half	ADV	RB	_	30	advmod	_	_
+28	such	such	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	good	good	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	judges	judge	NOUN	NNS	Number=Plur	21	acl:relcl	_	_
+31	as	as	ADP	IN	_	32	case	_	_
+32	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	able	able	ADJ	JJ	Degree=Pos	4	conj	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	throw	throw	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+37	away	away	ADV	RB	_	36	advmod	_	_
+38	any	any	DET	DT	_	39	det	_	_
+39	amount	amount	NOUN	NN	Number=Sing	36	obj	_	_
+40	of	of	ADP	IN	_	41	case	_	_
+41	money	money	NOUN	NN	Number=Sing	39	nmod	_	_
+42	on	on	SCONJ	IN	_	43	mark	_	_
+43	buying	buy	VERB	VBG	VerbForm=Ger	39	acl	_	_
+44	bad	bad	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	bargains	bargain	NOUN	NNS	Number=Plur	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+47	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

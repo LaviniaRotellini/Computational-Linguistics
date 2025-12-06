@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Seek something that Paris has not.
+1	Seek	seek	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	something	something	PRON	NN	Number=Sing	1	obj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obj	_	_
+4	Paris	Paris	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	not	not	PART	RB	_	1	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = The vat of Trophonius contains nothing that is not in Mesmer’s tub; Ergaphilas lives again in Cagliostro; the Brahmin Vâsaphantâ become incarnate in the Comte de Saint-Germain; the cemetery of Saint-Médard works quite as good miracles as the Mosque of Oumoumié at Damascus.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	vat	vat	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Trophonius	Trophonius	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	5	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+9	not	not	PART	RB	_	13	advmod	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	Mesmer	Mesmer	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	tub	tub	NOUN	NN	Number=Sing	6	acl:relcl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	5	punct	_	_
+15	Ergaphilas	Ergaphilas	NOUN	NNS	Number=Plur	16	compound	_	_
+16	lives	life	NOUN	NNS	Number=Plur	5	appos	_	_
+17	again	again	ADV	RB	_	16	advmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Cagliostro	Cagliostro	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	5	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	Brahmin	Brahmin	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Vâsaphantâ	Vâsaphantâ	NOUN	NN	Number=Sing	24	nsubj	_	_
+24	become	become	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+25	incarnate	incarnate	ADV	RB	Degree=Pos	24	advmod	_	_
+26	in	in	ADP	IN	_	30	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+28	Comte	Comte	PROPN	NNP	Number=Sing	30	compound	_	_
+29	de	de	PROPN	NNP	Number=Sing	30	compound	_	_
+30	Saint	Saint	PROPN	NNP	Number=Sing	24	obl	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+32	Germain	Germain	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	5	punct	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	cemetery	cemetery	NOUN	NN	Number=Sing	5	appos	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	Saint	Saint	PROPN	NNP	Number=Sing	35	nmod	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+39	Médard	Médard	PROPN	NNP	Number=Sing	40	nsubj	_	_
+40	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+41	quite	quite	ADV	RB	_	44	advmod	_	_
+42	as	as	ADP	IN	_	44	case	_	_
+43	good	good	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	miracles	miracl	NOUN	NNS	Number=Plur	40	obl	_	_
+45	as	as	ADP	IN	_	47	case	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+47	Mosque	mosque	NOUN	NN	Number=Sing	40	obl	_	_
+48	of	of	ADP	IN	_	49	case	_	_
+49	Oumoumié	Oumoumié	NOUN	NN	Number=Sing	47	nmod	_	_
+50	at	at	ADP	IN	_	51	case	_	_
+51	Damascus	Damascus	PROPN	NNP	Number=Sing	49	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

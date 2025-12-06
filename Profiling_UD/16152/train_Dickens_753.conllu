@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, bless you!
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	bless	bless	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Keep a good heart, sir!’ said Mrs. Crupp, nodding encouragement.
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	9	ccomp	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	heart	heart	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Crupp	Crupp	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	nodding	nodd	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	encouragement	encouragement	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = ‘Never say die, sir!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Never	never	ADV	RB	_	3	advmod	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+4	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	sir	sir	ADJ	JJR	Degree=Cmp	4	xcomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = If She don’t smile upon you, there’s a many as will.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	smile	smile	VERB	VB	VerbForm=Inf	10	advcl	_	_
+6	upon	upon	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	there	there	PRON	EX	_	10	expl	_	SpaceAfter=No
+10	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	many	many	ADJ	JJ	Degree=Pos	14	nsubj	_	_
+13	as	as	ADV	RB	_	14	advmod	_	_
+14	will	will	AUX	MD	VerbForm=Fin	10	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = You are a young gentleman to be smiled on, Mr. Copperfull, and you must learn your walue, sir.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	gentleman	gentleman	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	smiled	smile	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	on	on	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	5	conj	_	_
+12	Copperfull	Copperfull	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	must	must	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	learn	learn	VERB	VB	VerbForm=Inf	5	conj	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	walue	walue	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	sir	sir	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

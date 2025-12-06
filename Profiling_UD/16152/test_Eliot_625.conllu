@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well,” said Adam, “I should like t’ have the business in my own hands.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Adam	Adam	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	like	like	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+12	t	t	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	’	’	PUNCT	''	_	11	punct	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	business	business	NOUN	NN	Number=Sing	14	obj	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	own	own	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hands	hand	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It isn’t as I mind much about getting any more money.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	2	advmod	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	mind	mind	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	much	much	ADV	RB	_	9	advmod	_	_
+8	about	about	SCONJ	IN	_	9	mark	_	_
+9	getting	get	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	any	any	DET	DT	_	12	det	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	money	money	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = We’ve enough and to spare now, with only our two selves and mother; but I should like t’ have my own way about things—I could try plans then, as I can’t do now.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ve	’ve	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	spare	spare	VERB	VB	VerbForm=Inf	3	conj	_	_
+7	now	now	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	with	with	ADP	IN	_	13	case	_	_
+10	only	only	ADV	RB	_	13	advmod	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+13	selves	self	NOUN	NNS	Number=Plur	3	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	mother	mother	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	like	like	VERB	VB	VerbForm=Inf	3	conj	_	_
+21	t	t	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	’	's	PUNCT	''	_	20	punct	_	_
+23	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	own	own	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	way	way	NOUN	NN	Number=Sing	23	obj	_	_
+27	about	about	ADP	IN	_	28	case	_	_
+28	things	thing	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+29	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+31	could	could	AUX	MD	VerbForm=Fin	32	aux	_	_
+32	try	try	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+33	plans	plan	NOUN	NNS	Number=Plur	32	obj	_	_
+34	then	then	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	32	punct	_	_
+36	as	as	SCONJ	IN	_	40	mark	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+38	ca	can	AUX	MD	VerbForm=Fin	40	aux	_	SpaceAfter=No
+39	n’t	not	PART	RB	_	40	advmod	_	_
+40	do	do	VERB	VB	VerbForm=Inf	32	advcl	_	_
+41	now	now	ADV	RB	_	40	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

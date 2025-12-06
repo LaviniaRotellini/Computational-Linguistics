@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poor child!
+1	Poor	poor	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	child	child	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = it was very early for her to know one of those supreme moments in life when all we have hoped or delighted in, all we can dread or endure, falls away from our regard as insignificant; is lost, like a trivial memory, in that simple, primitive love which knits us to the beings who have been nearest to us, in their times of helplessness or of anguish.
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	early	early	ADJ	JJ	Degree=Pos	32	amod	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	know	know	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	one	one	NUM	CD	NumType=Card	8	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	those	those	DET	DT	Number=Plur|PronType=Dem	13	det	_	_
+12	supreme	supreme	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	moments	moment	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	life	life	NOUN	NN	Number=Sing	13	nmod	_	_
+16	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+17	all	all	DET	DT	_	8	advcl	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	hoped	hope	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	delighted	delighte	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	_
+23	in	in	ADV	RB	_	20	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	all	all	DET	DT	_	4	obl	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+27	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	dread	dread	VERB	VB	VerbForm=Inf	25	acl:relcl	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	endure	endure	VERB	VB	VerbForm=Inf	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	away	away	ADV	RB	_	32	advmod	_	_
+34	from	from	ADP	IN	_	36	case	_	_
+35	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	regard	regard	NOUN	NN	Number=Sing	32	obl	_	_
+37	as	as	ADP	IN	_	38	case	_	_
+38	insignificant	insignificant	ADJ	JJ	Degree=Pos	36	nmod	_	SpaceAfter=No
+39	;	;	PUNCT	,	_	41	punct	_	_
+40	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:pass	_	_
+41	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	parataxis	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	41	punct	_	_
+43	like	like	ADP	IN	_	46	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+45	trivial	trivial	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	memory	memory	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	41	punct	_	_
+48	in	in	ADP	IN	_	53	case	_	_
+49	that	that	DET	DT	Number=Sing|PronType=Dem	53	det	_	_
+50	simple	simple	ADJ	JJ	Degree=Pos	53	amod	_	SpaceAfter=No
+51	,	,	PUNCT	,	_	53	punct	_	_
+52	primitive	primitive	ADJ	JJ	Degree=Pos	53	amod	_	_
+53	love	love	NOUN	NN	Number=Sing	41	obl	_	_
+54	which	which	PRON	WDT	PronType=Rel	55	nsubj	_	_
+55	knits	knit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	_
+56	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	55	obj	_	_
+57	to	to	ADP	IN	_	59	case	_	_
+58	the	the	DET	DT	Definite=Def|PronType=Art	59	det	_	_
+59	beings	being	NOUN	NNS	Number=Plur	55	obl	_	_
+60	who	who	PRON	WP	PronType=Rel	63	nsubj	_	_
+61	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	63	aux	_	_
+62	been	be	AUX	VBN	Tense=Past|VerbForm=Part	63	cop	_	_
+63	nearest	nearest	ADJ	JJS	Degree=Sup	59	acl:relcl	_	_
+64	to	to	ADP	IN	_	65	case	_	_
+65	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	63	obl	_	SpaceAfter=No
+66	,	,	PUNCT	,	_	41	punct	_	_
+67	in	in	ADP	IN	_	69	case	_	_
+68	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	69	nmod:poss	_	_
+69	times	time	NOUN	NNS	Number=Plur	41	obl	_	_
+70	of	of	ADP	IN	_	71	case	_	_
+71	helplessness	helplessness	NOUN	NN	Number=Sing	69	nmod	_	_
+72	or	or	CCONJ	CC	_	74	cc	_	_
+73	of	of	ADP	IN	_	74	case	_	_
+74	anguish	anguish	NOUN	NN	Number=Sing	71	conj	_	SpaceAfter=No
+75	.	.	PUNCT	.	_	32	punct	_	SpacesAfter=\n
+

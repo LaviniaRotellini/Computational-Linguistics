@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Certainly you know it.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Certainly	certainly	ADV	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Then why didn’t you say so at first?
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+2	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	so	so	ADV	RB	_	9	advmod	_	_
+8	at	at	ADV	RB	_	9	advmod	_	_
+9	first	first	ADV	RBS	_	6	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Now, I’ll ask you another question,”—taking possession of Mr. Wopsle, as if he had a right to him,—“_do_ you know that none of these witnesses have yet been cross-examined?”
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	another	another	DET	DT	_	8	det	_	_
+8	question	question	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	5	punct	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+12	taking	take	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+13	possession	possession	NOUN	NN	Number=Sing	12	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	Wopsle	Wopsle	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	5	punct	_	_
+18	as	as	SCONJ	IN	_	21	mark	_	_
+19	if	if	SCONJ	IN	_	21	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	right	right	NOUN	NN	Number=Sing	21	obj	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	,—“	,—“	PUNCT	.	_	5	punct	_	SpaceAfter=No
+27	_do	_do	ADV	RB	_	5	advmod	_	SpaceAfter=No
+28	_	_	SYM	NFP	_	5	punct	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+30	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	none	none	NOUN	NN	Number=Sing	36	nsubj	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	these	these	DET	DT	Number=Plur|PronType=Dem	35	det	_	_
+35	witnesses	witness	NOUN	NNS	Number=Plur	32	nmod	_	_
+36	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	ccomp	_	_
+37	yet	yet	CCONJ	CC	_	39	cc	_	_
+38	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	aux:pass	_	_
+39	cross-examined	cross-examin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	conj	_	SpaceAfter=No
+40	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

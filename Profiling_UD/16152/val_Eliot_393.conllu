@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, he died of apoplexy nearly a year ago.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	apoplexy	apoplexy	NOUN	NN	Number=Sing	5	obl	_	_
+8	nearly	nearly	ADV	RB	_	5	advmod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	year	year	NOUN	NN	Number=Sing	11	obl:npmod	_	_
+11	ago	ago	ADV	RB	_	5	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I remember hearing you say you had to pay money for him; and he left his daughters badly off; one of them is under-teacher at Miss Firniss’s, where I’ve been to school, you know.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	hearing	hearing	NOUN	NN	Number=Sing	5	obj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	pay	pay	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	money	money	NOUN	NN	Number=Sing	9	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	daughters	daughter	NOUN	NNS	Number=Plur	16	obj	_	_
+19	badly	badly	ADV	RB	Degree=Pos	20	advmod	_	_
+20	off	off	ADV	RB	_	16	advmod	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	2	punct	_	_
+22	one	one	NUM	CD	NumType=Card	28	nsubj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	under	under	ADP	IN	_	28	case	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	teacher	teacher	NOUN	NN	Number=Sing	2	parataxis	_	_
+29	at	at	ADP	IN	_	31	case	_	_
+30	Miss	miss	PROPN	NNP	Number=Sing	31	compound	_	_
+31	Firniss	Firniss	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+32	’s	's	PART	POS	_	31	case	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	31	punct	_	_
+34	where	where	ADV	WRB	PronType=Rel	39	advmod	_	_
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	SpaceAfter=No
+36	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	_
+37	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	cop	_	_
+38	to	to	ADP	IN	_	39	case	_	_
+39	school	school	NOUN	NN	Number=Sing	31	acl:relcl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	2	punct	_	_
+41	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	42	nsubj	_	_
+42	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+44	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

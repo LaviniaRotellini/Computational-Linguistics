@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As he owned nothing, he never locked his door, unless occasionally, though very rarely, when he was engaged in some pressing work.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	owned	own	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	never	never	ADV	RB	_	8	advmod	_	_
+8	locked	lock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	door	door	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	unless	unless	SCONJ	IN	_	22	mark	_	_
+13	occasionally	occasionally	ADV	RB	_	22	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	22	punct	_	_
+15	though	though	SCONJ	IN	_	17	mark	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	rarely	rarely	ADV	RB	_	22	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	some	some	DET	DT	_	26	det	_	_
+25	pressing	pressing	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	work	work	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Even when absent he left his key in the lock.
+1	Even	even	ADV	RB	_	3	advmod	_	_
+2	when	when	ADV	WRB	PronType=Int	3	mark	_	_
+3	absent	absent	NOUN	NN	Number=Sing	0	root	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	key	key	NOUN	NN	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	lock	lock	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = “You will be robbed,” said Ma’am Bougon.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	robbed	robb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Ma	ma	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	9	punct	_	SpaceAfter=No
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	Bougon	Bougon	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = “Of what?” said Marius.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Of	have	ADP	RP	Typo=Yes	3	case	_	_
+3	what	what	PRON	WP	PronType=Int	4	obl	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Marius	Marius	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = The truth is, however, that he had, one day, been robbed of an old pair of boots, to the great triumph of Ma’am Bougon.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	truth	truth	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	however	however	ADV	RB	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	day	day	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	robbed	rob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	old	old	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	pair	pair	NOUN	NN	Number=Sing	15	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	boots	boot	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	9	punct	_	_
+23	to	to	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	great	great	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	triumph	triumph	NOUN	NN	Number=Sing	9	obl	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	Ma	Ma	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	’	's	PUNCT	''	_	9	punct	_	SpaceAfter=No
+30	am	am	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	Bougon	Bougon	PROPN	NNP	Number=Sing	9	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I was a young boy, and she exasperated me, and I threw a hammer at her.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	exasperated	exasperate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	threw	throw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	hammer	hammer	NOUN	NN	Number=Sing	14	obj	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = A promising young angel I must have been!’
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	promising	promise	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	angel	angel	NOUN	NN	Number=Sing	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 4
+# text = I was deeply sorry to have touched on such a painful theme, but that was useless now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	deeply	deeply	ADV	RB	_	4	advmod	_	_
+4	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+8	on	on	ADP	IN	_	12	case	_	_
+9	such	such	DET	PDT	_	12	det:predet	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	painful	painful	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	theme	theme	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	useless	useless	ADJ	JJ	Degree=Pos	4	conj	_	_
+18	now	now	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lisbeth paused, in a listening attitude, without removing her apron from her face.
+1	Lisbeth	Lisbeth	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	listening	listening	VERB	VBG	VerbForm=Ger	7	amod	_	_
+7	attitude	attitude	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	without	without	SCONJ	IN	_	10	mark	_	_
+10	removing	remove	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	apron	apron	NOUN	NN	Number=Sing	10	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	face	face	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The voice was strange to her.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	voice	voice	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	strange	strange	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Could it be her sister’s spirit come back to her from the dead after all those years?
+1	Could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	sister	sister	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	spirit	spirit	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	back	back	ADV	RB	_	8	advmod	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	dead	dead	ADJ	JJ	Degree=Pos	8	obl	_	_
+15	after	after	ADP	IN	_	18	case	_	_
+16	all	all	DET	PDT	_	18	det:predet	_	_
+17	those	those	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	years	year	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = She trembled and dared not look.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	trembled	tremble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	dared	dar	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	look	look	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

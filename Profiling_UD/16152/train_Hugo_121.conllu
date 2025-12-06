@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Room for a brief parenthesis.
+1	Room	room	NOUN	NN	Number=Sing	0	root	_	_
+2	for	for	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	brief	brief	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	parenthesis	parenthesis	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = This is the second time, during his studies on the penal question and damnation by law, that the author of this book has come across the theft of a loaf of bread as the point of departure for the disaster of a destiny.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	during	during	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	studies	study	NOUN	NNS	Number=Plur	5	nmod	_	_
+10	on	on	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	penal	penal	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	question	question	NOUN	NN	Number=Sing	9	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	damnation	damnation	NOUN	NN	Number=Sing	13	conj	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	law	law	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	5	punct	_	_
+19	that	that	SCONJ	IN	_	26	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	author	author	NOUN	NN	Number=Sing	26	nsubj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	book	book	NOUN	NN	Number=Sing	21	nmod	_	_
+25	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	come	come	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+27	across	across	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	theft	theft	NOUN	NN	Number=Sing	26	obl	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	loaf	loaf	NOUN	NN	Number=Sing	29	nmod	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	bread	bread	NOUN	NN	Number=Sing	32	nmod	_	_
+35	as	as	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	point	point	NOUN	NN	Number=Sing	34	nmod	_	_
+38	of	of	ADP	IN	_	39	case	_	_
+39	departure	departure	NOUN	NN	Number=Sing	37	nmod	_	_
+40	for	for	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	disaster	disaster	NOUN	NN	Number=Sing	39	nmod	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	destiny	destiny	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Claude Gaux had stolen a loaf; Jean Valjean had stolen a loaf.
+1	Claude	Claude	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Gaux	Gaux	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	loaf	loaf	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	Jean	Jean	PROPN	NNP	Number=Sing	11	nsubj	_	_
+9	Valjean	Valjean	PROPN	NNP	Number=Sing	8	flat	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	loaf	loaf	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = English statistics prove the fact that four thefts out of five in London have hunger for their immediate cause.
+1	English	English	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	statistics	statistic	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	prove	prove	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	fact	fact	NOUN	NN	Number=Sing	3	obj	_	_
+6	that	that	SCONJ	IN	_	14	mark	_	_
+7	four	four	NUM	CD	NumType=Card	8	nummod	_	_
+8	thefts	theft	NOUN	NNS	Number=Plur	14	nsubj	_	_
+9	out	out	ADP	IN	_	11	case	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	five	five	NUM	CD	NumType=Card	8	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	London	London	PROPN	NNP	Number=Sing	8	nmod	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	_
+15	hunger	hunger	NOUN	NN	Number=Sing	14	obj	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	immediate	immediate	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	cause	cause	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

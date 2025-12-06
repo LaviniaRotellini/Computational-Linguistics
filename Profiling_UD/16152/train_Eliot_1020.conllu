@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have only wished to prevent you from hurrying us into wretchedness without any necessity,” said Rosamond, the tears coming again from a softened feeling now that her husband had softened.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	wished	wish	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	prevent	prevent	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+9	from	from	SCONJ	IN	_	10	mark	_	_
+10	hurrying	hurrie	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	into	into	ADP	IN	_	13	case	_	_
+13	wretchedness	wretchedness	NOUN	NN	Number=Sing	10	obl	_	_
+14	without	without	ADP	IN	_	16	case	_	_
+15	any	any	DET	DT	_	16	det	_	_
+16	necessity	necessity	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Rosamond	Rosamond	PROPN	NNP	Number=Sing	19	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	tears	tear	NOUN	NNS	Number=Plur	20	appos	_	_
+24	coming	come	VERB	VBG	VerbForm=Ger	23	acl	_	_
+25	again	again	ADV	RB	_	24	advmod	_	_
+26	from	from	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	softened	softened	NOUN	NN	Number=Sing	24	obl	_	_
+29	feeling	feeling	VERB	VBG	VerbForm=Ger	24	advcl	_	_
+30	now	now	ADV	RB	_	29	advmod	_	_
+31	that	that	SCONJ	IN	_	35	mark	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	husband	husband	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	softened	soften	VERB	VBN	Tense=Past|VerbForm=Part	29	ccomp	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = “It is so very hard to be disgraced here among all the people we know, and to live in such a miserable way.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	disgraced	disgrace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	csubj	_	_
+10	here	here	ADV	RB	PronType=Dem	9	advmod	_	_
+11	among	among	ADP	IN	_	14	case	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	people	people	NOUN	NNS	Number=Plur	9	obl	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	live	live	VERB	VB	VerbForm=Inf	6	conj	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	such	such	DET	PDT	_	25	det:predet	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	miserable	miserable	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	way	way	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I wish I had died with the baby.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	died	die	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	baby	baby	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = M.
+1	M	m	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Madeleine had retained his seat near the fire, pen in hand, his eyes fixed on the docket which he was turning over and annotating, and which contained the trials of the commission on highways for the infraction of police regulations.
+1	Madeleine	Madeleine	PRON	PRP	_	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	retained	retain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	seat	seat	NOUN	NN	Number=Sing	3	obj	_	_
+6	near	near	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	fire	fire	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	pen	pe	NOUN	NN	Number=Sing	16	nsubj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	hand	hand	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	10	obj	_	_
+16	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	docket	docket	NOUN	NN	Number=Sing	16	obl	_	_
+20	which	which	PRON	WDT	PronType=Rel	23	obl	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	_
+24	over	over	ADP	IN	_	23	case	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	annotating	annotate	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	which	which	PRON	WDT	PronType=Int	30	nsubj	_	_
+30	contained	contain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	trials	trial	NOUN	NNS	Number=Plur	30	obj	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	commission	commission	NOUN	NN	Number=Sing	32	nmod	_	_
+36	on	on	ADP	IN	_	37	case	_	_
+37	highways	highway	NOUN	NNS	Number=Plur	35	nmod	_	_
+38	for	for	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	infraction	infraction	NOUN	NN	Number=Sing	37	nmod	_	_
+41	of	of	ADP	IN	_	43	case	_	_
+42	police	police	NOUN	NN	Number=Sing	43	compound	_	_
+43	regulations	regulation	NOUN	NNS	Number=Plur	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He did not disturb himself on Javert’s account.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	disturb	disturb	VERB	VB	VerbForm=Inf	0	root	_	_
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	Javert	Javert	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	account	account	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He could not help thinking of poor Fantine, and it suited him to be glacial in his manner.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+5	thinking	think	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	poor	poor	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Fantine	Fantine	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	suited	suit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	glacial	glacial	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	manner	manner	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

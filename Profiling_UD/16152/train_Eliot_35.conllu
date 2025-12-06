@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have brought a little petitioner,” he said, “or rather, I have brought him to see if he will be approved before his petition is offered.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	petitioner	petitioner	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	rather	rather	ADV	RB	_	19	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	32	nsubj:pass	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	see	see	VERB	VB	VerbForm=Inf	19	advcl	_	_
+23	if	if	SCONJ	IN	_	27	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	_
+25	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	_	_
+27	approved	approve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+28	before	before	ADP	IN	_	30	case	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	petition	petition	NOUN	NN	Number=Sing	27	obl	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+32	offered	offer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	11	punct	_	_
+
+# sent_id = 2
+# text = He showed the white object under his arm, which was a tiny Maltese puppy, one of nature’s most naive toys.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	white	white	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	object	object	NOUN	NN	Number=Sing	2	obj	_	_
+6	under	under	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	arm	arm	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+13	tiny	tiny	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	Maltese	Maltese	NOUN	NN	Number=Sing	15	compound	_	_
+15	puppy	puppy	NOUN	NN	Number=Sing	5	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	one	one	NUM	CD	NumType=Card	2	appos	_	_
+18	of	of	ADP	IN	_	23	case	_	_
+19	nature	nature	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	most	most	ADV	RBS	_	22	advmod	_	_
+22	naive	naive	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	toys	toy	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

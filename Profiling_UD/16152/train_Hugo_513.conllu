@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He did not succeed in this.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	succeed	succeed	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A theatre worthy of this great talent was lacking.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	theat	theat	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	re	be	ADP	IN	_	4	case	_	_
+4	worthy	worthy	NOUN	NN	Number=Sing	2	nmod	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	great	great	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	talent	talent	NOUN	NN	Number=Sing	4	nmod	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	lacking	lack	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Thénardier was ruining himself at Montfermeil, if ruin is possible to zero; in Switzerland or in the Pyrenees this penniless scamp would have become a millionaire; but an inn-keeper must browse where fate has hitched him.
+1	Thénardier	Thénardier	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	ruining	ruin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Montfermeil	Montfermeil	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	ruin	ruin	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	possible	possible	ADJ	JJ	Degree=Pos	3	advcl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	zero	zero	NUM	CD	NumType=Card	11	obl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	3	punct	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	Switzerland	Switzerland	PROPN	NNP	Number=Sing	26	obl	_	_
+17	or	or	CCONJ	CC	_	20	cc	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	Pyrenees	Pyrenees	PROPN	NNPS	Number=Plur	16	conj	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+22	penniless	penniless	NOUN	NN	Number=Sing	23	compound	_	_
+23	scamp	scamp	NOUN	NN	Number=Sing	26	nsubj	_	_
+24	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	have	have	AUX	VB	VerbForm=Inf	26	aux	_	_
+26	become	become	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	millionaire	millionaire	NOUN	NN	Number=Sing	26	xcomp	_	SpaceAfter=No
+29	;	;	PUNCT	,	_	3	punct	_	_
+30	but	but	CCONJ	CC	_	36	cc	_	_
+31	an	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	inn	inn	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+34	keeper	keeper	NOUN	NN	Number=Sing	36	nsubj	_	_
+35	must	must	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	browse	browse	VERB	VB	VerbForm=Inf	3	conj	_	_
+37	where	where	ADV	WRB	PronType=Int	40	advmod	_	_
+38	fate	fate	ADV	RB	Degree=Pos	40	advmod	_	_
+39	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	hitched	hitch	VERB	VBN	Tense=Past|VerbForm=Part	36	advcl	_	_
+41	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

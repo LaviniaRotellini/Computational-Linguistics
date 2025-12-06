@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What, don’t you know him, Mother?” said Mr. Irwine.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	7	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	7	advmod	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Mother	mother	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Irwine	Irwine	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “That is Seth Bede, Adam’s brother—a Methodist, but a very good fellow.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	Seth	Seth	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Bede	Bede	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Adam	Adam	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	brother	brother	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	Methodist	Methodist	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	but	but	CCONJ	CC	_	18	cc	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	good	good	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	fellow	fellow	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Poor
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	root	_	_
+
+# sent_id = 4
+# text = Seth has looked rather down-hearted of late; I thought it was because of his father’s dying in that sad way, but Joshua Rann tells me he wanted to marry that sweet little Methodist preacher who was here about a month ago, and I suppose she refused him.”
+1	Seth	Seth	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	rather	rather	ADV	RB	_	7	advmod	_	_
+5	down	down	ADV	RB	_	7	advmod	_	SpaceAfter=No
+6	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	hearted	heart	VERB	VBN	Tense=Past|VerbForm=Part	3	xcomp	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	late	late	ADV	RB	Degree=Pos	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+15	because	because	ADP	IN	_	20	mark	_	_
+16	of	of	ADP	IN	_	15	fixed	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	father	father	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+19	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+23	sad	sad	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	way	way	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	but	but	CCONJ	CC	_	29	cc	_	_
+27	Joshua	Joshua	PROPN	NNP	Number=Sing	29	nsubj	_	_
+28	Rann	Rann	PROPN	NNP	Number=Sing	27	flat	_	_
+29	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+30	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	iobj	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	ccomp	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	marry	marry	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+35	that	that	SCONJ	IN	_	39	mark	_	_
+36	sweet	sweet	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	little	little	ADJ	JJ	Degree=Pos	39	amod	_	_
+38	Methodist	Methodist	PROPN	NNP	Number=Sing	39	compound	_	_
+39	preacher	preacher	NOUN	NN	Number=Sing	34	obj	_	_
+40	who	who	PRON	WP	PronType=Rel	42	nsubj	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
+42	here	here	ADV	RB	PronType=Dem	39	acl:relcl	_	_
+43	about	about	ADP	IN	_	45	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	month	month	NOUN	NN	Number=Sing	42	obl	_	_
+46	ago	ago	ADV	RB	_	45	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	50	punct	_	_
+48	and	and	CCONJ	CC	_	50	cc	_	_
+49	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	50	nsubj	_	_
+50	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+51	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+52	refused	refuse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	50	ccomp	_	_
+53	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obj	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+55	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

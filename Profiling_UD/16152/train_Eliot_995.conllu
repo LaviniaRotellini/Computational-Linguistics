@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, ma’am, yes, he did; he did so,” said the good auctioneer, trying to throw something soothing into his iteration.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	ma’	ma'	PART	POS	_	5	advmod	_	SpaceAfter=No
+5	am	am	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+14	so	so	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	auctioneer	auctioneer	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	trying	try	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	throw	throw	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	something	something	PRON	NN	Number=Sing	24	obj	_	_
+26	soothing	soothing	VERB	VBG	VerbForm=Ger	25	acl	_	_
+27	into	into	ADP	IN	_	29	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	iteration	iteration	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “I was about to fulfil his order, if possible, this afternoon.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+4	about	about	ADV	RB	_	6	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	fulfil	fulfil	VERB	VB	VerbForm=Inf	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	order	order	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	if	if	SCONJ	IN	_	11	mark	_	_
+11	possible	possible	ADJ	JJ	Degree=Pos	6	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	afternoon	afternoon	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He wished me not to procrastinate.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	not	not	ADV	RB	_	6	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	procrastinate	procrastinate	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

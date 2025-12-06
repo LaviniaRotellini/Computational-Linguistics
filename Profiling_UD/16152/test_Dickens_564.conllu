@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Stay!” said I.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Keep off!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	off	off	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = If you are grateful to me for what I did when I was a little child, I hope you have shown your gratitude by mending your way of life.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	grateful	grateful	ADJ	JJ	Degree=Pos	19	advcl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	for	for	SCONJ	IN	_	8	case	_	_
+8	what	what	PRON	WP	PronType=Int	4	obl	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	child	child	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+21	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	19	ccomp	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	gratitude	gratitude	NOUN	NN	Number=Sing	22	obj	_	_
+25	by	by	SCONJ	IN	_	26	mark	_	_
+26	mending	mende	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	way	way	NOUN	NN	Number=Sing	26	obj	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	life	life	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 4
+# text = If you have come here to thank me, it was not necessary.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+5	here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	thank	thank	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = Still, however you have found me out, there must be something good in the feeling that has brought you here, and I will not repulse you; but surely you must understand that—I—”
+1	Still	still	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	however	however	ADV	WRB	PronType=Int	6	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	found	find	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	out	out	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	there	there	PRON	EX	_	12	expl	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+13	something	something	PRON	NN	Number=Sing	12	nsubj	_	_
+14	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	feeling	feeling	NOUN	NN	Number=Sing	13	nmod	_	_
+18	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	obj	_	_
+22	here	here	ADV	RB	PronType=Dem	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+26	will	will	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	not	not	PART	RB	_	28	advmod	_	_
+28	repulse	repulse	VERB	VB	VerbForm=Inf	12	conj	_	_
+29	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	28	obj	_	SpaceAfter=No
+30	;	;	PUNCT	,	_	12	punct	_	_
+31	but	but	CCONJ	CC	_	35	cc	_	_
+32	surely	surely	ADV	RB	_	35	advmod	_	_
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	_
+34	must	must	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	understand	understand	VERB	VB	VerbForm=Inf	12	conj	_	_
+36	that	that	DET	DT	Number=Sing|PronType=Dem	37	det	_	SpaceAfter=No
+37	—I	—I	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+38	—	-	PUNCT	.	_	12	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

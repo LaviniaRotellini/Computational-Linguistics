@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My intelligent sister is about where she was.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	intelligent	intelligent	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	sister	sister	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	about	about	SCONJ	IN	_	7	case	_	_
+7	where	where	ADV	WRB	PronType=Int	5	obl	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = She used to complain to me that she had nothing to fall back upon, that girls usually fall back upon; and I don’t see how she is to have got over that since.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	complain	complain	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+10	nothing	nothing	PRON	NN	Number=Sing	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	fall	fall	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	back	back	ADV	RB	_	12	advmod	_	_
+14	upon	upon	ADP	IN	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	girls	girl	NOUN	NNS	Number=Plur	19	nsubj	_	_
+18	usually	usually	ADV	RB	_	19	advmod	_	_
+19	fall	fall	VERB	VB	VerbForm=Inf	2	conj	_	_
+20	back	back	ADV	RB	_	19	advmod	_	_
+21	upon	upon	ADP	IN	_	20	obl	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	2	punct	_	_
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
+26	n’t	not	PART	RB	_	27	advmod	_	_
+27	see	see	VERB	VB	VerbForm=Inf	2	conj	_	_
+28	how	how	ADV	WRB	PronType=Int	30	advmod	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+31	to	to	PART	TO	_	33	mark	_	_
+32	have	have	AUX	VB	VerbForm=Inf	33	aux	_	_
+33	got	get	VERB	VBN	Tense=Past|VerbForm=Part	30	ccomp	_	_
+34	over	over	ADP	IN	_	35	case	_	_
+35	that	that	PRON	DT	Number=Sing|PronType=Dem	33	obl	_	_
+36	since	since	ADV	RB	_	33	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But _she_ don’t mind,’ he sagaciously added, puffing at his cigar again.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	_she_	_she_	SYM	NFP	_	5	discourse	_	_
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,’	,’	PUNCT	.	_	5	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	sagaciously	sagaciously	ADV	RB	_	9	advmod	_	_
+9	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	puffing	puffe	VERB	VBG	VerbForm=Ger	9	conj	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	cigar	cigar	NOUN	NN	Number=Sing	11	obl	_	_
+15	again	again	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = ‘Girls can always get on, somehow.’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Girls	girls	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+6	on	on	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	somehow	somehow	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

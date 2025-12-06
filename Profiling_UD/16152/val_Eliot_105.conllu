@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Fie, for shame!” said aunt Glegg, in her loudest, severest tone of reproof.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Fie	Fie	X	FW	_	8	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	shame	shame	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	aunt	aunt	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	Glegg	Glegg	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	in	in	ADP	IN	_	17	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+14	loudest	loudest	ADJ	JJS	Degree=Sup	17	amod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	severest	severest	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	tone	tone	NOUN	NN	Number=Sing	10	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	reproof	reproof	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Little gells as cut their own hair should be whipped and fed on bread and water,—not come and sit down with their aunts and uncles.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	gells	gell	NOUN	NNS	Number=Plur	11	nsubj:pass	_	_
+4	as	as	SCONJ	IN	_	5	mark	_	_
+5	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hair	hair	NOUN	NN	Number=Sing	5	obj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	whipped	whip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	fed	feed	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	bread	bread	NOUN	NN	Number=Sing	13	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	water	water	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+18	,—	,—	PUNCT	.	_	11	punct	_	SpaceAfter=No
+19	not	not	PART	RB	_	20	advmod	_	_
+20	come	come	VERB	VB	VerbForm=Inf	11	conj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	sit	sit	VERB	VB	VerbForm=Inf	20	conj	_	_
+23	down	down	ADP	RP	_	22	compound:prt	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	aunts	aunt	NOUN	NNS	Number=Plur	22	obl	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	uncles	uncle	NOUN	NNS	Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

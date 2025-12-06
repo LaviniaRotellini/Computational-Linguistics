@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Bless and save the man,’ exclaimed my aunt, sharply, ‘how he talks!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Bless	bless	PROPN	NNP	Number=Sing	9	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	save	save	VERB	VB	VerbForm=Inf	2	conj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	man	man	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	sharply	sharply	ADV	RB	_	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+16	how	how	ADV	WRB	PronType=Int	18	advmod	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	talks	talk	NOUN	NN	Number=Sing|Typo=Yes	9	obj	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Don’t I know she wouldn’t?
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She would have lived with her god-mother, and we should have been devoted to one another.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	with	with	ADP	IN	_	9	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+7	god	god	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	mother	mother	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	_	_
+16	devoted	devote	ADJ	JJ	Degree=Pos	4	conj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	one	one	NUM	CD	NumType=Card	16	obl	_	_
+19	another	another	DET	DT	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Where, in the name of wonder, should his sister, Betsey Trotwood, have run from, or to?’
+1	Where	where	ADV	WRB	PronType=Int	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	name	name	NOUN	NN	Number=Sing	17	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	wonder	wonder	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	17	punct	_	_
+9	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sister	sister	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	Betsey	Betsey	PROPN	NNP	Number=Sing	11	appos	_	_
+14	Trotwood	Trotwood	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	run	run	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+18	from	from	ADP	IN	_	19	case	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	or	or	CCONJ	CC	_	21	cc	_	_
+21	to	to	ADP	IN	_	17	obl	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	17	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+

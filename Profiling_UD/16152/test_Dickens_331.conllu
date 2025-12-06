@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I fully believe it.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	fully	fully	ADV	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = So there can be no competition or perplexity between you and me.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	there	there	PRON	EX	_	4	expl	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	competition	competition	NOUN	NN	Number=Sing	4	nsubj	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	perplexity	perplexity	NOUN	NN	Number=Sing	6	conj	_	_
+9	between	between	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And as to the condition on which you hold your advancement in life,—namely, that you are not to inquire or discuss to whom you owe it,—you may be very sure that it will never be encroached upon, or even approached, by me, or by any one belonging to me.”
+1	And	and	CCONJ	CC	_	22	cc	_	_
+2	as	as	ADP	IN	_	5	case	_	_
+3	to	to	ADP	IN	_	2	fixed	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	condition	condition	NOUN	NN	Number=Sing	22	obl	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	obl	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	hold	hold	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	advancement	advancement	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	life	life	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,—	,—	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	namely	namely	ADV	RB	_	5	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	that	that	SCONJ	IN	_	22	mark	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+20	not	not	PART	RB	_	22	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	inquire	inquire	VERB	VB	VerbForm=Inf	0	root	_	_
+23	or	or	CCONJ	CC	_	24	cc	_	_
+24	discuss	discuss	VERB	VB	VerbForm=Inf	22	conj	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	whom	whom	PRON	WP	PronType=Int	24	obl	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	owe	owe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	,—	,—	PUNCT	.	_	22	punct	_	SpaceAfter=No
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	_
+32	may	may	AUX	MD	VerbForm=Fin	35	aux	_	_
+33	be	be	AUX	VB	VerbForm=Inf	35	cop	_	_
+34	very	very	ADV	RB	_	35	advmod	_	_
+35	sure	sure	ADJ	JJ	Degree=Pos	22	parataxis	_	_
+36	that	that	SCONJ	IN	_	41	mark	_	_
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nsubj:pass	_	_
+38	will	will	AUX	MD	VerbForm=Fin	41	aux	_	_
+39	never	never	ADV	RB	_	41	advmod	_	_
+40	be	be	AUX	VB	VerbForm=Inf	41	aux:pass	_	_
+41	encroached	encroach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	35	ccomp	_	_
+42	upon	upon	ADP	IN	_	46	case	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	46	punct	_	_
+44	or	or	CCONJ	CC	_	46	cc	_	_
+45	even	even	ADV	RB	_	46	advmod	_	_
+46	approached	approach	VERB	VBN	Tense=Past|VerbForm=Part	41	advcl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	46	punct	_	_
+48	by	by	ADP	IN	_	49	case	_	_
+49	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	46	obl	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	54	punct	_	_
+51	or	or	CCONJ	CC	_	54	cc	_	_
+52	by	by	ADP	IN	_	54	case	_	_
+53	any	any	DET	DT	_	54	det	_	_
+54	one	one	NOUN	NN	Number=Sing	46	conj	_	_
+55	belonging	belong	VERB	VBG	VerbForm=Ger	54	acl	_	_
+56	to	to	ADP	IN	_	57	case	_	_
+57	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	55	obl	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	22	punct	_	SpaceAfter=No
+59	”	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

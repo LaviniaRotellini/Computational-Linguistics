@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I suppose we had some notion that this was to end in marriage.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	notion	notion	NOUN	NN	Number=Sing	4	obj	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	end	end	VERB	VB	VerbForm=Inf	6	acl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	marriage	marriage	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = We must have had some, because Dora stipulated that we were never to be married without her papa’s consent.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	some	some	DET	DT	_	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	because	because	SCONJ	IN	_	9	mark	_	_
+8	Dora	Dora	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	stipulated	stipulate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	that	that	SCONJ	IN	_	16	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj:pass	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+13	never	never	ADV	RB	_	16	advmod	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+17	without	without	ADP	IN	_	21	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	papa	papa	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	consent	consent	ADJ	JJ	Degree=Pos	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But, in our youthful ecstasy, I don’t think that we really looked before us or behind us; or had any aspiration beyond the ignorant present.
+1	But	but	CCONJ	CC	_	2	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	youthful	youthful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	ecstasy	ecstasy	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	really	really	ADV	RB	_	15	advmod	_	_
+15	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+16	before	before	ADP	IN	_	17	case	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obl	_	_
+18	or	or	CCONJ	CC	_	20	cc	_	_
+19	behind	behind	ADP	IN	_	20	case	_	_
+20	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	conj	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	11	punct	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	any	any	DET	DT	_	25	det	_	_
+25	aspiration	aspiration	NOUN	NN	Number=Sing	23	obj	_	_
+26	beyond	beyond	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	ignorant	ignorant	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	present	present	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = We were to keep our secret from Mr. Spenlow; but I am sure the idea never entered my head, then, that there was anything dishonourable in that.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	keep	keep	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	secret	secret	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+9	Spenlow	Spenlow	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	sure	sure	ADJ	JJ	Degree=Pos	2	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	idea	idea	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	never	never	ADV	RB	_	18	advmod	_	_
+18	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	head	head	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	18	punct	_	_
+22	then	then	ADV	RB	PronType=Dem	18	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	18	punct	_	_
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	there	there	PRON	EX	_	26	expl	_	_
+26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+27	anything	anything	PRON	NN	Number=Sing	26	nsubj	_	_
+28	dishonourable	dishonourable	ADJ	JJ	Degree=Pos	27	amod	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

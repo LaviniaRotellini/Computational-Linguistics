@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Of course, they will be punished with the utmost rigour of the law, as notice-boards observe,’ replied James Harthouse, ‘and serve them right.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Of	of	ADV	RB	_	8	advmod	_	_
+3	course	course	ADV	RB	_	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj:pass	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	punished	punish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	utmost	utmost	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	rigour	rigour	NOUN	NN	Number=Sing	8	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	law	law	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	as	as	SCONJ	IN	_	24	mark	_	_
+18	notice	notice	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	boards	board	NOUN	NNS	Number=Plur	24	nsubj	_	_
+21	observe	observe	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	24	punct	_	_
+24	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+25	James	James	PROPN	NNP	Number=Sing	30	nsubj	_	_
+26	Harthouse	Harthouse	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	‘	'	PUNCT	``	_	30	punct	_	SpaceAfter=No
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	serve	serve	VERB	VB	VerbForm=Inf	24	conj	_	_
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+32	right	right	ADV	RB	_	30	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Fellows who go in for Banks must take the consequences.
+1	Fellows	fellow	NOUN	NNS	Number=Plur	8	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	in	in	ADP	IN	_	3	compound:prt	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	Banks	bank	NOUN	NNS	Number=Plur	3	obl	_	_
+7	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	consequences	consequenx	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = If there were no consequences, we should all go in for Banks.’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	consequences	consequenx	NOUN	NNS	Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	Banks	banks	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 4
+# text = He had gently taken Louisa’s parasol from her hand, and had put it up for her; and she walked under its shade, though the sun did not shine there.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	gently	gently	ADV	RB	_	4	advmod	_	_
+4	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	Louisa	Louisa	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	parasol	parasol	NOUN	NN	Number=Sing	4	obj	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	hand	hand	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	put	put	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	up	up	ADP	RP	_	14	compound:prt	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	4	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+23	under	under	ADP	IN	_	25	case	_	_
+24	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	shade	shade	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	22	punct	_	_
+27	though	though	SCONJ	IN	_	32	mark	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	sun	sun	NOUN	NN	Number=Sing	32	nsubj	_	_
+30	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+31	not	not	PART	RB	_	32	advmod	_	_
+32	shine	shine	VERB	VB	VerbForm=Inf	22	advcl	_	_
+33	there	there	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

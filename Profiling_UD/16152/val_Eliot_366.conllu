@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Two hours ago, as Tom was walking to St Ogg’s, he saw the distant future before him as he might have seen a tempting stretch of smooth sandy beach beyond a belt of flinty shingles; he was on the grassy bank then, and thought the shingles might soon be passed.
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	hours	hour	NOUN	NNS	Number=Plur	3	obl:npmod	_	_
+3	ago	ago	ADV	RB	_	15	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	St	St	PROPN	NNP	Number=Sing	8	obl	_	_
+11	Ogg	Ogg	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	’s	's	PART	POS	_	10	case	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	distant	distant	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	future	future	NOUN	NN	Number=Sing	15	obj	_	_
+19	before	before	ADP	IN	_	20	case	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+21	as	as	SCONJ	IN	_	25	mark	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	might	might	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	have	have	AUX	VB	VerbForm=Inf	25	aux	_	_
+25	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	tempting	tempting	NOUN	NN	Number=Sing	28	compound	_	_
+28	stretch	stretch	NOUN	NN	Number=Sing	25	obj	_	_
+29	of	of	ADP	IN	_	32	case	_	_
+30	smooth	smooth	ADJ	JJ	Degree=Pos	32	amod	_	_
+31	sandy	sandy	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	beach	beach	NOUN	NN	Number=Sing	28	nmod	_	_
+33	beyond	beyond	ADP	IN	_	35	case	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	belt	belt	NOUN	NN	Number=Sing	25	obl	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	flinty	flinty	NOUN	NN	Number=Sing	38	compound	_	_
+38	shingles	shingles	NOUN	NNS	Number=Plur	35	nmod	_	SpaceAfter=No
+39	;	;	PUNCT	,	_	15	punct	_	_
+40	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	cop	_	_
+42	on	on	ADP	IN	_	45	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+44	grassy	grassy	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	bank	bank	NOUN	NN	Number=Sing	15	parataxis	_	_
+46	then	then	ADV	RB	PronType=Dem	45	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	49	punct	_	_
+48	and	and	CCONJ	CC	_	49	cc	_	_
+49	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+51	shingles	shingles	NOUN	NNS	Number=Plur	55	nsubj:pass	_	_
+52	might	might	AUX	MD	VerbForm=Fin	55	aux	_	_
+53	soon	soon	ADV	RB	Degree=Pos	55	advmod	_	_
+54	be	be	AUX	VB	VerbForm=Inf	55	aux:pass	_	_
+55	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	ccomp	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = But now his feet were on the sharp stones; the belt of shingles had widened, and the stretch of sand had dwindled into narrowness.
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	now	now	ADV	RB	_	9	advmod	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	feet	foot	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	sharp	sharp	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	stones	stone	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	belt	belt	NOUN	NN	Number=Sing	16	nsubj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	shingles	shingles	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	widened	widen	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	24	punct	_	_
+18	and	and	CCONJ	CC	_	24	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	stretch	stretch	NOUN	NN	Number=Sing	24	nsubj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	sand	sand	NOUN	NN	Number=Sing	20	nmod	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	dwindled	dwindle	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+25	into	into	ADP	IN	_	26	case	_	_
+26	narrowness	narrowness	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

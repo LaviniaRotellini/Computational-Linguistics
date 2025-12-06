@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am so glad I know that you do not like them,” said good Sir James.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	like	like	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	Sir	Sir	PROPN	NNP	Number=Sing	19	compound	_	_
+19	James	James	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “I should never keep them for myself, but ladies usually are fond of these Maltese dogs.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	keep	keep	VERB	VB	VerbForm=Inf	0	root	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	ladies	lady	NOUN	NNS	Number=Plur	14	nsubj	_	_
+12	usually	usually	ADV	RB	_	14	advmod	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	fond	fond	ADJ	JJ	Degree=Pos	5	conj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	these	these	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+17	Maltese	Maltese	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	dogs	dogs	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Here, John, take this dog, will you?”
+1	Here	here	ADV	RB	PronType=Dem	3	case	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	John	John	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	10	parataxis	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	dog	dog	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

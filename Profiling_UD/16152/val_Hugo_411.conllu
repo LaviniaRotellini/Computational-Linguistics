@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = That multiplication of monsters, first in the Invisible, then in the Possible, has been suspected, perhaps perceived by magi and philosophers in their austere ecstasies and profound contemplations.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	multiplication	multiplication	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	monsters	monster	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	first	first	ADV	RB	_	9	advmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Invisible	Invisible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Possible	possible	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	suspected	suspect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	perhaps	perhaps	ADV	RB	_	21	advmod	_	_
+21	perceived	perceive	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+22	by	by	ADP	IN	_	23	case	_	_
+23	magi	magi	NOUN	NNS	Number=Plur	21	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	philosophers	philosopher	NOUN	NNS	Number=Plur	23	conj	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	austere	austere	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	ecstasies	ecstasy	NOUN	NNS	Number=Plur	21	obl	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	profound	profound	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	contemplations	contemplation	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Hence the conjecture of a material hell.
+1	Hence	hence	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	conjecture	conjecture	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	material	material	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hell	hell	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = The demon is simply the invisible tiger.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	demon	demon	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	simply	simply	ADV	RB	_	7	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	invisible	invisible	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	tiger	tiger	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = The wild beast which devours souls has been presented to the eyes of human beings by St. John, and by Dante in his vision of Hell.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	wild	wild	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	beast	beast	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+4	which	which	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	devours	devour	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	souls	souls	NOUN	NNS	Number=Plur	5	obj	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+9	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	eyes	eye	NOUN	NNS	Number=Plur	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	human	human	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	beings	being	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	by	by	ADP	IN	_	17	case	_	_
+17	St.	St.	PROPN	NNP	Number=Sing	9	obl	_	_
+18	John	John	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	by	by	ADP	IN	_	22	case	_	_
+22	Dante	Dante	PROPN	NNP	Number=Sing	9	conj	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	vision	vision	NOUN	NN	Number=Sing	22	obl	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	Hell	Hell	PROPN	NNP	Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thank you, Susan,” said Mrs Tulliver, rather faintly, withdrawing her fat hand from her sister’s thin one.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	Susan	Susan	PROPN	NNP	Number=Sing	2	vocative	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mrs	Mrs	PROPN	NNP	Number=Sing	15	nsubj	_	_
+10	Tulliver	Tulliver	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	rather	rather	ADV	RB	_	15	advmod	_	_
+13	faintly	faintly	ADV	RB	_	12	fixed	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	withdrawing	withdraw	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	fat	fat	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	hand	hand	NOUN	NN	Number=Sing	15	obj	_	_
+19	from	from	ADP	IN	_	24	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	sister	sister	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	thin	thin	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	one	one	NUM	CD	NumType=Card	15	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “But there’s been no talk o’ jelly yet.”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	there	there	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	talk	talk	NOUN	NN	Number=Sing	0	root	_	_
+8	o	of	ADP	IN	Abbr=Yes	9	case	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	7	punct	_	_
+10	jelly	jelly	ADV	RB	Abbr=Yes	11	advmod	_	_
+11	yet	yet	ADV	RB	_	7	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 3
+# text = Then after a moment’s pause she added, “There’s a dozen o’ cut jelly-glasses upstairs—I shall never put jelly into ’em no more.”
+1	Then	then	ADV	RB	PronType=Dem	8	advmod	_	_
+2	after	after	ADP	IN	_	6	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	moment	moment	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	pause	pause	NOUN	NN	Number=Sing	8	obl	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+11	There	there	PRON	EX	_	12	expl	_	SpaceAfter=No
+12	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	dozen	dozen	NOUN	NN	Number=Sing	12	nsubj	_	_
+15	o	of	ADP	IN	Abbr=Yes	17	mark	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	17	punct	_	_
+17	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
+18	jelly	jelly	ADV	RB	_	20	advmod	_	SpaceAfter=No
+19	-	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+20	glasses	glass	NOUN	NNS	Number=Plur	17	obj	_	_
+21	upstairs	upstairs	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	shall	shall	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	never	never	ADV	RB	_	26	advmod	_	_
+26	put	put	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+27	jelly	jelly	ADV	RB	_	26	advmod	_	_
+28	into	into	ADP	IN	_	30	case	_	_
+29	’	'	PUNCT	''	_	30	punct	_	SpaceAfter=No
+30	em	em	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obl	_	_
+31	no	no	ADV	RB	_	32	advmod	_	_
+32	more	more	ADV	RBR	_	26	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

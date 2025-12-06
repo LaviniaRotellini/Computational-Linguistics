@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thank you,” said Caleb, making a slight gesture with his right hand to waive the invitation.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Caleb	Caleb	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	making	make	VERB	VBG	VerbForm=Ger	6	ccomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	slight	slight	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	gesture	gesture	NOUN	NN	Number=Sing	9	obj	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	right	right	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	hand	hand	NOUN	NN	Number=Sing	9	obl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	waive	waive	VERB	VB	VerbForm=Inf	9	advcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	invitation	invitation	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “I wish to say, Mr. Bulstrode, that I must request you to put your business into some other hands than mine.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+8	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	that	that	SCONJ	IN	_	13	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	request	request	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	put	put	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	business	business	NOUN	NN	Number=Sing	16	obj	_	_
+19	into	into	ADP	IN	_	22	case	_	_
+20	some	some	DET	DT	_	22	det	_	_
+21	other	other	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	hands	hand	NOUN	NNS	Number=Plur	16	obl	_	_
+23	than	than	ADP	IN	_	24	case	_	_
+24	mine	mine	PRON	PRP	_	16	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am obliged to you for your handsome way of meeting me—about the letting of Stone Court, and all other business.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	handsome	handsome	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	way	way	NOUN	NN	Number=Sing	3	obl	_	_
+10	of	of	SCONJ	IN	_	11	mark	_	_
+11	meeting	meet	VERB	VBG	VerbForm=Ger	9	acl	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+14	about	about	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	letting	letting	NOUN	NN	Number=Sing	3	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	Stone	Stone	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Court	Court	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	all	all	DET	DT	_	24	det	_	_
+23	other	other	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	business	business	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = But I must give it up.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	up	up	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 5
+# text = A sharp certainty entered like a stab into Bulstrode’s soul.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	sharp	sharp	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	certainty	certainty	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	like	like	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	stab	stab	NOUN	NN	Number=Sing	4	obl	_	_
+8	into	into	ADP	IN	_	11	case	_	_
+9	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	soul	soul	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

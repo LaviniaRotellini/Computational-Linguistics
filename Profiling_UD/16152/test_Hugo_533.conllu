@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dom
+1	Dom	Dom	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Claude hardly looked at his brother; his thoughts were elsewhere.
+1	Claude	Claude	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	hardly	hardly	ADV	RB	_	3	advmod	_	_
+3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	brother	brother	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	thoughts	thought	NOUN	NNS	Number=Plur	11	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	elsewhere	elsewhere	ADV	RB	_	3	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = That merry scamp’s face whose beaming had so often restored serenity to the priest’s sombre physiognomy, was now powerless to melt the gloom which grew more dense every day over that corrupted, mephitic, and stagnant soul.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	merry	merry	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	scamp	scamp	NOUN	NN	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	face	face	NOUN	NN	Number=Sing	22	nsubj	_	_
+6	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	7	nmod:poss	_	_
+7	beaming	beam	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	so	so	ADV	RB	_	11	advmod	_	_
+10	often	often	ADV	RB	_	11	advmod	_	_
+11	restored	restore	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	serenity	serenity	NOUN	NN	Number=Sing	8	obj	_	_
+13	to	to	ADP	IN	_	18	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	priest	priest	NOUN	NN	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	sombre	sombre	NOUN	NN	Number=Sing	18	compound	_	_
+18	physiognomy	physiognomy	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	now	now	ADV	RB	_	22	advmod	_	_
+22	powerless	powerless	ADJ	JJ	Degree=Pos	0	root	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	melt	melt	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	gloom	gloom	NOUN	NN	Number=Sing	24	obj	_	_
+27	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+29	more	more	ADV	RBR	_	30	advmod	_	_
+30	dense	dense	ADJ	JJ	Degree=Pos	28	xcomp	_	_
+31	every	every	DET	DT	_	32	det	_	_
+32	day	day	NOUN	NN	Number=Sing	30	obl:tmod	_	_
+33	over	over	ADP	IN	_	35	case	_	_
+34	that	that	DET	DT	Number=Sing|PronType=Dem	35	det	_	_
+35	corrupted	corrupted	ADJ	JJ	Degree=Pos	30	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	mephitic	mephitic	ADJ	JJ	Degree=Pos	30	conj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	41	punct	_	_
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	stagnant	stagnant	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	soul	soul	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+

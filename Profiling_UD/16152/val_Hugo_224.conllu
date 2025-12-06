@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The wind indeed is full of it; so are the waves.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wind	wind	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	indeed	indeed	ADV	RB	_	5	advmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	full	full	ADJ	JJ	Degree=Pos	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	so	so	ADV	RB	_	12	advmod	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	waves	wafe	NOUN	NNS	Number=Plur	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The sea, too, is composite in its nature.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	sea	sea	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	too	too	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	composite	composite	ADJ	JJ	Degree=Pos	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	nature	nature	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Under its waves of water which we see, it has its waves of force which are invisible.
+1	Under	under	ADP	IN	_	3	case	_	_
+2	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	waves	wafe	NOUN	NNS	Number=Plur	11	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	water	water	NOUN	NN	Number=Sing	3	nmod	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	obj	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	waves	wave	NOUN	NNS	Number=Plur	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	force	force	NOUN	NN	Number=Sing	13	nmod	_	_
+16	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	invisible	invisible	ADJ	JJ	Degree=Pos	13	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Its constituents are innumerable.
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	constituents	constituent	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	innumerable	innumerable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Of all the elements the ocean is the most indivisible and the most profound.
+1	Of	of	ADP	IN	_	4	case	_	_
+2	all	all	DET	PDT	_	4	det:predet	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	elements	element	NOUN	NNS	Number=Plur	10	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	ocean	ocean	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	most	most	ADV	RBS	_	10	advmod	_	_
+10	indivisible	indivisible	ADJ	JJ	Degree=Pos	0	root	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	most	most	ADV	RBS	_	14	advmod	_	_
+14	profound	profound	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

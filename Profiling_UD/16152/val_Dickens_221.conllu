@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Old Bounderby’s quite ready,’ said Tom.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Old	old	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Bounderby	Bounderby	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	ready	ready	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Tom	Tom	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Time’s up.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	’s	be	PART	POS	_	2	case	_	_
+4	up	up	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Good-bye!
+1	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	bye	bye	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I shall be on the look-out for you, when you come back.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	look	look	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+8	out	out	NOUN	NN	Number=Sing	6	flat	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+15	back	back	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = I say, my dear Loo!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Loo	Loo	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = AN’T it uncommonly jolly now!’
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
+2	N’T	n’t	NOUN	NN	Number=Sing	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	uncommonly	uncommonly	ADV	RB	_	5	advmod	_	_
+5	jolly	jolly	ADV	RB	_	6	advmod	_	_
+6	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

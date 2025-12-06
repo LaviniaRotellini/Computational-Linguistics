@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Don’t tell me that’s the reason, because it can’t be nothing of the sort,’ said Mrs. Gradgrind.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	22	ccomp	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	reason	reason	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	because	because	SCONJ	IN	_	16	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+13	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+14	n’t	not	PART	RB	_	16	advmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	nothing	nothing	PRON	NN	Number=Sing	4	advcl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	sort	sort	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Mrs.	Mrs.	PROPN	NNP	Number=Sing	22	nsubj	_	_
+24	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = ‘Go and be somethingological directly.’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	5	cop	_	_
+5	somethingological	somethingological	ADJ	JJ	Degree=Pos	2	conj	_	_
+6	directly	directly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mrs. Gradgrind was not a scientific character, and usually dismissed her children to their studies with this general injunction to choose their pursuit.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	scientific	scientific	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	character	character	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	usually	usually	ADV	RB	_	11	advmod	_	_
+11	dismissed	dismiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	children	child	NOUN	NNS	Number=Plur	11	obj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	studies	study	NOUN	NNS	Number=Plur	11	obl	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+19	general	general	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	injunction	injunction	NOUN	NN	Number=Sing	11	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	choose	choose	VERB	VB	VerbForm=Inf	20	acl	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	pursuit	pursuit	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

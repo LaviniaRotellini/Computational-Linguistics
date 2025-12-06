@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The stranger took up the bundle which he had brought and untied it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stranger	stranger	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	bundle	bundle	NOUN	NN	Number=Sing	3	obj	_	_
+7	which	which	PRON	WDT	PronType=Rel	10	obj	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	untied	untie	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This bundle contained a little woollen gown, an apron, a fustian bodice, a kerchief, a petticoat, woollen stockings, shoes—a complete outfit for a girl of seven years.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	bundle	bundle	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	contained	contain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	woollen	woollen	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	gown	gown	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	apron	apron	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	fustian	fustian	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	bodice	bodice	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	kerchief	kerchief	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	petticoat	petticoat	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	woollen	woollen	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+23	stockings	stocking	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	shoes	shoe	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	29	punct	_	SpaceAfter=No
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	complete	complete	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	outfit	outfit	NOUN	NN	Number=Sing	7	conj	_	_
+30	for	for	ADP	IN	_	32	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	girl	girl	NOUN	NN	Number=Sing	29	nmod	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	seven	seven	NUM	CD	NumType=Card	35	nummod	_	_
+35	years	year	NOUN	NNS	Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = All was black.
+1	All	all	DET	DT	_	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	black	black	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

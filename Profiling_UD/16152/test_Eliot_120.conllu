@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = With a “good-bye,” a bright glance, and a bow to Hetty Arthur left the dairy.
+1	With	with	ADP	IN	_	6	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+4	good	good	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	bye	bye	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	11	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	bright	bright	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	glance	glance	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	bow	bow	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	Hetty	Hetty	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	Arthur	Arthur	PROPN	NNP	Number=Sing	17	flat	_	_
+19	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	dairy	dairy	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = But he was mistaken in imagining himself waited for.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	mistaken	mistaken	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	SCONJ	IN	_	6	mark	_	_
+6	imagining	imagine	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+9	for	for	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The rector had been so much interested in his conversation with Dinah that he would not have chosen to close it earlier; and you shall hear now what they had been saying to each other.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rector	rector	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	interested	interested	ADJ	JJ	Degree=Pos	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	conversation	conversation	NOUN	NN	Number=Sing	7	obl	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	Dinah	Dinah	PROPN	NNP	Number=Sing	7	obl	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	have	have	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+18	chosen	choose	NOUN	NN	Number=Sing	17	obj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	close	close	VERB	VB	VerbForm=Inf	18	acl	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	earlier	earlier	ADV	RBR	Degree=Cmp	20	advmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	7	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+26	shall	shall	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	hear	hear	VERB	VB	VerbForm=Inf	7	conj	_	_
+28	now	now	ADV	RB	_	27	advmod	_	_
+29	what	what	PRON	WP	PronType=Int	27	obj	_	_
+30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	_
+32	been	be	AUX	VBN	Tense=Past|VerbForm=Part	33	aux	_	_
+33	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	29	acl:relcl	_	_
+34	to	to	ADP	IN	_	36	case	_	_
+35	each	each	DET	DT	_	36	det	_	_
+36	other	other	ADJ	JJ	Degree=Pos	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

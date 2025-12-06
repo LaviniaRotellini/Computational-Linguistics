@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thought!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thought	thought	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Yes,” said Mrs. Poyser, “and so would anybody else ha’ thought, as had got their right end up’ards.
+1	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	16	nsubj	_	_
+6	Poyser	Poyser	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	so	so	ADV	RB	_	14	advmod	_	_
+11	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	anybody	anybody	PRON	NN	Number=Sing	14	compound	_	_
+13	else	else	ADJ	JJ	Degree=Pos	12	amod	_	_
+14	ha	ha	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	14	punct	_	_
+16	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	as	as	SCONJ	IN	_	20	mark	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	got	get	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+22	right	right	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	end	end	NOUN	NN	Number=Sing	24	compound	_	_
+24	up	up	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	26	punct	_	SpaceAfter=No
+26	ards	ard	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But I suppose you must _be_
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	_be	_be	VERB	VB	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+7	_	_	SYM	NFP	_	3	advmod	_	_
+
+# sent_id = 4
+# text = a Methodist to know what a Methodist ’ull do.
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	Methodist	Methodist	PROPN	NNP	Number=Sing	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	what	what	PRON	WP	PronType=Int	10	obj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	Methodist	Methodist	PROPN	NNP	Number=Sing	10	nsubj	_	_
+8	’	's	PUNCT	''	_	7	punct	_	SpaceAfter=No
+9	ull	ull	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	do	do	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = It’s ill guessing what the bats are flying after.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ill	ill	SCONJ	IN	_	4	mark	_	_
+4	guessing	guess	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	what	what	PRON	WP	PronType=Int	9	obj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	bats	bat	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+10	after	after	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

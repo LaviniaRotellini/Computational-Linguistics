@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What you say now justifies my own view,” said Lydgate.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	4	obj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+5	now	now	ADV	RB	_	6	advmod	_	_
+6	justifies	justify	NOUN	NNS	Number=Plur	4	obl	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	own	own	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	view	view	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Lydgate	Lydgate	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “I think it is one’s function as a medical man to hinder regrets of that sort as far as possible.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	one	one	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	’s	’	NOUN	NNS	Number=Plur	8	compound	_	_
+8	function	function	NOUN	NN	Number=Sing	3	ccomp	_	_
+9	as	as	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	medical	medical	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	man	man	NOUN	NN	Number=Sing	8	nmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	hinder	hinder	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	regrets	regret	NOUN	NNS	Number=Plur	14	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	sort	sort	NOUN	NN	Number=Sing	15	nmod	_	_
+19	as	as	ADV	RB	_	20	advmod	_	_
+20	far	far	ADV	RB	Degree=Pos	8	advmod	_	_
+21	as	as	SCONJ	IN	_	22	mark	_	_
+22	possible	possible	ADJ	JJ	Degree=Pos	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But I beg you to observe that Mr.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	beg	beg	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	observe	observe	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	that	that	SCONJ	IN	_	8	mark	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	6	obj	_	_
+
+# sent_id = 4
+# text = Casaubon’s case is precisely of the kind in which the issue is most difficult to pronounce upon.
+1	Casaubon	Casaubon	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	case	case	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	precisely	precisely	ADV	RB	_	8	advmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	which	which	PRON	WDT	PronType=Rel	15	obl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	issue	issue	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	most	most	ADV	RBS	_	15	advmod	_	_
+15	difficult	difficult	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	pronounce	pronounce	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	upon	upon	ADP	IN	_	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = He may possibly live for fifteen years or more, without much worse health than he has had hitherto.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	possibly	possibly	ADV	RB	_	4	advmod	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	fifteen	fifteen	NUM	CD	NumType=Card	7	nummod	_	_
+7	years	year	NOUN	NNS	Number=Plur	4	obl	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	without	without	ADP	IN	_	14	case	_	_
+12	much	much	ADV	RB	_	13	advmod	_	_
+13	worse	worse	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	health	health	NOUN	NN	Number=Sing	4	obl	_	_
+15	than	than	SCONJ	IN	_	18	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+19	hitherto	hitherto	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

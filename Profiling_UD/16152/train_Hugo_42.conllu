@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = My brother has ways of his own.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	brother	brother	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ways	way	NOUN	NNS	Number=Plur	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = When he talks, he says that a bishop ought to be so.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	bishop	bishop	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	ought	ought	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	so	so	ADV	RB	_	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Just imagine!
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = the door of our house is never fastened.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	door	door	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	house	house	NOUN	NN	Number=Sing	2	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	never	never	ADV	RB	_	8	advmod	_	_
+8	fastened	fasten	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Whoever chooses to enter finds himself at once in my brother’s room.
+1	Whoever	whoever	PRON	WP	PronType=Int	2	nsubj	_	_
+2	chooses	choose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	enter	enter	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	finds	finds	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	at	at	ADV	RB	_	8	advmod	_	_
+8	once	once	ADV	RB	NumType=Mult	13	advmod	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	brother	brother	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	room	room	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = He fears nothing, even at night.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fears	fear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	even	even	ADV	RB	_	7	advmod	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	night	night	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = That is his sort of bravery, he says.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	sort	sort	NOUN	NN	Number=Sing	9	ccomp	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	bravery	bravery	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

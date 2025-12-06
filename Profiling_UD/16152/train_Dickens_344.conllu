@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was by this time dark; I heard the clocks strike ten, as I sat resting.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	by	by	ADP	IN	_	6	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	time	time	NOUN	NN	Number=Sing	6	compound	_	_
+6	dark	dark	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	clocks	clock	NOUN	NNS	Number=Plur	12	compound	_	_
+12	strike	strike	NOUN	NN	Number=Sing	9	obj	_	_
+13	ten	ten	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	as	as	SCONJ	IN	_	17	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+18	resting	rest	VERB	VBG	VerbForm=Ger	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = But it was a summer night, fortunately, and fine weather.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	summer	summer	NOUN	NN	Number=Sing	6	compound	_	_
+6	night	night	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	fortunately	fortunately	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	fine	fine	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	weather	weather	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = When I had recovered my breath, and had got rid of a stifling sensation in my throat, I rose up and went on.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	recovered	recovere	VERB	VBN	Tense=Past|VerbForm=Part	21	advcl	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	breath	breath	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+11	rid	rid	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	stifling	stifling	NOUN	NN	Number=Sing	15	compound	_	_
+15	sensation	sensation	NOUN	NN	Number=Sing	11	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	throat	throat	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	up	up	ADP	RP	_	21	compound:prt	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	conj	_	_
+25	on	on	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 4
+# text = In the midst of my distress, I had no notion of going back.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	midst	midst	NOUN	NN	Number=Sing	9	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	distress	distress	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	notion	notion	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	going	go	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	back	back	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = I doubt if I should have had any, though there had been a Swiss snow-drift in the Kent Road.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	if	if	SCONJ	IN	_	7	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+8	any	any	DET	DT	_	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	though	though	SCONJ	IN	_	13	mark	_	_
+11	there	there	PRON	EX	_	13	expl	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	been	be	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	Swiss	swiss	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	snow	snow	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	drift	drift	NOUN	NN	Number=Sing	13	nsubj	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	Kent	Kent	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Road	Road	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

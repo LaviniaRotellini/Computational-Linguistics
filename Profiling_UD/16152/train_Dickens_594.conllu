@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘How fortunate we are, too,’ I returned, ‘to have arrived to witness their happiness in that intended marriage!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	fortunate	fortunate	ADJ	JJ	Degree=Pos	0	root	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	too	too	ADV	RB	_	10	advmod	_	SpaceAfter=No
+8	,’	,’	PUNCT	.	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+13	to	to	PART	TO	_	15	mark	_	_
+14	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+15	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	witness	witness	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	happiness	happiness	NOUN	NN	Number=Sing	17	obj	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+22	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+23	marriage	marriage	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I never saw people so happy.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	3	obj	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	happy	happy	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = How delightful to see it, and to be made the sharers in their honest joy, as we have been!’
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	delightful	delightful	ADJ	JJ	Degree=Pos	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	see	see	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	sharers	sharer	NOUN	NNS	Number=Plur	10	obj	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	honest	honest	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	joy	joy	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	as	as	SCONJ	IN	_	21	mark	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

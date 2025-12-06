@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mademoiselle de Gondelaurier knew how her mother’s antiquated mode of speech shocked the captain.
+1	Mademoiselle	Mademoiselle	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Gondelaurier	Gondelaurier	PROPN	NNP	Number=Sing	1	flat	_	_
+4	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	mother	mother	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	antiquated	antiquate	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	mode	mode	NOUN	NN	Number=Sing	4	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	speech	speech	NOUN	NN	Number=Sing	10	nmod	_	_
+13	shocked	shocked	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	captain	captain	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = In fact, he began to sneer, and muttered between his teeth: “Porte Gibard!
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	sneer	sneer	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	muttered	mutter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	between	between	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	teeth	tooth	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	13	punct	_	_
+15	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+16	Porte	Porte	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Gibard	Gibard	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Porte Gibard!
+1	Porte	Porte	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Gibard	Gibard	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = ’Tis enough to make King Charles VI. pass by.”
+1	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+2	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	make	make	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	King	King	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Charles	Charles	PROPN	NNP	Number=Sing	5	obj	_	_
+8	VI.	VI.	PROPN	NNP	Number=Sing	7	flat	_	_
+9	pass	pass	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	by	by	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

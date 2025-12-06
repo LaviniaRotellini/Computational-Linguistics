@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Very like,” said Mrs. Dollop.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Very	very	ADV	RB	_	3	advmod	_	_
+3	like	like	ADJ	JJ	Degree=Pos	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	Dollop	Dollop	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “If one raskill said it, it’s more reason why another should.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	raskill	raskill	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	reason	reason	NOUN	NN	Number=Sing	0	root	_	_
+12	why	why	ADV	WRB	PronType=Rel	14	advmod	_	_
+13	another	another	DET	DT	_	14	det	_	_
+14	should	should	NOUN	NN	Number=Sing	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = But hypo_crite_
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	hypo_crite	hypo_crite	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	2	punct	_	_
+
+# sent_id = 4
+# text = as he’s been, and holding things with that high hand, as there was no parson i’ the country good enough for him, he was forced to take Old Harry into his counsel, and Old Harry’s been too many for him.”
+1	as	as	SCONJ	IN	_	30	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	30	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	30	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	holding	hold	NOUN	NN	Number=Sing	8	compound	_	_
+8	things	thing	NOUN	NNS	Number=Plur	30	nsubj:pass	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	high	high	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	hand	hand	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	30	punct	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	there	there	PRON	EX	_	16	expl	_	_
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	advcl	_	_
+17	no	no	DET	DT	_	18	det	_	_
+18	parson	parson	NOUN	NN	Number=Sing	16	nsubj	_	_
+19	i	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	24	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	country	country	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	good	good	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	enough	enough	ADJ	JJ	Degree=Pos	18	advmod	_	_
+25	for	for	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	take	take	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	Old	old	PROPN	NNP	Number=Sing	32	obj	_	_
+34	Harry	Harry	PROPN	NNP	Number=Sing	33	flat	_	_
+35	into	into	ADP	IN	_	37	case	_	_
+36	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	counsel	counsel	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	45	punct	_	_
+39	and	and	CCONJ	CC	_	45	cc	_	_
+40	Old	old	PROPN	NNP	Number=Sing	41	compound	_	_
+41	Harry	Harry	PROPN	NNP	Number=Sing	45	nsubj	_	SpaceAfter=No
+42	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+43	been	be	AUX	VBN	Tense=Past|VerbForm=Part	45	cop	_	_
+44	too	too	ADV	RB	_	45	advmod	_	_
+45	many	many	ADJ	JJ	Degree=Pos	30	conj	_	_
+46	for	for	ADP	IN	_	47	case	_	_
+47	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	30	punct	_	SpaceAfter=No
+49	”	"	PUNCT	''	_	30	punct	_	SpacesAfter=\n
+

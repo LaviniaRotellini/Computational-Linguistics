@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Told me!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You have never told me when you have got your hair cut, but I have had senses to perceive it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	hair	hair	NOUN	NN	Number=Sing	9	obj	_	_
+12	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+18	senses	sense	NOUN	NNS	Number=Plur	17	obj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	perceive	perceive	VERB	VB	VerbForm=Inf	18	acl	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = You have always adored her, ever since I have known you.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	adored	adore	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	ever	ever	ADV	RB	_	4	advmod	_	_
+8	since	since	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	known	know	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You brought your adoration and your portmanteau here together.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	adoration	adoration	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	portmanteau	portmanteau	NOUN	NN	Number=Sing	2	conj	_	_
+8	here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+9	together	together	ADV	RB	_	2	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Told me!
+1	Told	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Why, you have always told me all day long.
+1	Why	why	ADV	WRB	PronType=Int	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	always	always	ADV	RB	_	6	advmod	_	_
+6	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	day	day	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+10	long	long	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 7
+# text = When you told me your own story, you told me plainly that you began adoring her the first time you saw her, when you were very young indeed.”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	own	own	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	story	story	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	plainly	plainly	ADV	RB	Degree=Pos	10	advmod	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+16	adoring	adore	VERB	VBG	VerbForm=Ger	15	xcomp	_	_
+17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+20	time	time	NOUN	NN	Number=Sing	16	obl:tmod	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+23	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	10	punct	_	_
+25	when	when	ADV	WRB	PronType=Int	29	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	_
+27	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	cop	_	_
+28	very	very	ADV	RB	_	29	advmod	_	_
+29	young	young	ADJ	JJ	Degree=Pos	10	advcl	_	_
+30	indeed	indeed	ADV	RB	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

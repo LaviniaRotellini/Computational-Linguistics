@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s getting late, my dear,’ said Mr. Peggotty, ‘and here’s Ham come fur to take you home.
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	11	ccomp	_	_
+5	late	late	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	dear	dear	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	Peggotty	Peggotty	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	here	here	ADV	RB	PronType=Dem	12	conj	_	SpaceAfter=No
+18	’s	be	PRON	PRP	_	17	case	_	_
+19	Ham	Ham	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	come	come	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+21	fur	fu	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	take	take	VERB	VB	VerbForm=Inf	20	advcl	_	_
+24	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obj	_	_
+25	home	home	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Theer!
+1	Theer	Theer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Go along with t’other loving art!
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	along	along	ADV	RB	_	1	advmod	_	_
+3	with	with	ADP	IN	_	6	case	_	_
+4	t’other	t’other	DET	DT	_	6	det	_	_
+5	loving	loving	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	art	art	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = What’ Em’ly?
+1	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+2	’	’	PUNCT	''	_	1	punct	_	_
+3	Em	they	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+4	’ly	’ly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Eh, my pretty?’
+1	Eh	Eh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	pretty	pretty	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

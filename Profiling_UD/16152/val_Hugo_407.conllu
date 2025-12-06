@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At night, however, and particularly in the hot season, it becomes phosphorescent.
+1	At	at	ADP	IN	_	2	case	_	_
+2	night	night	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	14	punct	_	_
+4	however	however	ADV	RB	_	14	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	14	punct	_	_
+6	and	and	CCONJ	CC	_	14	cc	_	_
+7	particularly	particularly	ADV	RB	_	11	advmod	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	hot	hot	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	season	season	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	phosphorescent	phosphorescent	ADJ	JJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = These horrible creatures have their passions; their submarine nuptials.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	horrible	horrible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	creatures	creature	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	passions	passion	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	submarine	submarine	NOUN	NN	Number=Sing	10	compound	_	_
+10	nuptials	nuptial	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Then it adorns itself, burns and illumines; and from the height of some rock, it may be seen in the deep obscurity of the waves below, expanding with a pale irradiation--a spectral sun.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	adorns	adorn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	burns	burn	NOUN	NNS	Number=Plur	3	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	illumines	illumine	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	and	and	CCONJ	CC	_	21	cc	_	_
+11	from	from	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	height	height	NOUN	NN	Number=Sing	21	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	rock	rock	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	_
+19	may	may	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	_
+21	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	deep	deep	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	obscurity	obscurity	NOUN	NN	Number=Sing	21	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	waves	wave	NOUN	NNS	Number=Plur	25	nmod	_	_
+29	below	below	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	expanding	expand	VERB	VBG	VerbForm=Ger	25	acl	_	_
+32	with	with	ADP	IN	_	40	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+34	pale	pale	ADJ	JJ	Degree=Pos	40	amod	_	_
+35	irradiation	irradiation	NOUN	NN	Number=Sing	40	compound	_	SpaceAfter=No
+36	-	-	PUNCT	,	_	35	punct	_	SpaceAfter=No
+37	-	-	PUNCT	,	_	35	punct	_	SpaceAfter=No
+38	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+39	spectral	spectral	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	sun	sun	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

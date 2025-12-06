@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am a determined character,’ said Mr. Creakle.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	determined	determined	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	character	character	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Creakle	Creakle	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s what I am.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	what	what	PRON	WP	PronType=Int	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I do my duty.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	duty	duty	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = That’s what I do.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = My flesh and blood’--he looked at Mrs. Creakle as he said this--‘when it rises against me, is not my flesh and blood.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	flesh	flesh	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	blood	blood	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	’--	’--	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Creakle	Creakle	PROPN	NNP	Number=Sing	7	obl	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	SpaceAfter=No
+15	--‘	--‘	PUNCT	.	_	7	punct	_	SpaceAfter=No
+16	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	rises	rise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+19	against	against	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	not	not	PART	RB	_	25	advmod	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	flesh	flesh	NOUN	NN	Number=Sing	7	conj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	blood	blood	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = I discard it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	discard	discard	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Has that fellow’--to the man with the wooden leg--‘been here again?’
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	fellow	fellow	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	’--	’--	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	man	man	NOUN	NN	Number=Sing	3	obl	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	wooden	wooden	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	leg	leg	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	--‘	--‘	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	_	_
+14	here	here	ADV	RB	PronType=Dem	3	advmod	_	_
+15	again	again	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

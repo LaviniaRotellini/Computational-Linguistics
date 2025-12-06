@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = That which we admire above all, in an encounter of the nature of Waterloo, is the marvellous cleverness of chance.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+2	which	which	PRON	WDT	PronType=Rel	4	obj	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	admire	admire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	above	above	ADV	RB	_	6	advmod	_	_
+6	all	all	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	encounter	encounter	NOUN	NN	Number=Sing	1	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	nature	nature	NOUN	NN	Number=Sing	10	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Waterloo	Waterloo	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	marvellous	marvellous	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	cleverness	cleverness	NOUN	NNS	Number=Plur	0	root	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	chance	chance	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = A nocturnal rain, the wall of Hougomont, the hollow road of Ohain, Grouchy deaf to the cannon, Napoleon’s guide deceiving him, Bülow’s guide enlightening him,—the whole of this cataclysm is wonderfully conducted.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	nocturnal	nocturnal	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	rain	rain	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	wall	wall	NOUN	NN	Number=Sing	3	appos	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	Hougomont	Hougomont	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	hollow	hollow	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	road	road	NOUN	NN	Number=Sing	0	root	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	Ohain	Ohain	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	Grouchy	Grouchy	PROPN	NNP	Number=Sing	17	compound	_	_
+17	deaf	deaf	NOUN	NN	Number=Sing	12	conj	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	cannon	cannon	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	12	punct	_	_
+22	Napoleon	Napoleon	PROPN	NNP	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	_
+24	guide	guide	NOUN	NN	Number=Sing	25	nsubj	_	_
+25	deceiving	deceive	VERB	VBG	VerbForm=Ger	31	parataxis	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	Bülow	Bülow	PROPN	NNP	Number=Sing	30	nmod:poss	_	SpaceAfter=No
+29	’s	's	PART	POS	_	28	case	_	_
+30	guide	guide	NOUN	NN	Number=Sing	31	nsubj	_	_
+31	enlightening	enlighten	VERB	VBG	VerbForm=Ger	12	conj	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
+33	,—	,—	PUNCT	.	_	12	punct	_	SpaceAfter=No
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	whole	whole	ADJ	JJ	Degree=Pos	41	nsubj:pass	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	this	this	DET	DT	Number=Sing|PronType=Dem	38	det	_	_
+38	cataclysm	cataclysm	NOUN	NN	Number=Sing	35	obl	_	_
+39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:pass	_	_
+40	wonderfully	wonderfully	ADV	RB	_	41	advmod	_	_
+41	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	parataxis	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

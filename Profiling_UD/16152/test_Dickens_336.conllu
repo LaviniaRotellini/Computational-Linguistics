@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs. Pocket was sitting on a garden chair under a tree, reading, with her legs upon another garden chair; and Mrs. Pocket’s two nurse-maids were looking about them while the children played.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Pocket	pocket	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	garden	garden	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	chair	chair	NOUN	NN	Number=Sing	4	obl	_	_
+9	under	under	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	tree	tree	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	reading	read	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	legs	leg	NOUN	NNS	Number=Plur	13	nmod	_	_
+18	upon	upon	ADP	IN	_	21	case	_	_
+19	another	another	DET	DT	_	21	det	_	_
+20	garden	garden	NOUN	NN	Number=Sing	21	compound	_	_
+21	chair	chair	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	32	punct	_	_
+23	and	and	CCONJ	CC	_	32	cc	_	_
+24	Mrs.	Mrs.	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Pocket	pocket	PROPN	NNP	Number=Sing	30	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	two	two	NUM	CD	NumType=Card	30	nummod	_	_
+28	nurse	nurse	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	maids	maid	NOUN	NNS	Number=Plur	32	nsubj	_	_
+31	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+33	about	about	ADP	IN	_	34	case	_	_
+34	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obl	_	_
+35	while	while	SCONJ	IN	_	38	mark	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	children	child	NOUN	NNS	Number=Plur	38	nsubj	_	_
+38	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Mamma,” said Herbert, “this is young Mr. Pip.” Upon which Mrs. Pocket received me with an appearance of amiable dignity.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mamma	Mamma	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+6	Herbert	Herbert	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	young	young	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	6	parataxis	_	_
+13	Pip	Pip	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	6	punct	_	_
+16	Upon	upon	ADP	IN	_	17	case	_	_
+17	which	which	PRON	WDT	PronType=Rel	20	obl	_	_
+18	Mrs.	Mrs.	PROPN	NNP	Number=Sing	20	nsubj	_	_
+19	Pocket	pocket	PROPN	NNP	Number=Sing	18	flat	_	_
+20	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	appearance	appearance	NOUN	NN	Number=Sing	20	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	amiable	amiable	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	dignity	dignity	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

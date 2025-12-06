@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As for Marius, “that booby of a lawyer,” who had probably become frightened, and whose name Javert had forgotten, Javert attached very little importance to him.
+1	As	as	ADP	IN	_	3	case	_	_
+2	for	for	ADP	IN	_	1	fixed	_	_
+3	Marius	Marius	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	booby	booby	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	lawyer	lawyer	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	7	punct	_	_
+13	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	probably	probably	ADV	RB	_	16	advmod	_	_
+16	become	become	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+17	frightened	frightened	ADJ	JJ	Degree=Pos	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	24	punct	_	_
+19	and	and	CCONJ	CC	_	24	cc	_	_
+20	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	21	nmod:poss	_	_
+21	name	name	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	Javert	Javert	PROPN	NNP	Number=Sing	21	flat	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	Javert	Javert	PROPN	NNP	Number=Sing	24	obj	_	_
+27	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part	26	amod	_	_
+28	very	very	ADV	RB	_	29	advmod	_	_
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	importance	importance	NOUN	NN	Number=Sing	24	obj	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Moreover, a lawyer can be hunted up at any time.
+1	Moreover	moreover	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lawyer	lawyer	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	hunted	hunt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	time	time	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = But was he a lawyer after all?
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	lawyer	lawyer	NOUN	NN	Number=Sing	0	root	_	_
+6	after	after	ADP	IN	_	7	case	_	_
+7	all	all	DET	DT	_	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

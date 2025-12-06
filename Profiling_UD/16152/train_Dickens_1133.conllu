@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am going with you, Master Copperfield, if you’ll allow me the pleasure of a walk with an old acquaintance.’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Master	master	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Copperfield	Copperfield	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	if	if	SCONJ	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	’ll	’ll	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	allow	allow	VERB	VB	VerbForm=Inf	4	advcl	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	pleasure	pleasure	NOUN	NN	Number=Sing	14	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	walk	walk	NOUN	NN	Number=Sing	17	nmod	_	_
+21	with	with	ADP	IN	_	24	case	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	old	old	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	acquaintance	acquaintance	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = Saying this, with a jerk of his body, which might have been either propitiatory or derisive, he fell into step beside me.
+1	Saying	say	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	jerk	jerk	NOUN	NN	Number=Sing	1	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	body	body	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	16	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	_	_
+15	either	either	ADV	RB	_	16	advmod	_	_
+16	propitiatory	propitiatory	ADJ	JJ	Degree=Pos	6	acl:relcl	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	derisive	derisive	ADJ	JJ	Degree=Pos	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	into	into	ADP	IN	_	23	case	_	_
+23	step	step	NOUN	NN	Number=Sing	21	obl	_	_
+24	beside	beside	ADP	IN	_	25	case	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, we shall see what she will do,” said Mrs. Hackbutt.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	see	see	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+7	what	what	PRON	WP	PronType=Int	10	obj	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	do	do	VERB	VB	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “I suppose she knows nothing yet, poor creature.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	5	obj	_	_
+7	yet	yet	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	poor	poor	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	creature	creature	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I do hope and trust I shall not see her, for I should be frightened to death lest I should say anything about her husband.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	hope	hope	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	trust	trust	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	shall	shall	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	see	see	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	for	for	SCONJ	IN	_	16	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj:pass	_	_
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	frightened	frighten	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	death	death	NOUN	NN	Number=Sing	16	obl	_	_
+19	lest	lest	ADV	RBS	Degree=Sup	22	advmod	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	say	say	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+23	anything	anything	PRON	NN	Number=Sing	22	obj	_	_
+24	about	about	ADP	IN	_	26	case	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	husband	husband	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Do you think any hint has reached her?”
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	hint	hint	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	reached	reach	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I felt, but I am sure I don’t know why, that this was self-denying and devoted in Mrs. Micawber, and I uttered a murmur to that effect.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	but	but	CCONJ	CC	_	7	cc	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sure	sure	ADJ	JJ	Degree=Pos	2	conj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	know	know	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+12	why	why	ADV	WRB	PronType=Int	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	self	self	NOUN	NN	Number=Sing	19	obl:npmod	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	denying	deny	VERB	VBG	VerbForm=Ger	11	acl	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	devoted	devote	VERB	VBN	Tense=Past|VerbForm=Part	19	conj	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	Mrs.	Mrs.	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Micawber	Micawber	PROPN	NNP	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	uttered	utter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	murmur	murmur	NOUN	NN	Number=Sing	28	obj	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+33	effect	effect	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Traddles, who took his tone from me, did likewise, still looking at the fire.
+1	Traddles	Traddles	NOUN	NNS	Number=Plur	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	tone	tone	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+11	likewise	likewise	ADV	RB	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	still	still	ADV	RB	_	14	advmod	_	_
+14	looking	look	VERB	VBG	VerbForm=Ger	0	root	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fire	fire	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

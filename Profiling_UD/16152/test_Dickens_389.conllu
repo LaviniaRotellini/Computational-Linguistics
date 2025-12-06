@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why yes,” said Joe, lowering his voice, “he’s left the Church and went into the playacting.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+3	yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Joe	Joe	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	lowering	lower	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	voice	voice	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Church	church	NOUN	NN	Number=Sing	16	obj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+21	into	into	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	playacting	playacting	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Which the playacting have likeways brought him to London along with me.
+1	Which	which	PRON	WDT	PronType=Int	6	obj	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	playacting	playacting	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	likeways	likeways	ADV	RB	_	6	advmod	_	_
+6	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	London	London	PROPN	NNP	Number=Sing	6	obl	_	_
+10	along	along	ADV	RB	_	6	advmod	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = And his wish were,” said Joe, getting the bird’s-nest under his left arm for the moment, and groping in it for an egg with his right; “if no offence, as I would ’and you that.”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	wish	wish	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Joe	Joe	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	getting	get	VERB	VBG	VerbForm=Ger	7	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	bird	bird	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+13	’s	’	PART	POS	_	12	case	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	nest	nest	NOUN	NN	Number=Sing	10	obj	_	_
+16	under	under	ADP	IN	_	19	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	left	left	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	arm	arm	NOUN	NN	Number=Sing	10	obl	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	moment	moment	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	groping	grope	VERB	VBG	VerbForm=Ger	10	conj	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+28	for	for	ADP	IN	_	30	case	_	_
+29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	egg	egg	NOUN	NN	Number=Sing	25	obl	_	_
+31	with	with	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	right	right	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+34	;	;	PUNCT	,	_	7	punct	_	_
+35	“	"	PUNCT	``	_	38	punct	_	SpaceAfter=No
+36	if	if	SCONJ	IN	_	38	mark	_	_
+37	no	no	DET	DT	_	38	det	_	_
+38	offence	offence	NOUN	NN	Number=Sing	46	advcl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	46	punct	_	_
+40	as	as	SCONJ	IN	_	42	mark	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+42	would	would	AUX	MD	VerbForm=Fin	46	advcl	_	_
+43	’	'	PUNCT	''	_	46	punct	_	SpaceAfter=No
+44	and	and	CCONJ	CC	_	46	cc	_	_
+45	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	46	nsubj	_	_
+46	that	that	PRON	DT	Number=Sing|PronType=Dem	7	parataxis	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+48	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

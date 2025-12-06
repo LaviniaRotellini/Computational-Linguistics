@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have got a trifle of money somewhere about me, my dear,’ said Mr. Barkis, ‘but I’m a little tired.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	17	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	trifle	trifle	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	money	money	NOUN	NN	Number=Sing	6	nmod	_	_
+9	somewhere	somewhere	ADV	RB	_	4	advmod	_	_
+10	about	about	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	dear	dear	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	21	nsubj	_	_
+19	Barkis	Barkis	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	‘	'	PUNCT	``	_	27	punct	_	SpaceAfter=No
+22	but	but	CCONJ	CC	_	27	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
+24	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	little	little	ADJ	JJ	Degree=Pos	27	obl:npmod	_	_
+27	tired	tired	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = If you and Mr. David will leave me for a short nap, I’ll try and find it when I wake.’
+1	If	if	SCONJ	IN	_	7	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	2	conj	_	_
+5	David	David	PROPN	NNP	Number=Sing	4	flat	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	leave	leave	VERB	VB	VerbForm=Inf	16	advcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	short	short	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	nap	nap	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’ll	’ll	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	find	find	VERB	VB	VerbForm=Inf	16	conj	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	wake	wake	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	16	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

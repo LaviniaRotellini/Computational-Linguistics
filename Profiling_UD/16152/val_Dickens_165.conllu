@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have been here once before, to-day, Stephen.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	here	here	ADV	RB	PronType=Dem	0	root	_	_
+6	once	once	ADV	RB	NumType=Mult	7	advmod	_	_
+7	before	before	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	to	to	ADP	IN	_	11	case	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	day	day	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Stephen	Stephen	PROPN	NNP	Number=Sing	11	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Landlady came round for me at dinner-time.
+1	Landlady	Landlady	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	round	round	ADV	RB	_	2	advmod	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	dinner	dinner	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	time	time	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = There was some one here that needed looking to, she said.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	one	one	NUM	CD	NumType=Card	5	nsubj	_	_
+5	here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+9	to	to	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = And ‘deed she was right.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	deed	deed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	right	right	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = All wandering and lost, Stephen.
+1	All	all	DET	DT	_	2	det	_	_
+2	wandering	wander	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Stephen	Stephen	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 6
+# text = Wounded too, and bruised.’
+1	Wounded	wound	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	too	too	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	bruised	bruise	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

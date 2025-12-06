@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It seems,” said Estella, very calmly, “that there are sentiments, fancies,—I don’t know how to call them,—which I am not able to comprehend.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Estella	Estella	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	calmly	calmly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	there	there	PRON	EX	_	15	expl	_	_
+15	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+16	sentiments	sentiment	NOUN	NNS	Number=Plur	18	compound	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	fancies	fancy	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No
+19	,—	,—	PUNCT	.	_	23	punct	_	SpaceAfter=No
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+21	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	23	advmod	_	_
+23	know	know	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+24	how	how	ADV	WRB	PronType=Int	26	advmod	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	call	call	VERB	VB	VerbForm=Inf	23	ccomp	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	26	punct	_	SpaceAfter=No
+29	—	-	PUNCT	,	_	26	punct	_	SpaceAfter=No
+30	which	which	PRON	WDT	PronType=Rel	34	obj	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+32	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	not	not	PART	RB	_	34	advmod	_	_
+34	able	able	ADJ	JJ	Degree=Pos	26	acl:relcl	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	comprehend	comprehend	VERB	VB	VerbForm=Inf	34	xcomp	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = When you say you love me, I know what you mean, as a form of words; but nothing more.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	what	what	PRON	WP	PronType=Int	12	obj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	as	as	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	form	form	NOUN	NN	Number=Sing	12	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	words	word	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	9	punct	_	_
+20	but	but	CCONJ	CC	_	21	cc	_	_
+21	nothing	nothing	PRON	NN	Number=Sing	9	conj	_	_
+22	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = You address nothing in my breast, you touch nothing there.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	address	address	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	breast	breast	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	touch	touch	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	nothing	nothing	PRON	NN	Number=Sing	9	obj	_	_
+11	there	there	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I don’t care for what you say at all.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	SCONJ	IN	_	6	case	_	_
+6	what	what	PRON	WP	PronType=Int	4	obl	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	at	at	ADV	RB	_	10	case	_	_
+10	all	all	ADV	RB	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I have tried to warn you of this; now, have I not?”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	warn	warn	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	not	not	PART	RB	_	3	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

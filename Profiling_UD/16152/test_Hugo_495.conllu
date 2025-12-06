@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He raised his eyes to the roof of the church.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	eyes	eye	NOUN	NNS	Number=Plur	2	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	roof	roof	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	church	church	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = La Esmeralda was there in the same spot, in the same attitude.
+1	La	La	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Esmeralda	Esmeralda	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	there	there	ADV	RB	PronType=Dem	0	root	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	spot	spot	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	same	same	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	attitude	attitude	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He made her a sad sign with his head; then he planted his back against one of the stone posts of the Gondelaurier porch, determined to wait until the captain should come forth.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	sad	sad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	sign	sign	NOUN	NN	Number=Sing	2	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	head	head	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	13	advmod	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	planted	plant	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	back	back	ADV	RB	_	13	advmod	_	_
+16	against	against	ADP	IN	_	17	case	_	_
+17	one	one	NUM	CD	NumType=Card	13	obl	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	stone	stone	NOUN	NN	Number=Sing	21	compound	_	_
+21	posts	post	NOUN	NNS	Number=Plur	17	nmod	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	Gondelaurier	Gondelaurier	PROPN	NNP	Number=Sing	25	compound	_	_
+25	porch	porch	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	13	punct	_	_
+27	determined	determine	ADJ	JJ	Degree=Pos	13	parataxis	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	wait	wait	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	until	until	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	captain	captain	NOUN	NN	Number=Sing	29	obl	_	_
+33	should	should	AUX	MD	VerbForm=Fin	34	aux	_	_
+34	come	come	VERB	VB	VerbForm=Inf	29	advcl	_	_
+35	forth	forth	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

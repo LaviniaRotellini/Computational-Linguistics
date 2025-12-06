@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I think he must die for want o’ support, if he goes on in that way.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	die	die	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	want	want	VERB	VBN	Tense=Past|VerbForm=Part	6	obl	_	_
+9	o	o	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	support	support	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+16	on	on	ADV	RB	_	15	advmod	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	way	way	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = When I nursed my poor master, Mr. Robisson, I had to give him port-wine and brandy constant, and a big glass at a time,” added Mrs. Abel, with a touch of remonstrance in her tone.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	nursed	nurse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	poor	poor	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	master	master	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+9	Robisson	Robisson	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	give	give	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+16	port-wine	port-wine	ADJ	JJ	Degree=Pos	19	amod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	brandy	brandy	ADJ	JJ	Degree=Pos	16	conj	_	_
+19	constant	constant	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	30	punct	_	_
+21	and	and	CCONJ	CC	_	30	cc	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	big	big	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	glass	glass	NOUN	NN	Number=Sing	30	nsubj	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	time	time	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	30	punct	_	_
+30	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+31	Mrs.	Mrs.	PROPN	NNP	Number=Sing	30	obj	_	_
+32	Abel	Abel	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	31	punct	_	_
+34	with	with	ADP	IN	_	36	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	touch	touch	NOUN	NN	Number=Sing	30	obl	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	remonstrance	remonstrance	NOUN	NN	Number=Sing	36	nmod	_	_
+39	in	in	ADP	IN	_	41	case	_	_
+40	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	tone	tone	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

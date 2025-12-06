@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Towards four o’clock, the English line drew back.
+1	Towards	towards	ADP	IN	_	3	case	_	_
+2	four	four	NUM	CD	NumType=Card	3	nummod	_	_
+3	o’clock	o’clock	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	English	english	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	line	line	NOUN	NN	Number=Sing	8	compound	_	_
+8	drew	draw	NOUN	NN	Number=Sing	3	appos	_	_
+9	back	back	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Suddenly nothing was visible on the crest of the plateau except the artillery and the sharpshooters; the rest had disappeared: the regiments, dislodged by the shells and the French bullets, retreated into the bottom, now intersected by the back road of the farm of Mont-Saint-Jean; a retrograde movement took place, the English front hid itself, Wellington drew back.
+1	Suddenly	suddenly	ADV	RB	_	4	advmod	_	_
+2	nothing	nothing	PRON	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	crest	crest	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	plateau	plateau	NOUN	NN	Number=Sing	7	nmod	_	_
+11	except	except	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	artillery	artillery	NOUN	NN	Number=Sing	10	nmod	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	sharpshooters	sharpshooter	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	4	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	rest	rest	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	disappeared	disappear	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+22	:	:	PUNCT	:	_	24	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	regiments	regiment	NOUN	NNS	Number=Plur	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	dislodged	dislodge	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+27	by	by	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	shells	shell	NOUN	NNS	Number=Plur	26	obl	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	French	french	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	bullets	bullet	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	retreated	retreate	VERB	VBN	Tense=Past|VerbForm=Part	33	acl	_	_
+36	into	into	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	bottom	bottom	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	21	punct	_	_
+40	now	now	ADV	RB	_	41	advmod	_	_
+41	intersected	intersect	VERB	VBN	Tense=Past|VerbForm=Part	21	conj	_	_
+42	by	by	ADP	IN	_	45	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+44	back	back	NOUN	NN	Number=Sing	45	compound	_	_
+45	road	road	NOUN	NN	Number=Sing	41	obl	_	_
+46	of	of	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	farm	farm	NOUN	NN	Number=Sing	45	nmod	_	_
+49	of	of	ADP	IN	_	50	case	_	_
+50	Mont	Mont	PROPN	NNP	Number=Sing	48	nmod	_	SpaceAfter=No
+51	-	-	PUNCT	HYPH	_	52	punct	_	SpaceAfter=No
+52	Saint	Saint	PROPN	NNP	Number=Sing	50	flat	_	SpaceAfter=No
+53	-	-	PUNCT	HYPH	_	54	punct	_	SpaceAfter=No
+54	Jean	Jean	PROPN	NNP	Number=Sing	50	flat	_	SpaceAfter=No
+55	;	;	PUNCT	,	_	21	punct	_	_
+56	a	a	DET	DT	Definite=Ind|PronType=Art	58	det	_	_
+57	retrograde	retrograde	NOUN	NN	Number=Sing	58	compound	_	_
+58	movement	movement	NOUN	NN	Number=Sing	59	nsubj	_	_
+59	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+60	place	place	NOUN	NN	Number=Sing	59	obj	_	SpaceAfter=No
+61	,	,	PUNCT	,	_	4	punct	_	_
+62	the	the	DET	DT	Definite=Def|PronType=Art	64	det	_	_
+63	English	english	ADJ	JJ	Degree=Pos	64	amod	_	_
+64	front	front	NOUN	NN	Number=Sing	65	nsubj	_	_
+65	hid	hide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+66	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	65	obj	_	SpaceAfter=No
+67	,	,	PUNCT	,	_	69	punct	_	_
+68	Wellington	Wellington	PROPN	NNP	Number=Sing	69	nsubj	_	_
+69	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	65	conj	_	_
+70	back	back	ADV	RB	_	69	advmod	_	SpaceAfter=No
+71	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = “The beginning of retreat!” cried Napoleon.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	beginning	beginning	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	retreat	retreat	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Napoleon	Napoleon	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

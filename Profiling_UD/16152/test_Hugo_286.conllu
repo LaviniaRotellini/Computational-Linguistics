@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Have you ever beheld a more gay and charming face than that of your betrothed?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	ever	ever	ADV	RB	_	5	advmod	_	_
+5	beheld	beheld	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	gay	gay	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	charming	charm	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	face	face	NOUN	NN	Number=Sing	5	obj	_	_
+12	than	than	ADP	IN	_	13	case	_	_
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	betrothed	betrothed	VERB	VBN	Tense=Past|VerbForm=Part	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Can one be more white and blonde?
+1	Can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+2	one	one	NUM	CD	NumType=Card	5	nsubj	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	white	white	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	blonde	blonde	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = are not her hands perfect?
+1	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	not	not	PART	RB	_	4	advmod	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hands	hand	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	perfect	perfect	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = and that neck—does it not assume all the curves of the swan in ravishing fashion?
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	neck	neck	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	assume	assume	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	curves	curve	NOUN	NNS	Number=Plur	8	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	swan	swan	NOUN	NN	Number=Sing	11	nmod	_	_
+15	in	in	SCONJ	IN	_	16	mark	_	_
+16	ravishing	ravishing	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+17	fashion	fashion	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = How I envy you at times!
+1	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	envy	envy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	obj	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	times	time	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = and how happy you are to be a man, naughty libertine that you are!
+1	and	and	CCONJ	CC	_	3	cc	_	_
+2	how	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	to	to	PART	TO	_	9	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	man	man	NOUN	NN	Number=Sing	5	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	naughty	naughty	NOUN	NN	Number=Sing	12	compound	_	_
+12	libertine	libertine	NOUN	NN	Number=Sing	9	conj	_	_
+13	that	that	PRON	WDT	PronType=Rel	15	obj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Is not my Fleur-de-Lys adorably beautiful, and are you not desperately in love with her?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+2	not	not	PART	RB	_	8	advmod	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+4	Fleur	Fleur	PROPN	NNP	Number=Sing	8	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+6	de	de	PROPN	NNP	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	Lys	Lys	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	adorably	adorably	ADV	RB	_	10	advmod	_	_
+10	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	not	not	ADV	RB	_	16	advmod	_	_
+16	desperately	desperately	ADV	RB	_	18	advmod	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	love	love	NOUN	NN	Number=Sing	10	obl	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

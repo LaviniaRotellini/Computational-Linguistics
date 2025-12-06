@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A man who had neither the garments nor the air of a soldier, stepped from the ranks.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	neither	neither	CCONJ	CC	_	7	cc:preconj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	garments	garment	NOUN	NNS	Number=Plur	4	obj	_	_
+8	nor	nor	CCONJ	CC	_	10	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	air	air	NOUN	NN	Number=Sing	7	conj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	soldier	soldier	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	stepped	step	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	ranks	rank	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He wore a costume half gray, half brown, flat hair, leather sleeves, and carried a bundle of ropes in his huge hand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	costume	costume	NOUN	NN	Number=Sing	5	compound	_	_
+5	half	half	NOUN	NN	Number=Sing	2	obj	_	_
+6	gray	gray	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	half	half	ADV	RB	_	9	advmod	_	_
+9	brown	brown	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	flat	flat	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	hair	hair	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	leather	leather	NOUN	NN	Number=Sing	15	compound	_	_
+15	sleeves	sleeve	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	bundle	bundle	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	ropes	rope	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	huge	huge	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	hand	hand	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = This man always attended Tristan, who always attended Louis XI.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	attended	attend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	Tristan	Tristan	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+8	always	always	ADV	RB	_	9	advmod	_	_
+9	attended	attend	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	Louis	Louis	PROPN	NNP	Number=Sing	9	obj	_	_
+11	XI	XI	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = “Friend,” said Tristan l’Hermite, “I presume that this is the sorceress of whom we are in search.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Friend	friend	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tristan	Tristan	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+7	l	l	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	’	'	PART	POS	_	6	case	_	SpaceAfter=No
+9	Hermite	Hermite	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	presume	presume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+14	that	that	SCONJ	IN	_	18	mark	_	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	sorceress	sorceress	NOUN	NN	Number=Sing	13	ccomp	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	whom	whom	PRON	WP	PronType=Rel	24	obl	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	search	search	NOUN	NN	Number=Sing	18	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = You will hang me this one.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	hang	hang	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	one	one	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Have you your ladder?”
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	ladder	ladder	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

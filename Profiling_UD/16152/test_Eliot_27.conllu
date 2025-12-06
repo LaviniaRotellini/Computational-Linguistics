@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, sure; but wunna ye come in, Adam?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	but	but	CCONJ	CC	_	9	cc	_	_
+7	wunna	wunna	X	FW	Foreign=Yes	9	advmod	_	_
+8	ye	ye	PRON	PRP	_	9	nsubj	_	_
+9	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	in	in	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	Adam	Adam	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Miss
+1	Miss	miss	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Mary’s i’ th’ house, and Mester Burge ’ull be back anon; he’d be glad t’ ha’ ye to supper wi’m, I’ll be’s warrand.”
+1	Mary	Mary	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+2	’s	be	PART	POS	_	1	case	_	_
+3	i	I	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	th	th	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	5	punct	_	_
+7	house	house	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	and	and	CCONJ	CC	_	15	cc	_	_
+10	Mester	Mester	PROPN	NNP	Number=Sing	15	nsubj	_	_
+11	Burge	Burge	PROPN	NNP	Number=Sing	10	flat	_	_
+12	’ull	’ull	AUX	MD	VerbForm=Fin	15	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+14	back	back	ADV	RB	_	15	advmod	_	_
+15	anon	anon	X	AFX	_	7	conj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	7	punct	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+18	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+19	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+20	glad	glad	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	t	t	NOUN	NN	Number=Sing	18	ccomp	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	21	punct	_	_
+23	ha	ha	INTJ	UH	_	25	discourse	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	25	punct	_	_
+25	ye	ye	PRON	PRP	_	21	parataxis	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	supper	supper	VERB	VB	VerbForm=Inf	25	advcl	_	_
+28	wi	wi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	29	nmod:poss	_	SpaceAfter=No
+29	’m	’m	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	SpaceAfter=No
+32	’ll	’ll	AUX	MD	VerbForm=Fin	35	aux	_	_
+33	be	be	AUX	VB	VerbForm=Inf	35	cop	_	SpaceAfter=No
+34	’s	's	PRON	PRP	_	35	obl:npmod	_	_
+35	warrand	warrand	VERB	VB	VerbForm=Inf	25	parataxis	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

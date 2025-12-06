@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Deep,” said Wemmick, “as Australia.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Deep	deep	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Wemmick	Wemmick	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	as	as	ADP	IN	_	10	case	_	_
+10	Australia	Australia	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = Pointing with his pen at the office floor, to express that Australia was understood, for the purposes of the figure, to be symmetrically on the opposite spot of the globe.
+1	Pointing	point	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	with	with	ADP	IN	_	4	case	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	pen	pen	NOUN	NN	Number=Sing	1	obl	_	_
+5	at	at	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	office	office	NOUN	NN	Number=Sing	8	compound	_	_
+8	floor	floor	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	1	punct	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	express	express	VERB	VB	VerbForm=Inf	1	advcl	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	Australia	Australia	PROPN	NNP	Number=Sing	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	understood	understand	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	purposes	purpose	NOUN	NNS	Number=Plur	15	obl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	figure	figure	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	1	punct	_	_
+24	to	to	PART	TO	_	30	mark	_	_
+25	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+26	symmetrically	symmetrically	ADV	RB	_	30	advmod	_	_
+27	on	on	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	opposite	opposite	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	spot	spot	NOUN	NN	Number=Sing	1	advcl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	globe	globe	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = “If there was anything deeper,” added Wemmick, bringing his pen to paper, “he’d be it.”
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	nsubj	_	_
+6	deeper	deeper	ADJ	JJR	Degree=Cmp	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Wemmick	Wemmick	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	bringing	bring	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	pen	pen	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	paper	paper	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+20	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

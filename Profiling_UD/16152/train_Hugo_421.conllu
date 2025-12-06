@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The traveller straightened himself up.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	traveller	traveller	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	straightened	straighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	up	up	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He walked on a few paces, and went off to look over the tops of the hedges.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	few	few	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	paces	pace	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	off	off	ADV	RB	_	9	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	look	look	VERB	VB	VerbForm=Inf	9	advcl	_	_
+13	over	over	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	tops	top	NOUN	NNS	Number=Plur	12	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	hedges	hedge	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = On the horizon through the trees, he perceived a sort of little elevation, and on this elevation something which at that distance resembled a lion.
+1	On	on	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	horizon	horizon	NOUN	NN	Number=Sing	9	obl	_	_
+4	through	through	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	trees	tree	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	sort	sort	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	little	little	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	elevation	elevation	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	elevation	elevation	NOUN	NN	Number=Sing	20	obl	_	_
+20	something	something	PRON	NN	Number=Sing	9	conj	_	_
+21	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	that	that	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	distance	distance	NOUN	NN	Number=Sing	25	obl	_	_
+25	resembled	resemble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	lion	lion	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

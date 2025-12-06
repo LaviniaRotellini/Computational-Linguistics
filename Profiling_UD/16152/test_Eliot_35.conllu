@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, an’ she’s a pleasant-looked un too,” said Wiry Ben.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	9	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	pleasant	pleasant	ADJ	JJ	Degree=Pos	11	nsubj	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+12	un	un	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+13	too	too	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Wiry	Wiry	PROPN	NNP	Number=Sing	16	nsubj	_	_
+18	Ben	Ben	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “I’ll stick up for the pretty women preachin’; I know they’d persuade me over a deal sooner nor th’ ugly men.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	stick	stick	VERB	VB	VerbForm=Inf	0	root	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	for	for	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	pretty	pretty	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	women	woman	NOUN	NNS	Number=Plur	10	compound	_	_
+10	preachin	preaching	NOUN	NN	Abbr=Yes|Number=Sing	4	obl	_	SpaceAfter=No
+11	’;	’;	PUNCT	.	_	4	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+16	persuade	persuade	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	over	over	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	deal	deal	NOUN	NN	Number=Sing	16	obl	_	_
+21	sooner	sooner	ADV	RBR	Degree=Cmp	26	advmod	_	_
+22	nor	nor	CCONJ	CC	_	26	cc	_	_
+23	th	th	ADV	RB	_	26	advmod	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	26	punct	_	_
+25	ugly	ugly	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	men	man	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I shouldna wonder if I turn Methody afore the night’s out, an’ begin to coort the preacher, like Seth Bede.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shouldna	shouldna	ADV	RB	_	3	advmod	_	_
+3	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	turn	turn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	Methody	Methody	PRON	NN	Number=Sing	6	obj	_	_
+8	afore	afore	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	night	night	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	out	out	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	3	punct	_	_
+16	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	coort	coort	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	preacher	preacher	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	16	punct	_	_
+22	like	like	ADP	IN	_	24	case	_	_
+23	Seth	Seth	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Bede	Bede	PROPN	NNP	Number=Sing	16	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

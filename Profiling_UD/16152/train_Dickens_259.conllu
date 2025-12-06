@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I never left her afterwards,’ said Peggotty.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	afterwards	afterwards	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Peggotty	Peggotty	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘She often talked to them two downstairs--for she loved them; she couldn’t bear not to love anyone who was about her--but when they went away from her bed-side, she always turned to me, as if there was rest where Peggotty was, and never fell asleep in any other way.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7	two	two	NUM	CD	NumType=Card	4	advmod	_	_
+8	downstairs	downstairs	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+10	for	for	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	4	punct	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	could	could	AUX	MD	VerbForm=Fin	18	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	18	advmod	_	_
+18	bear	bear	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+19	not	not	ADV	RB	_	18	advmod	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	love	love	VERB	VB	VerbForm=Inf	18	advcl	_	_
+22	anyone	anyone	PRON	NN	Number=Sing	21	obj	_	_
+23	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+25	about	about	ADP	IN	_	26	case	_	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	acl:relcl	_	SpaceAfter=No
+27	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+28	but	but	CCONJ	CC	_	41	cc	_	_
+29	when	when	ADV	WRB	PronType=Int	31	mark	_	_
+30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
+31	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	advcl	_	_
+32	away	away	ADV	RB	_	31	advmod	_	_
+33	from	from	ADP	IN	_	37	case	_	_
+34	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+35	bed	bed	NOUN	NN	Number=Sing	37	compound	_	SpaceAfter=No
+36	-	-	PUNCT	HYPH	_	37	punct	_	SpaceAfter=No
+37	side	side	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	41	punct	_	_
+39	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	always	always	ADV	RB	_	41	advmod	_	_
+41	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+42	to	to	ADP	IN	_	43	case	_	_
+43	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	41	punct	_	_
+45	as	as	SCONJ	IN	_	48	mark	_	_
+46	if	if	SCONJ	IN	_	48	mark	_	_
+47	there	there	PRON	EX	_	48	expl	_	_
+48	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	advcl	_	_
+49	rest	rest	ADJ	JJ	Degree=Pos	50	nsubj	_	_
+50	where	where	ADV	WRB	PronType=Int	41	advcl	_	_
+51	Peggotty	Peggotty	PROPN	NNP	Number=Sing	52	nsubj	_	_
+52	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	cop	_	SpaceAfter=No
+53	,	,	PUNCT	,	_	56	punct	_	_
+54	and	and	CCONJ	CC	_	56	cc	_	_
+55	never	never	ADV	RB	_	56	advmod	_	_
+56	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	conj	_	_
+57	asleep	asleep	ADV	RB	_	56	advmod	_	_
+58	in	in	ADP	IN	_	61	case	_	_
+59	any	any	DET	DT	_	61	det	_	_
+60	other	other	ADJ	JJ	Degree=Pos	61	amod	_	_
+61	way	way	NOUN	NN	Number=Sing	56	obl	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

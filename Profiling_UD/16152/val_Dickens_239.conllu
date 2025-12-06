@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Assuredly,’ said the stranger.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Assuredly	Assuredly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	stranger	stranger	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Much obliged to you for reminding me.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Much	Much	ADJ	JJ	Degree=Pos	0	root	_	_
+3	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+6	for	for	SCONJ	IN	_	7	mark	_	_
+7	reminding	remind	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I am the bearer of a letter of introduction to Mr. Bounderby, the banker.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bearer	bearer	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	letter	letter	NOUN	NN	Number=Sing	4	nmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	introduction	introduction	NOUN	NN	Number=Sing	7	nmod	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nmod	_	_
+12	Bounderby	Bounderby	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	banker	banker	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Walking through this extraordinarily black town, while they were getting dinner ready at the hotel, I asked a fellow whom I met; one of the working people; who appeared to have been taking a shower-bath of something fluffy, which I assume to be the raw material—’
+1	Walking	walk	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+2	through	through	ADP	IN	_	3	case	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obl	_	_
+4	extraordinarily	extraordinarily	ADV	RB	_	6	advmod	_	_
+5	black	black	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	town	town	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	while	while	SCONJ	IN	_	11	mark	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	getting	get	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+12	dinner	dinner	NOUN	NN	Number=Sing	11	obj	_	_
+13	ready	ready	ADJ	JJ	Degree=Pos	1	advcl	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	hotel	hotel	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	fellow	fellow	NOUN	NN	Number=Sing	19	obj	_	_
+22	whom	whom	PRON	WP	PronType=Rel	24	obj	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	19	punct	_	_
+26	one	one	NUM	CD	NumType=Card	19	appos	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	working	work	VERB	VBG	VerbForm=Ger	30	amod	_	_
+30	people	people	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	19	punct	_	_
+32	who	who	PRON	WP	PronType=Rel	33	nsubj	_	_
+33	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+34	to	to	PART	TO	_	37	mark	_	_
+35	have	have	AUX	VB	VerbForm=Inf	37	aux	_	_
+36	been	be	AUX	VBN	Tense=Past|VerbForm=Part	37	aux	_	_
+37	taking	take	VERB	VBG	VerbForm=Ger	33	xcomp	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+39	shower	shower	NOUN	NN	Number=Sing	41	compound	_	SpaceAfter=No
+40	-	-	PUNCT	HYPH	_	41	punct	_	SpaceAfter=No
+41	bath	bath	NOUN	NN	Number=Sing	37	obj	_	_
+42	of	of	ADP	IN	_	43	case	_	_
+43	something	something	PRON	NN	Number=Sing	41	nmod	_	_
+44	fluffy	fluffy	ADJ	JJ	Degree=Pos	43	amod	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	43	punct	_	_
+46	which	which	PRON	WDT	PronType=Rel	48	obj	_	_
+47	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
+48	assume	assume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
+49	to	to	PART	TO	_	53	mark	_	_
+50	be	be	AUX	VB	VerbForm=Inf	53	cop	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+52	raw	raw	ADJ	JJ	Degree=Pos	53	amod	_	_
+53	material	material	NOUN	NN	Number=Sing	48	xcomp	_	SpaceAfter=No
+54	—	-	PUNCT	,	_	33	punct	_	SpaceAfter=No
+55	’	'	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

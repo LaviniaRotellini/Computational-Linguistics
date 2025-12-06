@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was eight o’clock in the evening before the door opened and his wife entered.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	eight	eight	NUM	CD	NumType=Card	4	nummod	_	_
+4	o’clock	o’clock	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	evening	evening	NOUN	NN	Number=Sing	4	nmod	_	_
+8	before	before	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	door	door	NOUN	NN	Number=Sing	7	nmod	_	_
+11	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	wife	wife	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He dared not look up at her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	dared	dar	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	look	look	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He sat with his eyes bent down, and as she went towards him she thought he looked smaller—he seemed so withered and shrunken.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	eyes	eye	NOUN	NNS	Number=Plur	2	obl	_	_
+6	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+7	down	down	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	16	punct	_	_
+9	and	and	CCONJ	CC	_	16	cc	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+13	towards	towards	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+19	smaller	smaller	ADJ	JJR	Degree=Cmp	18	xcomp	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+23	so	so	ADV	RB	_	24	advmod	_	_
+24	withered	withered	ADJ	JJ	Degree=Pos	22	xcomp	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	shrunken	shrunken	ADJ	JJ	Degree=Pos	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = A movement of new compassion and old tenderness went through her like a great wave, and putting one hand on his which rested on the arm of the chair, and the other on his shoulder, she said, solemnly but kindly—
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	movement	movement	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	new	new	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	compassion	compassion	NOUN	NN	Number=Sing	2	nmod	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	old	old	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	tenderness	tenderness	NOUN	NNS	Number=Plur	5	conj	_	_
+9	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	through	through	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	like	like	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	great	great	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	wave	wave	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	putting	put	VERB	VBG	VerbForm=Ger	9	conj	_	_
+19	one	one	NUM	CD	NumType=Card	20	nummod	_	_
+20	hand	hand	NOUN	NN	Number=Sing	18	obj	_	_
+21	on	on	ADP	IN	_	22	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	obl	_	_
+23	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+24	rested	rest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	arm	arm	NOUN	NN	Number=Sing	24	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	chair	chair	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	40	punct	_	_
+32	and	and	CCONJ	CC	_	40	cc	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	other	other	ADJ	JJ	Degree=Pos	40	conj	_	_
+35	on	on	ADP	IN	_	37	case	_	_
+36	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	shoulder	shoulder	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+40	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	40	punct	_	_
+42	solemnly	solemnly	ADV	RB	_	40	advmod	_	_
+43	but	but	CCONJ	CC	_	44	cc	_	_
+44	kindly	kindly	ADV	RB	_	42	conj	_	SpaceAfter=No
+45	—	-	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

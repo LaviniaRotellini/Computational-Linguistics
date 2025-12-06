@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, my goodness, how polite we are!’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	goodness	goodness	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+8	polite	polite	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+12	’	’	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = exclaimed Miss
+1	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Miss	miss	PROPN	NNP	Number=Sing	1	obj	_	_
+
+# sent_id = 3
+# text = Mowcher, making a preposterous attempt to cover her large face with her morsel of a hand.
+1	Mowcher	Mowcher	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	making	make	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	preposterous	preposterous	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	attempt	attempt	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	cover	cover	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+10	large	large	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	face	face	NOUN	NN	Number=Sing	8	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	morsel	morsel	NOUN	NN	Number=Sing	8	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	hand	hand	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = ‘What a world of gammon and spinnage it is, though, ain’t it!’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	4	det	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	world	world	NOUN	NN	Number=Sing	16	advcl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	gammon	gammon	NOUN	NN	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	spinnage	spinnage	NOUN	NN	Number=Sing	4	conj	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	though	though	ADV	RB	_	16	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	it	it	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

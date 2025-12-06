@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Here, evidently, was a soul which was inaccessible to terror, and which did not know the meaning of despair.
+1	Here	here	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	evidently	evidently	ADV	RB	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	soul	soul	NOUN	NN	Number=Sing	0	root	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	inaccessible	inaccessible	ADJ	JJ	Degree=Pos	7	acl:relcl	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	terror	terror	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	which	which	PRON	WDT	PronType=Int	18	nsubj	_	_
+16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	know	know	VERB	VB	VerbForm=Inf	10	conj	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	meaning	meaning	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	despair	despair	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Here was one of those men who command amazement in desperate circumstances.
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	one	one	NUM	CD	NumType=Card	1	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	men	man	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	command	command	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	amazement	amazement	NOUN	NN	Number=Sing	8	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	desperate	desperate	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	circumstances	circumstance	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Extreme as was the crisis, inevitable as was the catastrophe, there was nothing here of the agony of the drowning man, who opens his horror-filled eyes under the water.
+1	Extreme	extreme	ADV	RB	_	5	advmod	_	_
+2	as	as	ADV	RB	_	1	fixed	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	crisis	crisis	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	inevitable	inevitable	ADJ	JJ	Degree=Pos	5	amod	_	_
+8	as	as	ADP	IN	_	11	case	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	catastrophe	catastrophe	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+15	nothing	nothing	PRON	NN	Number=Sing	14	nsubj	_	_
+16	here	here	ADV	RB	PronType=Dem	15	advmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	agony	agony	NOUN	NN	Number=Sing	16	obl	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	drowning	drown	VERB	VBG	VerbForm=Ger	23	amod	_	_
+23	man	man	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+26	opens	open	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+28	horror	horror	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	31	amod	_	_
+31	eyes	eye	NOUN	NNS	Number=Plur	26	obj	_	_
+32	under	under	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	water	water	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Si César m’avait donné La gloire et la guerre,
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Si	Si	PROPN	NNP	Number=Sing	4	compound	_	_
+3	César	César	PROPN	NNP	Number=Sing	2	flat	_	_
+4	m	m	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+5	’	's	PART	POS	_	7	case	_	SpaceAfter=No
+6	avait	avait	NOUN	NN	Number=Sing	7	compound	_	_
+7	donné	donné	NOUN	NN	Number=Sing	4	flat	_	_
+8	La	la	PROPN	NNP	Number=Sing	4	flat	_	_
+9	gloire	gloire	VERB	VB	VerbForm=Inf	0	root	_	_
+10	et	et	X	FW	_	11	goeswith	_	_
+11	la	la	NOUN	NN	Number=Sing	12	compound	_	_
+12	guerre	guerre	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+
+# sent_id = 2
+# text = Et qu’il me fallait quitter L’amour de ma mère, Je dirais au grand César:
+1	Et	et	X	FW	_	5	advmod	_	_
+2	qu	qo	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’il	’il	AUX	MD	Typo=Yes|VerbForm=Fin	5	aux	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	fallait	fallait	VERB	VB	VerbForm=Inf	0	root	_	_
+6	quitter	quitter	X	AFX	_	10	goeswith	_	_
+7	L’amour	L’amour	X	GW	_	10	goeswith	_	_
+8	de	de	X	FW	Foreign=Yes	10	goeswith	_	_
+9	ma	ma	X	FW	Foreign=Yes	10	goeswith	_	_
+10	mère	mère	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	Je	Je	PROPN	NNP	Number=Sing	15	obj	_	_
+13	dirais	dirais	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	au	aough	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	grand	grand	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+16	César	César	PROPN	NNP	Number=Sing	15	obj	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	5	punct	_	_
+
+# sent_id = 3
+# text = Reprends ton sceptre et ton char, J’aime mieux ma mère, ô gué!
+1	Reprends	Reprend	ADP	IN	_	3	case	_	_
+2	ton	ton	NOUN	NN	Number=Sing	3	compound	_	_
+3	sceptre	sceptre	NOUN	NN	Number=Sing	6	compound	_	_
+4	et	et	X	FW	_	5	goeswith	_	_
+5	ton	ton	NOUN	NN	Number=Sing	6	compound	_	_
+6	char	char	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	J’	j’	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	aime	aime	NOUN	NN	Number=Sing	10	compound	_	_
+10	mieux	mieux	NOUN	NN	Number=Sing	6	list	_	_
+11	ma	ma	NOUN	NN	Number=Sing	12	compound	_	_
+12	mère	mère	NOUN	NN	Number=Sing	6	list	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	ô	ô	NOUN	NN	Number=Sing	15	compound	_	_
+15	gué	gué	NOUN	NN	Number=Sing	6	list	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = J’aime mieux ma mère!”25
+1	J’	J's	NOUN	NN	Number=Sing	2	compound	_	SpaceAfter=No
+2	aime	aime	NOUN	NN	Number=Sing	3	compound	_	_
+3	mieux	mieux	NOUN	NN	Number=Sing	4	compound	_	_
+4	ma	ma	NOUN	NN	Number=Sing	5	compound	_	_
+5	mère	mère	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	SpaceAfter=No
+8	25	25	NUM	CD	NumType=Card	0	root	_	SpacesAfter=\n
+

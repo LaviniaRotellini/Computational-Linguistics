@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I wish no one said any worse of him.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	one	one	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	any	any	DET	DT	_	8	det	_	_
+8	worse	worse	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He should be more careful.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	careful	careful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mrs. Waule has been telling uncle that Fred is very unsteady.”
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Waule	Waule	PROPN	NNP	Number=Sing	1	flat	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	uncle	uncle	NOUN	NN	Number=Sing	5	obj	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	Fred	Fred	PROPN	NNP	Number=Sing	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	unsteady	unsteady	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 4
+# text = Mary spoke from a girlish impulse which got the better of her judgment.
+1	Mary	Mary	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	girlish	girlish	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	impulse	impulse	NOUN	NN	Number=Sing	2	obl	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	mark	_	_
+10	better	better	ADJ	JJR	Degree=Cmp	8	xcomp	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	judgment	judgment	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = There was a vague uneasiness associated with the word “unsteady” which she hoped Rosamond might say something to dissipate.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	vague	vague	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	uneasiness	uneasiness	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	word	word	NOUN	NN	Number=Sing	6	obl	_	_
+10	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	unsteady	unsteady	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	obj	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	hoped	hope	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+16	Rosamond	Rosamond	PROPN	NNP	Number=Sing	15	obj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	say	say	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+19	something	something	PRON	NN	Number=Sing	18	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	dissipate	dissipate	VERB	VB	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = But she purposely abstained from mentioning Mrs. Waule’s more special insinuation.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	purposely	purposely	ADV	RB	_	4	advmod	_	_
+4	abstained	abstain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	from	from	SCONJ	IN	_	6	mark	_	_
+6	mentioning	mention	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Waule	Waule	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	special	special	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	insinuation	insinuation	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

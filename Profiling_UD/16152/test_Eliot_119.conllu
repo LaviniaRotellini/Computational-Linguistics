@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, sir, we call her sadly out of her name.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	sadly	sadly	ADV	RB	_	7	advmod	_	_
+10	out	out	ADP	IN	_	13	case	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	name	name	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Charlotte’s her christened name.
+1	Charlotte	Charlotte	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	christened	christen	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	name	name	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It’s a name i’ Mr. Poyser’s family: his grandmother was named Charlotte.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	name	name	NOUN	NN	Number=Sing	0	root	_	_
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+6	’	’	PART	POS	_	10	case	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+8	Poyser	Poyser	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	’s	's	PART	POS	_	7	case	_	_
+10	family	family	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	4	punct	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	grandmother	grandmother	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	named	name	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+16	Charlotte	Charlotte	PROPN	NNP	Number=Sing	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = But we began with calling her Lotty, and now it’s got to Totty.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	with	with	SCONJ	IN	_	5	mark	_	_
+5	calling	call	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	Lotty	Lotty	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	now	now	ADV	RB	_	13	advmod	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	Totty	Totty	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = To be sure it’s more like a name for a dog than a Christian child.”
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	6	advcl	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	name	name	NOUN	NN	Number=Sing	6	obl	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	dog	dog	NOUN	NN	Number=Sing	6	obl	_	_
+13	than	than	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	Christian	christian	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	child	child	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This line of the commencement of the fog was still above half-a-league distant.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	line	line	NOUN	NN	Number=Sing	17	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	commencement	commencement	NOUN	NN	Number=Sing	2	nmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	fog	fog	NOUN	NN	Number=Sing	5	nmod	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+10	still	still	ADV	RB	_	17	advmod	_	_
+11	above	above	ADV	RB	_	16	advmod	_	_
+12	half	half	X	GW	_	16	obl:npmod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	league	league	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	distant	distant	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = The interval was visibly growing less and less.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	interval	interval	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	visibly	visibly	ADV	RB	_	5	advmod	_	_
+5	growing	grow	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	less	less	ADV	RBR	Degree=Cmp	8	advmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	less	less	ADV	RBR	Degree=Cmp	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The Durande made way; the fog made way also.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Durande	Durande	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	way	way	NOUN	NN	Number=Sing	3	xcomp	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	fog	fog	NOUN	NN	Number=Sing	2	appos	_	_
+8	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	way	way	ADV	RB	_	10	advmod	_	_
+10	also	also	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = It was drawing nearer to the vessel, while the vessel was drawing nearer to it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	drawing	draw	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	nearer	nearer	ADV	RBR	Degree=Cmp	3	advmod	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	vessel	vessel	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	while	while	SCONJ	IN	_	13	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	vessel	vessel	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	drawing	draw	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	_
+14	nearer	nearer	ADJ	JJR	Degree=Cmp	13	xcomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

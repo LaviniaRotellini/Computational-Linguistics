@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why then, sir,’ said Stephen, turning white, and motioning with that right hand of his, as if he gave everything to the four winds, ‘’_tis_ a muddle.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	3	advmod	_	_
+3	then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	sir	sir	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Stephen	Stephen	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	turning	turn	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	white	white	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	motioning	motion	NOUN	NN	Number=Sing	11	conj	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+18	right	right	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	hand	hand	NOUN	NN	Number=Sing	15	nmod	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	37	punct	_	_
+23	as	as	SCONJ	IN	_	26	mark	_	_
+24	if	if	SCONJ	IN	_	26	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	advcl	_	_
+27	everything	everything	PRON	NN	Number=Sing	26	obj	_	_
+28	to	to	ADP	IN	_	31	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	four	four	NUM	CD	NumType=Card	31	nummod	_	_
+31	winds	wind	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	_	_
+33	‘’_tis	‘’_tis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	conj	_	SpaceAfter=No
+34	_	_	SYM	NFP	_	36	punct	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	muddle	muddle	NOUN	NN	Number=Sing	33	appos	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = ’Tis just a muddle a’toogether, an’ the sooner I am dead, the better.’
+1	’	'	PUNCT	''	_	7	punct	_	SpaceAfter=No
+2	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	just	just	ADV	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	muddle	muddle	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	SpaceAfter=No
+7	’toogether	’toogether	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	15	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	sooner	sooner	ADV	RBR	Degree=Cmp	15	advmod	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	dead	dead	ADJ	JJ	Degree=Pos	7	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	mark	_	_
+18	better	better	ADJ	JJR	Degree=Cmp	7	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

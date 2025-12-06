@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All at once, she passed in front of Gringoire.
+1	All	all	DET	DT	_	6	advmod	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	once	once	ADV	RB	NumType=Mult	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	front	front	NOUN	NN	Number=Sing	6	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Gringoire	Gringoire	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Gringoire put his hand so recklessly into his pocket that she halted.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hand	hand	NOUN	NN	Number=Sing	2	obj	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	recklessly	recklessly	ADV	RB	_	2	advmod	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	pocket	pocket	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	halted	halt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “The devil!” said the poet, finding at the bottom of his pocket the reality, that is, to say, a void.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	devil	devil	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	poet	poet	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	finding	find	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	at	at	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	bottom	bottom	NOUN	NN	Number=Sing	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	pocket	pocket	NOUN	NN	Number=Sing	13	nmod	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	reality	reality	NOUN	NN	Number=Sing	16	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	say	say	VERB	VB	VerbForm=Inf	21	ccomp	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	void	void	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = In the meantime, the pretty girl stood there, gazing at him with her big eyes, and holding out her tambourine to him and waiting.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	meantime	meantime	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	pretty	pretty	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	girl	girl	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	gazing	gaze	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	with	with	ADP	IN	_	17	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	_
+16	big	big	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	eyes	eye	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	holding	hold	VERB	VBG	VerbForm=Ger	8	conj	_	_
+21	out	out	ADP	RP	_	20	compound:prt	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	tambourine	tambourine	NOUN	NN	Number=Sing	20	obj	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	waiting	wait	VERB	VBG	VerbForm=Ger	20	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Gringoire broke into a violent perspiration.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	into	into	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	violent	violent	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	perspiration	perspiration	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

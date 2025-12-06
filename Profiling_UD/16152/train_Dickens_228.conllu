@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘One thing more,’ he said.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	more	more	ADV	RBR	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘I observe that you have an attachment to low and common company.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	observe	observe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	attachment	attachment	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	low	low	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	common	common	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	company	company	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You are not to associate with servants.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	associate	associate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	servants	servants	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The kitchen will not improve you, in the many respects in which you need improvement.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	kitchen	kitchen	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	improve	improve	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	respects	respects	NOUN	NNS	Number=Plur	5	obl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	obl	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+16	improvement	improvement	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Of the woman who abets you, I say nothing--since you, Clara,’ addressing my mother in a lower voice, ‘from old associations and long-established fancies, have a weakness respecting her which is not yet overcome.’
+1	Of	of	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	woman	woman	NOUN	NN	Number=Sing	9	obl	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	abets	abet	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+10	nothing	nothing	PRON	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	--	--	PUNCT	,	_	9	punct	_	SpaceAfter=No
+12	since	since	SCONJ	IN	_	17	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	Clara	Clara	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+16	,’	,’	PUNCT	.	_	17	punct	_	_
+17	addressing	address	VERB	VBG	VerbForm=Ger	35	advcl	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	mother	mother	NOUN	NN	Number=Sing	17	obj	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	lower	lower	ADJ	JJR	Degree=Cmp	23	amod	_	_
+23	voice	voice	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	35	punct	_	_
+25	‘	'	PUNCT	``	_	35	punct	_	SpaceAfter=No
+26	from	from	ADP	IN	_	28	case	_	_
+27	old	old	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	associations	associations	NOUN	NNS	Number=Plur	35	obl	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	_
+30	long	long	ADV	RB	Degree=Pos	32	advmod	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+33	fancies	fancy	NOUN	NNS	Number=Plur	28	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	weakness	weakness	NOUN	NN	Number=Sing	35	obj	_	_
+38	respecting	respect	VERB	VBG	VerbForm=Ger	37	acl	_	_
+39	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	obj	_	_
+40	which	which	PRON	WDT	PronType=Int	44	nsubj	_	_
+41	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+42	not	not	PART	RB	_	44	advmod	_	_
+43	yet	yet	ADV	RB	_	44	advmod	_	_
+44	overcome	overcome	VERB	VB	VerbForm=Inf	38	ccomp	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	35	punct	_	SpaceAfter=No
+46	’	'	PUNCT	''	_	35	punct	_	SpacesAfter=\n
+

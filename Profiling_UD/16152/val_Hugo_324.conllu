@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gilliatt pressed on his work.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	pressed	presse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	work	work	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He, too, was calm; but there was anxiety in his haste.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	calm	calm	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	anxiety	anxiety	NOUN	NN	Number=Sing	10	nsubj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	haste	haste	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He passed with long strides from rock to rock, and returned dragging wildly sometimes a rider, sometimes a binding strake.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	strides	stride	NOUN	NNS	Number=Plur	2	obl	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	rock	rock	NOUN	NN	Number=Sing	2	obl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	rock	rock	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	dragging	dragge	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+14	wildly	wildly	ADV	RB	_	13	advmod	_	_
+15	sometimes	sometimes	ADV	RB	_	13	advmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	rider	rider	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	13	punct	_	_
+19	sometimes	sometimes	ADV	RB	_	22	advmod	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	binding	binding	VERB	VBG	VerbForm=Ger	22	amod	_	_
+22	strake	strake	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The utility of all this preparation of timbers now became manifest.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	utility	utility	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	preparation	preparation	NOUN	NN	Number=Sing	2	nmod	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	timbers	timber	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	now	now	ADV	RB	_	10	advmod	_	_
+10	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	manifest	manifest	ADJ	JJS	Degree=Sup	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = It was evident that he was about to confront a danger which he had foreseen.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	evident	evident	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	about	about	ADJ	JJ	Degree=Pos	3	csubj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	confront	confront	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	danger	danger	NOUN	NN	Number=Sing	9	obj	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	obj	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	foreseen	foresee	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

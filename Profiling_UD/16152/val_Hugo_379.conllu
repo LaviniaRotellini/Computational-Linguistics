@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The rain stopped suddenly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rain	rain	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	suddenly	suddenly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Then there was only a surly rumbling in the heavens.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	RB	_	3	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	surly	surely	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	rumbling	rumbl	NOUN	NN	Number=Sing	3	nsubj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	heavens	heaven	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The storm ceased with the suddenness of a plank falling to the ground.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	storm	storm	NOUN	NN	Number=Sing	0	root	_	_
+3	ceased	cease	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	suddenness	suddenness	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	plank	plank	NOUN	NN	Number=Sing	10	compound	_	_
+10	falling	falling	NOUN	NN	Number=Sing	6	nmod	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	ground	ground	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The immense mass of clouds became disorganised.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	immense	immense	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	mass	mass	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	clouds	clouds	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	became	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	disorganised	disorganised	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = A strip of clear sky appeared between them.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	strip	strip	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	clear	clear	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sky	sky	NOUN	NN	Number=Sing	2	nmod	_	_
+6	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	between	between	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Gilliatt was astonished:
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	astonished	astonish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 7
+# text = it was broad daylight.
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	broad	broad	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	daylight	daylight	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

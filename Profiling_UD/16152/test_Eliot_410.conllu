@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She set down the candle and took out the letter.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	down	down	ADP	RP	_	2	compound:prt	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	candle	candle	NOUN	NN	Number=Sing	2	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	out	out	ADP	RP	_	7	compound:prt	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	letter	letter	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It had a faint scent of roses, which made her feel as if Arthur were close to her.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	faint	faint	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	scent	scent	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	roses	rose	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	feel	feel	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	as	as	SCONJ	IN	_	17	mark	_	_
+14	if	if	SCONJ	IN	_	17	mark	_	_
+15	Arthur	Arthu	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nsubj	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	close	close	ADJ	JJ	Degree=Pos	12	advcl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She put it to her lips, and a rush of remembered sensations for a moment or two swept away all fear.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	lips	lip	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	rush	rush	NOUN	NN	Number=Sing	19	nsubj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	sensations	sensation	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	moment	moment	NOUN	NN	Number=Sing	10	nmod	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+19	swept	swept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	away	away	ADV	RB	_	19	advmod	_	_
+21	all	all	DET	DT	_	22	det	_	_
+22	fear	fear	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But her heart began to flutter strangely, and her hands to tremble as she broke the seal.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	flutter	flutter	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	strangely	strangely	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	hands	hand	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	tremble	tremble	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	seal	seal	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = She read slowly; it was not easy for her to read a gentleman’s handwriting, though Arthur had taken pains to write plainly.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	slowly	slowly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	2	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	easy	easy	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	read	read	VERB	VB	VerbForm=Inf	8	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	gentleman	gentleman	NOUN	NN	Number=Sing	16	nmod:poss	_	SpaceAfter=No
+15	’s	's	PART	POS	_	14	case	_	_
+16	handwriting	handwriting	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	though	though	SCONJ	IN	_	21	mark	_	_
+19	Arthur	Arthu	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+22	pains	pains	NOUN	NNS	Number=Plur	21	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	write	write	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	plainly	plainly	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

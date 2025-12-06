@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Good God!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	God	God	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = this is just what might have been expected,” was his immediate thought.
+1	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	what	what	PRON	WP	PronType=Int	8	nsubj:pass	_	_
+5	might	might	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	14	punct	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	immediate	immediate	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	thought	thought	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 3
+# text = If his prophetic soul had been urged to particularize, it seemed to him that “fits” would have been the definite expression alighted upon.
+1	If	if	SCONJ	IN	_	7	mark	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	prophetic	prophetic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	soul	soul	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	urged	urge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	particularize	particularize	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	that	that	SCONJ	IN	_	24	mark	_	_
+16	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	fits	fit	NOUN	NNS	Number=Plur	24	nsubj	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	17	punct	_	_
+19	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+20	have	have	AUX	VB	VerbForm=Inf	24	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	cop	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	definite	definite	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	expression	expression	NOUN	NN	Number=Sing	12	ccomp	_	_
+25	alighted	alight	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+26	upon	upon	ADP	IN	_	25	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = He asked his informant, the butler, whether the doctor had been sent for.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	informant	informant	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	butler	butler	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	whether	whether	SCONJ	IN	_	14	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	doctor	doctor	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+15	for	for	ADP	IN	_	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = The butler never knew his master to want the doctor before; but would it not be right to send for a physician?
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	butler	butler	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	master	master	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	want	want	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	doctor	doctor	NOUN	NN	Number=Sing	8	obj	_	_
+11	before	before	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	but	but	CCONJ	CC	_	18	cc	_	_
+14	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	right	right	ADJ	JJ	Degree=Pos	4	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	send	send	VERB	VB	VerbForm=Inf	18	csubj	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	physician	physician	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

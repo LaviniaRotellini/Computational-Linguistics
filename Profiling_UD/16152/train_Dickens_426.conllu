@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One Adams, who was the head-boy, then stepped out of his place and welcomed me.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	Adams	Adam	NOUN	NNS	Number=Plur	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	head	head	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	boy	boy	NOUN	NN	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+12	stepped	step	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	out	out	ADP	IN	_	16	case	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	place	place	NOUN	NN	Number=Sing	12	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	welcomed	welcome	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He looked like a young clergyman, in his white cravat, but he was very affable and good-humoured; and he showed me my place, and presented me to the masters, in a gentlemanly way that would have put me at my ease, if anything could.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	like	like	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	clergyman	clergyman	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	white	white	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	cravat	cravat	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	affable	affable	ADJ	JJ	Degree=Pos	2	conj	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	good	good	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	humoured	humoure	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	2	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	iobj	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	place	place	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	presented	present	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obj	_	_
+33	to	to	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	masters	master	NOUN	NNS	Number=Plur	31	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	2	punct	_	_
+37	in	in	ADP	IN	_	40	case	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+39	gentlemanly	gentlemanly	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	way	way	NOUN	NN	Number=Sing	2	obl	_	_
+41	that	that	PRON	WDT	PronType=Rel	44	nsubj	_	_
+42	would	would	AUX	MD	VerbForm=Fin	44	aux	_	_
+43	have	have	AUX	VB	VerbForm=Inf	44	aux	_	_
+44	put	put	VERB	VBN	Tense=Past|VerbForm=Part	40	acl:relcl	_	_
+45	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	44	obj	_	_
+46	at	at	ADP	IN	_	48	case	_	_
+47	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	48	nmod:poss	_	_
+48	ease	ease	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	2	punct	_	_
+50	if	if	SCONJ	IN	_	52	mark	_	_
+51	anything	anything	PRON	NN	Number=Sing	52	nsubj	_	_
+52	could	could	AUX	MD	VerbForm=Fin	2	advcl	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

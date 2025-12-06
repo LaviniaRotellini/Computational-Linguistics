@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Not yet.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	3	advmod	_	_
+3	yet	yet	ADV	RB	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Going to be, I believe--in so many weeks, or months, or something or other.
+1	Going	go	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	be	be	AUX	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	in	in	ADP	IN	_	11	case	_	_
+9	so	so	ADV	RB	_	10	advmod	_	_
+10	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	weeks	week	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	months	month	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	something	something	PRON	NN	Number=Sing	11	conj	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	other	other	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I have not seen much of ‘em.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	much	much	ADV	RB	_	8	advmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+8	em	em	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = By the by’; he laid down his knife and fork, which he had been using with great diligence, and began feeling in his pockets; ‘I have a letter for you.’
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	by	by	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	7	punct	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	down	down	ADP	RP	_	7	compound:prt	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	knife	knife	NOUN	NN	Number=Sing	7	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	fork	fork	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	aux	_	_
+18	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	great	great	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	diligence	diligence	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+25	feeling	feeling	VERB	VBG	VerbForm=Ger	24	xcomp	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	pockets	pocket	NOUN	NNS	Number=Plur	25	obl	_	SpaceAfter=No
+29	;	;	PUNCT	,	_	7	punct	_	_
+30	‘	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	letter	letter	NOUN	NN	Number=Sing	32	obj	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+38	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

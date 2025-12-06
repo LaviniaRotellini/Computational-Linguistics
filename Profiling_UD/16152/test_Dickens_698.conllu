@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Only twice more did the housekeeper reappear, and then her stay in the room was very short, and Mr. Jaggers was sharp with her.
+1	Only	only	ADV	RB	_	3	advmod	_	_
+2	twice	twice	ADV	RB	NumType=Mult	3	advmod	_	_
+3	more	more	ADV	RBR	_	4	advmod	_	_
+4	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	nsubj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	housekeeper	housekeeper	NOUN	NN	Number=Sing	7	compound	_	_
+7	reappear	reappear	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nsubj	_	_
+12	stay	stay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	room	room	NOUN	NN	Number=Sing	12	obl	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	very	very	ADV	RB	_	18	advmod	_	_
+18	short	short	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	24	nsubj	_	_
+22	Jaggers	Jaggers	PROPN	NNP	Number=Sing	21	flat	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	sharp	sharp	ADJ	JJ	Degree=Pos	18	conj	_	_
+25	with	with	ADP	IN	_	26	case	_	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = But her hands were Estella’s hands, and her eyes were Estella’s eyes, and if she had reappeared a hundred times I could have been neither more sure nor less sure that my conviction was the truth.
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	hands	hand	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	Estella	Estella	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	hands	hand	NOUN	NNS	Number=Plur	31	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	and	and	CCONJ	CC	_	15	cc	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	eyes	eye	NOUN	NNS	Number=Plur	15	nsubj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	Estella	Estella	PROPN	NNP	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	31	punct	_	_
+17	and	and	CCONJ	CC	_	31	cc	_	_
+18	if	if	SCONJ	IN	_	21	mark	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	reappeared	reappear	VERB	VBN	Tense=Past|VerbForm=Part	31	advcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	hundred	hundred	NUM	CD	NumType=Card	24	nummod	_	_
+24	times	time	NOUN	NNS	Number=Plur	21	obl:tmod	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+26	could	could	AUX	MD	VerbForm=Fin	31	aux	_	_
+27	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	cop	_	_
+29	neither	neither	ADV	RB	_	30	advmod	_	_
+30	more	more	ADV	RBR	_	31	advmod	_	_
+31	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+32	nor	nor	CCONJ	CC	_	34	cc	_	_
+33	less	less	ADV	RBR	Degree=Cmp	34	advmod	_	_
+34	sure	sure	ADJ	JJ	Degree=Pos	31	conj	_	_
+35	that	that	SCONJ	IN	_	40	mark	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	conviction	conviction	NOUN	NN	Number=Sing	40	nsubj	_	_
+38	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	cop	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	truth	truth	NOUN	NN	Number=Sing	34	ccomp	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	31	punct	_	SpacesAfter=\n
+

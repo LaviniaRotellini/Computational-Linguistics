@@ -1,0 +1,55 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Monsieur Fabantou,” he said, “these five francs are all that I have about me, but I shall now take my daughter home, and I will return this evening,—it is this evening that you must pay, is it not?”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Monsieur	Monsieur	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	Fabantou	Fabantou	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+10	these	these	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+11	five	five	NUM	CD	NumType=Card	12	nummod	_	_
+12	francs	franc	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	all	all	ADV	RB	_	7	advmod	_	_
+15	that	that	SCONJ	IN	_	17	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	about	about	ADP	IN	_	19	case	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	but	but	CCONJ	CC	_	25	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+23	shall	shall	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	now	now	ADV	RB	_	25	advmod	_	_
+25	take	take	VERB	VB	VerbForm=Inf	7	conj	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	daughter	daughter	NOUN	NN	Number=Sing	25	obj	_	_
+28	home	home	ADV	RB	_	25	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	33	punct	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+32	will	will	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	return	return	VERB	VB	VerbForm=Inf	25	conj	_	_
+34	this	this	DET	DT	Number=Sing|PronType=Dem	35	det	_	_
+35	evening	evening	NOUN	NN	Number=Sing	33	obl:tmod	_	SpaceAfter=No
+36	,—	,—	PUNCT	.	_	7	punct	_	SpaceAfter=No
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+38	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+39	this	this	DET	DT	Number=Sing|PronType=Dem	40	det	_	_
+40	evening	evening	NOUN	NN	Number=Sing	7	ccomp	_	_
+41	that	that	PRON	WDT	PronType=Rel	44	obj	_	_
+42	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	44	nsubj	_	_
+43	must	must	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	pay	pay	VERB	VB	VerbForm=Inf	40	acl:relcl	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	7	punct	_	_
+46	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+47	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
+48	not	not	PART	RB	_	46	ccomp	_	SpaceAfter=No
+49	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+50	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

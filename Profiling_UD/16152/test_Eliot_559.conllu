@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “As you like,” said the jailer, turning the harsh key in the lock and opening the door wide enough to admit Dinah.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	As	as	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	jailer	jailer	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	turning	turn	VERB	VBG	VerbForm=Ger	9	acl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	harsh	harsh	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	key	key	NOUN	NN	Number=Sing	11	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	lock	lock	NOUN	NN	Number=Sing	11	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	opening	open	VERB	VBG	VerbForm=Ger	11	conj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	door	door	NOUN	NN	Number=Sing	19	obj	_	_
+22	wide	wide	ADV	RB	_	23	advmod	_	_
+23	enough	enough	ADJ	JJ	Degree=Pos	19	advmod	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	admit	admit	VERB	VB	VerbForm=Inf	19	advcl	_	_
+26	Dinah	Dinah	PROPN	NNP	Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = A jet of light from his lantern fell on the opposite corner of the cell, where Hetty was sitting on her straw pallet with her face buried in her knees.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	jet	jet	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	light	light	NOUN	NN	Number=Sing	2	nmod	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	lantern	lantern	NOUN	NN	Number=Sing	2	nmod	_	_
+8	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	on	on	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	opposite	opposite	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	corner	corner	NOUN	NN	Number=Sing	8	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	cell	cell	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	where	where	ADV	WRB	PronType=Rel	20	advmod	_	_
+18	Hetty	Hetty	PROPN	NNP	Number=Sing	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl:relcl	_	_
+21	on	on	ADP	IN	_	24	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	straw	straw	NOUN	NN	Number=Sing	24	compound	_	_
+24	pallet	pallet	NOUN	NN	Number=Sing	20	obl	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	face	face	NOUN	NN	Number=Sing	20	obl	_	_
+28	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	knees	knee	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = It seemed as if she were asleep, and yet the grating of the lock would have been likely to waken her.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	SCONJ	IN	_	7	mark	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	asleep	asleep	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	yet	yet	ADV	RB	_	12	advmod	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	grating	grating	NOUN	NN	Number=Sing	19	nsubj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	lock	lock	NOUN	NN	Number=Sing	12	nmod	_	_
+16	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	have	have	AUX	VB	VerbForm=Inf	19	aux	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	cop	_	_
+19	likely	likely	ADJ	JJ	Degree=Pos	2	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	waken	wake	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

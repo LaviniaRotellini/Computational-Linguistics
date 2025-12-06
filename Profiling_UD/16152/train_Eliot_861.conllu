@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fred entered on the subject directly, and declared briefly what he had done and was resolved to do, expressing at the end his regret that he should be the cause of disappointment to his father, and taking the blame on his own deficiencies.
+1	Fred	Fred	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	subject	subject	NOUN	NN	Number=Sing	2	obl	_	_
+6	directly	directly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	declared	declare	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+10	briefly	briefly	ADV	RB	_	9	advmod	_	_
+11	what	what	PRON	WP	PronType=Int	14	obj	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	resolved	resolve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	do	do	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	expressing	express	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	end	end	NOUN	NN	Number=Sing	21	obl	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nsubj	_	_
+26	regret	regret	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+27	that	that	SCONJ	IN	_	32	mark	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+29	should	should	AUX	MD	VerbForm=Fin	32	aux	_	_
+30	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	cause	cause	NOUN	NN	Number=Sing	26	ccomp	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	disappointment	disappointment	NOUN	NN	Number=Sing	32	nmod	_	_
+35	to	to	ADP	IN	_	37	case	_	_
+36	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	father	father	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	taking	take	VERB	VBG	VerbForm=Ger	32	conj	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	blame	blame	NOUN	NN	Number=Sing	40	obj	_	_
+43	on	on	ADP	IN	_	46	case	_	_
+44	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+45	own	own	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	deficiencies	deficiency	NOUN	NNS	Number=Plur	40	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The regret was genuine, and inspired Fred with strong, simple words.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	regret	regret	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	genuine	genuine	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	inspired	inspireed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	Fred	Fred	PROPN	NNP	Number=Sing	7	obj	_	_
+9	with	with	ADP	IN	_	13	case	_	_
+10	strong	strong	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	simple	simple	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	words	word	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

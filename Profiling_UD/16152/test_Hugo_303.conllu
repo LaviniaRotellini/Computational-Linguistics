@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The gypsy walked slowly towards the door, without making any reply.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	gypsy	gypsy	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	slowly	slowly	ADV	RB	_	3	advmod	_	_
+5	towards	towards	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	door	door	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	without	without	SCONJ	IN	_	10	mark	_	_
+10	making	make	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	reply	reply	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But the nearer she approached it, the more her pace slackened.
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	nearer	nearer	NOUN	NN	Number=Sing	12	nsubj	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	pace	pace	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	slackened	slacken	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = An irresistible magnet seemed to hold her.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	irresistible	irresistible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	magnet	magnet	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	hold	hold	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Suddenly she turned her eyes, wet with tears, towards Phœbus, and halted.
+1	Suddenly	suddenly	ADV	RB	_	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	eyes	eye	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	wet	wet	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	tears	tear	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	towards	towards	ADP	IN	_	12	case	_	_
+12	Phœbus	Phœbus	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	halted	halt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

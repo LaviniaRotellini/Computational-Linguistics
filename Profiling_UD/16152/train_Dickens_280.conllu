@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She seemed to delight in teasing me, which was a change in her I wondered at very much.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	delight	delight	NOUN	NN	Number=Sing	2	obl	_	_
+5	in	in	SCONJ	IN	_	6	mark	_	_
+6	teasing	tease	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	change	change	NOUN	NN	Number=Sing	2	acl:relcl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	wondered	wonder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+17	at	at	ADV	RB	_	19	advmod	_	_
+18	very	very	ADV	RB	_	19	advmod	_	_
+19	much	much	ADV	RB	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The tea table was ready, and our little locker was put out in its old place, but instead of coming to sit by me, she went and bestowed her company upon that grumbling Mrs. Gummidge: and on Mr. Peggotty’s inquiring why, rumpled her hair all over her face to hide it, and could do nothing but laugh.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	tea	tea	NOUN	NN	Number=Sing	3	compound	_	_
+3	table	table	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	locker	locker	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+13	out	out	ADP	RP	_	12	compound:prt	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	old	old	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	place	place	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	29	punct	_	_
+19	but	but	CCONJ	CC	_	29	cc	_	_
+20	instead	instead	ADV	RB	_	22	mark	_	_
+21	of	of	SCONJ	IN	_	20	fixed	_	_
+22	coming	come	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	sit	sit	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	by	by	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	bestowed	bestow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	conj	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	company	company	NOUN	NN	Number=Sing	31	obj	_	_
+34	upon	upon	ADP	IN	_	36	mark	_	_
+35	that	that	SCONJ	IN	_	36	mark	_	_
+36	grumbling	grumbl	VERB	VBG	VerbForm=Ger	31	advcl	_	_
+37	Mrs.	Mrs.	PROPN	NNP	Number=Sing	36	obj	_	_
+38	Gummidge	Gummidge	PROPN	NNP	Number=Sing	37	flat	_	SpaceAfter=No
+39	:	:	PUNCT	:	_	48	punct	_	_
+40	and	and	CCONJ	CC	_	48	cc	_	_
+41	on	on	ADP	IN	_	42	case	_	_
+42	Mr.	Mr.	PROPN	NNP	Number=Sing	48	obl	_	_
+43	Peggotty	Peggotty	PROPN	NNP	Number=Sing	42	flat	_	SpaceAfter=No
+44	’s	's	PART	POS	_	42	case	_	_
+45	inquiring	inquire	VERB	VBG	VerbForm=Ger	48	advcl	_	_
+46	why	why	ADV	WRB	PronType=Int	45	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	48	punct	_	_
+48	rumpled	rumple	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+49	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	nmod:poss	_	_
+50	hair	hair	NOUN	NN	Number=Sing	48	obj	_	_
+51	all	all	ADV	RB	_	54	advmod	_	_
+52	over	over	ADP	IN	_	54	case	_	_
+53	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	54	nmod:poss	_	_
+54	face	face	NOUN	NN	Number=Sing	50	nmod	_	_
+55	to	to	PART	TO	_	56	mark	_	_
+56	hide	hide	VERB	VB	VerbForm=Inf	48	acl	_	_
+57	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	obj	_	SpaceAfter=No
+58	,	,	PUNCT	,	_	61	punct	_	_
+59	and	and	CCONJ	CC	_	61	cc	_	_
+60	could	could	AUX	MD	VerbForm=Fin	61	aux	_	_
+61	do	do	VERB	VB	VerbForm=Inf	5	conj	_	_
+62	nothing	nothing	PRON	NN	Number=Sing	61	obj	_	_
+63	but	but	CCONJ	CC	_	64	cc	_	_
+64	laugh	laugh	ADJ	JJ	Degree=Pos	62	conj	_	SpaceAfter=No
+65	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

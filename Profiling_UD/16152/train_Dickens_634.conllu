@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well,
+1	‘	'	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mas’r
+1	Mas’r	Mas’r	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Davy, in a general way, so ‘t would be,’ he returned; ‘but look’ee here, Mas’r Davy,’ lowering his voice, and speaking very gravely.
+1	Davy	Davy	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	general	general	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	way	way	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	so	so	ADV	RB	_	11	advmod	_	_
+9	‘t	‘t	ADV	RB	_	11	advmod	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	be	be	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+13	’	’	PUNCT	''	_	11	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	11	punct	_	_
+17	‘	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+18	but	but	CCONJ	CC	_	19	cc	_	_
+19	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+20	’ee	’ee	ADP	IN	_	21	case	_	_
+21	here	here	ADV	RB	PronType=Dem	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	Mas’r	Mas’r	PROPN	NNP	Number=Sing	19	obj	_	_
+24	Davy	Davy	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,’	,’	PUNCT	.	_	19	punct	_	_
+26	lowering	lower	VERB	VBG	VerbForm=Ger	19	xcomp	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	voice	voice	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	speaking	speak	VERB	VBG	VerbForm=Ger	26	conj	_	_
+32	very	very	ADV	RB	_	33	advmod	_	_
+33	gravely	gravely	ADV	RB	_	31	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = ‘It’s a young woman, sir--a young woman, that Em’ly knowed once, and doen’t ought to know no more.’
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	woman	woman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	sir	sir	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+9	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	young	young	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	woman	woman	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	Em	they	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+16	’ly	’ly	ADV	RB	_	17	advmod	_	_
+17	knowed	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	_
+18	once	once	ADV	RB	NumType=Mult	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	doe	doe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	25	advmod	_	_
+23	ought	ink	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	know	know	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+26	no	no	ADV	RB	_	27	advmod	_	_
+27	more	more	ADV	RBR	_	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

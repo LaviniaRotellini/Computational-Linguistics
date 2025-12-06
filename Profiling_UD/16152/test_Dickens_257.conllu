@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Which I meantersay,” cried Joe, “that if you come into my place bull-baiting and badgering me, come out!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Which	which	PRON	WDT	PronType=Int	4	obj	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Joe	Joe	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+11	that	that	SCONJ	IN	_	25	mark	_	_
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+15	into	into	ADP	IN	_	20	case	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+17	place	place	NOUN	NN	Number=Sing	20	compound	_	_
+18	bull	bull	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	baiting	baiting	NOUN	NN	Number=Sing	14	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	badgering	badger	VERB	VBG	VerbForm=Ger	14	conj	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	come	come	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+26	out	out	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Which I meantersay as sech if you’re a man, come on!
+1	Which	which	PRON	WDT	PronType=Int	12	nsubj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	as	as	ADP	IN	_	5	case	_	_
+5	sech	sech	NOUN	NN	Number=Sing	3	obl	_	_
+6	if	if	SCONJ	IN	_	8	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	on	on	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Which I meantersay that what I say, I meantersay and stand or fall by!”
+1	Which	which	PRON	WDT	PronType=Int	3	obj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	what	what	PRON	WP	PronType=Int	7	obj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	stand	stand	VERB	VB	VerbForm=Inf	10	conj	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	fall	fall	VERB	VB	VerbForm=Inf	10	conj	_	_
+15	by	by	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

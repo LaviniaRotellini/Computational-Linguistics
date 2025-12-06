@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When the alcove was in use, a large serge curtain drawn from wall to wall concealed the altar.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	alcove	alcove	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	use	use	NOUN	NN	Number=Sing	17	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	17	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	large	large	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	serge	serge	NOUN	NN	Number=Sing	11	compound	_	_
+11	curtain	curtain	NOUN	NN	Number=Sing	17	nsubj	_	_
+12	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	wall	wall	NOUN	NN	Number=Sing	12	obl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	wall	wall	NOUN	NN	Number=Sing	12	obl	_	_
+17	concealed	conceal	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	altar	altar	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = The Bishop knelt before this curtain as he passed and said a brief prayer.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Bishop	Bishop	PROPN	NNP	Number=Sing	3	compound	_	_
+3	knelt	knelt	NOUN	NN	Number=Sing	0	root	_	_
+4	before	before	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	curtain	curtain	NOUN	NN	Number=Sing	3	nmod	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	brief	brief	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	prayer	prayer	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = A moment later he was in his garden, walking, meditating, contemplating, his heart and soul wholly absorbed in those grand and mysterious things which God shows at night to the eyes which remain open.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	moment	moment	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	later	later	ADV	RBR	Degree=Cmp	2	advmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	garden	garden	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	meditating	meditat	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	contemplating	contemplate	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	heart	heart	NOUN	NN	Number=Sing	8	conj	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	soul	soul	X	GW	_	21	aux:pass	_	_
+20	wholly	wholly	ADV	RB	_	21	advmod	_	_
+21	absorbed	absorb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	conj	_	_
+22	in	in	ADP	IN	_	27	case	_	_
+23	those	those	DET	DT	Number=Plur|PronType=Dem	27	det	_	_
+24	grand	grand	ADJ	JJ	Degree=Pos	27	amod	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	mysterious	mysterious	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	things	thing	NOUN	NNS	Number=Plur	21	obl	_	_
+28	which	which	PRON	WDT	PronType=Rel	30	obj	_	_
+29	God	god	PROPN	NNP	Number=Sing	30	nsubj	_	_
+30	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+31	at	at	ADP	IN	_	32	case	_	_
+32	night	night	NOUN	NN	Number=Sing	30	obl	_	_
+33	to	to	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	eyes	eye	NOUN	NNS	Number=Plur	17	nmod	_	_
+36	which	which	PRON	WDT	PronType=Rel	37	nsubj	_	_
+37	remain	remain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+38	open	open	ADJ	JJ	Degree=Pos	37	xcomp	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

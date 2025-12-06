@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = pardieu, this is too much!” exclaimed the old man.
+1	pardieu	pardieu	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	9	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+9	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	man	man	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = “I am the person for whom you got the place here, and this house is the one where you had me placed.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	person	person	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	whom	whom	PRON	WP	PronType=Rel	9	obl	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	place	place	NOUN	NN	Number=Sing	9	obj	_	_
+12	here	here	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	house	house	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	one	one	NOUN	NN	Number=Sing	5	conj	_	_
+20	where	where	ADV	WRB	PronType=Rel	22	advmod	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	placed	place	VERB	VBN	Tense=Past|VerbForm=Part	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = What!
+1	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = You don’t recognize me?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	recognize	recognize	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

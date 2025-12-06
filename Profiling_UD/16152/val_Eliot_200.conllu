@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s as false a word as ever you spoke, Mr Glegg,” said the lady, pouring out the milk with unusual profuseness, as much as to say, if he wanted milk he should have it with a vengeance.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+4	as	as	SCONJ	IN	_	5	mark	_	_
+5	false	false	ADJ	JJ	Degree=Pos	3	advcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	word	word	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	as	as	SCONJ	IN	_	11	mark	_	_
+9	ever	ever	ADV	WRB	PronType=Int	11	advmod	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	Mr	Mr	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Glegg	Glegg	PROPN	NNP	Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	lady	lady	NOUN	NN	Number=Sing	41	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	pouring	pour	VERB	VBG	VerbForm=Ger	41	advcl	_	_
+22	out	out	ADP	RP	_	21	compound:prt	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	milk	milk	NOUN	NN	Number=Sing	21	obj	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	unusual	unusual	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	profuseness	profuseness	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	21	punct	_	_
+29	as	as	ADV	RB	_	30	advmod	_	_
+30	much	much	ADJ	JJ	Degree=Pos	41	advmod	_	_
+31	as	as	SCONJ	IN	_	33	mark	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	say	say	VERB	VB	VerbForm=Inf	30	advcl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	30	punct	_	_
+35	if	if	SCONJ	IN	_	37	mark	_	_
+36	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	_
+38	milk	milk	NOUN	NN	Number=Sing	37	obj	_	_
+39	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	should	should	AUX	MD	VerbForm=Fin	41	aux	_	_
+41	have	have	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+42	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+43	with	with	ADP	IN	_	45	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	vengeance	vengeance	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “And you know it’s false.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	4	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	false	false	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I’m not the woman to quarrel with my own kin; _you_ may, for I’ve known you to do it.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	quarrel	quarrel	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	kin	kin	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	5	punct	_	_
+13	_	_	SYM	NFP	_	14	punct	_	SpaceAfter=No
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	_	_	SYM	NFP	_	16	punct	_	_
+16	may	may	AUX	MD	VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	for	for	CCONJ	CC	_	21	cc	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+20	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	known	know	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	do	do	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It has a single orifice in the centre of its radii, which appears at first to be neither the vent nor the mouth.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	single	single	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	orifice	orifice	NOUN	NN	Number=Sing	2	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	centre	centre	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	radii	radii	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	first	first	ADV	RB	_	14	obl	_	_
+17	to	to	PART	TO	_	21	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+19	neither	neither	CCONJ	CC	_	21	cc:preconj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	vent	vent	NOUN	NN	Number=Sing	14	advcl	_	_
+22	nor	nor	CCONJ	CC	_	24	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	mouth	mouth	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It is, in fact, both one and the other.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	fact	fact	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	both	both	CCONJ	CC	_	8	cc:preconj	_	_
+8	one	one	NUM	CD	NumType=Card	0	root	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	other	other	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = The orifice performs a double function.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	orifice	orifice	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	performs	perform	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	double	double	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	function	function	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The entire creature is cold.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	entire	entire	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	creature	creature	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

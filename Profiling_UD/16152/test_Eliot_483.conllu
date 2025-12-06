@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, nay,” said Mr. Poyser, who certainly had the air of a man perfectly heart-whole, “it isna so bad as that.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	nay	nay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Poyser	Poyser	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+12	certainly	certainly	ADV	RB	_	13	advmod	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	air	air	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	man	man	NOUN	NN	Number=Sing	28	nmod	_	_
+19	perfectly	perfectly	ADV	RB	_	20	advmod	_	_
+20	heart	heart	NOUN	NN	Number=Sing	22	obl:npmod	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	whole	whole	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	“	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	isna	isna	ADV	RB	_	28	advmod	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	bad	bad	ADJ	JJ	Degree=Pos	15	amod	_	_
+29	as	as	ADP	IN	_	30	case	_	_
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Thee’t looking rarely now, and getting flesh every day.
+1	Thee’t	Theeot	PART	RB	_	2	mark	_	_
+2	looking	look	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	rarely	rarely	ADV	RB	_	2	advmod	_	_
+4	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	getting	get	VERB	VBG	VerbForm=Ger	2	conj	_	_
+8	flesh	flesh	ADV	RB	_	7	advmod	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	day	day	NOUN	NN	Number=Sing	7	obl:tmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But I’d be glad for Dinah t’ come, for she’d help thee wi’ the little uns: they took t’ her wonderful.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	Dinah	Dinah	PROPN	NNP	Number=Sing	8	compound	_	_
+8	t	t	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	’	's	PUNCT	''	_	10	punct	_	_
+10	come	come	VERB	VB	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+14	’d	’d	ADV	RB	_	15	advmod	_	_
+15	help	help	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+16	thee	thee	NUM	CD	NumType=Card	17	nummod	_	_
+17	wi	wus	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	3	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	uns	un	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+22	:	:	PUNCT	:	_	3	punct	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+25	t	t	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+26	’	’	PUNCT	''	_	28	punct	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	wonderful	wonderful	ADJ	JJ	Degree=Pos	24	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

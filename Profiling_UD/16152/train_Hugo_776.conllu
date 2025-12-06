@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All generous social irradiations spring from science, letters, arts, education.
+1	All	all	DET	DT	_	5	det	_	_
+2	generous	generous	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	social	social	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	irradiations	irradiation	NOUN	NNS	Number=Plur	5	compound	_	_
+5	spring	spring	NOUN	NN	Number=Sing	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	science	science	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	letters	letter	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	arts	art	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	education	education	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Make men, make men.
+1	Make	make	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	men	man	NOUN	NNS	Number=Plur	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	men	man	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Give them light that they may warm you.
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	iobj	_	_
+3	light	light	NOUN	NN	Number=Sing	1	obj	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	warm	warm	VERB	VB	VerbForm=Inf	1	csubj	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sooner or later the splendid question of universal education will present itself with the irresistible authority of the absolute truth; and then, those who govern under the superintendence of the French idea will have to make this choice; the children of France or the gamins of Paris; flames in the light or will-o’-the-wisps in the gloom.
+1	Sooner	sooner	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	or	or	CCONJ	CC	_	3	cc	_	_
+3	later	later	ADV	RBR	Degree=Cmp	1	conj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	splendid	splendid	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	question	question	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	universal	universal	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	education	education	NOUN	NN	Number=Sing	6	nmod	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	present	present	VERB	VB	VerbForm=Inf	0	root	_	_
+12	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	irresistible	irresistible	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	authority	authority	NOUN	NN	Number=Sing	11	obl	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	absolute	absolute	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	truth	truth	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	36	punct	_	_
+22	and	and	CCONJ	CC	_	36	cc	_	_
+23	then	then	ADV	RB	PronType=Dem	36	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	36	punct	_	_
+25	those	those	PRON	DT	Number=Plur|PronType=Dem	36	nsubj	_	_
+26	who	who	PRON	WP	PronType=Rel	27	nsubj	_	_
+27	govern	govern	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	under	under	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	superintendence	superintendence	NOUN	NN	Number=Sing	27	obl	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+33	French	french	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	idea	idea	NOUN	NN	Number=Sing	30	nmod	_	_
+35	will	will	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	have	have	VERB	VB	VerbForm=Inf	11	conj	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	make	make	VERB	VB	VerbForm=Inf	36	xcomp	_	_
+39	this	this	DET	DT	Number=Sing|PronType=Dem	40	det	_	_
+40	choice	choice	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+41	;	;	PUNCT	,	_	11	punct	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	children	child	NOUN	NNS	Number=Plur	11	appos	_	_
+44	of	of	ADP	IN	_	45	case	_	_
+45	France	France	PROPN	NNP	Number=Sing	43	nmod	_	_
+46	or	or	CCONJ	CC	_	48	cc	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	gamins	gamin	NOUN	NNS	Number=Plur	45	conj	_	_
+49	of	of	ADP	IN	_	50	case	_	_
+50	Paris	Paris	PROPN	NNP	Number=Sing	48	nmod	_	SpaceAfter=No
+51	;	;	PUNCT	,	_	11	punct	_	_
+52	flames	flame	NOUN	NNS	Number=Plur	11	parataxis	_	_
+53	in	in	ADP	IN	_	55	case	_	_
+54	the	the	DET	DT	Definite=Def|PronType=Art	55	det	_	_
+55	light	light	NOUN	NN	Number=Sing	52	nmod	_	_
+56	or	or	CCONJ	CC	_	63	cc	_	_
+57	will	will	AUX	MD	VerbForm=Fin	63	aux	_	SpaceAfter=No
+58	-	-	PUNCT	HYPH	_	63	punct	_	SpaceAfter=No
+59	o	of	ADV	RB	_	63	case	_	SpaceAfter=No
+60	’-	’-	PUNCT	.	_	63	punct	_	SpaceAfter=No
+61	the	the	DET	DT	Definite=Def|PronType=Art	63	det	_	SpaceAfter=No
+62	-	-	PUNCT	HYPH	_	63	punct	_	SpaceAfter=No
+63	wisps	wisp	NOUN	NNS	Number=Plur	52	conj	_	_
+64	in	in	ADP	IN	_	66	case	_	_
+65	the	the	DET	DT	Definite=Def|PronType=Art	66	det	_	_
+66	gloom	gloom	NOUN	NN	Number=Sing	63	nmod	_	SpaceAfter=No
+67	.	.	PUNCT	.	_	63	punct	_	SpacesAfter=\n
+

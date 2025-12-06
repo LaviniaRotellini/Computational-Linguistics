@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This liberty goes very far.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	liberty	liberty	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	far	far	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Sometimes a portal, a façade, an entire church, presents a symbolical sense absolutely foreign to worship, or even hostile to the Church.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	portal	portal	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	façade	façade	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	entire	entire	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	church	church	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	presents	present	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	symbolical	symbolical	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	sense	sense	NOUN	NN	Number=Sing	12	obj	_	_
+16	absolutely	absolutely	ADV	RB	_	17	advmod	_	_
+17	foreign	foreign	ADJ	JJ	Degree=Pos	15	amod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	worship	worship	VERB	VB	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	or	or	CCONJ	CC	_	23	cc	_	_
+22	even	even	ADV	RB	_	23	advmod	_	_
+23	hostile	hostile	ADJ	JJ	Degree=Pos	12	conj	_	_
+24	to	to	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	Church	Church	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = In the thirteenth century, Guillaume de Paris, and Nicholas Flamel, in the fifteenth, wrote such seditious pages.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	thirteenth	thirteenth	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	century	century	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	Guillaume	Guillaume	PROPN	NNP	Number=Sing	8	compound	_	_
+7	de	de	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Paris	Paris	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	Nicholas	Nicholas	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Flamel	Flamel	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	fifteenth	fifteenth	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	such	such	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	seditious	seditious	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	pages	page	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 4
+# text = Saint-Jacques de la Boucherie was a whole church of the opposition.
+1	Saint	Saint	PROPN	NNP	Number=Sing	5	compound	_	SpaceAfter=No
+2	-	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+3	Jacques	Jacques	PROPN	NNP	Number=Sing	1	flat	_	_
+4	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+5	la	la	PROPN	NNP	Number=Sing	10	nsubj	_	_
+6	Boucherie	Boucherie	PROPN	NNP	Number=Sing	5	flat	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	whole	whole	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	church	church	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	opposition	opposition	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

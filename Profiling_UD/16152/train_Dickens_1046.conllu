@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘But these writings, you know, that I speak of, are already drawn up and finished,’ said Traddles after a little consideration.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	writings	writings	NOUN	NNS	Number=Plur	7	obl:tmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	speak	speak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	of	of	ADP	IN	_	11	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	already	already	ADV	RB	_	16	advmod	_	_
+16	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+23	Traddles	Traddles	PROPN	NNP	Number=Sing	22	nsubj	_	_
+24	after	after	ADP	IN	_	27	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	little	little	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	consideration	consideration	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘Mr.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr	Mr	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Dick has nothing to do with them.
+1	Dick	Dick	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	do	do	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wouldn’t that make a difference, Copperfield?
+1	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+2	n’t	n’t	PART	RB	_	4	advmod	_	_
+3	that	that	ADV	WRB	PronType=Dem	4	advmod	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	difference	difference	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Copperfield	Copperfield	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = At all events, wouldn’t it be well to try?’
+1	At	at	ADP	IN	_	3	case	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	events	event	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+6	n’t	n’t	VERB	VB	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	well	well	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	try	try	VERB	VB	VerbForm=Inf	9	csubj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius thought that it would be wise to profit by Jondrette’s absence to return home; moreover, it was growing late; every evening, Ma’am Bougon when she set out for her dish-washing in town, had a habit of locking the door, which was always closed at dusk.
+1	Marius	Marius	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	wise	wise	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	profit	profit	VERB	VB	VerbForm=Inf	7	csubj	_	_
+10	by	by	ADP	IN	_	13	case	_	_
+11	Jondrette	Jondrette	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	absence	absence	NOUN	NN	Number=Sing	9	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	return	return	VERB	VB	VerbForm=Inf	9	advcl	_	_
+16	home	home	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	9	punct	_	_
+18	moreover	moreover	ADV	RB	_	9	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	2	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	growing	grow	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+23	late	late	ADV	RB	Degree=Pos	22	advmod	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	2	punct	_	_
+25	every	every	DET	DT	_	26	det	_	_
+26	evening	evening	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	2	punct	_	_
+28	Ma’	ma’	PUNCT	''	_	30	punct	_	SpaceAfter=No
+29	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	Bougon	Bougon	PROPN	NNP	Number=Sing	33	obl	_	_
+31	when	when	ADV	WRB	PronType=Int	33	mark	_	_
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+34	out	out	ADP	RP	_	33	compound:prt	_	_
+35	for	for	ADP	IN	_	37	case	_	_
+36	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	dish	dish	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+38	-	-	PUNCT	,	_	33	punct	_	SpaceAfter=No
+39	washing	wash	VERB	VBG	VerbForm=Ger	33	xcomp	_	_
+40	in	in	ADP	IN	_	41	case	_	_
+41	town	town	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	43	punct	_	_
+43	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	habit	habit	NOUN	NN	Number=Sing	43	obj	_	_
+46	of	of	SCONJ	IN	_	47	mark	_	_
+47	locking	loc	VERB	VBG	VerbForm=Ger	45	acl	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	door	door	NOUN	NN	Number=Sing	47	obj	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	2	punct	_	_
+51	which	which	PRON	WDT	PronType=Rel	54	nsubj:pass	_	_
+52	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	54	aux:pass	_	_
+53	always	always	ADV	RB	_	54	advmod	_	_
+54	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+55	at	at	ADP	IN	_	56	case	_	_
+56	dusk	dusk	NOUN	NN	Number=Sing	54	obl	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Marius had given his key to the inspector of police; it was important, therefore, that he should make haste.
+1	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	key	key	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	inspector	inspector	NOUN	NN	Number=Sing	3	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	police	police	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	important	important	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	therefore	therefore	ADV	RB	_	21	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	should	should	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	make	make	VERB	VB	VerbForm=Inf	14	conj	_	_
+22	haste	haste	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

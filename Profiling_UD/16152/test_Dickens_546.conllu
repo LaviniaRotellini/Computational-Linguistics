@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why should I call you mad,” returned Estella, “I, of all people?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	mad	mad	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	Estella	Estella	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	all	all	DET	DT	_	18	det	_	_
+18	people	people	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Does any one live, who knows what set purposes you have, half as well as I do?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	any	any	DET	DT	_	4	det	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	live	live	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	what	what	PRON	WP	PronType=Int	10	det	_	_
+9	set	set	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	purposes	purpose	NOUN	NNS	Number=Plur	12	obj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	half	half	X	GW	_	4	appos	_	_
+15	as	as	ADV	RB	_	4	advmod	_	_
+16	well	well	ADV	RB	Degree=Pos	15	fixed	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Does any one live, who knows what a steady memory you have, half as well as I do?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	any	any	DET	DT	_	4	det	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	live	live	NOUN	NN	Number=Sing	21	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	what	what	PRON	WP	PronType=Int	11	obj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	steady	steady	NOUN	NN	Number=Sing	11	compound	_	_
+11	memory	memory	NOUN	NN	Number=Sing	7	obj	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	half	half	X	GW	_	11	appos	_	_
+16	as	as	ADV	RB	_	7	advmod	_	_
+17	well	well	ADV	RB	Degree=Pos	16	fixed	_	_
+18	as	as	SCONJ	IN	_	20	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I who have sat on this same hearth on the little stool that is even now beside you there, learning your lessons and looking up into your face, when your face was strange and frightened me!”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	sat	sit	NOUN	NN	Number=Sing	3	obj	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hearth	hearth	NOUN	NN	Number=Sing	3	obl	_	_
+9	on	on	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	stool	stool	NOUN	NN	Number=Sing	8	nmod	_	_
+13	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	even	even	ADV	RB	_	16	advmod	_	_
+16	now	now	ADV	RB	_	17	advmod	_	_
+17	beside	beside	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	obj	_	_
+19	there	there	ADV	RB	PronType=Dem	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	17	punct	_	_
+21	learning	learn	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	lessons	lesson	NOUN	NNS	Number=Plur	21	obj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	looking	look	VERB	VBG	VerbForm=Ger	21	conj	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	_
+27	into	into	ADP	IN	_	29	case	_	_
+28	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	face	face	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	17	punct	_	_
+31	when	when	ADV	WRB	PronType=Int	35	mark	_	_
+32	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	face	face	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	_
+35	strange	strange	ADJ	JJ	Degree=Pos	17	advcl	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	frightened	frighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	_
+38	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	obj	_	SpaceAfter=No
+39	!	!	PUNCT	.	_	17	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+

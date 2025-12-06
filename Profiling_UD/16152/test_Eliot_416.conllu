@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, nay; you fancy so because you donna know it, my wench.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	nay	nay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	fancy	fancy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	so	so	ADV	RB	_	7	advmod	_	_
+9	because	because	SCONJ	IN	_	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	don	don	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+12	na	to	PART	TO	Abbr=Yes	13	mark	_	_
+13	know	know	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	wench	wench	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = It wouldn’t be half so good for your health, nor for your luck i’ life.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	7	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	half	half	X	GW	_	7	goeswith	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	health	health	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	nor	nor	CCONJ	CC	_	15	cc	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	luck	luck	NOUN	NN	Number=Sing	7	conj	_	_
+16	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	’	’	PUNCT	''	_	18	punct	_	_
+18	life	life	NOUN	NN	Number=Sing	15	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = I’d like you to stay wi’ us till you’ve got a good husband: you’re my own niece, and I wouldn’t have you go to service, though it was a gentleman’s house, as long as I’ve got a home for you.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	like	like	SCONJ	IN	_	6	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	stay	stay	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	wi	wi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	6	obj	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+10	till	till	SCONJ	IN	_	13	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	got	get	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	good	good	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	husband	husband	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	2	punct	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	SpaceAfter=No
+19	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	niece	niece	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+26	would	would	AUX	MD	VerbForm=Fin	28	aux	_	SpaceAfter=No
+27	n’t	not	PART	RB	_	28	advmod	_	_
+28	have	have	VERB	VB	VerbForm=Inf	2	conj	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+30	go	go	VERB	VB	VerbForm=Inf	28	ccomp	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	service	service	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	2	punct	_	_
+34	though	though	SCONJ	IN	_	40	mark	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+36	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	cop	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	gentleman	gentleman	NOUN	NN	Number=Sing	40	nmod:poss	_	SpaceAfter=No
+39	’s	's	PART	POS	_	38	case	_	_
+40	house	house	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	40	punct	_	_
+42	as	as	ADV	RB	_	43	advmod	_	_
+43	long	long	ADV	RB	Degree=Pos	40	advmod	_	_
+44	as	as	SCONJ	IN	_	47	mark	_	_
+45	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	SpaceAfter=No
+46	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	47	aux	_	_
+47	got	get	VERB	VBN	Tense=Past|VerbForm=Part	43	advcl	_	_
+48	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	_
+49	home	home	NOUN	NN	Number=Sing	47	obj	_	_
+50	for	for	ADP	IN	_	51	case	_	_
+51	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	40	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+53	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

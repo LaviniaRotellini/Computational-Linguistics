@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Schön!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Schön	Schön	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I will talk of my Aquinas.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	Aquinas	Aquina	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The head is not a bad type, after all.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	head	head	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	bad	bad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	type	type	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	after	after	ADV	RB	_	10	case	_	_
+10	all	all	DET	DT	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = I dare say the great scholastic himself would have been flattered to have his portrait asked for.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	scholastic	scholastic	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	nmod:npmod	_	_
+8	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	flattered	flatter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	have	have	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	portrait	portrait	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	for	for	ADP	IN	_	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nothing like these starchy doctors for vanity!
+1	Nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+2	like	like	ADP	IN	_	5	case	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+4	starchy	starchy	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	doctors	doctor	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	vanity	vanity	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = It was as I thought: he cared much less for her portrait than his own.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	2	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	cared	care	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	much	much	ADV	RB	_	10	advmod	_	_
+10	less	less	ADJ	JJR	Degree=Cmp	8	advmod	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	portrait	portrait	NOUN	NN	Number=Sing	10	obl	_	_
+14	than	than	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

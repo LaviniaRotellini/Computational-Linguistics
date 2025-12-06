@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Go along with you, sir!’ said my aunt, anything but appeased.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	along	along	ADV	RB	_	2	advmod	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	sir	sir	ADJ	JJR	Degree=Cmp	2	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	2	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	aunt	aunt	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	anything	anything	PRON	NN	Number=Sing	16	nsubj	_	_
+15	but	but	CCONJ	CC	_	16	cc	_	_
+16	appeased	appease	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘Don’t presume to say so!
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	presume	presume	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	so	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I am nothing of the sort.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sort	sort	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = If you’re an eel, sir, conduct yourself like one.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	eel	eel	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	sir	sir	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	conduct	conduct	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+10	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	obj	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	one	one	NUM	CD	NumType=Card	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = If you’re a man, control your limbs, sir!
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	control	control	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	limbs	limb	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	sir	sir	ADJ	JJR	Degree=Cmp	7	xcomp	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Good God!’
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	God	God	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 7
+# text = said my aunt, with great indignation, ‘I am not going to be serpentined and corkscrewed out of my senses!’
+1	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	aunt	aunt	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	indignation	indignation	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	‘	'	PUNCT	``	_	1	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	ccomp	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	serpentined	serpentin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	corkscrewed	corkscrew	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	_
+19	out	out	ADP	IN	_	22	case	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	senses	sense	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+23	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

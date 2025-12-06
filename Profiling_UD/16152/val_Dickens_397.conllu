@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘But there is something—not an Ology at all—that your father has missed, or forgotten, Louisa.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	something	something	PRON	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+6	—	-	PUNCT	:	_	5	punct	_	SpaceAfter=No
+7	not	not	PART	RB	_	9	advmod	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	Ology	Ology	NOUN	NN	Number=Sing	5	appos	_	_
+10	at	at	ADV	RB	_	11	case	_	_
+11	all	all	ADV	RB	_	9	nmod	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	father	father	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	missed	miss	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	or	or	CCONJ	CC	_	20	cc	_	_
+20	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	Louisa	Louisa	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I don’t know what it is.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	7	obl	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have often sat with Sissy near me, and thought about it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	sat	sit	ADJ	JJ	Degree=Pos	2	obj	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	Sissy	Sissy	PROPN	NNP	Number=Sing	4	obl	_	_
+7	near	near	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	about	about	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I shall never get its name now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	name	name	ADV	RB	_	8	advmod	_	_
+8	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = But your father may.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	father	father	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	may	may	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = It makes me restless.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	restless	restless	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = I want to write to him, to find out for God’s sake, what it is.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	write	write	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	find	find	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	God	God	PROPN	NNP	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	sake	sake	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	what	what	PRON	WP	PronType=Int	18	obj	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Give me a pen, give me a pen.’
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	pen	pen	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	pen.	pen.	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

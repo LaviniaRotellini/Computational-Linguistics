@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Some years ago, I borrowed from you, under somewhat irregular circumstances, the sum of fifty thousand francs.
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Some	some	DET	DT	_	3	det	_	_
+3	years	year	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	ago	ago	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	borrowed	borrow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	under	under	ADP	IN	_	14	case	_	_
+12	somewhat	somewhat	ADV	RB	_	13	advmod	_	_
+13	irregular	irregular	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	circumstances	circumstance	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sum	sum	NOUN	NN	Number=Sing	7	obj	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	fifty	fifty	NUM	CD	NumType=Card	20	compound	_	_
+20	thousand	thousand	NUM	CD	NumType=Card	21	nummod	_	_
+21	francs	franc	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Before leaving St. Malo lately, I placed in the hands of your confidential man of business, Sieur Clubin, on your account three bank-notes of one thousand pounds each; making together seventy-five thousand francs.
+1	Before	before	SCONJ	IN	_	2	mark	_	_
+2	leaving	leave	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+3	St.	St.	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Malo	Malo	PROPN	NNP	Number=Sing	3	flat	_	_
+5	lately	lately	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	placed	place	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	hands	hand	NOUN	NNS	Number=Plur	8	obl	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	confidential	confidential	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	man	man	NOUN	NN	Number=Sing	11	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	business	business	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	Sieur	Sieur	PROPN	NNP	Number=Sing	15	appos	_	_
+20	Clubin	Clubin	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	8	punct	_	_
+22	on	on	ADP	IN	_	26	case	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+24	account	account	NOUN	NN	Number=Sing	26	compound	_	_
+25	three	three	NUM	CD	NumType=Card	26	nummod	_	_
+26	bank	bank	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+28	notes	note	NOUN	NNS	Number=Plur	8	obj	_	_
+29	of	of	ADP	IN	_	32	case	_	_
+30	one	one	NUM	CD	NumType=Card	31	compound	_	_
+31	thousand	thousand	NUM	CD	NumType=Card	32	nummod	_	_
+32	pounds	pound	NOUN	NNS	Number=Plur	28	nmod	_	_
+33	each	each	DET	DT	_	32	nmod:npmod	_	SpaceAfter=No
+34	;	;	PUNCT	,	_	8	punct	_	_
+35	making	make	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+36	together	together	ADV	RB	_	35	advmod	_	_
+37	seventy	seventy	NUM	CD	NumType=Card	40	compound	_	SpaceAfter=No
+38	-	-	SYM	SYM	_	39	case	_	SpaceAfter=No
+39	five	five	NUM	CD	NumType=Card	37	nmod	_	_
+40	thousand	thousand	NUM	CD	NumType=Card	41	nummod	_	_
+41	francs	franc	NOUN	NNS	Number=Plur	35	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = You will no doubt find this reimbursement sufficient.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	no	no	ADV	RB	_	5	advmod	_	_
+4	doubt	doubt	ADV	RB	_	5	advmod	_	_
+5	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	reimbursement	reimbursement	NOUN	NN	Number=Sing	5	obj	_	_
+8	sufficient	sufficient	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

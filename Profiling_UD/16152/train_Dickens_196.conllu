@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Would you like me to do it, Mr. Barkis?’ said I, doubtfully.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obj	_	_
+11	Barkis	Barkis	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	doubtfully	doubtfully	ADV	RB	_	14	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = ‘You might tell her, if you would,’ said Mr. Barkis, with another slow look at me, ‘that Barkis was a-waitin’ for a answer.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Barkis	Barkis	PROPN	NNPS	Number=Plur	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	another	another	DET	DT	_	19	det	_	_
+18	slow	slow	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	look	look	NOUN	NN	Number=Sing	12	obl	_	_
+20	at	at	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	12	punct	_	_
+23	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+24	that	that	SCONJ	IN	_	29	mark	_	_
+25	Barkis	Barkis	PROPN	NNP	Number=Sing	29	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	waitin	waitin	NOUN	NN	Number=Sing	12	ccomp	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	29	punct	_	_
+31	for	for	ADP	IN	_	33	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	answer	answer	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Says you--what name is it?’
+1	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+4	what	what	DET	WDT	PronType=Int	5	det	_	_
+5	name	name	NOUN	NN	Number=Sing	2	appos	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	ccomp	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

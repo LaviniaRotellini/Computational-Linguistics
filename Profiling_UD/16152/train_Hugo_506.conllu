@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “About Nanterre and Suresnes the vines have flourished greatly.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	About	about	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Nanterre	Nanterre	PROPN	NNP	Number=Sing	9	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Suresnes	Suresnes	PROPN	NNPS	Number=Plur	3	conj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	vines	vine	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	flourished	flourish	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	greatly	greatly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = When ten pieces were reckoned on there have been twelve.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	ten	ten	NUM	CD	NumType=Card	3	nummod	_	_
+3	pieces	piece	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	reckoned	reckon	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	there	there	ADV	RB	PronType=Dem	5	obl	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+10	twelve	twelve	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = They have yielded a great deal of juice under the press.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	yielded	yield	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	deal	deal	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	juice	juice	NOUN	NN	Number=Sing	6	nmod	_	_
+9	under	under	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	press	press	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = “But the grapes cannot be ripe?”
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	8	cc	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	grapes	grape	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+6	not	not	PART	RB	_	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	ripe	ripe	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 5
+# text = “In those parts the grapes should not be ripe; the wine turns oily as soon as spring comes.”
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	In	in	ADP	IN	_	4	case	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	parts	part	NOUN	NNS	Number=Plur	10	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	grapes	grape	NOUN	NNS	Number=Plur	10	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	ripe	ripe	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	10	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	wine	wine	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+15	oily	oily	ADV	RB	_	14	advmod	_	_
+16	as	as	ADV	RB	_	17	advmod	_	_
+17	soon	soon	ADV	RB	Degree=Pos	14	advmod	_	_
+18	as	as	SCONJ	IN	_	20	mark	_	_
+19	spring	spring	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 6
+# text = “Then it is very thin wine?”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	7	advmod	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	very	very	ADV	RB	_	7	advmod	_	_
+6	thin	thin	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	wine	wine	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 7
+# text = “There are wines poorer even than these.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	wines	wine	NOUN	NNS	Number=Plur	5	compound	_	_
+5	poorer	poorer	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	even	even	ADV	RB	_	8	advmod	_	_
+7	than	than	ADP	IN	_	8	case	_	_
+8	these	these	PRON	DT	Number=Plur|PronType=Dem	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = The grapes must be gathered while green.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	grapes	grape	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	while	while	SCONJ	IN	_	7	mark	_	_
+7	green	green	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 9
+# text = Etc.
+1	Etc	etc	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, really?
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	really	really	ADV	RB	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = You know how ignorant I am, and that I only ask for information, but isn’t it always so?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	_
+4	ignorant	ignorant	ADJ	JJ	Degree=Pos	6	advmod	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	only	only	ADV	RB	_	12	advmod	_	_
+12	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	information	information	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	19	advmod	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	conj	_	_
+20	always	always	ADV	RB	_	19	advmod	_	_
+21	so	so	ADV	RB	_	19	advmod	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I thought that kind of life was on all hands understood to be--eh?’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	kind	kind	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	life	life	NOUN	NN	Number=Sing	4	nmod	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	hands	hand	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	understood	understand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+15	eh	eh	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = ‘It is education for a very grave profession, if you mean that, Rosa,’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	education	education	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	grave	grave	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	profession	profession	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	Rosa	Rosa	PROPN	NNP	Number=Sing	4	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 5
+# text = Mrs. Steerforth answered with some coldness.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Steerforth	Steerforth	PROPN	NNP	Number=Sing	1	flat	_	_
+3	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	coldness	coldness	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

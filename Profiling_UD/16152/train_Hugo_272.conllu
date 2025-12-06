@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = M.
+1	M	m	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Madeleine was the same as usual with Fantine.
+1	Madeleine	Madeleine	PRON	PRP	_	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	same	same	ADJ	JJ	Degree=Pos	0	root	_	_
+5	as	as	ADP	IN	_	6	case	_	_
+6	usual	usual	ADJ	JJ	Degree=Pos	4	obl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	Fantine	Fantine	NUM	CD	NumType=Card	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Only he remained an hour instead of half an hour, to Fantine’s great delight.
+1	Only	only	ADV	RB	_	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	hour	hour	NOUN	NN	Number=Sing	3	obj	_	_
+6	instead	instead	ADV	RB	_	10	case	_	_
+7	of	of	ADP	IN	_	6	fixed	_	_
+8	half	half	DET	PDT	_	10	det:predet	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	hour	hour	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	to	to	ADP	IN	_	16	case	_	_
+13	Fantine	Fantine	PROPN	NNP	Number=Sing	16	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	great	great	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	delight	delight	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He urged every one repeatedly not to allow the invalid to want for anything.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	urged	urge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	every	every	DET	DT	_	4	det	_	_
+4	one	one	NOUN	NN	Number=Sing	2	obj	_	_
+5	repeatedly	repeatedly	ADV	RB	_	2	advmod	_	_
+6	not	not	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	allow	allow	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	invalid	invalid	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	want	want	VERB	VB	VerbForm=Inf	8	acl	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	anything	anything	PRON	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = It was noticed that there was a moment when his countenance became very sombre.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	noticed	notice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	moment	moment	NOUN	NN	Number=Sing	6	nsubj	_	_
+9	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	countenance	countenance	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	sombre	sombre	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = But this was explained when it became known that the doctor had bent down to his ear and said to him, “She is losing ground fast.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	explained	explain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+8	known	know	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	doctor	doctor	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+14	down	down	ADP	RP	_	13	compound:prt	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	ear	ear	NOUN	NN	Number=Sing	13	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+24	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+27	ground	ground	NOUN	NN	Number=Sing	26	obj	_	_
+28	fast	fast	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

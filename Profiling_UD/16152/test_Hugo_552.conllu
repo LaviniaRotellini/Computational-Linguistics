@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But the door stood firm.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	door	door	NOUN	NN	Number=Sing	4	compound	_	_
+4	stood	stood	NOUN	NN	Number=Sing	5	compound	_	_
+5	firm	firm	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “The devil!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	devil	devil	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ’tis hard and obstinate!” said one.
+1	’tis	’tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	hard	hard	ADJ	JJ	Degree=Pos	7	ccomp	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	obstinate	obstinate	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	one	one	NUM	CD	NumType=Card	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = “It is old, and its gristles have become bony,” said another.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	old	old	ADJ	JJ	Degree=Pos	14	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	gristles	gristle	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	become	become	VERB	VBN	Tense=Past|VerbForm=Part	14	ccomp	_	_
+11	bony	bony	NOUN	NN	Number=Sing	14	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	another	another	DET	DT	_	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 5
+# text = “Courage, comrades!” resumed Clopin.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Courage	courage	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	comrades	comrade	NOUN	NNS	Number=Plur	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	_
+7	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Clopin	Clopin	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = “I wager my head against a dipper that you will have opened the door, rescued the girl, and despoiled the chief altar before a single beadle is awake.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wager	wager	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	head	head	NOUN	NN	Number=Sing	3	obj	_	_
+6	against	against	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	dipper	dipper	NOUN	NN	Number=Sing	3	obl	_	_
+9	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	opened	open	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	door	door	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	rescued	rescue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	girl	girl	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	despoiled	despoil	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	chief	chief	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	altar	altar	NOUN	NN	Number=Sing	22	obj	_	_
+26	before	before	ADP	IN	_	29	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	single	single	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	beadle	beadle	NOUN	NN	Number=Sing	22	obl	_	_
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	awake	awake	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Stay!
+1	Stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = I think I hear the lock breaking up.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	lock	lock	NOUN	NN	Number=Sing	4	obj	_	_
+7	breaking	break	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

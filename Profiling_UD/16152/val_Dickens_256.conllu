@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tom blew his smoke aside, after he had been smoking a little while, and took an observation of his friend.
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	blew	blow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	smoke	smoke	NOUN	NN	Number=Sing	2	obj	_	_
+5	aside	aside	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	after	after	SCONJ	IN	_	11	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux	_	_
+11	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	little	little	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	while	while	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	observation	observation	NOUN	NN	Number=Sing	17	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	friend	friend	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘He don’t seem to care about his dress,’ thought Tom, ‘and yet how capitally he does it.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	seem	seem	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	care	care	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	dress	dress	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,’	,’	PUNCT	.	_	12	punct	_	_
+12	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+13	Tom	Tom	PROPN	NNP	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	‘	'	PUNCT	``	_	13	conj	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	21	cc	_	_
+17	yet	yet	CCONJ	CC	_	21	cc	_	_
+18	how	how	ADV	WRB	PronType=Int	19	advmod	_	_
+19	capitally	capitally	ADV	RB	Abbr=Yes	21	advmod	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = What an easy swell he is!’
+1	What	what	PRON	WP	PronType=Int	4	nsubj	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	easy	easy	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	swell	swell	NOUN	NN	Number=Sing	0	root	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

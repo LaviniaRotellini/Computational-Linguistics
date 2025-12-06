@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “She sot down,” said Joe, “and she got up, and she made a grab at Tickler, and she Ram-paged out.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sot	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+4	down	down	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Joe	Joe	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+14	up	up	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	grab	grab	NOUN	NN	Number=Sing	18	obj	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	Tickler	Tickler	PROPN	NNP	Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	Ram	Ram	PROPN	NNP	Number=Sing	28	obl:npmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+28	paged	pa	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+29	out	out	ADP	RP	_	28	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = That’s what she did,” said Joe, slowly clearing the fire between the lower bars with the poker, and looking at it; “she Ram-paged out, Pip.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	Joe	Joe	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	slowly	slowly	ADV	RB	_	12	advmod	_	_
+12	clearing	clear	VERB	VBG	VerbForm=Ger	8	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	fire	fire	NOUN	NN	Number=Sing	12	obj	_	_
+15	between	between	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	lower	lower	ADJ	JJR	Degree=Cmp	18	amod	_	_
+18	bars	bars	NOUN	NNS	Number=Plur	12	obl	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	poker	poker	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	looking	look	VERB	VBG	VerbForm=Ger	8	conj	_	_
+25	at	at	ADP	IN	_	26	case	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	3	punct	_	_
+28	“	"	PUNCT	``	_	32	punct	_	SpaceAfter=No
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+30	Ram	Ram	PROPN	NNP	Number=Sing	29	flat	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	paged	page	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	_
+33	out	out	ADP	RP	_	32	compound:prt	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	Pip	Pip	PROPN	NNP	Number=Sing	32	conj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

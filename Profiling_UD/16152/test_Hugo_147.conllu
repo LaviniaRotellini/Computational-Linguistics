@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The University presented a dense mass to the eye.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	University	University	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	presented	present	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	dense	dense	NOUN	NN	Number=Sing	6	compound	_	_
+6	mass	mass	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	eye	eye	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = From one end to the other, it was homogeneous and compact.
+1	From	from	ADP	IN	_	3	case	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	end	end	NOUN	NN	Number=Sing	10	obl	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	other	other	ADJ	JJ	Degree=Pos	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	homogeneous	homogeneous	ADJ	JJ	Degree=Pos	0	root	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	compact	compact	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = The thousand roofs, dense, angular, clinging to each other, composed, nearly all, of the same geometrical element, offered, when viewed from above, the aspect of a crystallization of the same substance.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	thousand	thousand	NUM	CD	NumType=Card	3	nummod	_	_
+3	roofs	roof	NOUN	NNS	Number=Plur	25	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	dense	dense	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	angular	angular	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	clinging	cling	VERB	VBG	VerbForm=Ger	3	conj	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	each	each	DET	DT	_	12	det	_	_
+12	other	other	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	composed	compose	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	nearly	nearly	ADV	RB	_	17	advmod	_	_
+17	all	all	ADV	RB	_	3	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	of	of	ADP	IN	_	23	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+21	same	same	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	geometrical	geometrical	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	element	element	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	when	when	ADV	WRB	PronType=Int	28	mark	_	_
+28	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	_	_
+29	from	from	ADP	IN	_	30	case	_	_
+30	above	above	ADV	RB	_	28	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	25	punct	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	aspect	aspect	NOUN	NN	Number=Sing	25	obj	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	crystallization	crystallization	NOUN	NN	Number=Sing	33	nmod	_	_
+37	of	of	ADP	IN	_	40	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+39	same	same	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	substance	substance	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n
+

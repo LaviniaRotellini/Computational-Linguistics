@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, my boy, it is not only woman’s love that is ἀπέρωτος ἒρως as old Æschylus calls it.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	boy	boy	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	only	only	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	woman	woman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	love	love	NOUN	NN	Number=Sing	21	nsubj	_	_
+14	that	that	PRON	WDT	PronType=Rel	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	ἀπέρωτος	ἀπέρωτος	NOUN	NN	Number=Sing	17	compound	_	_
+17	ἒρως	ἒρως	NOUN	NN	Number=Sing	13	acl:relcl	_	_
+18	as	as	ADP	IN	_	20	case	_	_
+19	old	old	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	Æschylus	Æschylus	PROPN	NNP	Number=Sing	17	nmod	_	_
+21	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = There’s plenty of ‘unloving love’ in the world of a masculine kind.
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	plenty	plenty	NOUN	NN	Number=Sing	2	nsubj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	unloving	unlove	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	love	love	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	7	nmod	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	masculine	masculine	NUM	CD	NumType=Card	15	compound	_	_
+15	kind	kind	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But tell me about Adam.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	about	about	ADP	IN	_	5	case	_	_
+5	Adam	Adam	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Has he accepted the post?
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	post	post	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I don’t see that it can be much more profitable than his present work, though, to be sure, it will leave him a good deal of time on his own hands.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+9	much	much	ADV	RB	_	10	advmod	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	profitable	profitable	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+12	than	than	ADP	IN	_	15	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	present	present	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	work	work	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	though	though	ADV	RB	_	4	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+21	sure	sure	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	leave	leave	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	good	good	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	deal	deal	NOUN	NN	Number=Sing	25	obj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	time	time	NOUN	NN	Number=Sing	29	nmod	_	_
+32	on	on	ADP	IN	_	35	case	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+34	own	own	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	hands	hand	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

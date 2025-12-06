@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But my opinion is of little consequence on such a subject.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	8	cc	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	opinion	opinion	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	consequence	consequence	NOUN	NN	Number=Sing	0	root	_	_
+9	on	on	ADP	IN	_	12	case	_	_
+10	such	such	DET	PDT	_	12	det:predet	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	subject	subject	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I think you should be guided by Mr. Casaubon.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj:pass	_	_
+4	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	guided	guide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7	by	by	ADP	IN	_	8	case	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	6	obl	_	_
+9	Casaubon	Casaubon	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I spoke without thinking of anything else than my own feeling, which has nothing to do with the real question.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	without	without	SCONJ	IN	_	4	mark	_	_
+4	thinking	thinking	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	anything	anything	PRON	NN	Number=Sing	4	obl	_	_
+7	else	else	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	than	than	ADP	IN	_	11	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	feeling	feeling	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+15	nothing	nothing	PRON	NN	Number=Sing	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	do	do	VERB	VB	VerbForm=Inf	15	acl	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	real	real	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	question	question	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But it now occurs to me—perhaps Mr. Casaubon might see that the proposal was not wise.
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	occurs	occur	ADV	RB	_	12	advmod	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+10	Casaubon	Casaubon	PROPN	NNP	Number=Sing	9	flat	_	_
+11	might	might	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+13	that	that	SCONJ	IN	_	18	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	proposal	proposal	NOUN	NN	Number=Sing	18	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	wise	wise	ADV	RB	_	12	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 5
+# text = Can you not wait now and mention it to him?”
+1	Can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	_
+5	now	now	ADV	RB	_	4	advmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	mention	mention	VERB	VB	VerbForm=Inf	4	conj	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

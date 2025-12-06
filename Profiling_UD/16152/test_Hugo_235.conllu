@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Who certainly,” added Gervaise, “have teeth long enough to eat little children.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	6	nsubj	_	_
+3	certainly	certainly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Gervaise	Gervaise	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+10	have	have	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+11	teeth	tooth	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	long	long	ADV	RB	Degree=Pos	13	advmod	_	_
+13	enough	enough	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	eat	eat	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	children	child	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I should not be surprised if la Smeralda ate a little of them also, though she pretends to be dainty.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	surprised	surprised	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	la	la	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Smeralda	Smeralda	PROPN	NNP	Number=Sing	7	flat	_	_
+9	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	little	little	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	nmod	_	_
+14	also	also	ADV	RB	_	9	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	though	though	SCONJ	IN	_	18	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	pretends	pretend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+21	dainty	dainty	NOUN	NN	Number=Sing	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Her white goat knows tricks that are too malicious for there not to be some impiety underneath it all.”
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	white	white	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	goat	goat	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tricks	trick	NOUN	NNS	Number=Plur	4	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	too	too	ADV	RB	_	9	advmod	_	_
+9	malicious	malicious	ADJ	JJ	Degree=Pos	5	acl:relcl	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	there	there	ADV	RB	PronType=Dem	9	obl	_	_
+12	not	not	ADV	RB	_	16	advmod	_	_
+13	to	to	PART	TO	_	16	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	impiety	impiety	NOUN	NN	Number=Sing	4	xcomp	_	_
+17	underneath	underneath	SCONJ	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	all	all	DET	DT	_	18	det	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

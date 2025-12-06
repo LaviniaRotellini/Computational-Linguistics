@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Have mercy, sire!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mercy	mercy	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	sire	sire	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Is it not enough to have given all my goods to my judges, my plate to Monsieur de Torcy, my library to Master Pierre Doriolle, my tapestry to the governor of the Roussillon?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	given	give	VERB	VBN	Tense=Past|VerbForm=Part	4	csubj	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	goods	goods	NOUN	NNS	Number=Plur	7	obj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	judges	judge	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	plate	plate	NOUN	NN	Number=Sing	4	obj	_	_
+17	to	to	ADP	IN	_	20	case	_	_
+18	Monsieur	Monsieur	PROPN	NNP	Number=Sing	20	compound	_	_
+19	de	de	PROPN	NNP	Number=Sing	20	compound	_	_
+20	Torcy	Torcy	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	library	library	NOUN	NN	Number=Sing	4	conj	_	_
+24	to	to	ADP	IN	_	26	case	_	_
+25	Master	master	PROPN	NNP	Number=Sing	26	compound	_	_
+26	Pierre	Pierre	PROPN	NNP	Number=Sing	23	nmod	_	_
+27	Doriolle	Doriolle	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	tapestry	tapestry	NOUN	NN	Number=Sing	4	conj	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	governor	governor	NOUN	NN	Number=Sing	30	nmod	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	Roussillon	Roussillon	PROPN	NNP	Number=Sing	33	nmod	_	SpaceAfter=No
+37	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I am innocent.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	innocent	innocent	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I have been shivering in an iron cage for fourteen years.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	shivering	shiver	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	iron	iron	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	cage	cage	NOUN	NN	Number=Sing	4	obl	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	fourteen	fourteen	NUM	CD	NumType=Card	11	nummod	_	_
+11	years	year	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Have mercy, sire!
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	mercy	mercy	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	sire	sire	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = You will find your reward in heaven.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	reward	reward	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	heaven	heaven	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

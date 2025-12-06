@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This is a digression.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	digression	digression	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I was not the man to touch the Commons, and bring down the country.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	touch	touch	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Commons	Common	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	bring	bring	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	down	down	ADP	RP	_	12	compound:prt	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I submissively expressed, by my silence, my acquiescence in all I had heard from my superior in years and knowledge; and we talked about The Stranger and the Drama, and the pairs of horses, until we came to Mr. Spenlow’s gate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	submissively	submissively	ADV	RB	_	3	advmod	_	_
+3	expressed	express	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	silence	silence	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	acquiescence	acquiescence	NOUN	NN	Number=Sing	12	obj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	all	all	DET	DT	_	13	obl	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	superior	superior	NOUN	NN	Number=Sing	15	obl	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	years	year	NOUN	NNS	Number=Plur	15	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	knowledge	knowledge	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	3	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+26	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+27	about	about	ADP	IN	_	29	case	_	_
+28	The	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	Stranger	stranger	PROPN	NNP	Number=Sing	26	obl	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	Drama	drama	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	and	and	CCONJ	CC	_	36	cc	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	pairs	pair	NOUN	NNS	Number=Plur	26	conj	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	horses	horse	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	26	punct	_	_
+40	until	until	SCONJ	IN	_	42	mark	_	_
+41	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	42	nsubj	_	_
+42	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	_
+43	to	to	ADP	IN	_	47	case	_	_
+44	Mr.	Mr.	PROPN	NNP	Number=Sing	47	nmod:poss	_	_
+45	Spenlow	Spenlow	PROPN	NNP	Number=Sing	44	flat	_	SpaceAfter=No
+46	’s	's	PART	POS	_	44	case	_	_
+47	gate	gate	NOUN	NN	Number=Sing	42	obl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The waiter certainly got most.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	waiter	waiter	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	certainly	certainly	ADV	RB	_	4	advmod	_	_
+4	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	most	most	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He entreated me more than once to come in and win, but what with his table-spoon to my tea-spoon, his dispatch to my dispatch, and his appetite to my appetite, I was left far behind at the first mouthful, and had no chance with him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	entreated	entreate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	2	obj	_	_
+5	than	than	SCONJ	IN	_	4	fixed	_	_
+6	once	once	SCONJ	IN	_	8	mark	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	come	come	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	in	in	ADV	RB	_	8	advmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	win	win	VERB	VB	VerbForm=Inf	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	but	but	CCONJ	CC	_	14	cc	_	_
+14	what	what	PRON	WP	PronType=Int	19	obj	_	_
+15	with	with	ADP	IN	_	19	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+17	table	table	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	spoon	spoon	NOUN	NN	Number=Sing	2	obl	_	_
+20	to	to	ADP	IN	_	24	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+22	tea	tea	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	spoon	spoon	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	dispatch	dispatch	NOUN	NN	Number=Sing	24	conj	_	_
+28	to	to	ADP	IN	_	30	case	_	_
+29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	dispatch	dispatch	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	appetite	appetite	NOUN	NN	Number=Sing	24	conj	_	_
+35	to	to	ADP	IN	_	37	case	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	appetite	appetite	NOUN	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	2	punct	_	_
+39	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj:pass	_	_
+40	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	41	aux:pass	_	_
+41	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+42	far	far	ADV	RB	Degree=Pos	41	advmod	_	_
+43	behind	behind	ADP	IN	_	47	case	_	_
+44	at	at	ADP	IN	_	47	case	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+46	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	47	amod	_	_
+47	mouthful	mouthful	NOUN	NN	Number=Sing	42	obl	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	50	punct	_	_
+49	and	and	CCONJ	CC	_	50	cc	_	_
+50	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	conj	_	_
+51	no	no	DET	DT	_	52	det	_	_
+52	chance	chance	NOUN	NN	Number=Sing	50	obj	_	_
+53	with	with	ADP	IN	_	54	case	_	_
+54	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I never saw anyone enjoy a pudding so much, I think; and he laughed, when it was all gone, as if his enjoyment of it lasted still.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	anyone	anyone	PRON	NN	Number=Sing	5	nsubj	_	_
+5	enjoy	enjoy	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	pudding	pudding	NOUN	NN	Number=Sing	5	obj	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	much	much	ADV	RB	_	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	3	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	all	all	ADV	RB	_	22	advmod	_	_
+22	gone	gone	ADJ	JJ	Degree=Pos	16	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	16	punct	_	_
+24	as	as	SCONJ	IN	_	30	mark	_	_
+25	if	if	SCONJ	IN	_	30	mark	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	enjoyment	enjoyment	NOUN	NN	Number=Sing	30	nsubj	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nmod	_	_
+30	lasted	last	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+31	still	still	ADV	RB	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

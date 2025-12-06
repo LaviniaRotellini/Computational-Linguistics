@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Uriah,’ she replied, after a moment’s hesitation, ‘has made himself indispensable to papa.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Uriah	Uriah	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	after	after	ADP	IN	_	12	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	moment	moment	NOUN	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	hesitation	hesitation	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	made	make	VERB	VBN	Tense=Past|VerbForm=Part	6	parataxis	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	indispensable	indispensable	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	papa	papa	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He is subtle and watchful.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	subtle	subtle	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	watchful	watchful	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He has mastered papa’s weaknesses, fostered them, and taken advantage of them, until--to say all that I mean in a word, Trotwood,--until papa is afraid of him.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mastered	mastere	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	papa	papa	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	weaknesses	weakness	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	fostered	foster	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	advantage	advantage	NOUN	NN	Number=Sing	3	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	until	until	SCONJ	IN	_	3	mark	_	SpaceAfter=No
+18	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+19	to	to	PART	TO	_	20	mark	_	_
+20	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+21	all	all	DET	DT	_	20	obj	_	_
+22	that	that	PRON	WDT	PronType=Rel	24	obj	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	word	word	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	3	punct	_	_
+29	Trotwood	Trotwood	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+30	,--until	,--until	NOUN	NN	Number=Sing	31	compound	_	_
+31	papa	papa	NOUN	NN	Number=Sing	33	nsubj	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	afraid	afraid	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+37	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

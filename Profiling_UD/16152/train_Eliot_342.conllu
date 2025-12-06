@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I was the most in the wrong, Susan,” said Caleb.
+1	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	most	most	ADJ	JJS	Degree=Sup	13	ccomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	wrong	wrong	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Susan	Susan	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Caleb	Caleb	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “Fred made sure of finding the money.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Fred	Fred	ADJ	JJ	Degree=Pos	0	root	_	_
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	finding	find	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	money	money	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But I’d no business to be fingering bills.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	business	business	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	fingering	finger	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	_
+9	bills	bill	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I suppose you have looked all round and tried all honest means?” he added, fixing his merciful gray eyes on Fred.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	all	all	ADV	RB	_	7	advmod	_	_
+7	round	round	ADV	RB	_	5	advmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+10	all	all	DET	DT	_	12	det	_	_
+11	honest	honest	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	means	mean	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	16	punct	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	fixing	fix	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+20	merciful	merciful	ADJ	JJ	Degree=Pos	22	amod	_	_
+21	gray	gray	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	eyes	eye	NOUN	NNS	Number=Plur	18	obj	_	_
+23	on	on	ADP	IN	_	24	case	_	_
+24	Fred	Fred	PROPN	NNP	Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Caleb was too delicate to specify Mr. Featherstone.
+1	Caleb	Caleb	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	delicate	delicate	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	specify	specify	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	6	obj	_	_
+8	Featherstone	Featherstone	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

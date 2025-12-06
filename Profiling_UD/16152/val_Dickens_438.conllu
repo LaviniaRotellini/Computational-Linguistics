@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear, I have remained all night at my table, pondering again and again on what has so painfully passed between us.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	dear	dear	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	night	night	NOUN	NN	Number=Sing	7	obl:tmod	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	table	table	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	pondering	ponder	VERB	VBG	VerbForm=Ger	7	conj	_	_
+15	again	again	ADV	RB	_	14	advmod	_	_
+16	and	and	CCONJ	CC	_	14	cc	_	_
+17	again	again	ADV	RB	_	14	advmod	_	_
+18	on	on	SCONJ	IN	_	19	case	_	_
+19	what	what	PRON	WP	PronType=Int	14	obl	_	_
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	so	so	ADV	RB	_	23	advmod	_	_
+22	painfully	painfully	ADV	RB	_	23	advmod	_	_
+23	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+24	between	between	ADP	IN	_	25	case	_	_
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = When I consider your character; when I consider that what has been known to me for hours, has been concealed by you for years; when I consider under what immediate pressure it has been forced from you at last; I come to the conclusion that I cannot but mistrust myself.’
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	character	character	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	what	what	PRON	WP	PronType=Int	14	nsubj:pass	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	hours	hour	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	concealed	conceal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+23	by	by	ADP	IN	_	24	case	_	_
+24	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	obl	_	_
+25	for	for	ADP	IN	_	26	case	_	_
+26	years	year	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	22	punct	_	_
+28	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+30	consider	consider	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+31	under	under	ADP	IN	_	32	case	_	_
+32	what	what	PRON	WP	PronType=Int	34	nmod	_	_
+33	immediate	immediate	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	pressure	pressure	NOUN	NN	Number=Sing	30	obj	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	_	_
+36	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+37	been	be	AUX	VBN	Tense=Past|VerbForm=Part	38	aux:pass	_	_
+38	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	acl:relcl	_	_
+39	from	from	ADP	IN	_	40	case	_	_
+40	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	38	obl	_	_
+41	at	at	ADP	IN	_	42	case	_	_
+42	last	last	ADJ	JJ	Degree=Pos	38	obl	_	SpaceAfter=No
+43	;	;	PUNCT	,	_	22	punct	_	_
+44	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+45	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+46	to	to	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	conclusion	conclusion	NOUN	NN	Number=Sing	45	obl	_	_
+49	that	that	PRON	WDT	PronType=Rel	54	obj	_	_
+50	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	54	nsubj	_	_
+51	can	can	AUX	MD	VerbForm=Fin	54	aux	_	SpaceAfter=No
+52	not	not	PART	RB	_	54	advmod	_	_
+53	but	but	CCONJ	CC	_	54	cc	_	_
+54	mistrust	mistrust	VERB	VB	VerbForm=Inf	48	acl:relcl	_	_
+55	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	54	obj	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	22	punct	_	SpaceAfter=No
+57	’	'	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

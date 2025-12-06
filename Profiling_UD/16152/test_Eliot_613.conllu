@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, nothing bad,” Adam answered, as he went up to Dinah and put out his hand to her.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	9	nsubj	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	4	flat	_	_
+9	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	Dinah	Dinah	PROPN	NNP	Number=Sing	13	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+19	out	out	ADP	RP	_	18	compound:prt	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	hand	hand	NOUN	NN	Number=Sing	18	obj	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = She had laid down her work and stood up, instinctively, as he approached her.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	work	work	NOUN	NN	Number=Sing	3	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	instinctively	instinctively	ADV	RB	_	3	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = A faint blush died away from her pale cheek as she put her hand in his and looked up at him timidly.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	faint	faint	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	blush	blush	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	away	away	ADV	RB	_	4	advmod	_	_
+6	from	from	ADP	IN	_	9	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	pale	pale	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	cheek	cheek	NOUN	NN	Number=Sing	5	obl	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	hand	hand	NOUN	NN	Number=Sing	12	obj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+19	up	up	ADP	RP	_	18	compound:prt	_	_
+20	at	at	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+22	timidly	timidly	ADV	RB	_	18	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

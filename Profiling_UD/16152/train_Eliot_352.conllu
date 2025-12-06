@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My family is not fond of begging, Fred.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	family	family	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	fond	fond	ADJ	JJ	Degree=Pos	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	begging	begging	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	Fred	Fred	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = We would rather work for our money.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	rather	rather	ADV	RB	_	4	advmod	_	_
+4	work	work	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	money	money	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Besides, you say that Mr. Featherstone has lately given you a hundred pounds.
+1	Besides	besides	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+7	Featherstone	Featherstone	PROPN	NNP	Number=Sing	6	flat	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	lately	lately	ADV	RB	_	10	advmod	_	_
+10	given	give	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	hundred	hundred	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+14	pounds	pound	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He rarely makes presents; he has never made presents to us.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	rarely	rarely	ADV	RB	_	3	advmod	_	_
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	presents	present	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	never	never	ADV	RB	_	9	advmod	_	_
+9	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	presents	present	NOUN	NNS	Number=Plur	9	obj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I am sure my father will not ask him for anything; and even if I chose to beg of him, it would be of no use.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	father	father	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	ask	ask	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	anything	anything	PRON	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	3	punct	_	_
+13	and	and	CCONJ	CC	_	28	cc	_	_
+14	even	even	ADV	RB	_	17	advmod	_	_
+15	if	if	SCONJ	IN	_	17	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	chose	choose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	advcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	beg	beg	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+24	would	would	AUX	MD	VerbForm=Fin	28	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	28	cop	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	no	no	DET	DT	_	28	det	_	_
+28	use	use	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

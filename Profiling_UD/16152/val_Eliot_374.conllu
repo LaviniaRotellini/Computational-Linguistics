@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You’re a very kind fellow, Bob,” he said, colouring, with that little diffident tremor in his voice which gave a certain charm even to Tom’s pride and severity, “and I sha’n’t forget you again, though I didn’t know you this evening.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	kind	kind	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	fellow	fellow	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Bob	Bob	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	13	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	colouring	colour	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	with	with	ADP	IN	_	21	case	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+19	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	diffident	diffident	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	tremor	tremor	NOUN	NN	Number=Sing	15	obl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	voice	voice	NOUN	NN	Number=Sing	21	nmod	_	_
+25	which	which	PRON	WDT	PronType=Rel	26	nsubj	_	_
+26	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	certain	certain	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	charm	charm	NOUN	NN	Number=Sing	26	obj	_	_
+30	even	even	ADV	RB	_	34	advmod	_	_
+31	to	to	ADP	IN	_	34	case	_	_
+32	Tom	Tom	PROPN	NNP	Number=Sing	34	nmod:poss	_	SpaceAfter=No
+33	’s	's	PART	POS	_	32	case	_	_
+34	pride	pride	NOUN	NN	Number=Sing	26	obl	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	severity	severity	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	26	punct	_	_
+38	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+41	sha	sha	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+42	’	's	PUNCT	''	_	41	punct	_	SpaceAfter=No
+43	n’t	n’t	PART	RB	_	44	advmod	_	_
+44	forget	forget	VERB	VB	VerbForm=Inf	41	appos	_	_
+45	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	44	obj	_	_
+46	again	again	ADV	RB	_	44	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	44	punct	_	_
+48	though	though	SCONJ	IN	_	52	mark	_	_
+49	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	52	nsubj	_	_
+50	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	52	aux	_	SpaceAfter=No
+51	n’t	not	PART	RB	_	52	advmod	_	_
+52	know	know	VERB	VB	VerbForm=Inf	44	advcl	_	_
+53	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	52	obj	_	_
+54	this	this	DET	DT	Number=Sing|PronType=Dem	55	det	_	_
+55	evening	evening	NOUN	NN	Number=Sing	52	obl:tmod	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = But I can’t take the nine sovereigns; I should be taking your little fortune from you, and they wouldn’t do me much good either.”
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	nine	nine	NUM	CD	NumType=Card	8	nummod	_	_
+8	sovereigns	sovereign	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	5	parataxis	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	fortune	fortune	NOUN	NN	Number=Sing	13	obj	_	_
+17	from	from	ADP	IN	_	18	case	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	SpaceAfter=No
+23	n’t	not	PART	RB	_	24	advmod	_	_
+24	do	do	VERB	VB	VerbForm=Inf	13	conj	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+26	much	much	ADV	RB	_	27	advmod	_	_
+27	good	good	ADJ	JJ	Degree=Pos	24	xcomp	_	_
+28	either	either	ADV	RB	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

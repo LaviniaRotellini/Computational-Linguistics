@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘He’s as like her, Dick,’ said my aunt, emphatically, ‘he’s as like her, as she was that afternoon before she began to fret--bless my heart, he’s as like her, as he can look at me out of his two eyes!’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+4	as	as	ADV	RB	_	6	advmod	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	Dick	Dick	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	aunt	aunt	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	emphatically	emphatically	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+19	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+20	as	as	ADV	RB	_	19	advmod	_	_
+21	like	like	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	11	punct	_	_
+24	as	as	SCONJ	IN	_	28	mark	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+27	that	that	DET	DT	Number=Sing|PronType=Dem	28	det	_	_
+28	afternoon	afternoon	NOUN	NN	Number=Sing	31	obl	_	_
+29	before	before	SCONJ	IN	_	31	mark	_	_
+30	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	fret	fret	VERB	VB	VerbForm=Inf	31	xcomp	_	SpaceAfter=No
+34	--	--	PUNCT	,	_	11	punct	_	SpaceAfter=No
+35	bless	bless	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	heart	heart	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	35	punct	_	_
+39	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	SpaceAfter=No
+40	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+41	as	as	ADV	RB	_	40	advmod	_	_
+42	like	like	ADP	IN	_	43	case	_	_
+43	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	11	punct	_	_
+45	as	as	SCONJ	IN	_	48	mark	_	_
+46	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
+47	can	can	AUX	MD	VerbForm=Fin	48	aux	_	_
+48	look	look	VERB	VB	VerbForm=Inf	11	advcl	_	_
+49	at	at	ADP	IN	_	50	case	_	_
+50	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	48	obl	_	_
+51	out	out	ADP	IN	_	55	case	_	_
+52	of	of	ADP	IN	_	55	case	_	_
+53	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+54	two	two	NUM	CD	NumType=Card	55	nummod	_	_
+55	eyes	eye	NOUN	NNS	Number=Plur	48	obl	_	SpaceAfter=No
+56	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+57	’	'	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

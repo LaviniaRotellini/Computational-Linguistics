@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At M. sur M. he exercised the unpleasant but useful functions of an inspector.
+1	At	at	ADP	IN	_	4	case	_	_
+2	M.	M.	PROPN	NNP	Number=Sing	4	compound	_	_
+3	sur	sur	NUM	CD	NumType=Card	4	nummod	_	_
+4	M	m	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	exercised	exercise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+9	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	but	but	CCONJ	CC	_	12	cc	_	_
+11	useful	useful	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	functions	function	NOUN	NNS	Number=Plur	7	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	inspector	inspector	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He had not seen Madeleine’s beginnings.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	Madeleine	Madeleine	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	beginnings	beginning	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Javert owed the post which he occupied to the protection of M. Chabouillet, the secretary of the Minister of State, Comte Anglès, then prefect of police at Paris.
+1	Javert	Javert	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	owed	owe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	post	post	NOUN	NN	Number=Sing	2	obj	_	_
+5	which	which	PRON	WDT	PronType=Rel	7	obj	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	occupied	occupi	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	protection	protection	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	M.	M.	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Chabouillet	Chabouillet	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	secretary	secretary	NOUN	NN	Number=Sing	2	appos	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	Minister	Minister	PROPN	NNP	Number=Sing	16	nmod	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	State	State	PROPN	NNP	Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	Comte	Comte	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Anglès	Anglès	PROPN	NNPS	Number=Plur	19	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	2	punct	_	_
+26	then	then	ADV	RB	PronType=Dem	29	advmod	_	_
+27	prefect	prefect	ADP	IN	_	29	case	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	police	police	NOUN	NN	Number=Sing	2	obl	_	_
+30	at	at	ADP	IN	_	31	case	_	_
+31	Paris	Paris	PROPN	NNP	Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = When Javert arrived at M. sur M. the fortune of the great manufacturer was already made, and Father Madeleine had become Monsieur Madeleine.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	Javert	Javert	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	M.	M.	PROPN	NNP	Number=Sing	6	compound	_	_
+6	sur	sur	PROPN	NNP	Number=Sing	3	obl	_	_
+7	M.	M.	PROPN	NNP	Number=Sing	6	flat	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	fortune	fortune	NUM	CD	NumType=Card	16	nsubj:pass	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	manufacturer	manufacturer	NOUN	NN	Number=Sing	9	nmod	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+15	already	already	ADV	RB	_	16	advmod	_	_
+16	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	Father	Father	PROPN	NNP	Number=Sing	22	nsubj	_	_
+20	Madeleine	Madeleine	PROPN	NNP	Number=Sing	19	flat	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	become	become	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+23	Monsieur	Monsieur	PROPN	NNP	Number=Sing	22	xcomp	_	_
+24	Madeleine	Madeleine	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

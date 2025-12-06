@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t hurt him!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	hurt	hurt	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = he repeated, and without suspecting it, his first success was to arrest the pistol in the act of being discharged, and to paralyze Marius, in whose opinion the urgency of the case disappeared, and who, in the face of this new phase, saw no inconvenience in waiting a while longer.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	and	and	CCONJ	CC	_	12	cc	_	_
+5	without	without	SCONJ	IN	_	6	mark	_	_
+6	suspecting	suspect	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	success	success	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	arrest	arrest	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	pistol	pistol	NOUN	NN	Number=Sing	14	obj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	act	act	NOUN	NN	Number=Sing	14	obl	_	_
+20	of	of	SCONJ	IN	_	22	mark	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	22	aux:pass	_	_
+22	discharged	discharge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	paralyze	paralyze	NOUN	NN	Number=Sing	27	compound	_	_
+27	Marius	Marius	PROPN	NNP	Number=Sing	22	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	2	punct	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	31	nmod:poss	_	_
+31	opinion	opinion	NOUN	NN	Number=Sing	37	obl	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	urgency	urgency	NOUN	NN	Number=Sing	37	nsubj	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	case	case	NOUN	NN	Number=Sing	37	nmod	_	_
+37	disappeared	disappear	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	50	punct	_	_
+39	and	and	CCONJ	CC	_	50	cc	_	_
+40	who	who	PRON	WP	PronType=Int	50	nsubj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	50	punct	_	_
+42	in	in	ADP	IN	_	44	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	face	face	NOUN	NN	Number=Sing	50	obl	_	_
+45	of	of	ADP	IN	_	48	case	_	_
+46	this	this	DET	DT	Number=Sing|PronType=Dem	48	det	_	_
+47	new	new	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	phase	phase	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	50	punct	_	_
+50	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	conj	_	_
+51	no	no	DET	DT	_	52	det	_	_
+52	inconvenience	inconvenience	NOUN	NN	Number=Sing	50	obj	_	_
+53	in	in	SCONJ	IN	_	54	mark	_	_
+54	waiting	wait	VERB	VBG	VerbForm=Ger	52	acl	_	_
+55	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	_
+56	while	while	NOUN	NN	Number=Sing	57	obl:npmod	_	_
+57	longer	longer	ADV	RBR	Degree=Cmp	54	advmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	37	punct	_	SpacesAfter=\n
+

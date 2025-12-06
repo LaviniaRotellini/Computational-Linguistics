@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Here, Lucy!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Lucy	Lucy	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = he said in a loud whisper, “come here!
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	loud	loud	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	whisper	whisper	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+9	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+10	here	here	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = take care!
+1	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	care	care	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = keep on the grass!—don’t step where the cows have been!”
+1	keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	grass	grass	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+7	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	step	step	VERB	VB	Mood=Imp|VerbForm=Fin	1	xcomp	_	_
+10	where	where	ADV	WRB	PronType=Int	9	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	cows	cow	NOUN	NNS	Number=Plur	10	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 5
+# text = he added, pointing to a peninsula of dry grass, with trodden mud on each side of it; for Tom’s contemptuous conception of a girl included the attribute of being unfit to walk in dirty places.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	pointing	point	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	peninsula	peninsula	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	dry	dry	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	grass	grass	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	trodden	trodden	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	mud	mud	NOUN	NN	Number=Sing	4	obl	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	each	each	DET	DT	_	17	det	_	_
+17	side	side	NOUN	NN	Number=Sing	14	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	2	punct	_	_
+21	for	for	ADP	IN	_	25	case	_	_
+22	Tom	Tom	PROPN	NNP	Number=Sing	25	nmod:poss	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	_
+24	contemptuous	contemptuous	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	conception	conception	NOUN	NN	Number=Sing	29	nsubj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	girl	girl	NOUN	NN	Number=Sing	25	nmod	_	_
+29	included	include	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	attribute	attribute	NOUN	NN	Number=Sing	29	obj	_	_
+32	of	of	SCONJ	IN	_	34	mark	_	_
+33	being	be	AUX	VBG	VerbForm=Ger	34	cop	_	_
+34	unfit	unfit	ADJ	JJ	Degree=Pos	31	acl	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	walk	walk	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	dirty	dirty	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	places	place	NOUN	NNS	Number=Plur	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

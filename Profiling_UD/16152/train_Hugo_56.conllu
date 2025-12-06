@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “So be it, sir.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	So	so	ADV	RB	_	4	advmod	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = But explain to me how my carriage, which is a few paces off behind the trees yonder, how my good table and the moor-hens which I eat on Friday, how my twenty-five thousand francs income, how my palace and my lackeys prove that clemency is not a duty, and that ’93 was not inexorable.”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	explain	explain	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	carriage	carriage	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	few	few	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	paces	pace	NOUN	NNS	Number=Plur	7	acl:relcl	_	_
+14	off	off	ADP	RP	_	17	case	_	_
+15	behind	behind	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	trees	tree	NOUN	NNS	Number=Plur	13	obl	_	_
+18	yonder	yonder	ADV	RBR	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	13	punct	_	_
+20	how	how	ADV	WRB	PronType=Int	23	advmod	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	good	good	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	table	table	NOUN	NN	Number=Sing	13	appos	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	moor	moor	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	hens	hen	NOUN	NNS	Number=Plur	23	conj	_	_
+29	which	which	PRON	WDT	PronType=Rel	31	obj	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+31	eat	eat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+32	on	on	ADP	IN	_	33	case	_	_
+33	Friday	Friday	PROPN	NNP	Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	13	punct	_	_
+35	how	how	ADV	WRB	PronType=Int	42	advmod	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+37	twenty	twenty	NUM	CD	NumType=Card	40	compound	_	SpaceAfter=No
+38	-	-	SYM	SYM	_	39	case	_	SpaceAfter=No
+39	five	five	NUM	CD	NumType=Card	37	nmod	_	_
+40	thousand	thousand	NUM	CD	NumType=Card	42	compound	_	_
+41	francs	franc	NOUN	NNS	Number=Plur	42	compound	_	_
+42	income	income	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	13	punct	_	_
+44	how	how	ADV	WRB	PronType=Int	46	advmod	_	_
+45	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+46	palace	palace	NOUN	NN	Number=Sing	50	nsubj	_	_
+47	and	and	CCONJ	CC	_	49	cc	_	_
+48	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+49	lackeys	lackey	NOUN	NNS	Number=Plur	46	conj	_	_
+50	prove	prove	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+51	that	that	SCONJ	IN	_	56	mark	_	_
+52	clemency	clemency	NOUN	NN	Number=Sing	56	nsubj	_	_
+53	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+54	not	not	PART	RB	_	56	advmod	_	_
+55	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	_
+56	duty	duty	NOUN	NN	Number=Sing	50	ccomp	_	SpaceAfter=No
+57	,	,	PUNCT	,	_	63	punct	_	_
+58	and	and	CCONJ	CC	_	63	cc	_	_
+59	that	that	SCONJ	IN	_	63	mark	_	_
+60	’93	’93	NOUN	NN	Number=Sing	63	nsubj	_	_
+61	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	63	cop	_	_
+62	not	not	PART	RB	_	63	advmod	_	_
+63	inexorable	inexorable	ADJ	JJ	Degree=Pos	56	conj	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+65	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

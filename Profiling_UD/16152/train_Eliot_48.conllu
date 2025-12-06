@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I see no harm at all in Tantripp’s talking to me.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	harm	harm	NOUN	NN	Number=Sing	3	obj	_	_
+6	at	at	ADV	RB	_	7	case	_	_
+7	all	all	ADV	RB	_	5	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Tantripp	Tantripp	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	talking	talk	VERB	VBG	VerbForm=Ger	3	acl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It is better to hear what people say.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	hear	hear	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	what	what	PRON	WP	PronType=Int	5	obj	_	_
+7	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You see what mistakes you make by taking up notions.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	what	what	DET	WDT	PronType=Int	4	det	_	_
+4	mistakes	mistake	NOUN	NNS	Number=Plur	6	obj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	by	by	SCONJ	IN	_	8	mark	_	_
+8	taking	take	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	notions	notion	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I am quite sure that Sir James means to make you an offer; and he believes that you will accept him, especially since you have been so pleased with him about the plans.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	quite	quite	ADV	RB	_	4	advmod	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	Sir	Sir	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	James	James	PROPN	NNP	Number=Sing	6	flat	_	_
+8	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	offer	offer	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	4	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	accept	accept	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	21	punct	_	_
+24	especially	especially	ADV	RB	_	30	advmod	_	_
+25	since	since	SCONJ	IN	_	30	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	30	cop	_	_
+29	so	so	ADV	RB	_	30	advmod	_	_
+30	pleased	pleased	ADJ	JJ	Degree=Pos	21	advcl	_	_
+31	with	with	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+33	about	about	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	plans	plan	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = And uncle too—I know he expects it.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	uncle	uncle	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	expects	expect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Every one can see that Sir James is very much in love with you.”
+1	Every	every	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	Sir	Sir	PROPN	NNP	Number=Sing	10	nsubj	_	_
+7	James	James	PROPN	NNP	Number=Sing	6	flat	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	much	much	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	love	love	NOUN	NN	Number=Sing	10	obl	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

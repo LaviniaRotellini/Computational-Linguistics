@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, Mother,” said Seth.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Mother	mother	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Seth	Seth	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “Dinah ’ud be sure to come again if she saw right to come.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Dinah	Dinah	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	’	'	PUNCT	''	_	6	punct	_	SpaceAfter=No
+4	ud	uld	AUX	MD	Typo=Yes|VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	come	come	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	again	again	ADV	RB	_	8	advmod	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+13	right	right	ADV	RB	_	15	advmod	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	come	come	VERB	VB	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I should have no need to persuade her.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	need	need	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	persuade	persuade	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = She only thinks it ’ud be troubling thee for nought, just to come in to say good-bye over again.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+6	ud	uld	AUX	MD	Typo=Yes|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	troubling	trouble	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+9	thee	thee	ADP	IN	_	11	mark	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	nought	nought	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	just	just	ADV	RB	_	15	advmod	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	come	come	VERB	VB	VerbForm=Inf	3	advcl	_	_
+16	in	in	ADV	RB	_	15	advmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	say	say	VERB	VB	VerbForm=Inf	15	advcl	_	_
+19	good	good	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	bye	bye	NOUN	NN	Number=Sing	18	obj	_	_
+22	over	over	X	GW	_	23	goeswith	_	_
+23	again	again	ADV	RB	_	15	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Towards eleven o'clock, a fresh breeze blowing from the nor'-nor'-west, the Durande was off the Minquiers, under little steam, keeping her head to the west, on the starboard tack, and close up to the wind.
+1	Towards	towards	ADP	IN	_	3	case	_	_
+2	eleven	eleven	NUM	CD	NumType=Card	3	nummod	_	_
+3	o'clock	o'clock	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	fresh	fresh	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	breeze	breeze	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	blowing	blow	VERB	VBG	VerbForm=Ger	3	acl	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	nor'-	nor'-	SYM	NFP	_	8	obl	_	SpaceAfter=No
+12	nor'-west	nor'-west	ADV	RB	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	Durande	Durande	PROPN	NNP	Number=Sing	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	off	off	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	Minquiers	Minquier	PROPN	NNPS	Number=Plur	3	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	under	under	ADP	IN	_	23	case	_	_
+22	little	little	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	steam	steam	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	keeping	keep	VERB	VBG	VerbForm=Ger	23	acl	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	head	head	NOUN	NN	Number=Sing	25	obj	_	_
+28	to	to	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	west	west	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	23	punct	_	_
+32	on	on	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	starboard	starboard	NOUN	NN	Number=Sing	35	compound	_	_
+35	tack	tack	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	close	close	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+39	up	up	ADP	RP	_	38	compound:prt	_	_
+40	to	to	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	wind	wind	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The weather was still fine and clear.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	weather	weather	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	still	still	ADV	RB	_	5	advmod	_	_
+5	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	clear	clear	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The trawlers, however, were making for shore.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	trawlers	trawler	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	however	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	shore	shore	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She kept house for her father.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	house	house	NOUN	NN	Number=Sing	2	obj	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	father	father	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = M. Gillenormand had his daughter near him, as we have seen that Monseigneur Bienvenu had his sister with him.
+1	M.	M.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Gillenormand	Gillenormand	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	daughter	daughter	NOUN	NN	Number=Sing	3	obj	_	_
+6	near	near	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+13	that	that	SCONJ	IN	_	16	mark	_	_
+14	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	16	nsubj	_	_
+15	Bienvenu	Bienvenu	PROPN	NNP	Number=Sing	14	flat	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	sister	sister	NOUN	NN	Number=Sing	16	obj	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = These households comprised of an old man and an old spinster are not rare, and always have the touching aspect of two weaknesses leaning on each other for support.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	households	household	NOUN	NNS	Number=Plur	14	nsubj	_	_
+3	comprised	comprise	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	3	obl	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	spinster	spinster	NOUN	NN	Number=Sing	7	conj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	rare	rare	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	always	always	ADV	RB	_	18	advmod	_	_
+18	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	touching	touching	NOUN	NN	Number=Sing	21	compound	_	_
+21	aspect	aspect	NOUN	NN	Number=Sing	18	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	two	two	NUM	CD	NumType=Card	24	nummod	_	_
+24	weaknesses	weakness	NOUN	NNS	Number=Plur	21	nmod	_	_
+25	leaning	lean	VERB	VBG	VerbForm=Ger	24	acl	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	each	each	DET	DT	_	28	det	_	_
+28	other	other	ADJ	JJ	Degree=Pos	25	obl	_	_
+29	for	for	ADP	IN	_	30	case	_	_
+30	support	support	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

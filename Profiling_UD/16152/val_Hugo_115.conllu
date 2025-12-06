@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "They are twisted.
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	twisted	twist	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = This is how this twisting is done.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	twisting	twisting	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	done	do	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = They empty into a forge the basket of a collector of old iron.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	empty	empty	ADJ	JJ	Degree=Pos|Typo=Yes	0	root	_	_
+3	into	into	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	forge	forge	NOUN	NN	Number=Sing	2	obl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	basket	basket	NOUN	NN	Number=Sing	5	appos	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	collector	collector	NOUN	NN	Number=Sing	7	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	iron	iron	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = They fill it full of these old scraps, with old nails, and broken horseshoes swept out of farriers' shops."
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	fill	fill	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	full	full	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+7	old	old	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	scraps	scrap	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	nails	nail	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	horseshoes	horseshoe	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	swept	sweep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	out	out	ADP	IN	_	22	case	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	farriers	farrier	NOUN	NNS	Number=Plur	22	nmod:poss	_	SpaceAfter=No
+21	'	's	PART	POS	_	20	case	_	_
+22	shops	shop	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+24	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

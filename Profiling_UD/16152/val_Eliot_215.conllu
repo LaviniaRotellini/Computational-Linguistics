@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, Tom, it’s such a pretty book!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	11	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	such	such	DET	PDT	_	11	det:predet	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	pretty	pretty	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	book	book	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	11	punct	_	_
+
+# sent_id = 2
+# text = she said, as she jumped out of the large arm-chair to give it him; “it’s much prettier than the Dictionary.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	jumped	jump	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	out	out	ADP	IN	_	13	case	_	_
+8	of	of	ADP	IN	_	13	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+10	large	large	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	arm	arm	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	chair	chair	NOUN	NN	Number=Sing	6	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	give	give	VERB	VB	VerbForm=Inf	6	acl	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	2	punct	_	_
+19	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
+21	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	much	much	ADV	RB	_	23	advmod	_	_
+23	prettier	prettier	ADJ	JJR	Degree=Cmp	2	parataxis	_	_
+24	than	than	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	Dictionary	dictionary	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I could learn Latin very soon.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	learn	learn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Latin	latin	PROPN	NNP	Number=Sing	3	obj	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	soon	soon	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I don’t think it’s at all hard.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	at	at	ADV	RB	_	9	advmod	_	_
+8	all	all	ADV	RB	_	9	advmod	_	_
+9	hard	hard	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

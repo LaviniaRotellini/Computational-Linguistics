@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, she’ll be welly such a one as Hetty i’ ten years’ time, on’y she’s got _thy_ coloured eyes.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+5	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+7	welly	welly	ADV	RB	_	10	advmod	_	_
+8	such	such	DET	PDT	_	10	det:predet	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	one	one	NOUN	NN	Number=Sing	0	root	_	_
+11	as	as	ADP	IN	_	12	case	_	_
+12	Hetty	Hetty	PROPN	NNP	Number=Sing	10	nmod	_	_
+13	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+14	’	’	PUNCT	''	_	10	punct	_	_
+15	ten	ten	NUM	CD	NumType=Card	16	nummod	_	_
+16	years	year	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+17	’	’	PART	POS	_	16	case	_	_
+18	time	time	NOUN	NN	Number=Sing	10	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	o	of	ADV	RB	_	24	advmod	_	SpaceAfter=No
+21	n’y	n’y	ADV	RB	_	24	advmod	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	SpaceAfter=No
+23	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	parataxis	_	_
+25	_thy	_thy	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	_	_	SYM	NFP	_	28	case	_	_
+27	coloured	coloured	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	eyes	eye	NOUN	NNS	Number=Plur	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = I niver remember a blue eye i’ my family; my mother had eyes as black as sloes, just like Hetty’s.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	niver	niver	ADV	RB	_	3	advmod	_	_
+3	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	blue	blue	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	eye	eye	NOUN	NN	Number=Sing	7	compound	_	_
+7	i	I	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	10	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	family	family	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	14	obj	_	_
+16	as	as	ADP	IN	_	17	case	_	_
+17	black	black	ADJ	JJ	Degree=Pos	3	nmod	_	_
+18	as	as	ADP	IN	_	19	case	_	_
+19	sloes	sloe	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	3	punct	_	_
+21	just	just	ADV	RB	_	23	advmod	_	_
+22	like	like	ADP	IN	_	23	case	_	_
+23	Hetty	Hetty	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

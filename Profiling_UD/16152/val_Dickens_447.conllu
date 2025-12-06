@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Whatever you want most, if I could be that.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Whatever	whatever	DET	WDT	PronType=Int	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	most	most	ADV	RBS	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	if	if	SCONJ	IN	_	11	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	2	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = At all events, I would like to try to be as near it as I can.
+1	At	at	ADP	IN	_	3	case	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	events	event	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	try	try	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	9	xcomp	_	_
+12	as	as	ADP	IN	_	14	case	_	_
+13	near	near	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+15	as	as	SCONJ	IN	_	17	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	11	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And however far off that may be, I will never tire of trying.
+1	And	and	CCONJ	CC	_	12	cc	_	_
+2	however	however	ADV	RB	_	3	advmod	_	_
+3	far	far	ADV	RB	Degree=Pos	12	advmod	_	_
+4	off	off	ADP	IN	_	5	case	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	_
+6	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	3	cop	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	tire	tire	VERB	VB	VerbForm=Inf	0	root	_	_
+13	of	of	SCONJ	IN	_	14	mark	_	_
+14	trying	try	VERB	VBG	VerbForm=Ger	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Will you let me?’
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

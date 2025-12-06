@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = And the little girl I saw on that first day at Mr. Wickfield’s, where is she?
+1	And	and	CCONJ	CC	_	16	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	girl	girl	NOUN	NN	Number=Sing	12	nsubj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	on	on	ADP	IN	_	10	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+10	day	day	NOUN	NN	Number=Sing	6	obl	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	16	obl	_	_
+13	Wickfield	Wickfield	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	’s	's	PART	POS	_	12	case	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	where	where	ADV	WRB	PronType=Rel	0	root	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = Gone also.
+1	Gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+2	also	also	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = In her stead, the perfect likeness of the picture, a child likeness no more, moves about the house; and Agnes--my sweet sister, as I call her in my thoughts, my counsellor and friend, the better angel of the lives of all who come within her calm, good, self-denying influence--is quite a woman.
+1	In	in	ADP	IN	_	3	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	stead	stead	NOUN	NN	Number=Sing	67	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	perfect	perfect	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	likeness	likeness	NOUN	NN	Number=Sing	3	conj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	picture	picture	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	67	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	child	child	NOUN	NN	Number=Sing	14	compound	_	_
+14	likeness	likeness	NOUN	NN	Number=Sing	67	nsubj	_	_
+15	no	no	ADV	RB	_	16	advmod	_	_
+16	more	more	ADV	RBR	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	moves	move	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	about	about	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	house	house	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	18	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	Agnes	Agnes	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+25	--	--	PUNCT	,	_	18	punct	_	SpaceAfter=No
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	sweet	sweet	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	sister	sister	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	as	as	SCONJ	IN	_	32	mark	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+33	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	in	in	ADP	IN	_	36	case	_	_
+35	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	thoughts	thought	NOUN	NNS	Number=Plur	32	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	18	punct	_	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	counsellor	counsellor	NOUN	NN	Number=Sing	18	appos	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	friend	friend	NOUN	NN	Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	18	punct	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+44	better	better	ADJ	JJR	Degree=Cmp	45	amod	_	_
+45	angel	angel	NOUN	NN	Number=Sing	18	appos	_	_
+46	of	of	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	lives	life	NOUN	NNS	Number=Plur	45	nmod	_	_
+49	of	of	ADP	IN	_	50	case	_	_
+50	all	all	DET	DT	_	48	nmod	_	_
+51	who	who	PRON	WP	PronType=Rel	52	nsubj	_	_
+52	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
+53	within	within	ADP	IN	_	55	case	_	_
+54	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	calm	calm	ADJ	JJ	Degree=Pos	52	obl	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	57	punct	_	_
+57	good	good	ADJ	JJ	Degree=Pos	55	conj	_	SpaceAfter=No
+58	,	,	PUNCT	,	_	59	punct	_	_
+59	self	self	NOUN	NN	Number=Sing	61	compound	_	SpaceAfter=No
+60	-	-	PUNCT	HYPH	_	59	punct	_	SpaceAfter=No
+61	denying	deny	VERB	VBG	VerbForm=Ger	55	acl	_	_
+62	influence	influence	NOUN	NN	Number=Sing	61	obj	_	SpaceAfter=No
+63	--	--	PUNCT	,	_	18	punct	_	SpaceAfter=No
+64	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	cop	_	_
+65	quite	quite	DET	PDT	_	67	det:predet	_	_
+66	a	a	DET	DT	Definite=Ind|PronType=Art	67	det	_	_
+67	woman	woman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+68	.	.	PUNCT	.	_	67	punct	_	SpacesAfter=\n
+

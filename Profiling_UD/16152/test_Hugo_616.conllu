@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Be diligent, gossip.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	3	cop	_	_
+3	diligent	diligent	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	gossip	gossip	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Take Monsieur Châteaupers with you.
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	Monsieur	Monsieur	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	Châteaupers	Châteauper	NOUN	NNS	Number=Plur	1	obj	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = You will cause the tocsin to be sounded.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cause	cause	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	tocsin	tocsin	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	sounded	sound	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = You will crush the populace.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	crush	crush	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	populace	populace	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = You will seize the witch.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	seize	seize	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	witch	witch	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = ’Tis said.
+1	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+2	Tis	Tis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = And I mean the business of the execution to be done by you.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	business	business	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	execution	execution	NOUN	NN	Number=Sing	5	nmod	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = You will render me an account of it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	render	render	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	account	account	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Come, Olivier, I shall not go to bed this night.
+1	Come	come	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Olivier	Olivier	PROPN	NNP	Number=Sing	1	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	shall	shall	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	bed	be	NOUN	NN	Number=Sing	8	obl	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	night	night	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 10
+# text = Shave me.”
+1	Shave	shave	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

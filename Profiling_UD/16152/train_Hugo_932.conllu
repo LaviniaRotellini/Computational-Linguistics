@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = They always have the same faculties.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	same	same	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	faculties	faculty	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = From the vagrant to the tramp, the race is maintained in its purity.
+1	From	from	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	vagrant	vagrant	NOUN	NN	Number=Sing	11	obl	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	tramp	tramp	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	race	race	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	maintained	maintain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	purity	purity	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = They divine purses in pockets, they scent out watches in fobs.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	divine	divine	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	purses	purse	NOUN	NNS	Number=Plur	2	obj	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	pockets	pocket	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	scent	scent	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	watches	watch	NOUN	NNS	Number=Plur	8	obj	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	fobs	fob	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Gold and silver possess an odor for them.
+1	Gold	gold	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	silver	silver	ADJ	JJ	Degree=Pos	1	conj	_	_
+4	possess	possess	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	odor	odor	NOUN	NN	Number=Sing	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = There exist ingenuous bourgeois, of whom it might be said, that they have a “stealable” air.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ingenuous	ingenuous	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	bourgeois	bourgeois	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	whom	whom	PRON	WP	PronType=Int	11	obl	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+9	might	might	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	stealable	stealable	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	air	air	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = These men patiently pursue these bourgeois.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	men	man	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	patiently	patiently	ADV	RB	_	4	advmod	_	_
+4	pursue	pursue	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	bourgeois	bourgeois	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = They experience the quivers of a spider at the passage of a stranger or of a man from the country.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	experience	experience	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	quivers	quiver	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	spider	spider	NOUN	NN	Number=Sing	4	nmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	passage	passage	NOUN	NN	Number=Sing	7	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	stranger	stranger	NOUN	NN	Number=Sing	10	nmod	_	_
+14	or	or	CCONJ	CC	_	17	cc	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	13	conj	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	country	country	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

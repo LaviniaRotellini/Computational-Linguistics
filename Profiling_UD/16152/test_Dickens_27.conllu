@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There was a door in the kitchen, communicating with the forge; I unlocked and unbolted that door, and got a file from among Joe’s tools.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	door	door	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	kitchen	kitchen	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	communicating	communicate	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	forge	forge	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	unlocked	unlock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	unbolted	unbolt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	door	door	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	file	file	NOUN	NN	Number=Sing	22	obj	_	_
+25	from	from	ADP	IN	_	29	case	_	_
+26	among	among	ADP	IN	_	29	case	_	_
+27	Joe	Joe	PROPN	NNP	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	’s	's	PART	POS	_	27	case	_	_
+29	tools	tool	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Then I put the fastenings as I had found them, opened the door at which I had entered when I ran home last night, shut it, and ran for the misty marshes.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	fastenings	fastening	NOUN	NNS	Number=Plur	3	obj	_	_
+6	as	as	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	found	find	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	door	door	NOUN	NN	Number=Sing	12	obj	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	which	which	PRON	WDT	PronType=Rel	19	obl	_	_
+17	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	entered	enter	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+20	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+23	home	home	ADV	RB	_	22	advmod	_	_
+24	last	last	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	night	night	NOUN	NN	Number=Sing	22	obl:tmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	27	punct	_	_
+27	shut	shut	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+32	for	for	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	misty	misty	NOUN	NN	Number=Sing	35	compound	_	_
+35	marshes	marsh	NOUN	NNS	Number=Plur	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

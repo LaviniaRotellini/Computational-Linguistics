@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I don’t allude to the matter in that light,’ said Mr. Spenlow.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	allude	allude	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	matter	matter	NOUN	NN	Number=Sing	5	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	light	light	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Spenlow	Spenlow	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘It would be better for yourself, and all of us, if you WERE mercenary, Mr. Copperfield--I mean, if you were more discreet and less influenced by all this youthful nonsense.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	all	all	DET	DT	_	5	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	if	if	SCONJ	IN	_	17	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	WERE	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	mercenary	mercenary	ADJ	JJ	Degree=Pos	19	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	5	parataxis	_	_
+20	Copperfield	Copperfield	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	if	if	SCONJ	IN	_	29	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	_
+27	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	cop	_	_
+28	more	more	ADV	RBR	_	29	advmod	_	_
+29	discreet	discreet	ADJ	JJ	Degree=Pos	23	advcl	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	less	less	ADV	RBR	Degree=Cmp	32	advmod	_	_
+32	influenced	influence	ADJ	JJ	Degree=Pos	29	conj	_	_
+33	by	by	ADP	IN	_	37	case	_	_
+34	all	all	DET	PDT	_	37	det:predet	_	_
+35	this	this	DET	DT	Number=Sing|PronType=Dem	37	det	_	_
+36	youthful	youthful	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	nonsense	nonsense	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = No.
+1	No	no	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I merely say, with quite another view, you are probably aware I have some property to bequeath to my child?’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	merely	merely	ADV	RB	_	3	advmod	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	quite	quite	DET	PDT	_	8	det:predet	_	_
+7	another	another	DET	DT	_	8	det	_	_
+8	view	view	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	probably	probably	ADV	RB	_	13	advmod	_	_
+13	aware	aware	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	some	some	DET	DT	_	17	det	_	_
+17	property	property	NOUN	NN	Number=Sing	15	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	bequeath	bequeath	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	child	child	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

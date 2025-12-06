@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Egad, Bishop, let’s have a discussion.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Egad	Egad	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Bishop	Bishop	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	’s	us	PRON	PRP	_	6	obj	_	_
+8	have	have	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	discussion	discussion	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It is hard for a senator and a bishop to look at each other without winking.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	senator	senator	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	bishop	bishop	NOUN	NN	Number=Sing	6	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	look	look	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	each	each	DET	DT	_	14	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	11	obl	_	_
+15	without	without	SCONJ	IN	_	16	mark	_	_
+16	winking	winking	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = We are two augurs.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+4	augurs	augur	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I am going to make a confession to you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	confession	confession	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I have a philosophy of my own.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	philosophy	philosophy	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

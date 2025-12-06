@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Deuce knows,” said Caleb, who never referred the knowledge of discreditable doings to any higher power than the deuce.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Deuce	Deuce	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Caleb	Caleb	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+10	never	never	ADV	RB	_	11	advmod	_	_
+11	referred	refer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	knowledge	knowledge	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	discreditable	discreditable	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	doings	doings	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	to	to	ADP	IN	_	20	case	_	_
+18	any	any	DET	DT	_	20	det	_	_
+19	higher	higher	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	power	power	NOUN	NN	Number=Sing	11	obl	_	_
+21	than	than	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	deuce	deuce	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “But Bulstrode has long been wanting to get a handsome bit of land under his fingers—that I know.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	7	cc	_	_
+3	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	7	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	long	long	ADV	RB	Degree=Pos	7	advmod	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux	_	_
+7	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	handsome	handsome	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	bit	bit	NOUN	NN	Number=Sing	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	land	land	NOUN	NN	Number=Sing	12	nmod	_	_
+15	under	under	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	fingers	finger	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+19	that	that	SCONJ	IN	_	21	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And it’s a difficult matter to get, in this part of the country.”
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	difficult	difficult	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	matter	matter	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	6	acl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	part	part	NOUN	NN	Number=Sing	6	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

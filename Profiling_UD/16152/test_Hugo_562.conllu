@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Churches have been known to defend themselves thus all by themselves,” he remarked with a sigh.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Churches	Churche	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	defend	defend	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	thus	thus	ADV	RB	_	10	advmod	_	_
+10	all	all	ADV	RB	_	12	advmod	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	16	punct	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	remarked	remark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	sigh	sigh	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Saint-Sophia at Constantinople, forty years ago, hurled to the earth three times in succession, the crescent of Mahom, by shaking her domes, which are her heads.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Saint	Saint	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+4	Sophia	Sophia	PROPN	NNP	Number=Sing	2	flat	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Constantinople	Constantinople	PROPN	NNP	Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	forty	forty	NUM	CD	NumType=Card	9	nummod	_	_
+9	years	year	NOUN	NNS	Number=Plur	10	obl:npmod	_	_
+10	ago	ago	ADV	RB	_	2	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	hurled	hurl	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	earth	earth	NOUN	NN	Number=Sing	12	obl	_	_
+16	three	three	NUM	CD	NumType=Card	17	nummod	_	_
+17	times	time	NOUN	NNS	Number=Plur	12	obl:tmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	succession	succession	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	12	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	crescent	crescent	NOUN	NN	Number=Sing	12	obj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	Mahom	Mahom	PROPN	NNP	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	12	punct	_	_
+26	by	by	SCONJ	IN	_	27	mark	_	_
+27	shaking	shake	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	domes	dome	NOUN	NNS	Number=Plur	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	which	which	PRON	WDT	PronType=Rel	34	nsubj	_	_
+32	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	cop	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	heads	head	NOUN	NNS	Number=Plur	29	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Guillaume de Paris, who built this one was a magician.”
+1	Guillaume	Guillaume	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Paris	Paris	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	built	build	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	one	one	NOUN	NN	Number=Sing	6	obj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	magician	magician	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

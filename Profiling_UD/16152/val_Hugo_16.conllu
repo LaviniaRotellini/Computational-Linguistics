@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One day, a poor man was beating an ass.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	poor	poor	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	ass	ass	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = The ass was obstinate.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	ass	ass	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	obstinate	obstinate	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The poor man gave him a few kicks in the belly with his wooden shoe, and the ass fell.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	poor	poor	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	few	few	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	kicks	kick	NOUN	NNS	Number=Plur	15	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	belly	belly	NOUN	NN	Number=Sing	8	nmod	_	_
+12	with	with	ADP	IN	_	15	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	wooden	wooden	NOUN	NN	Number=Sing	15	compound	_	_
+15	shoe	shoe	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	ass	ass	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	fell	fell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Gilliatt ran to raise the unlucky beast, but he was dead.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	raise	raise	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	unlucky	unlucky	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	beast	beast	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	dead	dead	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Upon this Gilliatt administered to the poor man a sound thrashing.
+1	Upon	upon	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	administered	administer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	poor	poor	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	man	man	NOUN	NN	Number=Sing	4	obl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	sound	sound	NOUN	NN	Number=Sing	11	compound	_	_
+11	thrashing	thrashing	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

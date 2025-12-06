@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And you _will_
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	_	_	SYM	NFP	_	5	punct	_	SpaceAfter=No
+5	will	will	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+6	_	_	SYM	NFP	_	5	punct	_	_
+
+# sent_id = 2
+# text = persuade the Poysers to stay, Adam?” said Arthur, reminded of the subject which both of them had forgotten in the first interchange of revived friendship.
+1	persuade	persuade	VERB	VB	VerbForm=Inf	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	Poysers	Poyser	NOUN	NNS	Number=Plur	1	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	stay	stay	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Adam	Adam	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
+11	Arthur	Arthur	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	reminded	remind	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	subject	subject	NOUN	NN	Number=Sing	13	obl	_	_
+17	which	which	PRON	WDT	PronType=Rel	22	obj	_	_
+18	both	both	DET	DT	_	22	nsubj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	nmod	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	26	amod	_	_
+26	interchange	interchange	NOUN	NN	Number=Sing	22	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	revived	revive	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	_	_
+29	friendship	friendship	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = “You _will_
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+4	will	will	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+5	_	_	SYM	NFP	_	4	punct	_	_
+
+# sent_id = 4
+# text = stay yourself, and help Mr. Irwine to carry out the repairs and improvements on the estate?”
+1	stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	help	help	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Irwine	Irwine	PROPN	NNP	Number=Sing	6	flat	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	carry	carry	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	repairs	repair	NOUN	NNS	Number=Plur	9	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	improvements	improvement	NOUN	NNS	Number=Plur	12	conj	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	estate	estate	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

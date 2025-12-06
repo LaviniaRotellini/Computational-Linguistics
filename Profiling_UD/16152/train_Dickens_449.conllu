@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mama, I hope you have finished?’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mama	mama	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘No, my dear Annie,’ returned the Old Soldier, ‘I have not quite finished.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Annie	Annies	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+7	,’	,’	PUNCT	.	_	8	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	Old	old	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Soldier	soldier	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	quite	quite	ADV	RB	_	18	advmod	_	_
+18	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	8	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Since you ask me, my love, I reply that I have not.
+1	Since	since	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	love	love	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	reply	reply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	not	not	PART	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = I complain that you really are a little unnatural towards your own family; and, as it is of no use complaining to you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	complain	complain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	9	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+5	really	really	ADV	RB	_	9	advmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	obl:npmod	_	_
+9	unnatural	unnatural	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+10	towards	towards	ADP	IN	_	13	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	own	own	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	family	family	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	2	punct	_	_
+15	and	and	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	as	as	SCONJ	IN	_	22	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	no	no	DET	DT	_	22	det	_	_
+22	use	use	NOUN	NN	Number=Sing	2	conj	_	_
+23	complaining	complain	VERB	VBG	VerbForm=Ger	22	acl	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I mean to complain to your husband.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	complain	complain	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	husband	husband	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Now, my dear Doctor, do look at that silly wife of yours.’
+1	Now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Doctor	doctor	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	silly	silly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	wife	wife	NOUN	NN	Number=Sing	8	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	yours	yours	PRON	PRP	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

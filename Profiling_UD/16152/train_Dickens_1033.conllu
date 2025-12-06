@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well, well,’ said the Doctor, ‘that’s true.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Doctor	Doctor	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	SpaceAfter=No
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	true	true	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Certainly, your having a profession, and being actually engaged in studying it, makes a difference.
+1	Certainly	certainly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	r	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	17	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	profession	profession	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	being	be	AUX	VBG	VerbForm=Ger	12	aux:pass	_	_
+11	actually	actually	ADV	RB	_	12	advmod	_	_
+12	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+13	in	in	SCONJ	IN	_	14	mark	_	_
+14	studying	study	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	difference	difference	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = But, my good young friend, what’s seventy pounds a year?’
+1	But	but	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+4	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	friend	friend	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	what	what	PRON	WP	PronType=Int	9	nsubj	_	SpaceAfter=No
+9	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	seventy	seventy	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	pounds	pound	NOUN	NNS	Number=Plur	9	obj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	year	year	NOUN	NN	Number=Sing	11	nmod:tmod	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	9	punct	_	SpaceAfter=No
+15	’	’	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

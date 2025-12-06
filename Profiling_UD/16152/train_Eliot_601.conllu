@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I shall go to the school at York,” said Mary.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	go	go	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	school	school	NOUN	NN	Number=Sing	4	obl	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	York	York	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mary	Mary	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “I am less unfit to teach in a school than in a family.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	less	less	ADV	RBR	Degree=Cmp	5	advmod	_	_
+5	unfit	unfit	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	teach	teach	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	school	school	NOUN	NN	Number=Sing	7	obl	_	_
+11	than	than	ADP	IN	_	14	case	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	family	family	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I like to teach classes best.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	teach	teach	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	classes	class	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	best	best	ADJ	JJS	Degree=Sup	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And, you see, I must teach: there is nothing else to be done.”
+1	And	and	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	teach	teach	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	8	punct	_	_
+10	there	there	PRON	EX	_	11	expl	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	nothing	nothing	PRON	NN	Number=Sing	11	nsubj	_	_
+13	else	else	ADJ	JJ	Degree=Pos	12	amod	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

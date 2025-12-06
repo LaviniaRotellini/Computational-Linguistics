@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Are Letty and Ben your only pupils now, Mrs. Garth?” said Fred, when the children were gone and it was needful to say something that would pass the time.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Are	be	PROPN	NNP	Number=Sing	15	nsubj	_	_
+3	Letty	Letty	PROPN	NNP	Number=Sing	2	flat	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Ben	Ben	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	only	only	ADV	RB	_	8	advmod	_	_
+8	pupils	pupil	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Garth	Garth	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Fred	Fred	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	children	child	NOUN	NNS	Number=Plur	22	nsubj	_	_
+21	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	gone	gone	ADJ	JJ	Degree=Pos	15	advcl	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	expl	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	needful	needful	ADJ	JJ	Degree=Pos	22	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	say	say	VERB	VB	VerbForm=Inf	26	csubj	_	_
+29	something	something	PRON	NN	Number=Sing	28	obj	_	_
+30	that	that	PRON	WDT	PronType=Rel	32	nsubj	_	_
+31	would	would	AUX	MD	VerbForm=Fin	32	aux	_	_
+32	pass	pass	VERB	VB	VerbForm=Inf	29	acl:relcl	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	time	time	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = He was not yet sure whether he should wait for Mr. Garth, or use any good opportunity in conversation to confess to Mrs. Garth herself, give her the money and ride away.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	yet	yet	ADV	RB	_	5	advmod	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+6	whether	whether	SCONJ	IN	_	9	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	wait	wait	VERB	VB	VerbForm=Inf	28	ccomp	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obl	_	_
+12	Garth	Garth	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	use	use	VERB	VB	VerbForm=Inf	9	conj	_	_
+16	any	any	DET	DT	_	18	det	_	_
+17	good	good	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	opportunity	opportunity	NOUN	NN	Number=Sing	15	obj	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	conversation	conversation	NOUN	NN	Number=Sing	18	nmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	confess	confess	VERB	VB	VerbForm=Inf	20	acl	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	Mrs.	Mrs.	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Garth	Garth	PROPN	NNP	Number=Sing	22	obl	_	_
+26	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	give	give	VERB	VB	VerbForm=Inf	5	conj	_	_
+29	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	money	money	NOUN	NN	Number=Sing	28	obj	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	ride	ride	VERB	VB	VerbForm=Inf	28	conj	_	_
+34	away	away	ADV	RB	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

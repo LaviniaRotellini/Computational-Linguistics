@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On one of these trips, which were always very brief, he went to Montfermeil, in order to obey the injunction which his father had left him, and he sought the old sergeant to Waterloo, the inn-keeper Thénardier.
+1	On	on	ADP	IN	_	2	case	_	_
+2	one	one	NUM	CD	NumType=Card	14	obl	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	trips	trip	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	always	always	ADV	RB	_	11	advmod	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	brief	brief	ADJ	JJ	Degree=Pos	2	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	Montfermeil	Montfermeil	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	in	in	ADP	IN	_	21	mark	_	_
+19	order	order	NOUN	NN	Number=Sing	18	fixed	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	obey	obey	VERB	VB	VerbForm=Inf	14	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	injunction	injunction	NOUN	NN	Number=Sing	21	obj	_	_
+24	which	which	PRON	WDT	PronType=Rel	28	obj	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	father	father	NOUN	NN	Number=Sing	28	nsubj	_	_
+27	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	sought	seek	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	old	old	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	sergeant	sergeant	NOUN	NN	Number=Sing	33	obj	_	_
+37	to	to	ADP	IN	_	38	case	_	_
+38	Waterloo	Waterloo	PROPN	NNP	Number=Sing	33	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	44	punct	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+41	inn	inn	NOUN	NN	Number=Sing	43	compound	_	SpaceAfter=No
+42	-	-	PUNCT	HYPH	_	43	punct	_	SpaceAfter=No
+43	keeper	keeper	NOUN	NN	Number=Sing	44	compound	_	_
+44	Thénardier	Thénardier	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = Thénardier had failed, the inn was closed, and no one knew what had become of him.
+1	Thénardier	Thénardier	ADV	RB	_	3	advmod	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	failed	fail	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	inn	inn	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	closed	close	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	one	one	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	what	what	PRON	WP	PronType=Int	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	become	become	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Marius was away from the house for four days on this quest.
+1	Marius	Marius	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	away	away	ADV	RB	_	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	house	house	NOUN	NN	Number=Sing	3	obl	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	four	four	NUM	CD	NumType=Card	9	nummod	_	_
+9	days	day	NOUN	NNS	Number=Plur	3	obl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	quest	quest	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

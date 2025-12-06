@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A dread falls on me here.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	dread	dread	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	here	here	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = A cloud is lowering on the distant town, towards which I retraced my solitary steps.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	cloud	cloud	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lowering	lowere	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	distant	distant	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	town	town	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	towards	towards	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	obl	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	retraced	retrace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	solitary	solitary	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	steps	step	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I fear to approach it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fear	fear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	approach	approach	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I cannot bear to think of what did come, upon that memorable night; of what must come again, if I go on.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	of	of	SCONJ	IN	_	8	case	_	_
+8	what	what	PRON	WP	PronType=Int	10	nsubj	_	_
+9	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	come	come	VERB	VB	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	upon	upon	ADP	IN	_	15	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+14	memorable	memorable	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	night	night	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	4	punct	_	_
+17	of	of	SCONJ	IN	_	18	case	_	_
+18	what	what	PRON	WP	PronType=Int	4	obl	_	_
+19	must	must	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	come	come	VERB	VB	VerbForm=Inf	18	acl:relcl	_	_
+21	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	_	_
+23	if	if	SCONJ	IN	_	25	mark	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+26	on	on	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

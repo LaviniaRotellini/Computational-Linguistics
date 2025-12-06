@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All this time he was squeezing my hand with his damp fishy fingers, while I made every effort I decently could to get it away.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	6	obl:tmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	squeezing	squeeze	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hand	hand	NOUN	NN	Number=Sing	6	obj	_	_
+9	with	with	ADP	IN	_	13	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+11	damp	damp	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	fishy	fishy	NOUN	NN	Number=Sing	13	compound	_	_
+13	fingers	finger	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	while	while	SCONJ	IN	_	17	mark	_	_
+16	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+18	every	every	DET	DT	_	19	det	_	_
+19	effort	effort	NOUN	NN	Number=Sing	17	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+21	decently	decently	ADV	RB	_	24	advmod	_	_
+22	could	could	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	get	get	VERB	VB	VerbForm=Inf	19	acl:relcl	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	away	away	ADV	RB	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = But I was quite unsuccessful.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	quite	quite	ADV	RB	_	5	advmod	_	_
+5	unsuccessful	unsuccessful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He drew it under the sleeve of his mulberry-coloured great-coat, and I walked on, almost upon compulsion, arm-in-arm with him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	under	under	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sleeve	sleeve	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	14	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+9	mulberry	mulberry	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+11	coloured	colour	ADJ	JJ	Degree=Pos	14	amod	_	_
+12	great	great	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	coat	coat	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	on	on	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	almost	almost	ADV	RB	_	23	advmod	_	_
+22	upon	upon	ADP	IN	_	23	case	_	_
+23	compulsion	compulsion	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	arm	arm	VERB	VB	VerbForm=Inf	18	parataxis	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+27	in	in	ADP	IN	_	29	case	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	arm	arm	NOUN	NN	Number=Sing	18	obl	_	_
+30	with	with	ADP	IN	_	31	case	_	_
+31	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

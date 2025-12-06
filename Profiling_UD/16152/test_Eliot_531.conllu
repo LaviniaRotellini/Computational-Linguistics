@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, I’m afraid the grief cuts very deep,” said Mr. Irwine.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	afraid	afraid	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	grief	grief	NOUN	NN	Number=Sing	9	compound	_	_
+9	cuts	cut	NOUN	NNS	Number=Plur	6	obj	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	deep	deep	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Irwine	Irwine	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “He looks terribly shattered, and a certain violence came over him now and then yesterday, which made me wish I could have remained near him.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	terribly	terribly	ADV	RB	_	5	advmod	_	_
+5	shattered	shattered	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	certain	certain	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	violence	violence	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	over	over	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	now	now	ADV	RB	_	11	advmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+17	yesterday	yesterday	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	which	which	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	wish	wish	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	could	could	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	have	have	AUX	VB	VerbForm=Inf	26	aux	_	_
+26	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	22	ccomp	_	_
+27	near	near	ADP	IN	_	28	case	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But I shall go to Stoniton again to-morrow, and I have confidence enough in the strength of Adam’s principle to trust that he will be able to endure the worst without being driven to anything rash.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Stoniton	Stoniton	PROPN	NNP	Number=Sing	4	obl	_	_
+7	again	again	ADV	RB	_	4	advmod	_	_
+8	to	to	ADP	IN	_	10	case	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	morrow	morrow	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+15	confidence	confidence	NOUN	NN	Number=Sing	14	obj	_	_
+16	enough	enough	ADJ	JJ	Degree=Pos	15	advmod	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	strength	strength	NOUN	NN	Number=Sing	16	obl	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	Adam	Adam	PROPN	NNP	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	principle	principle	NOUN	NN	Number=Sing	19	nmod	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	trust	trust	VERB	VB	VerbForm=Inf	15	acl	_	_
+26	that	that	SCONJ	IN	_	30	mark	_	_
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+28	will	will	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+30	able	able	ADJ	JJ	Degree=Pos	25	ccomp	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	endure	endure	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	worst	worst	ADJ	JJS	Degree=Sup	32	obj	_	_
+35	without	without	SCONJ	IN	_	37	mark	_	_
+36	being	be	AUX	VBG	VerbForm=Ger	37	aux:pass	_	_
+37	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	advcl	_	_
+38	to	to	ADP	IN	_	40	case	_	_
+39	anything	anything	PRON	NN	Number=Sing	40	compound	_	_
+40	rash	rash	NOUN	NNS	Number=Plur	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

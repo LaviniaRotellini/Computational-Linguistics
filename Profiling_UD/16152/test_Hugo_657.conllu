@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “_Tête Dieu!_ old woman!
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	_Tête	_Tête	PROPN	NNP	Number=Sing	6	compound	_	_
+3	Dieu	Dieu	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	!_	!_	PUNCT	.	_	6	punct	_	_
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	woman	woman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = You are lying!” repeated Tristan angrily.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+6	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+7	Tristan	Tristan	PROPN	NNP	Number=Sing	6	obj	_	_
+8	angrily	angrily	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = “I have a good mind to abandon that sorceress and take you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	mind	mind	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	abandon	abandon	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+9	that	that	SCONJ	IN	_	10	mark	_	_
+10	sorceress	sorceress	NOUN	NNS	Number=Plur	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	take	take	VERB	VB	VerbForm=Inf	10	conj	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = A quarter of an hour of torture will, perchance, draw the truth from your throat.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	quarter	quarter	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	hour	hour	NOUN	NN	Number=Sing	2	nmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	torture	torture	NOUN	NN	Number=Sing	8	compound	_	_
+8	will	will	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	perchance	perchance	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	draw	draw	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	truth	truth	NOUN	NN	Number=Sing	12	obj	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	throat	throat	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 5
+# text = Come!
+1	Come	come	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = You are to follow us.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	follow	follow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

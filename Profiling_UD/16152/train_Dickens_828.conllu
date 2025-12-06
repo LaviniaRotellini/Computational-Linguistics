@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, Heaven knows,’ said Steerforth.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Heaven	heaven	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Steerforth	Steerforth	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘Anything you like--or nothing!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Anything	anything	PRON	NN	Number=Sing	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+5	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	nothing	nothing	PRON	NN	Number=Sing	2	conj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I told you she took everything, herself included, to a grindstone, and sharpened it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	iobj	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	everything	everything	PRON	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	nsubj	_	_
+9	included	include	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	grindstone	grindstone	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	sharpened	sharpen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She is an edge-tool, and requires great care in dealing with.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	edge	edge	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	tool	tool	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10	great	great	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	care	care	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	SCONJ	IN	_	13	mark	_	_
+13	dealing	deal	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	with	with	ADP	IN	_	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = She is always dangerous.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Good night!’
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	night	night	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

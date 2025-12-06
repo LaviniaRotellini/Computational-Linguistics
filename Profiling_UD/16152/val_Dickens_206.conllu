@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Let it be so.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	so	so	ADV	RB	_	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Since Mr. Bounderby likes to take me thus, I am satisfied to accept his proposal.
+1	Since	since	SCONJ	IN	_	4	mark	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Bounderby	Bounderby	PROPN	NNP	Number=Sing	2	flat	_	_
+4	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	take	take	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	thus	thus	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	satisfied	satisfied	ADJ	JJ	Degree=Pos	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	accept	accept	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	proposal	proposal	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Tell him, father, as soon as you please, that this was my answer.
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	father	father	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	soon	soon	ADV	RB	Degree=Pos	1	advmod	_	_
+8	as	as	SCONJ	IN	_	16	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+10	please	please	INTJ	UH	_	16	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	answer	answer	NOUN	NN	Number=Sing	7	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Repeat it, word for word, if you can, because I should wish him to know what I said.’
+1	Repeat	repeat	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	word	word	NOUN	NN	Number=Sing	1	obj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	word	word	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	1	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	because	because	SCONJ	IN	_	15	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	wish	wish	VERB	VB	VerbForm=Inf	1	advcl	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	know	know	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+19	what	what	PRON	WP	PronType=Int	21	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

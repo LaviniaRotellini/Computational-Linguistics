@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Adam, in an abrupt decided tone, “that won’t do.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Adam	Adam	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	in	in	ADP	IN	_	12	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	abrupt	abrupt	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	decided	decided	NOUN	NN	Number=Sing	12	compound	_	_
+12	tone	tone	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	_
+16	wo	will	AUX	MD	VerbForm=Fin	18	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	18	advmod	_	_
+18	do	do	VERB	VB	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I must know what ground I’m treading on.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	what	what	DET	WDT	PronType=Int	5	det	_	_
+5	ground	ground	NOUN	NN	Number=Sing	3	obj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	treading	tread	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
+9	on	on	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I must be safe as you’ve put an end to what ought never to ha’ been begun.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	safe	safe	ADJ	JJ	Degree=Pos	0	root	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	put	put	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	end	end	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	SCONJ	IN	_	12	case	_	_
+12	what	what	PRON	WP	PronType=Int	4	obl	_	_
+13	ought	ought	AUX	MD	VerbForm=Fin	19	aux	_	_
+14	never	never	ADV	RB	_	16	advmod	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	ha	ha	PROPN	NNP	Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+17	’	's	PART	POS	_	16	case	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I don’t forget what’s owing to you as a gentleman, but in this thing we’re man and man, and I can’t give up.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	7	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	owing	owe	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	gentleman	gentleman	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	but	but	CCONJ	CC	_	19	cc	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	thing	thing	NOUN	NN	Number=Sing	19	obl	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+19	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+20	man	man	NOUN	NN	Number=Sing	19	obj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	man	man	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+26	ca	can	AUX	MD	VerbForm=Fin	28	aux	_	SpaceAfter=No
+27	n’t	not	PART	RB	_	28	advmod	_	_
+28	give	give	VERB	VB	VerbForm=Inf	4	conj	_	_
+29	up	up	ADP	RP	_	28	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Stop a minute, though,” he said, wheeling round before we had gone many paces.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	10	ccomp	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	minute	minute	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	though	though	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	wheeling	wheel	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+13	round	round	ADV	RB	_	12	advmod	_	_
+14	before	before	SCONJ	IN	_	17	mark	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+18	many	many	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	paces	pace	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “I ought to give you a reason for fighting, too.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ought	ing	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	reason	reason	NOUN	NN	Number=Sing	5	obj	_	_
+9	for	for	SCONJ	IN	_	10	mark	_	_
+10	fighting	fighting	VERB	VBG	VerbForm=Ger	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	too	too	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There it is!”
+1	There	there	PRON	EX	_	0	root	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 4
+# text = In a most irritating manner he instantly slapped his hands against one another, daintily flung one of his legs up behind him, pulled my hair, slapped his hands again, dipped his head, and butted it into my stomach.
+1	In	in	ADP	IN	_	5	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+4	irritating	irritating	NOUN	NN	Number=Sing	5	compound	_	_
+5	manner	manner	NOUN	NN	Number=Sing	8	obl	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	instantly	instantly	ADV	RB	_	8	advmod	_	_
+8	slapped	slap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	hands	hand	NOUN	NNS	Number=Plur	8	obj	_	_
+11	against	against	ADP	IN	_	12	case	_	_
+12	one	one	NUM	CD	NumType=Card	15	obl	_	_
+13	another	another	DET	DT	_	15	det	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	daintily	daintily	ADV	RB	_	8	advmod	_	_
+16	flung	fling	ADP	IN	Typo=Yes	17	case	_	_
+17	one	one	NUM	CD	NumType=Card	8	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	legs	leg	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	up	up	ADP	RP	_	20	advmod	_	_
+22	behind	behind	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	8	punct	_	_
+25	pulled	pull	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	hair	hair	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	slapped	slap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	conj	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	hands	hand	NOUN	NNS	Number=Plur	29	obj	_	_
+32	again	again	ADV	RB	_	29	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	dipped	dip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	head	head	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	39	punct	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	butted	but	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+40	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+41	into	into	ADP	IN	_	43	case	_	_
+42	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	stomach	stomach	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

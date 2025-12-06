@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He showed it to me.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was a town on the Upper Rhine.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	town	town	NOUN	NN	Number=Sing	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Upper	upper	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Rhine	Rhine	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He had found out, at Yarmouth, some foreign dealers who knew that country, and they had drawn him a rude map on paper, which he could very well understand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	Yarmouth	Yarmouth	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	some	some	DET	DT	_	11	det	_	_
+10	foreign	foreign	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	dealers	dealers	NOUN	NNS	Number=Plur	3	appos	_	_
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+13	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	rude	rude	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	map	map	NOUN	NN	Number=Sing	20	obj	_	_
+25	on	on	ADP	IN	_	26	case	_	_
+26	paper	paper	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	24	punct	_	_
+28	which	which	PRON	WDT	PronType=Rel	33	nsubj	_	_
+29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+30	could	could	AUX	MD	VerbForm=Fin	33	aux	_	_
+31	very	very	ADV	RB	_	33	advmod	_	_
+32	well	well	ADV	RB	Degree=Pos	33	advmod	_	_
+33	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He laid it between us on the table; and, with his chin resting on one hand, tracked his course upon it with the other.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	between	between	ADP	IN	_	5	case	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	table	table	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	and	and	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	20	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	chin	ching	NOUN	NN	Number=Sing	20	obl	_	_
+15	resting	rest	VERB	VBG	VerbForm=Ger	14	acl	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	one	one	NUM	CD	NumType=Card	18	nummod	_	_
+18	hand	hand	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	tracked	track	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	course	course	NOUN	NN	Number=Sing	20	obj	_	_
+23	upon	upon	ADP	IN	_	24	case	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	other	other	ADJ	JJ	Degree=Pos	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

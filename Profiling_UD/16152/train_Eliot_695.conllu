@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Do you mean that I cry up Brooke on any personal ground?” said Will Ladislaw, nettled, and turning sharp round.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	cry	cry	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	Brooke	Brooke	NOUN	NN	Number=Sing	7	obj	_	_
+10	on	on	ADP	IN	_	13	case	_	_
+11	any	any	DET	DT	_	13	det	_	_
+12	personal	personal	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	ground	ground	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Will	will	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	20	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	nettled	nettle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	20	conj	_	_
+24	sharp	sharp	ADV	RB	_	23	advmod	_	_
+25	round	round	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = For the first time he felt offended with Lydgate; not the less so, perhaps, because he would have declined any close inquiry into the growth of his relation to Mr. Brooke.
+1	For	for	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	offended	offended	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	Lydgate	Lydgate	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	6	punct	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	less	less	ADV	RBR	Degree=Cmp	14	advmod	_	_
+14	so	so	ADV	RB	_	22	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	22	punct	_	_
+16	perhaps	perhaps	ADV	RB	_	22	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	because	because	SCONJ	IN	_	22	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	declined	decline	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+23	any	any	DET	DT	_	25	det	_	_
+24	close	close	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	inquiry	inquiry	NOUN	NN	Number=Sing	22	obj	_	_
+26	into	into	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	growth	growth	NOUN	NN	Number=Sing	22	obl	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	relation	relation	NOUN	NN	Number=Sing	28	nmod	_	_
+32	to	to	ADP	IN	_	33	case	_	_
+33	Mr.	Mr.	PROPN	NNP	Number=Sing	31	nmod	_	_
+34	Brooke	Brooke	PROPN	NNP	Number=Sing	33	flat	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

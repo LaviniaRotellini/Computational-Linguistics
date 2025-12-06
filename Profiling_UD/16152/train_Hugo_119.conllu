@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean was pronounced guilty.
+1	Jean	Jean	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	pronounced	pronounce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	guilty	guilty	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The terms of the Code were explicit.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	terms	term	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Code	code	NOUN	NN	Number=Sing	2	nmod	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	explicit	explicit	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = There occur formidable hours in our civilization; there are moments when the penal laws decree a shipwreck.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	occur	occur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	formidable	formidable	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hours	hour	NOUN	NNS	Number=Plur	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	civilization	civilization	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	moments	moment	NOUN	NNS	Number=Plur	10	nsubj	_	_
+12	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	penal	penal	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	laws	law	NOUN	NNS	Number=Plur	18	nsubj	_	_
+16	decree	decree	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	shipwreck	shipwreck	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = What an ominous minute is that in which society draws back and consummates the irreparable abandonment of a sentient being!
+1	What	what	PRON	WP	PronType=Int	5	obj	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	ominous	ominous	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	minute	minute	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	obl	_	_
+9	society	society	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	draws	draw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	back	back	ADV	RB	_	10	advmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	consummates	consummate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	irreparable	irreparable	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	abandonment	abandonment	NOUN	NN	Number=Sing	13	obj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	sentient	sentient	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	being	being	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Jean Valjean was condemned to five years in the galleys.
+1	Jean	Jean	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	condemned	condemne	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	five	five	NUM	CD	NumType=Card	7	nummod	_	_
+7	years	year	NOUN	NNS	Number=Plur	4	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	galleys	galley	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

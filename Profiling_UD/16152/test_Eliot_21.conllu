@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Seth, lad,” said Adam, taking no notice of the sarcasm against himself, “thee mustna take me unkind.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Seth	Seth	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	lad	lad	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	22	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	taking	take	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	notice	notice	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	sarcasm	sarcasm	NOUN	NN	Number=Sing	12	nmod	_	_
+16	against	against	ADP	IN	_	17	case	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+20	thee	thee	NUM	CD	NumType=Card	21	nummod	_	_
+21	mustna	mustna	NOUN	NN	Number=Sing	15	appos	_	_
+22	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	unkind	unkind	ADJ	JJ	Degree=Pos	22	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I wasna driving at thee in what I said just now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	wasna	wasto	X	FW	Foreign=Yes	3	advmod	_	_
+3	driving	drive	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	thee	thee	NOUN	NN	Number=Sing	3	obl	_	_
+6	in	in	SCONJ	IN	_	7	case	_	_
+7	what	what	PRON	WP	PronType=Int	3	obl	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	just	just	ADV	RB	_	11	advmod	_	_
+11	now	now	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Some ’s got one way o’ looking at things and some ’s got another.”
+1	Some	some	DET	DT	_	2	det	_	_
+2	’s	be	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	way	way	NOUN	NN	Number=Sing	6	obl:npmod	_	_
+6	o	o	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	3	punct	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	3	acl	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	things	thing	NOUN	NNS	Number=Plur	8	obl	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	some	some	DET	DT	_	14	nsubj:pass	_	_
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+15	another	another	DET	DT	_	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

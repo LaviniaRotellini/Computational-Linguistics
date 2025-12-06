@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘How can I say Yes, or how can I say
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	say	say	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+6	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	or	or	CCONJ	CC	_	12	cc	_	_
+9	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 2
+# text = No, when I don’t know what you mean?
+1	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	7	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+8	what	what	PRON	WP	PronType=Int	10	obj	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Loo, you are a brave, kind girl, worthy I begin to think of a better brother than I am.
+1	Loo	Loo	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	brave	brave	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	kind	kind	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	girl	girl	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	worthy	worthy	ADV	WRB	PronType=Rel	13	advmod	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	think	think	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	better	better	ADJ	JJR	Degree=Cmp	19	amod	_	_
+19	brother	brother	NOUN	NN	Number=Sing	15	obl	_	_
+20	than	than	SCONJ	IN	_	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = But I have nothing more to say.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	say	say	VERB	VB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Go to bed, go to bed.’
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	bed	bed	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	bed	bed	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

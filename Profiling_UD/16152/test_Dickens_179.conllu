@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When I got into the courtyard, I found Estella waiting with the keys.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	courtyard	courtyard	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Estella	Estella	PROPN	NNP	Number=Sing	9	obj	_	_
+11	waiting	wait	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	keys	key	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = But she neither asked me where I had been, nor why I had kept her waiting; and there was a bright flush upon her face, as though something had happened to delight her.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	neither	neither	DET	DT	_	0	root	_	_
+4	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	where	where	ADV	WRB	PronType=Int	4	xcomp	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	nor	nor	CCONJ	CC	_	15	cc	_	_
+12	why	why	ADV	WRB	PronType=Int	15	advmod	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	obj	_	_
+17	waiting	wait	VERB	VBG	VerbForm=Ger	15	xcomp	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	4	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	there	there	PRON	EX	_	21	expl	_	_
+21	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	bright	bright	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	flush	flush	NOUN	NN	Number=Sing	21	nsubj	_	_
+25	upon	upon	ADP	IN	_	27	case	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	face	face	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	4	punct	_	_
+29	as	as	SCONJ	IN	_	33	mark	_	_
+30	though	though	SCONJ	IN	_	33	mark	_	_
+31	something	something	PRON	NN	Number=Sing	33	nsubj	_	_
+32	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	_
+33	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	delight	delight	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Instead of going straight to the gate, too, she stepped back into the passage, and beckoned me.
+1	Instead	instead	ADV	RB	_	3	advmod	_	_
+2	of	of	SCONJ	IN	_	3	mark	_	_
+3	going	go	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+4	straight	straight	ADV	RB	_	3	advmod	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	gate	gate	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	too	too	ADV	RB	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	stepped	step	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	back	back	ADV	RB	_	12	advmod	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	passage	passage	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	beckoned	beckon	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All were the direct sons of the French Revolution.
+1	All	all	DET	DT	_	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	direct	direct	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sons	son	NOUN	NNS	Number=Plur	0	root	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	French	french	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Revolution	Revolution	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The most giddy of them became solemn when they pronounced that date: ’89.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	most	most	ADJ	JJS	Degree=Sup	3	amod	_	_
+3	giddy	giddy	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+6	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	solemn	solemn	ADV	RB	_	6	advmod	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	pronounced	pronounce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	date	date	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	6	punct	_	_
+14	’89	’89	NUM	CD	NumType=Card	6	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Their fathers in the flesh had been, either royalists, doctrinaires, it matters not what; this confusion anterior to themselves, who were young, did not concern them at all; the pure blood of principle ran in their veins.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	fathers	father	NOUN	NNS	Number=Plur	10	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	flesh	flesh	NOUN	NN	Number=Sing	2	nmod	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	either	either	CCONJ	CC	_	10	cc:preconj	_	_
+10	royalists	royalist	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	doctrinaires	doctrinaire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+15	matter	matter	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No
+16	s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	what	what	PRON	WP	PronType=Int	12	ccomp	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	10	punct	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	confusion	confusion	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	anterior	anterior	ADJ	JJ	Degree=Pos	10	acl	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	22	punct	_	_
+26	who	who	PRON	WP	PronType=Rel	28	nsubj	_	_
+27	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	young	young	ADJ	JJ	Degree=Pos	10	acl:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+31	not	not	PART	RB	_	32	advmod	_	_
+32	concern	concern	VERB	VB	VerbForm=Inf	28	conj	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+34	at	at	ADV	RB	_	35	case	_	_
+35	all	all	ADV	RB	_	32	obl	_	SpaceAfter=No
+36	;	;	PUNCT	,	_	10	punct	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+38	pure	pure	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	blood	blood	NOUN	NN	Number=Sing	10	appos	_	_
+40	of	of	ADP	IN	_	41	case	_	_
+41	principle	principle	NOUN	NN	Number=Sing	39	nmod	_	_
+42	ran	run	VERB	VBN	Tense=Past|VerbForm=Part	39	acl	_	_
+43	in	in	ADP	IN	_	45	case	_	_
+44	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	veins	vein	NOUN	NNS	Number=Plur	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = They attached themselves, without intermediate shades, to incorruptible right and absolute duty.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	attached	attach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	without	without	ADP	IN	_	7	case	_	_
+6	intermediate	intermediate	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	shades	shade	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	incorruptible	incorruptible	VERB	VB	VerbForm=Inf	2	advcl	_	_
+11	right	right	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	absolute	absolute	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	duty	duty	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

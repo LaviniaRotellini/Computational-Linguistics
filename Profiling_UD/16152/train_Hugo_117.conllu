@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean had just attained his twenty-fifth year.
+1	Jean	Jean	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	attained	attain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+7	twenty	twenty	NUM	CD	NumType=Card	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	fifth	fifth	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	year	year	NOUN	NN	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He took the father’s place, and, in his turn, supported the sister who had brought him up.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	father	father	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	place	place	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	14	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	turn	turn	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	supported	support	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	sister	sister	NOUN	NN	Number=Sing	14	obj	_	_
+17	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	up	up	ADP	RP	_	19	compound:prt	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = This was done simply as a duty and even a little churlishly on the part of Jean Valjean.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	simply	simply	ADV	RB	_	7	advmod	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	duty	duty	NOUN	NN	Number=Sing	3	obl	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	even	even	ADV	RB	_	12	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	churlishly	churlishly	NOUN	NN	Number=Sing	3	conj	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	part	part	NOUN	NN	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Jean	Jean	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	Valjean	Valjean	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Thus his youth had been spent in rude and ill-paid toil.
+1	Thus	thus	ADV	RB	_	6	advmod	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	youth	youth	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	rude	rude	ADJ	JJ	Degree=Pos	6	obl	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	ill	ill	ADJ	JJ	Degree=Pos	12	obl:npmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	toil	toil	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = He had never known a “kind woman friend” in his native parts.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+7	kind	kind	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	woman	woman	NOUN	NN	Number=Sing	9	compound	_	_
+9	friend	friend	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	native	native	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	parts	part	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = He had not had the time to fall in love.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	had	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	time	time	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	fall	fall	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	love	love	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I found, when I did open it, that it was a very kind note, containing no reference to my condition at the theatre.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	open	open	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	that	that	SCONJ	IN	_	16	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	kind	kind	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	note	note	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	containing	contain	VERB	VBG	VerbForm=Ger	16	acl	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	reference	reference	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	condition	condition	NOUN	NN	Number=Sing	18	obl	_	_
+24	at	at	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	theatre	theatre	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = All it said was, ‘My dear Trotwood.
+1	All	all	DET	DT	_	3	det	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+7	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	dear	dear	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Trotwood	Trotwood	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am staying at the house of papa’s agent, Mr. Waterbrook, in Ely Place, Holborn.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	staying	stay	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	house	house	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	papa	papa	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	agent	agent	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+13	Waterbrook	Waterbrook	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	Ely	Ely	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Place	place	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	Holborn	Holborn	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Will you come and see me today, at any time you like to appoint?
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	today	today	NOUN	NN	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	time	time	NOUN	NN	Number=Sing	3	obl	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	appoint	appoint	VERB	VB	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ever yours affectionately, AGNES.’
+1	Ever	ever	ADV	RB	_	2	advmod	_	_
+2	yours	yours	PRON	PRP	_	0	root	_	_
+3	affectionately	affectionately	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	AGNES	AGNES	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

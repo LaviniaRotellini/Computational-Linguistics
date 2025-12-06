@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We remained there, watching him, a long time--hours.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	watching	watch	VERB	VBG	VerbForm=Ger	2	parataxis	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	long	long	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+11	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+12	hours	hour	NOUN	NNS	Number=Plur	2	obl:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = What mysterious influence my presence had upon him in that state of his senses, I shall not pretend to say; but when he at last began to wander feebly, it is certain he was muttering about driving me to school.
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	mysterious	mysterious	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	influence	influence	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	presence	presence	NOUN	NN	Number=Sing	3	appos	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	parataxis	_	_
+7	upon	upon	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	state	state	NOUN	NN	Number=Sing	6	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	senses	sense	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	shall	shall	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	pretend	pretend	VERB	VB	VerbForm=Inf	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	say	say	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	19	punct	_	_
+23	but	but	CCONJ	CC	_	35	cc	_	_
+24	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+26	at	at	ADP	IN	_	28	case	_	_
+27	last	last	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	began	begin	NOUN	NN	Number=Sing	25	nmod	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	wander	wander	VERB	VB	VerbForm=Inf	35	advcl	_	_
+31	feebly	feebly	ADV	RB	_	30	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+35	certain	certain	ADJ	JJ	Degree=Pos	19	conj	_	_
+36	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	_
+38	muttering	mutter	VERB	VBG	Tense=Pres|VerbForm=Part	35	ccomp	_	_
+39	about	about	SCONJ	IN	_	40	mark	_	_
+40	driving	drive	VERB	VBG	VerbForm=Ger	38	advcl	_	_
+41	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	40	obj	_	_
+42	to	to	ADP	IN	_	43	case	_	_
+43	school	school	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+

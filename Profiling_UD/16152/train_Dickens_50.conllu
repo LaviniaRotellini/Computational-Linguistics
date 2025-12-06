@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Oh!
+1	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = If that was it, I was quite ready to go.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	quite	quite	ADV	RB	_	9	advmod	_	_
+9	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	go	go	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = I waited, in the utmost impatience, until my mother came home from Mrs. Grayper’s (for it was that identical neighbour), to ascertain if we could get leave to carry out this great idea.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	utmost	utmost	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	impatience	impatience	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	until	until	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	mother	mother	NOUN	NN	Number=Sing	2	obl	_	_
+12	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	home	home	ADV	RB	_	12	advmod	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	obl	_	_
+16	Grayper	Grayper	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	’s	's	PART	POS	_	15	case	_	_
+18	(	(	PUNCT	-LRB-	_	12	punct	_	SpaceAfter=No
+19	for	for	SCONJ	IN	_	24	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+23	identical	identical	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	neighbour	neighbour	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	12	punct	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	ascertain	ascertain	VERB	VB	VerbForm=Inf	12	advcl	_	_
+29	if	if	SCONJ	IN	_	33	mark	_	_
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	_
+31	could	could	AUX	MD	VerbForm=Fin	33	aux	_	_
+32	get	get	AUX	VB	VerbForm=Inf	33	aux	_	_
+33	leave	leave	VERB	VB	VerbForm=Inf	28	advcl	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	carry	carry	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	out	out	ADP	RP	_	35	compound:prt	_	_
+37	this	this	DET	DT	Number=Sing|PronType=Dem	39	det	_	_
+38	great	great	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	idea	idea	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Without being nearly so much surprised as I had expected, my mother entered into it readily; and it was all arranged that night, and my board and lodging during the visit were to be paid for.
+1	Without	without	SCONJ	IN	_	6	mark	_	_
+2	being	be	AUX	VBG	VerbForm=Ger	6	cop	_	_
+3	nearly	nearly	ADV	RB	_	4	advmod	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	surprised	surprised	ADJ	JJ	Degree=Pos	14	advcl	_	_
+7	as	as	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	entered	enter	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	into	into	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	readily	readily	ADV	RB	_	14	advmod	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	14	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+22	all	all	ADV	RB	_	23	advmod	_	_
+23	arranged	arrange	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	night	night	NOUN	NN	Number=Sing	23	obl:tmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	35	punct	_	_
+27	and	and	CCONJ	CC	_	35	cc	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	board	board	NOUN	NN	Number=Sing	35	nsubj	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	lodging	lod	NOUN	NN	Number=Sing	29	conj	_	_
+32	during	during	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	visit	visit	NOUN	NN	Number=Sing	29	nmod	_	_
+35	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+36	to	to	PART	TO	_	38	mark	_	_
+37	be	be	AUX	VB	VerbForm=Inf	38	aux:pass	_	_
+38	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	35	xcomp	_	_
+39	for	for	ADP	IN	_	38	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

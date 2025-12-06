@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Still, when he is in the room, you might show him more attention.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Still	still	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	when	when	ADV	WRB	PronType=Rel	9	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	room	room	NOUN	NN	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	show	show	VERB	VB	VerbForm=Inf	0	root	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	more	more	ADJ	JJR	Degree=Cmp	16	amod	_	_
+16	attention	attention	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = He may not be a phoenix of cleverness in your sense; his profession is different; but it would be all the better for you to talk a little on his subjects.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	phoenix	phoenix	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	cleverness	cleverness	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sense	sense	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	6	punct	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	profession	profession	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	different	different	ADJ	JJ	Degree=Pos	6	parataxis	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	6	punct	_	_
+18	but	but	CCONJ	CC	_	24	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+22	all	all	DET	PDT	_	24	det:predet	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	better	better	ADJ	JJR	Degree=Cmp	6	conj	_	_
+25	for	for	ADP	IN	_	26	case	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	talk	talk	VERB	VB	VerbForm=Inf	24	advcl	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	little	little	NOUN	NN	Number=Sing	28	obj	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	subjects	subject	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = _I_ think his conversation is quite agreeable.
+1	_I	_I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	3	punct	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	conversation	conversation	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	quite	quite	ADV	RB	_	8	advmod	_	_
+8	agreeable	agreeable	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And he is anything but an unprincipled man.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	anything	anything	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	but	but	CCONJ	CC	_	8	cc	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	unprincipled	unprincipled	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	man	man	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

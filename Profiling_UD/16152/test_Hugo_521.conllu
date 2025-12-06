@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From the moment of that troop’s passing, some agitation had pierced through the archdeacon’s glacial envelope.
+1	From	from	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	13	obl	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	troop	troop	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	passing	pass	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	some	some	DET	DT	_	11	det	_	_
+11	agitation	agitation	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	pierced	pierce	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	through	through	ADP	IN	_	19	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	archdeacon	archdeacon	NOUN	NN	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	glacial	glacial	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	envelope	envelope	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = He walked on.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Gringoire followed him, being accustomed to obey him, like all who had once approached that man so full of ascendency.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	6	aux:pass	_	_
+6	accustomed	accustom	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	obey	obey	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	all	all	DET	DT	_	2	obl	_	_
+13	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	once	once	ADV	RB	NumType=Mult	16	advmod	_	_
+16	approached	approach	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	man	man	NOUN	NN	Number=Sing	16	obj	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	full	full	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	ascendency	ascendency	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = They reached in silence the Rue des Bernardins, which was nearly deserted.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	silence	silence	NOUN	NN	Number=Sing	2	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Rue	Rue	PROPN	NNP	Number=Sing	4	appos	_	_
+7	des	des	ADP	IN	_	8	case	_	_
+8	Bernardins	Bernardins	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	13	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	nearly	nearly	ADV	RB	_	13	advmod	_	_
+13	deserted	desert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Here Dom Claude paused.
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+2	Dom	Dom	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Claude	Claude	PROPN	NNP	Number=Sing	1	nsubj	_	_
+4	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

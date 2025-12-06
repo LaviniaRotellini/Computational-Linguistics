@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The wind in co-operation with the sea is a combination of forces.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wind	wind	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	co-operation	co-operation	NOUN	NN	Number=Sing	2	nmod	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sea	sea	NOUN	NN	Number=Sing	2	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	combination	combination	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	forces	force	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = A ship is a combination of appliances.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	ship	ship	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	combination	combination	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	appliances	appliance	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Forces are machines of infinite power.
+1	Forces	Force	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	machines	machine	NOUN	NNS	Number=Plur	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	infinite	infinite	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	power	power	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Machines are forces of limited power.
+1	Machines	machine	PRON	PRP	_	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	forces	force	NOUN	NNS	Number=Plur	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	limited	limited	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	power	power	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = That struggle which we call navigation is between these two organisations, the one inexhaustible, the other intelligent.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	struggle	struggle	NOUN	NN	Number=Sing	11	nsubj	_	_
+3	which	which	PRON	WDT	PronType=Rel	5	obj	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	navigation	navigation	NOUN	NN	Number=Sing	5	xcomp	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	between	between	ADP	IN	_	11	case	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+10	two	two	NUM	CD	NumType=Card	11	nummod	_	_
+11	organisations	organisation	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	one	one	NUM	CD	NumType=Card	15	nummod	_	_
+15	inexhaustible	inexhaustible	ADJ	JJ	Degree=Pos	11	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	intelligent	intelligent	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

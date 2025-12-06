@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Whatever I acquired, I tried to impart to Joe.
+1	Whatever	whatever	DET	WDT	PronType=Int	4	obj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	acquired	acquire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	impart	impart	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Joe	Joe	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = This statement sounds so well, that I cannot in my conscience let it pass unexplained.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	statement	statement	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	RB	_	3	advmod	_	_
+5	well	well	ADV	RB	Degree=Pos	4	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	that	that	SCONJ	IN	_	14	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+10	not	not	PART	RB	_	14	advmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	conscience	conscience	NOUN	NN	Number=Sing	10	obl	_	_
+14	let	let	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	pass	pass	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	unexplained	unexplained	ADJ	JJ	Degree=Pos	16	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I wanted to make Joe less ignorant and common, that he might be worthier of my society and less open to Estella’s reproach.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	make	make	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	Joe	Joe	PROPN	NNP	Number=Sing	4	obj	_	_
+6	less	less	ADV	RBR	Degree=Cmp	7	advmod	_	_
+7	ignorant	ignorant	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	common	common	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	might	might	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	worthier	worthier	ADJ	JJR	Degree=Cmp	2	parataxis	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	society	society	NOUN	NN	Number=Sing	15	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	less	less	ADV	RBR	Degree=Cmp	21	advmod	_	_
+21	open	open	ADJ	JJ	Degree=Pos	15	conj	_	_
+22	to	to	ADP	IN	_	25	case	_	_
+23	Estella	Estella	PROPN	NNP	Number=Sing	25	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	reproach	reproach	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

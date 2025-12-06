@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “In sooth,” said Gervaise, “I hear the sounds of a tambourine.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	In	in	ADP	IN	_	3	case	_	_
+3	sooth	sooth	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Gervaise	Gervaise	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sounds	sound	NOUN	NNS	Number=Plur	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	tambourine	tambourine	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I believe ’tis the little Esmeralda, who plays her mummeries with her goat.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+4	tis	te	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Esmeralda	Esmeralda	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mummeries	mummery	NOUN	NNS	Number=Plur	10	obj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	goat	goat	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Eh, be quick, Mahiette!
+1	Eh	Eh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	4	cop	_	_
+4	quick	quick	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Mahiette	Mahiette	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = redouble your pace and drag along your boy.
+1	redouble	redouble	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	pace	pace	NOUN	NN	Number=Sing	1	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	drag	drag	NOUN	NN	Number=Sing	3	conj	_	_
+6	along	along	ADP	IN	_	8	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	boy	boy	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = You are come hither to visit the curiosities of Paris.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+4	hither	hither	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	visit	visit	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	curiosities	curiosity	NOUN	NNS	Number=Plur	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Paris	Paris	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = You saw the Flemings yesterday; you must see the gypsy to-day.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	Flemings	Flemings	NOUN	NNS	Number=Plur	2	obj	_	_
+5	yesterday	yesterday	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	2	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	see	see	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	gypsy	gypsy	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	ADP	IN	_	14	case	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	day	day	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

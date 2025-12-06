@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I always come to a decision,’ said Bounderby, tossing his hat on: ‘and whatever I do, I do at once.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	decision	decision	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Bounderby	Bounderby	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	tossing	toss	VERB	VBG	VerbForm=Ger	10	ccomp	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hat	hat	NOUN	NN	Number=Sing	13	obj	_	_
+16	on	on	ADP	IN	_	13	compound:prt	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	13	punct	_	_
+18	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	whatever	whatever	DET	WDT	PronType=Int	13	conj	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	10	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	at	at	ADV	RB	_	27	advmod	_	_
+27	once	once	ADV	RB	NumType=Mult	10	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 2
+# text = I should be surprised at Tom Gradgrind’s addressing such a remark to Josiah Bounderby of Coketown, knowing what he knows of him, if I could be surprised by anything Tom Gradgrind did, after his making himself a party to sentimental humbug.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	addressing	address	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+10	such	such	DET	PDT	_	12	det:predet	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	remark	remark	NOUN	NN	Number=Sing	9	obj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	Josiah	Josiah	PROPN	NNP	Number=Sing	9	obl	_	_
+15	Bounderby	Bounderby	PROPN	NNP	Number=Sing	14	flat	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Coketown	Coketown	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	knowing	know	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+20	what	what	PRON	WP	PronType=Int	19	obj	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	4	punct	_	_
+26	if	if	SCONJ	IN	_	30	mark	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj:pass	_	_
+28	could	could	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	_	_
+30	surprised	surprised	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+31	by	by	ADP	IN	_	32	case	_	_
+32	anything	anything	PRON	NN	Number=Sing	30	obl	_	_
+33	Tom	Tom	PROPN	NNP	Number=Sing	35	nsubj	_	_
+34	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	33	flat	_	_
+35	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	acl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	after	after	SCONJ	IN	_	39	mark	_	_
+38	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nsubj	_	_
+39	making	make	VERB	VBG	VerbForm=Ger	35	advcl	_	_
+40	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	39	obj	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+42	party	party	NOUN	NN	Number=Sing	39	obj	_	_
+43	to	to	ADP	IN	_	45	case	_	_
+44	sentimental	sentimental	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	humbug	humbug	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have given you my decision, and I have got no more to say.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	decision	decision	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+12	no	no	ADV	RB	_	13	advmod	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	11	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	say	say	VERB	VB	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Good night!’
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	night	night	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

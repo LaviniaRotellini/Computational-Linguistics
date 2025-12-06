@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There is often something poisonous in the air of public rooms,” said Lydgate.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+4	often	often	ADV	RB	_	3	advmod	_	_
+5	something	something	PRON	NN	Number=Sing	3	nsubj	_	_
+6	poisonous	poisonous	ADJ	JJ	Degree=Pos	5	amod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	air	air	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	public	public	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	rooms	room	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Lydgate	Lydgate	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “Strong men can stand it, but it tells on people in proportion to the delicacy of their systems.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Strong	strong	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	men	man	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	on	on	ADP	IN	_	12	case	_	_
+12	people	people	NOUN	NNS	Number=Plur	10	obl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	proportion	proportion	NOUN	NN	Number=Sing	12	nmod	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	delicacy	delicacy	NOUN	NN	Number=Sing	14	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	systems	system	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It is often impossible to account for the precise moment of an attack—or rather, to say why the strength gives way at a particular moment.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	account	account	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	precise	precise	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	moment	moment	NOUN	NN	Number=Sing	6	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	attack	attack	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	—	-	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	rather	rather	ADV	RB	_	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	say	say	VERB	VB	VerbForm=Inf	4	csubj	_	_
+20	why	why	ADV	WRB	PronType=Int	23	advmod	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	strength	strength	NOUN	NN	Number=Sing	23	nsubj	_	_
+23	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+24	way	way	ADV	RB	_	23	advmod	_	_
+25	at	at	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	particular	particular	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	moment	moment	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

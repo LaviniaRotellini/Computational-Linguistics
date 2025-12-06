@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Of course I felt my good faith involved in the observance of his request.
+1	Of	of	ADV	RB	_	4	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	faith	faith	NOUN	NN	Number=Sing	4	obj	_	_
+8	involved	involved	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	observance	observance	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	request	request	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The punch being very nice, we sat there drinking it and talking, until it was almost nine o’clock.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	punch	punch	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+9	there	there	ADV	RB	PronType=Dem	8	advmod	_	_
+10	drinking	drink	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	talking	talk	VERB	VBG	VerbForm=Ger	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	until	until	SCONJ	IN	_	20	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	almost	almost	ADV	RB	_	20	advmod	_	_
+19	nine	nine	NUM	CD	NumType=Card	20	nummod	_	_
+20	o’clock	o’clock	NOUN	NN	Number=Sing	8	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = “Getting near gun-fire,” said Wemmick then, as he laid down his pipe; “it’s the Aged’s treat.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Getting	get	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+3	near	near	ADP	IN	_	6	case	_	_
+4	gun	gun	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	fire	fire	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	parataxis	_	_
+10	Wemmick	Wemmick	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	then	then	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	laid	lao	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+16	down	down	ADP	RP	_	15	compound:prt	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	pipe	pipe	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	9	punct	_	_
+20	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No
+22	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	Aged	aged	VERB	VBN	Tense=Past|VerbForm=Part	25	amod	_	SpaceAfter=No
+25	’s	's	NOUN	NNS	Number=Plur	26	nsubj	_	_
+26	treat	treat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	26	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	26	punct	_	SpacesAfter=\n
+

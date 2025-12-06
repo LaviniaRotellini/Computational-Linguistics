@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, poor mother, poor father!” said Mary, her eyes filling with tears, and a little sob rising which she tried to repress.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	mother	mother	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	poor	poor	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	father	father	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mary	Mary	PROPN	NNP	Number=Sing	11	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	filling	fill	VERB	VBG	VerbForm=Ger	12	parataxis	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	tears	tear	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	little	little	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	sob	sob	NOUN	NN	Number=Sing	12	conj	_	_
+24	rising	rise	VERB	VBG	VerbForm=Ger	23	acl	_	_
+25	which	which	PRON	WDT	PronType=Int	27	obj	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	ccomp	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	repress	repress	VERB	VB	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = She looked straight before her and took no notice of Fred, all the consequences at home becoming present to her.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	straight	straight	ADV	RB	_	2	advmod	_	_
+4	before	before	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	notice	notice	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	Fred	Fred	PROPN	NNP	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	all	all	DET	PDT	_	15	det:predet	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	consequences	consequence	NOUN	NNS	Number=Plur	18	nsubj	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	home	home	NOUN	NN	Number=Sing	15	nmod	_	_
+18	becoming	become	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+19	present	present	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He too remained silent for some moments, feeling more miserable than ever.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	too	too	ADV	RB	_	3	advmod	_	_
+3	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	silent	silent	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	some	some	DET	DT	_	7	det	_	_
+7	moments	moment	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	feeling	feel	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	miserable	miserable	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+12	than	than	ADP	IN	_	13	case	_	_
+13	ever	ever	ADV	RB	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = “I wouldn’t have hurt you for the world, Mary,” he said at last.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	hurt	hurt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	ccomp	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	obj	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	world	world	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	Mary	Mary	PROPN	NNP	Number=Sing	6	vocative	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	16	punct	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	last	last	ADJ	JJ	Degree=Pos	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = “You can never forgive me.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	forgive	forgive	VERB	VB	VerbForm=Inf	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

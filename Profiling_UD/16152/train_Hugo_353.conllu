@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The lawyer left him.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	lawyer	lawyer	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = In the course of a few moments he had experienced, almost simultaneously, almost intermingled with each other, all possible emotions.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	course	course	NOUN	NN	Number=Sing	16	obl	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	few	few	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	moments	moments	NOUN	NNS	Number=Plur	3	nmod	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	experienced	experience	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	almost	almost	ADV	RB	_	13	advmod	_	_
+13	simultaneously	simultaneously	ADV	RB	_	16	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	almost	almost	ADV	RB	_	16	advmod	_	_
+16	intermingled	intermingle	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	each	each	DET	DT	_	19	det	_	_
+19	other	other	ADJ	JJ	Degree=Pos	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	all	all	DET	DT	_	23	det	_	_
+22	possible	possible	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	emotions	emotion	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = The words of this indifferent spectator had, in turn, pierced his heart like needles of ice and like blades of fire.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	words	word	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	indifferent	indifferent	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	spectator	spectator	NOUN	NN	Number=Sing	2	nmod	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	turn	turn	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	pierced	pierce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	heart	heart	NOUN	NN	Number=Sing	12	obj	_	_
+15	like	like	ADP	IN	_	16	case	_	_
+16	needles	needle	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	ice	ice	NOUN	NN	Number=Sing	16	nmod	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	like	like	SCONJ	IN	_	21	mark	_	_
+21	blades	blade	NOUN	NNS	Number=Plur	12	conj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	fire	fire	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = When he saw that nothing was settled, he breathed freely once more; but he could not have told whether what he felt was pain or pleasure.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	breathed	breathe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	freely	freely	ADV	RB	_	13	advmod	_	_
+12	once	once	ADV	RB	NumType=Mult	13	advmod	_	_
+13	more	more	ADV	RBR	_	10	advmod	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	10	punct	_	_
+15	but	but	CCONJ	CC	_	20	cc	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	not	not	PART	RB	_	20	advmod	_	_
+19	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+20	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+21	whether	whether	SCONJ	IN	_	22	case	_	_
+22	what	what	PRON	WP	PronType=Int	20	obj	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	pain	pain	NOUN	NN	Number=Sing	24	ccomp	_	_
+27	or	or	CCONJ	CC	_	28	cc	_	_
+28	pleasure	pleasure	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

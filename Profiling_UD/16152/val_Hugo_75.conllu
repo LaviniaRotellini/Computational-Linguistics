@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = An event of importance, long foreseen, occurred soon afterwards.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	event	event	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	importance	importance	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	long	long	ADV	RB	Degree=Pos	7	advmod	_	_
+7	foreseen	foreseen	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	occurred	occur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	soon	soon	ADV	RB	Degree=Pos	11	advmod	_	_
+11	afterwards	afterwards	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = It was announced that the Reverend Jaquemin Hérode was appointed surrogate of the Bishop of Winchester, dean of the island, and rector of St. Peter's Port, and that he would leave St. Sampson for St. Peter's immediately after his successor should be installed.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	announced	announce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	Reverend	Reverend	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Jaquemin	Jaquemin	PROPN	NNP	Number=Sing	10	nsubj:pass	_	_
+8	Hérode	Hérode	PROPN	NNP	Number=Sing	7	flat	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	appointed	appoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	48	advcl	_	_
+11	surrogate	surrogate	NOUN	NN	Number=Sing	10	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Bishop	Bishop	PROPN	NNP	Number=Sing	11	nmod	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	Winchester	Winchester	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	dean	dean	NOUN	NN	Number=Sing	14	appos	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	island	island	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	rector	rector	NOUN	NN	Number=Sing	11	conj	_	_
+25	of	of	ADP	IN	_	29	case	_	_
+26	St.	St.	PROPN	NNP	Number=Sing	29	nmod:poss	_	_
+27	Peter	Peter	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+28	's	's	PART	POS	_	26	case	_	_
+29	Port	Port	PROPN	NNP	Number=Sing	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	35	punct	_	_
+31	and	and	CCONJ	CC	_	35	cc	_	_
+32	that	that	SCONJ	IN	_	35	mark	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	would	would	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	leave	leave	VERB	VB	VerbForm=Inf	48	conj	_	_
+36	St.	St.	PROPN	NNP	Number=Sing	35	obj	_	_
+37	Sampson	Sampson	PROPN	NNP	Number=Sing	36	flat	_	_
+38	for	for	ADP	IN	_	39	case	_	_
+39	St.	St.	PROPN	NNP	Number=Sing	36	nmod	_	_
+40	Peter	Peter	PROPN	NNP	Number=Sing	39	flat	_	SpaceAfter=No
+41	's	's	PART	POS	_	39	case	_	_
+42	immediately	immediately	ADV	RB	_	35	advmod	_	_
+43	after	after	ADP	IN	_	45	case	_	_
+44	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	successor	successor	NOUN	NN	Number=Sing	35	obl	_	_
+46	should	should	AUX	MD	VerbForm=Fin	48	aux	_	_
+47	be	be	AUX	VB	VerbForm=Inf	48	aux:pass	_	_
+48	installed	install	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

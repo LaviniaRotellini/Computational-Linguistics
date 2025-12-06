@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Meanwhile there had sprung up a movement in the air.
+1	Meanwhile	meanwhile	ADV	RB	_	4	advmod	_	_
+2	there	there	PRON	EX	_	4	expl	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	sprung	sprung	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	up	up	ADP	RP	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	movement	movement	NOUN	NN	Number=Sing	4	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	air	air	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The wind was rising.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wind	wind	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The fog, shaken, driven in, and rent asunder, moved towards the horizon in vast shapeless masses.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fog	fog	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	shaken	shaken	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+7	in	in	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	rent	rent	VERB	VB	VerbForm=Inf	4	conj	_	_
+11	asunder	asunder	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	moved	mov	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	towards	towards	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	horizon	horizon	NOUN	NN	Number=Sing	13	obl	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	vast	vast	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	shapeless	shapeless	NOUN	NN	Number=Sing	20	compound	_	_
+20	masses	mass	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = As quickly as it had disappeared before, the sea became once more visible.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	quickly	quickly	ADV	RB	_	11	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	disappeared	disappear	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+7	before	before	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	sea	sea	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	once	once	ADV	RB	NumType=Mult	14	advmod	_	_
+13	more	more	ADV	RBR	_	14	advmod	_	_
+14	visible	visible	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

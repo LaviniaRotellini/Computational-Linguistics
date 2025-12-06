@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Pullet rose with a melancholy air and unlocked one wing of a very bright wardrobe, where you may have hastily supposed she would find a new bonnet.
+1	Pullet	Pullet	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	melancholy	melancholy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	air	air	NOUN	NN	Number=Sing	2	obl	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	unlocked	unlocked	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	wing	wing	NOUN	NN	Number=Sing	2	conj	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	bright	bright	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	wardrobe	wardrobe	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	where	where	ADV	WRB	PronType=Rel	20	advmod	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+19	may	may	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	have	have	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+21	hastily	hastily	ADV	RB	_	20	advmod	_	_
+22	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	20	xcomp	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	find	find	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	new	new	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	bonnet	bonnet	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Not at all.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	at	at	ADV	RB	_	3	case	_	_
+3	all	all	ADV	RB	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Such a supposition could only have arisen from a too superficial acquaintance with the habits of the Dodson family.
+1	Such	such	DET	PDT	_	3	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	supposition	supposition	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	only	only	ADV	RB	_	7	advmod	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	arisen	arisen	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	from	from	ADP	IN	_	12	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	too	too	ADV	RB	_	11	advmod	_	_
+11	superficial	superficial	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	acquaintance	acquaintance	NOUN	NN	Number=Sing	7	obl	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	habits	habit	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	Dodson	Dodson	PROPN	NNP	Number=Sing	19	compound	_	_
+19	family	family	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = In this wardrobe Mrs Pullet was seeking something small enough to be hidden among layers of linen,—it was a door-key.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	wardrobe	wardrobe	NOUN	NN	Number=Sing	7	obl	_	_
+4	Mrs	Mrs	PROPN	NNPS	Number=Plur	7	nsubj	_	_
+5	Pullet	Pullet	PROPN	NNP	Number=Sing	4	flat	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	seeking	seek	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	something	something	PRON	NN	Number=Sing	7	obj	_	_
+9	small	small	ADJ	JJ	Degree=Pos	8	amod	_	_
+10	enough	enough	ADV	RB	_	8	advmod	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	hidden	hide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+14	among	among	ADP	IN	_	15	case	_	_
+15	layers	layer	NOUN	NNS	Number=Plur	13	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	linen	linen	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	,—	,—	PUNCT	.	_	7	punct	_	SpaceAfter=No
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	door	door	NOUN	NN	Number=Sing	24	obl:npmod	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	key	key	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

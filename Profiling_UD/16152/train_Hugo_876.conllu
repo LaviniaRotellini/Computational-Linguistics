@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius always had two complete suits of clothes, the one old, “for every day”; the other, brand new for special occasions.
+1	Marius	Marius	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	two	two	NUM	CD	NumType=Card	6	nummod	_	_
+5	complete	complete	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	suits	suit	NOUN	NNS	Number=Plur	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	clothes	clothes	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	old	old	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+15	for	for	ADP	IN	_	17	case	_	_
+16	every	every	DET	DT	_	17	det	_	_
+17	day	day	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	3	punct	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	3	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	other	other	ADJ	JJ	Degree=Pos	24	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	brand	brand	ADV	RB	_	24	advmod	_	_
+24	new	new	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	special	special	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	occasions	occasion	NOUN	NNS	Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Both were black.
+1	Both	both	DET	DT	_	3	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	black	black	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He had but three shirts, one on his person, the second in the commode, and the third in the washerwoman’s hands.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	but	but	CCONJ	CC	_	5	cc	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	shirts	shirt	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	person	person	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	second	second	NOUN	NN	Number=Sing	2	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	commode	commode	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	2	conj	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	washerwoman	washerwoman	NOUN	NN	Number=Sing	25	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	hands	hand	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He renewed them as they wore out.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	renewed	renew	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	wore	wore	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = They were always ragged, which caused him to button his coat to the chin.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	ragged	rag	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	button	button	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	coat	coat	NOUN	NN	Number=Sing	10	obj	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	chin	ching	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

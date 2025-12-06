@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “When a man gets a good berth, mother, half the deserving must come after,” said the son, brimful of pleasure, and not trying to conceal it.
+1	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	berth	berth	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	mother	mother	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	half	half	DET	PDT	_	14	det:predet	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	deserving	deserving	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	must	must	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	come	come	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+17	after	after	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	son	son	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	brimful	brimful	ADJ	JJ	Degree=Pos	22	appos	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	pleasure	pleasure	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	not	not	ADV	RB	_	30	advmod	_	_
+30	trying	try	VERB	VBG	VerbForm=Ger	22	conj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	conceal	conceal	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = The gladness in his face was of that active kind which seems to have energy enough not only to flash outwardly, but to light up busy vision within: one seemed to see thoughts, as well as delight, in his glances.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	gladness	gladness	NOUN	NNS	Number=Plur	10	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	face	face	NOUN	NN	Number=Sing	2	nmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	active	active	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	have	have	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	energy	energy	NOUN	NN	Number=Sing	14	obj	_	_
+16	enough	enough	ADV	RB	_	14	advmod	_	_
+17	not	not	ADV	RB	_	18	advmod	_	_
+18	only	only	ADV	RB	_	20	cc:preconj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	flash	flash	VERB	VB	VerbForm=Inf	10	advcl	_	_
+21	outwardly	outwardly	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	but	but	CCONJ	CC	_	25	cc	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	light	light	VERB	VB	VerbForm=Inf	30	conj	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	_
+27	busy	busy	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	vision	vision	NOUN	NN	Number=Sing	25	obj	_	_
+29	within	within	ADP	IN	_	25	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	:	_	10	punct	_	_
+31	one	one	PRON	PRP	_	32	nsubj	_	_
+32	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	see	see	VERB	VB	VerbForm=Inf	32	xcomp	_	_
+35	thoughts	thought	NOUN	NNS	Number=Plur	34	obj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	10	punct	_	_
+37	as	as	ADV	RB	_	40	cc	_	_
+38	well	well	ADV	RB	Degree=Pos	37	fixed	_	_
+39	as	as	ADP	IN	_	37	fixed	_	_
+40	delight	delight	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	10	punct	_	_
+42	in	in	ADP	IN	_	44	case	_	_
+43	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+44	glances	glance	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

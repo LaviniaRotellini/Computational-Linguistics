@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That would have made me very proud and happy, Susan, and I should have been glad for your sake.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	proud	proud	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	happy	happy	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	Susan	Susan	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+16	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	have	have	AUX	VB	VerbForm=Inf	19	aux	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	cop	_	_
+19	glad	glad	ADJ	JJ	Degree=Pos	5	conj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	sake	sake	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I’ve always felt that your belongings have never been on a level with you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	13	mark	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	belongings	belonging	NOUN	NNS	Number=Plur	13	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	never	never	ADV	RB	_	13	advmod	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	level	level	NOUN	NN	Number=Sing	4	ccomp	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But you took me, though I was a plain man.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	though	though	SCONJ	IN	_	11	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	plain	plain	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	man	man	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

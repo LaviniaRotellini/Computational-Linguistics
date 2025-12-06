@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And let me see, now, whether you can draw it out of the sheath without hurting yourself.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	3	cc	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	whether	whether	SCONJ	IN	_	12	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	draw	draw	VERB	VB	VerbForm=Inf	5	advcl	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	out	out	ADP	IN	_	17	case	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sheath	sheath	NOUN	NN	Number=Sing	12	obl	_	_
+18	without	without	SCONJ	IN	_	19	mark	_	_
+19	hurting	hurt	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+20	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = That process having been gone through more than once, Mr Poulter felt that he had acted with scrupulous conscientiousness, and said, “Well, now, Master Tulliver, if I take the crown-piece, it is to make sure as you’ll do no mischief with the sword.”
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	process	process	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	having	have	AUX	VBG	VerbForm=Ger	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	through	through	ADP	IN	_	7	case	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	13	obl	_	_
+8	than	than	ADP	IN	_	7	fixed	_	_
+9	once	once	ADV	RB	NumType=Mult	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	Mr	Mr	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Poulter	Poulter	PROPN	NNP	Number=Sing	13	nsubj	_	_
+13	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	acted	act	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	scrupulous	scrupulous	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	conscientiousness	conscientiousness	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+26	Well	well	INTJ	UH	_	31	discourse	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	now	now	ADV	RB	_	31	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	Master	master	PROPN	NNP	Number=Sing	31	compound	_	_
+31	Tulliver	Tulliver	PROPN	NNP	Number=Sing	23	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	_	_
+33	if	if	SCONJ	IN	_	35	mark	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+37	crown	crown	NOUN	NN	Number=Sing	39	compound	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	_	39	punct	_	SpaceAfter=No
+39	piece	piece	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	23	punct	_	_
+41	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	expl	_	_
+42	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	make	make	VERB	VB	VerbForm=Inf	42	csubj	_	_
+45	sure	sure	ADJ	JJ	Degree=Pos	44	xcomp	_	_
+46	as	as	SCONJ	IN	_	49	mark	_	_
+47	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	49	nsubj	_	SpaceAfter=No
+48	’ll	’ll	AUX	MD	VerbForm=Fin	49	aux	_	_
+49	do	do	VERB	VB	VerbForm=Inf	44	advcl	_	_
+50	no	no	DET	DT	_	51	det	_	_
+51	mischief	mischief	NOUN	NN	Number=Sing	49	obj	_	_
+52	with	with	ADP	IN	_	54	case	_	_
+53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	_
+54	sword	sword	NOUN	NN	Number=Sing	51	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+56	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

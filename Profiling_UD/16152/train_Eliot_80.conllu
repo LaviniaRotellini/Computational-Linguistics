@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That is what I told him.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	what	what	PRON	WP	PronType=Int	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He is vulnerable to reason there—always a few grains of common-sense in an ounce of miserliness.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	vulnerable	vulnerable	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	reason	reason	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+8	always	always	ADV	RB	_	5	advmod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	few	few	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	grains	grain	NOUN	NNS	Number=Plur	5	obj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	common	common	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	sense	sense	NOUN	NN	Number=Sing	11	nmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	ounce	ounce	NOUN	NN	Number=Sing	11	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	miserliness	miserliness	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Miserliness is a capital quality to run in families; it’s the safe side for madness to dip on.
+1	Miserliness	Miserliness	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	capital	capital	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	quality	quality	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	run	run	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	families	family	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	safe	safe	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	side	side	NOUN	NN	Number=Sing	5	parataxis	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	madness	madness	NOUN	NNS	Number=Plur	15	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	dip	dip	VERB	VB	VerbForm=Inf	15	advcl	_	_
+20	on	on	ADP	RP	_	19	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And there must be a little crack in the Brooke family, else we should not see what we are to see.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	there	there	PRON	EX	_	4	expl	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	crack	crack	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	Brooke	Brooke	PROPN	NNP	Number=Sing	11	compound	_	_
+11	family	family	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	else	else	ADV	RB	_	4	advmod	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	see	see	VERB	VB	VerbForm=Inf	4	advcl	_	_
+18	what	what	PRON	WP	PronType=Int	22	obj	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	see	see	VERB	VB	VerbForm=Inf	17	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I beg your pardon, if I have said anything to hurt you, Dodo,” said Celia, with a slight sob.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	beg	beg	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	pardon	pardon	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	said	say	VERB	VBN	Tense=Past|VerbForm=Part	19	advcl	_	_
+11	anything	anything	PRON	NN	Number=Sing	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	hurt	hurt	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	Dodo	Dodo	PROPN	NNP	Number=Sing	19	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Celia	Celia	PROPN	NNP	Number=Sing	19	appos	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	with	with	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	slight	slight	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	sob	sob	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = She never could have thought that she should feel as she did.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	never	never	ADV	RB	_	5	advmod	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	feel	feel	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There was something funereal in the whole affair, and Mr. Casaubon seemed to be the officiating clergyman, about whom it would be indecent to make remarks.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	something	something	PRON	NN	Number=Sing	2	nsubj	_	_
+4	funereal	funereal	ADJ	JJ	Degree=Pos	3	amod	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	whole	whole	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	affair	affair	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	Casaubon	Casaubon	PROPN	NNP	Number=Sing	11	flat	_	_
+13	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	to	to	PART	TO	_	18	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	officiating	officiating	NOUN	NN	Number=Sing	18	compound	_	_
+18	clergyman	clergyman	NOUN	NN	Number=Sing	13	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	13	punct	_	_
+20	about	about	ADP	IN	_	21	case	_	_
+21	whom	whom	PRON	WP	PronType=Int	13	obl	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+23	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	indecent	indecent	ADJ	JJ	Degree=Pos	21	acl:relcl	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	make	make	VERB	VB	VerbForm=Inf	25	csubj	_	_
+28	remarks	remark	NOUN	NNS	Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

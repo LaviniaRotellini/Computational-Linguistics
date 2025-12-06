@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I should have liked that very much.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I am sure he would have been a good husband.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	husband	husband	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Only,” Celia added, with a slight blush (she sometimes seemed to blush as she breathed), “I don’t think he would have suited Dorothea.”
+1	Only	only	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	5	punct	_	_
+4	Celia	Celia	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	slight	slight	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	blush	blush	NOUN	NN	Number=Sing	5	obl	_	_
+11	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	sometimes	sometimes	ADV	RB	_	14	advmod	_	_
+14	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	blush	blush	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	breathed	breathe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	5	punct	_	_
+22	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	think	think	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+28	would	would	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	have	have	AUX	VB	VerbForm=Inf	30	aux	_	_
+30	suited	suit	VERB	VBN	Tense=Past|VerbForm=Part	26	ccomp	_	_
+31	Dorothea	Dorothea	PROPN	NNP	Number=Sing	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

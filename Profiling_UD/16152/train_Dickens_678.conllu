@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Steerforth not yet appearing, which induced me to apprehend that he must be ill, I left the Commons early on the third day, and walked out to Highgate.
+1	Steerforth	Steerforth	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	yet	yet	ADV	RB	_	4	advmod	_	_
+4	appearing	appear	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	induced	induce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	apprehend	apprehend	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	ill	ill	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	Commons	Common	PROPN	NNPS	Number=Plur	18	obj	_	_
+21	early	early	ADV	RB	Degree=Pos	18	advmod	_	_
+22	on	on	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	25	amod	_	_
+25	day	day	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+29	out	out	ADV	RB	_	28	advmod	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	Highgate	Highgate	VERB	VB	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mrs. Steerforth was very glad to see me, and said that he had gone away with one of his Oxford friends to see another who lived near St. Albans, but that she expected him to return tomorrow.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Steerforth	Steerforth	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	see	see	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+16	away	away	ADV	RB	_	15	advmod	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	one	one	NUM	CD	NumType=Card	15	obl	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	Oxford	Oxford	PROPN	NNP	Number=Sing	22	compound	_	_
+22	friends	friend	NOUN	NNS	Number=Plur	18	nmod	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	see	see	VERB	VB	VerbForm=Inf	22	acl	_	_
+25	another	another	DET	DT	_	24	obj	_	_
+26	who	who	PRON	WP	PronType=Rel	27	nsubj	_	_
+27	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+28	near	near	ADP	IN	_	29	case	_	_
+29	St.	St.	PROPN	NNP	Number=Sing	27	obl	_	_
+30	Albans	Albans	PROPN	NNPS	Number=Plur	29	flat	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	but	but	CCONJ	CC	_	35	cc	_	_
+33	that	that	SCONJ	IN	_	35	mark	_	_
+34	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	expected	expect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+36	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	return	return	VERB	VB	VerbForm=Inf	35	xcomp	_	_
+39	tomorrow	tomorrow	NOUN	NN	Number=Sing	38	obl:tmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I was so fond of him, that I felt quite jealous of his Oxford friends.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	fond	fond	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	that	that	SCONJ	IN	_	10	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+11	quite	quite	ADV	RB	_	12	advmod	_	_
+12	jealous	jealous	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	Oxford	Oxford	PROPN	NNP	Number=Sing	16	compound	_	_
+16	friends	friend	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

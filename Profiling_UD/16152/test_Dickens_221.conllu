@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	0	root	_	_
+
+# sent_id = 2
+# text = said I, “we must talk together a little more, as we used to do.
+1	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	talk	talk	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+8	together	together	ADV	RB	_	7	advmod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	obl:npmod	_	_
+11	more	more	ADV	RBR	_	7	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	do	do	VERB	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = And I must consult you a little more, as I used to do.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	consult	consult	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	obl:npmod	_	_
+8	more	more	ADV	RBR	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	do	do	VERB	VB	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Let us have a quiet walk on the marshes next Sunday, Biddy, and a long chat.”
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	have	have	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	quiet	quiet	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	walk	walk	NOUN	NN	Number=Sing	3	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	marshes	marsh	NOUN	NNS	Number=Plur	3	obl	_	_
+10	next	next	ADP	IN	_	11	case	_	_
+11	Sunday	Sunday	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Biddy	Biddy	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	long	long	ADJ	JJ	Degree=Pos	18	nsubj	_	_
+18	chat	chat	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It became the business of Mrs. Sparsit’s life, to look up at her staircase, and to watch Louisa coming down.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	business	business	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+7	Sparsit	Sparsit	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	’s	's	PART	POS	_	6	case	_	_
+9	life	life	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	look	look	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+13	up	up	ADP	RP	_	12	compound:prt	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	staircase	staircase	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	watch	watch	VERB	VB	VerbForm=Inf	2	conj	_	_
+21	Louisa	Louisa	PROPN	NNP	Number=Sing	22	nsubj	_	_
+22	coming	come	VERB	VBG	VerbForm=Ger	20	ccomp	_	_
+23	down	down	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sometimes slowly, sometimes quickly, sometimes several steps at one bout, sometimes stopping, never turning back.
+1	Sometimes	sometimes	ADV	RB	_	2	advmod	_	_
+2	slowly	slowly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	sometimes	sometimes	ADV	RB	_	5	advmod	_	_
+5	quickly	quickly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	sometimes	sometimes	ADV	RB	_	9	advmod	_	_
+8	several	several	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	steps	step	NOUN	NNS	Number=Plur	0	root	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	bout	bout	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	sometimes	sometimes	ADV	RB	_	15	advmod	_	_
+15	stopping	stop	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	never	never	ADV	RB	_	18	advmod	_	_
+18	turning	turn	VERB	VBG	VerbForm=Ger	9	acl	_	_
+19	back	back	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = If she had once turned back, it might have been the death of Mrs. Sparsit in spleen and grief.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	back	back	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+9	might	might	AUX	MD	VerbForm=Fin	13	aux	_	_
+10	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	death	death	NOUN	NN	Number=Sing	5	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	Sparsit	Sparsit	PROPN	NNP	Number=Sing	15	flat	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	spleen	spleen	NUM	CD	NumType=Card	5	obl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	grief	grief	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

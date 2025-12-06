@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, yes, you can’t do amiss there.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	yes	yes	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+7	ca	can	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+10	amiss	amiss	ADV	RB	_	11	advmod	_	_
+11	there	there	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = But—Ah, Spence, you’re back again.
+1	But	but	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+3	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	Spence	Spence	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	back	back	ADV	RB	_	8	advmod	_	_
+10	again	again	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Well Tom, there’s nothing more to be said just now, I think, and I must go to business again.
+1	Well	well	INTJ	UH	_	2	discourse	_	_
+2	Tom	Tom	PROPN	NNP	Number=Sing	5	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	SpaceAfter=No
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	5	nsubj	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	now	now	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	must	must	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	go	go	VERB	VB	VerbForm=Inf	15	conj	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	business	business	NOUN	NN	Number=Sing	20	obl	_	_
+23	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = Good-by.
+1	Good	good	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+3	by	by	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Remember me to your mother.”
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	mother	mother	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

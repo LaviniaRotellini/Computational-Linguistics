@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius, with his forehead clasped in his hands, was kneeling upon the grass on a grave.
+1	Marius	Marius	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	forehead	forehead	NOUN	NN	Number=Sing	1	nmod	_	_
+6	clasped	clasp	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	kneeling	knee	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	_	_
+13	upon	upon	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	grass	grass	NOUN	NN	Number=Sing	12	obl	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	grave	grave	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He had strewn his bouquet there.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	strewn	strew	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	bouquet	bouquet	NOUN	NN	Number=Sing	3	obj	_	_
+6	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = At the extremity of the grave, on a little swelling which marked the head, there stood a cross of black wood with this name in white letters:
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	extremity	extremity	NOUN	NN	Number=Sing	18	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	grave	grave	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	swelling	swelling	NOUN	NN	Number=Sing	3	nmod	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	marked	mark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	head	head	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	there	there	PRON	EX	_	18	expl	_	_
+18	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	cross	cross	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	black	black	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	wood	wood	NOUN	NN	Number=Sing	20	nmod	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	name	name	NOUN	NN	Number=Sing	20	nmod	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	white	white	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	letters	letter	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	:	_	18	punct	_	_
+
+# sent_id = 4
+# text = COLONEL BARON PONTMERCY.
+1	COLONEL	Colonel	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	BARON	Baron	ADP	IN	_	3	case	_	_
+3	PONTMERCY	Pontmercy	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Marius’ sobs were audible.
+1	Marius	Marius	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’	's	PART	POS	_	1	case	_	_
+3	sobs	sob	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	audible	audible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

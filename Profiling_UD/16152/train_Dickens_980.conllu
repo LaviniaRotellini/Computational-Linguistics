@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I thought Mr. Dick would have fallen, insensible.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+4	Dick	Dick	PROPN	NNP	Number=Sing	3	flat	_	_
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	insensible	insensible	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My aunt being resolute, I went out and got the ale myself.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	cop	_	_
+4	resolute	resolute	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+8	out	out	ADV	RB	_	7	advmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	ale	ale	NOUN	NN	Number=Sing	10	obj	_	_
+13	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obl:npmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = As it was growing late, Peggotty and Mr. Dick took that opportunity of repairing to the chandler’s shop together.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	growing	grow	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+5	late	late	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Peggotty	Peggotty	PROPN	NNP	Number=Sing	11	nsubj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	7	conj	_	_
+10	Dick	Dick	PROPN	NNP	Number=Sing	9	flat	_	_
+11	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	opportunity	opportunity	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	SCONJ	IN	_	15	mark	_	_
+15	repairing	repair	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	to	to	ADP	IN	_	20	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	chandler	chandler	NOUN	NN	Number=Sing	20	nmod:poss	_	SpaceAfter=No
+19	’s	's	PART	POS	_	18	case	_	_
+20	shop	shop	NOUN	NN	Number=Sing	15	obl	_	_
+21	together	together	ADV	RB	_	15	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = I parted from him, poor fellow, at the corner of the street, with his great kite at his back, a very monument of human misery.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	parted	part	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	poor	poor	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	fellow	fellow	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	corner	corner	NOUN	NN	Number=Sing	7	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	street	street	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	great	great	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	kite	kite	NOUN	NN	Number=Sing	7	obl	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	back	back	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	7	punct	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	very	very	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	monument	monument	NOUN	NN	Number=Sing	7	appos	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	human	human	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	misery	misery	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

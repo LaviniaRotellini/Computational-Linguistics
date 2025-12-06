@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The rest, eh, Pip?” said Joe, looking at it with a slow, searching eye, “One, two, three.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	rest	rest	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	eh	eh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Pip	Pip	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	_
+11	Joe	Joe	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	slow	slow	ADJ	JJ	Degree=Pos	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	searching	search	VERB	VBG	VerbForm=Ger	21	amod	_	_
+21	eye	eye	NOUN	NN	Number=Sing	11	list	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	11	punct	_	_
+23	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+24	One	one	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	11	punct	_	_
+26	two	two	NUM	CD	NumType=Card	11	appos	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	11	punct	_	_
+28	three	three	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Why, here’s three Js, and three Os, and three J-O, Joes in it, Pip!”
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	here	here	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	three	three	NUM	CD	NumType=Card	6	nummod	_	_
+6	Js	Js	NOUN	NNS	Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	three	three	NUM	CD	NumType=Card	10	nummod	_	_
+10	Os	os	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	three	three	NUM	CD	NumType=Card	14	nummod	_	_
+14	J-O	J-O	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	Joes	Joes	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	Pip	Pip	PROPN	NNP	Number=Sing	18	appos	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

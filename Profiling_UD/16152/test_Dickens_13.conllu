@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Where have you been, you young monkey?” said Mrs. Joe, stamping her foot.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Where	where	ADV	WRB	PronType=Int	9	advmod	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	cop	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	det	_	_
+8	young	young	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	monkey	monkey	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	16	nsubj	_	_
+14	Joe	Joe	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	stamping	stampe	VERB	VBG	VerbForm=Ger	12	parataxis	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	foot	foot	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Tell me directly what you’ve been doing to wear me away with fret and fright and worrit, or I’d have you out of that corner if you was fifty Pips, and he was five hundred Gargerys.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	directly	directly	ADV	RB	_	5	advmod	_	_
+5	what	what	PRON	WP	PronType=Int	9	obj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	_
+9	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	wear	wear	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	away	away	ADV	RB	_	11	advmod	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	fret	fret	NOUN	NN	Number=Sing	11	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	fright	fright	NOUN	NN	Number=Sing	15	conj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	worrit	worrit	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	or	or	CCONJ	CC	_	24	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No
+23	’d	’d	ADV	RB	_	24	advmod	_	_
+24	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	out	out	ADP	IN	_	29	case	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	that	that	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+29	corner	corner	NOUN	NN	Number=Sing	24	obl	_	_
+30	if	if	SCONJ	IN	_	34	mark	_	_
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	_
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	_	_
+33	fifty	fifty	NUM	CD	NumType=Card	34	nummod	_	_
+34	Pips	Pip	NOUN	NNS	Number=Plur	24	advcl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	41	punct	_	_
+36	and	and	CCONJ	CC	_	41	cc	_	_
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+38	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	cop	_	_
+39	five	five	NUM	CD	NumType=Card	40	compound	_	_
+40	hundred	hundred	NUM	CD	NumType=Card	41	nummod	_	_
+41	Gargerys	Gargery	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

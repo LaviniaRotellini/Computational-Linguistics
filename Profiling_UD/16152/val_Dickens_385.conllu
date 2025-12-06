@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why should it be of any importance to any one, Mrs. Sparsit, ma’am?’ said Mr. Bounderby, swelling with a sense of slight.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	8	advmod	_	_
+3	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	any	any	DET	DT	_	8	det	_	_
+8	importance	importance	NOUN	NN	Number=Sing	20	nsubj	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	one	one	NUM	CD	NumType=Card	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	appos	_	_
+14	Sparsit	Sparsit	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	_
+16	ma’	ma'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+17	am	am	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+19	’	’	PUNCT	''	_	8	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	20	obj	_	_
+22	Bounderby	Bounderby	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	_
+24	swelling	swell	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	sense	sense	NOUN	NN	Number=Sing	24	obl	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	slight	slight	ADJ	JJ	Degree=Pos	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = ‘You attach too much importance to these things, ma’am.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	attach	attach	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	importance	importance	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	things	thing	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	ma’	ma'	PUNCT	''	_	12	punct	_	SpaceAfter=No
+12	am	am	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = By George, you’ll be corrupted in some of your notions here.
+1	By	by	ADP	IN	_	2	case	_	_
+2	George	George	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj:pass	_	SpaceAfter=No
+5	’ll	’ll	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	corrupted	corrupt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	some	some	DET	DT	_	7	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	notions	notion	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	here	here	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = You are old-fashioned, ma’am.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	old	old	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+5	fashioned	fashioned	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	ma’	ma'	PUNCT	''	_	8	punct	_	SpaceAfter=No
+8	am	am	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = You are behind Tom Gradgrind’s children’s time.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	behind	behind	ADP	IN	_	9	case	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
+5	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	children	child	NOUN	NNS	Number=Plur	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

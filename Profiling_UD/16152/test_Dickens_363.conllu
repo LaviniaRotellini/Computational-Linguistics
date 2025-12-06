@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But _he_ would have much,” said Wemmick, cutting me short, “and they know it.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	_	_	SYM	NFP	_	3	punct	_	SpaceAfter=No
+3	he_	he_	SYM	NFP	_	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	have	have	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+6	much	much	ADV	RB	_	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	5	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Wemmick	Wemmick	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	cutting	cut	VERB	VBG	VerbForm=Ger	19	ccomp	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	short	short	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = He’d have their lives, and the lives of scores of ’em.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’d	’d	ADV	RB	_	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lives	life	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	lives	life	NOUN	NNS	Number=Plur	3	conj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	scores	score	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	’em	’em	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He’d have all he could get.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’d	’d	ADV	RB	_	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	get	get	VERB	VB	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = And it’s impossible to say what he couldn’t get, if he gave his mind to it.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	what	what	PRON	WP	PronType=Int	11	obj	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	get	get	VERB	VB	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	mind	mind	NOUN	NN	Number=Sing	15	obj	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

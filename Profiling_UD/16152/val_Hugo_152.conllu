@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Yes; and why all these misfortunes in the world?
+1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	2	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	why	why	ADV	WRB	PronType=Int	2	conj	_	_
+6	all	all	DET	PDT	_	8	det:predet	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	misfortunes	misfortunes	NOUN	NNS	Number=Plur	5	nsubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Misfortunes!
+1	Misfortunes	Misfortunes	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = What are they sent for, these misfortunes?
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	for	for	ADP	IN	_	4	case	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	misfortunes	misfortune	NOUN	NNS	Number=Plur	1	appos	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = What use do they serve?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	serve	serve	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = There was the fire at the Odéon theatre, and immediately a number of families thrown out of employment.
+1	There	there	PRON	EX	_	4	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	fire	fire	NOUN	NN	Number=Sing	0	root	_	_
+5	at	at	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Odéon	Odéon	PROPN	NNP	Number=Sing	8	compound	_	_
+8	theatre	theatre	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	immediately	immediately	ADV	RB	_	13	advmod	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	number	number	NOUN	NN	Number=Sing	4	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	families	family	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
+17	out	out	ADP	IN	_	19	case	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	employment	employment	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Is that just?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	just	just	ADV	RB	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = I don't know what is your religion, sir, but I am puzzled by all this."
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	4	ccomp	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	religion	religion	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	sir	sir	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	puzzled	puzzl	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+16	by	by	ADP	IN	_	18	case	_	_
+17	all	all	DET	DT	_	18	det	_	_
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+20	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

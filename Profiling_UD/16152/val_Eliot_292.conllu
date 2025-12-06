@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Tulliver was not downstairs, not in any of the bedrooms.
+1	Tulliver	Tulliver	PRON	WP	PronType=Int	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	downstairs	downstairs	ADV	RB	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	not	not	ADV	RB	_	8	advmod	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	any	any	DET	DT	_	4	conj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	bedrooms	bedroom	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There was but one room below the attic which Maggie had left unsearched; it was the storeroom, where her mother kept all her linen and all the precious “best things” that were only unwrapped and brought out on special occasions.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	but	but	CCONJ	CC	_	5	cc	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	room	room	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	below	below	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	attic	attic	NOUN	NN	Number=Sing	5	nmod	_	_
+9	which	which	PRON	WDT	PronType=Rel	12	obj	_	_
+10	Maggie	Maggie	PROPN	NNP	Number=Sing	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+13	unsearched	unsearched	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	2	punct	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	storeroom	storeroom	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	where	where	ADV	WRB	PronType=Rel	23	advmod	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	mother	mother	NOUN	NN	Number=Sing	23	nsubj	_	_
+23	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+24	all	all	DET	DT	_	26	det:predet	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	linen	linen	NOUN	NNS	Number=Plur	23	obj	_	_
+27	and	and	CCONJ	CC	_	33	cc	_	_
+28	all	all	DET	PDT	_	33	det:predet	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+30	precious	precious	ADJ	JJ	Degree=Pos	33	amod	_	_
+31	“	"	PUNCT	``	_	33	punct	_	SpaceAfter=No
+32	best	best	ADJ	JJS	Degree=Sup	33	amod	_	_
+33	things	thing	NOUN	NNS	Number=Plur	23	conj	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	33	punct	_	_
+35	that	that	PRON	WDT	PronType=Rel	38	nsubj	_	_
+36	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	cop	_	_
+37	only	only	ADV	RB	_	38	advmod	_	_
+38	unwrapped	unwrap	ADJ	JJ	Degree=Pos	33	acl:relcl	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	conj	_	_
+41	out	out	ADV	RB	_	40	advmod	_	_
+42	on	on	ADP	IN	_	44	case	_	_
+43	special	special	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	occasions	occasion	NOUN	NNS	Number=Plur	40	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

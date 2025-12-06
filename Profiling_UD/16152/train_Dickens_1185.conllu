@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes,’ returned Traddles with perfect innocence, ‘it’s a joke for us.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	4	punct	_	_
+4	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	Traddles	Traddle	NOUN	NNS	Number=Plur	14	nsubj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	perfect	perfect	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	innocence	innocence	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	joke	joke	NOUN	NN	Number=Sing	0	root	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = They pretend that Sophy has a lock of it in her desk, and is obliged to shut it in a clasped book, to keep it down.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	pretend	pretend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	Sophy	Sophy	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lock	lock	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	desk	desk	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	obliged	obliged	ADJ	JJ	Degree=Pos	2	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	shut	shut	VERB	VB	VerbForm=Inf	16	advcl	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	clasped	clasped	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+23	book	book	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	keep	keep	VERB	VB	VerbForm=Inf	2	advcl	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	down	down	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = We laugh about it.’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	laugh	laugh	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	about	about	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

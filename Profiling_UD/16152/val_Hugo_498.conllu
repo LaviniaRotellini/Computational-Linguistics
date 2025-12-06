@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Beside him, upon a credence-table, was another book.
+1	Beside	beside	ADP	IN	_	2	case	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	upon	upon	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	credence	credence	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	table	table	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	another	another	DET	DT	_	12	det	_	_
+12	book	book	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = It was the parish register, and also open; and an attentive eye might have remarked a page on which was some writing, of which the ink was not yet dry.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	parish	parish	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	register	register	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	also	also	ADV	RB	_	9	advmod	_	_
+9	open	open	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	attentive	attentive	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	eye	eye	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	might	might	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	remarked	remark	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	page	page	NOUN	NN	Number=Sing	17	obj	_	_
+20	on	on	ADP	IN	_	21	case	_	_
+21	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+23	some	some	DET	DT	_	24	det	_	_
+24	writing	writing	NOUN	NN	Number=Sing	19	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	17	punct	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	which	which	PRON	WDT	PronType=Rel	33	obl	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	ink	ink	NOUN	NN	Number=Sing	33	nsubj	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	_
+31	not	not	PART	RB	_	33	advmod	_	_
+32	yet	yet	ADV	RB	_	33	advmod	_	_
+33	dry	dry	ADJ	JJ	Degree=Pos	17	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = By the side of the register were a pen and a writing-desk.
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	side	side	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	register	register	NOUN	NN	Number=Sing	3	nmod	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	pen	pen	NOUN	NN	Number=Sing	0	root	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	writing	writing	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	desk	desk	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

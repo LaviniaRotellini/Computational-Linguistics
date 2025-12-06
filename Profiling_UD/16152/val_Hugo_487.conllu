@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was a little before ten o'clock in the morning.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	obl:npmod	_	_
+5	before	before	ADV	RB	_	7	advmod	_	_
+6	ten	ten	NUM	CD	NumType=Card	7	nummod	_	_
+7	o'clock	o'clock	NOUN	NN	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	morning	morning	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The crowd at St. Sampson, according to all appearance, was increasing.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	crowd	crowd	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	St.	St.	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	Sampson	Sampson	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	according	accord	VERB	VBG	VerbForm=Ger	10	case	_	_
+8	to	to	ADP	IN	_	7	fixed	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	appearance	appearance	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	increasing	increase	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = The multitude, feverish with curiosity, was moving towards the north; and the Havelet, which is in the south, was more deserted than ever.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	multitude	multitude	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	feverish	feverish	ADJ	JJ	Degree=Pos	9	nsubj	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	curiosity	curiosity	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	towards	towards	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	north	north	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	9	punct	_	_
+14	and	and	CCONJ	CC	_	26	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	Havelet	Havelet	NOUN	NN	Number=Sing	26	nsubj:pass	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	south	south	NOUN	NN	Number=Sing	16	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	deserted	deserted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
+27	than	than	ADP	IN	_	28	case	_	_
+28	ever	ever	ADV	RB	_	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Though certainly I don’t know why you should,’ said Dora, ‘or why you should call it a happiness at all.
+1	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	Though	though	SCONJ	IN	_	7	mark	_	_
+3	certainly	certainly	ADV	RB	_	7	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	know	know	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+8	why	why	ADV	WRB	PronType=Int	10	advmod	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	should	should	AUX	MD	VerbForm=Fin	7	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Dora	Dora	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	‘	'	PUNCT	``	_	21	punct	_	SpaceAfter=No
+17	or	or	CCONJ	CC	_	21	cc	_	_
+18	why	why	ADV	WRB	PronType=Int	21	advmod	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+20	should	should	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	call	call	VERB	VB	VerbForm=Inf	13	parataxis	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	happiness	happiness	NOUN	NN	Number=Sing	21	obj	_	_
+25	at	at	ADV	RB	_	26	case	_	_
+26	all	all	ADV	RB	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = But of course you don’t mean what you say.
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	of	of	ADV	RB	_	7	advmod	_	_
+3	course	course	ADV	RB	_	2	fixed	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+8	what	what	PRON	WP	PronType=Int	10	obj	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And I am sure no one doubts your being at liberty to do whatever you like.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	one	one	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	doubts	doubt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+9	being	be	AUX	VBG	VerbForm=Ger	11	cop	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	liberty	liberty	NOUN	NN	Number=Sing	7	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	whatever	whatever	PRON	WP	PronType=Int	13	obj	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Jip, you naughty boy, come here!’
+1	Jip	Jip	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	naughty	naughty	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+8	here	here	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

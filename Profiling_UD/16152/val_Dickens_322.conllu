@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I towd thee, my dear,’ said Stephen Blackpool—‘that night—that I would never see or think o’ onnything that angered me, but thou, so much better than me, should’st be beside it.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	towd	towd	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	thee	thee	NUM	CD	NumType=Card	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	dear	dear	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Stephen	Stephen	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Blackpool	Blackpool	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	—‘	—‘	PUNCT	.	_	11	punct	_	SpaceAfter=No
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	night	night	NOUN	NN	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+17	that	that	SCONJ	IN	_	21	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	would	would	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	never	never	ADV	RB	_	21	advmod	_	_
+21	see	see	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	think	think	VERB	VB	VerbForm=Inf	21	conj	_	_
+24	o	of	ADP	IN	Abbr=Yes	26	case	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	26	punct	_	_
+26	onnything	onnything	PRON	NN	Number=Sing	23	obl	_	_
+27	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	angered	anger	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	36	punct	_	_
+31	but	but	CCONJ	CC	_	36	cc	_	_
+32	thou	thou	PRON	PRP	_	36	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	so	so	ADV	RB	_	35	advmod	_	_
+35	much	much	ADV	RB	_	36	advmod	_	_
+36	better	better	ADJ	JJR	Degree=Cmp	28	conj	_	_
+37	than	than	ADP	IN	_	38	case	_	_
+38	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	28	punct	_	_
+40	should	should	AUX	MD	VerbForm=Fin	44	aux	_	SpaceAfter=No
+41	’st	’st	ADV	RB	_	44	advmod	_	_
+42	be	be	AUX	VB	VerbForm=Inf	44	cop	_	_
+43	beside	beside	ADP	IN	_	44	case	_	_
+44	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Thou’rt beside it now.
+1	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’rt	’rt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	beside	beside	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Thou mak’st me see it wi’ a better eye.
+1	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	mak	mak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	’st	’st	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	wi	wi	X	AFX	_	11	advmod	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	better	better	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	eye	eye	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Bless thee.
+1	Bless	bless	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	thee	thee	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Good night.
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	night	night	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Good-bye!’
+1	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	bye	bye	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

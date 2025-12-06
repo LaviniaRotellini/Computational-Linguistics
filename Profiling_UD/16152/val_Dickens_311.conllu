@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No one, excepting myseln, can ever know what honour, an’ what love, an’ respect, I bear to Rachael, or wi’ what cause.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	3	det	_	_
+3	one	one	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	excepting	except	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	myseln	myseln	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	ever	ever	ADV	RB	_	10	advmod	_	_
+10	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+11	what	what	DET	WDT	PronType=Int	12	det	_	_
+12	honour	honour	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	17	punct	_	_
+16	what	what	DET	WDT	PronType=Int	17	det	_	_
+17	love	love	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	21	punct	_	_
+21	respect	respect	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	10	punct	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	bear	bear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	Rachael	Rachael	PROPN	NNP	Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	or	or	CCONJ	CC	_	29	cc	_	_
+29	wi	wi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	24	conj	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	29	punct	_	_
+31	what	what	DET	WDT	PronType=Int	32	det	_	_
+32	cause	cause	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = When I passed that promess, I towd her true, she were th’ Angel o’ my life.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	promess	promess	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	towd	towd	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	true	true	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	th	th	PROPN	NNP	Number=Sing	8	ccomp	_	SpaceAfter=No
+15	’	'	PART	POS	_	16	case	_	_
+16	Angel	angel	PROPN	NNP	Number=Sing	14	obl	_	_
+17	o	of	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	16	punct	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	life	life	NOUN	NN	Number=Sing	16	appos	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = ’Twere a solemn promess.
+1	’	'	PUNCT	''	_	5	punct	_	SpaceAfter=No
+2	Twere	Twere	ADV	WRB	PronType=Int	5	advmod	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	solemn	solemn	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	promess	promess	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = ’Tis gone fro’ me, for ever.’
+1	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+2	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	fro	for	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	4	punct	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	ever	ever	ADV	RB	_	3	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

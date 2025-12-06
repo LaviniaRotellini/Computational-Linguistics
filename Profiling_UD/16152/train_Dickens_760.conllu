@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, yes,’ said Traddles, rubbing his hands slowly over one another.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Traddles	Traddles	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	rubbing	rub	VERB	VBG	VerbForm=Ger	7	parataxis	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hands	hand	NOUN	NNS	Number=Plur	10	obj	_	_
+13	slowly	slowly	ADV	RB	_	10	advmod	_	_
+14	over	over	ADP	IN	_	16	case	_	_
+15	one	one	NUM	CD	NumType=Card	16	nummod	_	_
+16	another	another	DET	DT	_	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘I am reading for the bar.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	reading	read	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	bar	bar	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The fact is, I have just begun to keep my terms, after rather a long delay.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fact	fact	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	just	just	ADV	RB	_	8	advmod	_	_
+8	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	keep	keep	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	terms	term	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	after	after	ADP	IN	_	18	case	_	_
+15	rather	rather	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	long	long	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	delay	delay	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It’s some time since I was articled, but the payment of that hundred pounds was a great pull.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	_
+5	since	since	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	articled	article	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	20	punct	_	_
+10	but	but	CCONJ	CC	_	20	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	payment	payment	NOUN	NN	Number=Sing	20	nsubj	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	hundred	hundred	NUM	CD	NumType=Card	16	nummod	_	_
+16	pounds	pound	NOUN	NNS	Number=Plur	12	nmod	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	pull	pull	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = A great pull!’ said Traddles, with a wince, as if he had had a tooth out.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	great	great	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	pull	pull	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Traddles	Traddles	PROPN	NNPS	Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	wince	wince	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	as	as	SCONJ	IN	_	17	mark	_	_
+14	if	if	SCONJ	IN	_	17	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	tooth	tooth	NOUN	NN	Number=Sing	17	obj	_	_
+20	out	out	ADV	RB	_	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

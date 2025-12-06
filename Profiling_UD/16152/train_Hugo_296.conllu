@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Jean Valjean, there will be around you many voices, which will make a great noise, which will talk very loud, and which will bless you, and only one which no one will hear, and which will curse you in the dark.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Jean	Jean	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	Valjean	Valjean	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	there	there	PRON	EX	_	7	expl	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+8	around	around	ADV	RB	_	11	advmod	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nmod:poss	_	_
+10	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	voices	voice	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	make	make	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	great	great	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	noise	noise	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	talk	talk	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+23	very	very	ADV	RB	_	24	advmod	_	_
+24	loud	loud	ADV	RB	_	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	and	and	CCONJ	CC	_	29	cc	_	_
+27	which	which	PRON	WDT	PronType=Int	29	nsubj	_	_
+28	will	will	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	bless	bless	VERB	VB	VerbForm=Inf	22	conj	_	_
+30	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	only	only	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	one	one	NOUN	NN	Number=Sing	29	conj	_	_
+35	which	which	PRON	WDT	PronType=Rel	39	obj	_	_
+36	no	no	DET	DT	_	37	det	_	_
+37	one	one	NOUN	NN	Number=Sing	39	nsubj	_	_
+38	will	will	AUX	MD	VerbForm=Fin	39	aux	_	_
+39	hear	hear	VERB	VB	VerbForm=Inf	34	acl:relcl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	44	punct	_	_
+41	and	and	CCONJ	CC	_	44	cc	_	_
+42	which	which	PRON	WDT	PronType=Int	44	nsubj	_	_
+43	will	will	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	curse	curse	VERB	VB	VerbForm=Inf	39	conj	_	_
+45	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	44	obj	_	_
+46	in	in	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	dark	dark	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Well!
+1	Well	well	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = listen, infamous man!
+1	listen	listen	VERB	VB	VerbForm=Inf	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	infamous	infamous	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = All those benedictions will fall back before they reach heaven, and only the malediction will ascend to God.”
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	those	those	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	benedictions	benediction	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	fall	fall	VERB	VB	VerbForm=Inf	0	root	_	_
+6	back	back	ADV	RB	_	5	advmod	_	_
+7	before	before	SCONJ	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	reach	reach	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	heaven	heaven	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	only	only	ADV	RB	_	17	advmod	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	malediction	malediction	NOUN	NN	Number=Sing	13	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	ascend	ascend	VERB	VB	VerbForm=Inf	5	conj	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	God	God	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

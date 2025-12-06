@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!” said she, “’tis that villanous man!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+9	’tis	’tis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	villanous	villanous	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	man	man	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	12	punct	_	_
+
+# sent_id = 2
+# text = Then, thrusting her under lip out beyond the upper, she made a little pout, which appeared to be familiar to her, executed a pirouette on her heel, and set about collecting in her tambourine the gifts of the multitude.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	thrusting	thrust	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	under	under	ADP	IN	_	6	case	_	_
+6	lip	lip	NOUN	NN	Number=Sing	3	obj	_	_
+7	out	out	ADV	RB	_	3	advmod	_	_
+8	beyond	beyond	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	upper	upper	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	pout	pout	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	familiar	familiar	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	13	punct	_	_
+26	executed	execute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	pirouette	pirouette	NOUN	NN	Number=Sing	26	obj	_	_
+29	on	on	ADP	IN	_	31	case	_	_
+30	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	heel	heel	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	set	set	ADJ	JJ	Degree=Pos	13	conj	_	_
+35	about	about	SCONJ	IN	_	36	mark	_	_
+36	collecting	collecting	VERB	VBG	VerbForm=Ger	34	advcl	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	tambourine	tambourine	NOUN	NN	Number=Sing	36	obl	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	gifts	gift	NOUN	NNS	Number=Plur	36	obj	_	_
+42	of	of	ADP	IN	_	44	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	multitude	multitude	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Somebody said to me, ‘Let us go to the theatre, Copperfield!’
+1	Somebody	somebody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+7	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9	go	go	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	theatre	theatre	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	Copperfield	Copperfield	PROPN	NNP	Number=Sing	12	appos	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = There was no bedroom before me, but again the jingling table covered with glasses; the lamp; Grainger on my right hand, Markham on my left, and Steerforth opposite--all sitting in a mist, and a long way off.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	bedroom	bedroom	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	before	before	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	but	but	CCONJ	CC	_	13	cc	_	_
+9	again	again	ADV	RB	_	13	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	jingling	jingling	NOUN	NN	Number=Sing	12	compound	_	_
+12	table	table	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	glasses	glass	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	lamp	lamp	NOUN	NN	Number=Sing	22	nsubj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	18	punct	_	_
+20	Grainger	Grainger	PROPN	NNP	Number=Sing	18	nmod	_	_
+21	on	on	ADP	IN	_	20	case	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	right	right	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	hand	hand	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	Markham	Markham	PROPN	NNP	Number=Sing	24	conj	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	left	left	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	Steerforth	Steerforth	PROPN	NNP	Number=Sing	33	compound	_	_
+33	opposite	opposite	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+34	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+35	all	all	DET	DT	_	36	nsubj	_	_
+36	sitting	sit	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	mist	mist	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	44	punct	_	_
+41	and	and	CCONJ	CC	_	44	cc	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+43	long	long	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	way	way	NOUN	NN	Number=Sing	36	conj	_	_
+45	off	off	ADV	RB	_	44	advmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The theatre?
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	theatre	theatre	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = To be sure.
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = The very thing.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	very	very	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Come along!
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	along	along	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = But they must excuse me if I saw everybody out first, and turned the lamp off--in case of fire.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	excuse	excuse	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	if	if	SCONJ	IN	_	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+9	everybody	everybody	PRON	NN	Number=Sing	8	obj	_	_
+10	out	out	ADV	RB	_	11	advmod	_	_
+11	first	first	ADV	RBS	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	lamp	lamp	NOUN	NN	Number=Sing	14	obj	_	_
+17	off	off	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+18	--	--	PUNCT	,	_	14	punct	_	SpaceAfter=No
+19	in	in	ADP	IN	_	20	case	_	_
+20	case	case	NOUN	NN	Number=Sing	14	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	fire	fire	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

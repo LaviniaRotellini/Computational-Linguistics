@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The family who occupy the house had for their grandfather Guillaume van Kylsom, the old gardener, dead long since.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	family	family	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	occupy	occupy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	house	house	NOUN	NN	Number=Sing	4	obj	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	for	for	ADP	IN	_	12	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+10	grandfather	grandfather	NOUN	NN	Number=Sing	11	compound	_	_
+11	Guillaume	Guillaume	PROPN	NNP	Number=Sing	12	compound	_	_
+12	van	van	PROPN	NNP	Number=Sing	7	obl	_	_
+13	Kylsom	Kylsom	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	old	old	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	gardener	gardener	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	7	punct	_	_
+19	dead	dead	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	long	long	ADV	RB	Degree=Pos	21	advmod	_	_
+21	since	since	ADV	RB	_	7	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = A woman with gray hair said to us: “I was there.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	gray	gray	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	hair	hair	NOUN	NN	Number=Sing	2	nmod	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	6	punct	_	_
+10	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	there	there	ADV	RB	PronType=Dem	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I was three years old.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	5	obl:npmod	_	_
+5	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = My sister, who was older, was terrified and wept.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	sister	sister	NOUN	NN	Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	older	older	ADJ	JJR	Degree=Cmp	2	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	terrified	terrified	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	wept	wept	VERB	VB	VerbForm=Inf	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = They carried us off to the woods.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	off	off	ADP	RP	_	2	compound:prt	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	woods	woods	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = I went there in my mother’s arms.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mother	mother	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	arms	arm	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = We glued our ears to the earth to hear.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	glued	glue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	ears	ear	NOUN	NNS	Number=Plur	2	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	earth	earth	NOUN	NN	Number=Sing	2	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	hear	hear	VERB	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = I imitated the cannon, and went _boum!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	imitated	imitate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	cannon	cannon	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	_boum	_boum	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = boum!_”
+1	boum	boum	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!_	!_	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

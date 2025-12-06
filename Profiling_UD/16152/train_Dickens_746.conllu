@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I never saw such curls--how could I, for there never were such curls!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	such	such	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	curls	curl	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+7	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+8	could	could	AUX	MD	VerbForm=Fin	16	aux	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	there	there	ADV	RB	PronType=Dem	16	obl	_	_
+13	never	never	ADV	RB	_	16	advmod	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	such	such	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	curls	curl	NOUN	NNS	Number=Plur	3	parataxis	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = --as those she shook out to hide her blushes.
+1	--	--	PUNCT	NFP	_	5	punct	_	SpaceAfter=No
+2	as	as	ADP	IN	_	3	case	_	_
+3	those	those	PRON	DT	Number=Plur|PronType=Dem	5	obl	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	out	out	ADV	RB	_	5	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	hide	hide	VERB	VB	VerbForm=Inf	5	advcl	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+10	blushes	blush	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = As to the straw hat and blue ribbons which was on the top of the curls, if I could only have hung it up in my room in Buckingham Street, what a priceless possession it would have been!
+1	As	as	ADP	IN	_	5	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	straw	straw	NOUN	NN	Number=Sing	5	compound	_	_
+5	hat	hat	NOUN	NN	Number=Sing	33	obl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	blue	blue	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	ribbons	ribbon	NOUN	NNS	Number=Plur	5	conj	_	_
+9	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	top	top	NOUN	NN	Number=Sing	8	acl:relcl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	curls	curl	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	33	punct	_	_
+18	if	if	SCONJ	IN	_	23	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+20	could	could	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	only	only	ADV	RB	_	23	advmod	_	_
+22	have	have	AUX	VB	VerbForm=Inf	23	aux	_	_
+23	hung	hang	VERB	VBN	Tense=Past|VerbForm=Part	33	advcl	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	up	up	ADP	RP	_	23	compound:prt	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	room	room	NOUN	NN	Number=Sing	23	obl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	Buckingham	Buckingham	PROPN	NNP	Number=Sing	31	compound	_	_
+31	Street	Street	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	_	_
+33	what	what	PRON	WP	PronType=Int	40	obl	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+35	priceless	priceless	NOUN	NN	Number=Sing	36	compound	_	_
+36	possession	possession	NOUN	NN	Number=Sing	33	appos	_	_
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+38	would	would	AUX	MD	VerbForm=Fin	40	aux	_	_
+39	have	have	AUX	VB	VerbForm=Inf	40	aux	_	_
+40	been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+41	!	!	PUNCT	.	_	40	punct	_	SpacesAfter=\n
+

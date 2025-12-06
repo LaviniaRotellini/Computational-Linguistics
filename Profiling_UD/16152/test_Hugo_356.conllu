@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Phœbus exclaimed:
+1	Phœbus	Phœbus	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 2
+# text = “A purse in your pocket, Jehan!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	purse	purse	NOUN	NN	Number=Sing	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	pocket	pocket	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	Jehan	Jehan	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ’tis the moon in a bucket of water, one sees it there but ’tis not there.
+1	’	'	PUNCT	''	_	7	punct	_	SpaceAfter=No
+2	tis	ttis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	moon	moon	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	bucket	bucket	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	water	water	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	one	one	NUM	CD	NumType=Card	12	nsubj	_	_
+12	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	there	there	ADV	RB	PronType=Dem	12	advmod	_	_
+15	but	but	CCONJ	CC	_	19	cc	_	_
+16	’	'	PUNCT	''	_	19	punct	_	SpaceAfter=No
+17	tis	te	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	there	there	ADV	RB	PronType=Dem	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = There is nothing but its shadow.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+4	but	but	CCONJ	CC	_	7	cc	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+6	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	shadow	shadow	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Pardieu!
+1	Pardieu	Pardieu	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = let us wager that these are pebbles!”
+1	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	wager	wager	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	these	these	PRON	DT	Number=Plur|PronType=Dem	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	pebbles	pebble	NOUN	NNS	Number=Plur	3	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

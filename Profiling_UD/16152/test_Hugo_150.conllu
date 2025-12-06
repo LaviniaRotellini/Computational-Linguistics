@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lastly, between the Rue Saint-Denis, and the Rue Montorgueil, stood the Filles-Dieu.
+1	Lastly	Lastly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	15	punct	_	_
+3	between	between	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	Rue	Rue	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Saint	Saint	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+8	Denis	Denis	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	Rue	Rue	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Montorgueil	Montorgueil	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+17	Filles	Filles	PROPN	NNP	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	Dieu	Dieu	PROPN	NNP	Number=Sing	15	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = On one side, the rotting roofs and unpaved enclosure of the Cour des Miracles could be descried.
+1	On	on	ADP	IN	_	3	case	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	side	side	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	rotting	rot	VERB	VBG	VerbForm=Ger	7	amod	_	_
+7	roofs	roof	NOUN	NNS	Number=Plur	14	nsubj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	unpaved	unpaved	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	enclosure	enclosure	NOUN	NN	Number=Sing	7	conj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Cour	Cour	NOUN	NN	Number=Sing	10	nmod	_	_
+14	des	des	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	nsubj:pass	_	_
+15	Miracles	miracl	NOUN	NNS	Number=Plur	14	obj	_	_
+16	could	could	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	descried	descry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = It was the sole profane ring which was linked to that devout chain of convents.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	sole	sole	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	profane	profane	NOUN	NN	Number=Sing	6	compound	_	_
+6	ring	ring	NOUN	NN	Number=Sing	0	root	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	linked	link	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+10	to	to	ADP	IN	_	13	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+12	devout	devout	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	chain	chain	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	convents	convent	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

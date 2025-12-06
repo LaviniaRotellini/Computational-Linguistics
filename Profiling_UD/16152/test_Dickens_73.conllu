@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I know, but this is another pint, a separate matter.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	but	but	CCONJ	CC	_	9	cc	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	another	another	DET	DT	_	9	det	_	_
+9	pint	pint	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	separate	separate	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	matter	matter	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = A man can’t starve; at least _I_ can’t.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	starve	starve	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	at	at	ADV	RB	_	8	case	_	_
+8	least	least	ADV	RBS	Degree=Sup	9	nmod	_	_
+9	_I	_i	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	_	_	SYM	NFP	_	9	punct	_	_
+11	ca	ca	AUX	MD	VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+12	n’t	n’t	PART	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I took some wittles, up at the willage over yonder,—where the church stands a’most out on the marshes.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	wittles	wittle	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	up	up	ADP	RB	_	2	compound:prt	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	willage	willage	NOUN	NN	Number=Sing	2	obl	_	_
+10	over	over	ADP	IN	_	11	case	_	_
+11	yonder	yonder	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,—	,—	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	where	where	ADV	WRB	PronType=Int	16	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	church	church	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	16	punct	_	SpaceAfter=No
+19	most	most	ADV	RBS	_	20	advmod	_	_
+20	out	out	ADV	RB	_	16	advmod	_	_
+21	on	on	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	marshes	marsh	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, Mr. President, I was the first to recognize him, and I stick to it; that man is Jean Valjean, who entered at Toulon in 1796, and left in 1815.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	10	vocative	_	_
+5	President	President	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	recognize	recognize	VERB	VB	VerbForm=Inf	10	advcl	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	stick	stick	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	10	punct	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	man	man	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	Jean	Jean	PROPN	NNP	Number=Sing	10	appos	_	_
+25	Valjean	Valjean	PROPN	NNP	Number=Sing	24	flat	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	24	punct	_	_
+27	who	who	PRON	WP	PronType=Rel	28	nsubj	_	_
+28	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+29	at	at	ADP	IN	_	30	case	_	_
+30	Toulon	Toulon	PROPN	NNP	Number=Sing	28	obl	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	1796	1796	NUM	CD	NumType=Card	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	conj	_	_
+36	in	in	ADP	IN	_	37	case	_	_
+37	1815	1815	NUM	CD	NumType=Card	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = I left a year later.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	year	year	NOUN	NN	Number=Sing	5	obl:npmod	_	_
+5	later	later	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He has the air of a brute now; but it must be because age has brutalized him; he was sly at the galleys:
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	air	air	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	brute	brute	NOUN	NN	Number=Sing	4	nmod	_	_
+8	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	but	but	CCONJ	CC	_	13	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	2	conj	_	_
+14	because	because	SCONJ	IN	_	17	mark	_	_
+15	age	age	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	brutalized	brutalize	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	2	punct	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	sly	sly	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	galleys	galley	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+26	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 4
+# text = I recognize him positively.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	recognize	recognize	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	positively	positively	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

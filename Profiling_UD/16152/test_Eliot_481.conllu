@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He looked slowly at the sixpence, and then said, “I want none o’ your money.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	slowly	slowly	ADV	RB	_	2	advmod	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sixpence	sixpence	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	none	none	NOUN	NN	Number=Sing	14	obj	_	_
+16	o	of	ADP	IN	Abbr=Yes	19	case	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	19	punct	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	money	money	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You’d better take care on’t, else you’ll get it stool from yer, if you go trapesin’ about the fields like a mad woman a-thatway.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	5	amod	_	_
+4	take	take	NOUN	NN	Number=Sing	5	compound	_	_
+5	care	care	NOUN	NN	Number=Sing	2	obj	_	_
+6	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+7	n’t	n’t	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	else	else	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	’ll	’ll	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	get	get	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	stool	stool	NOUN	NN	Number=Sing	13	flat	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	yer	yer	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	if	if	SCONJ	IN	_	20	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+20	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+21	trapesin	trapesin	ADP	IN	_	25	case	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	25	punct	_	_
+23	about	about	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	fields	field	NOUN	NNS	Number=Plur	20	obl	_	_
+26	like	like	ADP	IN	_	29	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	mad	mad	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	woman	woman	NOUN	NN	Number=Sing	25	nmod	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	thatway	thatway	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

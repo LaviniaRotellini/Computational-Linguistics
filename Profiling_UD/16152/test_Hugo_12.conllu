@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “By the mercy of the devil,” retorted Joannes Frollo, “these four hours and more; and I hope that they will be reckoned to my credit in purgatory.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	By	by	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	mercy	mercy	NOUN	NN	Number=Sing	10	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	devil	devil	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Joannes	Joannes	PROPN	NNP	Number=Sing	10	obj	_	_
+12	Frollo	Frollo	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+15	these	these	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+16	four	four	NUM	CD	NumType=Card	17	nummod	_	_
+17	hours	hour	NOUN	NNS	Number=Plur	10	appos	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	more	more	ADJ	JJR	Degree=Cmp	17	conj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	10	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	that	that	SCONJ	IN	_	28	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	will	will	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	aux:pass	_	_
+28	reckoned	reckon	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	ccomp	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	credit	credit	NOUN	NN	Number=Sing	28	obl	_	_
+32	in	in	ADP	IN	_	33	case	_	_
+33	purgatory	purgatory	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = I heard the eight singers of the King of Sicily intone the first verse of seven o’clock mass in the Sainte-Chapelle.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	eight	eight	NUM	CD	NumType=Card	5	nummod	_	_
+5	singers	singer	NOUN	NNS	Number=Plur	11	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	King	King	PROPN	NNP	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Sicily	Sicily	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	intone	into	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	14	amod	_	_
+14	verse	verse	NOUN	NN	Number=Sing	11	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	seven	seven	NUM	CD	NumType=Card	18	nummod	_	_
+17	o’clock	o’clock	NOUN	NN	Number=Sing	18	compound	_	_
+18	mass	mass	NOUN	NN	Number=Sing	14	nmod	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+21	Sainte	Sainte	PROPN	NNP	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	Chapelle	Chapelle	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

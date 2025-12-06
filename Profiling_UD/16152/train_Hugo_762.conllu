@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Two strongholds of slavery; but in the first, deliverance possible, a legal limit always in sight, and then, escape.
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	strongholds	stronghold	NOUN	NNS	Number=Plur	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	slavery	slavery	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	but	but	CCONJ	CC	_	11	cc	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	deliverance	deliverance	NOUN	NN	Number=Sing	2	conj	_	_
+12	possible	possible	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	legal	legal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	limit	limit	NOUN	NN	Number=Sing	11	conj	_	_
+17	always	always	ADV	RB	_	19	advmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	sight	sight	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	then	then	ADV	RB	PronType=Dem	24	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	escape	escape	INTJ	UH	_	2	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = In the second, perpetuity; the sole hope, at the distant extremity of the future, that faint light of liberty which men call death.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	second	second	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	perpetuity	perpetuity	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	sole	sole	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	hope	hope	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	at	at	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	distant	distant	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	extremity	extremity	NOUN	NN	Number=Sing	9	nmod	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	future	future	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	faint	faint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+21	light	light	NOUN	NN	Number=Sing	20	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	liberty	liberty	NOUN	NN	Number=Sing	21	nmod	_	_
+24	which	which	PRON	WDT	PronType=Rel	27	obj	_	_
+25	men	man	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	call	call	NOUN	NN	Number=Sing	27	compound	_	_
+27	death	death	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

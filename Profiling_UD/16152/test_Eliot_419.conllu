@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Poor thing, poor thing!” said Martin the younger, who was sorry to have provoked this retrospective harshness.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Poor	poor	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	poor	poor	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Martin	Martin	PROPN	NNP	Number=Sing	12	obj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	younger	younger	NOUN	NN	Number=Sing	9	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	sorry	sorry	ADJ	JJ	Degree=Pos	12	acl:relcl	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	have	have	AUX	VB	VerbForm=Inf	19	aux	_	_
+19	provoked	provoke	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+21	retrospective	retrospective	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	harshness	harshness	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “She’d but bad luck.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	luck	luck	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But Hetty’s got as good a chance o’ getting a solid, sober husband as any gell i’ this country.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	Hetty	Hetty	PROPN	NNP	Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	as	as	ADV	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	chance	chance	NOUN	NN	Number=Sing	4	obj	_	_
+9	o	of	ADP	IN	Abbr=Yes	11	mark	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	getting	get	VERB	VBG	VerbForm=Ger	8	acl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+13	solid	solid	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	sober	sober	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	husband	husband	NOUN	NN	Number=Sing	11	obj	_	_
+17	as	as	ADP	IN	_	19	case	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	gell	gell	NOUN	NN	Number=Sing	21	obl	_	_
+20	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	11	punct	_	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	country	country	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was only seven or eight minutes’ walk from the edge of the woods to the spring.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	seven	seven	NUM	CD	NumType=Card	7	nummod	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	eight	eight	NUM	CD	NumType=Card	7	nummod	_	_
+7	minutes	minute	NOUN	NNS	Number=Plur	8	obl:npmod	_	SpaceAfter=No
+8	’	’	PART	POS	_	9	case	_	_
+9	walk	walk	NOUN	NN	Number=Sing	0	root	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	edge	edge	NOUN	NN	Number=Sing	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	woods	wood	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	spring	spring	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Cosette knew the way, through having gone over it many times in daylight.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	way	way	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	through	through	SCONJ	IN	_	8	mark	_	_
+7	having	have	AUX	VBG	VerbForm=Ger	8	aux	_	_
+8	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+9	over	over	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	many	many	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	times	time	NOUN	NNS	Number=Plur	8	obl:tmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	daylight	daylight	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Strange to say, she did not get lost.
+1	Strange	strange	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	say	say	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+7	not	not	PART	RB	_	9	advmod	_	_
+8	get	get	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	lost	lost	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = A remnant of instinct guided her vaguely.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	remnant	remnant	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	instinct	instinct	NOUN	NN	Number=Sing	2	nmod	_	_
+5	guided	guide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	vaguely	vaguly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = But she did not turn her eyes either to right or to left, for fear of seeing things in the branches and in the brushwood.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	turn	turn	VERB	VB	VerbForm=Inf	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	eyes	eye	NOUN	NNS	Number=Plur	5	obj	_	_
+8	either	either	CCONJ	CC	_	10	cc:preconj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	right	right	ADJ	JJ	Degree=Pos	5	obl	_	_
+11	or	or	CCONJ	CC	_	13	cc	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	left	leave	VERB	VB	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	fear	fear	NOUN	NN	Number=Sing	5	obl	_	_
+17	of	of	SCONJ	IN	_	18	mark	_	_
+18	seeing	see	VERB	VBG	VerbForm=Ger	16	acl	_	_
+19	things	thing	NOUN	NNS	Number=Plur	18	obj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	branches	branch	NOUN	NNS	Number=Plur	19	nmod	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	brushwood	brushwood	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = In this manner she reached the spring.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	manner	manner	NOUN	NN	Number=Sing	5	obl	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	spring	spring	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

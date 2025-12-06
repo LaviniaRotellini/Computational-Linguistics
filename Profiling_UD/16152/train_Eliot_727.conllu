@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But this codicil is framed so as to make everybody believe that she did.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	codicil	codicil	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	framed	fram	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	so	so	SCONJ	IN	_	10	mark	_	_
+8	as	as	SCONJ	IN	_	7	fixed	_	_
+9	to	to	PART	TO	_	7	fixed	_	_
+10	make	make	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	everybody	everybody	PRON	NN	Number=Sing	10	obj	_	_
+12	believe	believe	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I don’t believe anything of the sort about Dorothea,” said Sir James—then frowningly, “but I suspect Ladislaw.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	sort	sort	NOUN	NN	Number=Sing	5	nmod	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Sir	Sir	PROPN	NNP	Number=Sing	23	nsubj	_	_
+15	James	James	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+17	then	then	ADV	RB	PronType=Dem	18	advmod	_	_
+18	frowningly	frowningly	ADV	RB	_	23	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+21	but	but	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	suspect	suspect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+24	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = I tell you frankly, I suspect Ladislaw.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	obj	_	_
+4	frankly	frankly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	suspect	suspect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

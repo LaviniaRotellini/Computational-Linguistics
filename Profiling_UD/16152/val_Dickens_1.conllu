@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘NOW, what I want is, Facts.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	NOW	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	what	what	PRON	WP	PronType=Int	7	obj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	is	be	PRON	PRP	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Facts	facts	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Teach these boys and girls nothing but Facts.
+1	Teach	teach	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	boys	boy	NOUN	NNS	Number=Plur	1	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	girls	girl	NOUN	NNS	Number=Plur	6	conj	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	1	obj	_	_
+7	but	but	ADP	IN	_	8	case	_	_
+8	Facts	fact	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Facts alone are wanted in life.
+1	Facts	facts	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+2	alone	alone	ADV	RB	_	1	advmod	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	life	life	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Plant nothing else, and root out everything else.
+1	Plant	plant	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	nothing	nothing	PRON	NN	Number=Sing	1	obj	_	_
+3	else	else	ADJ	JJ	Degree=Pos	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	root	root	VERB	VB	VerbForm=Inf	1	conj	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	everything	everything	PRON	NN	Number=Sing	6	obj	_	_
+9	else	else	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = You can only form the minds of reasoning animals upon Facts: nothing else will ever be of any service to them.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	form	form	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	minds	mind	NOUN	NNS	Number=Plur	4	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	reasoning	reasoning	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	animals	animal	NOUN	NNS	Number=Plur	8	obj	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	Facts	fact	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	:	_	4	punct	_	_
+13	nothing	nothing	PRON	NN	Number=Sing	20	nsubj	_	_
+14	else	else	ADJ	JJ	Degree=Pos	13	amod	_	_
+15	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+16	ever	ever	ADV	RB	_	20	advmod	_	_
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	any	any	DET	DT	_	20	det	_	_
+20	service	service	NOUN	NN	Number=Sing	4	parataxis	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = This is the principle on which I bring up my own children, and this is the principle on which I bring up these children.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	principle	principle	NOUN	NN	Number=Sing	0	root	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	obl	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	bring	b	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	children	child	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	principle	principle	NOUN	NN	Number=Sing	4	conj	_	_
+19	on	on	ADP	IN	_	20	case	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	obl	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	bring	bring	VERB	VB	VerbForm=Inf	18	acl:relcl	_	_
+23	up	up	ADP	RP	_	22	compound:prt	_	_
+24	these	these	DET	DT	Number=Plur|PronType=Dem	25	det	_	_
+25	children	child	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Stick to Facts, sir!’
+1	Stick	stick	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	Facts	fact	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	sir	sir	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

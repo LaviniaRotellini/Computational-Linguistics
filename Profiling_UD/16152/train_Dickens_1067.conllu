@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My love, no.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	love	love	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	no	no	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perseverance and strength of character will enable us to bear much worse things.’
+1	Perseverance	perseverance	NOUN	NN	Number=Sing	7	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	strength	strength	NOUN	NN	Number=Sing	1	conj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	character	character	NOUN	NN	Number=Sing	1	nmod	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	enable	enable	VERB	VB	VerbForm=Inf	0	root	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	bear	bear	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	much	much	ADV	RB	_	10	advmod	_	_
+12	worse	worse	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	things	thing	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 3
+# text = ‘But I haven’t got any strength at all,’ said Dora, shaking her curls.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	got	get	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+7	any	any	DET	DT	_	8	det	_	_
+8	strength	strength	NOUN	NN	Number=Sing	6	obj	_	_
+9	at	at	ADV	RB	_	10	case	_	_
+10	all	all	ADV	RB	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Dora	Dora	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	shaking	shake	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	curls	curl	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = ‘Have I, Jip?
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	Jip	Jip	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Oh, do kiss Jip, and be agreeable!’
+1	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	kiss	kiss	VERB	VB	VerbForm=Inf	0	root	_	_
+5	Jip	Jip	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	9	cop	_	_
+9	agreeable	agreeable	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

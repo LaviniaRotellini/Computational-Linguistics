@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Like him?
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Like	like	ADP	IN	_	3	case	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It’s himself, you know.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The cast was made in Newgate, directly after he was taken down.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cast	cast	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Newgate	Newgate	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	directly	directly	ADV	RB	_	12	advmod	_	_
+9	after	after	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+13	down	down	ADP	RP	_	12	compound:prt	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You had a particular fancy for me, hadn’t you, Old Artful?” said Wemmick.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	particular	particular	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fancy	fancy	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	14	advmod	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	Old	old	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Artful	Artful	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Wemmick	Wemmick	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 5
+# text = He then explained this affectionate apostrophe, by touching his brooch representing the lady and the weeping willow at the tomb with the urn upon it, and saying, “Had it made for me, express!”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	affectionate	affectionate	NOUN	NN	Number=Sing	3	obj	_	_
+6	apostrophe	apostrophe	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	by	by	SCONJ	IN	_	9	mark	_	_
+9	touching	touch	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	brooch	brooch	NOUN	NN	Number=Sing	9	obj	_	_
+12	representing	represent	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	lady	lady	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	weeping	weeping	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	willow	willow	NOUN	NN	Number=Sing	3	conj	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	tomb	tomb	NOUN	NN	Number=Sing	18	nmod	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	urn	urn	NOUN	NN	Number=Sing	21	nmod	_	_
+25	upon	upon	ADP	IN	_	26	case	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	saying	say	VERB	VBG	VerbForm=Ger	3	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	“	"	PUNCT	``	_	32	punct	_	SpaceAfter=No
+32	Had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	ccomp	_	_
+33	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	parataxis	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	_	_
+38	express	express	NOUN	NNS	Number=Plur	34	obj	_	SpaceAfter=No
+39	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

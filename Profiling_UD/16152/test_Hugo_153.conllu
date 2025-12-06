@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But this splendid moment lasted only for a short time; the Renaissance was not impartial; it did not content itself with building, it wished to destroy; it is true that it required the room.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	splendid	splendid	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	moment	moment	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	lasted	last	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	only	only	ADV	RB	_	5	advmod	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	short	short	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Renaissance	Renaissance	PROPN	NNP	Number=Sing	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	impartial	impartial	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	16	punct	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	not	not	PART	RB	_	21	advmod	_	_
+21	content	content	VERB	VB	VerbForm=Inf	16	parataxis	_	_
+22	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+23	with	with	ADP	IN	_	24	case	_	_
+24	building	building	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	16	punct	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	destroy	destroy	VERB	VB	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
+30	;	;	PUNCT	,	_	5	punct	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	true	true	ADJ	JJ	Degree=Pos	5	parataxis	_	_
+34	that	that	SCONJ	IN	_	36	mark	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	required	require	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	ccomp	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	room	room	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Thus Gothic Paris was complete only for a moment.
+1	Thus	thus	ADV	RB	_	5	advmod	_	_
+2	Gothic	Gothic	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Paris	Paris	PROPN	NNP	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	complete	complete	ADJ	JJ	Degree=Pos	0	root	_	_
+6	only	only	ADV	RB	_	5	advmod	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	moment	moment	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Saint-Jacques de la Boucherie had barely been completed when the demolition of the old Louvre was begun.
+1	Saint	Saint	PROPN	NNP	Number=Sing	5	compound	_	SpaceAfter=No
+2	-	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+3	Jacques	Jacques	PROPN	NNP	Number=Sing	1	flat	_	_
+4	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+5	la	la	PROPN	NNP	Number=Sing	10	nsubj:pass	_	_
+6	Boucherie	Boucherie	PROPN	NNP	Number=Sing	5	flat	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+8	barely	barely	ADV	RB	_	10	advmod	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	demolition	demolition	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	old	old	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	Louvre	Louvre	PROPN	NNP	Number=Sing	13	nmod	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

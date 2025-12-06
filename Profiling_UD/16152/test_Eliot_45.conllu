@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A green valley with a brook running through it, full almost to overflowing with the late rains, overhung by low stooping willows.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	green	green	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	valley	valley	NOUN	NN	Number=Sing	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	brook	brook	NOUN	NN	Number=Sing	3	nmod	_	_
+7	running	run	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	through	through	ADP	IN	_	9	case	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	full	full	ADV	RB	_	12	advmod	_	_
+12	almost	almost	ADV	RB	_	14	advmod	_	_
+13	to	to	SCONJ	IN	_	14	mark	_	_
+14	overflowing	overflow	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+15	with	with	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	late	late	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	rains	rain	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	3	punct	_	_
+20	overhung	overhung	ADV	RB	_	24	advmod	_	_
+21	by	by	ADP	IN	_	24	case	_	_
+22	low	low	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	stooping	stooping	NOUN	NN	Number=Sing	24	compound	_	_
+24	willows	willow	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Across this brook a plank is thrown, and over this plank Adam
+1	Across	across	ADP	IN	_	2	case	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	brook	brake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	plank	plank	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	over	over	ADP	IN	_	13	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+12	plank	plank	NOUN	NN	Number=Sing	13	compound	_	_
+13	Adam	Adam	NOUN	NN	Number=Sing	7	conj	_	_
+
+# sent_id = 3
+# text = Bede is passing with his undoubting step, followed close by Gyp with the basket; evidently making his way to the thatched house, with a stack of timber by the side of it, about twenty yards up the opposite slope.
+1	Bede	Bede	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	passing	pass	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	undoubting	undoubting	NOUN	NN	Number=Sing	7	compound	_	_
+7	step	step	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	close	close	ADV	RB	Degree=Pos	9	advmod	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	Gyp	Gyp	PROPN	NNP	Number=Sing	9	obl	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	basket	basket	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	evidently	evidently	ADV	RB	_	18	advmod	_	_
+18	making	make	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	way	way	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	thatched	thatch	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	_	_
+24	house	house	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	18	punct	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	stack	stack	NOUN	NN	Number=Sing	18	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	timber	timber	NOUN	NN	Number=Sing	28	nmod	_	_
+31	by	by	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	side	side	NOUN	NN	Number=Sing	18	obl	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	18	punct	_	_
+37	about	about	ADV	RB	_	38	advmod	_	_
+38	twenty	twenty	NUM	CD	NumType=Card	39	nummod	_	_
+39	yards	yard	NOUN	NNS	Number=Plur	18	obj	_	_
+40	up	up	ADP	IN	_	43	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+42	opposite	opposite	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	slope	slope	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

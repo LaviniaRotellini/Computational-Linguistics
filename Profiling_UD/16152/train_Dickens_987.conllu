@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Someone that I know, Trot,’ my aunt pursued, after a pause, ‘though of a very pliant disposition, has an earnestness of affection in him that reminds me of poor Baby.
+1	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Someone	someone	PRON	NN	Number=Sing	12	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Trot	trot	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	12	punct	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	after	after	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	pause	pause	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+19	though	though	ADP	IN	_	24	case	_	_
+20	of	of	ADP	IN	_	19	fixed	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+22	very	very	ADV	RB	_	23	advmod	_	_
+23	pliant	pliant	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	disposition	disposition	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+27	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	earnestness	earnestness	NOUN	NN	Number=Sing	26	obj	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	affection	affection	NOUN	NN	Number=Sing	28	nmod	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	_
+33	that	that	PRON	DT	Number=Sing|PronType=Dem	34	nsubj	_	_
+34	reminds	remind	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+35	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obj	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	poor	poor	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	Baby	baby	PROPN	NNP	Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Earnestness is what that Somebody must look for, to sustain him and improve him, Trot.
+1	Earnestness	Earnestness	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	Somebody	somebody	PRON	NN	Number=Sing	7	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	look	look	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	for	for	ADP	IN	_	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	sustain	sustain	VERB	VB	VerbForm=Inf	3	advcl	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	improve	improve	VERB	VB	VerbForm=Inf	11	conj	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	Trot	trot	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Deep, downright, faithful earnestness.’
+1	Deep	deep	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	downright	downright	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	faithful	faithful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	earnestness	earnestness	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

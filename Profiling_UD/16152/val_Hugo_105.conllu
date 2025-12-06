@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On that evening, Clubin supped at the coast-guard officers' table; and, contrary to his habit, went out after his supper.
+1	On	on	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	evening	evening	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	Clubin	Clubin	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	supped	sup	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	at	at	ADP	IN	_	12	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+9	coast	coast	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	guard	guard	NOUN	NN	Number=Sing	12	compound	_	_
+12	officers	officer	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	'	'	PART	POS	_	12	case	_	_
+14	table	table	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	6	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	contrary	contrary	ADJ	JJ	Degree=Pos	22	conj	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	habit	habit	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+24	out	out	ADV	RB	_	23	advmod	_	_
+25	after	after	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	supper	supper	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = The consequence of his absence was, that he could not attend to the office of the Durande, and thus lost a little in the matter of freights.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	consequence	consequence	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	absence	absence	NOUN	NN	Number=Sing	2	nmod	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	attend	attend	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	office	office	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Durande	Durande	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	thus	thus	ADV	RB	_	22	advmod	_	_
+22	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	little	little	NOUN	NN	Number=Sing	22	obj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	matter	matter	NOUN	NN	Number=Sing	24	nmod	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	freights	freight	NOUN	NNS	Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = This fact was remarked in a man ordinarily punctual.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	fact	fact	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	remarked	remark	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	man	man	NOUN	NN	Number=Sing	4	obl	_	_
+8	ordinarily	ordinarily	ADV	RB	_	9	advmod	_	_
+9	punctual	punctual	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

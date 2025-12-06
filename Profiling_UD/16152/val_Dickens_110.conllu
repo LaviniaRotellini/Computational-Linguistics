@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Gradgrind observed, shaking his head, that all this was very bad; that it showed the necessity of infinite grinding at the mill of knowledge, as per system, schedule, blue book, report, and tabular statements
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	1	flat	_	_
+3	observed	observ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	shaking	shake	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	head	head	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	that	that	SCONJ	IN	_	14	mark	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	bad	bad	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	14	punct	_	_
+16	that	that	SCONJ	IN	_	18	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	necessity	necessity	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	23	mark	_	_
+22	infinite	infinite	SCONJ	IN	_	23	mark	_	_
+23	grinding	grinding	VERB	VBG	VerbForm=Ger	20	acl	_	_
+24	at	at	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	mill	mill	NOUN	NN	Number=Sing	23	obl	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	knowledge	knowledge	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	18	punct	_	_
+30	as	as	SCONJ	IN	_	32	mark	_	_
+31	per	per	ADP	IN	_	32	case	_	_
+32	system	system	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	schedule	schedule	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	37	punct	_	_
+36	blue	blue	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	book	book	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	39	punct	_	_
+39	report	report	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	43	punct	_	_
+41	and	and	CCONJ	CC	_	43	cc	_	_
+42	tabular	tabular	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	statements	statement	NOUN	NNS	Number=Plur	32	conj	_	_
+
+# sent_id = 2
+# text = A to Z; and that Jupe ‘must be kept to it.’
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	Z	Z	PROPN	NNP	Number=Sing	1	nmod	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	1	punct	_	_
+5	and	and	CCONJ	CC	_	11	cc	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	Jupe	Jupe	PROPN	NNP	Number=Sing	11	nsubj:pass	_	_
+8	‘	‘	PUNCT	``	_	7	punct	_	SpaceAfter=No
+9	must	must	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = So Jupe was kept to it, and became low-spirited, but no wiser.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	Jupe	Jupe	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	low	low	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	spirited	spirited	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	but	but	CCONJ	CC	_	16	cc	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	wiser	wiser	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

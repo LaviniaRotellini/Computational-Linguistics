@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Age had only served to accentuate this pitiless modesty.
+1	Age	age	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	served	serve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	accentuate	accentuate	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	pitiless	pitiless	NOUN	NN	Number=Sing	9	compound	_	_
+9	modesty	modesty	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Her guimpe was never sufficiently opaque, and never ascended sufficiently high.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	guimpe	guimpe	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	never	never	ADV	RB	_	6	advmod	_	_
+5	sufficiently	sufficiently	ADV	RB	_	6	advmod	_	_
+6	opaque	opaque	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	never	never	ADV	RB	_	10	advmod	_	_
+10	ascended	ascend	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+11	sufficiently	sufficiently	ADV	RB	_	10	advmod	_	_
+12	high	high	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = She multiplied clasps and pins where no one would have dreamed of looking.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	multiplied	multiply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	clasps	clasp	NOUN	NNS	Number=Plur	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	pins	pin	NOUN	NNS	Number=Plur	3	conj	_	_
+6	where	where	ADV	WRB	PronType=Rel	11	advmod	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	one	one	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	have	have	AUX	VB	VerbForm=Inf	11	aux	_	_
+11	dreamed	dream	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+12	of	of	ADP	IN	_	13	mark	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The peculiarity of prudery is to place all the more sentinels in proportion as the fortress is the less menaced.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	peculiarity	peculiarity	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	prudery	prudery	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	place	place	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	all	all	DET	PDT	_	11	det:predet	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+11	sentinels	sentinel	NOUN	NNS	Number=Plur	7	obj	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	proportion	proportion	NOUN	NN	Number=Sing	11	nmod	_	_
+14	as	as	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	fortress	fortress	NOUN	NN	Number=Sing	7	obl	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	less	less	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	menaced	menace	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = what a fine noise!
+1	what	what	PRON	WP	PronType=Int	4	nsubj	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	fine	fine	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	noise	noise	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = _Populi debacchantis populosa debacchatio!_”
+1	_Populi	_Populi	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	debacchantis	debacchantis	NOUN	NN	Number=Sing	3	compound	_	_
+3	populosa	populosa	NOUN	NN	Number=Sing	4	compound	_	_
+4	debacchatio	debacchatio	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!_	!_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 4
+# text = Then he began to sing, his eye swimming in ecstasy, in the tone of a canon intoning vespers, _Quæ cantica!
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	SCONJ	IN	_	5	mark	_	_
+5	sing	s	VERB	VBG	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	eye	eye	NOUN	NN	Number=Sing	5	obj	_	_
+9	swimming	swim	VERB	VBG	VerbForm=Ger	8	acl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	ecstasy	ecstasy	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	tone	tone	NOUN	NN	Number=Sing	3	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	canon	canon	NOUN	NN	Number=Sing	15	nmod	_	_
+19	intoning	into	VERB	VBG	VerbForm=Ger	18	acl	_	_
+20	vespers	vesper	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	_Quæ	_Quæ	NOUN	NN	Number=Sing	23	compound	_	_
+23	cantica	cantica	NOUN	NN	Number=Sing	20	appos	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = quæ organa!
+1	quæ	quæ	NOUN	NN	Number=Sing	2	compound	_	_
+2	organa	organa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = quæ cantilenæ!
+1	quæ	quæ	NOUN	NN	Number=Sing	2	compound	_	_
+2	cantilenæ	cantilenæ	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = quæ melodiæ hic sine fine decantantur!
+1	quæ	quæ	NOUN	NN	Number=Sing	2	compound	_	_
+2	melodiæ	melodiæ	NOUN	NN	Number=Sing	6	compound	_	_
+3	hic	hic	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	sine	sine	NUM	CD	NumType=Card	6	nummod	_	_
+5	fine	fine	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	decantantur	decantantur	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Sonant melliflua hymnorum organa, suavissima angelorum melodia, cantica canticorum mira!_
+1	Sonant	Sonant	ADJ	JJ	Degree=Pos	4	amod	_	_
+2	melliflua	melliflua	NOUN	NN	Number=Sing	3	compound	_	_
+3	hymnorum	hymnorum	NOUN	NN	Number=Sing	4	compound	_	_
+4	organa	organa	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	suavissima	suavissima	NOUN	NN	Number=Sing	8	compound	_	_
+7	angelorum	angelorum	NOUN	NN	Number=Sing	8	compound	_	_
+8	melodia	melodia	NOUN	NN	Number=Sing	4	list	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	cantica	cantica	NOUN	NN	Number=Sing	11	compound	_	_
+11	canticorum	canticorum	NOUN	NN	Number=Sing	12	compound	_	_
+12	mira	mira	NOUN	NN	Number=Sing	4	list	_	SpaceAfter=No
+13	!_	!_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = He broke off: “Tavern-keeper of the devil, give me some supper!”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	off	off	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	2	punct	_	_
+5	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+6	Tavern	tavern	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	keeper	keeper	NOUN	NN	Number=Sing	2	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	devil	devil	PROPN	NNPS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	supper	supper	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

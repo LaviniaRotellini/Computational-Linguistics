@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fred’s main point of debate with himself was, whether he should tell his father, or try to get through the affair without his father’s knowledge.
+1	Fred	Fred	PROPN	NNP	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	main	main	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	point	point	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	debate	debate	NOUN	NN	Number=Sing	4	nmod	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nmod	_	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	whether	whether	SCONJ	IN	_	14	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	tell	tell	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	father	father	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	try	try	VERB	VB	VerbForm=Inf	14	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	get	get	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	through	through	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	affair	affair	NOUN	NN	Number=Sing	21	obl	_	_
+25	without	without	ADP	IN	_	29	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	father	father	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	’s	's	PART	POS	_	27	case	_	_
+29	knowledge	knowledge	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = It was probably Mrs. Waule who had been talking about him; and if Mary Garth had repeated Mrs. Waule’s report to Rosamond, it would be sure to reach his father, who would as surely question him about it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	probably	probably	ADV	RB	_	4	advmod	_	_
+4	Mrs	Mrs	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+6	Waule	Waule	NOUN	NNS	Number=Plur	4	appos	_	_
+7	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux	_	_
+10	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+11	about	about	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	4	punct	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	_
+15	if	if	SCONJ	IN	_	19	mark	_	_
+16	Mary	Mary	PROPN	NNP	Number=Sing	19	nsubj	_	_
+17	Garth	Garth	PROPN	NNP	Number=Sing	16	flat	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	repeated	repeat	VERB	VBN	Tense=Past|VerbForm=Part	30	advcl	_	_
+20	Mrs.	Mrs.	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Waule	Waule	PROPN	NNP	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	report	report	NOUN	NN	Number=Sing	19	obj	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	Rosamond	Rosamond	PROPN	NNP	Number=Sing	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+28	would	would	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+30	sure	sure	ADJ	JJ	Degree=Pos	4	conj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	reach	reach	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	father	father	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	34	punct	_	_
+36	who	who	PRON	WP	PronType=Rel	40	nsubj	_	_
+37	would	would	AUX	MD	VerbForm=Fin	40	aux	_	_
+38	as	as	ADV	RB	_	40	advmod	_	_
+39	surely	surely	ADV	RB	_	40	advmod	_	_
+40	question	question	VERB	VB	VerbForm=Inf	34	acl:relcl	_	_
+41	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42	about	about	ADP	IN	_	43	case	_	_
+43	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He said to Rosamond, as they slackened their pace—
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Rosamond	Rosamond	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	slackened	slacken	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	pace	pace	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	—	-	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hush, Maggie!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Hush	Hush	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Maggie	Maggie	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = for shame of you, asking questions and chattering,” said her mother.
+1	for	for	ADP	IN	_	2	case	_	_
+2	shame	shame	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	asking	ask	VERB	VBG	VerbForm=Ger	12	ccomp	_	_
+7	questions	question	NOUN	NNS	Number=Plur	6	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	chattering	chatter	VERB	VB	Mood=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	mother	mother	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = “Come and sit down on your little stool, and hold your tongue, do.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	sit	sit	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+5	down	down	ADP	RP	_	4	compound:prt	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	stool	stool	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	tongue	tongue	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But,” added Mrs Tulliver, who had her own alarm awakened, “is it so far off as I couldn’t wash him and mend him?”
+1	But	but	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	4	punct	_	_
+4	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Mrs	Mrs	PROPN	NNP	Number=Sing	4	obj	_	_
+6	Tulliver	Tulliver	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	alarm	alarm	NOUN	NN	Number=Sing	9	obj	_	_
+13	awakened	awaken	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	far	far	ADV	RB	Degree=Pos	25	advmod	_	_
+20	off	off	ADV	RB	_	19	advmod	_	_
+21	as	as	SCONJ	IN	_	25	mark	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+23	could	could	AUX	MD	VerbForm=Fin	25	aux	_	SpaceAfter=No
+24	n’t	not	PART	RB	_	25	advmod	_	_
+25	wash	wash	VERB	VB	VerbForm=Inf	4	advcl	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	mend	mmend	VERB	VB	VerbForm=Inf	25	conj	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

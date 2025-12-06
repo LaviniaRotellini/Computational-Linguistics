@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, I’ll tell you what I’ll do for you,” said Mr Riley, “and I wouldn’t do it for everybody.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’ll	’ll	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	tell	tell	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	iobj	_	_
+8	what	what	PRON	WP	PronType=Int	11	obj	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	do	do	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Mr	Mr	PROPN	NNP	Number=Sing	16	nsubj	_	_
+18	Riley	Riley	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+23	would	would	AUX	MD	VerbForm=Fin	25	aux	_	SpaceAfter=No
+24	n’t	not	PART	RB	_	25	advmod	_	_
+25	do	do	VERB	VB	VerbForm=Inf	16	conj	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	everybody	everybody	PRON	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = I’ll see Stelling’s father-in-law, or drop him a line when I get back to Mudport, to say that you wish to place your boy with his son-in-law, and I dare say Stelling will write to you, and send you his terms.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Stelling	Stelling	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	father	father	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	in	in	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	law	law	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	drop	drop	VERB	VB	VerbForm=Inf	3	conj	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	line	line	NOUN	NN	Number=Sing	13	obj	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	back	back	ADV	RB	_	19	advmod	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	Mudport	Mudport	PROPN	NNP	Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	3	punct	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	say	say	VERB	VB	VerbForm=Inf	3	advcl	_	_
+26	that	that	SCONJ	IN	_	28	mark	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	place	place	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	boy	boy	NOUN	NN	Number=Sing	30	obj	_	_
+33	with	with	ADP	IN	_	39	case	_	_
+34	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+35	son	son	NOUN	NN	Number=Sing	37	compound	_	SpaceAfter=No
+36	-	-	PUNCT	HYPH	_	37	punct	_	SpaceAfter=No
+37	in	in	NOUN	NN	Number=Sing	39	compound	_	SpaceAfter=No
+38	-	-	PUNCT	HYPH	_	39	punct	_	SpaceAfter=No
+39	law	law	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	43	punct	_	_
+41	and	and	CCONJ	CC	_	43	cc	_	_
+42	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+43	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+44	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	xcomp	_	_
+45	Stelling	Stelling	PROPN	NNP	Number=Sing	47	nsubj	_	_
+46	will	will	AUX	MD	VerbForm=Fin	47	aux	_	_
+47	write	write	VERB	VB	VerbForm=Inf	44	ccomp	_	_
+48	to	to	ADP	IN	_	49	case	_	_
+49	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	47	obl	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	52	punct	_	_
+51	and	and	CCONJ	CC	_	52	cc	_	_
+52	send	send	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	47	conj	_	_
+53	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	55	obj	_	_
+54	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	terms	term	NOUN	NNS	Number=Plur	52	obj	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+57	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

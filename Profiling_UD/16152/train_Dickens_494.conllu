@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I admire your taste, sir,’ says Mr. Chestle.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	admire	admire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	taste	taste	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	sir	sir	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Chestle	Chestle	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = ‘It does you credit.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	credit	credit	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I suppose you don’t take much interest in hops; but I am a pretty large grower myself; and if you ever like to come over to our neighbourhood--neighbourhood of Ashford--and take a run about our place,--we shall be glad for you to stop as long as you like.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	take	take	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	much	much	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	interest	interest	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	hops	hops	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	but	but	CCONJ	CC	_	19	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	pretty	pretty	ADV	RB	_	17	advmod	_	_
+17	large	large	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	grower	grower	NOUN	NN	Number=Sing	19	compound	_	_
+19	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	conj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	2	punct	_	_
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	if	if	SCONJ	IN	_	25	mark	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	_
+24	ever	ever	ADV	RB	_	25	advmod	_	_
+25	like	like	VERB	VB	VerbForm=Inf	2	conj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	come	come	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	over	over	ADV	RB	_	27	advmod	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	neighbourhood	neighbourhood	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+33	neighbourhood	neighbourhood	NOUN	NN	Number=Sing	38	nsubj	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	Ashford	Ashford	PROPN	NNP	Number=Sing	33	nmod	_	SpaceAfter=No
+36	--	--	PUNCT	,	_	33	punct	_	SpaceAfter=No
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	take	take	VERB	VB	VerbForm=Inf	2	conj	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	run	run	NOUN	NN	Number=Sing	38	obj	_	_
+41	about	about	ADP	IN	_	43	case	_	_
+42	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	place	place	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
+44	,--	,--	PUNCT	.	_	38	punct	_	SpaceAfter=No
+45	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	48	nsubj	_	_
+46	shall	shall	AUX	MD	VerbForm=Fin	48	aux	_	_
+47	be	be	AUX	VB	VerbForm=Inf	48	cop	_	_
+48	glad	glad	ADJ	JJ	Degree=Pos	38	parataxis	_	_
+49	for	for	ADP	IN	_	50	case	_	_
+50	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	48	obl	_	_
+51	to	to	PART	TO	_	52	mark	_	_
+52	stop	stop	VERB	VB	VerbForm=Inf	48	advcl	_	_
+53	as	as	ADV	RB	_	54	advmod	_	_
+54	long	long	ADV	RB	Degree=Pos	52	advmod	_	_
+55	as	as	SCONJ	IN	_	57	mark	_	_
+56	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	57	nsubj	_	_
+57	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	54	advcl	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+59	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

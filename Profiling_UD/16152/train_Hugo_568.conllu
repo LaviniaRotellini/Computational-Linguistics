@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A door which stood open near Cosette’s pallet permitted a view of a rather large, dark room.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	door	door	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	which	which	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	open	open	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+6	near	near	ADP	IN	_	9	case	_	_
+7	Cosette	Cosette	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	pallet	pallet	NOUN	NN	Number=Sing	5	obl	_	_
+10	permitted	permit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	view	view	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	19	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+15	rather	rather	ADV	RB	_	16	advmod	_	_
+16	large	large	ADJ	JJ	Degree=Pos	19	amod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	dark	dark	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	room	room	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = The stranger stepped into it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stranger	stranger	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	stepped	step	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	into	into	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = At the further extremity, through a glass door, he saw two small, very white beds.
+1	At	at	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	further	further	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	extremity	extremity	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	through	through	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	glass	glass	NOUN	NN	Number=Sing	9	compound	_	_
+9	door	door	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	two	two	NUM	CD	NumType=Card	18	nummod	_	_
+14	small	small	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	white	white	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	beds	bed	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = They belonged to Éponine and Azelma.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	belonged	belong	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Éponine	Éponine	PROPN	NNP	Number=Sing	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	Azelma	Azelma	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Behind these beds, and half hidden, stood an uncurtained wicker cradle, in which the little boy who had cried all the evening lay asleep.
+1	Behind	Behind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	beds	bed	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	half	half	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl:npmod	_	_
+7	hidden	hidden	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	uncurtained	uncurtained	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	wicker	wicker	NOUN	NN	Number=Sing	13	compound	_	_
+13	cradle	cradle	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	which	which	PRON	WDT	PronType=Rel	19	obl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	little	little	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	boy	boy	NOUN	NN	Number=Sing	1	obl	_	_
+20	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	cried	cry	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	all	all	DET	PDT	_	25	det:predet	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	evening	evening	NOUN	NN	Number=Sing	27	compound	_	_
+26	lay	lay	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	asleep	asleep	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

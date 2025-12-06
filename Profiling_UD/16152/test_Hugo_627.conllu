@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “By the way, master!” continued Gringoire suddenly.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	By	by	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	way	way	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	master	master	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+9	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+10	Gringoire	Gringoire	PROPN	NNP	Number=Sing	9	obj	_	_
+11	suddenly	suddenly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “At the moment when we arrived on the Parvis, through the enraged outcasts, did your reverence observe that poor little devil whose skull your deaf man was just cracking on the railing of the gallery of the kings?
+1	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	At	at	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	moment	moment	NOUN	NN	Number=Sing	1	obl	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Parvis	Parvis	PROPN	NNPS	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	through	through	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	enraged	enraged	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	outcasts	outcast	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	reverence	reverence	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	observe	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	parataxis	_	_
+21	that	that	SCONJ	IN	_	32	mark	_	_
+22	poor	poor	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	little	little	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	devil	devil	NOUN	NN	Number=Sing	32	nsubj	_	_
+25	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	26	nsubj	_	_
+26	skull	skull	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	deaf	deaf	NOUN	NN	Number=Sing	29	compound	_	_
+29	man	man	NOUN	NN	Number=Sing	26	obj	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
+31	just	just	ADV	RB	_	32	advmod	_	_
+32	cracking	crack	VERB	VBG	VerbForm=Ger	20	ccomp	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	railing	railing	NOUN	NN	Number=Sing	32	obl	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	gallery	gallery	NOUN	NN	Number=Sing	35	nmod	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	kings	king	NOUN	NNS	Number=Plur	38	nmod	_	SpaceAfter=No
+42	?	?	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = I am near sighted and I could not recognize him.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	near	near	ADV	RB	_	4	advmod	_	_
+4	sighted	sigh	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	recognize	recognize	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Do you know who he could be?”
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	who	who	PRON	WP	PronType=Int	3	ccomp	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	4	cop	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

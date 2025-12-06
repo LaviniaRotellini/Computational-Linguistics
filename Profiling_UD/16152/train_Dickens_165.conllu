@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Now, boys, this is a new half.
+1	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	boys	boy	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	new	new	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	half	half	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Take care what you’re about, in this new half.
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	care	care	NOUN	NN	Number=Sing	1	obj	_	_
+3	what	what	PRON	WP	PronType=Int	5	obj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	about	about	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	half	half	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Come fresh up to the lessons, I advise you, for I come fresh up to the punishment.
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	fresh	fresh	ADV	RB	_	1	advmod	_	_
+3	up	up	ADP	IN	_	1	compound:prt	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	lessons	lesson	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	advise	advise	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	for	for	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+15	fresh	fresh	ADV	RB	_	14	advmod	_	_
+16	up	up	ADV	RB	_	14	advmod	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	punishment	punishment	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I won’t flinch.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	flinch	flinch	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = It will be of no use your rubbing yourselves; you won’t rub the marks out that I shall give you.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	use	use	NOUN	NN	Number=Sing	0	root	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	rubbing	rub	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	yourselves	yourselves	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	6	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+12	wo	will	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	rub	rub	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	marks	mark	NOUN	NNS	Number=Plur	14	obj	_	_
+17	out	out	ADP	RP	_	14	compound:prt	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	shall	shall	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	give	give	VERB	VB	VerbForm=Inf	14	advcl	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Now get to work, every boy!’
+1	Now	now	ADV	RB	_	2	advmod	_	_
+2	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	work	work	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	boy	boy	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

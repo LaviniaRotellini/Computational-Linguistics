@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Less than ten minutes later, Father Fauchelevent, whose bell put the nuns in his road to flight, tapped gently at a door, and a gentle voice replied:
+1	Less	less	ADJ	JJR	Degree=Cmp	5	advmod	_	_
+2	than	than	ADP	IN	_	1	fixed	_	_
+3	ten	ten	NUM	CD	NumType=Card	4	nummod	_	_
+4	minutes	minute	NOUN	NNS	Number=Plur	5	obl:npmod	_	_
+5	later	later	ADV	RB	_	12	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	Father	father	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Fauchelevent	Fauchelevent	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	11	nmod:poss	_	_
+11	bell	bell	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	ccomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	nuns	nun	NOUN	NNS	Number=Plur	12	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	road	road	NOUN	NN	Number=Sing	12	obl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	flight	flight	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	tapped	tap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+22	gently	gently	ADV	RB	_	21	advmod	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	door	door	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	and	and	CCONJ	CC	_	30	cc	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	gentle	gentle	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	voice	voice	NOUN	NN	Number=Sing	31	nsubj	_	_
+31	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+32	:	:	PUNCT	:	_	31	punct	_	_
+
+# sent_id = 2
+# text = _“Forever!
+1	_	_	SYM	NFP	_	0	root	_	SpaceAfter=No
+2	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	Forever	forever	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Forever!” _ that is to say: _“Enter.” _
+1	Forever	forever	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+4	_	_	SYM	NFP	_	5	case	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	1	obl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	say	say	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	8	punct	_	_
+10	_	_	SYM	NFP	_	12	punct	_	SpaceAfter=No
+11	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+12	Enter	enter	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	6	punct	_	_
+15	_	_	SYM	NFP	_	6	punct	_	SpacesAfter=\n
+

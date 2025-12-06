@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A rock near the coast is sometimes visited by men; a rock in mid-ocean never.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	rock	rock	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+3	near	near	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	coast	coast	NOUN	NN	Number=Sing	2	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	sometimes	sometimes	ADV	RB	_	8	advmod	_	_
+8	visited	visit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	by	by	ADP	IN	_	10	case	_	_
+10	men	man	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	8	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	rock	rock	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	mid-ocean	mid-ocean	ADJ	JJ	Degree=Pos	13	nmod	_	_
+16	never	never	ADV	RB	_	8	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = What object could any one have there?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	object	object	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	one	one	NUM	CD	NumType=Card	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	there	there	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = No supplies can be drawn thence; no fruit-trees are there, no pasturage, no beasts, no springs of water fitted for man's use.
+1	No	no	DET	DT	_	2	det	_	_
+2	supplies	supplies	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	thence	thence	ADV	RB	NumType=Mult	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	5	punct	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	fruit	fruit	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+11	trees	tree	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	there	there	ADV	RB	PronType=Dem	5	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	pasturage	pasturage	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	no	no	DET	DT	_	19	det	_	_
+19	beasts	beasts	NOUN	NNS	Number=Plur	16	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	no	no	DET	DT	_	22	det	_	_
+22	springs	spring	NOUN	NNS	Number=Plur	5	parataxis	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	water	water	NOUN	NN	Number=Sing	22	nmod	_	_
+25	fitted	fit	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	_	_
+26	for	for	ADP	IN	_	29	case	_	_
+27	man	man	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	's	's	PART	POS	_	27	case	_	_
+29	use	use	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = It stands aloft, a rock with its steep sides and summits above water, and its sharp points below.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aloft	aloft	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	rock	rock	NOUN	NN	Number=Sing	2	obj	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	steep	steep	NOUN	NN	Number=Sing	10	compound	_	_
+10	sides	side	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	summits	summit	NOUN	NNS	Number=Plur	10	conj	_	_
+13	above	above	ADP	IN	_	14	case	_	_
+14	water	water	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	sharp	sharp	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	points	point	NOUN	NNS	Number=Plur	2	conj	_	_
+20	below	below	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nothing is to be found there but inevitable shipwreck.
+1	Nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	inevitable	inevitable	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	shipwreck	shipwreck	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

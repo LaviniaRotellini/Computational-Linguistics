@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “On-common.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	On	on	ADP	IN	_	4	case	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	common	common	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Give me,” said Joe, “a good book, or a good newspaper, and sit me down afore a good fire, and I ask no better.
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Joe	Joe	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	book	book	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	or	or	CCONJ	CC	_	16	cc	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	good	good	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	newspaper	newspaper	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	sit	sit	VERB	VB	Mood=Imp|VerbForm=Fin	11	conj	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	down	down	ADP	RP	_	19	compound:prt	_	_
+22	afore	afore	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	good	good	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	fire	fire	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+30	no	no	ADV	RB	_	31	advmod	_	_
+31	better	better	ADV	RBR	Degree=Cmp	29	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Lord!”
+1	Lord	Lord	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 4
+# text = he continued, after rubbing his knees a little, “when you _do_ come to a J and a O, and says you, ‘Here, at last, is a J-O, Joe,’ how interesting reading is!”
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	after	after	SCONJ	IN	_	5	mark	_	_
+5	rubbing	rub	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	knees	knee	NOUN	NNS	Number=Plur	5	obj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	_do_	_do_	SYM	NFP	_	15	punct	_	_
+15	come	come	VERB	VB	VerbForm=Inf	2	advcl	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	J	j	NOUN	NN	Number=Sing	15	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	O	o	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	28	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	‘	'	PUNCT	``	_	25	punct	_	SpaceAfter=No
+28	Here	here	ADV	RB	PronType=Dem	2	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	at	at	ADP	IN	_	31	case	_	_
+31	last	last	ADJ	JJ	Degree=Pos	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	J-O	J-o	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	35	punct	_	_
+37	Joe	Joe	PROPN	NNP	Number=Sing	35	flat	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	35	punct	_	SpaceAfter=No
+39	’	'	PUNCT	''	_	2	punct	_	_
+40	how	how	ADV	WRB	PronType=Int	2	ccomp	_	_
+41	interesting	interesting	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	reading	reading	NOUN	NN	Number=Sing	43	nsubj	_	_
+43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	SpaceAfter=No
+44	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+45	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

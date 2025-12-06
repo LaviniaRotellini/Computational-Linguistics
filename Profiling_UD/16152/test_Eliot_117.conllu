@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, I’m sure your pretty arms were never meant for such heavy weights.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	pretty	pretty	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	arms	arm	NOUN	NNS	Number=Plur	12	nsubj:pass	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	_
+13	for	for	ADP	IN	_	16	case	_	_
+14	such	such	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	heavy	heavy	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	weights	weight	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = But you go out a walk sometimes these pleasant evenings, don’t you?
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	out	out	ADP	IN	_	3	compound:prt	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	walk	walk	NOUN	NN	Number=Sing	10	obj	_	_
+7	sometimes	sometimes	ADV	RB	_	6	advmod	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+9	pleasant	pleasant	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	evenings	evening	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Why don’t you have a walk in the Chase sometimes, now it’s so green and pleasant?
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	walk	walk	NOUN	NN	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Chase	chase	NOUN	NN	Number=Sing	7	nmod	_	_
+11	sometimes	sometimes	ADV	RB	_	5	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	now	now	ADV	RB	_	17	advmod	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	green	green	ADJ	JJ	Degree=Pos	5	parataxis	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	pleasant	pleasant	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I hardly ever see you anywhere except at home and at church.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	hardly	hardly	ADV	RB	_	4	advmod	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	obj	_	_
+6	anywhere	anywhere	ADV	RB	_	4	advmod	_	_
+7	except	except	ADP	IN	_	9	case	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	home	home	NOUN	NN	Number=Sing	6	obl	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	church	church	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

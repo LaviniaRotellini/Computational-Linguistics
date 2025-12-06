@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, if she took the wrong man!” said Mrs. Cadwallader, who was in a decidedly wicked mood.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	wrong	wrong	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	man	man	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+20	decidedly	decidedly	ADV	RB	_	21	advmod	_	_
+21	wicked	wicked	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	mood	mood	NOUN	NN	Number=Sing	13	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Marriage is always bad then, first or second.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Marriage	marriage	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+6	then	then	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	parataxis	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Priority is a poor recommendation in a husband if he has got no other.
+1	Priority	priority	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	recommendation	recommendation	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	husband	husband	NOUN	NN	Number=Sing	5	nmod	_	_
+9	if	if	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	got	get	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+13	no	no	DET	DT	_	14	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I would rather have a good second husband than an indifferent first.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	rather	rather	ADV	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	husband	husband	NOUN	NN	Number=Sing	4	obj	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	indifferent	indifferent	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+12	first	first	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

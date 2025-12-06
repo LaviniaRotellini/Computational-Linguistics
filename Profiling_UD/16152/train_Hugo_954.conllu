@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cities, like forests, have their caverns in which all the most wicked and formidable creatures which they contain conceal themselves.
+1	Cities	city	NOUN	NNS	Number=Plur	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	like	like	ADP	IN	_	4	case	_	_
+4	forests	forests	NOUN	NNS	Number=Plur	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	caverns	cavern	NOUN	NNS	Number=Plur	6	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	which	which	PRON	WDT	PronType=Rel	17	obl	_	_
+11	all	all	DET	PDT	_	17	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+13	most	most	ADV	RBS	_	14	advmod	_	_
+14	wicked	wicked	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	formidable	formidable	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	creatures	creature	NOUN	NNS	Number=Plur	8	acl:relcl	_	_
+18	which	which	PRON	WDT	PronType=Rel	20	obj	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	contain	contain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	conceal	conceal	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Only, in cities, that which thus conceals itself is ferocious, unclean, and petty, that is to say, ugly; in forests, that which conceals itself is ferocious, savage, and grand, that is to say, beautiful.
+1	Only	only	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	cities	city	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	which	which	DET	WDT	PronType=Int	9	det	_	_
+8	thus	thus	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	conceals	conceal	NOUN	NNS	Number=Plur	12	nsubj	_	_
+10	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod:npmod	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	ferocious	ferocious	ADJ	JJ	Degree=Pos	4	acl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	unclean	unclean	ADJ	JJ	Degree=Pos	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	petty	petty	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	say	say	VERB	VB	VerbForm=Inf	20	ccomp	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	ugly	ugly	ADJ	JJ	Degree=Pos	22	conj	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	20	punct	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	forests	forests	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	4	punct	_	_
+29	that	that	SCONJ	IN	_	31	mark	_	_
+30	which	which	PRON	WDT	PronType=Int	31	nsubj	_	_
+31	conceals	conceal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	csubj	_	_
+32	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	ferocious	ferocious	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	_
+36	savage	savage	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	39	punct	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	grand	grand	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	4	punct	_	_
+41	that	that	PRON	DT	Number=Sing|PronType=Dem	42	nsubj	_	_
+42	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	say	say	VERB	VB	VerbForm=Inf	42	ccomp	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	46	punct	_	_
+46	beautiful	beautiful	ADJ	JJ	Degree=Pos	44	conj	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Taking one lair with another, the beast’s is preferable to the man’s.
+1	Taking	take	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	lair	lair	NOUN	NN	Number=Sing	1	obj	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	another	another	DET	DT	_	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	beast	beast	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	preferable	preferable	ADJ	JJ	Degree=Pos	0	root	_	_
+12	to	to	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	man	man	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+15	’s	's	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Caverns are better than hovels.
+1	Caverns	Cavern	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+4	than	than	ADP	IN	_	5	case	_	_
+5	hovels	hovel	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

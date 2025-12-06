@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = M. Madeleine had Fantine removed to that infirmary which he had established in his own house.
+1	M	m	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	4	punct	_	_
+3	Madeleine	Madeleine	PRON	NN	Number=Sing	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Fantine	Fantine	NUM	CD	NumType=Card	6	nsubj	_	_
+6	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	infirmary	infirmary	NOUN	NN	Number=Sing	6	obl	_	_
+10	which	which	PRON	WDT	PronType=Rel	13	obj	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	house	house	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He confided her to the sisters, who put her to bed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	confided	confide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sisters	sister	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	bed	bed	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = A burning fever had come on.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	burning	burning	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	fever	fever	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	on	on	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = She passed a part of the night in delirium and raving.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	part	part	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	night	night	NOUN	NN	Number=Sing	4	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	delirium	delirium	NOUN	NN	Number=Sing	2	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	raving	raving	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = At length, however, she fell asleep.
+1	At	at	ADP	IN	_	2	case	_	_
+2	length	length	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	however	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	asleep	asleep	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

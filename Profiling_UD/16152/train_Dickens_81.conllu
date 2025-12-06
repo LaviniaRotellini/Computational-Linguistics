@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You see, dear, I should have told you before now,’ said Peggotty, ‘but I hadn’t an opportunity.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	dear	dear	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	16	ccomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	before	before	ADV	RB	_	13	advmod	_	_
+13	now	now	ADV	RB	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+17	Peggotty	Peggotty	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	‘	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	n’t	not	PART	RB	_	25	advmod	_	_
+24	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	opportunity	opportunity	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = I ought to have made it, perhaps, but I couldn’t azackly’--that was always the substitute for exactly, in Peggotty’s militia of words--‘bring my mind to it.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ought	ought	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	perhaps	perhaps	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	azackly	azackly	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+15	’--	’--	PUNCT	.	_	14	punct	_	SpaceAfter=No
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	always	always	ADV	RB	_	20	advmod	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	substitute	substitute	NOUN	NN	Number=Sing	14	ccomp	_	_
+21	for	for	ADP	IN	_	31	mark	_	_
+22	exactly	exactly	ADV	RB	_	31	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	31	punct	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	Peggotty	Peggotty	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	militia	militia	NOUN	NN	Number=Sing	31	obl	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	words	word	NOUN	NNS	Number=Plur	27	nmod	_	SpaceAfter=No
+30	--‘	--‘	PUNCT	.	_	31	punct	_	SpaceAfter=No
+31	bring	bring	VERB	VB	VerbForm=Inf	20	acl	_	_
+32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	mind	mind	NOUN	NN	Number=Sing	31	obj	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+37	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

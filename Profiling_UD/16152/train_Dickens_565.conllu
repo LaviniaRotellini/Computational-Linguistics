@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Servant, sir,’ said Mr. Omer.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Servant	servant	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Omer	Omer	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘What can I do for you, sir?’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	sir	sir	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = ‘You can shake hands with me, Mr. Omer, if you please,’ said I, putting out my own.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	shake	shake	VERB	VB	VerbForm=Inf	0	root	_	_
+5	hands	hand	NOUN	NNS	Number=Plur	4	obj	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obj	_	_
+10	Omer	Omer	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	if	if	SCONJ	IN	_	17	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+14	please	please	INTJ	UH	_	17	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	putting	put	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+21	out	out	ADP	RP	_	20	compound:prt	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	own	own	ADJ	JJ	Degree=Pos	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = ‘You were very good-natured to me once, when I am afraid I didn’t show that I thought so.’
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	very	very	ADV	RB	_	7	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+7	natured	nature	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	once	once	ADV	RB	NumType=Mult	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	afraid	afraid	ADJ	JJ	Degree=Pos	7	advcl	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	19	advmod	_	_
+19	show	show	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+20	that	that	SCONJ	IN	_	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+23	so	so	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

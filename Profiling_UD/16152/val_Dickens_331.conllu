@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He was quick enough to observe; he had a good memory, and did not forget a word of the brother’s revelations.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	quick	quick	ADJ	JJ	Degree=Pos	0	root	_	_
+4	enough	enough	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	observe	observe	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	memory	memory	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	forget	forget	VERB	VB	VerbForm=Inf	3	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	word	word	NOUN	NN	Number=Sing	17	obj	_	_
+20	of	of	ADP	IN	_	24	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	brother	brother	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	_
+24	revelations	revelation	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He interwove them with everything he saw of the sister, and he began to understand her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	interwove	interwove	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	everything	everything	PRON	NN	Number=Sing	2	obl	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	sister	sister	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	understand	understand	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = To be sure, the better and profounder part of her character was not within his scope of perception; for in natures, as in seas, depth answers unto depth; but he soon began to read the rest with a student’s eye.
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+6	better	better	ADJ	JJR	Degree=Cmp	9	amod	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	profounder	profounder	ADJ	JJR	Degree=Cmp	9	amod	_	_
+9	part	part	NOUN	NN	Number=Sing	17	nsubj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	character	character	NOUN	NN	Number=Sing	9	nmod	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+14	not	not	PART	RB	_	17	advmod	_	_
+15	within	within	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	scope	scope	NOUN	NN	Number=Sing	3	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	perception	perception	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	3	punct	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	natures	nature	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	30	punct	_	_
+25	as	as	ADP	IN	_	27	case	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	seas	seas	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	depth	depth	NOUN	NN	Number=Sing	30	compound	_	_
+30	answers	answer	NOUN	NNS	Number=Plur	3	conj	_	_
+31	unto	unto	ADP	IN	_	32	case	_	_
+32	depth	depth	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	37	punct	_	_
+34	but	but	CCONJ	CC	_	37	cc	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	soon	soon	ADV	RB	Degree=Pos	37	advmod	_	_
+37	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+38	to	to	PART	TO	_	39	mark	_	_
+39	read	read	VERB	VB	VerbForm=Inf	37	xcomp	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	rest	rest	NOUN	NN	Number=Sing	39	obj	_	_
+42	with	with	ADP	IN	_	46	case	_	_
+43	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+44	student	student	NOUN	NN	Number=Sing	46	nmod:poss	_	SpaceAfter=No
+45	’s	's	PART	POS	_	44	case	_	_
+46	eye	eye	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

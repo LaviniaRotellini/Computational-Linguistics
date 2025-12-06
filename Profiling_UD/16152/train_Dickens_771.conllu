@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Good Heaven, Mr. Traddles!’ said Mr. Micawber, ‘to think that I should find you acquainted with the friend of my youth, the companion of earlier days!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	Good	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Heaven	heaven	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	3	appos	_	_
+6	Traddles	Traddles	PROPN	NNPS	Number=Plur	5	flat	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	3	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Micawber	Micawber	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+14	to	to	PART	TO	_	15	mark	_	_
+15	think	think	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	find	find	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+21	acquainted	acquaint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	friend	friend	NOUN	NN	Number=Sing	21	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	youth	youth	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	21	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	companion	companion	NOUN	NN	Number=Sing	21	obj	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	earlier	earlier	ADJ	JJR	Degree=Cmp	33	amod	_	_
+33	days	day	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+34	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = My dear!’
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	dear	dear	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = calling over the banisters to Mrs. Micawber, while Traddles looked (with reason) not a little amazed at this description of me.
+1	calling	call	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	over	over	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	banisters	banister	NOUN	NNS	Number=Plur	1	obl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	Micawber	Micawber	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	1	punct	_	_
+9	while	while	SCONJ	IN	_	11	mark	_	_
+10	Traddles	Traddles	PROPN	NNPS	Number=Plur	11	nsubj	_	_
+11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+12	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+13	with	with	ADP	IN	_	14	case	_	_
+14	reason	reason	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	_	_
+16	not	not	ADV	RB	_	18	advmod	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	little	little	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	amazed	amazed	ADJ	JJ	Degree=Pos	11	obj	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	description	description	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = ‘Here is a gentleman in Mr. Traddles’s apartment, whom he wishes to have the pleasure of presenting to you, my love!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	gentleman	gentleman	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	in	in	ADP	IN	_	10	case	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+8	Traddles	Traddles	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	’s	's	PART	POS	_	7	case	_	_
+10	apartment	apartment	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	whom	whom	PRON	WP	PronType=Rel	14	obj	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	have	have	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	pleasure	pleasure	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	SCONJ	IN	_	20	mark	_	_
+20	presenting	presenting	VERB	VBG	VerbForm=Ger	18	acl	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	love	love	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

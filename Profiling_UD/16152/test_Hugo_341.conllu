@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” replied the priest; “’tis Augustin Nypho who writes it, that Italian doctor who had a bearded demon who acquainted him with all things.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	priest	priest	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	’tis	’ti	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	Augustin	Augustin	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Nypho	Nypho	PROPN	NNP	Number=Sing	5	appos	_	_
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	that	that	SCONJ	IN	_	19	mark	_	_
+18	Italian	italian	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	doctor	doctor	NOUN	NN	Number=Sing	12	appos	_	_
+20	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	bearded	bearded	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	demon	demon	NOUN	NN	Number=Sing	21	obj	_	_
+25	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+26	acquainted	acquaint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	with	with	ADP	IN	_	30	case	_	_
+29	all	all	DET	DT	_	30	det	_	_
+30	things	thing	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = However, we will descend, and I will explain it to you with the text before us.”
+1	However	however	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	descend	descend	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	explain	explain	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	text	text	NOUN	NN	Number=Sing	10	obl	_	_
+17	before	before	ADP	IN	_	18	case	_	_
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

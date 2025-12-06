@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, my dear,” said Mrs. Vincy,
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dear	dear	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mrs	Mrs	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+11	Vincy	Vincy	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+
+# sent_id = 2
+# text = “you seemed as pleased as could be about it.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	pleased	pleased	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	as	as	SCONJ	IN	_	10	mark	_	_
+7	could	could	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It’s true, I wasn’t at home; but Rosamond told me you hadn’t a word to say against the engagement.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	9	advmod	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	home	home	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	but	but	CCONJ	CC	_	13	cc	_	_
+12	Rosamond	Rosamond	PROPN	NNP	Number=Sing	13	nsubj	_	_
+13	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	19	advmod	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	word	word	NOUN	NN	Number=Sing	16	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	say	say	VERB	VB	VerbForm=Inf	19	acl	_	_
+22	against	against	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	engagement	engagement	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And she has begun to buy in the best linen and cambric for her underclothing.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	buy	buy	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	best	best	ADJ	JJS	Degree=Sup	10	amod	_	_
+10	linen	linen	NOUN	NNS	Number=Plur	6	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	cambric	cambric	NOUN	NN	Number=Sing	10	conj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	underclothing	underclothing	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

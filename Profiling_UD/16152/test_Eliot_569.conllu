@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adam was seated with his back towards the door, but he started up and turned round instantly, with a flushed face and an eager look.
+1	Adam	Adam	PROPN	NNP	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	obl	_	_
+6	back	back	ADV	RB	_	5	advmod	_	_
+7	towards	towards	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	door	door	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	but	but	CCONJ	CC	_	13	cc	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	up	up	ADP	RP	_	13	compound:prt	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+17	round	round	ADV	RB	_	16	advmod	_	_
+18	instantly	instantly	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	flushed	flushed	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	face	face	NOUN	NN	Number=Sing	16	obl	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	eager	eager	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	look	look	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = His face was even thinner and more worn than we have seen it before, but he was washed and shaven this Sunday morning.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	even	even	ADV	RB	_	5	advmod	_	_
+5	thinner	thinner	ADV	RBR	_	0	root	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	worn	worn	ADJ	JJ	Degree=Pos	5	conj	_	_
+9	than	than	SCONJ	IN	_	12	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	before	before	ADV	RB	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	washed	wash	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	shaven	shave	VERB	VBN	Tense=Past|VerbForm=Part	19	conj	_	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+23	Sunday	Sunday	PROPN	NNP	Number=Sing	24	compound	_	_
+24	morning	morning	NOUN	NN	Number=Sing	21	obl:tmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

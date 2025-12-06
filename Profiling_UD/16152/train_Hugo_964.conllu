@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = An icy breeze whistled through the window and entered the room.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	icy	icy	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	breeze	breeze	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	whistled	whistle	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	through	through	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	window	window	NOUN	NN	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	room	room	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = The outer mist penetrated thither and diffused itself like a whitish sheet of wadding vaguely spread by invisible fingers.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	outer	outer	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	mist	mist	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	penetrated	penetrate	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	thither	thither	ADV	RB	_	4	advmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	diffused	diffuse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	like	like	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	whitish	whitish	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	sheet	sheet	NOUN	NN	Number=Sing	7	obl	_	_
+13	of	of	SCONJ	IN	_	14	mark	_	_
+14	wadding	wadding	VERB	VBG	VerbForm=Ger	12	acl	_	_
+15	vaguely	vaguly	ADV	RB	_	16	advmod	_	_
+16	spread	spread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+17	by	by	ADP	IN	_	19	case	_	_
+18	invisible	invisible	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	fingers	finger	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Through the broken pane the snow could be seen falling.
+1	Through	through	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	broken	broken	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	pane	pane	NOUN	NN	Number=Sing	9	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	snow	snow	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	falling	falling	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = The snow promised by the Candlemas sun of the preceding day had actually come.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	snow	snow	NOUN	NN	Number=Sing	14	nsubj	_	_
+3	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	by	by	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	Candlemas	Candlemas	PROPN	NNP	Number=Sing	7	compound	_	_
+7	sun	sun	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	preceding	preceding	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	day	day	NOUN	NN	Number=Sing	7	nmod	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	actually	actually	ADV	RB	_	14	advmod	_	_
+14	come	come	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

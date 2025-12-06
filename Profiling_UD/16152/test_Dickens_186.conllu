@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When we came to Pumblechook’s, my sister bounced in and left us.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	sister	sister	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	bounced	bounce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	in	in	ADV	RB	_	10	advmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = As it was almost noon, Joe and I held straight on to Miss Havisham’s house.
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	almost	almost	ADV	RB	_	5	advmod	_	_
+5	noon	noon	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Joe	Joe	PROPN	NNP	Number=Sing	5	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	straight	straight	ADV	RB	_	10	advmod	_	_
+12	on	on	ADP	IN	_	17	case	_	_
+13	to	to	ADP	IN	_	17	case	_	_
+14	Miss	miss	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Havisham	Havisham	PROPN	NNP	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	house	house	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Estella opened the gate as usual, and, the moment she appeared, Joe took his hat off and stood weighing it by the brim in both his hands; as if he had some urgent reason in his mind for being particular to half a quarter of an ounce.
+1	Estella	Estella	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	gate	gate	NOUN	NN	Number=Sing	2	obj	_	_
+5	as	as	ADP	IN	_	6	case	_	_
+6	usual	usual	ADJ	JJ	Degree=Pos	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	16	punct	_	_
+8	and	and	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	moment	moment	NOUN	NN	Number=Sing	16	obl:tmod	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	Joe	Joe	PROPN	NNP	Number=Sing	16	nsubj	_	_
+16	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hat	hat	NOUN	NN	Number=Sing	16	obj	_	_
+19	off	off	ADP	RP	_	16	compound:prt	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	stood	stood	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+22	weighing	weigh	VERB	VBG	VerbForm=Ger	21	xcomp	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	by	by	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	brim	brim	NOUN	NN	Number=Sing	22	obl	_	_
+27	in	in	ADP	IN	_	30	case	_	_
+28	both	both	CCONJ	CC	_	30	cc:preconj	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	hands	hand	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	2	punct	_	_
+32	as	as	SCONJ	IN	_	35	mark	_	_
+33	if	if	SCONJ	IN	_	35	mark	_	_
+34	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+36	some	some	DET	DT	_	38	det	_	_
+37	urgent	urgent	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	reason	reason	NOUN	NN	Number=Sing	35	obj	_	_
+39	in	in	ADP	IN	_	41	case	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	mind	mind	NOUN	NN	Number=Sing	38	nmod	_	_
+42	for	for	SCONJ	IN	_	44	mark	_	_
+43	being	be	AUX	VBG	VerbForm=Ger	44	cop	_	_
+44	particular	particular	ADJ	JJ	Degree=Pos	35	acl	_	_
+45	to	to	ADP	IN	_	48	case	_	_
+46	half	half	DET	PDT	_	48	det:predet	_	_
+47	a	a	DET	DT	Definite=Ind|PronType=Art	48	det	_	_
+48	quarter	quarter	NOUN	NN	Number=Sing	44	obl	_	_
+49	of	of	ADP	IN	_	51	case	_	_
+50	an	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+51	ounce	ounce	NOUN	NN	Number=Sing	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

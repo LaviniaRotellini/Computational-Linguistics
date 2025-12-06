@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Bounderby was at his lunch.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	Bounderby	Bounderby	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	lunch	lunch	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = So Stephen had expected.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	Stephen	Stephen	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Would his servant say that one of the Hands begged leave to speak to him?
+1	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	servant	servant	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	one	one	NUM	CD	NumType=Card	11	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Hands	hand	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	begged	beg	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+11	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	speak	speak	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Message in return, requiring name of such Hand.
+1	Message	message	NOUN	NN	Number=Sing	0	root	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	return	return	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	requiring	require	VERB	VBG	VerbForm=Ger	1	acl	_	_
+6	name	name	NOUN	NN	Number=Sing	5	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Hand	hand	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Stephen Blackpool.
+1	Stephen	Stephen	PROPN	NNP	Number=Sing	0	root	_	_
+2	Blackpool	Blackpool	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = There was nothing troublesome against Stephen Blackpool; yes, he might come in.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+4	troublesome	troublesome	ADJ	JJ	Degree=Pos	3	amod	_	_
+5	against	against	ADP	IN	_	6	case	_	_
+6	Stephen	Stephen	PROPN	NNP	Number=Sing	3	nmod	_	_
+7	Blackpool	Blackpool	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	yes	yes	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	come	come	VERB	VB	VerbForm=Inf	2	conj	_	_
+14	in	in	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She must wander on and on, and wait for a lower depth of despair to give her courage.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	wander	wander	VERB	VB	VerbForm=Inf	0	root	_	_
+4	on	on	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	on	on	ADV	RB	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	wait	wait	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	lower	lower	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	depth	depth	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	despair	despair	NOUN	NN	Number=Sing	13	nmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	give	give	VERB	VB	VerbForm=Inf	9	advcl	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	courage	courage	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Perhaps death would come to her, for she was getting less and less able to bear the day’s weariness.
+1	Perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+2	death	death	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	for	for	SCONJ	IN	_	11	mark	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	_
+12	less	less	ADV	RBR	Degree=Cmp	15	advmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	less	less	ADV	RBR	Degree=Cmp	15	advmod	_	_
+15	able	able	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	bear	bear	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	day	day	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	weariness	weariness	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And yet—such is the strange action of our souls, drawing us by a lurking desire towards the very ends we dread—Hetty, when she set out again from Norton, asked the straightest road northwards towards Stonyshire, and kept it all that day.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	yet	yet	ADV	RB	_	8	advmod	_	SpaceAfter=No
+3	—	-	PUNCT	:	_	8	punct	_	SpaceAfter=No
+4	such	such	ADJ	JJ	Degree=Pos	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	strange	strange	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	action	action	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	souls	soul	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	drawing	draw	VERB	VBG	VerbForm=Ger	22	nsubj	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+15	by	by	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	lurking	lurking	NOUN	NN	Number=Sing	18	compound	_	_
+18	desire	desire	NOUN	NN	Number=Sing	22	obl	_	_
+19	towards	towards	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	very	very	ADV	RB	_	22	advmod	_	_
+22	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	compound	_	_
+24	dread	dread	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	—	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+26	Hetty	Hetty	INTJ	UH	_	36	discourse	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	36	punct	_	_
+28	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	advcl	_	_
+31	out	out	ADP	RP	_	30	compound:prt	_	_
+32	again	again	ADV	RB	_	30	advmod	_	_
+33	from	from	ADP	IN	_	34	case	_	_
+34	Norton	Norton	PROPN	NNP	Number=Sing	30	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	_
+36	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+38	straightest	straightest	ADJ	JJ	Degree=Pos|NumType=Ord	40	amod	_	_
+39	road	road	NOUN	NN	Number=Sing	40	compound	_	_
+40	northwards	northward	NOUN	NNS	Number=Plur	36	obj	_	_
+41	towards	towards	ADP	IN	_	42	case	_	_
+42	Stonyshire	Stonyshire	PROPN	NNP	Number=Sing	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	45	punct	_	_
+44	and	and	CCONJ	CC	_	45	cc	_	_
+45	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
+46	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
+47	all	all	DET	PDT	_	49	det:predet	_	_
+48	that	that	DET	DT	Number=Sing|PronType=Dem	49	det	_	_
+49	day	day	NOUN	NN	Number=Sing	45	obl:tmod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

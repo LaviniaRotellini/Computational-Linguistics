@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I recollect talking about it,’ said I, ‘though I certainly did not think it very likely then.’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	recollect	recollect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+4	talking	talk	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+13	though	though	SCONJ	IN	_	18	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	certainly	certainly	ADV	RB	_	18	advmod	_	_
+16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	think	think	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	very	very	ADV	RB	_	21	advmod	_	_
+21	likely	likely	ADV	RB	_	18	advmod	_	_
+22	then	then	ADV	RB	PronType=Dem	18	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Oh! who would have thought it likely, Mister Copperfield!’ returned Uriah, enthusiastically.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	12	parataxis	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	likely	likely	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	Mister	Mister	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Copperfield	Copperfield	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Uriah	Uriah	PROPN	NNP	Number=Sing	15	appos	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	enthusiastically	enthusiastically	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = ‘I am sure I didn’t myself.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I recollect saying with my own lips that I was much too umble.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	recollect	recollect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	saying	say	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	own	own	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	lips	lip	NOUN	NNS	Number=Plur	3	obl	_	_
+8	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	much	much	ADV	RB	_	13	advmod	_	_
+12	too	too	ADV	RB	_	13	advmod	_	_
+13	umble	umble	ADJ	JJ	Degree=Pos	7	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = So I considered myself really and truly.’
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	considered	consider	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	really	really	ADV	RB	_	3	advmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	truly	trully	ADV	RB	_	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The three women, for Gervaise had rejoined Mahiette and Oudarde, gazed through the window.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	three	three	NUM	CD	NumType=Card	3	nummod	_	_
+3	women	woman	NOUN	NNS	Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	Gervaise	Gervaise	PRON	DT	Number=Plur|PronType=Dem	3	nmod	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	rejoined	rejoin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	Mahiette	Mahiette	PROPN	NNP	Number=Sing	8	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	Oudarde	Oudarde	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	gazed	gaze	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+14	through	through	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	window	window	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Their heads intercepted the feeble light in the cell, without the wretched being whom they thus deprived of it seeming to pay any attention to them.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	heads	head	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	intercepted	intercept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	feeble	feeble	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	light	light	NOUN	NN	Number=Sing	3	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cell	cell	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	without	without	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	wretched	wretched	NOUN	NN	Number=Sing	3	obl	_	_
+14	being	be	AUX	VBG	VerbForm=Ger	15	cop	_	_
+15	whom	whom	PRON	WP	PronType=Rel	18	advcl	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+17	thus	thus	ADV	RB	_	18	advmod	_	_
+18	deprived	deprive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	seeming	seem	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	pay	pay	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	any	any	DET	DT	_	25	det	_	_
+25	attention	attention	NOUN	NN	Number=Sing	23	obj	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = “Do not let us trouble her,” said Oudarde, in a low voice, “she is in her ecstasy; she is praying.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	10	ccomp	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+6	trouble	trouble	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Oudarde	Oudarde	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	low	low	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	voice	voice	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	10	punct	_	_
+18	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	ecstasy	ecstasy	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	10	punct	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	praying	pray	VERB	VBG	Tense=Pres|VerbForm=Part	10	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

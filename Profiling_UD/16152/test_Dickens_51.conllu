@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = By degrees, I became calm enough to release my grasp and partake of pudding.
+1	By	by	ADP	IN	_	2	case	_	_
+2	degrees	degrees	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	calm	calm	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	release	release	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	grasp	grasp	NOUN	NN	Number=Sing	9	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	partake	partake	NOUN	NN	Number=Sing	11	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	pudding	pudding	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mr. Pumblechook partook of pudding.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	1	flat	_	_
+3	partook	partook	NOUN	NN	Number=Sing	1	flat	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	pudding	pudding	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = All partook of pudding.
+1	All	all	DET	DT	_	2	det	_	_
+2	partook	partook	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	pudding	pudding	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The course terminated, and Mr. Pumblechook had begun to beam under the genial influence of gin and water.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	course	course	NOUN	NN	Number=Sing	20	nsubj	_	_
+3	terminated	terminate	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	6	flat	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	beam	beam	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	under	under	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	genial	genial	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	influence	influence	NOUN	NN	Number=Sing	11	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	gin	gin	NOUN	NNS	Number=Plur	15	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	water	water	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 5
+# text = I began to think I should get over the day, when my sister said to Joe, “Clean plates,—cold.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	think	think	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	get	get	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	over	over	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	day	day	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	sister	sister	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	Joe	Joe	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+20	Clean	clean	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	plates	plate	NOUN	NNS	Number=Plur	17	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+23	—	-	PUNCT	,	_	24	punct	_	SpaceAfter=No
+24	cold	cold	ADJ	JJ	Degree=Pos	21	appos	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

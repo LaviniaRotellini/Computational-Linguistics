@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Madeleine rose.
+1	Madeleine	Madeleine	PRON	PRP	_	2	nsubj	_	_
+2	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was pale, though dripping with perspiration.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	pale	pale	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	though	though	SCONJ	IN	_	6	mark	_	_
+6	dripping	dripp	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	perspiration	perspiration	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = His clothes were torn and covered with mud.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	clothes	clothes	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	torn	tear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	mud	mud	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = All wept.
+1	All	all	DET	DT	_	2	det	_	_
+2	wept	wept	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = The old man kissed his knees and called him the good God.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	knees	knee	NOUN	NNS	Number=Plur	4	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	God	God	PROPN	NNP	Number=Sing	8	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = As for him, he bore upon his countenance an indescribable expression of happy and celestial suffering, and he fixed his tranquil eye on Javert, who was still staring at him.
+1	As	as	ADP	IN	_	3	case	_	_
+2	for	for	ADP	IN	_	1	fixed	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	bore	bear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	upon	upon	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	countenance	countenance	NOUN	NN	Number=Sing	6	obl	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	indescribable	indescribable	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	expression	expression	NOUN	NN	Number=Sing	6	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	happy	happy	ADJ	JJ	Degree=Pos	12	nmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	celestial	celestial	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	suffering	suffering	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	fixed	fix	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	tranquil	tranquil	NOUN	NN	Number=Sing	24	compound	_	_
+24	eye	eye	NOUN	NN	Number=Sing	21	obj	_	_
+25	on	on	ADP	IN	_	26	case	_	_
+26	Javert	Javert	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	6	punct	_	_
+28	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	_
+30	still	still	ADV	RB	_	31	advmod	_	_
+31	staring	staring	VERB	VBG	VerbForm=Ger	6	acl:relcl	_	_
+32	at	at	ADP	IN	_	33	case	_	_
+33	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

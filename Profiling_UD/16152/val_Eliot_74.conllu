@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, and I should have halfpence, and we’d play at heads-and-tails,” said Tom, not contemplating the possibility that this recreation might have fewer charms for his mature age.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+8	halfpence	halfpence	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	play	play	NOUN	NN	Number=Sing	12	obj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	heads	head	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+17	and	and	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	tails	tail	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Tom	Tom	PROPN	NNP	Number=Sing	26	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	not	not	ADV	RB	_	26	advmod	_	_
+26	contemplating	contemplate	VERB	VBG	VerbForm=Ger	22	parataxis	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	possibility	possibility	NOUN	NN	Number=Sing	26	obj	_	_
+29	that	that	SCONJ	IN	_	33	mark	_	_
+30	this	this	DET	DT	Number=Sing|PronType=Dem	31	det	_	_
+31	recreation	recreation	NOUN	NN	Number=Sing	33	nsubj	_	_
+32	might	might	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	have	have	VERB	VB	VerbForm=Inf	28	acl	_	_
+34	fewer	fewer	ADJ	JJR	Degree=Cmp	35	amod	_	_
+35	charms	charms	NOUN	NNS	Number=Plur	33	obj	_	_
+36	for	for	ADP	IN	_	39	case	_	_
+37	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+38	mature	mature	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	age	age	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “I’d divide fair to begin with, and then we’d see who’d win.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	divide	divide	ADV	RB	_	5	advmod	_	_
+5	fair	fair	ADJ	JJ	Degree=Pos	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	begin	begin	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	with	with	ADP	IN	_	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	’d	’d	ADV	RB	_	14	advmod	_	_
+14	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+15	who	who	PRON	WP	PronType=Int	17	nsubj	_	SpaceAfter=No
+16	’d	’d	ADV	RB	_	17	advmod	_	_
+17	win	win	VERB	VB	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

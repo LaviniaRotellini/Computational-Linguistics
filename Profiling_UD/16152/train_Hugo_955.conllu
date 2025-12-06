@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One thing which added still more to the horrors of this garret was, that it was large.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	thing	thing	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	which	which	PRON	WDT	PronType=Rel	4	nsubj	_	_
+4	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	still	still	ADV	RB	_	6	advmod	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	4	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	horrors	horror	NOUN	NNS	Number=Plur	6	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	garret	garret	NOUN	NN	Number=Sing	9	nmod	_	_
+13	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	that	that	SCONJ	IN	_	18	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	large	large	ADJ	JJ	Degree=Pos	13	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = It had projections and angles and black holes, the lower sides of roofs, bays, and promontories.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	projections	projection	NOUN	NNS	Number=Plur	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	angles	angles	NOUN	NNS	Number=Plur	3	conj	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	black	black	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	holes	hole	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	lower	lower	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	sides	side	NOUN	NNS	Number=Plur	2	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	roofs	roof	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	bays	bay	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	promontories	promontory	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Hence horrible, unfathomable nooks where it seemed as though spiders as big as one’s fist, wood-lice as large as one’s foot, and perhaps even—who knows?—some monstrous human beings, must be hiding.
+1	Hence	hence	ADV	RB	_	2	advmod	_	_
+2	horrible	horrible	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	unfathomable	unfathomable	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	nooks	nook	NOUN	NNS	Number=Plur	0	root	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	as	as	SCONJ	IN	_	13	mark	_	_
+10	though	though	SCONJ	IN	_	13	mark	_	_
+11	spiders	spider	NOUN	NNS	Number=Plur	13	nsubj	_	_
+12	as	as	ADP	IN	_	13	case	_	_
+13	big	big	ADJ	JJ	Degree=Pos	8	advcl	_	_
+14	as	as	ADP	IN	_	21	case	_	_
+15	one	one	NUM	CD	NumType=Card	21	nmod:poss	_	SpaceAfter=No
+16	’s	’	PART	POS	_	15	case	_	_
+17	fist	fist	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	wood	wood	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	lice	lice	NOUN	NN	Number=Sing	13	obl	_	_
+22	as	as	ADV	RB	_	23	advmod	_	_
+23	large	large	ADJ	JJ	Degree=Pos	21	amod	_	_
+24	as	as	ADP	IN	_	27	case	_	_
+25	one	one	NUM	CD	NumType=Card	27	nmod:poss	_	SpaceAfter=No
+26	’s	’	PART	POS	_	25	case	_	_
+27	foot	foot	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	34	punct	_	_
+29	and	and	CCONJ	CC	_	34	cc	_	_
+30	perhaps	perhaps	ADV	RB	_	31	advmod	_	_
+31	even	even	ADV	RB	_	34	advmod	_	SpaceAfter=No
+32	—	-	PUNCT	,	_	31	punct	_	SpaceAfter=No
+33	who	who	PRON	WP	PronType=Rel	34	nsubj	_	_
+34	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
+35	?	?	PUNCT	.	_	34	punct	_	SpaceAfter=No
+36	—	-	PUNCT	,	_	40	punct	_	SpaceAfter=No
+37	some	some	DET	DT	_	40	det	_	_
+38	monstrous	monstrous	ADJ	JJ	Degree=Pos	40	amod	_	_
+39	human	human	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	beings	being	NOUN	NNS	Number=Plur	34	obj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	44	punct	_	_
+42	must	must	AUX	MD	VerbForm=Fin	44	aux	_	_
+43	be	be	AUX	VB	VerbForm=Inf	44	aux	_	_
+44	hiding	hide	VERB	VBG	Tense=Pres|VerbForm=Part	27	conj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

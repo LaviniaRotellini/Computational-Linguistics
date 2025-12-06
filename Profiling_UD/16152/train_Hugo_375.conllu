@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I do not wish to disturb the court further,” resumed Jean Valjean.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	wish	wish	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	disturb	disturb	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	court	court	NOUN	NN	Number=Sing	7	obj	_	_
+10	further	further	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	_
+13	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+14	Jean	Jean	PROPN	NNP	Number=Sing	13	obj	_	_
+15	Valjean	Valjean	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “I shall withdraw, since you do not arrest me.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	withdraw	withdraw	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	since	since	SCONJ	IN	_	10	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	arrest	arrest	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have many things to do.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	things	thing	NOUN	NNS	Number=Plur	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The district-attorney knows who I am; he knows whither
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	district	district	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	attorney	attorney	NOUN	NN	Number=Sing	5	compound	_	_
+5	knows	know	NOUN	NNS	Number=Plur	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	8	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+12	whither	whhither	SCONJ	IN	Typo=Yes	11	xcomp	_	_
+
+# sent_id = 5
+# text = I am going; he can have me arrested when he likes.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part	7	xcomp	_	_
+10	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

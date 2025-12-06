@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And I am rejoiced to see you, too!’ he said, shaking my hands heartily.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	rejoiced	rejoice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	see	see	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	too	too	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	5	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	shaking	shake	VERB	VBG	VerbForm=Ger	14	ccomp	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hands	hand	NOUN	NNS	Number=Plur	16	obj	_	_
+19	heartily	heartily	ADV	RB	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘Why, Copperfield, old boy, don’t be overpowered!’
+1	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Copperfield	Copperfield	PROPN	NNP	Number=Sing	12	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	boy	boy	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	12	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	12	advmod	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	overpowered	overpower	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	12	punct	_	_
+
+# sent_id = 3
+# text = And yet he was glad, too, I thought, to see how the delight I had in meeting him affected me.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	yet	yet	ADV	RB	_	5	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	too	too	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	see	see	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	delight	delight	NOUN	NN	Number=Sing	13	obj	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	meeting	meeting	NOUN	NN	Number=Sing	22	obl	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	affected	affect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

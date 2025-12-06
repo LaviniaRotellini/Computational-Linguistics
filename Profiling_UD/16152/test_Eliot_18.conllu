@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There’s reason in what thee say’st, Adam,” observed Seth, gravely.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	reason	reason	NOUN	NN	Number=Sing	3	nsubj	_	_
+5	in	in	SCONJ	IN	_	6	case	_	_
+6	what	what	PRON	WP	PronType=Int	8	nsubj	_	_
+7	thee	thee	ADV	RB	_	8	advmod	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+9	’st	’st	ADV	RBS	Degree=Sup	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	Adam	Adam	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+15	Seth	Seth	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	gravely	gravely	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “But thee know’st thyself as it’s hearing the preachers thee find’st so much fault with has turned many an idle fellow into an industrious un.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	thee	thee	NUM	CD	NumType=Card	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	’st	’st	ADP	IN	_	6	case	_	_
+6	thyself	thyself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	_
+7	as	as	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	hearing	hear	VERB	VBG	Tense=Pres|VerbForm=Part	4	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	preachers	preacher	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	thee	thee	ADV	RB	_	14	advmod	_	_
+14	find	find	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
+15	’st	’st	ADV	RBS	Degree=Sup	17	advmod	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	much	much	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	fault	fault	NOUN	NN	Number=Sing	14	obj	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	_
+22	many	many	DET	PDT	_	25	det:predet	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	idle	idle	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	fellow	fellow	NOUN	NN	Number=Sing	21	obj	_	_
+26	into	into	ADP	IN	_	29	case	_	_
+27	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	industrious	industrious	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	un	un	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It’s the preacher as empties th’ alehouse; and if a man gets religion, he’ll do his work none the worse for that.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	preacher	preacher	NOUN	NN	Number=Sing	0	root	_	_
+5	as	as	ADP	IN	_	9	case	_	_
+6	empties	empty	NOUN	NNS	Number=Plur	9	compound	_	_
+7	th	th	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	alehouse	alehouse	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	and	and	CCONJ	CC	_	20	cc	_	_
+12	if	if	SCONJ	IN	_	15	mark	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	man	man	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+16	religion	religion	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	’ll	’ll	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	do	do	VERB	VB	VerbForm=Inf	4	conj	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	work	work	NOUN	NN	Number=Sing	23	compound	_	_
+23	none	none	NOUN	NN	Number=Sing	20	obj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	worse	worse	ADJ	JJR	Degree=Cmp	20	obj	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

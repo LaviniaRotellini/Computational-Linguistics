@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She stood looking at the table as if she stood looking at her own figure lying there.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	looking	look	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	table	table	NOUN	NN	Number=Sing	3	obl	_	_
+7	as	as	SCONJ	IN	_	10	mark	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+11	looking	look	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	own	own	ADJ	JJ	Degree=Pos	11	obl	_	_
+15	figure	figure	NOUN	NN	Number=Sing	11	obj	_	_
+16	lying	lie	VERB	VBG	VerbForm=Ger	15	acl	_	_
+17	there	there	ADV	RB	PronType=Dem	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I remained quiet.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quiet	quiet	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Estella returned, and she too remained quiet.
+1	Estella	Estella	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	quiet	quiet	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It seemed to me that we continued thus for a long time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	thus	thus	ADV	RB	_	7	advmod	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = In the heavy air of the room, and the heavy darkness that brooded in its remoter corners, I even had an alarming fancy that Estella and I might presently begin to decay.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	heavy	heavy	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	air	air	NOUN	NN	Number=Sing	22	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	room	room	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	heavy	heavy	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	darkness	darkness	NOUN	NN	Number=Sing	4	conj	_	_
+13	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	brooded	brood	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	remoter	remoter	NOUN	NN	Number=Sing	18	compound	_	_
+18	corners	corner	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	even	even	ADV	RB	_	22	advmod	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	alarming	alarming	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	fancy	fancy	NOUN	NN	Number=Sing	22	obj	_	_
+26	that	that	PRON	WDT	PronType=Rel	32	obj	_	_
+27	Estella	Estella	PROPN	NNP	Number=Sing	32	nsubj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	conj	_	_
+30	might	might	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	presently	presently	ADV	RB	_	32	advmod	_	_
+32	begin	begin	VERB	VB	VerbForm=Inf	25	acl:relcl	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	decay	decay	VERB	VB	VerbForm=Inf	32	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+

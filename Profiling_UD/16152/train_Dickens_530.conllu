@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well,
+1	‘	'	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 2
+# text = I am what they call an Oxford man,’ he returned; ‘that is to say, I get bored to death down there, periodically--and I am on my way now to my mother’s.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	12	ccomp	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	Oxford	Oxford	PROPN	NNP	Number=Sing	8	compound	_	_
+8	man	man	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	12	punct	_	_
+14	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	_
+16	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	say	say	VERB	VB	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	bored	bor	ADJ	JJ	Degree=Pos	21	xcomp	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	death	death	NOUN	NN	Number=Sing	21	obl	_	_
+25	down	down	ADV	RB	_	26	advmod	_	_
+26	there	there	ADV	RB	PronType=Dem	21	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	21	punct	_	_
+28	periodically	periodically	ADV	RB	_	21	advmod	_	SpaceAfter=No
+29	--	--	PUNCT	,	_	16	punct	_	SpaceAfter=No
+30	and	and	CCONJ	CC	_	35	cc	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+32	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	cop	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	way	way	NOUN	NN	Number=Sing	16	conj	_	_
+36	now	now	ADV	RB	_	35	advmod	_	_
+37	to	to	ADP	IN	_	40	case	_	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+39	mother	mother	NOUN	NN	Number=Sing	40	compound	_	SpaceAfter=No
+40	’s	's	NOUN	NNS	Number=Plur	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = You’re a devilish amiable-looking fellow, Copperfield.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+4	devilish	devilish	ADJ	JJ	Degree=Pos	7	advmod	_	_
+5	amiable	amiable	ADJ	JJ	Degree=Pos	7	advmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	looking	look	VERB	VBG	VerbForm=Ger	8	acl	_	_
+8	fellow	fellow	ADJ	JJ	Degree=Pos	2	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Copperfield	Copperfield	PROPN	NNP	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Just what you used to be, now I look at you!
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	to	to	PART	TO	_	10	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	10	cop	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	now	now	ADV	RB	_	10	advmod	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Not altered in the least!’
+1	Not	not	PART	RB	_	2	advmod	_	_
+2	altered	alter	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	least	least	ADJ	JJS	Degree=Sup	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

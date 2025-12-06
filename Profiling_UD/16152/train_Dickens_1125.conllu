@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I don’t think, Trotwood,’ returned Agnes, raising her soft eyes to mine, ‘I would consider that.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Trotwood	Trotwood	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	5	punct	_	_
+10	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+11	Agnes	Agnes	PROPN	NNPS	Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	raising	raise	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	soft	soft	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	eyes	eye	NOUN	NNS	Number=Plur	13	obj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	mine	mine	PRON	PRP	_	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	5	punct	_	_
+20	‘	'	PUNCT	``	_	23	punct	_	SpaceAfter=No
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	consider	consider	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Perhaps it would be better only to consider whether it is right to do this; and, if it is, to do it.’
+1	Perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	only	only	ADV	RB	_	5	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	consider	consider	VERB	VB	VerbForm=Inf	5	csubj	_	_
+9	whether	whether	SCONJ	IN	_	12	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	right	right	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	do	do	VERB	VB	VerbForm=Inf	12	csubj	_	_
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	obj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	5	punct	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	if	if	SCONJ	IN	_	21	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	do	do	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

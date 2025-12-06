@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All at once she seized her paving stone, laughed, and hurled it with both fists upon the workmen.
+1	All	all	DET	DT	_	5	nsubj	_	_
+2	at	at	ADV	RB	_	5	advmod	_	_
+3	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	seized	seize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	paving	pave	NOUN	NN	Number=Sing	8	compound	_	_
+8	stone	stone	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	hurled	hurl	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	both	both	DET	DT	_	17	det	_	_
+17	fists	fists	NOUN	NNS	Number=Plur	13	obl	_	_
+18	upon	upon	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	workmen	workman	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The stone, badly flung (for her hands trembled), touched no one, and fell short under the feet of Tristan’s horse.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stone	stone	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	badly	badly	ADV	RB	Degree=Pos	10	advmod	_	_
+5	flung	flung	NOUN	NN	Number=Sing	10	compound	_	_
+6	(	(	PUNCT	-LRB-	_	9	punct	_	SpaceAfter=No
+7	for	for	ADP	IN	_	9	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	trembled	tremble	VERB	VBN	Tense=Past|VerbForm=Part	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	one	one	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+19	short	short	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+20	under	under	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	feet	foot	NOUN	NNS	Number=Plur	18	obl	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	Tristan	Tristan	PROPN	NNP	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	_
+26	horse	horse	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = She gnashed her teeth.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gnashed	gnash	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	teeth	tooth	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

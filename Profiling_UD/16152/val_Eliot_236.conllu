@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, but I don’t like reading; I’d sooner have you tell them me.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	but	but	CCONJ	CC	_	8	cc	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+9	reading	read	VERB	VBG	VerbForm=Ger	8	xcomp	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	8	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	sooner	sooner	ADV	RBR	Degree=Cmp	12	advmod	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	tell	tell	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But only the fighting ones, you know.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	only	only	ADV	RB	_	5	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	fighting	fighting	NOUN	NN	Number=Sing	5	compound	_	_
+5	ones	one	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = My sister Maggie is always wanting to tell me stories, but they’re stupid things.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	sister	sister	NOUN	NN	Number=Sing	3	compound	_	_
+3	Maggie	Maggie	PROPN	NNP	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	always	always	ADV	RB	_	6	advmod	_	_
+6	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+10	stories	story	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+14	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	stupid	stupid	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	things	thing	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Girls’ stories always are.
+1	Girls	girls	NOUN	NNS	Number=Plur	3	nmod:poss	_	SpaceAfter=No
+2	’	's	PART	POS	_	1	case	_	_
+3	stories	story	NOUN	NNS	Number=Plur	0	root	_	_
+4	always	always	ADV	RB	_	3	advmod	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Can you tell a good many fighting stories?”
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	fighting	fighting	NOUN	NN	Number=Sing	8	compound	_	_
+8	stories	story	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

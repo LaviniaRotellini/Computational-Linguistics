@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well!’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	0	root	_	_
+
+# sent_id = 2
+# text = he resumed at length.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	length	length	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘Says you, “Peggotty!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+6	Peggotty	Peggotty	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Barkis is waitin’ for a answer.”
+1	Barkis	Barkis	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	waitin	waitin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	3	punct	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	answer	answer	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 5
+# text = Says she, perhaps, “Answer to what?”
+1	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	perhaps	perhaps	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+7	Answer	answer	NOUN	NN	Number=Sing	1	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	what	what	PRON	WP	PronType=Int	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 6
+# text = Says you,
+1	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 7
+# text = “To what I told you.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	To	to	SCONJ	IN	_	3	case	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 8
+# text = “What is that?” says she.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	3	punct	_	_
+7	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 9
+# text = “Barkis is willin’,” says you.’
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Barkis	Barkis	PRON	PRP	_	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	willin	willin	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

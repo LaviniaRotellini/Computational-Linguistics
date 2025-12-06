@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All this necessitated a host of manoeuvres and connivances, which required impenetrable secrecy.
+1	All	all	DET	PDT	_	5	det:predet	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+3	necessitated	necessitate	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	host	host	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	manoeuvres	manoeuvre	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	connivances	connivance	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	required	require	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+13	impenetrable	impenetrable	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	secrecy	secrecy	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = A contrabandist was entrusted with a good many things, and knew how to keep them secret.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	contrabandist	contrabandist	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	entrusted	entrust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	things	thing	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	how	how	ADV	WRB	PronType=Int	15	advmod	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	secret	secret	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = An inviolable confidence was the condition of his existence.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	inviolable	inviolable	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	confidence	confidence	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	condition	condition	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	existence	existence	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = The first quality, in fact, in a smuggler was strict honour in his own circle.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	quality	quality	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	fact	fact	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	smuggler	smuggler	NOUN	NN	Number=Sing	13	obl	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	strict	strict	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	honour	honour	NOUN	NN	Number=Sing	0	root	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	circle	circle	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = No discreetness, no smuggling.
+1	No	no	DET	DT	_	2	det	_	_
+2	discreetness	discreetness	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	smuggling	smuggling	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Fraud has its secrets like the priest's confessional.
+1	Fraud	fraud	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	secrets	secret	NOUN	NNS	Number=Plur	2	obj	_	_
+5	like	like	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	priest	priest	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	confessional	confessional	ADJ	JJ	Degree=Pos	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

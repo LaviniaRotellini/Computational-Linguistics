@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I cannot disguise from you, Jupe,’ said Mr. Gradgrind, knitting his brow, ‘that the result of your probation there has disappointed me; has greatly disappointed me.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	disguise	disguise	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	Jupe	Jupe	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	knitting	knitt	VERB	VBG	VerbForm=Ger	12	xcomp	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	brow	brow	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+21	that	that	SCONJ	IN	_	29	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	result	result	NOUN	NN	Number=Sing	29	nsubj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	probation	probation	NOUN	NN	Number=Sing	23	nmod	_	_
+27	there	there	ADV	RB	PronType=Dem	26	advmod	_	_
+28	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	disappointed	disappoin	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+30	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	obj	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	12	punct	_	_
+32	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+33	greatly	greatly	ADV	RB	_	34	advmod	_	_
+34	disappointed	disappoin	VERB	VBN	Tense=Past|VerbForm=Part	12	parataxis	_	_
+35	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = You have not acquired, under Mr. and Mrs. M’Choakumchild, anything like that amount of exact knowledge which I looked for.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	acquired	acquire	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	under	under	ADP	IN	_	7	case	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	conj	_	_
+10	M’	M's	PART	POS	_	11	mark	_	SpaceAfter=No
+11	Choakumchild	Choakumchild	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	anything	anything	PRON	NN	Number=Sing	11	parataxis	_	_
+14	like	like	ADP	IN	_	16	case	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	amount	amount	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	exact	exact	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	knowledge	knowledge	NOUN	NN	Number=Sing	16	nmod	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	obj	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+23	for	for	ADP	IN	_	22	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = You are extremely deficient in your facts.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	extremely	extremely	ADV	RB	_	4	advmod	_	_
+4	deficient	deficient	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	facts	facts	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Your acquaintance with figures is very limited.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	acquaintance	acquaintance	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	figures	figure	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	limited	limited	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = You are altogether backward, and below the mark.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	altogether	altogether	ADV	RB	_	4	advmod	_	_
+4	backward	backward	ADV	RB	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	below	below	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	mark	mark	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

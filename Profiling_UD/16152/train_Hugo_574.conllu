@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = sir, my dear sir, take her, keep her, lead her off, carry her away, sugar her, stuff her with truffles, drink her, eat her, and the blessings of the good holy Virgin and of all the saints of paradise be upon you!”
+1	sir	sir	NOUN	NN	Number=Sing	7	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sir	sir	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	lead	lead	VERB	VB	Mood=Imp|VerbForm=Fin	10	conj	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	obj	_	_
+15	off	off	ADP	RP	_	13	compound:prt	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	carry	carry	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	obj	_	_
+19	away	away	ADV	RB	_	17	compound:prt	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	sugar	sugar	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	stuff	stuff	NOUN	NN	Number=Sing	21	obj	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	truffles	truffle	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	drink	drink	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+30	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	eat	eat	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+33	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	52	punct	_	_
+35	and	and	CCONJ	CC	_	52	cc	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	blessings	blessing	NOUN	NNS	Number=Plur	52	nsubj	_	_
+38	of	of	ADP	IN	_	42	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+40	good	good	ADJ	JJ	Degree=Pos	42	amod	_	_
+41	holy	holy	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	Virgin	Virgin	PROPN	NNP	Number=Sing	37	nmod	_	_
+43	and	and	CCONJ	CC	_	47	cc	_	_
+44	of	of	ADP	IN	_	47	case	_	_
+45	all	all	DET	PDT	_	47	det:predet	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+47	saints	saint	NOUN	NNS	Number=Plur	42	conj	_	_
+48	of	of	ADP	IN	_	49	case	_	_
+49	paradise	paradise	NOUN	NN	Number=Sing	47	nmod	_	_
+50	be	be	AUX	VB	VerbForm=Inf	52	cop	_	_
+51	upon	upon	ADP	IN	_	52	case	_	_
+52	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	conj	_	SpaceAfter=No
+53	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+54	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He talks to that creature in her own tongue!” added Fleur-de-Lys, in a low tone, her irritation increasing every moment.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	creature	creature	NOUN	NN	Number=Sing	3	obl	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	tongue	tongue	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	Fleur	Fleur	PROPN	NNP	Number=Sing	13	obj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+16	de	de	PROPN	NNP	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	Lys	Ly	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	14	punct	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	low	low	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	tone	tone	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	irritation	irritation	NOUN	NN	Number=Sing	27	nsubj	_	_
+27	increasing	increase	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+28	every	every	DET	DT	_	29	det	_	_
+29	moment	moment	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This irritation was not diminished when she beheld the captain, enchanted with the gypsy, and, most of all, with himself, execute a pirouette on his heel, repeating with coarse, naïve, and soldierly gallantry,—
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	irritation	irritation	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	diminished	diminish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	beheld	beheld	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	captain	captain	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	enchanted	enchant	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	gypsy	gypsy	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	26	punct	_	_
+17	and	and	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	26	punct	_	_
+19	most	most	ADJ	JJS	Degree=Sup	26	nsubj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	all	all	ADV	RB	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	with	with	ADP	IN	_	24	case	_	_
+24	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	execute	execute	VERB	VB	VerbForm=Inf	5	conj	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	pirouette	pirouette	NOUN	NN	Number=Sing	26	obj	_	_
+29	on	on	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	heel	heel	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	5	punct	_	_
+33	repeating	repeat	VERB	VBG	VerbForm=Ger	5	conj	_	_
+34	with	with	ADP	IN	_	35	case	_	_
+35	coarse	coarse	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	naïve	naïve	NOUN	NN	Number=Sing	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	41	punct	_	_
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	soldierly	soldierly	ADV	RB	_	41	advmod	_	_
+41	gallantry	gallantry	NOUN	NN	Number=Sing	35	conj	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+43	—	-	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

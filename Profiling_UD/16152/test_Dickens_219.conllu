@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How do you manage, Biddy,” said I, “to learn everything that I learn, and always to keep up with me?”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	manage	manage	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Biddy	Biddy	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	to	to	PART	TO	_	15	mark	_	_
+15	learn	learn	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+16	everything	everything	PRON	NN	Number=Sing	15	obj	_	_
+17	that	that	PRON	WDT	PronType=Rel	19	obj	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	learn	learn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	always	always	ADV	RB	_	24	advmod	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	keep	keep	VERB	VB	VerbForm=Inf	10	conj	_	_
+25	up	up	ADP	RP	_	24	compound:prt	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 2
+# text = I was beginning to be rather vain of my knowledge, for I spent my birthday guineas on it, and set aside the greater part of my pocket-money for similar investment; though I have no doubt, now, that the little I knew was extremely dear at the price.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	7	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	rather	rather	ADV	RB	_	7	advmod	_	_
+7	vain	vain	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	knowledge	knowledge	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	for	for	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	birthday	birthday	NOUN	NN	Number=Sing	17	compound	_	_
+17	guineas	guinea	NOUN	NNS	Number=Plur	14	obj	_	_
+18	on	on	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	set	set	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+23	aside	aside	ADP	RP	_	22	compound:prt	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	greater	greater	ADJ	JJR	Degree=Cmp	26	amod	_	_
+26	part	part	NOUN	NN	Number=Sing	22	obj	_	_
+27	of	of	ADP	IN	_	31	case	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+29	pocket	pocket	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	money	money	NOUN	NN	Number=Sing	26	nmod	_	_
+32	for	for	ADP	IN	_	34	case	_	_
+33	similar	similar	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	investment	investment	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+35	;	;	PUNCT	,	_	3	punct	_	_
+36	though	though	SCONJ	IN	_	38	mark	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+38	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	51	advcl	_	_
+39	no	no	DET	DT	_	40	det	_	_
+40	doubt	doubt	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	51	punct	_	_
+42	now	now	ADV	RB	_	51	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	51	punct	_	_
+44	that	that	SCONJ	IN	_	51	mark	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+46	little	little	ADJ	JJ	Degree=Pos	51	nsubj	_	_
+47	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
+48	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	46	acl:relcl	_	_
+49	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	cop	_	_
+50	extremely	extremely	ADV	RB	_	51	advmod	_	_
+51	dear	dear	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+52	at	at	ADP	IN	_	54	case	_	_
+53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	_
+54	price	price	NOUN	NN	Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

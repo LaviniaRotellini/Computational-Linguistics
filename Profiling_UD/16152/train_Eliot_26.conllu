@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dorothea felt hurt.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	hurt	hurt	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mr. Casaubon would think that her uncle had some special reason for delivering this opinion, whereas the remark lay in his mind as lightly as the broken wing of an insect among all the other fragments there, and a chance current had sent it alighting on _her_.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Casaubon	Casaubon	PROPN	NNP	Number=Sing	1	flat	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	uncle	uncle	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+9	some	some	DET	DT	_	11	det	_	_
+10	special	special	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	reason	reason	NOUN	NN	Number=Sing	8	obj	_	_
+12	for	for	SCONJ	IN	_	13	mark	_	_
+13	delivering	deliver	VERB	VBG	VerbForm=Ger	8	acl	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	opinion	opinion	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	whereas	whereas	SCONJ	IN	_	20	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	remark	remark	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	mind	mind	NOUN	NN	Number=Sing	20	obl	_	_
+24	as	as	ADV	RB	_	25	advmod	_	_
+25	lightly	lightly	ADV	RB	Degree=Pos	20	advmod	_	_
+26	as	as	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	broken	broken	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	wing	wing	NOUN	NN	Number=Sing	25	obl	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	an	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	insect	insect	NOUN	NN	Number=Sing	29	nmod	_	_
+33	among	among	ADP	IN	_	37	case	_	_
+34	all	all	DET	PDT	_	37	det:predet	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	other	other	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	fragments	fragment	NOUN	NNS	Number=Plur	38	nsubj	_	_
+38	there	there	ADV	RB	PronType=Dem	32	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	45	punct	_	_
+40	and	and	CCONJ	CC	_	45	cc	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	chance	chance	NOUN	NN	Number=Sing	43	compound	_	_
+43	current	current	NOUN	NN	Number=Sing	45	nsubj	_	_
+44	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	aux	_	_
+45	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	_
+46	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	iobj	_	_
+47	alighting	alight	NOUN	NN	Number=Sing	45	obl	_	_
+48	on	on	ADP	IN	_	47	case	_	_
+49	_her_	_her_	SYM	NFP	_	4	discourse	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What remained to be done was a mere nothing.
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	mere	mere	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	nothing	nothing	PRON	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Within the last two years, he had made good Father Mestienne, a chubby-cheeked person, drunk at least ten times.
+1	Within	within	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	last	last	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Father	Father	PROPN	NNP	Number=Sing	9	obj	_	_
+12	Mestienne	Mestienne	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	chubby	chubby	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	cheeked	cheek	NOUN	NN	Number=Sing	18	compound	_	_
+18	person	person	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	9	punct	_	_
+20	drunk	drink	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+21	at	at	ADV	RB	_	22	case	_	_
+22	least	least	ADV	RBS	Degree=Sup	23	nmod	_	_
+23	ten	ten	NUM	CD	NumType=Card	24	nummod	_	_
+24	times	time	NOUN	NNS	Number=Plur	20	obl:tmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = He played with Father Mestienne.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	Father	Father	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Mestienne	Mestienne	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He did what he liked with him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	what	what	PRON	WP	PronType=Int	2	obj	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = He made him dance according to his whim.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+4	dance	dance	NOUN	NN	Number=Sing	2	obj	_	_
+5	according	accord	VERB	VBG	VerbForm=Ger	8	case	_	_
+6	to	to	ADP	IN	_	5	fixed	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	whim	whim	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mestienne’s head adjusted itself to the cap of Fauchelevent’s will.
+1	Mestienne	Mestienne	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	head	head	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	adjusted	adjust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	cap	cap	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	Fauchelevent	Fauchelevent	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	will	will	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Fauchelevent’s confidence was perfect.
+1	Fauchelevent	Fauchelevent	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	confidence	confidence	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	perfect	perfect	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

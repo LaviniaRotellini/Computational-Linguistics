@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am well aware that I am the umblest person going,’ said Uriah Heep, modestly; ‘let the other be where he may.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	aware	aware	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	umblest	umblest	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	person	person	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	going	go	VERB	VBG	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Uriah	Uriah	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	Heep	Heep	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	modestly	modestly	ADV	RB	_	16	advmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	15	punct	_	_
+21	‘	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
+22	let	let	VERB	VB	VerbForm=Inf	15	parataxis	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	other	other	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	be	be	NOUN	NN	Number=Sing	22	obj	_	_
+26	where	where	ADV	WRB	PronType=Rel	28	advmod	_	_
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	may	may	AUX	MD	VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = My mother is likewise a very umble person.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	mother	mother	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	likewise	likewise	ADV	RB	_	8	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	umble	umble	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	person	person	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = We live in a numble abode, Master Copperfield, but have much to be thankful for.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	numble	numble	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	abode	abode	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	Master	master	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Copperfield	Copperfield	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	but	but	CCONJ	CC	_	12	cc	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	much	much	ADJ	JJ	Degree=Pos	12	obj	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	thankful	thankful	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+17	for	for	ADP	IN	_	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = My father’s former calling was umble.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	former	former	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	calling	calling	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	umble	umble	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = He was a sexton.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	sexton	sexton	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

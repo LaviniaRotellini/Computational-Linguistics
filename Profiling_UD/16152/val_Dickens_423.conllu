@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She put her hands to her dress, as if she hardly knew.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hands	hand	NOUN	NNS	Number=Plur	2	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	dress	dress	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	as	as	SCONJ	IN	_	13	mark	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	hardly	hardly	ADV	RB	_	13	advmod	_	_
+13	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘Yes.’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = Then she uncovered her head, and letting her cloak and hood fall where they might, stood looking at him: so colourless, so dishevelled, so defiant and despairing, that he was afraid of her.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	uncovered	uncover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	head	head	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	letting	let	VERB	VBG	VerbForm=Ger	13	conj	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	cloak	cloak	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	hood	hood	NOUN	NN	Number=Sing	10	conj	_	_
+13	fall	fall	VERB	VB	VerbForm=Inf	3	advcl	_	_
+14	where	where	ADV	WRB	PronType=Int	16	mark	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	might	might	AUX	MD	VerbForm=Fin	3	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	looking	look	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+20	at	at	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	:	:	PUNCT	:	_	3	punct	_	_
+23	so	so	ADV	RB	_	24	advmod	_	_
+24	colourless	colourless	ADJ	JJ	Degree=Pos	37	amod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	so	so	ADV	RB	_	27	advmod	_	_
+27	dishevelled	dishevelled	ADJ	JJ	Degree=Pos	24	list	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	24	punct	_	_
+29	so	so	ADV	RB	_	30	advmod	_	_
+30	defiant	defiant	ADJ	JJ	Degree=Pos	24	list	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	despairing	despairing	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	24	punct	_	_
+34	that	that	SCONJ	IN	_	37	mark	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
+37	afraid	afraid	ADJ	JJ	Degree=Pos	3	advcl	_	_
+38	of	of	ADP	IN	_	39	case	_	_
+39	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

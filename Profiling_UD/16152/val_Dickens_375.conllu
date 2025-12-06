@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear brother:’ she laid her head down on his pillow, and her hair flowed over him as if she would hide him from every one but herself:
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	brother	brother	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	:’	:’	PUNCT	.	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	head	head	NOUN	NN	Number=Sing	7	obj	_	_
+10	down	down	ADV	RB	_	7	advmod	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	pillow	pillow	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hair	hair	NOUN	NN	Number=Sing	18	nsubj	_	_
+18	flowed	flow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	over	over	ADP	IN	_	20	case	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	as	as	SCONJ	IN	_	25	mark	_	_
+22	if	if	SCONJ	IN	_	25	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	hide	hide	VERB	VB	VerbForm=Inf	18	advcl	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	from	from	ADP	IN	_	29	case	_	_
+28	every	every	DET	DT	_	29	det	_	_
+29	one	one	NUM	CD	NumType=Card	25	obl	_	_
+30	but	but	CCONJ	CC	_	31	cc	_	_
+31	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	conj	_	SpaceAfter=No
+32	:	:	PUNCT	:	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘is there nothing that you have to tell me?
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	7	obj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	tell	tell	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Is there nothing you can tell me if you will?
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	there	there	PRON	EX	_	1	expl	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	1	nsubj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	tell	tell	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	6	advcl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = You can tell me nothing that will change me.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	change	change	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = O Tom, tell me the truth!’
+1	O	of	INTJ	UH	_	4	discourse	_	_
+2	Tom	Tom	PROPN	NNP	Number=Sing	1	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	truth	truth	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

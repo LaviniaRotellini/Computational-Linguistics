@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Never mind what you have always longed for, Mr. Pip,” he retorted; “keep to the record.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Never	never	INTJ	UH	_	3	discourse	_	_
+3	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	3	obj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	always	always	ADV	RB	_	8	advmod	_	_
+8	longed	longe	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	for	for	ADP	IN	_	8	case	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+12	Pip	Pip	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	3	punct	_	_
+18	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	keep	keep	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	record	record	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = If you long for it now, that’s enough.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	long	long	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Am I answered that you are ready to be placed at once under some proper tutor?
+1	Am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	answered	answer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	ready	ready	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	once	once	ADV	RB	NumType=Mult	10	obl	_	_
+13	under	under	ADP	IN	_	16	case	_	_
+14	some	some	DET	DT	_	16	det	_	_
+15	proper	proper	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	tutor	tutor	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Is that it?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

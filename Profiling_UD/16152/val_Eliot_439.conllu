@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I can’t believe that you have thought of me so much as I have thought of you,” said Philip, timidly.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	believe	believe	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	much	much	ADV	RB	_	9	advmod	_	_
+14	as	as	SCONJ	IN	_	17	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Philip	Philip	PROPN	NNP	Number=Sing	22	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	timidly	timidly	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “Do you know, when I was away, I made a picture of you as you looked that morning in the study when you said you would not forget me.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	away	away	ADV	RB	_	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	picture	picture	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	nmod	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+20	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	morning	morning	NOUN	NN	Number=Sing	19	obl:tmod	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	study	study	NOUN	NN	Number=Sing	21	nmod	_	_
+25	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+27	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+29	would	would	AUX	MD	VerbForm=Fin	31	aux	_	_
+30	not	not	PART	RB	_	31	advmod	_	_
+31	forget	forget	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

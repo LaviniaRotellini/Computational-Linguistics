@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = you are scoffing at the provostship, wretch!
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scoffing	scoff	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	provostship	provostship	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	wretch	wretch	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Messieurs the sergeants of the mace, you will take me this knave to the pillory of the Grève, you will flog him, and turn him for an hour.
+1	Messieurs	Messieur	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	sergeants	sergeant	NOUN	NNS	Number=Plur	1	obj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	mace	mace	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	take	take	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	knave	knave	NOUN	NN	Number=Sing	10	obj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	pillory	pillory	NOUN	NN	Number=Sing	10	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	Grève	Grève	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	1	punct	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	flog	flog	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	turn	turn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	conj	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	for	for	ADP	IN	_	31	case	_	_
+30	an	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	hour	hour	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = He shall pay me for it, _tête Dieu!_
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	_tête	_tête	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	Dieu	Dieu	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	!_	!_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = And I order that the present judgment shall be cried, with the assistance of four sworn trumpeters, in the seven castellanies of the viscomty of Paris.”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	order	order	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	present	present	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	judgment	judgment	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	cried	cry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	assistance	assistance	NOUN	NN	Number=Sing	10	obl	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	four	four	NUM	CD	NumType=Card	18	nummod	_	_
+17	sworn	swear	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	trumpeters	trumpeter	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	10	punct	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	seven	seven	NUM	CD	NumType=Card	23	nummod	_	_
+23	castellanies	castellany	NOUN	NNS	Number=Plur	10	obl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	viscomty	viscomty	NOUN	NN	Number=Sing	23	nmod	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	Paris	Paris	PROPN	NNP	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

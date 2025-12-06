@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That man of God was Mr. Wesley, who spent his life in doing what our blessed Lord did—preaching the Gospel to the poor—and he entered into his rest eight years ago.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	God	God	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	22	nsubj	_	_
+8	Wesley	Wesley	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	life	life	NOUN	NN	Number=Sing	11	obj	_	_
+14	in	in	SCONJ	IN	_	15	mark	_	_
+15	doing	do	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+16	what	what	PRON	WP	PronType=Int	18	obj	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nsubj	_	_
+18	blessed	bless	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+19	Lord	Lord	PROPN	NNP	Number=Sing	20	nsubj	_	_
+20	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
+21	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+22	preaching	preach	VERB	VBG	VerbForm=Ger	0	root	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	Gospel	Gospel	PROPN	NNP	Number=Sing	22	obj	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	poor	poor	ADJ	JJ	Degree=Pos	22	obl	_	SpaceAfter=No
+28	—	-	PUNCT	,	_	31	punct	_	SpaceAfter=No
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
+32	into	into	ADP	IN	_	34	case	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	rest	rest	NOUN	NN	Number=Sing	31	obl	_	_
+35	eight	eight	NUM	CD	NumType=Card	36	nummod	_	_
+36	years	year	NOUN	NNS	Number=Plur	37	obl:npmod	_	_
+37	ago	ago	ADV	RB	_	31	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = I came to know more about him years after, but I was a foolish thoughtless child then, and I remembered only one thing he told us in his sermon.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	years	year	NOUN	NNS	Number=Plur	4	obj	_	_
+9	after	after	ADV	RB	_	4	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	17	punct	_	_
+11	but	but	CCONJ	CC	_	17	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	foolish	foolish	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	thoughtless	thoughtless	NOUN	NN	Number=Sing	17	compound	_	_
+17	child	child	NOUN	NN	Number=Sing	2	conj	_	_
+18	then	then	ADV	RB	PronType=Dem	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+23	only	only	ADV	RB	_	25	advmod	_	_
+24	one	one	NUM	CD	NumType=Card	25	nummod	_	_
+25	thing	thing	NOUN	NN	Number=Sing	22	obj	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+28	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	27	obj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	sermon	sermon	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He told us as ‘Gospel’ meant ‘good news.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	as	as	ADP	IN	_	6	case	_	_
+5	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	Gospel	Gospel	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	_
+8	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+9	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	news	news	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = The Gospel, you know, is what the Bible tells us about God.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Gospel	Gospel	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	what	what	PRON	WP	PronType=Int	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Bible	Bible	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	about	about	ADP	IN	_	14	case	_	_
+14	God	God	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

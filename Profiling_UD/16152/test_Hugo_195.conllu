@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Coictier, who had eagerly approached the book, could not repress an exclamation.
+1	Coictier	Coictier	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	eagerly	eagerly	ADV	RB	_	6	advmod	_	_
+6	approached	approach	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	book	book	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	repress	repress	VERB	VB	VerbForm=Inf	0	root	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	exclamation	exclamation	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Hé, but now, what is there so formidable in this: ‘GLOSSA IN EPISTOLAS D. PAULI, _Norimbergæ, Antonius Koburger_, 1474.’
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hé	Hé	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	but	but	CCONJ	CC	_	8	cc	_	_
+5	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	what	what	PRON	WP	PronType=Int	8	nsubj	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	there	there	PRON	EX	_	8	expl	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	formidable	formidable	ADJ	JJ	Degree=Pos	8	amod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	11	punct	_	_
+15	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	GLOSSA	GLOSSA	PROPN	NNP	Number=Sing	11	appos	_	_
+17	IN	in	ADP	IN	_	20	case	_	_
+18	EPISTOLAS	EPISTOLAS	PROPN	NNP	Number=Sing	20	compound	_	_
+19	D.	D.	PROPN	NNP	Number=Sing	18	flat	_	_
+20	PAULI	PAULI	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	_Norimbergæ	_Norimbergæ	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	Antonius	Antonius	CCONJ	CC	_	25	cc	_	_
+25	Koburger_	koburger_	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	16	punct	_	_
+27	1474	1474	NUM	CD	NumType=Card	16	appos	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+29	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = This is not new.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	new	new	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = ’Tis a book of Pierre Lombard, the Master of Sentences.
+1	’	'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+2	Tis	tTis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	book	book	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Pierre	Pierre	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	Lombard	Lombard	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Master	master	NOUN	NN	Number=Sing	6	appos	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Sentences	sentences	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Is it because it is printed?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+3	because	because	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	printed	print	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

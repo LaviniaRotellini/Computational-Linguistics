@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2_d Gent_.
+1	2_d	2_d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Gent_.	Gent_.	PROPN	NNP	Number=Sing	1	obj	_	_
+
+# sent_id = 2
+# text = Nay, power is relative; you cannot fright
+1	Nay	Nay	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	power	power	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	relative	relative	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	not	not	PART	RB	_	10	advmod	_	_
+10	fright	fright	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+
+# sent_id = 3
+# text = The coming pest with border fortresses,
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	coming	come	VERB	VBG	VerbForm=Ger	3	amod	_	_
+3	pest	pest	NOUN	NN	Number=Sing	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	border	border	NOUN	NN	Number=Sing	6	compound	_	_
+6	fortresses	fortress	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 4
+# text = Or catch your carp with subtle argument.
+1	Or	or	CCONJ	CC	_	2	cc	_	_
+2	catch	catch	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	carp	carp	NOUN	NN	Number=Sing	2	obj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	subtle	subtle	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	argument	argument	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = All force is twain in one: cause is not cause Unless effect be there; and action’s self Must needs contain a passive.
+1	All	all	DET	DT	_	2	det	_	_
+2	force	force	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	twain	twain	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	4	obl	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	4	punct	_	_
+8	cause	cause	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	cause	cause	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+12	Unless	unless	SCONJ	IN	_	15	mark	_	_
+13	effect	effect	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	there	there	ADV	RB	PronType=Dem	11	advcl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	11	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	action	action	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+19	’s	's	NOUN	NNS	Number=Plur	23	obl	_	_
+20	self	self	PRON	PRP	_	23	nsubj	_	_
+21	Must	must	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	needs	need	ADV	RB	_	23	advmod	_	_
+23	contain	contain	VERB	VB	VerbForm=Inf	11	conj	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	passive	passive	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = So command Exists but with obedience.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	command	command	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Exists	exists	PROPN	NNPS	Number=Plur	0	root	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	obedience	obedience	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

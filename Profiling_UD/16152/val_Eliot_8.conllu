@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, that he does,” said Mrs Tulliver, accepting the last proposition entirely on its own merits; “he’s wonderful for liking a deal o’ salt in his broth.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs	Mrs	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Tulliver	Tulliver	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	accepting	accept	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	last	last	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	proposition	proposition	NOUN	NN	Number=Sing	13	obj	_	_
+17	entirely	entirely	ADV	RB	_	21	advmod	_	_
+18	on	on	ADP	IN	_	21	case	_	_
+19	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	own	own	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	merits	merit	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	9	punct	_	_
+23	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No
+25	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	wonderful	wonderful	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+27	for	for	SCONJ	IN	_	28	mark	_	_
+28	liking	li	VERB	VBG	VerbForm=Ger	26	advcl	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	deal	deal	NOUN	NN	Number=Sing	31	compound	_	_
+31	o	of	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+32	’	'	PUNCT	''	_	31	punct	_	_
+33	salt	salt	NOUN	NN	Number=Sing	31	appos	_	_
+34	in	in	ADP	IN	_	36	case	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	broth	broth	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = That was my brother’s way, and my father’s before him.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	brother	brother	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	father	father	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	before	before	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

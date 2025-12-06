@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ra-a-ther too much, my friend.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ra	ra	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	-a	-a	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	-	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+5	ther	ther	DET	DT	Typo=Yes	7	det	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	much	much	ADJ	JJ	Degree=Pos	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	friend	friend	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I have heard of your doings.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	doings	doings	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Who was it that sold his bit of land to the Papists at Middlemarch?
+1	Who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	sold	sell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	bit	bit	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	land	land	NOUN	NN	Number=Sing	7	nmod	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Papists	Papist	PROPN	NNPS	Number=Plur	5	obl	_	_
+13	at	at	ADP	IN	_	14	case	_	_
+14	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	0	root	_	_
+
+# sent_id = 4
+# text = I believe you bought it on purpose.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	purpose	purpose	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = You are a perfect Guy Faux.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	perfect	perfect	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Guy	guy	NOUN	NN	Number=Sing	6	compound	_	_
+6	Faux	Faux	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = See if you are not burnt in effigy this 5th of November coming.
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	if	if	SCONJ	IN	_	6	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	burnt	burn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	effigy	effigy	NUM	CD	NumType=Card	6	obl	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	5th	5th	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	November	November	PROPN	NNP	Number=Sing	10	nmod	_	_
+13	coming	come	VERB	VBG	VerbForm=Ger	6	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Humphrey would not come to quarrel with you about it, so I am come.”
+1	Humphrey	Humphrey	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	quarrel	quarrel	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obl	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	so	so	ADV	RB	_	15	advmod	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	come	come	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The deuce!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	deuce	deuce	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Look out for yourself.
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	out	out	ADP	RP	_	1	compound:prt	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = He is a fine swordsman.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	fine	fine	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	swordsman	swordsman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = His play is neat.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	play	play	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	neat	neat	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = He has the attack, no wasted feints, wrist, dash, lightning, a just parade, mathematical parries, _bigre!_ and he is left-handed.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	attack	attack	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	no	no	DET	DT	_	8	det	_	_
+7	wasted	wasted	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	feints	feint	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	wrist	wrist	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	dash	dash	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	lightning	lightning	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+17	just	just	ADV	RB	_	18	advmod	_	_
+18	parade	parade	ADJ	JJ	Degree=Pos	21	amod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	mathematical	mathematical	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	parries	parry	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	_bigre	_bigre	ADV	RB	PronType=Dem	8	conj	_	SpaceAfter=No
+24	!_	!_	PUNCT	.	_	28	punct	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	left	left	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+29	-	-	PUNCT	,	_	30	punct	_	SpaceAfter=No
+30	handed	handed	VERB	VBN	Tense=Past|VerbForm=Part	28	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

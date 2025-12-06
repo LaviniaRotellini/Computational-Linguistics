@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He did it for the sake of employing those accursed singers of the King of Sicily!” cried an old woman sharply from among the crowd beneath the window.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sake	sake	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	SCONJ	IN	_	9	mark	_	_
+9	employing	employing	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+11	accursed	accurse	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	singers	singer	NOUN	NNS	Number=Plur	9	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	King	King	PROPN	NNP	Number=Sing	12	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Sicily	Sicily	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	old	old	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	woman	woman	NOUN	NN	Number=Sing	20	obj	_	_
+24	sharply	sharply	ADV	RB	_	23	advmod	_	_
+25	from	from	ADP	IN	_	28	case	_	_
+26	among	among	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	crowd	crowd	NOUN	NN	Number=Sing	24	obl	_	_
+29	beneath	beneath	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	window	window	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “I just put it to you!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = A thousand _livres parisi_ for a mass!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	thousand	thousand	NUM	CD	NumType=Card	3	nummod	_	_
+3	_livres	_livre	NOUN	NNS	Number=Plur	4	compound	_	_
+4	parisi	parisi	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	_	_	SYM	NFP	_	4	punct	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	mass	mass	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = and out of the tax on sea fish in the markets of Paris, to boot!”
+1	and	and	CCONJ	CC	_	16	cc	_	_
+2	out	out	ADP	IN	_	5	case	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	tax	tax	NOUN	NN	Number=Sing	16	obl	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	sea	sea	NOUN	NN	Number=Sing	8	compound	_	_
+8	fish	fish	NOUN	NN	Number=Sing	5	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	markets	market	NOUN	NNS	Number=Plur	5	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	Paris	Paris	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	boot	boot	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

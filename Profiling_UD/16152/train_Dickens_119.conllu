@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘School.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	School	school	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Near London,’ was Peggotty’s answer.
+1	Near	near	PROPN	NNP	Number=Sing	2	compound	_	_
+2	London	London	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	8	punct	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	Peggotty	Peggotty	PROPN	NNP	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	answer	answer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = I was obliged to get her to repeat it, for she spoke it the first time quite down my throat, in consequence of my having forgotten to take my mouth away from the keyhole and put my ear there; and though her words tickled me a good deal, I didn’t hear them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	get	get	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	repeat	repeat	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	for	for	SCONJ	IN	_	13	mark	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	time	time	NOUN	NN	Number=Sing	13	obl:tmod	_	_
+18	quite	quite	ADV	RB	_	21	advmod	_	_
+19	down	down	ADP	IN	_	21	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	throat	throat	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	17	punct	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	consequence	consequence	NOUN	NN	Number=Sing	17	nmod	_	_
+25	of	of	ADP	IN	_	28	mark	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	having	have	AUX	VBG	VerbForm=Ger	28	aux	_	_
+28	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	take	take	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	mouth	mouth	NOUN	NN	Number=Sing	30	obj	_	_
+33	away	away	ADV	RB	_	30	advmod	_	_
+34	from	from	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	keyhole	keyhole	NOUN	NN	Number=Sing	33	obl	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	put	put	VERB	VB	VerbForm=Inf	30	conj	_	_
+39	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+40	ear	ear	NOUN	NN	Number=Sing	38	obj	_	_
+41	there	there	ADV	RB	PronType=Dem	38	advmod	_	SpaceAfter=No
+42	;	;	PUNCT	,	_	28	punct	_	_
+43	and	and	CCONJ	CC	_	56	cc	_	_
+44	though	though	SCONJ	IN	_	47	mark	_	_
+45	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+46	words	word	NOUN	NNS	Number=Plur	47	nsubj	_	_
+47	tickled	tick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	56	advcl	_	_
+48	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	47	obj	_	_
+49	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+50	good	good	ADJ	JJ	Degree=Pos	51	amod	_	_
+51	deal	deal	NOUN	NN	Number=Sing	47	obj	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	56	punct	_	_
+53	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	56	nsubj	_	_
+54	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	56	aux	_	SpaceAfter=No
+55	n’t	not	PART	RB	_	56	advmod	_	_
+56	hear	hear	VERB	VB	VerbForm=Inf	28	conj	_	_
+57	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	56	obj	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

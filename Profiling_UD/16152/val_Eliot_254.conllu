@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I sha’n’t tell you,” said he.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+5	sha	sha	X	AFX	_	12	advmod	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	5	punct	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	12	advmod	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Now you go into that corner and hide your face, while I reach it out,” he added, as he locked the bedroom door behind them.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	corner	corner	NOUN	NN	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	hide	hide	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	face	face	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	while	while	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	reach	reach	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	out	out	ADP	RP	_	15	compound:prt	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	21	punct	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	as	as	SCONJ	IN	_	25	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	locked	lock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	bedroom	bedroom	NOUN	NN	Number=Sing	28	compound	_	_
+28	door	door	NOUN	NN	Number=Sing	25	obj	_	_
+29	behind	behind	ADP	IN	_	30	case	_	_
+30	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 3
+# text = “I’ll tell you when to turn round.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	turn	turn	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	round	round	ADP	RP	_	8	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You mustn’t squeal out, you know.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	squeal	squeal	VERB	VB	VerbForm=Inf	0	root	_	_
+5	out	out	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

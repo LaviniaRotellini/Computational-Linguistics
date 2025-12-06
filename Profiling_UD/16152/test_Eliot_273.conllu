@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What a time that gell is drawing th’ ale, to be sure!” said Mrs. Poyser, when she was dispensing her slices of stuffed chine.
+1	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	4	det	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	15	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+6	gell	gell	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	drawing	draw	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+9	th	th	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	ale	ale	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	sure	sure	ADJ	JJ	Degree=Pos	18	ccomp	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	15	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	18	punct	_	_
+18	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Mrs.	Mrs.	PROPN	NNP	Number=Sing	18	nsubj	_	_
+20	Poyser	Poyser	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	19	punct	_	_
+22	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	dispensing	dispense	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	slices	slice	NOUN	NNS	Number=Plur	25	obj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	stuffed	stuff	VERB	VBN	Tense=Past|VerbForm=Part	30	amod	_	_
+30	chine	chine	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = “I think she sets the jug under and forgets to turn the tap, as there’s nothing you can’t believe o’ them wenches:
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	parataxis	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	sets	set	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	jug	jug	NOUN	NN	Number=Sing	5	obj	_	_
+8	under	under	ADP	IN	_	10	case	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	forgets	forget	NOUN	NNS	Number=Plur	5	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	turn	turn	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	tap	tap	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	as	as	SCONJ	IN	_	18	mark	_	_
+17	there	there	PRON	EX	_	18	expl	_	SpaceAfter=No
+18	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+19	nothing	nothing	PRON	NN	Number=Sing	18	nsubj	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+21	ca	can	AUX	MD	VerbForm=Fin	23	aux	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	23	advmod	_	_
+23	believe	believe	VERB	VB	VerbForm=Inf	19	acl:relcl	_	_
+24	o	of	ADP	IN	Abbr=Yes	26	case	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	26	punct	_	_
+26	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obl	_	_
+27	wenches	wench	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+28	:	:	PUNCT	:	_	27	punct	_	_
+
+# sent_id = 3
+# text = they’ll set the empty kettle o’ the fire, and then come an hour after to see if the water boils.”
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	set	set	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	empty	empty	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	kettle	kettle	NOUN	NN	Number=Sing	3	obj	_	_
+7	o	of	ADP	IN	Abbr=Yes	10	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	10	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fire	fire	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+14	come	come	VERB	VB	VerbForm=Inf	3	conj	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	hour	hour	NOUN	NN	Number=Sing	14	obj	_	_
+17	after	after	SCONJ	IN	_	19	mark	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	see	see	VERB	VB	VerbForm=Inf	14	advcl	_	_
+20	if	if	SCONJ	IN	_	23	mark	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	water	water	NOUN	NN	Number=Sing	23	compound	_	_
+23	boils	boil	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

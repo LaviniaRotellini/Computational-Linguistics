@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Good!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Good	good	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = good!” shouted the populace.
+1	good	good	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+4	shouted	shoute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	populace	populace	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = From that moment, Master Coppenole enjoyed in Paris as in Ghent, “great favor with the people; for men of that sort do enjoy it,” says Philippe de Comines, “when they are thus disorderly.”
+1	From	from	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	Master	master	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Coppenole	Coppenole	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	enjoyed	enjoy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	ccomp	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Paris	Paris	PROPN	NNP	Number=Sing	7	obl	_	_
+10	as	as	ADV	RB	_	12	advmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	Ghent	Ghent	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	great	great	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	favor	favor	NOUN	NN	Number=Sing	7	obj	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	people	people	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	7	punct	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	men	man	NOUN	NNS	Number=Plur	27	nsubj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	sort	sort	NOUN	NN	Number=Sing	22	nmod	_	_
+26	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	31	punct	_	_
+31	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	Philippe	Philippe	PROPN	NNP	Number=Sing	31	flat	_	_
+33	de	de	PROPN	NNP	Number=Sing	34	compound	_	_
+34	Comines	Comines	PROPN	NNP	Number=Sing	32	flat	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	32	punct	_	_
+36	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+37	when	when	ADV	WRB	PronType=Int	41	mark	_	_
+38	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+39	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	thus	thus	ADV	RB	_	41	advmod	_	_
+41	disorderly	disorderly	ADV	RB	_	31	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	31	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	31	punct	_	_
+
+# sent_id = 4
+# text = The cardinal bit his lips.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	cardinal	cardinal	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	bit	bit	NOUN	NN	Number=Sing	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lips	lip	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = He bent towards his neighbor, the Abbé of Sainte-Geneviève, and said to him in a low tone,—“Fine ambassadors monsieur the archduke sends here, to announce to us Madame Marguerite!”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bent	bend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	towards	towards	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	neighbor	neighbor	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Abbé	Abbé	NOUN	NN	Number=Sing	2	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Sainte	Sainte	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	Geneviève	Geneviève	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	low	low	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	tone	tone	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	SpaceAfter=No
+23	—“	—“	PUNCT	.	_	26	punct	_	SpaceAfter=No
+24	Fine	fine	INTJ	UH	_	26	discourse	_	_
+25	ambassadors	ambassador	NOUN	NNS	Number=Plur	26	nsubj	_	_
+26	monsieur	monsieur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	archduke	archduke	NOUN	NN	Number=Sing	29	nsubj	_	_
+29	sends	send	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	here	here	ADV	RB	PronType=Dem	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	2	punct	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	announce	announce	VERB	VB	VerbForm=Inf	2	advcl	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	33	obl	_	_
+36	Madame	Madame	PROPN	NNP	Number=Sing	37	compound	_	_
+37	Marguerite	Marguerite	PROPN	NNP	Number=Sing	35	appos	_	SpaceAfter=No
+38	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

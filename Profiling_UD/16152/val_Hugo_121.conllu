@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He knelt down a second time.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	knelt	knelt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	down	down	ADP	RP	_	2	compound:prt	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+6	time	time	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nothing reappeared.
+1	Nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+2	reappeared	reappear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Only at the spot where the officer had been engulfed, he observed on the surface of the water a sort of dark spot, which became diffused with the gentle lapping of the waves.
+1	Only	only	ADV	RB	_	4	advmod	_	_
+2	at	at	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	spot	spot	NOUN	NN	Number=Sing	13	obl	_	_
+5	where	where	ADV	WRB	PronType=Rel	10	advmod	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	officer	officer	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	engulfed	engulf	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	surface	surface	NOUN	NN	Number=Sing	13	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	water	water	NOUN	NN	Number=Sing	16	nmod	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	sort	sort	NOUN	NN	Number=Sing	13	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	dark	dark	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	spot	spot	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	13	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	27	nsubj	_	_
+27	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+28	diffused	diffused	NOUN	NN	Number=Sing	27	xcomp	_	_
+29	with	with	ADP	IN	_	32	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	gentle	genle	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	lapping	lapping	NOUN	NN	Number=Sing	28	nmod	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	waves	wave	NOUN	NNS	Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = It seemed probable that the coast-guardman had fractured his skull against some rock under water, and that his blood caused the spot in the foam.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	probable	probable	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	coast	coast	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	guardman	guardman	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	fractured	fracture	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	skull	skull	NOUN	NN	Number=Sing	10	obj	_	_
+13	against	against	ADP	IN	_	15	case	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	rock	rock	NOUN	NN	Number=Sing	10	obl	_	_
+16	under	under	ADP	IN	_	17	case	_	_
+17	water	water	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	blood	blood	NOUN	NN	Number=Sing	23	nsubj	_	_
+23	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	spot	spot	NOUN	NN	Number=Sing	23	obj	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	foam	foam	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = The Quaker, while considering the meaning of this spot, began to sing again:
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Quaker	Quaker	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	while	while	SCONJ	IN	_	5	mark	_	_
+5	considering	consider	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	meaning	meaning	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	spot	spot	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	SCONJ	IN	_	14	mark	_	_
+14	sing	s	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	again	again	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\n
+

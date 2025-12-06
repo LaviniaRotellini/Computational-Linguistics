@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I beg you will not refer to this again,” said Dorothea, rather haughtily.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	beg	beg	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	refer	refer	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	_
+10	again	again	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Dorothea	Dorothea	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	rather	rather	ADV	RB	_	17	advmod	_	_
+17	haughtily	haughtily	ADV	RB	Degree=Pos	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = But immediately she feared that she was wrong, and turning towards him she laid her hand on his, adding in a different tone, “Pray do not be anxious about me.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	immediately	immediately	ADV	RB	_	4	advmod	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	feared	fear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	wrong	wrong	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	_
+12	towards	towards	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hand	hand	NOUN	NN	Number=Sing	15	obj	_	_
+18	on	on	ADP	IN	_	19	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	adding	add	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	different	different	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	tone	tone	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	4	punct	_	_
+27	“	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
+28	Pray	pray	NOUN	NN	Number=Sing	32	nsubj	_	_
+29	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+30	not	not	PART	RB	_	32	advmod	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+32	anxious	anxious	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+33	about	about	ADP	IN	_	34	case	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I shall have so much to think of when I am alone.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	think	think	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+8	of	of	ADP	IN	_	7	obl	_	_
+9	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	alone	alone	ADJ	JJ	Degree=Pos	7	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And Tantripp will be a sufficient companion, just to take care of me.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	Tantripp	Tantripp	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	sufficient	sufficient	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	companion	companion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	just	just	ADV	RB	_	11	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	take	take	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	care	care	NOUN	NN	Number=Sing	11	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = I could not bear to have Celia: she would be miserable.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	Celia	Celia	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	4	punct	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	miserable	miserable	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

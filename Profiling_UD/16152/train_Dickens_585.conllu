@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘She’s the usefullest and best of women, C. P. Barkis.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	usefullest	usefullest	ADJ	JJ	Degree=Pos|NumType=Ord	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	best	best	ADJ	JJS	Degree=Sup	5	conj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	women	woman	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	C.	c.	PROPN	NNP	Number=Sing	12	compound	_	_
+12	P.	P.	PROPN	NNP	Number=Sing	9	conj	_	_
+13	Barkis	Barkis	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = All the praise that anyone can give to C. P. Barkis, she deserves, and more!
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	praise	praise	NOUN	NN	Number=Sing	14	nsubj	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	anyone	anyone	PRON	NN	Number=Sing	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	give	give	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	C.	c.	PROPN	NNP	Number=Sing	11	compound	_	_
+10	P.	P.	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Barkis	Barkis	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	deserves	deserve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	more	more	ADJ	JJR	Degree=Cmp	14	conj	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 3
+# text = My dear, you’ll get a dinner today, for company; something good to eat and drink, will you?’
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	dear	dear	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’ll	’ll	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	dinner	dinner	NOUN	NN	Number=Sing	6	obj	_	_
+9	today	today	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	company	company	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	6	punct	_	_
+14	something	something	PRON	NN	Number=Sing	6	obj	_	_
+15	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	eat	eat	VERB	VB	VerbForm=Inf	14	acl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	drink	drink	VERB	VB	VerbForm=Inf	6	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	6	punct	_	_
+21	will	will	AUX	MD	VerbForm=Fin	24	aux	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	22	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

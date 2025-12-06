@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dorothea trembled while she read this letter; then she fell on her knees, buried her face, and sobbed.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	trembled	tremble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	while	while	SCONJ	IN	_	5	mark	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	letter	letter	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	knees	knee	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	buried	bury	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	face	face	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	sobbed	sob	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She could not pray: under the rush of solemn emotion in which thoughts became vague and images floated uncertainly, she could but cast herself, with a childlike sense of reclining, in the lap of a divine consciousness which sustained her own.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	pray	pray	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	4	punct	_	_
+6	under	under	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rush	rush	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	solemn	solemn	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	emotion	emotion	NOUN	NN	Number=Sing	8	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	obl	_	_
+14	thoughts	thought	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+16	vague	vague	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	images	image	NOUN	NNS	Number=Plur	16	conj	_	_
+19	floated	float	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+20	uncertainly	uncertainly	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	could	could	AUX	MD	VerbForm=Fin	4	parataxis	_	_
+24	but	but	CCONJ	CC	_	25	cc	_	_
+25	cast	cast	VERB	VB	VerbForm=Inf	23	conj	_	_
+26	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	23	punct	_	_
+28	with	with	ADP	IN	_	31	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	childlike	childlike	NOUN	NN	Number=Sing	31	compound	_	_
+31	sense	sense	NOUN	NN	Number=Sing	23	obl	_	_
+32	of	of	SCONJ	IN	_	33	mark	_	_
+33	reclining	reclining	VERB	VBG	VerbForm=Ger	31	acl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	in	in	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	lap	lap	NOUN	NN	Number=Sing	33	obl	_	_
+38	of	of	ADP	IN	_	41	case	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+40	divine	divine	NUM	CD	NumType=Card	41	nummod	_	_
+41	consciousness	consciousness	NOUN	NN	Number=Sing	37	nmod	_	_
+42	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	_
+43	sustained	sustain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
+44	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	own	own	ADJ	JJ	Degree=Pos	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She remained in that attitude till it was time to dress for dinner.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	attitude	attitude	NOUN	NN	Number=Sing	2	obl	_	_
+6	till	till	SCONJ	IN	_	9	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	time	time	NOUN	NN	Number=Sing	2	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	dress	dress	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	dinner	dinner	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

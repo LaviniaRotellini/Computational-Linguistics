@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = While Fred was speaking, he had taken out the notes and laid them on the desk before Mr. Garth.
+1	While	while	SCONJ	IN	_	4	mark	_	_
+2	Fred	Fred	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	notes	note	NOUN	NNS	Number=Plur	8	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	desk	desk	NOUN	NN	Number=Sing	13	obl	_	_
+18	before	before	SCONJ	IN	_	19	case	_	_
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obl	_	_
+20	Garth	Garth	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = He had burst forth at once with the plain fact, feeling boyishly miserable and without verbal resources.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	burst	burst	NOUN	NN	Number=Sing	2	obj	_	_
+4	forth	forth	ADV	RB	_	2	advmod	_	_
+5	at	at	ADV	RB	_	6	advmod	_	_
+6	once	once	ADV	RB	NumType=Mult	2	advmod	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	plain	plain	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fact	fact	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	feeling	feel	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+13	boyishly	boyishly	ADV	RB	_	14	advmod	_	_
+14	miserable	miserable	ADJ	JJ	Degree=Pos	12	conj	_	_
+15	and	and	CCONJ	CC	_	14	cc	_	_
+16	without	without	ADP	IN	_	18	case	_	_
+17	verbal	verbal	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	resources	resource	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mrs. Garth was mutely astonished, and looked at her husband for an explanation.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Garth	Garth	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	mutely	mutely	ADV	RB	_	5	advmod	_	_
+5	astonished	astonish	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	husband	husband	NOUN	NN	Number=Sing	8	obl	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	explanation	explanation	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Caleb blushed, and after a little pause said—
+1	Caleb	Caleb	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	blushed	blush	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	and	and	CCONJ	CC	_	9	cc	_	_
+5	after	after	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	pause	pause	NOUN	NN	Number=Sing	9	obl	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	—	-	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

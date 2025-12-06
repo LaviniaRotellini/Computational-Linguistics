@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He woke.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	woke	wake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was icy cold.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	icy	icy	ADV	RB	Typo=Yes	4	advmod	_	_
+4	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = A wind which was chill like the breeze of dawn was rattling the leaves of the window, which had been left open on their hinges.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	wind	wind	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	which	which	PRON	WDT	PronType=Rel	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	chill	chill	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+6	like	like	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	breeze	breeze	NOUN	NN	Number=Sing	5	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	dawn	dawn	NOUN	NN	Number=Sing	8	nmod	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	rattling	rattl	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	leaves	leafe	NOUN	NNS	Number=Plur	12	obj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	window	window	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	which	which	PRON	WDT	PronType=Rel	22	nsubj:pass	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+23	open	open	ADJ	JJ	Degree=Pos	22	xcomp	_	_
+24	on	on	ADP	IN	_	26	case	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	hinges	hinge	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = The fire was out.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fire	fire	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	out	out	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = The candle was nearing its end.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	candle	candle	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	nearing	near	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+6	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	end	end	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = It was still black night.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	still	still	ADV	RB	_	5	advmod	_	_
+4	black	black	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	night	night	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

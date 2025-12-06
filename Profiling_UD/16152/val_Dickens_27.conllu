@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Cold?
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Cold	cold	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I was born with inflammation of the lungs, and of everything else, I believe, that was capable of inflammation,’ returned Mr. Bounderby.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	inflammation	inflammation	NOUN	NN	Number=Sing	3	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	lungs	lung	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	everything	everything	PRON	NN	Number=Sing	3	conj	_	_
+13	else	else	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	capable	capable	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	inflammation	inflammation	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	3	punct	_	_
+25	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	Mr.	Mr.	PROPN	NNP	Number=Sing	25	obj	_	_
+27	Bounderby	Bounderby	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ‘For years, ma’am, I was one of the most miserable little wretches ever seen.
+1	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	For	for	ADP	IN	_	3	case	_	_
+3	years	year	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	ma’	ma'	PUNCT	''	_	10	punct	_	SpaceAfter=No
+6	am	am	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	one	one	NUM	CD	NumType=Card	0	root	_	_
+11	of	of	ADP	IN	_	16	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+13	most	most	ADV	RBS	_	14	advmod	_	_
+14	miserable	miserable	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	wretches	wretch	NOUN	NNS	Number=Plur	10	nmod	_	_
+17	ever	ever	ADV	RB	_	16	advmod	_	_
+18	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = I was so sickly, that I was always moaning and groaning.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	sickly	sickly	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	always	always	ADV	RB	_	10	advmod	_	_
+10	moaning	moan	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	groaning	groan	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I was so ragged and dirty, that you wouldn’t have touched me with a pair of tongs.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	ragged	ragged	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	dirty	dirty	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	that	that	SCONJ	IN	_	13	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	13	advmod	_	_
+12	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	pair	pair	NOUN	NN	Number=Sing	13	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	tongs	tong	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

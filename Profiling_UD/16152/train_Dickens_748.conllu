@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘She is a tiresome creature,’ said Dora, pouting.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	tiresome	tiresome	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	creature	creature	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Dora	Dora	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	pouting	pout	VERB	VBG	VerbForm=Ger	9	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘I can’t think what papa can have been about, when he chose such a vexatious thing to be my companion.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+6	what	what	DET	WDT	PronType=Int	7	det	_	_
+7	papa	papa	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+11	about	about	ADV	RB	_	5	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	chose	choose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+16	such	such	DET	PDT	_	19	det:predet	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	vexatious	vexatious	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	thing	thing	NOUN	NN	Number=Sing	15	obj	_	_
+20	to	to	PART	TO	_	23	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	23	cop	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	companion	companion	NOUN	NN	Number=Sing	15	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Who wants a protector?
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	_
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	protector	protector	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I am sure I don’t want a protector.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	want	want	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	protector	protector	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Jip can protect me a great deal better than Miss Murdstone,--can’t you, Jip, dear?’
+1	Jip	Jip	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	protect	protect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	deal	deal	NOUN	NN	Number=Sing	3	obj	_	_
+8	better	better	ADJ	JJR	Degree=Cmp	3	advmod	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	Miss	miss	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Murdstone	Murdstone	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+13	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	ca	can	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+15	n’t	not	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Jip	Jip	PROPN	NNP	Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	dear	dear	ADJ	JJ	Degree=Pos	15	conj	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

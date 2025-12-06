@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = To make amends for the abundant laughter in the striped marquee, Arthur clapped his hands continually and cried “Bravo!”
+1	To	to	PART	TO	_	2	mark	_	_
+2	make	make	VERB	VB	VerbForm=Inf	14	advcl	_	_
+3	amends	amend	NOUN	NNS	Number=Plur	2	obj	_	_
+4	for	for	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	abundant	abundant	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	laughter	laughter	NOUN	NN	Number=Sing	2	obl	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	striped	striped	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	marquee	marquee	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	Arthur	Arthu	PRON	PRP$	Abbr=Yes|Person=2|Poss=Yes|PronType=Prs	14	nsubj	_	_
+14	clapped	clap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hands	hand	NOUN	NNS	Number=Plur	14	obj	_	_
+17	continually	continually	ADV	RB	_	14	advmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	Bravo	Bravo	PROPN	NNP	Number=Sing	19	obj	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	14	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	14	punct	_	_
+
+# sent_id = 2
+# text = But Ben had one admirer whose eyes followed his movements with a fervid gravity that equalled his own.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	Ben	Ben	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	8	nsubj	_	_
+5	admirer	admirer	ADP	IN	_	7	case	_	_
+6	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	7	nmod:poss	_	_
+7	eyes	eye	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	movements	movement	NOUN	NNS	Number=Plur	8	obj	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	fervid	fervid	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	gravity	gravity	NOUN	NN	Number=Sing	8	obl	_	_
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	equalled	equal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It was Martin Poyser, who was seated on a bench, with Tommy between his legs.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	Martin	Martin	PROPN	NNP	Number=Sing	0	root	_	_
+4	Poyser	Poyser	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	bench	bench	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	Tommy	Tommy	PROPN	NNP	Number=Sing	8	obl	_	_
+15	between	between	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	legs	leg	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “May I go and see her?” said Dorothea, eagerly.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	May	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	go	go	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Dorothea	Dorothea	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	eagerly	eagerly	ADV	RB	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “Would she accept my sympathy?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	accept	accept	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	sympathy	sympathy	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I would tell her that you have not been blamable before any one’s judgment but your own.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+10	blamable	blamable	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+11	before	before	ADP	IN	_	15	case	_	_
+12	any	any	DET	DT	_	13	det	_	_
+13	one	one	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	judgment	judgment	NOUN	NN	Number=Sing	10	obl	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I would tell her that you shall be cleared in every fair mind.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj:pass	_	_
+7	shall	shall	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	cleared	clear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	every	every	DET	DT	_	13	det	_	_
+12	fair	fair	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	mind	mind	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I would cheer her heart.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	cheer	cheer	VERB	VB	VerbForm=Inf	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	heart	heart	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Will you ask her if I may go to see her?
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	if	if	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	may	may	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	go	go	VERB	VB	VerbForm=Inf	3	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	see	see	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = I did see her once.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	once	once	ADV	RB	NumType=Mult	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

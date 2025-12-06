@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gringoire was highly displeased.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	highly	highly	ADV	RB	_	4	advmod	_	_
+4	displeased	displease	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = On recovering from his first stupefaction, he bestirred himself to shout, to the four personages on the stage, “Go on!
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	recovering	recover	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	from	from	ADP	IN	_	6	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+6	stupefaction	stupefaction	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	bestirred	bestir	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+10	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	shout	shout	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	to	to	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	four	four	NUM	CD	NumType=Card	17	nummod	_	_
+17	personages	personage	NOUN	NNS	Number=Plur	12	obl	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	stage	stage	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	12	punct	_	_
+22	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+24	on	on	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	!	!	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 3
+# text = What the devil!—go on!”—without even deigning to cast a glance of disdain upon the two interrupters.
+1	What	what	PRON	WP	PronType=Int	3	obj	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	devil	devil	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	on	on	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	6	punct	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+11	without	without	SCONJ	IN	_	13	mark	_	_
+12	even	even	ADV	RB	_	13	advmod	_	_
+13	deigning	deign	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	cast	cast	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	glance	glance	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	disdain	disdain	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	upon	upon	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	two	two	NUM	CD	NumType=Card	23	nummod	_	_
+23	interrupters	interrupter	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

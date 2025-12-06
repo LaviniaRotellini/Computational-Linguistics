@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Because Mr. Ladislaw has been here; and he has mentioned a proposal of my uncle’s which I should like to know your opinion of.”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Because	because	SCONJ	IN	_	7	mark	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+4	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	3	flat	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+7	here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	proposal	proposal	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	uncle	uncle	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+18	’s	's	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	which	which	PRON	WDT	PronType=Rel	22	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	like	like	VERB	VB	VerbForm=Inf	14	acl:relcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	know	know	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	opinion	opinion	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	ADP	IN	_	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 2
+# text = Her husband she felt was really concerned in this question.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	husband	husband	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	really	really	ADV	RB	_	7	advmod	_	_
+7	concerned	concerned	ADJ	JJ	Degree=Pos	0	root	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	question	question	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Even with her ignorance of the world she had a vague impression that the position offered to Will was out of keeping with his family connections, and certainly Mr. Casaubon had a claim to be consulted.
+1	Even	even	ADV	RB	_	4	advmod	_	_
+2	with	with	ADP	IN	_	4	case	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	ignorance	ignorance	NOUN	NN	Number=Sing	9	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	world	world	NOUN	NN	Number=Sing	4	nmod	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	vague	vague	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	impression	impression	NOUN	NN	Number=Sing	9	obj	_	_
+13	that	that	SCONJ	IN	_	16	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	position	position	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	Will	will	PROPN	NNP	Number=Sing	16	obl	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	out	out	ADP	IN	_	22	case	_	_
+21	of	of	SCONJ	IN	_	22	mark	_	_
+22	keeping	keep	VERB	VBG	VerbForm=Ger	9	acl	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	family	family	NOUN	NN	Number=Sing	26	compound	_	_
+26	connections	connection	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	32	punct	_	_
+28	and	and	CCONJ	CC	_	32	cc	_	_
+29	certainly	certainly	ADV	RB	_	32	advmod	_	_
+30	Mr.	Mr.	PROPN	NNP	Number=Sing	32	nsubj	_	_
+31	Casaubon	Casaubon	PROPN	NNP	Number=Sing	30	flat	_	_
+32	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	claim	claim	NOUN	NN	Number=Sing	32	obj	_	_
+35	to	to	PART	TO	_	37	mark	_	_
+36	be	be	AUX	VB	VerbForm=Inf	37	aux:pass	_	_
+37	consulted	consult	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	34	acl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = He did not speak, but merely bowed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	speak	speak	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	merely	merely	ADV	RB	_	8	advmod	_	_
+8	bowed	bow	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

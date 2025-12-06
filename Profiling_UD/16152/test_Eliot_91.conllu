@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But you might have been a little too hasty there, Mother,” said Mr. Irwine, smiling.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	8	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	8	aux	_	_
+5	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+9	too	too	ADV	RB	_	10	advmod	_	_
+10	hasty	hasty	ADV	RB	_	11	advmod	_	_
+11	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Mother	Mother	NOUN	NN	Number=Sing	16	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	20	nsubj	_	_
+18	Irwine	Irwine	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	smiling	smile	VERB	VBG	VerbForm=Ger	16	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “Don’t you remember how it was with Juno’s last pups?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+6	how	how	ADV	WRB	PronType=Int	13	advmod	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+9	with	with	ADP	IN	_	13	case	_	_
+10	Juno	Juno	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	last	last	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	pups	pup	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = One of them was the very image of its mother, but it had two or three of its father’s tricks notwithstanding.
+1	One	one	NUM	CD	NumType=Card	7	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	very	very	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	image	image	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mother	mother	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+15	two	two	NUM	CD	NumType=Card	14	obj	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	three	three	NUM	CD	NumType=Card	15	conj	_	_
+18	of	of	ADP	IN	_	23	case	_	_
+19	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	father	father	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+21	’s	's	PART	POS	_	20	case	_	_
+22	tricks	trick	NOUN	NNS	Number=Plur	23	compound	_	_
+23	notwithstanding	notwithstanding	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Nature is clever enough to cheat even you, Mother.”
+1	Nature	nature	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	clever	clever	ADV	RB	_	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	cheat	cheat	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	even	even	ADV	RB	_	8	advmod	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Mother	mother	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

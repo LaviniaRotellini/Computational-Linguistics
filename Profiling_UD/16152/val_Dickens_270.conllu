@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The whelp went home, and went to bed.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	whelp	whelp	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	home	home	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	bed	bed	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = If he had had any sense of what he had done that night, and had been less of a whelp and more of a brother, he might have turned short on the road, might have gone down to the ill-smelling river that was dyed black, might have gone to bed in it for good and all, and have curtained his head for ever with its filthy waters.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	31	advcl	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	sense	sense	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	SCONJ	IN	_	8	case	_	_
+8	what	what	PRON	WP	PronType=Int	6	nmod	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	night	night	NOUN	NN	Number=Sing	11	obl:tmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+18	less	less	ADJ	JJR	Degree=Cmp	4	conj	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	whelp	whelp	NOUN	NN	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	more	more	ADJ	JJR	Degree=Cmp	18	conj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	brother	brother	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	might	might	AUX	MD	VerbForm=Fin	31	aux	_	_
+30	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+31	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	39	advcl	_	_
+32	short	short	ADJ	JJ	Degree=Pos	31	obj	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	road	road	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	might	might	AUX	MD	VerbForm=Fin	39	aux	_	_
+38	have	have	AUX	VB	VerbForm=Inf	39	aux	_	_
+39	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	54	advcl	_	_
+40	down	down	ADP	RP	_	39	compound:prt	_	_
+41	to	to	ADP	IN	_	46	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+43	ill	ill	ADJ	JJ	Degree=Pos	45	amod	_	SpaceAfter=No
+44	-	-	PUNCT	HYPH	_	45	punct	_	SpaceAfter=No
+45	smelling	smelling	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	river	river	NOUN	NN	Number=Sing	39	obl	_	_
+47	that	that	PRON	WDT	PronType=Rel	50	nsubj	_	_
+48	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	cop	_	_
+49	dyed	dyed	ADJ	JJ	Degree=Pos	50	amod	_	_
+50	black	black	ADJ	JJ	Degree=Pos	46	acl:relcl	_	SpaceAfter=No
+51	,	,	PUNCT	,	_	54	punct	_	_
+52	might	might	AUX	MD	VerbForm=Fin	54	aux	_	_
+53	have	have	AUX	VB	VerbForm=Inf	54	aux	_	_
+54	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+55	to	to	ADP	IN	_	56	case	_	_
+56	bed	be	NOUN	NN	Number=Sing	54	obl	_	_
+57	in	in	ADP	IN	_	58	case	_	_
+58	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	54	obl	_	_
+59	for	for	ADP	IN	_	60	case	_	_
+60	good	good	ADJ	JJ	Degree=Pos	54	obl	_	_
+61	and	and	CCONJ	CC	_	62	cc	_	_
+62	all	all	ADV	RB	_	60	conj	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	66	punct	_	_
+64	and	and	CCONJ	CC	_	66	cc	_	_
+65	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	66	aux	_	_
+66	curtained	curtain	VERB	VBN	Tense=Past|VerbForm=Part	54	conj	_	_
+67	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	68	nmod:poss	_	_
+68	head	head	NOUN	NN	Number=Sing	66	obj	_	_
+69	for	for	ADP	IN	_	70	case	_	_
+70	ever	ever	ADV	RB	_	66	advmod	_	_
+71	with	with	SCONJ	IN	_	75	mark	_	_
+72	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	75	nsubj	_	SpaceAfter=No
+73	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	75	cop	_	_
+74	filthy	filthy	ADJ	JJ	Degree=Pos	75	amod	_	_
+75	waters	water	NOUN	NNS	Number=Plur	66	advcl	_	SpaceAfter=No
+76	.	.	PUNCT	.	_	54	punct	_	SpacesAfter=\n
+

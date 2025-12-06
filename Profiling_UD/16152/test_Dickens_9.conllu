@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Joe’s forge adjoined our house, which was a wooden house, as many of the dwellings in our country were,—most of them, at that time.
+1	Joe	Joe	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	forge	forge	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	adjoined	adjoin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	house	house	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	wooden	wooden	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	house	house	NOUN	NN	Number=Sing	4	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	as	as	SCONJ	IN	_	25	mark	_	_
+15	many	many	ADJ	JJ	Degree=Pos	22	nsubj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	dwellings	dwelling	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	country	country	NOUN	NN	Number=Sing	18	nmod	_	_
+22	were	were	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	25	punct	_	SpaceAfter=No
+25	most	most	ADJ	JJS	Degree=Sup	4	advcl	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	25	punct	_	_
+29	at	at	ADP	IN	_	31	case	_	_
+30	that	that	DET	DT	Number=Sing|PronType=Dem	31	det	_	_
+31	time	time	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = When I ran home from the churchyard, the forge was shut up, and Joe was sitting alone in the kitchen.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+4	home	home	ADV	RB	_	3	advmod	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	churchyard	churchyard	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	forge	forge	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	shut	shut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	up	up	ADP	RP	_	12	compound:prt	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	Joe	Joe	PROPN	NNP	Number=Sing	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	12	conj	_	_
+19	alone	alone	ADV	RB	_	18	advmod	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	kitchen	kitchen	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Joe and I being fellow-sufferers, and having confidences as such, Joe imparted a confidence to me, the moment I raised the latch of the door and peeped in at him opposite to it, sitting in the chimney corner.
+1	Joe	Joe	PROPN	NNP	Number=Sing	16	nsubj	_	_
+2	and	and	CCONJ	CC	_	7	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	being	be	AUX	VBG	VerbForm=Ger	7	cop	_	_
+5	fellow	fellow	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	sufferers	sufferer	NOUN	NNS	Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	having	have	VERB	VBG	VerbForm=Ger	1	conj	_	_
+11	confidences	confidence	NOUN	NNS	Number=Plur	10	obj	_	_
+12	as	as	ADP	IN	_	13	case	_	_
+13	such	such	ADJ	JJ	Degree=Pos	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	Joe	Joe	PROPN	NNP	Number=Sing	1	flat	_	_
+16	imparted	impart	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	confidence	confidence	NOUN	NN	Number=Sing	16	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	16	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	moment	moment	NOUN	NN	Number=Sing	16	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	latch	latch	NOUN	NN	Number=Sing	25	obj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	door	door	NOUN	NN	Number=Sing	27	nmod	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	peeped	pee	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+33	in	in	ADP	RP	_	32	compound:prt	_	_
+34	at	at	ADP	IN	_	36	case	_	_
+35	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nmod:poss	_	_
+36	opposite	opposite	NOUN	NN	Number=Sing	32	obl	_	_
+37	to	to	ADP	IN	_	38	case	_	_
+38	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	32	punct	_	_
+40	sitting	sit	VERB	VBG	VerbForm=Ger	32	advcl	_	_
+41	in	in	ADP	IN	_	44	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+43	chimney	chimney	NOUN	NN	Number=Sing	44	compound	_	_
+44	corner	corner	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

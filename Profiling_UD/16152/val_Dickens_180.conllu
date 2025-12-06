@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The wind brought the sounds of the church clock to the window.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wind	wind	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sounds	sound	NOUN	NNS	Number=Plur	3	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	church	church	NOUN	NN	Number=Sing	9	compound	_	_
+9	clock	clock	NOUN	NN	Number=Sing	5	nmod	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	window	window	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = They listened, and it struck three.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	struck	strike	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	three	three	NUM	CD	NumType=Card	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Stephen looked at her, saw how pale she was, noted the disorder of her hair, and the red marks of fingers on her forehead, and felt assured that his senses of sight and hearing had been awake.
+1	Stephen	Stephen	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+8	pale	pale	ADJ	JJ	Degree=Pos	6	obj	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	noted	note	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	disorder	disorder	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hair	hair	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	red	red	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	marks	mark	NOUN	NNS	Number=Plur	2	conj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	fingers	finger	NOUN	NNS	Number=Plur	22	nmod	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	forehead	forehead	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+31	assured	assure	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	_
+32	that	that	SCONJ	IN	_	41	mark	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	senses	sense	NOUN	NNS	Number=Plur	41	nsubj	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	sight	sight	NOUN	NN	Number=Sing	34	nmod	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	hearing	hearing	NOUN	NN	Number=Sing	34	conj	_	_
+39	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	aux	_	_
+40	been	be	AUX	VBN	Tense=Past|VerbForm=Part	41	cop	_	_
+41	awake	awake	ADJ	JJ	Degree=Pos	31	ccomp	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She held the cup in her hand even now.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	cup	cup	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hand	hand	NOUN	NN	Number=Sing	2	obl	_	_
+8	even	even	ADV	RB	_	9	advmod	_	_
+9	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

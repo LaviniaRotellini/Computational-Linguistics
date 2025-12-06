@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh no!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	_
+3	no	no	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = No one thinks of your appearance, you are so sensible and useful, Mary.
+1	No	no	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	appearance	appearance	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	sensible	sensible	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	useful	useful	ADJ	JJ	Degree=Pos	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	Mary	Mary	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Beauty is of very little consequence in reality,” said Rosamond, turning her head towards Mary, but with eyes swerving towards the new view of her neck in the glass.
+1	Beauty	beauty	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	consequence	consequence	NOUN	NN	Number=Sing	0	root	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	reality	reality	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	Rosamond	Rosamond	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	turning	turn	VERB	VBG	VerbForm=Ger	11	ccomp	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	head	head	NOUN	NN	Number=Sing	14	obj	_	_
+17	towards	towards	ADP	IN	_	18	case	_	_
+18	Mary	Mary	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	eyes	eye	NOUN	NNS	Number=Plur	18	conj	_	_
+23	swerving	swerve	VERB	VBG	VerbForm=Ger	22	acl	_	_
+24	towards	towards	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	new	new	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	view	view	NOUN	NN	Number=Sing	23	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	neck	neck	NOUN	NN	Number=Sing	27	nmod	_	_
+31	in	in	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	glass	glass	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

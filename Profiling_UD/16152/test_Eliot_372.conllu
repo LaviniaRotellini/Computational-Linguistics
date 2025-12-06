@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adam was relieved to have an active task—both of them were relieved to be apart from each other for a short time.
+1	Adam	Adam	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	relieved	relieved	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	have	have	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	active	active	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	task	task	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	both	both	DET	DT	_	14	nsubj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	relieved	relieved	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+17	apart	apart	ADV	RB	_	14	advmod	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	each	each	DET	DT	_	20	det	_	_
+20	other	other	ADJ	JJ	Degree=Pos	17	obl	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	short	short	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	time	time	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But Adam’s swift pace could not still the eager pain of thinking—of living again with concentrated suffering through the last wretched hour, and looking out from it over all the new sad future.
+1	But	but	CCONJ	CC	_	11	cc	_	_
+2	Adam	Adam	PROPN	NNP	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	swift	swift	NOUN	NN	Number=Sing	5	compound	_	_
+5	pace	pace	NOUN	NN	Number=Sing	11	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+7	not	not	PART	RB	_	11	advmod	_	_
+8	still	still	ADV	RB	_	11	advmod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	eager	eager	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	pain	pain	NOUN	NN	Number=Sing	0	root	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	thinking	think	VERB	VBG	VerbForm=Ger	11	acl	_	SpaceAfter=No
+14	—	-	PUNCT	:	_	13	punct	_	SpaceAfter=No
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	living	live	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	again	again	ADV	RB	_	16	advmod	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	concentrated	concentrated	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	_	_
+20	suffering	suffering	NOUN	NN	Number=Sing	16	obl	_	_
+21	through	through	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	last	last	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	wretched	wretched	VERB	VBN	Tense=Past|VerbForm=Part	25	amod	_	_
+25	hour	hour	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	_	_
+29	out	out	ADP	RP	_	28	compound:prt	_	_
+30	from	from	ADP	IN	_	31	case	_	_
+31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+32	over	over	ADP	IN	_	37	case	_	_
+33	all	all	DET	PDT	_	37	det:predet	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+35	new	new	ADJ	JJ	Degree=Pos	37	amod	_	_
+36	sad	sad	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	future	future	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

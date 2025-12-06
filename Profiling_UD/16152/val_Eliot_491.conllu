@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Maggie,” he said, in a tone of remonstrance, “don’t persist in this wilful, senseless privation.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Maggie	Maggie	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	tone	tone	NOUN	NN	Number=Sing	6	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	remonstrance	remonstrance	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n’t	not	PART	RB	_	17	advmod	_	_
+17	persist	persist	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+18	in	in	ADP	IN	_	23	case	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+20	wilful	wilful	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	senseless	senseless	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	privation	privation	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It makes me wretched to see you benumbing and cramping your nature in this way.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	wretched	wretch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	benumbing	benumb	VERB	VBG	VerbForm=Ger	6	xcomp	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	cramping	cramp	VERB	VBG	VerbForm=Ger	8	conj	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	nature	nature	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You were so full of life when you were a child; I thought you would be a brilliant woman,—all wit and bright imagination.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	full	full	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	life	life	NOUN	NN	Number=Sing	4	obl	_	_
+7	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	child	child	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	brilliant	brilliant	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	woman	woman	NOUN	NN	Number=Sing	14	ccomp	_	SpaceAfter=No
+21	,—	,—	PUNCT	.	_	4	punct	_	SpaceAfter=No
+22	all	all	DET	DT	_	23	det	_	_
+23	wit	wit	NOUN	NN	Number=Sing	4	appos	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	bright	bright	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	imagination	imagination	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = And it flashes out in your face still, until you draw that veil of dull quiescence over it.”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	flashes	flash	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	face	face	NOUN	NN	Number=Sing	3	obl	_	_
+8	still	still	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	until	until	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	draw	draw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	veil	veil	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	dull	dull	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	quiescence	quiescence	NOUN	NN	Number=Sing	14	nmod	_	_
+18	over	over	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I know that James Steerforth,’ she said, with her hand on her bosom, as if to prevent the storm that was raging there, from being loud, ‘has a false, corrupt heart, and is a traitor.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	James	James	PROPN	NNP	Number=Sing	10	nsubj	_	_
+6	Steerforth	Steerforth	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	10	punct	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	hand	hand	NOUN	NN	Number=Sing	10	obl	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	bosom	bosom	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	10	punct	_	_
+19	as	as	SCONJ	IN	_	22	mark	_	_
+20	if	if	SCONJ	IN	_	22	mark	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	prevent	prevent	VERB	VB	VerbForm=Inf	35	advcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	storm	storm	NOUN	NN	Number=Sing	22	obj	_	_
+25	that	that	PRON	WDT	PronType=Rel	27	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	raging	rage	VERB	VBG	Tense=Pres|VerbForm=Part	24	acl:relcl	_	_
+28	there	there	ADV	RB	PronType=Dem	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	35	punct	_	_
+30	from	from	SCONJ	IN	_	32	mark	_	_
+31	being	be	AUX	VBG	VerbForm=Ger	32	cop	_	_
+32	loud	loud	ADV	RB	_	35	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	‘	'	PUNCT	``	_	35	punct	_	SpaceAfter=No
+35	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+37	false	false	ADJ	JJ	Degree=Pos	40	amod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	corrupt	corrupt	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	heart	heart	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	45	punct	_	_
+42	and	and	CCONJ	CC	_	45	cc	_	_
+43	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	traitor	traitor	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But what need I know or care about this fellow, and his common niece?’
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	what	what	DET	WDT	PronType=Int	3	det	_	_
+3	need	need	NOUN	NN	Number=Sing	5	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	fellow	fellow	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	common	common	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	niece	niece	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

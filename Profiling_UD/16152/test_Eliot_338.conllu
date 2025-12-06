@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, well, so much the better, it amuses ’em,” said Mr. Poyser, who did not easily take an irritable view of things.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	well	well	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	much	much	ADV	RB	_	9	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	mark	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	17	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	amuses	amuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+13	’	'	PUNCT	''	_	12	punct	_	SpaceAfter=No
+14	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+19	Poyser	Poyser	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+22	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+23	not	not	PART	RB	_	25	advmod	_	_
+24	easily	easily	ADV	RB	_	25	advmod	_	_
+25	take	take	VERB	VB	VerbForm=Inf	18	acl:relcl	_	_
+26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	irritable	irritable	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	view	view	NOUN	NN	Number=Sing	25	obj	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	things	thing	NOUN	NNS	Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “But they’re going away now, t’ have their dinner, I reckon.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+5	going	go	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	away	away	ADV	RB	_	5	advmod	_	_
+7	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	t	t	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	5	punct	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	dinner	dinner	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	reckon	reckon	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = We’ll move about a bit, shall we, and see what Adam Bede’s doing.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	move	move	VERB	VB	VerbForm=Inf	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	bit	bit	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	see	see	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+13	what	what	PRON	WP	PronType=Int	17	obj	_	_
+14	Adam	Adam	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Bede	Bede	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+16	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He’s got to look after the drinking and things:
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	look	look	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	after	after	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	drinking	drinking	NOUN	NN	Number=Sing	5	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	things	thing	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 5
+# text = I doubt he hasna had much fun.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+4	hasna	hasto	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	fun	fun	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

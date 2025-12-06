@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘_I_ persuaded her,’ he said, with an edifying air of superiority.
+1	‘_I	‘_I	PROPN	NNP	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	3	punct	_	_
+3	persuaded	persuade	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	edifying	edify	VERB	VBG	VerbForm=Ger	12	amod	_	_
+12	air	air	NOUN	NN	Number=Sing	7	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	superiority	superiority	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘I was stuck into old Bounderby’s bank (where I never wanted to be), and I knew I should get into scrapes there, if she put old Bounderby’s pipe out; so I told her my wishes, and she came into them.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	stuck	stuck	ADJ	JJ	Degree=Pos	0	root	_	_
+5	into	into	ADP	IN	_	9	case	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Bounderby	Bounderby	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	bank	bank	NOUN	NN	Number=Sing	4	obl	_	_
+10	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+11	where	where	ADV	WRB	PronType=Rel	14	advmod	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	never	never	ADV	RB	_	14	advmod	_	_
+14	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+23	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	get	get	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+25	into	into	ADP	IN	_	26	case	_	_
+26	scrapes	scrape	NOUN	NNS	Number=Plur	24	obl	_	_
+27	there	there	ADV	RB	PronType=Dem	24	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	4	punct	_	_
+29	if	if	SCONJ	IN	_	31	mark	_	_
+30	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+32	old	old	ADJ	JJ	Degree=Pos	35	amod	_	_
+33	Bounderby	Bounderby	PROPN	NNP	Number=Sing	35	nmod:poss	_	SpaceAfter=No
+34	’s	's	PART	POS	_	33	case	_	_
+35	pipe	pipe	NOUN	NN	Number=Sing	31	obj	_	_
+36	out	out	ADV	RB	_	31	advmod	_	SpaceAfter=No
+37	;	;	PUNCT	,	_	4	punct	_	_
+38	so	so	ADV	RB	_	40	advmod	_	_
+39	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+40	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+41	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	iobj	_	_
+42	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	wishes	wish	NOUN	NNS	Number=Plur	40	obj	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	47	punct	_	_
+45	and	and	CCONJ	CC	_	47	cc	_	_
+46	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
+47	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+48	into	into	ADP	IN	_	49	case	_	_
+49	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	47	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She would do anything for me.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+4	anything	anything	PRON	NN	Number=Sing	3	obj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It was very game of her, wasn’t it?’
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	game	game	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No
+9	n’t	not	PART	RB	_	10	advmod	_	_
+10	it	ight	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Littimer touched his hat in acknowledgement of my good opinion, and I felt about eight years old.
+1	Littimer	Littimer	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hat	hat	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	acknowledgement	acknowledgement	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	opinion	opinion	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	about	about	ADV	RB	_	16	advmod	_	_
+16	eight	eight	NUM	CD	NumType=Card	17	nummod	_	_
+17	years	year	NOUN	NNS	Number=Plur	18	obl:npmod	_	_
+18	old	old	ADJ	JJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He touched it once more, wishing us a good journey; and we left him standing on the pavement, as respectable a mystery as any pyramid in Egypt.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	more	more	ADV	RBR	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	wishing	wishe	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	journey	journey	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	standing	stand	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	pavement	pavement	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	15	punct	_	_
+22	as	as	SCONJ	IN	_	23	mark	_	_
+23	respectable	respectable	ADJ	JJ	Degree=Pos	15	advcl	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	mystery	mystery	NOUN	NN	Number=Sing	23	obj	_	_
+26	as	as	ADP	IN	_	28	case	_	_
+27	any	any	DET	DT	_	28	det	_	_
+28	pyramid	pyramid	NOUN	NN	Number=Sing	25	nmod	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	Egypt	Egypt	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

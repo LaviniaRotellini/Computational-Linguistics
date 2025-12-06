@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Every limb was trembling, her voice quivered, her eyes flashed, she had raised herself upon her knees; suddenly she extended her thin, white hand towards the child, who was regarding her with a look of astonishment.
+1	Every	every	DET	DT	_	2	det	_	_
+2	limb	limbenefit	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	trembling	trembl	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	voice	voice	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	quivered	quiver	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	eyes	eye	NOUN	NNS	Number=Plur	4	obj	_	_
+12	flashed	flash	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	_
+17	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	upon	upon	ADP	IN	_	20	case	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	knees	knee	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	4	punct	_	_
+22	suddenly	suddenly	ADV	RB	_	24	advmod	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	obj	_	_
+26	thin	thin	ADJ	JJ	Degree=Pos	29	amod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	white	white	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	hand	hand	NOUN	NN	Number=Sing	24	obj	_	_
+30	towards	towards	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	child	child	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	32	punct	_	_
+34	who	who	PRON	WP	PronType=Rel	36	nsubj	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux	_	_
+36	regarding	regard	VERB	VBG	Tense=Pres|VerbForm=Part	32	acl:relcl	_	_
+37	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+38	with	with	ADP	IN	_	40	case	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	look	look	NOUN	NN	Number=Sing	36	obl	_	_
+41	of	of	ADP	IN	_	42	case	_	_
+42	astonishment	astonishment	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Take away that child!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	away	away	ADP	RP	_	2	compound:prt	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	child	child	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = she cried.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = “The Egyptian woman is about to pass by.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Egyptian	egyptian	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	about	about	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	pass	pass	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	by	by	ADV	RP	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

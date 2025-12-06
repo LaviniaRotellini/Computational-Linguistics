@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s all yourn, Em’ly,’ I could hear him say.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	all	all	ADV	RB	_	5	advmod	_	_
+5	yourn	yourn	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Em	em	ADV	RB	_	8	advmod	_	SpaceAfter=No
+8	’ly	’ly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	5	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	hear	hear	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	say	say	VERB	VB	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘I haven’t nowt in all the wureld that ain’t yourn, my dear.
+1	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	nowt	nowt	ADV	RB	_	16	advmod	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	wureld	wureld	NOUN	NN	Number=Sing	5	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+11	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	yourn	yourn	VERB	VB	VerbForm=Inf	5	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	dear	dear	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = It ain’t of no delight to me, except for you!’
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	6	advmod	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	delight	delight	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	except	except	ADP	IN	_	12	case	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+14	’	’	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

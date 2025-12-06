@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Couldn’t have done it, my dear!’ retorted Mr. Omer.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Could	could	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	dear	dear	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	9	punct	_	_
+12	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	obj	_	_
+14	Omer	Omer	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = ‘Couldn’t have done it!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Could	could	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Is that YOUR knowledge of life?
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	that	that	SCONJ	IN	_	4	mark	_	_
+3	YOUR	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	knowledge	knowledge	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	life	life	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = What is there that any woman couldn’t do, that she shouldn’t do--especially on the subject of another woman’s good looks?’
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	2	expl	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	woman	woman	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n’t	not	PART	RB	_	15	advmod	_	_
+15	do	do	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+16	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+17	especially	especially	ADV	RB	_	20	advmod	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	subject	subject	NOUN	NN	Number=Sing	15	obj	_	_
+21	of	of	ADP	IN	_	26	case	_	_
+22	another	another	DET	DT	_	23	det	_	_
+23	woman	woman	NOUN	NN	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	good	good	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	looks	look	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+27	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

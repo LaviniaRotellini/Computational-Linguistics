@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You have said it,” replied Claude, who seemed absorbed in a profound meditation, and stood resting, his forefinger bent backward on the folio which had come from the famous press of Nuremberg.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	Claude	Claude	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	absorbed	absorb	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	profound	profound	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	meditation	meditation	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+21	resting	resting	VERB	VBG	VerbForm=Ger	20	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	forefinger	forefinger	ADP	IN	_	25	case	_	_
+25	bent	bend	NOUN	NN	Number=Sing	21	obj	_	_
+26	backward	backward	ADV	RB	_	21	advmod	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	folio	folio	NOUN	NN	Number=Sing	21	obl	_	_
+30	which	which	PRON	WDT	PronType=Rel	32	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	come	come	VERB	VBN	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+33	from	from	ADP	IN	_	36	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	famous	famious	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	press	press	NOUN	NN	Number=Sing	32	obl	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	Nuremberg	Nuremberg	PROPN	NNP	Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Then he added these mysterious words: “Alas! alas!
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+5	mysterious	mysterious	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	words	word	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	3	punct	_	_
+8	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+9	Alas	Alas	PROPN	NNPS	Number=Plur	11	compound	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	_	_
+11	alas	ala	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = small things come at the end of great things; a tooth triumphs over a mass.
+1	small	small	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	things	thing	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	end	end	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	things	thing	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	tooth	tooth	NOUN	NN	Number=Sing	13	compound	_	_
+13	triumphs	triumph	NOUN	NNS	Number=Plur	3	appos	_	_
+14	over	over	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	mass	mass	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The Nile rat kills the crocodile, the swordfish kills the whale, the book will kill the edifice.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Nile	Nile	PROPN	NNP	Number=Sing	3	compound	_	_
+3	rat	rat	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	crocodile	crocodile	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	swordfish	swordfish	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	kills	kill	NOUN	NNS	Number=Plur	12	obj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	whale	whale	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	book	book	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	kill	kill	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	edifice	edifice	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

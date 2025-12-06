@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lydgate said no more, but went out on his rounds.
+1	Lydgate	Lydgate	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	but	but	CCONJ	CC	_	7	cc	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	out	out	ADP	RP	_	7	compound:prt	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	rounds	round	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He felt bruised and shattered, and there was a dark line under his eyes which Rosamond had not seen before.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bruised	bruise	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	shattered	shatter	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	dark	dark	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	line	line	NOUN	NN	Number=Sing	9	nsubj	_	_
+13	under	under	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	12	nmod	_	_
+16	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	Rosamond	Rosamond	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+21	before	before	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She could not bear to look at him.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	look	look	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Tertius had a way of taking things which made them a great deal worse for her.
+1	Tertius	Tertius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	way	way	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	taking	take	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	things	thing	NOUN	NNS	Number=Plur	6	obj	_	_
+8	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	deal	deal	NOUN	NN	Number=Sing	14	obj	_	_
+14	worse	worse	ADJ	JJR	Degree=Cmp	9	xcomp	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

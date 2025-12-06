@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Dear Kitty, I will come and stay all night on purpose,” said Dorothea; “but I want to be alone now, and in my own home.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Kitty	kitty	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	come	come	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	stay	stay	VERB	VB	VerbForm=Inf	7	conj	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	night	night	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+12	on	on	ADP	IN	_	13	case	_	_
+13	purpose	purpose	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Dorothea	Dorothea	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	16	punct	_	_
+19	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	to	to	PART	TO	_	25	mark	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	alone	alone	ADV	RB	_	22	xcomp	_	_
+26	now	now	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	32	punct	_	_
+28	and	and	CCONJ	CC	_	32	cc	_	_
+29	in	in	ADP	IN	_	32	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	own	own	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	home	home	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = I wish to know the Farebrothers better, and to talk to Mr. Farebrother about what there is to be done in Middlemarch.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Farebrothers	Farebrother	NOUN	NNS	Number=Plur	4	obj	_	_
+7	better	better	ADV	RBR	Degree=Cmp	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	talk	talk	VERB	VB	VerbForm=Inf	2	conj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	11	obl	_	_
+14	Farebrother	Farebrother	PROPN	NNP	Number=Sing	13	flat	_	_
+15	about	about	SCONJ	IN	_	16	case	_	_
+16	what	what	PRON	WP	PronType=Int	11	obl	_	_
+17	there	there	PRON	EX	_	18	expl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	_
+21	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

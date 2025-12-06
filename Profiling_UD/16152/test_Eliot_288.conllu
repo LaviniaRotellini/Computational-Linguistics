@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m glad it was no worse a cause kept you from church,” said Adam.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	17	ccomp	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	no	no	ADV	RB	_	8	advmod	_	_
+8	worse	worse	ADJ	JJR	Degree=Cmp	17	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	cause	cause	NOUN	NN	Number=Sing	8	nsubj	_	_
+11	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	church	church	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Adam	Adam	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “I was afraid you must be ill for the first time i’ your life.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	ill	ill	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	8	obl	_	_
+13	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’	’	PUNCT	''	_	16	punct	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	life	life	NOUN	NN	Number=Sing	12	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And I was particularly sorry not to have you at church yesterday.”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	particularly	particularly	ADV	RB	_	5	advmod	_	_
+5	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+6	not	not	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	5	advcl	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	church	church	NOUN	NN	Number=Sing	8	obl	_	_
+12	yesterday	yesterday	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

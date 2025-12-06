@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh no, no, that would be too cruel to all the other young fellows who can dance.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	11	discourse	_	_
+3	no	no	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	no	no	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	too	too	ADV	RB	_	11	advmod	_	_
+11	cruel	cruel	ADJ	JJ	Degree=Pos	0	root	_	_
+12	to	to	ADP	IN	_	17	case	_	_
+13	all	all	DET	PDT	_	17	det:predet	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	young	young	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	fellows	fellow	NOUN	NNS	Number=Plur	11	obl	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+19	can	can	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	dance	dance	NOUN	NN	Number=Sing	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = But you will promise me two dances, won’t you?”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	promise	promise	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	two	two	NUM	CD	NumType=Card	7	nummod	_	_
+7	dances	dance	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	wo	will	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+10	n’t	not	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = the captain continued, determined to make Hetty look at him and speak to him.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	captain	captain	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	determined	determin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	make	make	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	Hetty	Hetty	PROPN	NNP	Number=Sing	7	obj	_	_
+9	look	look	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	speak	speak	VERB	VB	VerbForm=Inf	9	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

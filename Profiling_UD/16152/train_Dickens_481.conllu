@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Still, so it was,’ continued Mrs. Micawber.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Still	still	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+8	’	's	PUNCT	''	_	2	punct	_	_
+9	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Micawber	Micawber	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Under such circumstances, what could a man of Mr. Micawber’s spirit do?
+1	‘	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+2	Under	under	ADP	IN	_	4	case	_	_
+3	such	such	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	circumstances	circumstance	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	15	punct	_	_
+6	what	what	PRON	WP	PronType=Int	15	obj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	man	man	NOUN	NN	Number=Sing	15	nsubj	_	_
+10	of	of	ADP	IN	_	14	case	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nmod:poss	_	_
+12	Micawber	Micawber	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	’s	's	PART	POS	_	11	case	_	_
+14	spirit	spirit	NOUN	NN	Number=Sing	9	nmod	_	_
+15	do	do	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = But one obvious course was left.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+3	obvious	obvious	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	course	course	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	left	leave	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = To borrow, of that branch of my family, the money to return to London, and to return at any sacrifice.’
+1	To	to	ADP	IN	_	2	case	_	_
+2	borrow	borrow	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	branch	branch	NOUN	NN	Number=Sing	2	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	family	family	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	money	money	NOUN	NN	Number=Sing	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	return	return	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	London	London	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	return	return	VERB	VB	VerbForm=Inf	12	conj	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	any	any	DET	DT	_	23	det	_	_
+23	sacrifice	sacrifice	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

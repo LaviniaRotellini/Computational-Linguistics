@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Javert had followed Jean Valjean from tree to tree, then from corner to corner of the street, and had not lost sight of him for a single instant; even at the moments when Jean Valjean believed himself to be the most secure Javert’s eye had been on him.
+1	Javert	Javert	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	Jean	Jean	PROPN	NNP	Number=Sing	3	obj	_	_
+5	Valjean	Valjean	PROPN	NNP	Number=Sing	4	flat	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	tree	tree	NUM	CD	NumType=Card	3	obl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	tree	tree	NUM	CD	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	corner	corner	NOUN	NN	Number=Sing	11	obl	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	corner	corner	NOUN	NN	Number=Sing	13	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	street	street	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+24	sight	sight	NOUN	NN	Number=Sing	23	obj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nmod	_	_
+27	for	for	ADP	IN	_	30	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	single	single	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	instant	instant	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	3	punct	_	_
+32	even	even	ADV	RB	_	35	advmod	_	_
+33	at	at	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	moments	moment	NOUN	NNS	Number=Plur	3	obl	_	_
+36	when	when	ADV	WRB	PronType=Int	39	mark	_	_
+37	Jean	Jean	PROPN	NNP	Number=Sing	39	nsubj	_	_
+38	Valjean	Valjean	PROPN	NNP	Number=Sing	37	flat	_	_
+39	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+40	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	39	obj	_	_
+41	to	to	PART	TO	_	48	mark	_	_
+42	be	be	AUX	VB	VerbForm=Inf	48	cop	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+44	most	most	ADV	RBS	_	45	advmod	_	_
+45	secure	secure	ADJ	JJ	Degree=Pos	48	amod	_	_
+46	Javert	Javert	PROPN	NNP	Number=Sing	48	nmod:poss	_	SpaceAfter=No
+47	’s	's	PART	POS	_	46	case	_	_
+48	eye	eye	NOUN	NN	Number=Sing	39	xcomp	_	_
+49	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	52	aux	_	_
+50	been	be	AUX	VBN	Tense=Past|VerbForm=Part	52	cop	_	_
+51	on	on	ADP	IN	_	52	case	_	_
+52	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Why had not Javert arrested Jean Valjean?
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	Javert	Javert	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	arrested	arrest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Jean	Jean	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Valjean	Valjean	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Because he was still in doubt.
+1	Because	because	SCONJ	IN	_	6	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	still	still	ADV	RB	_	6	advmod	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	doubt	doubt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I wouldn’t go into that,” said Wemmick, evasively, “it might clash with official responsibilities.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	go	go	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+6	into	into	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Wemmick	Wemmick	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	evasively	evasively	ADV	RB	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	clash	clash	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	official	official	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	responsibilities	responsibility	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = I heard it, as I have in my time heard other curious things in the same place.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+11	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+12	other	other	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	curious	curious	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	things	thing	NOUN	NNS	Number=Plur	7	obj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	place	place	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I don’t tell it you on information received.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	information	information	NOUN	NN	Number=Sing	4	obl	_	_
+9	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I heard it.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

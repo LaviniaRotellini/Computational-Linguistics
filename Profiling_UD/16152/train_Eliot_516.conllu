@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Large towns be damned!” said Mr. Hawley, impatient of exposition.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Large	large	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	towns	town	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	damned	damn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+10	Hawley	Hawley	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	impatient	impatient	ADJ	JJ	Degree=Pos	8	parataxis	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	exposition	exposition	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “I know a little too much about Middlemarch elections.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	7	advmod	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	much	much	ADV	RB	_	3	advmod	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	10	compound	_	_
+10	elections	election	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Let ’em quash every pocket borough to-morrow, and bring in every mushroom town in the kingdom—they’ll only increase the expense of getting into Parliament.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	quash	quash	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	pocket	pocket	NOUN	NN	Number=Sing	3	obj	_	_
+6	borough	borough	ADJ	JJ	Degree=Pos	5	amod	_	_
+7	to	to	ADP	IN	_	9	case	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	morrow	morrow	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	bring	bring	VERB	VB	VerbForm=Inf	1	conj	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	every	every	DET	DT	_	16	det	_	_
+15	mushroom	mushroom	NOUN	NN	Number=Sing	16	compound	_	_
+16	town	town	NOUN	NN	Number=Sing	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	kingdom	kingdom	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
+22	’ll	’ll	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	only	only	ADV	RB	_	24	advmod	_	_
+24	increase	increase	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	expense	expense	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	SCONJ	IN	_	28	mark	_	_
+28	getting	get	VERB	VBG	VerbForm=Ger	26	acl	_	_
+29	into	into	ADP	IN	_	30	case	_	_
+30	Parliament	parliament	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I go upon facts.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	upon	upon	ADP	IN	_	4	case	_	_
+4	facts	fact	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

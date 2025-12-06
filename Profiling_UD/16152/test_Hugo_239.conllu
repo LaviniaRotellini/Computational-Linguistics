@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Neither the one nor the other, Gervaise.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Neither	neither	CCONJ	CC	_	4	cc	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	nor	nor	CCONJ	CC	_	7	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	Gervaise	Gervaise	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Monseigneur the archbishop interested himself in the child of Egypt, exorcised it, blessed it, removed the devil carefully from its body, and sent it to Paris, to be exposed on the wooden bed at Notre-Dame, as a foundling.”
+1	Monseigneur	Monseigneur	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	archbishop	archbishop	NOUN	NN	Number=Sing	12	nsubj	_	_
+4	interested	interested	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nmod:npmod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	child	child	NOUN	NN	Number=Sing	3	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Egypt	Egypt	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	exorcised	exorcise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	blessed	bless	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	removed	remove	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	devil	devil	PROPN	NNP	Number=Sing	18	obj	_	_
+21	carefully	carefully	ADV	RB	_	18	advmod	_	_
+22	from	from	ADP	IN	_	24	case	_	_
+23	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	body	body	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	Paris	Paris	PROPN	NNP	Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	18	punct	_	_
+32	to	to	PART	TO	_	34	mark	_	_
+33	be	be	AUX	VB	VerbForm=Inf	34	aux:pass	_	_
+34	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+35	on	on	ADP	IN	_	38	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+37	wooden	wooden	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	bed	be	NOUN	NN	Number=Sing	34	obl	_	_
+39	at	at	ADP	IN	_	40	case	_	_
+40	Notre	Notre	PROPN	NNP	Number=Sing	34	obl	_	SpaceAfter=No
+41	-	-	PUNCT	HYPH	_	40	punct	_	SpaceAfter=No
+42	Dame	Dame	PROPN	NNP	Number=Sing	40	flat	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	18	punct	_	_
+44	as	as	ADP	IN	_	46	case	_	_
+45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+46	foundling	foundling	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+48	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

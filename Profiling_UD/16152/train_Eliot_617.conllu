@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What care I about their objecting?” said Caleb, with a sturdiness which he was apt to show when he had an opinion.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	objecting	object	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Caleb	Caleb	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	sturdiness	sturdiness	NOUN	NN	Number=Sing	11	nmod	_	_
+16	which	which	PRON	WDT	PronType=Rel	19	obj	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	apt	apt	ADJ	JJ	Degree=Pos	15	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	show	show	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	when	when	ADV	WRB	PronType=Int	24	mark	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	_
+25	an	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	opinion	opinion	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “The lad is of age and must get his bread.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	lad	lad	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	age	age	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	get	get	VERB	VB	VerbForm=Inf	6	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	bread	bread	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He has sense enough and quickness enough; he likes being on the land, and it’s my belief that he could learn business well if he gave his mind to it.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sense	sense	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	quickness	quickness	NOUN	NNS	Number=Plur	4	conj	_	_
+7	enough	enough	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	14	cop	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	land	land	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	SpaceAfter=No
+18	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	belief	belief	NOUN	NN	Number=Sing	10	conj	_	_
+21	that	that	SCONJ	IN	_	24	mark	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	could	could	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	learn	learn	VERB	VB	VerbForm=Inf	20	acl	_	_
+25	business	business	NOUN	NN	Number=Sing	24	obj	_	_
+26	well	well	ADV	RB	Degree=Pos	24	advmod	_	_
+27	if	if	SCONJ	IN	_	29	mark	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	mind	mind	NOUN	NN	Number=Sing	29	obj	_	_
+32	to	to	ADP	IN	_	33	case	_	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

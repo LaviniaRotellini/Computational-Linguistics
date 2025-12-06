@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t touch me!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	touch	touch	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = he said, with an utterance like the cut of a lash, darting from her, and changing from pink to white and back again, as if his whole frame were tingling with the pain of the sting.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	utterance	utterance	NOUN	NN	Number=Sing	2	obl	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cut	cut	NOUN	NN	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	lash	lash	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	darting	dart	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	changing	change	VERB	VBG	VerbForm=Ger	14	conj	_	_
+20	from	from	ADP	IN	_	21	case	_	_
+21	pink	pink	NOUN	NN	Number=Sing	19	obl	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	white	white	ADJ	JJ	Degree=Pos	21	nmod	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	back	back	ADV	RB	_	26	advmod	_	_
+26	again	again	ADV	RB	_	14	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	2	punct	_	_
+28	as	as	SCONJ	IN	_	34	mark	_	_
+29	if	if	SCONJ	IN	_	34	mark	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	whole	whole	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	frame	frame	NOUN	NN	Number=Sing	34	nsubj	_	_
+33	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	aux	_	_
+34	tingling	tingl	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
+35	with	with	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	pain	pain	NOUN	NN	Number=Sing	34	obl	_	_
+38	of	of	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	sting	sting	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He wheeled round to the other side of the room and stood opposite to her, with the tips of his fingers in his pockets and his head thrown back, looking fiercely not at Rosamond but at a point a few inches away from her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wheeled	wheele	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	round	round	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	side	side	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	room	room	NOUN	NN	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	opposite	opposite	NOUN	NN	Number=Sing	12	obj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	tips	tip	NOUN	NNS	Number=Plur	2	obl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	fingers	finger	NOUN	NNS	Number=Plur	19	nmod	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	pockets	pocket	NOUN	NNS	Number=Plur	19	nmod	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	head	head	NOUN	NN	Number=Sing	19	conj	_	_
+29	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	28	acl	_	_
+30	back	back	ADV	RB	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	2	punct	_	_
+32	looking	look	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+33	fiercely	fiercely	ADV	RB	_	32	advmod	_	_
+34	not	not	PART	RB	_	32	advmod	_	_
+35	at	at	ADP	IN	_	36	case	_	_
+36	Rosamond	Rosamond	PROPN	NNP	Number=Sing	32	obl	_	_
+37	but	but	CCONJ	CC	_	40	cc	_	_
+38	at	at	ADP	IN	_	40	case	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	point	point	NOUN	NN	Number=Sing	44	obl	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	few	few	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	inches	inche	NOUN	NNS	Number=Plur	44	nsubj	_	_
+44	away	away	ADV	RB	_	32	advmod	_	_
+45	from	from	ADP	IN	_	46	case	_	_
+46	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

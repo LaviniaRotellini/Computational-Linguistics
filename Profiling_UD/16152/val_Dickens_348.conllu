@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You!’ returned Tom.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘You are the picture of independence.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	picture	picture	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	independence	independence	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mr. Harthouse, I am in a horrible mess.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	9	vocative	_	_
+2	Harthouse	Harthouse	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	horrible	horrible	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	mess	mess	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = You have no idea what a state I have got myself into—what a state my sister might have got me out of, if she would only have done it.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
+5	what	what	PRON	WP	PronType=Int	4	obj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	state	state	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	got	get	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	into	into	ADP	IN	_	14	case	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+14	what	what	PRON	WP	PronType=Int	10	obl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	state	state	NOUN	NN	Number=Sing	10	obj	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	sister	sister	NOUN	NN	Number=Sing	21	nsubj	_	_
+19	might	might	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	have	have	AUX	VB	VerbForm=Inf	21	aux	_	_
+21	got	get	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	out	out	ADP	IN	_	21	compound:prt	_	_
+24	of	of	ADP	IN	_	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	10	punct	_	_
+26	if	if	SCONJ	IN	_	31	mark	_	_
+27	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	would	would	AUX	MD	VerbForm=Fin	31	aux	_	_
+29	only	only	ADV	RB	_	31	advmod	_	_
+30	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+31	done	do	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

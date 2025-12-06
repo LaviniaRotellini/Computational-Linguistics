@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Partly—I mean, as to the possible issues.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Partly	partly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	as	as	ADP	IN	_	11	case	_	_
+8	to	to	ADP	IN	_	7	fixed	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	possible	possible	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	issues	issue	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = Lydgate was going to explain why he had told Dorothea, but Mr. Casaubon, with an unmistakable desire to end the conversation, waved his hand slightly, and said again, “I thank you,” proceeding to remark on the rare beauty of the day.
+1	Lydgate	Lydgate	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	explain	explain	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	why	why	ADV	WRB	PronType=Int	9	advmod	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	25	punct	_	_
+12	but	but	CCONJ	CC	_	25	cc	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	25	nsubj	_	_
+14	Casaubon	Casaubon	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	unmistakable	unmistakable	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	desire	desire	NOUN	NN	Number=Sing	13	nmod	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	end	end	VERB	VB	VerbForm=Inf	19	acl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	conversation	conversation	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	waved	wave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	hand	hand	NOUN	NN	Number=Sing	25	obj	_	_
+28	slightly	slightly	ADV	RB	_	25	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+32	again	again	ADV	RB	_	31	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	31	punct	_	_
+34	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
+37	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	36	obj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	31	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	31	punct	_	_
+40	proceeding	proceed	VERB	VBG	VerbForm=Ger	31	advcl	_	_
+41	to	to	PART	TO	_	42	mark	_	_
+42	remark	remark	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+43	on	on	ADP	IN	_	46	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+45	rare	rare	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	beauty	beauty	NOUN	NN	Number=Sing	42	obl	_	_
+47	of	of	ADP	IN	_	49	case	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	day	day	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

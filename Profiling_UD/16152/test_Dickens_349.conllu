@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Am I, grandpapa’s granddaughter, to be nothing in the house?” said Mrs. Pocket.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	grandpapa	grandpapa	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	granddaughter	granddaughter	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	nothing	nothing	PRON	NN	Number=Sing	17	ccomp	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	house	house	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	11	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mrs.	Mrs.	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Pocket	pocket	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “Besides, the cook has always been a very nice respectful woman, and said in the most natural manner when she came to look after the situation, that she felt I was born to be a Duchess.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Besides	besides	PROPN	NNPS	Number=Plur	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	13	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cook	cook	NOUN	NN	Number=Sing	13	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+7	always	always	ADV	RB	_	13	advmod	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	nice	nice	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	respectful	respectful	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	woman	woman	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	in	in	ADP	IN	_	21	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+19	most	most	ADV	RBS	_	20	advmod	_	_
+20	natural	natural	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	manner	manner	NOUN	NN	Number=Sing	16	obl	_	_
+22	when	when	ADV	WRB	PronType=Int	24	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	look	look	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	after	after	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	situation	situation	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	24	punct	_	_
+31	that	that	SCONJ	IN	_	33	mark	_	_
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj:pass	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	36	aux:pass	_	_
+36	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	ccomp	_	_
+37	to	to	PART	TO	_	40	mark	_	_
+38	be	be	AUX	VB	VerbForm=Inf	40	cop	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	Duchess	Duchess	NOUN	NN	Number=Sing	36	xcomp	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	16	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

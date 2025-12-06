@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, Mester Massey sits up late,” said Adam.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	Mester	Mester	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	Massey	Massey	PROPN	NNP	Number=Sing	4	flat	_	_
+6	sits	sit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+7	up	up	ADP	IN	_	6	compound:prt	_	_
+8	late	late	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Adam	Adam	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “An’ the night-school’s not over yet.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	An	a	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	2	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	night	night	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	school	school	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	over	over	ADV	RB	_	2	advmod	_	_
+11	yet	yet	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Some o’ the men don’t come till late—they’ve got so far to walk.
+1	Some	some	DET	DT	_	8	nsubj	_	_
+2	o	of	ADP	IN	Abbr=Yes	5	case	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	5	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	men	man	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+9	till	till	ADV	RB	_	10	advmod	_	_
+10	late	late	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	got	get	VERB	VBN	Tense=Past|VerbForm=Part	8	parataxis	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	far	far	ADV	RB	Degree=Pos	14	advmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	walk	walk	VERB	VB	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = And Bartle himself’s never in bed till it’s gone eleven.”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	Bartle	Bartle	PROPN	NNP	Number=Sing	3	compound	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	never	never	ADV	RB	_	7	advmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	bed	bed	NOUN	NN	Number=Sing	0	root	_	_
+8	till	till	SCONJ	IN	_	11	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+12	eleven	eleven	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

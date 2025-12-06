@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Here!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The cobbler’s been,’ he said, ‘since you’ve been out, Mr. Mell, and he says he can’t mend ‘em any more.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cobbler	cobbler	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+11	since	since	SCONJ	IN	_	15	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	SpaceAfter=No
+13	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+15	out	out	ADV	RB	_	17	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	8	parataxis	_	_
+18	Mell	Mell	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+24	ca	can	AUX	MD	VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	mend	mmend	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+27	‘	'	PUNCT	``	_	28	punct	_	SpaceAfter=No
+28	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+29	any	any	DET	DT	_	30	det	_	_
+30	more	more	ADV	RBR	_	26	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = He says there ain’t a bit of the original boot left, and he wonders you expect it.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	there	there	PRON	EX	_	12	expl	_	_
+4	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	7	advmod	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	bit	bit	NOUN	NN	Number=Sing	12	obl:npmod	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	original	original	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	boot	boot	NOUN	NN	Number=Sing	7	nmod	_	_
+12	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	wonders	wonder	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obj	_	_
+18	expect	expect	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have been led to think about your aunt Julia, and how she was left in poverty only because she married a poor man, an act which was not disgraceful, since he was not unworthy.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	led	lead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	think	think	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	about	about	ADP	IN	_	11	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	aunt	aunt	NOUN	NN	Number=Sing	11	compound	_	_
+11	Julia	Julia	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	how	how	ADV	WRB	PronType=Int	17	advmod	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	poverty	poverty	NOUN	NN	Number=Sing	17	obl	_	_
+20	only	only	ADV	RB	_	19	advmod	_	_
+21	because	because	SCONJ	IN	_	23	mark	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	poor	poor	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	man	man	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	act	act	NOUN	NN	Number=Sing	26	appos	_	_
+30	which	which	PRON	WDT	PronType=Rel	33	nsubj	_	_
+31	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	_
+32	not	not	PART	RB	_	33	advmod	_	_
+33	disgraceful	disgraceful	ADJ	JJ	Degree=Pos	29	acl:relcl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	5	punct	_	_
+35	since	since	SCONJ	IN	_	39	mark	_	_
+36	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
+38	not	not	PART	RB	_	39	advmod	_	_
+39	unworthy	unworthy	ADJ	JJ	Degree=Pos	5	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It was on that ground, I know, that you educated Mr. Ladislaw and provided for his mother.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	ground	ground	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	educated	educate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	obj	_	_
+14	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	13	flat	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	provided	provide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	mother	mother	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

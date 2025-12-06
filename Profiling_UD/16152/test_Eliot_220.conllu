@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, sir, I don’t see as he’d be much the better off for that.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+14	much	much	ADJ	JJ	Degree=Pos	12	obj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	mark	_	_
+16	better	better	ADJ	JJR	Degree=Cmp	14	advcl	_	_
+17	off	off	ADP	RP	_	16	compound:prt	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = A foreman, if he’s got a conscience and delights in his work, will do his business as well as if he was a partner.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	foreman	foreman	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	17	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	conscience	conscience	NOUN	NN	Number=Sing	7	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	delights	delights	NOUN	NNS	Number=Plur	9	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	work	work	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	business	business	NOUN	NN	Number=Sing	17	obj	_	_
+20	as	as	ADV	RB	_	17	advmod	_	_
+21	well	well	ADV	RB	Degree=Pos	20	fixed	_	_
+22	as	as	SCONJ	IN	_	27	mark	_	_
+23	if	if	SCONJ	IN	_	27	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	partner	partner	NOUN	NN	Number=Sing	17	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = I wouldn’t give a penny for a man as ’ud drive a nail in slack because he didn’t get extra pay for it.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	penny	penny	NOUN	NN	Number=Sing	4	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	man	man	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	as	as	ADP	IN	_	13	mark	_	_
+11	’	'	PUNCT	''	_	13	punct	_	SpaceAfter=No
+12	ud	uld	AUX	MD	Typo=Yes|VerbForm=Fin	13	aux	_	_
+13	drive	drive	VERB	VB	VerbForm=Inf	4	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	nail	nail	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	slack	slack	ADJ	JJ	Degree=Pos	13	obl	_	_
+18	because	because	SCONJ	IN	_	22	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
+21	n’t	not	PART	RB	_	22	advmod	_	_
+22	get	get	VERB	VB	VerbForm=Inf	4	advcl	_	_
+23	extra	extra	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	pay	pay	VERB	VB	VerbForm=Inf	22	obj	_	_
+25	for	for	ADP	IN	_	26	case	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

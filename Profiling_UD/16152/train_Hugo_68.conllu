@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The fact is that he displeased them.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fact	fact	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	displeased	displease	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Among other strange things, it is said that he chanced to remark one evening, when he found himself at the house of one of his most notable colleagues: “What beautiful clocks!
+1	Among	among	ADP	IN	_	4	case	_	_
+2	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	strange	strange	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	things	thing	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	chanced	chance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	remark	remark	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	one	one	NUM	CD	NumType=Card	15	nummod	_	_
+15	evening	evening	NOUN	NN	Number=Sing	13	obl:tmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+20	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	house	house	NOUN	NN	Number=Sing	19	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	one	one	NUM	CD	NumType=Card	23	nmod	_	_
+26	of	of	ADP	IN	_	30	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+28	most	most	ADJ	JJS	Degree=Sup	30	amod	_	_
+29	notable	notable	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	colleagues	colleague	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No
+31	:	:	PUNCT	:	_	19	punct	_	_
+32	“	"	PUNCT	``	_	35	punct	_	SpaceAfter=No
+33	What	what	DET	WDT	PronType=Int	35	det	_	_
+34	beautiful	beautiful	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	clocks	clock	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+36	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = What beautiful carpets!
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	beautiful	beautiful	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	carpets	carpets	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = What beautiful liveries!
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	beautiful	beautiful	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	liveries	livery	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = They must be a great trouble.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	trouble	trouble	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = I would not have all those superfluities, crying incessantly in my ears:
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	all	all	DET	PDT	_	7	det:predet	_	_
+6	those	those	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	superfluities	superfluity	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	crying	cry	VERB	VBG	VerbForm=Ger	4	conj	_	_
+10	incessantly	incessantly	ADV	RB	_	9	advmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	ears	ear	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 7
+# text = ‘There are people who are hungry!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	hungry	hungry	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = There are people who are cold!
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	who	who	PRON	WP	PronType=Int	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	cold	cold	ADJ	JJ	Degree=Pos	3	acl:relcl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = There are poor people!
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = There are poor people!’”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

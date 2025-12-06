@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The fireplace and the two chairs were exactly opposite Marius.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fireplace	fireplace	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	10	cc	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	two	two	NUM	CD	NumType=Card	6	nummod	_	_
+6	chairs	chair	NOUN	NNS	Number=Plur	10	nsubj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	exactly	exactly	ADV	RB	_	9	advmod	_	_
+9	opposite	opposite	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	Marius	Marius	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The brazier being concealed, the only light in the room was now furnished by the candle; the smallest bit of crockery on the table or on the chimney-piece cast a large shadow.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	brazier	brazier	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	aux:pass	_	_
+4	concealed	conceal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	14	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	only	only	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	light	light	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	room	room	NOUN	NN	Number=Sing	8	nmod	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+13	now	now	ADV	RB	_	14	advmod	_	_
+14	furnished	furnish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+15	by	by	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	candle	candle	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	4	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	smallest	smallest	ADJ	JJS	Degree=Sup	21	amod	_	_
+21	bit	bit	NOUN	NN	Number=Sing	4	appos	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	crockery	crockery	NOUN	NN	Number=Sing	21	nmod	_	_
+24	on	on	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	table	table	NOUN	NN	Number=Sing	21	nmod	_	_
+27	or	or	CCONJ	CC	_	32	cc	_	_
+28	on	on	ADP	IN	_	32	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+30	chimney	chimney	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	,	_	32	punct	_	SpaceAfter=No
+32	piece	piece	NOUN	NN	Number=Sing	21	conj	_	_
+33	cast	cast	VERB	VBN	Tense=Past|VerbForm=Part	32	acl	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+35	large	large	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	shadow	shadow	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There was something indescribably calm, threatening, and hideous about this chamber.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	something	something	PRON	NN	Number=Sing	2	nsubj	_	_
+4	indescribably	indescribably	ADV	RB	_	5	advmod	_	_
+5	calm	calm	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	threatening	threaten	VERB	VBG	VerbForm=Ger	3	acl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	hideous	hideous	ADJ	JJ	Degree=Pos	2	conj	_	_
+11	about	about	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	chamber	chamber	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = One felt that there existed in it the anticipation of something terrible.
+1	One	one	PRON	PRP	_	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	existed	exist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	anticipation	anticipation	NOUN	NN	Number=Sing	5	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	something	something	PRON	NN	Number=Sing	9	nmod	_	_
+12	terrible	terrible	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

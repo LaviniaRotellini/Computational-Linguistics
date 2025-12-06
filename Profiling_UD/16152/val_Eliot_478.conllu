@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But I hope it isn’t a plan where he expects iverything to be done for him by his friends; that’s what the young folks think of mostly nowadays.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	9	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	plan	plan	NOUN	NN	Number=Sing	4	ccomp	_	_
+10	where	where	ADV	WRB	PronType=Rel	12	advmod	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	expects	expect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	iverything	iverything	PRON	NN	Number=Sing	12	obj	_	_
+14	to	to	PART	TO	_	16	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	by	by	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	friends	friend	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	4	punct	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	SpaceAfter=No
+24	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+25	what	what	PRON	WP	PronType=Int	29	obj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	young	young	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	folks	folk	NOUN	NNS	Number=Plur	29	nsubj	_	_
+29	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	mostly	mostly	ADV	RB	_	32	advmod	_	_
+32	nowadays	nowadays	ADV	RB	_	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = And pray, what has this packman got to do wi’ what goes on in our family?
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	pray	pray	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	what	what	PRON	WP	PronType=Int	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	packman	packman	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	do	do	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	wi	wi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	10	obj	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	11	punct	_	_
+13	what	what	PRON	WP	PronType=Int	14	nsubj	_	_
+14	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	on	on	ADP	RP	_	14	compound:prt	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	family	family	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Can’t you speak for yourself,
+1	Ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	speak	speak	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 4
+# text = Tom, and let your aunt know things, as a nephey should?”
+1	Tom	Tom	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	aunt	aunt	NOUN	NN	Number=Sing	4	obj	_	_
+7	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	things	thing	NOUN	NNS	Number=Plur	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	nephey	nephey	NOUN	NN	Number=Sing	8	nmod	_	_
+13	should	should	AUX	MD	VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

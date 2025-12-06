@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stern lawgiver!
+1	Stern	Stern	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	lawgiver	lawgiver	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = yet thou dost wear The Godhead’s most benignant grace; Nor know we anything so fair
+1	yet	yet	CCONJ	CC	_	2	cc	_	_
+2	thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	dost	dost	ADV	RB	_	4	advmod	_	_
+4	wear	wear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Godhead	Godhead	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	most	most	ADV	RBS	_	9	advmod	_	_
+9	benigna	benigna	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+10	nt	not	PART	RB	_	9	advmod	_	_
+11	grace	grase	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	Nor	nor	PROPN	NNP	Number=Sing	14	nsubj	_	_
+14	know	know	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	anything	anything	PRON	NN	Number=Sing	14	obj	_	_
+17	so	so	ADV	RB	_	18	advmod	_	_
+18	fair	fair	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+
+# sent_id = 3
+# text = As is the smile upon thy face; Flowers laugh before thee on their beds, And fragrance in thy footing treads;
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	smile	smile	NOUN	NN	Number=Sing	10	advcl	_	_
+5	upon	upon	ADP	IN	_	7	case	_	_
+6	thy	thy	PRON	PRP$	_	7	nmod:poss	_	_
+7	face	face	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	10	punct	_	_
+9	Flowers	flower	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	laugh	laugh	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	before	before	ADP	IN	_	12	case	_	_
+12	thee	thee	NUM	CD	NumType=Card	10	obl	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	beds	bed	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	And	and	CCONJ	CC	_	18	cc	_	_
+18	fragrance	fragrance	NOUN	NN	Number=Sing	10	conj	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	thy	thy	PRON	PRP$	_	22	nmod:poss	_	_
+21	footing	foot	NOUN	NN	Number=Sing	22	compound	_	_
+22	treads	tread	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	10	punct	_	_
+
+# sent_id = 4
+# text = Thou dost preserve the Stars from wrong; And the most ancient Heavens, through thee, are fresh and strong.
+1	Thou	thou	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	dost	dost	ADV	RB	_	3	advmod	_	_
+3	preserve	preserve	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Stars	Star	NOUN	NNS	Number=Plur	3	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	wrong	wrong	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	And	and	CCONJ	CC	_	13	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+11	most	most	ADV	RBS	_	12	advmod	_	_
+12	ancient	ancient	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Heavens	Heavens	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	through	through	ADP	IN	_	16	case	_	_
+16	thee	thee	NUM	CD	NumType=Card	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	3	punct	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	fresh	fresh	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	strong	strong	ADJ	JJ	Degree=Pos	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = —WORDSWORTH: _Ode to Duty_.
+1	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+2	WORDSWORTH	WORDSWORth	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	_Ode	_Ode	NOUN	NN	Number=Sing	2	appos	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Duty	duty	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	_.	_.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

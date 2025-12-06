@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She waited yet some quarter of an hour, as she judged.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	yet	yet	ADV	RB	_	2	advmod	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	quarter	quarter	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	hour	hour	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	judged	judge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Then she arose, put on a loose robe, and went out of her room in the dark, and up the staircase to her brother’s room.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	arose	arise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	loose	loose	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	robe	robe	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	out	out	ADP	IN	_	16	case	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	room	room	NOUN	NN	Number=Sing	12	obl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	dark	dark	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	up	up	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	staircase	staircase	NOUN	NN	Number=Sing	3	conj	_	_
+25	to	to	ADP	IN	_	29	case	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	brother	brother	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	’s	's	PART	POS	_	27	case	_	_
+29	room	room	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = His door being shut, she softly opened it and spoke to him, approaching his bed with a noiseless step.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	door	door	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	aux:pass	_	_
+4	shut	shut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	softly	softly	ADV	RB	_	8	advmod	_	_
+8	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	approaching	approach	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	bed	bed	NOUN	NN	Number=Sing	15	obj	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	noiseless	noiseless	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	step	step	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

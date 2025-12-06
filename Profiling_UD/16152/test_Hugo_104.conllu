@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gringoire shuddered.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	shuddered	shudder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = That voice, although accentuated by menace, recalled to him another voice, which, that very morning, had dealt the deathblow to his mystery, by drawling, nasally, in the midst of the audience, “Charity, please!”
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	voice	voice	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	although	although	SCONJ	IN	_	5	mark	_	_
+5	accentuated	accentuate	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	menace	menace	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	recalled	recal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	another	another	DET	DT	_	13	det	_	_
+13	voice	voice	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	that	that	SCONJ	IN	_	22	mark	_	_
+18	very	very	ADV	RB	_	19	advmod	_	_
+19	morning	morning	NOUN	NN	Number=Sing	22	obl:tmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	deathblow	deathblow	NOUN	NN	Number=Sing	22	obj	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	mystery	mystery	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	22	punct	_	_
+29	by	by	ADP	IN	_	30	case	_	_
+30	drawling	drawling	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	13	punct	_	_
+32	nasally	nasally	ADV	RB	_	13	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	13	punct	_	_
+34	in	in	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	midst	midst	NOUN	NN	Number=Sing	13	nmod	_	_
+37	of	of	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	audience	audience	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	42	punct	_	_
+41	“	"	PUNCT	``	_	42	punct	_	SpaceAfter=No
+42	Charity	Charity	NOUN	NN	Number=Sing	39	conj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	42	punct	_	_
+44	please	please	INTJ	UH	_	42	discourse	_	SpaceAfter=No
+45	!	!	PUNCT	.	_	42	punct	_	SpaceAfter=No
+46	”	"	PUNCT	''	_	42	punct	_	_
+
+# sent_id = 3
+# text = He raised his head.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	head	head	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It was indeed Clopin Trouillefou.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	indeed	indeed	ADV	RB	_	4	advmod	_	_
+4	Clopin	Clopin	PROPN	NNP	Number=Sing	0	root	_	_
+5	Trouillefou	Trouillefou	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

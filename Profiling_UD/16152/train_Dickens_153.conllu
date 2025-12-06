@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No, Copperfield,’ says he, gravely, ‘that’s not a dog.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	Copperfield	Copperfield	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	gravely	gravely	ADV	RB	_	17	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	not	not	PART	RB	_	17	advmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	dog	dog	NOUN	NN	Number=Sing	7	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = That’s a boy.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = My instructions are, Copperfield, to put this placard on your back.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	instructions	instruction	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Copperfield	Copperfield	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	to	to	PART	TO	_	5	mark	_	_
+8	put	put	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	placard	placard	NOUN	NN	Number=Sing	8	obj	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	back	back	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I am sorry to make such a beginning with you, but I must do it.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	make	make	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	such	such	DET	PDT	_	8	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	beginning	beginning	NOUN	NN	Number=Sing	5	obj	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	do	do	VERB	VB	VerbForm=Inf	3	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 5
+# text = With that he took me down, and tied the placard, which was neatly constructed for the purpose, on my shoulders like a knapsack; and wherever I went, afterwards, I had the consolation of carrying it.
+1	With	with	SCONJ	IN	_	4	mark	_	_
+2	that	that	SCONJ	IN	_	1	fixed	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	advcl	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	down	down	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	tied	tie	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	placard	placard	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	16	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+15	neatly	neatly	ADV	RB	_	16	advmod	_	_
+16	constructed	construct	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	purpose	purpose	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	on	on	ADP	IN	_	23	case	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	shoulders	shoulders	NOUN	NNS	Number=Plur	4	conj	_	_
+24	like	like	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	knapsack	knapsack	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	31	punct	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	_
+29	wherever	wherever	ADV	WRB	PronType=Int	31	advmod	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+31	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	_	_
+33	afterwards	afterwards	ADV	RB	_	31	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	consolation	consolation	NOUN	NN	Number=Sing	36	obj	_	_
+39	of	of	SCONJ	IN	_	40	mark	_	_
+40	carrying	carry	VERB	VBG	VerbForm=Ger	38	acl	_	_
+41	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	36	punct	_	SpacesAfter=\n
+

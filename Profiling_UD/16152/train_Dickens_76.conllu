@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s far from right that I should do it,’ said Mrs. Gummidge.
+1	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+4	far	far	ADV	RB	Degree=Pos	3	advmod	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	right	right	NOUN	NN	Number=Sing	4	obl	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	do	do	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Gummidge	Gummidge	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘It an’t a fit return.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	a	a	AUX	MD	Typo=Yes|VerbForm=Fin	7	cop	_	SpaceAfter=No
+4	n’t	n’t	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	fit	fit	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	return	return	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = I had better go into the house and die.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	go	go	NOUN	NN	Number=Sing	2	obj	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	house	house	NOUN	NN	Number=Sing	2	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	die	die	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I am a lone lorn creetur’, and had much better not make myself contrary here.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	lone	lone	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	lorn	lorn	NOUN	NN	Number=Sing	6	compound	_	_
+6	creetur	creetur	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	much	much	ADV	RB	_	12	advmod	_	_
+12	better	better	ADJ	JJR	Degree=Cmp	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	make	make	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+15	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	contrary	contrary	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+17	here	here	ADV	RB	PronType=Dem	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = If thinks must go contrary with me, and I must go contrary myself, let me go contrary in my parish.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	thinks	think	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	go	go	VERB	VB	VerbForm=Inf	16	advcl	_	_
+5	contrary	contrary	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	go	go	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	contrary	contrary	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	go	go	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	contrary	contrary	ADJ	JJ	Degree=Pos	18	xcomp	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	parish	parish	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 6
+# text = Dan’l, I’d better go into the house, and die and be a riddance!’
+1	Dan’l	Dan’l	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	4	xcomp	_	_
+6	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	house	house	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	riddance	riddance	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

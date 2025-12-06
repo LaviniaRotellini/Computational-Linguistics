@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘She don’t know me, Stephen; she just drowsily mutters and stares.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	Stephen	Stephen	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	drowsily	drowsily	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+13	mutters	mutter	NOUN	NNS	Number=Plur	12	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	stares	stare	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I have spoken to her times and again, but she don’t notice!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	times	time	NOUN	NNS	Number=Plur	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	notice	notice	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ’Tis as well so.
+1	’	'	PART	POS	_	2	case	_	SpaceAfter=No
+2	Tis	Tis	PROPN	NNP	Number=Sing	0	root	_	_
+3	as	as	ADV	RB	_	2	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	_
+5	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = When she comes to her right mind once more, I shall have done what I can, and she never the wiser.’
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	right	right	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	mind	mind	NOUN	NN	Number=Sing	3	obl	_	_
+8	once	once	ADV	RB	NumType=Mult	9	advmod	_	_
+9	more	more	ADV	RBR	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	shall	shall	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	what	what	PRON	WP	PronType=Int	14	obj	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	never	never	ADV	RB	_	23	advmod	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	wiser	wiser	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	14	punct	_	SpacesAfter=\n
+

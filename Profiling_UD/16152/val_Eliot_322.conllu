@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What madness, to be sure!” said Mrs Glegg.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	3	det	_	_
+3	madness	madness	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	sure	sure	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mrs	Mrs	PROPN	NNP	Number=Sing	10	parataxis	_	_
+12	Glegg	Glegg	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “A man with a family!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	family	family	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He’d no right to lend his money i’ that way; and without security, I’ll be bound, if the truth was known.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	right	right	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	lend	lend	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	money	money	NOUN	NN	Number=Sing	6	obj	_	_
+9	i	I	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	8	punct	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	way	way	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	and	and	CCONJ	CC	_	21	cc	_	_
+15	without	without	ADP	IN	_	16	case	_	_
+16	security	security	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+19	’ll	’ll	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+21	bound	bound	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	if	if	SCONJ	IN	_	27	mark	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	truth	truth	NOUN	NN	Number=Sing	27	nsubj:pass	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My dear sir,” said Mr. Trabb, as he respectfully bent his body, opened his arms, and took the liberty of touching me on the outside of each elbow, “don’t hurt me by mentioning that.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	parataxis	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Trabb	Trabb	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	as	as	SCONJ	IN	_	14	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	respectfully	respectfully	ADV	RB	_	14	advmod	_	_
+14	bent	bend	VERB	VB	VerbForm=Inf	18	advcl	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	body	body	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	arms	arm	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	liberty	liberty	NOUN	NN	Number=Sing	23	obj	_	_
+26	of	of	SCONJ	IN	_	27	mark	_	_
+27	touching	touch	VERB	VBG	VerbForm=Ger	25	acl	_	_
+28	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	obj	_	_
+29	on	on	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	outside	outside	NOUN	NN	Number=Sing	27	obl	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	each	each	DET	DT	_	34	det	_	_
+34	elbow	elbow	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	39	punct	_	_
+36	“	"	PUNCT	``	_	39	punct	_	SpaceAfter=No
+37	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	SpaceAfter=No
+38	n’t	not	PART	RB	_	39	advmod	_	_
+39	hurt	hurt	VERB	VB	VerbForm=Inf	18	conj	_	_
+40	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	39	obj	_	_
+41	by	by	SCONJ	IN	_	42	mark	_	_
+42	mentioning	mention	VERB	VBG	VerbForm=Ger	39	advcl	_	_
+43	that	that	PRON	DT	Number=Sing|PronType=Dem	42	obj	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = May I venture to congratulate you?
+1	May	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	venture	venture	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	congratulate	congratulate	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Would you do me the favour of stepping into the shop?”
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	favour	favour	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	stepping	stepping	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	into	into	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	shop	shop	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

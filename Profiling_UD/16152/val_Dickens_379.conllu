@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Good Heavens, Loo,’ returned her brother, ‘you are not in the habit of asking my advice.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	Good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Heavens	Heavens	PROPN	NNPS	Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Loo	Loo	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	brother	brother	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	not	not	PART	RB	_	18	advmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	habit	habit	NOUN	NN	Number=Sing	8	parataxis	_	_
+19	of	of	SCONJ	IN	_	20	mark	_	_
+20	asking	ask	VERB	VBG	VerbForm=Ger	18	acl	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	advice	advice	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Say what you like.
+1	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	what	what	PRON	WP	PronType=Int	4	obj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = If you keep it to yourself, I shall keep it to _my_self.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	shall	shall	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	keep	keep	VERB	VB	VerbForm=Inf	0	root	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	_my_self	_my_self	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = If you disclose it, there’s an end of it.’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	disclose	disclose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	SpaceAfter=No
+7	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	end	end	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

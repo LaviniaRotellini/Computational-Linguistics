@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = They reached the village.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	village	village	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Cosette guided the stranger through the streets.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	guided	guide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	stranger	stranger	NOUN	NN	Number=Sing	2	obj	_	_
+5	through	through	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	streets	street	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = They passed the bakeshop, but Cosette did not think of the bread which she had been ordered to fetch.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bakeshop	bakeshop	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	but	but	CCONJ	CC	_	10	cc	_	_
+7	Cosette	Cosette	PROPN	NNP	Number=Sing	10	nsubj	_	_
+8	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	think	think	VERB	VB	VerbForm=Inf	2	conj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	bread	bread	NOUN	NN	Number=Sing	10	obl	_	_
+14	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	ordered	order	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	fetch	fetch	VERB	VB	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The man had ceased to ply her with questions, and now preserved a gloomy silence.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	ceased	cease	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	ply	ply	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	questions	question	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	now	now	ADV	RB	_	13	advmod	_	_
+13	preserved	preserve	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	gloomy	gloomy	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	silence	silence	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

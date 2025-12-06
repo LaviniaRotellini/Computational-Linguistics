@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He entered, advanced a step, and halted, leaving the door open behind him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	advanced	advanc	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	step	step	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	halted	halt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	leaving	leave	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	door	door	NOUN	NN	Number=Sing	11	obj	_	_
+14	open	open	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+15	behind	behind	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He had his knapsack on his shoulders, his cudgel in his hand, a rough, audacious, weary, and violent expression in his eyes.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	knapsack	knapsack	NOUN	NN	Number=Sing	2	obj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	shoulders	shoulders	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	cudgel	cudgel	NOUN	NN	Number=Sing	2	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	hand	hand	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+16	rough	rough	ADJ	JJ	Degree=Pos	24	amod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	audacious	audacious	ADJ	JJ	Degree=Pos	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	weary	weary	ADJ	JJ	Degree=Pos	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	violent	violent	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	expression	expression	NOUN	NN	Number=Sing	2	obj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	eyes	eye	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The fire on the hearth lighted him up.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fire	fire	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	hearth	hearth	NOUN	NN	Number=Sing	2	nmod	_	_
+6	lighted	lighte	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	up	up	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = He was hideous.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	hideous	hideous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = It was a sinister apparition.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	sinister	sinister	NOUN	NN	Number=Sing	5	compound	_	_
+5	apparition	apparition	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

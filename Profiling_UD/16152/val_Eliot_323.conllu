@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, there _was_ security; my husband gave a note for it.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	_was	_be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	_	_	SYM	NFP	_	7	punct	_	_
+7	security	security	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	husband	husband	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	note	note	NOUN	NN	Number=Sing	11	obj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = We’re not that sort o’ people, neither of us, as ’ud rob my brother’s children; and we looked to paying back the money, when the times got a bit better.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	sort	sort	ADV	RB	_	6	advmod	_	_
+6	o	of	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	neither	neither	CCONJ	CC	_	17	nsubj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	as	as	ADP	IN	_	15	case	_	_
+15	’	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+16	ud	ud	AUX	MD	Typo=Yes|VerbForm=Fin	17	aux	_	_
+17	rob	rob	VERB	VB	VerbForm=Inf	8	conj	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	brother	brother	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	children	child	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	8	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+25	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+26	to	to	SCONJ	IN	_	27	mark	_	_
+27	paying	pay	VERB	VBG	VerbForm=Ger	25	advcl	_	_
+28	back	back	ADV	RB	_	27	advmod	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	money	money	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	8	punct	_	_
+32	when	when	ADV	WRB	PronType=Int	35	mark	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	times	time	NOUN	NNS	Number=Plur	35	nsubj	_	_
+35	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	bit	bit	NOUN	NN	Number=Sing	38	obl:npmod	_	_
+38	better	better	ADV	RBR	Degree=Cmp	35	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

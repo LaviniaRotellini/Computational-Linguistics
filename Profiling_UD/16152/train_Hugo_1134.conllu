@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Let go of me!” she said, bursting into a laugh, “how you do shake me!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	6	compound	_	_
+3	go	go	NOUN	NN	Number=Sing	2	obj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	9	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	9	punct	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	bursting	burst	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	into	into	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	laugh	laugh	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+17	how	how	ADV	WRB	PronType=Int	20	advmod	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+19	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	shake	shake	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Yes!
+1	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Yes!
+1	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I promise that!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	promise	promise	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I swear that to you!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	swear	swear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = What is that to me?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = I will not tell my father the address.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	father	father	NOUN	NN	Number=Sing	4	obj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	address	address	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = There!
+1	There	there	PRON	EX	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Is that right?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	right	right	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Is that it?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

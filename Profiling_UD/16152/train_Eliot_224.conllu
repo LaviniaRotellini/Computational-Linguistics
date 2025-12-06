@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Who is often almost as ignorant as the coroner himself,” said Lydgate.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	often	often	ADV	RB	_	7	advmod	_	_
+5	almost	almost	ADV	RB	_	7	advmod	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	ignorant	ignorant	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+8	as	as	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	coroner	coroner	NOUN	NN	Number=Sing	11	compound	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Lydgate	Lydgate	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “Questions of medical jurisprudence ought not to be left to the chance of decent knowledge in a medical witness, and the coroner ought not to be a man who will believe that strychnine will destroy the coats of the stomach if an ignorant practitioner happens to tell him so.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Questions	question	NOUN	NNS	Number=Plur	10	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	medical	medical	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	jurisprudence	jurisprudence	NOUN	NN	Number=Sing	2	nmod	_	_
+6	ought	ought	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	not	not	PART	RB	_	10	advmod	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	chance	chance	NOUN	NN	Number=Sing	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	decent	decent	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	knowledge	knowledge	NOUN	NN	Number=Sing	13	nmod	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	medical	medical	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	witness	witness	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	30	punct	_	_
+22	and	and	CCONJ	CC	_	30	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	coroner	coroner	NOUN	NN	Number=Sing	30	nsubj	_	_
+25	ought	ought	AUX	MD	VerbForm=Fin	30	aux	_	_
+26	not	not	PART	RB	_	30	advmod	_	_
+27	to	to	PART	TO	_	30	mark	_	_
+28	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	man	man	NOUN	NN	Number=Sing	10	conj	_	_
+31	who	who	PRON	WP	PronType=Rel	33	nsubj	_	_
+32	will	will	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	believe	believe	VERB	VB	VerbForm=Inf	30	acl:relcl	_	_
+34	that	that	SCONJ	IN	_	37	mark	_	_
+35	strychnine	strychnine	PRON	PRP	_	37	nsubj	_	_
+36	will	will	AUX	MD	VerbForm=Fin	37	aux	_	_
+37	destroy	destroy	VERB	VB	VerbForm=Inf	33	ccomp	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	coats	coat	NOUN	NNS	Number=Plur	37	obj	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	stomach	stomach	NOUN	NN	Number=Sing	39	nmod	_	_
+43	if	if	SCONJ	IN	_	47	mark	_	_
+44	an	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+45	ignorant	ignorant	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	practitioner	practitioner	NOUN	NN	Number=Sing	47	nsubj	_	_
+47	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	_
+48	to	to	PART	TO	_	49	mark	_	_
+49	tell	tell	VERB	VB	VerbForm=Inf	47	xcomp	_	_
+50	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	_	_
+51	so	so	ADV	RB	_	49	advmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+53	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

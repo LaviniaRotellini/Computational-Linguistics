@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Monseigneur,” said the brigadier of gendarmes, “so what this man said is true, then?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	brigadier	brigadier	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	gendarmes	gendarme	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	what	what	PRON	WP	PronType=Int	16	obj	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	man	man	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	csubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	true	true	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	5	punct	_	_
+20	then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = We came across him.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	across	across	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He was walking like a man who is running away.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	man	man	NOUN	NN	Number=Sing	3	obl	_	_
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+10	away	away	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = We stopped him to look into the matter.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	look	look	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	matter	matter	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = He had this silver—”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	silver	silver	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	—	-	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

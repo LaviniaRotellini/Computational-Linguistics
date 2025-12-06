@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Except well, indeed!’ said the Old Soldier.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Except	except	VERB	VB	Mood=Imp|VerbForm=Fin	8	ccomp	_	_
+3	well	well	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	indeed	indeed	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	Old	old	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Soldier	soldier	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘He has had dreadful strokes of the sun, no doubt, and jungle fevers and agues, and every kind of thing you can mention.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	dreadful	dreadful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	strokes	stroke	NOUN	NNS	Number=Plur	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sun	sun	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	doubt	doubt	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	jungle	jungle	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	fevers	fevers	NOUN	NNS	Number=Plur	12	conj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	agues	ague	NOUN	NNS	Number=Plur	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	every	every	DET	DT	_	22	det	_	_
+22	kind	kind	NOUN	NN	Number=Sing	4	conj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	thing	thing	NOUN	NN	Number=Sing	22	nmod	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+26	can	can	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	mention	mention	VERB	VB	VerbForm=Inf	22	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = As to his liver,’ said the Old Soldier resignedly, ‘that, of course, he gave up altogether, when he first went out!’
+1	As	as	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	liver	liver	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	Old	old	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Soldier	soldier	PROPN	NNP	Number=Sing	20	nsubj	_	_
+11	resignedly	resignedly	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	20	punct	_	_
+13	‘	'	PUNCT	``	_	20	punct	_	SpaceAfter=No
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	of	of	ADV	RB	_	20	advmod	_	_
+17	course	course	ADV	RB	_	16	fixed	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+21	up	up	ADP	RP	_	20	compound:prt	_	_
+22	altogether	altogether	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	_
+24	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	first	first	ADV	RB	_	27	advmod	_	_
+27	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	_
+28	out	out	ADV	RB	_	27	advmod	_	SpaceAfter=No
+29	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Ah, she’s poorly,’ said the first old woman.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+6	poorly	poorly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+11	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	13	amod	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	woman	woman	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘It’s one of her bad days.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	days	day	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = If the fire was to go out, through any accident, I verily believe she’d go out too, and never come to life again.’
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	fire	fire	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	go	go	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	out	out	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	through	through	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	accident	accident	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	verily	verily	ADV	RB	_	15	advmod	_	_
+15	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	’d	’d	ADV	RB	_	18	advmod	_	_
+18	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+19	out	out	ADV	RB	_	18	advmod	_	_
+20	too	too	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	never	never	ADV	RB	_	24	advmod	_	_
+24	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	life	life	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	again	again	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	15	punct	_	SpacesAfter=\n
+

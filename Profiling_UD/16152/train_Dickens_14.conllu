@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You were speaking about its being a girl,’ said Miss Betsey.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	_
+5	about	about	ADV	RB	_	10	advmod	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	being	be	AUX	VBG	VerbForm=Ger	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	girl	girl	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Miss	miss	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Betsey	Betsey	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = ‘I have no doubt it will be a girl.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	doubt	doubt	NOUN	NN	Number=Sing	3	obj	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	girl	girl	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I have a presentiment that it must be a girl.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	presentiment	presentiment	NOUN	NN	Number=Sing	2	obj	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	girl	girl	NOUN	NN	Number=Sing	4	acl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Now child, from the moment of the birth of this girl--’
+1	Now	now	ADV	RB	_	2	advmod	_	_
+2	child	child	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	moment	moment	NOUN	NN	Number=Sing	2	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	birth	birth	NOUN	NN	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	girl	girl	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	--’	--’	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

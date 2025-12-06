@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Say no more, Tom, say no more; I’ve had enough for this day.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	more	more	ADV	RBR	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	more	more	ADV	RBR	_	8	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	_
+15	enough	enough	ADV	RB	_	14	advmod	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	day	day	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Give me a kiss, Bessy, and let us bear one another no ill-will; we shall never be young again—this world’s been too many for me.”
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	kiss	kiss	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	Bessy	Bessy	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	bear	bear	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	one	one	NUM	CD	NumType=Card	17	nummod	_	_
+13	another	another	DET	DT	_	17	det	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	ill	ill	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+17	will	will	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	1	punct	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+20	shall	shall	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	never	never	ADV	RB	_	23	advmod	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	cop	_	_
+23	young	young	ADJ	JJ	Degree=Pos	25	ccomp	_	_
+24	again	again	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	—	-	PUNCT	,	_	31	punct	_	SpaceAfter=No
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	_
+27	world	world	NOUN	NN	Number=Sing	31	nsubj	_	SpaceAfter=No
+28	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+29	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	cop	_	_
+30	too	too	ADV	RB	_	31	advmod	_	_
+31	many	many	ADJ	JJ	Degree=Pos	1	parataxis	_	_
+32	for	for	ADP	IN	_	33	case	_	_
+33	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

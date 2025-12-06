@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = said Mr. Jorkins, stopping at the door to shake his head.
+1	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	Jorkins	Jorkins	PROPN	NNPS	Number=Plur	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	stopping	stoppe	VERB	VBG	VerbForm=Ger	1	ccomp	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	door	door	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	shake	shake	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	head	head	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = ‘Oh, no!
+1	‘	'	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	no	no	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I object, you know,’ which he said very rapidly, and went out.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	object	object	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	obj	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	rapidly	rapidly	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+16	out	out	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = ‘You must be aware, Mr. Copperfield,’ he added, looking restlessly in at the door again, ‘if Mr. Spenlow objects--’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+8	Copperfield	Copperfield	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	looking	look	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+15	restlessly	restlessly	ADV	RB	_	14	advmod	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	door	door	NOUN	NN	Number=Sing	14	obl	_	_
+20	again	again	ADV	RB	_	14	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	5	punct	_	_
+22	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+23	if	if	SCONJ	IN	_	26	mark	_	_
+24	Mr.	Mr.	PROPN	NNP	Number=Sing	26	nsubj	_	_
+25	Spenlow	Spenlow	PROPN	NNP	Number=Sing	24	flat	_	_
+26	objects	object	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+27	--’	--’	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Listen, Messire Jacques.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Listen	listen	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Messire	Messire	PROPN	NNP	Number=Sing	2	appos	_	_
+5	Jacques	Jacques	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = This is said in good faith.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	faith	faith	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am not the king’s physician, and his majesty has not given me the Garden of Dædalus in which to observe the constellations.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	not	not	PART	RB	_	7	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	king	king	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	physician	physician	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	majesty	majesty	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	given	give	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Garden	Garden	PROPN	NNP	Number=Sing	14	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	Dædalus	Dædalus	PROPN	NNP	Number=Sing	17	nmod	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	which	which	PRON	WDT	PronType=Rel	23	obl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	observe	observe	VERB	VB	VerbForm=Inf	17	acl:relcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	constellations	constellation	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Don’t get angry, but listen to me.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	angry	angry	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	but	but	CCONJ	CC	_	7	cc	_	_
+7	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	3	conj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = What truth have you deduced, I will not say from medicine, which is too foolish a thing, but from astrology?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	truth	truth	NOUN	NN	Number=Sing	5	obj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	deduced	deduce	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	say	say	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	medicine	medicine	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	too	too	ADV	RB	_	17	advmod	_	_
+17	foolish	foolish	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	thing	thing	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	but	but	CCONJ	CC	_	23	cc	_	_
+22	from	from	ADP	IN	_	23	case	_	_
+23	astrology	astrology	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Cite to me the virtues of the vertical boustrophedon, the treasures of the number ziruph and those of the number zephirod!”
+1	Cite	cite	ADP	IN	_	3	case	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	virtues	virtue	NOUN	NNS	Number=Plur	0	root	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	vertical	vertical	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	boustrophedon	boustrophedon	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	treasures	treasure	NOUN	NNS	Number=Plur	5	appos	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	number	number	NOUN	NN	Number=Sing	16	compound	_	_
+16	ziruph	ziruph	NOUN	NN	Number=Sing	12	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	those	those	PRON	DT	Number=Plur|PronType=Dem	5	conj	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	number	number	NOUN	NN	Number=Sing	22	compound	_	_
+22	zephirod	zephirod	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+23	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

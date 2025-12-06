@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “She is a good creature—that fine girl—but a little too earnest,” he thought.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	creature	creature	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	fine	fine	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	girl	girl	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+12	but	but	CCONJ	CC	_	20	cc	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	little	little	ADJ	JJ	Degree=Pos	16	obl:npmod	_	_
+15	too	too	ADV	RB	_	16	advmod	_	_
+16	earnest	earnest	ADV	RBS	Degree=Sup	20	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	20	punct	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “It is troublesome to talk to such women.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	troublesome	troublesome	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	talk	talk	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	women	woman	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = They are always wanting reasons, yet they are too ignorant to understand the merits of any question, and usually fall back on their moral sense to settle things after their own taste.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	yet	yet	CCONJ	CC	_	11	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	too	too	ADV	RB	_	11	advmod	_	_
+11	ignorant	ignorant	ADJ	JJ	Degree=Pos	4	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	understand	understand	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	merits	merit	NOUN	NNS	Number=Plur	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	any	any	DET	DT	_	18	det	_	_
+18	question	question	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	usually	usually	ADV	RB	_	22	advmod	_	_
+22	fall	fall	VERB	VB	VerbForm=Inf	4	conj	_	_
+23	back	back	ADV	RB	_	22	advmod	_	_
+24	on	on	ADP	IN	_	27	case	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	moral	moral	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sense	sense	NOUN	NN	Number=Sing	22	obl	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	settle	settle	VERB	VB	VerbForm=Inf	27	acl	_	_
+30	things	thing	NOUN	NNS	Number=Plur	29	obj	_	_
+31	after	after	ADP	IN	_	34	case	_	_
+32	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+33	own	own	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	taste	taste	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

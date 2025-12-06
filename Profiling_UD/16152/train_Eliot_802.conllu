@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dorothea’s native strength of will was no longer all converted into resolute submission.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	native	native	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	strength	strength	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	will	will	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	no	no	ADV	RB	_	9	advmod	_	_
+9	longer	longer	ADV	RBR	Degree=Cmp	11	advmod	_	_
+10	all	all	DET	DT	_	9	nsubj	_	_
+11	converted	convert	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	into	into	ADP	IN	_	14	case	_	_
+13	resolute	resolute	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	submission	submission	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = She had a great yearning to be at Lowick, and was simply determined to go, not feeling bound to tell all her reasons.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	yearning	yearning	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	9	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	Lowick	Lowick	PROPN	NNP	Number=Sing	2	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	simply	simply	ADV	RB	_	14	advmod	_	_
+14	determined	determined	ADJ	JJ	Degree=Pos	2	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	go	go	VERB	VB	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	20	parataxis	_	_
+20	bound	bound	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	tell	tell	VERB	VB	VerbForm=Inf	16	advcl	_	_
+23	all	all	DET	DT	_	25	det:predet	_	_
+24	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	reasons	reason	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But every one around her disapproved.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	every	every	DET	DT	_	3	det	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	around	around	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	disapproved	disapprove	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sir James was much pained, and offered that they should all migrate to Cheltenham for a few months with the sacred ark, otherwise called a cradle: at that period a man could hardly know what to propose if Cheltenham were rejected.
+1	Sir	Sir	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+2	James	James	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	much	much	ADV	RB	_	5	advmod	_	_
+5	pained	paine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	all	all	ADV	RB	_	13	advmod	_	_
+13	migrate	migrate	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	Cheltenham	Cheltenham	PROPN	NNP	Number=Sing	13	obl	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	few	few	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	months	month	NOUN	NNS	Number=Plur	13	obl	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	sacred	sacred	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	ark	ark	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	13	punct	_	_
+25	otherwise	otherwise	ADV	RB	_	26	advmod	_	_
+26	called	call	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	cradle	cradle	NOUN	NN	Number=Sing	26	xcomp	_	SpaceAfter=No
+29	:	:	PUNCT	:	_	5	punct	_	_
+30	at	at	ADP	IN	_	32	case	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	period	period	NOUN	NN	Number=Sing	37	obl	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	man	man	NOUN	NN	Number=Sing	37	nsubj	_	_
+35	could	could	AUX	MD	VerbForm=Fin	37	aux	_	_
+36	hardly	hardly	ADV	RB	_	37	advmod	_	_
+37	know	know	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+38	what	what	PRON	WP	PronType=Int	40	nsubj	_	_
+39	to	to	PART	TO	_	40	mark	_	_
+40	propose	propose	VERB	VB	VerbForm=Inf	37	ccomp	_	_
+41	if	if	SCONJ	IN	_	44	mark	_	_
+42	Cheltenham	Cheltenham	PROPN	NNP	Number=Sing	44	nsubj:pass	_	_
+43	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	44	aux:pass	_	_
+44	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	advcl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

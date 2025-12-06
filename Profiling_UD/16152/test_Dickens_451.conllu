@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “On the first floor,” said Herbert.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	On	on	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	floor	floor	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Herbert	Herbert	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Which was not at all what I meant, for I had intended my question to apply to his means.
+1	Which	which	PRON	WDT	PronType=Int	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	at	at	ADV	RB	_	5	case	_	_
+5	all	all	ADV	RB	_	6	advmod	_	_
+6	what	what	PRON	WP	PronType=Int	8	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	for	for	SCONJ	IN	_	13	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	question	question	NOUN	NN	Number=Sing	13	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	apply	apply	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	means	means	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = “I have never seen him, for he has always kept his room overhead, since I have known Clara.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	for	for	SCONJ	IN	_	12	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	always	always	ADV	RB	_	12	advmod	_	_
+12	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	room	room	NOUN	NN	Number=Sing	12	obj	_	_
+15	overhead	overhead	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	since	since	SCONJ	IN	_	20	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	known	know	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+21	Clara	Clara	PROPN	NNP	Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = But I have heard him constantly.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	constantly	constantly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = He makes tremendous rows,—roars, and pegs at the floor with some frightful instrument.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tremendous	tremendous	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	rows	row	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+7	roars	roar	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	pegs	peg	NOUN	NNS	Number=Plur	4	conj	_	_
+11	at	at	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	floor	floor	NOUN	NN	Number=Sing	2	obl	_	_
+14	with	with	ADP	IN	_	17	case	_	_
+15	some	some	DET	DT	_	17	det	_	_
+16	frightful	frightful	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	instrument	instrument	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 6
+# text = In looking at me and then laughing heartily, Herbert for the time recovered his usual lively manner.
+1	In	in	SCONJ	IN	_	2	mark	_	_
+2	looking	look	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	then	then	ADV	RB	PronType=Dem	7	advmod	_	_
+7	laughing	laugh	VERB	VBG	VerbForm=Ger	2	conj	_	_
+8	heartily	heartily	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Herbert	Herbert	PROPN	NNP	Number=Sing	14	nsubj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	time	time	NOUN	NN	Number=Sing	10	nmod	_	_
+14	recovered	recover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+16	usual	usual	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	lively	lively	NOUN	NN	Number=Sing	18	compound	_	_
+18	manner	manner	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

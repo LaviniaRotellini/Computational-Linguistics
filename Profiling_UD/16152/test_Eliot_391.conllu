@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How do you know?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = How durst you say so?” said Hetty, pausing in her walk and trembling.
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	durst	durst	ADV	RBS	Degree=Sup	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+5	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Hetty	Hetty	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	pausing	pause	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	walk	walk	NOUN	NN	Number=Sing	11	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	trembling	trembling	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = The terrible decision of Adam’s tone shook her with fear.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	terrible	terrible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	decision	decision	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	Adam	Adam	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	tone	tone	NOUN	NN	Number=Sing	3	nmod	_	_
+8	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	fear	fear	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = She had no presence of mind left for the reflection that Arthur would have his reasons for not telling the truth to Adam.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	presence	presence	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	mind	mind	NOUN	NN	Number=Sing	4	nmod	_	_
+7	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	reflection	reflection	NOUN	NN	Number=Sing	7	obl	_	_
+11	that	that	PRON	WDT	PronType=Rel	14	obj	_	_
+12	Arthur	Arthu	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	have	have	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	reasons	reason	NOUN	NNS	Number=Plur	14	obj	_	_
+17	for	for	SCONJ	IN	_	19	mark	_	_
+18	not	not	ADV	RB	_	19	advmod	_	_
+19	telling	tell	VERB	VBG	VerbForm=Ger	16	acl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	truth	truth	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	Adam	Adam	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Her words and look were enough to determine Adam: he must give her the letter.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	words	word	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	look	look	NOUN	NN	Number=Sing	2	conj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	determine	determine	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	Adam	Adam	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	6	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	give	give	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	letter	letter	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

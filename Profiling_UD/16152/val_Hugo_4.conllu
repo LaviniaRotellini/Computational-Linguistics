@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = More reasons: why did he live that solitary life?
+1	More	more	ADJ	JJR	Degree=Cmp	2	amod	_	_
+2	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	live	live	VERB	VB	VerbForm=Inf	2	appos	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	solitary	solitary	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	life	life	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The Bû de la Rue was a kind of lazaretto, in which Gilliatt was kept in a sort of moral quarantine.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Bû	Bû	NOUN	NN	Number=Sing	3	compound	_	_
+3	de	de	PROPN	NNP	Number=Sing	8	nsubj	_	_
+4	la	la	PROPN	NNP	Number=Sing	3	flat	_	_
+5	Rue	Rue	PROPN	NNP	Number=Sing	3	flat	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	kind	kind	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	lazaretto	lazaretto	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	16	obl	_	_
+14	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	16	nsubj:pass	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	sort	sort	NOUN	NN	Number=Sing	16	obl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	moral	moral	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	quarantine	quarantine	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = This, in the popular judgment, made it quite simple that people should be astonished at his isolation, and should hold him responsible for the solitude which society had made around his home.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	popular	popular	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	judgment	judgament	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	quite	quite	ADV	RB	_	11	advmod	_	_
+11	simple	simple	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	people	people	NOUN	NNS	Number=Plur	16	nsubj:pass	_	_
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	astonished	astonish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	isolation	isolation	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	hold	hold	VERB	VB	VerbForm=Inf	8	conj	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	responsible	responsible	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+26	for	for	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	solitude	solitude	NOUN	NN	Number=Sing	25	obl	_	_
+29	which	which	PRON	WDT	PronType=Rel	32	obj	_	_
+30	society	society	NOUN	NN	Number=Sing	32	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	made	make	VERB	VBN	Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+33	around	around	ADP	IN	_	35	case	_	_
+34	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	home	home	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

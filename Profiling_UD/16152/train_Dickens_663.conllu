@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I suppose this unfortunate fowl was born and brought up in a cellar,’ said my aunt, ‘and never took the air except on a hackney coach-stand.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fowl	fowl	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	cellar	cellar	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	aunt	aunt	NOUN	NN	Number=Sing	24	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	‘	'	PUNCT	``	_	24	punct	_	SpaceAfter=No
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	never	never	ADV	RB	_	24	advmod	_	_
+24	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	air	air	NOUN	NN	Number=Sing	24	obj	_	_
+27	except	except	ADP	IN	_	33	case	_	_
+28	on	on	ADP	IN	_	33	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+30	hackney	hackney	NOUN	NN	Number=Sing	33	compound	_	_
+31	coach	coach	NOUN	NN	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	stand	stand	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = I hope the steak may be beef, but I don’t believe it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	steak	steak	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	beef	beef	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	believe	believe	VERB	VB	VerbForm=Inf	2	conj	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Nothing’s genuine in the place, in my opinion, but the dirt.’
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	genuine	genuine	ADJ	JJ	Degree=Pos	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	place	place	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	opinion	opinion	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	dirt	dirt	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

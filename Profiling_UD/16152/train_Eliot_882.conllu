@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, really, Mrs. Farebrother, I am glad of both, I fear,” said Mary, cleverly getting rid of one rebellious tear.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	really	really	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Farebrother	Farebrother	PROPN	NNP	Number=Sing	19	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	glad	glad	ADJ	JJ	Degree=Pos	7	parataxis	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	both	both	CCONJ	CC	_	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	fear	fear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Mary	Mary	PROPN	NNP	Number=Sing	23	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	cleverly	cleverly	ADV	RB	_	23	advmod	_	_
+23	getting	get	VERB	VBG	VerbForm=Ger	19	parataxis	_	_
+24	rid	rid	ADJ	JJ	Degree=Pos	23	xcomp	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	one	one	NUM	CD	NumType=Card	28	nummod	_	_
+27	rebellious	rebellious	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	tear	tear	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = “I have a dreadfully secular mind.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	dreadfully	dreadfully	ADV	RB	_	6	advmod	_	_
+6	secular	secular	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	mind	mind	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I never liked any clergyman except the Vicar of Wakefield and Mr. Farebrother.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	clergyman	clergyman	NOUN	NN	Number=Sing	3	obj	_	_
+6	except	except	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Vicar	Vicar	PROPN	NNP	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Wakefield	Wakefield	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	10	conj	_	_
+13	Farebrother	Farebrother	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

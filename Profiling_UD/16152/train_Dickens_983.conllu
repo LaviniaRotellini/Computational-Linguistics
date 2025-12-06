@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘She’s the most ridiculous creature that ever was born,’ said my aunt.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	creature	creature	NOUN	NN	Number=Sing	14	ccomp	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	ever	ever	PRON	WP	PronType=Int	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	aunt	aunt	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘I knew, from the first moment when I saw her with that poor dear blessed baby of a mother of yours, that she was the most ridiculous of mortals.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	from	from	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	moment	moment	NOUN	NN	Number=Sing	3	obl	_	_
+9	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+15	poor	poor	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	dear	dear	NOUN	NN	Number=Sing	11	obl	_	_
+17	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	baby	baby	ADP	IN	_	21	case	_	_
+19	of	of	ADP	IN	_	18	fixed	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	mother	mother	NOUN	NN	Number=Sing	17	obl	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	yours	yours	PRON	PRP	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	_
+25	that	that	SCONJ	IN	_	30	mark	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	most	most	ADV	RBS	_	30	advmod	_	_
+30	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	mortals	mortal	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But there are good points in Barkis!’
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	points	point	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Barkis	Barkis	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

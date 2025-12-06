@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What do you mean, Mrs. Cadwallader?” said Sir James.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	mean	mean	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	obj	_	_
+8	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Sir	Sir	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	James	James	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = His fear lest Miss
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	fear	fear	NOUN	NN	Number=Sing	0	root	_	_
+3	lest	lest	ADP	IN	_	4	case	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	2	nmod	_	_
+
+# sent_id = 3
+# text = Brooke should have run away to join the Moravian Brethren, or some preposterous sect unknown to good society, was a little allayed by the knowledge that Mrs. Cadwallader always made the worst of things.
+1	Brooke	Brooke	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	run	run	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	away	away	ADV	RB	_	4	advmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	join	join	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	Moravian	Moravian	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Brethren	Brethren	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	or	or	CCONJ	CC	_	15	cc	_	_
+13	some	some	DET	DT	_	15	det	_	_
+14	preposterous	preposterous	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	sect	sect	NOUN	NN	Number=Sing	4	conj	_	_
+16	unknown	unknown	ADJ	JJ	Degree=Pos	15	amod	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	society	society	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	24	obl:npmod	_	_
+24	allayed	allay	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+25	by	by	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	knowledge	knowledge	NOUN	NN	Number=Sing	24	obl	_	_
+28	that	that	PRON	WDT	PronType=Rel	32	obj	_	_
+29	Mrs.	Mrs.	PROPN	NNP	Number=Sing	30	compound	_	_
+30	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	32	nsubj	_	_
+31	always	always	ADV	RB	_	32	advmod	_	_
+32	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	worst	worst	NOUN	NN	Number=Sing	32	obj	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	things	thing	NOUN	NNS	Number=Plur	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = 4
+# text = “What has happened to Miss Brooke?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	Miss	miss	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Brooke	Brooke	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Pray speak out.”
+1	Pray	pray	INTJ	UH	_	2	discourse	_	_
+2	speak	speak	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	out	out	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

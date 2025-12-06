@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Lydgate, of course, was out of hearing.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Lydgate	Lydgate	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	of	of	ADV	RB	_	10	advmod	_	_
+5	course	course	ADV	RB	_	4	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	out	out	ADP	IN	_	10	case	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	hearing	hearing	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = He had quitted the party early, and would have thought it altogether tedious but for the novelty of certain introductions, especially the introduction to Miss Brooke, whose youthful bloom, with her approaching marriage to that faded scholar, and her interest in matters socially useful, gave her the piquancy of an unusual combination.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	quitted	quit	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	party	party	NOUN	NN	Number=Sing	3	obj	_	_
+6	early	early	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	have	have	AUX	VB	VerbForm=Inf	11	aux	_	_
+11	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	altogether	altogether	ADV	RB	_	14	advmod	_	_
+14	tedious	tedious	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+15	but	but	CCONJ	CC	_	51	cc	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	novelty	novelty	NOUN	NN	Number=Sing	51	obl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	certain	certain	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	introductions	introduction	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	51	punct	_	_
+23	especially	especially	ADV	RB	_	51	advmod	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	introduction	introduction	NOUN	NN	Number=Sing	51	nsubj	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	Miss	miss	PROPN	NNP	Number=Sing	25	nmod	_	_
+28	Brooke	Brooke	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	27	punct	_	_
+30	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	32	nmod:poss	_	_
+31	youthful	youthful	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	bloom	bloom	NOUN	NN	Number=Sing	27	appos	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	32	punct	_	_
+34	with	with	ADP	IN	_	37	case	_	_
+35	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+36	approaching	approach	NOUN	NN	Number=Sing	37	compound	_	_
+37	marriage	marriage	NOUN	NN	Number=Sing	32	nmod	_	_
+38	to	to	ADP	IN	_	41	case	_	_
+39	that	that	DET	DT	Number=Sing|PronType=Dem	41	det	_	_
+40	faded	fade	VERB	VBN	Tense=Past|VerbForm=Part	41	amod	_	_
+41	scholar	scholar	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	45	punct	_	_
+43	and	and	CCONJ	CC	_	45	cc	_	_
+44	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	interest	interest	NOUN	NN	Number=Sing	41	conj	_	_
+46	in	in	ADP	IN	_	47	case	_	_
+47	matters	matter	NOUN	NNS	Number=Plur	45	nmod	_	_
+48	socially	socially	ADV	RB	_	49	advmod	_	_
+49	useful	useful	ADJ	JJ	Degree=Pos	45	amod	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	51	punct	_	_
+51	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+52	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	iobj	_	_
+53	the	the	DET	DT	Definite=Def|PronType=Art	54	det	_	_
+54	piquancy	piquancy	NOUN	NN	Number=Sing	51	obj	_	_
+55	of	of	ADP	IN	_	58	case	_	_
+56	an	a	DET	DT	Definite=Ind|PronType=Art	58	det	_	_
+57	unusual	unusual	ADJ	JJ	Degree=Pos	58	amod	_	_
+58	combination	combination	NOUN	NN	Number=Sing	54	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

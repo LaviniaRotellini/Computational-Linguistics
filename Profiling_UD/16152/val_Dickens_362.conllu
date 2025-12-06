@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Suppose it might!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Suppose	suppose	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	2	aux	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = By the Lord, you _may_ suppose so.
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	Lord	Lord	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	_may	_may	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	_	_	SYM	NFP	_	8	punct	_	_
+8	suppose	suppose	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+9	so	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = By George!’ said Mr. Bounderby, with sundry menacing nods and shakes of his head.
+1	By	by	ADP	IN	_	2	case	_	_
+2	George	George	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Bounderby	Bounderby	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	sundry	sundry	NOUN	NN	Number=Sing	6	nmod	_	_
+11	menacing	menacing	VERB	VBG	VerbForm=Ger	10	acl	_	_
+12	nods	nod	NOUN	NNS	Number=Plur	11	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	shakes	shake	NOUN	NNS	Number=Plur	12	conj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	head	head	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = ‘It might have been twice twenty.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	twice	twice	ADV	RB	NumType=Mult	7	advmod	_	_
+7	twenty	twenty	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = There’s no knowing what it would have been, or wouldn’t have been, as it was, but for the fellows’ being disturbed.’
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	advmod	_	_
+4	knowing	know	VERB	VBG	VerbForm=Ger	2	nsubj	_	_
+5	what	what	PRON	WP	PronType=Int	4	obj	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	have	have	AUX	VB	VerbForm=Inf	9	aux	_	_
+9	been	be	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	or	or	CCONJ	CC	_	15	cc	_	_
+12	would	would	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	15	advmod	_	_
+14	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+15	been	be	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	but	but	CCONJ	CC	_	24	cc	_	_
+22	for	for	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	fellows	fellow	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+25	’	's	PART	POS	_	27	mark	_	_
+26	being	be	AUX	VBG	VerbForm=Ger	27	aux:pass	_	_
+27	disturbed	disturb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

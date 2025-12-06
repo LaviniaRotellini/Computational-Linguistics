@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The inconceivable impudence!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	inconceivable	inconceivable	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	impudence	impudence	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A bellringer carrying off a wench, like a vicomte!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	bellringer	bellringer	NOUN	NN	Number=Sing	0	root	_	_
+3	carrying	carry	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	off	off	ADP	RP	_	3	compound:prt	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	wench	wench	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	like	like	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	vicomte	vicomte	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = a lout poaching on the game of gentlemen!
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	lout	lout	NOUN	NN	Number=Sing	0	root	_	_
+3	poaching	poaching	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	game	game	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	gentlemen	gentleman	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = that is a rare piece of assurance.
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	rare	rare	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	piece	piece	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	assurance	assurance	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = However, he paid dearly for it.
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	paid	pay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	dearly	dearly	ADV	RB	_	4	advmod	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Master Pierrat Torterue is the harshest groom that ever curried a knave; and I can tell you, if it will be agreeable to you, that your bellringer’s hide got a thorough dressing at his hands.”
+1	Master	master	NOUN	NN	Number=Sing	2	compound	_	_
+2	Pierrat	Pierrat	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	Torterue	Torterue	PROPN	NNP	Number=Sing	2	flat	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	harshest	harshest	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	groom	groom	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+9	ever	ever	ADV	RB	_	10	advmod	_	_
+10	curried	curry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	knave	knave	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	7	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	tell	tell	VERB	VB	VerbForm=Inf	7	conj	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	if	if	SCONJ	IN	_	24	mark	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+24	agreeable	agreeable	ADJ	JJ	Degree=Pos	17	advcl	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	17	punct	_	_
+28	that	that	SCONJ	IN	_	33	mark	_	_
+29	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	bellringer	bellringer	NOUN	NN	Number=Sing	32	nmod:poss	_	SpaceAfter=No
+31	’s	's	PART	POS	_	30	case	_	_
+32	hide	hide	NOUN	NN	Number=Sing	33	nsubj	_	_
+33	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+35	thorough	thorough	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	dressing	dressing	NOUN	NN	Number=Sing	33	obj	_	_
+37	at	at	ADP	IN	_	39	case	_	_
+38	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	hands	hand	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

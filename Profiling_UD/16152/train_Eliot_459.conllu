@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And one of those who suck the life out of the wretched handloom weavers in Tipton and Freshitt.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	3	cc	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	those	those	PRON	DT	Number=Plur|PronType=Dem	3	nmod	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	suck	suck	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	life	life	NOUN	NN	Number=Sing	7	obj	_	_
+10	out	out	ADP	IN	_	15	case	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	wretched	wretch	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+14	handloom	handloom	NOUN	NN	Number=Sing	15	compound	_	_
+15	weavers	weaver	NOUN	NNS	Number=Plur	7	obl	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Tipton	Tipton	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	Freshitt	Freshitt	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = That is how his family look so fair and sleek,” said Mrs. Cadwallader.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	family	family	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	fair	fair	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	sleek	sleek	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = “Those dark, purple-faced people are an excellent foil.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+3	dark	dark	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	12	punct	_	_
+5	purple	purple	ADJ	JJ	Degree=Pos	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	faced	faced	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	excellent	excellent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	foil	foil	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Dear me, they are like a set of jugs!
+1	Dear	dear	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	like	like	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	set	set	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	jugs	jug	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Do look at Humphrey: one might fancy him an ugly archangel towering above them in his white surplice.”
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	Humphrey	Humphrey	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	_
+6	one	one	PRON	PRP	_	8	nsubj	_	_
+7	might	might	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	fancy	fancy	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	ugly	ugly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	archangel	archangel	NOUN	NN	Number=Sing	8	obj	_	_
+13	towering	towere	VERB	VBG	VerbForm=Ger	12	acl	_	_
+14	above	above	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	white	white	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	surplice	surplice	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

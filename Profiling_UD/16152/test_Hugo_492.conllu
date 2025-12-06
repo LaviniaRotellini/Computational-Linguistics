@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But the poor deaf man heard.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	deaf	deaf	NOUN	NN	Number=Sing	5	compound	_	_
+5	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = A profound sigh heaved his breast; he turned round; his heart was swollen with all the tears which he was swallowing; his convulsively-clenched fists struck against his head, and when he withdrew them there was a bunch of red hair in each hand.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	profound	profound	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	sigh	sigh	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	heaved	heav	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	breast	breast	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+10	round	round	ADP	RP	_	9	compound:prt	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	4	punct	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	heart	heart	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	swollen	swollen	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	all	all	DET	PDT	_	19	det:predet	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	tears	tear	NOUN	NNS	Number=Plur	15	obl	_	_
+20	which	which	PRON	WDT	PronType=Rel	23	obj	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	swallowing	swallow	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	15	punct	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+26	convulsively	convulsively	ADV	RB	Degree=Pos	28	advmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	clenched	clench	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	_	_
+29	fists	fists	NOUN	NNS	Number=Plur	15	appos	_	_
+30	struck	struck	VERB	VBN	Tense=Past|VerbForm=Part	29	acl	_	_
+31	against	against	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	head	head	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	43	punct	_	_
+35	and	and	CCONJ	CC	_	43	cc	_	_
+36	when	when	ADV	WRB	PronType=Int	38	mark	_	_
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	withdrew	withdraw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	advcl	_	_
+39	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	38	obj	_	_
+40	there	there	ADV	RB	PronType=Dem	38	advmod	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+43	bunch	bunch	NOUN	NN	Number=Sing	15	conj	_	_
+44	of	of	ADP	IN	_	46	case	_	_
+45	red	red	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	hair	hair	NOUN	NN	Number=Sing	43	nmod	_	_
+47	in	in	ADP	IN	_	49	case	_	_
+48	each	each	DET	DT	_	49	det	_	_
+49	hand	hand	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

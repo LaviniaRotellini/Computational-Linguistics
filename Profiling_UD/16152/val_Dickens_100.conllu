@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You are a dear brother, Tom; and while you think I can do such things, I don’t so much mind knowing better.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	brother	brother	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	and	and	CCONJ	CC	_	26	cc	_	_
+11	while	while	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	do	do	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	such	such	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	things	thing	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	26	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+21	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	24	advmod	_	_
+23	so	so	ADV	RB	_	24	advmod	_	_
+24	much	much	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	mind	mind	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	knowing	know	VERB	VBG	VerbForm=Ger	6	conj	_	_
+27	better	better	ADJ	JJR	Degree=Cmp	26	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 2
+# text = Though I do know better, Tom, and am very sorry for it.’
+1	Though	though	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	better	better	ADV	RBR	Degree=Cmp	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	sorry	sorry	ADJ	JJ	Degree=Pos	4	conj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = She came and kissed him, and went back into her corner again.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	back	back	ADV	RB	_	8	advmod	_	_
+10	into	into	ADP	IN	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	corner	corner	NOUN	NN	Number=Sing	9	obl	_	_
+13	again	again	ADV	RB	_	8	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

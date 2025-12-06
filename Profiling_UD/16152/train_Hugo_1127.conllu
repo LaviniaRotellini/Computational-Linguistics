@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had returned home while it was still broad daylight.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	home	home	ADV	RB	_	3	advmod	_	_
+5	while	while	SCONJ	IN	_	10	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	still	still	ADV	RB	_	10	advmod	_	_
+9	broad	broad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	daylight	daylight	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mother Plutarque, whose health was declining, was ill and in bed.
+1	Mother	Mother	NOUN	NN	Number=Sing	2	compound	_	_
+2	Plutarque	Plutarque	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+5	health	health	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	declining	decline	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	ill	ill	ADJ	JJ	Degree=Pos	0	root	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	bed	bed	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = He had dined on a bone, on which a little meat lingered, and a bit of bread that he had found on the kitchen table, and had seated himself on an overturned stone post, which took the place of a bench in his garden.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	dined	dine	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	bone	bone	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	on	on	ADP	IN	_	9	case	_	_
+9	which	which	PRON	WDT	PronType=Rel	13	obl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	meat	meat	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	lingered	linger	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	bit	bit	NOUN	NN	Number=Sing	3	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	bread	bread	NOUN	NN	Number=Sing	17	nmod	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	found	find	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	_
+24	on	on	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	kitchen	kitchen	NOUN	NN	Number=Sing	27	compound	_	_
+27	table	table	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	aux	_	_
+31	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+32	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	obj	_	_
+33	on	on	ADP	IN	_	37	case	_	_
+34	an	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+35	overturned	overturned	ADJ	JJ	Degree=Pos	37	amod	_	_
+36	stone	stone	NOUN	NN	Number=Sing	37	compound	_	_
+37	post	post	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	37	punct	_	_
+39	which	which	PRON	WDT	PronType=Rel	40	nsubj	_	_
+40	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	acl:relcl	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	place	place	NOUN	NN	Number=Sing	40	obj	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	bench	bench	NOUN	NN	Number=Sing	42	nmod	_	_
+46	in	in	ADP	IN	_	48	case	_	_
+47	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	nmod:poss	_	_
+48	garden	garden	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

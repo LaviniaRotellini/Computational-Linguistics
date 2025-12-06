@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But what the deuce was the name?”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	3	cc	_	_
+3	what	what	PRON	WP	PronType=Int	8	obj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	deuce	deuce	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	name	name	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 2
+# text = he presently said, half aloud, scratching his head, and wrinkling his brows horizontally.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	presently	presently	ADV	RB	_	3	advmod	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	half	half	ADV	RB	_	6	advmod	_	_
+6	aloud	aloud	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	scratching	scratch	VERB	VBG	VerbForm=Ger	3	ccomp	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	head	head	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	wrinkling	wrinkle	VERB	VBG	VerbForm=Ger	8	conj	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	brows	brows	NOUN	NNS	Number=Plur	13	obj	_	_
+16	horizontally	horizontally	ADV	RB	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He had not really cared or thought about this point of forgetfulness until it occurred to him in his invention of annoyances for Bulstrode.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	cared	care	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	point	point	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	forgetfulness	forgetfulness	NOUN	NN	Number=Sing	10	nmod	_	_
+13	until	until	SCONJ	IN	_	15	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	occurred	occur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	invention	invention	NOUN	NN	Number=Sing	15	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	annoyances	annoyance	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	for	for	ADP	IN	_	24	case	_	_
+24	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

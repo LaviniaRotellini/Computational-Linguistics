@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Monday.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Monday	Monday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My sweet D. still much depressed.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	sweet	sweet	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	D.	D.	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	still	still	ADV	RB	_	5	advmod	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	depressed	depresse	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Headache.
+1	Headache	Headache	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Called attention to J. as being beautifully sleek.
+1	Called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	attention	attention	NOUN	NN	Number=Sing	1	obj	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	J.	J.	PROPN	NNP	Number=Sing	1	obl	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	8	cop	_	_
+7	beautifully	beautifully	ADV	RB	_	8	advmod	_	_
+8	sleek	sleek	ADJ	JJ	Degree=Pos	1	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = D. fondled J. Associations thus awakened, opened floodgates of sorrow.
+1	D.	D.	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	fondled	fondle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	J.	J.	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Associations	Associations	PROPN	NNPS	Number=Plur	3	flat	_	_
+5	thus	thus	ADV	RB	_	6	advmod	_	_
+6	awakened	awaken	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+9	floodgates	floodgate	NOUN	NNS	Number=Plur	8	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	sorrow	sorrow	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Rush of grief admitted.
+1	Rush	rush	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	grief	grief	NOUN	NN	Number=Sing	1	obl	_	_
+4	admitted	admit	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = (Are tears the dewdrops of the heart?
+1	(	(	PUNCT	-LRB-	_	3	punct	_	SpaceAfter=No
+2	Are	be	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	tears	tear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	dewdrops	dewdrop	NOUN	NNS	Number=Plur	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	heart	heart	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = J. M.)
+1	J.	J.	PROPN	NNP	Number=Sing	0	root	_	_
+2	M.	M.	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Contented?’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Contented	Content	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = he answered, merrily.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	merrily	merrily	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘I am never contented, except with your freshness, my gentle Daisy.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	contented	contente	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	except	except	ADP	IN	_	10	case	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	freshness	freshness	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	gentle	gentle	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	Daisy	daisy	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = As to fitfulness, I have never learnt the art of binding myself to any of the wheels on which the Ixions of these days are turning round and round.
+1	As	as	ADP	IN	_	3	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	fitfulness	fitfulness	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	never	never	ADV	RB	_	8	advmod	_	_
+8	lear	lear	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	nt	not	PART	RB	_	8	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	art	art	NOUN	NN	Number=Sing	8	obj	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	binding	bind	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	any	any	DET	DT	_	13	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	wheels	wheel	NOUN	NNS	Number=Plur	16	nmod	_	_
+20	on	on	ADP	IN	_	21	case	_	_
+21	which	which	PRON	WDT	PronType=Rel	28	obl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	Ixions	Ixion	NOUN	NNS	Number=Plur	28	nsubj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	these	these	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	days	day	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	_
+29	round	round	ADV	RB	_	28	advmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	round	round	ADV	RB	_	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = I missed it somehow in a bad apprenticeship, and now don’t care about it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	missed	miss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	somehow	somehow	ADV	RB	_	2	advmod	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	apprenticeship	apprenticeship	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	now	now	ADV	RB	_	14	advmod	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	care	care	VERB	VB	VerbForm=Inf	2	conj	_	_
+15	about	about	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = ---
+1	---	---	PUNCT	NFP	_	0	root	_	SpaceAfter=No
+
+# sent_id = 7
+# text = You know I have bought a boat down here?’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	boat	boat	NOUN	NN	Number=Sing	5	obj	_	_
+8	down	down	ADP	RP	_	5	compound:prt	_	_
+9	here	here	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

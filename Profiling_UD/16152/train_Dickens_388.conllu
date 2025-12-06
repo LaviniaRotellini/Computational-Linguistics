@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Murdstone, during the latter portion of the contest, had dismounted, and was now waiting with her brother at the bottom of the steps, until my aunt should be at leisure to receive them.
+1	Miss	miss	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Murdstone	Murdstone	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	during	during	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	latter	latter	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	portion	portion	NOUN	NN	Number=Sing	2	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	contest	contest	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	dismounted	dismount	VERB	VBN	Tense=Past|VerbForm=Part	35	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	now	now	ADV	RB	_	18	advmod	_	_
+18	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	13	conj	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	brother	brother	NOUN	NN	Number=Sing	18	obl	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	bottom	bottom	NOUN	NN	Number=Sing	18	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	steps	step	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	13	punct	_	_
+29	until	until	ADP	IN	_	31	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	aunt	aunt	NOUN	NN	Number=Sing	13	obl	_	_
+32	should	should	AUX	MD	VerbForm=Fin	35	aux	_	_
+33	be	be	AUX	VB	VerbForm=Inf	35	cop	_	_
+34	at	at	ADP	IN	_	35	case	_	_
+35	leisure	leisure	NOUN	NN	Number=Sing	0	root	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	receive	receive	VERB	VB	VerbForm=Inf	35	acl	_	_
+38	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	37	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	35	punct	_	_
+
+# sent_id = 2
+# text = My aunt, a little ruffled by the combat, marched past them into the house, with great dignity, and took no notice of their presence, until they were announced by Janet.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	23	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	obl:npmod	_	_
+6	ruffled	ruffle	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	combat	combat	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	marched	march	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+12	past	past	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	house	house	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	dignity	dignity	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	no	no	DET	DT	_	25	det	_	_
+25	notice	notice	NOUN	NN	Number=Sing	23	obj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	presence	presence	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	23	punct	_	_
+30	until	until	SCONJ	IN	_	33	mark	_	_
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj:pass	_	_
+32	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux:pass	_	_
+33	announced	announce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
+34	by	by	ADP	IN	_	35	case	_	_
+35	Janet	Janet	PROPN	NNP	Number=Sing	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\n
+

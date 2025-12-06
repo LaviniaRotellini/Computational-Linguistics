@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Evidently Miss
+1	Evidently	evidently	ADV	RB	_	2	advmod	_	_
+2	Miss	miss	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Brooke was not Mr. Lydgate’s style of woman any more than Mr. Chichely’s.
+1	Brooke	Brooke	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	not	not	PART	RB	_	7	advmod	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
+5	Lydgate	Lydgate	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	style	style	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	woman	woman	NOUN	NN	Number=Sing	7	nmod	_	_
+10	any	any	ADV	RB	_	11	advmod	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+12	than	than	ADP	IN	_	13	case	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	11	obl	_	_
+14	Chichely	Chichely	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	’s	's	PART	POS	_	13	case	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Considered, indeed, in relation to the latter, whose mind was matured, she was altogether a mistake, and calculated to shock his trust in final causes, including the adaptation of fine young women to purplefaced bachelors.
+1	Considered	consider	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	indeed	indeed	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	relation	relation	NOUN	NN	Number=Sing	1	obl	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	latter	latter	ADJ	JJ	Degree=Pos	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	12	nmod:poss	_	_
+12	mind	mind	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	matured	mature	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+18	altogether	altogether	ADV	RB	_	20	advmod	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	mistake	mistake	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	calculated	calculate	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	shock	shock	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	trust	trust	NOUN	NN	Number=Sing	25	obj	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	final	final	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	causes	cause	NOUN	NNS	Number=Plur	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	25	punct	_	_
+32	including	include	VERB	VBG	VerbForm=Ger	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	adaptation	adaptation	NOUN	NN	Number=Sing	25	obl	_	_
+35	of	of	ADP	IN	_	38	case	_	_
+36	fine	fine	ADJ	JJ	Degree=Pos	38	amod	_	_
+37	young	young	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	women	woman	NOUN	NNS	Number=Plur	34	nmod	_	_
+39	to	to	ADP	IN	_	41	case	_	_
+40	purplefaced	purpleface	VERB	VBN	Tense=Past|VerbForm=Part	41	amod	_	_
+41	bachelors	bachelor	NOUN	NNS	Number=Plur	34	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = But Lydgate was less ripe, and might possibly have experience before him which would modify his opinion as to the most excellent things in woman.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	Lydgate	Lydgate	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	less	less	ADV	RBR	Degree=Cmp	5	advmod	_	_
+5	ripe	ripe	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	might	might	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	possibly	possibly	ADV	RB	_	10	advmod	_	_
+10	have	have	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	experience	experience	NOUN	NN	Number=Sing	10	obj	_	_
+12	before	before	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
+14	which	which	PRON	WDT	PronType=Int	16	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	modify	modify	VERB	VB	VerbForm=Inf	11	acl	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	opinion	opinion	NOUN	NN	Number=Sing	16	obj	_	_
+19	as	as	ADP	IN	_	24	case	_	_
+20	to	to	ADP	IN	_	19	fixed	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+22	most	most	ADV	RBS	_	23	advmod	_	_
+23	excellent	excellent	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	things	thing	NOUN	NNS	Number=Plur	16	obl	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	woman	woman	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

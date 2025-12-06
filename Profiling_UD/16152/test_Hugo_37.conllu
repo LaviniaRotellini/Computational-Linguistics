@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The cardinal halted for a moment on the threshold of the estrade.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cardinal	cardinal	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	halted	halt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	moment	moment	NOUN	NN	Number=Sing	3	obl	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	threshold	threshold	NOUN	NN	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	estrade	estrade	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = While he was sending a rather indifferent glance around the audience, the tumult redoubled.
+1	While	while	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	rather	rather	ADV	RB	_	7	advmod	_	_
+7	indifferent	indifferent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	glance	glance	NOUN	NN	Number=Sing	4	obj	_	_
+9	around	around	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	audience	audience	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	tumult	tumult	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	redoubled	redouble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = Each person wished to get a better view of him.
+1	Each	each	DET	DT	_	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	view	view	NOUN	NN	Number=Sing	5	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Each man vied with the other in thrusting his head over his neighbor’s shoulder.
+1	Each	each	DET	DT	_	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	vied	vy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	other	other	ADJ	JJ	Degree=Pos	3	obl	_	_
+7	in	in	SCONJ	IN	_	8	mark	_	_
+8	thrusting	thrust	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	head	head	NOUN	NN	Number=Sing	8	obj	_	_
+11	over	over	ADP	IN	_	15	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	neighbor	neighbor	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	shoulder	shoulder	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!’ said Miss Dartle.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Miss	miss	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Dartle	Dartle	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Now I am glad to know that!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	know	know	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I ask for information, and I am glad to know it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	information	information	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	glad	glad	ADJ	JJ	Degree=Pos	2	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	know	know	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He thinks you young and innocent; and so you are his friend.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	_
+4	young	young	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	innocent	innocent	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	so	so	ADV	RB	_	13	advmod	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	friend	friend	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Well, that’s quite delightful!’
+1	Well	well	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	delightful	delightful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am sad, you see, Dahlia.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sad	sad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Dahlia	Dahlia	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It has done nothing but rain all summer; the wind irritates me; the wind does not abate.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+5	but	but	ADP	IN	_	6	case	_	_
+6	rain	rain	NOUN	NN	Number=Sing	4	nmod	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	summer	summer	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	wind	wind	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	irritates	irritate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	3	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	wind	wind	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	abate	abate	VERB	VB	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Blachevelle is very stingy; there are hardly any green peas in the market; one does not know what to eat.
+1	Blachevelle	Blachevelle	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	stingy	stingy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	hardly	hardly	ADV	RB	_	7	advmod	_	_
+9	any	any	DET	DT	_	11	det	_	_
+10	green	green	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	peas	pea	NOUN	NNS	Number=Plur	7	nsubj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	market	market	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	7	punct	_	_
+16	one	one	NUM	CD	NumType=Card	19	nsubj	_	_
+17	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	know	know	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+20	what	what	PRON	WP	PronType=Int	22	nsubj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	eat	eat	VERB	VB	VerbForm=Inf	19	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I have the spleen, as the English say, butter is so dear!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	spleen	spleen	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	as	as	SCONJ	IN	_	9	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	English	english	PROPN	NNP	Number=Sing	9	compound	_	_
+9	say	say	NOUN	NN	Number=Sing	14	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	butter	butter	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	dear	dear	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = and then you see it is horrible, here we are dining in a room with a bed in it, and that disgusts me with life.”
+1	and	and	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	horrible	horrible	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	here	here	ADV	RB	PronType=Dem	7	advmod	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	dining	dine	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	room	room	NOUN	NN	Number=Sing	12	obl	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	bed	bed	NOUN	NN	Number=Sing	12	obl	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	_
+24	disgusts	disgust	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	life	life	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

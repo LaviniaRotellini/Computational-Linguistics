@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “As if you could hide it from me!” said Lydgate, laying his hand tenderly on both of hers.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	As	as	SCONJ	IN	_	6	mark	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	hide	hide	VERB	VB	VerbForm=Inf	10	advcl	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Lydgate	Lydgate	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	laying	lay	VERB	VBG	VerbForm=Ger	12	parataxis	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hand	hand	NOUN	NN	Number=Sing	15	obj	_	_
+18	tenderly	tenderly	ADV	RB	_	15	advmod	_	_
+19	on	on	ADP	IN	_	20	case	_	_
+20	both	both	DET	DT	_	15	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	hers	hers	PRON	PRP	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Don’t I see a tiny drop on one of the lashes?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	tiny	tiny	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	drop	drop	NOUN	NN	Number=Sing	5	obj	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	one	one	NUM	CD	NumType=Card	8	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	lashes	lash	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Things trouble you, and you don’t tell me.
+1	Things	thing	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	trouble	trouble	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	tell	tell	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = That is unloving.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unloving	unloving	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

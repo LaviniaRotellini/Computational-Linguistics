@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mr. Copperfield, my sister Clarissa and I have been very careful indeed in considering this letter; and we have not considered it without finally showing it to our niece, and discussing it with our niece.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+3	Copperfield	Copperfield	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	sister	sister	NOUN	NN	Number=Sing	7	compound	_	_
+7	Clarissa	Clarissa	PROPN	NNP	Number=Sing	2	appos	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	careful	careful	ADJ	JJ	Degree=Pos	0	root	_	_
+14	indeed	indeed	ADV	RB	_	13	advmod	_	_
+15	in	in	SCONJ	IN	_	16	mark	_	_
+16	considering	consider	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	letter	letter	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	13	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+22	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	without	without	SCONJ	IN	_	28	mark	_	_
+27	finally	finally	ADV	RB	_	28	advmod	_	_
+28	showing	show	VERB	VBG	VerbForm=Ger	24	advcl	_	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	niece	niece	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	discussing	discuss	VERB	VBG	VerbForm=Ger	13	conj	_	_
+36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+37	with	with	ADP	IN	_	39	case	_	_
+38	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	niece	niece	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = We have no doubt that you think you like her very much.’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	doubt	doubt	NOUN	NN	Number=Sing	2	obj	_	_
+5	that	that	PRON	WDT	PronType=Rel	7	obj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	much	much	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

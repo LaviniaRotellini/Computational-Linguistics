@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Rachael burst into tears.
+1	Rachael	Rachael	PROPN	NNP	Number=Sing	2	compound	_	_
+2	burst	burst	NOUN	NN	Number=Sing	0	root	_	_
+3	into	into	ADP	IN	_	4	case	_	_
+4	tears	tear	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘I didn’t seek it of him, poor lad.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	seek	seek	VERB	VB	VerbForm=Inf	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	poor	poor	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	lad	lad	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I prayed him to avoid trouble for his own good, little thinking he’d come to it through me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	prayed	pray	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	avoid	avoid	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	trouble	trouble	NOUN	NN	Number=Sing	5	obj	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	good	good	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	advmod	_	_
+13	thinking	think	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’d	’d	ADV	RB	_	16	advmod	_	_
+16	come	come	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	through	through	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But I know he’d die a hundred deaths, ere ever he’d break his word.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’d	’d	ADV	RB	_	6	advmod	_	_
+6	die	die	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	_
+9	deaths	death	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	ere	ere	X	GW	_	12	goeswith	_	_
+12	ever	ever	ADV	RB	_	14	advmod	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+14	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+15	break	break	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	word	word	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I know that of him well.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6	well	well	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

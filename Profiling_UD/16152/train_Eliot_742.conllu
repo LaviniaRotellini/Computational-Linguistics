@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have no wish to stay there at present,” said Dorothea; “I could hardly bear it.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	wish	wish	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stay	stay	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	there	there	ADV	RB	PronType=Dem	7	advmod	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	present	present	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Dorothea	Dorothea	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	13	punct	_	_
+16	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	hardly	hardly	ADV	RB	_	20	advmod	_	_
+20	bear	bear	VERB	VB	VerbForm=Inf	13	parataxis	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = I am much happier at Freshitt with Celia.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	much	much	ADV	RB	_	4	advmod	_	_
+4	happier	happier	ADJ	JJR	Degree=Cmp	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Freshitt	Freshitt	PROPN	NNP	Number=Sing	4	obl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	Celia	Celia	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I shall be able to think better about what should be done at Lowick by looking at it from a distance.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	think	think	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	6	ccomp	_	_
+8	about	about	SCONJ	IN	_	9	case	_	_
+9	what	what	PRON	WP	PronType=Int	12	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+13	at	at	ADP	IN	_	14	case	_	_
+14	Lowick	Lowick	PROPN	NNP	Number=Sing	12	obl	_	_
+15	by	by	SCONJ	IN	_	16	mark	_	_
+16	looking	look	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	distance	distance	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = And I should like to be at the Grange a little while with my uncle, and go about in all the old walks and among the people in the village.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	9	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Grange	Grange	PROPN	NNP	Number=Sing	4	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	while	while	NOUN	NN	Number=Sing	4	obj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	uncle	uncle	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+19	about	about	ADV	RB	_	24	advmod	_	_
+20	in	in	ADP	IN	_	24	case	_	_
+21	all	all	DET	PDT	_	24	det:predet	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	old	old	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	walks	walk	NOUN	NNS	Number=Plur	28	obl	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	among	among	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	people	people	NOUN	NNS	Number=Plur	18	obj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	village	village	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

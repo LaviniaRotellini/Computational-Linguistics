@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, Rosy,” said Lydgate, decisively.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	Rosy	rosy	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Lydgate	Lydgate	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	decisively	decisively	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “It is too late to do that.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	late	late	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The inventory will be begun to-morrow.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	inventory	inventory	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	morrow	morrow	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Remember it is a mere security: it will make no difference: it is a temporary affair.
+1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	mere	mere	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	security	security	NOUN	NN	Number=Sing	1	ccomp	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	1	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	make	make	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	difference	difference	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	10	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	temporary	temporary	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	affair	affair	NOUN	NN	Number=Sing	10	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = I insist upon it that your father shall not know, unless I choose to tell him,” added Lydgate, with a more peremptory emphasis.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	insist	insist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+3	upon	upon	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	father	father	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	know	know	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	unless	unless	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	choose	choose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	tell	tell	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	Lydgate	Lydgate	PROPN	NNP	Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	with	with	ADP	IN	_	27	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	peremptory	peremptory	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	emphasis	emphasis	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n
+

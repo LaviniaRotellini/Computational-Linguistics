@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well,
+1	‘	'	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 2
+# text = Miss Trotwood,’ said Mr. Wickfield; for I soon found that it was he, and that he was a lawyer, and steward of the estates of a rich gentleman of the county; ‘what wind blows you here?
+1	Miss	miss	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Trotwood	Trotwood	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Wickfield	Wickfield	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	for	for	CCONJ	CC	_	12	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	soon	soon	ADV	RB	Degree=Pos	12	advmod	_	_
+12	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	that	that	SCONJ	IN	_	16	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	23	punct	_	_
+18	and	and	CCONJ	CC	_	23	cc	_	_
+19	that	that	SCONJ	IN	_	23	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	lawyer	lawyer	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	steward	steward	NOUN	NN	Number=Sing	16	conj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	estates	estate	NOUN	NNS	Number=Plur	26	nmod	_	_
+30	of	of	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	rich	rich	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	gentleman	gentleman	NOUN	NN	Number=Sing	29	nmod	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	county	county	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	;	;	PUNCT	,	_	5	punct	_	_
+38	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+39	what	what	DET	WDT	PronType=Int	40	det	_	_
+40	wind	wind	NOUN	NN	Number=Sing	41	nsubj	_	_
+41	blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+42	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	41	obj	_	_
+43	here	here	ADV	RB	PronType=Dem	41	advmod	_	SpaceAfter=No
+44	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Not an ill wind, I hope?’
+1	Not	not	PART	RB	_	4	advmod	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	ill	ill	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	wind	wind	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

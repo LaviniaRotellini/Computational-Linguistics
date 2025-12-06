@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I don’t like you at all at this moment,” said Mary, retreating, and putting her hands behind her.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	at	at	ADV	RB	_	8	case	_	_
+8	all	all	ADV	RB	_	11	obl	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	moment	moment	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mary	Mary	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	retreating	retreate	VERB	VBG	VerbForm=Ger	14	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	putting	put	VERB	VBG	VerbForm=Ger	17	conj	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	hands	hand	NOUN	NNS	Number=Plur	20	obj	_	_
+23	behind	behind	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “I only said that no mortal ever made love to me besides you.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	mortal	mortal	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	ever	ever	ADV	RB	_	7	advmod	_	_
+9	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+10	love	love	NOUN	NN	Number=Sing	9	obj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+13	besides	besides	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And that is no argument that a very wise man ever will,” she ended, merrily.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	argument	argument	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	16	obj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	wise	wise	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	man	man	NOUN	NN	Number=Sing	16	nsubj	_	_
+11	ever	ever	ADV	RB	_	10	advmod	_	_
+12	will	will	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	16	punct	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	ended	end	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	merrily	merrily	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

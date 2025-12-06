@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “’Tis true,” said he: “I forgot that we are in haste.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	’	'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+3	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	true	true	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	7	punct	_	_
+10	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	forgot	forget	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	haste	haste	NOUN	NN	Number=Sing	12	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = But that is no reason master, for getting furious with people in this manner.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	reason	reason	NOUN	NN	Number=Sing	6	compound	_	_
+6	master	master	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	getting	get	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	furious	furious	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	people	people	NOUN	NNS	Number=Plur	9	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	manner	manner	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = My dear and lovely child, your life is in danger, and Djali’s also.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+2	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	lovely	lovely	ADJ	JJ	Degree=Pos	2	conj	_	_
+5	child	child	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	life	life	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	danger	danger	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	Djali	Djali	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+15	’s	be	PART	POS	_	14	case	_	_
+16	also	also	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = They want to hang you again.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hang	hang	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	again	again	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = We are your friends, and we have come to save you.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	friends	friend	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	come	come	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	save	save	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Follow us.”
+1	Follow	follow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

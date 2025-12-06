@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I should have said this sooner, but for my long mistake.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+7	sooner	sooner	ADV	RBR	Degree=Cmp	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	for	for	ADP	IN	_	13	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	long	long	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	mistake	mistake	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It induced me to hope that Miss Havisham meant us for one another.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	induced	induce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	hope	hope	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	Miss	miss	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Havisham	Havisham	PROPN	NNP	Number=Sing	7	flat	_	_
+9	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	one	one	NUM	CD	NumType=Card	13	nummod	_	_
+13	another	another	DET	DT	_	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = While I thought you could not help yourself, as it were, I refrained from saying it.
+1	While	while	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	help	help	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	refrained	refrain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	from	from	SCONJ	IN	_	17	mark	_	_
+17	saying	say	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = But I must say it now.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

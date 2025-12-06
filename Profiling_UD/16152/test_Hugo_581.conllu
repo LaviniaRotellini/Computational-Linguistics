@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Three hundred and seventeen livres, five sols, seven deniers,” repeated Louis XI.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Three	three	NUM	CD	NumType=Card	3	nummod	_	_
+3	hundred	hundred	NUM	CD	NumType=Card	6	nummod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	seventeen	seventeen	NUM	CD	NumType=Card	3	conj	_	_
+6	livres	livre	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	five	five	NUM	CD	NumType=Card	9	nummod	_	_
+9	sols	sol	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	seven	seven	NUM	CD	NumType=Card	12	nummod	_	_
+12	deniers	denier	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Louis	Louis	PROPN	NNP	Number=Sing	15	obj	_	_
+17	XI	XI	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = The lamentable voice which had proceeded from the cage had frozen all present, even Master Olivier himself.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	lamentable	lamentable	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	voice	voice	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	proceeded	proceed	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cage	cage	NOUN	NN	Number=Sing	6	obl	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	frozen	freeze	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	all	all	DET	DT	_	13	det:predet	_	_
+13	present	present	ADJ	JJ	Degree=Pos	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	even	even	ADV	RB	_	16	advmod	_	_
+16	Master	master	NOUN	NN	Number=Sing	17	compound	_	_
+17	Olivier	Olivier	PROPN	NNP	Number=Sing	11	appos	_	_
+18	himself	himself	PRON	PRP	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod:npmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = The king alone wore the air of not having heard.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	king	king	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	alone	alone	ADV	RB	_	2	advmod	_	_
+4	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	air	air	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	SCONJ	IN	_	9	mark	_	_
+8	not	not	ADV	RB	_	9	advmod	_	_
+9	having	have	VERB	VBG	VerbForm=Ger	6	acl	_	_
+10	heard	heard	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = At his order, Master Olivier resumed his reading, and his majesty coldly continued his inspection of the cage.
+1	At	at	ADP	IN	_	3	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	order	order	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	Master	master	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	Olivier	Olivier	PROPN	NNP	Number=Sing	5	flat	_	_
+7	resumed	resum	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	reading	reading	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	majesty	majesty	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	coldly	coldly	ADV	RB	_	15	advmod	_	_
+15	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	inspection	inspection	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	cage	cage	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

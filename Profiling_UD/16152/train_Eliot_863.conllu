@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am very sorry that we differ, father.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	differ	differ	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	father	father	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I think I can be quite as much of a gentleman at the work I have undertaken, as if I had been a curate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	quite	quite	ADV	RB	_	8	advmod	_	_
+7	as	as	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	2	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	gentleman	gentleman	NOUN	NN	Number=Sing	8	obl	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	work	work	NOUN	NN	Number=Sing	11	nmod	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	undertaken	undertake	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	as	as	SCONJ	IN	_	25	mark	_	_
+20	if	if	SCONJ	IN	_	25	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	cop	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	curate	curate	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But I am grateful to you for wishing to do the best for me.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	grateful	grateful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	for	for	SCONJ	IN	_	8	mark	_	_
+8	wishing	wish	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	do	do	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	best	best	ADJ	JJS	Degree=Sup	10	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

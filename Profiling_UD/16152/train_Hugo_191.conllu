@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Five years old!
+1	Five	five	NUM	CD	NumType=Card	2	nummod	_	_
+2	years	year	NOUN	NNS	Number=Plur	3	obl:npmod	_	_
+3	old	old	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = the reader will say; that is not probable.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	reader	reader	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	probable	probable	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Alas!
+1	Alas	Alas	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = it is true.
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Social suffering begins at all ages.
+1	Social	social	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	suffering	suffering	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	ages	age	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Have we not recently seen the trial of a man named Dumollard, an orphan turned bandit, who, from the age of five, as the official documents state, being alone in the world, “worked for his living and stole”?
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	recently	recently	ADV	RB	_	5	advmod	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	trial	trial	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	7	nmod	_	_
+11	named	name	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+12	Dumollard	Dumollard	PROPN	NNP	Number=Sing	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	orphan	orphan	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	turned	turned	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	bandit	bandit	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	who	who	PRON	WP	PronType=Rel	40	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	40	punct	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	age	age	NOUN	NN	Number=Sing	40	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	five	five	NUM	CD	NumType=Card	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	34	punct	_	_
+27	as	as	SCONJ	IN	_	34	mark	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+29	official	official	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	documents	documents	NOUN	NNS	Number=Plur	31	compound	_	_
+31	state	state	NOUN	NN	Number=Sing	34	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	being	be	AUX	VBG	VerbForm=Ger	34	cop	_	_
+34	alone	alone	ADJ	JJ	Degree=Pos	23	advcl	_	_
+35	in	in	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	world	world	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	“	"	PUNCT	``	_	40	punct	_	SpaceAfter=No
+40	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+41	for	for	ADP	IN	_	43	case	_	_
+42	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	living	living	NOUN	NN	Number=Sing	40	obl	_	_
+44	and	and	CCONJ	CC	_	45	cc	_	_
+45	stole	stole	NOUN	NN	Number=Sing	43	conj	_	SpaceAfter=No
+46	”	"	PUNCT	''	_	40	punct	_	SpaceAfter=No
+47	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

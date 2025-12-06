@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Papa calls her my confidential friend, but I am sure she is no such thing--is she, Jip?
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Papa	Papa	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	confidential	confidential	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	friend	friend	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	sure	sure	ADJ	JJ	Degree=Pos	3	conj	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	no	no	DET	DT	_	17	det	_	_
+16	such	such	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	thing	thing	NOUN	NN	Number=Sing	12	ccomp	_	SpaceAfter=No
+18	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	Jip	Jip	PROPN	NNP	Number=Sing	20	conj	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = We are not going to confide in any such cross people, Jip and I.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	confide	confide	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	any	any	DET	DT	_	11	det	_	_
+9	such	such	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	cross	cross	NOUN	NN	Number=Sing	11	compound	_	_
+11	people	people	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Jip	Jip	PROPN	NNP	Number=Sing	11	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = We mean to bestow our confidence where we like, and to find out our own friends, instead of having them found out for us--don’t we, Jip?’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	bestow	bestow	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	confidence	confidence	NOUN	NN	Number=Sing	4	obj	_	_
+7	where	where	ADV	WRB	PronType=Rel	9	advmod	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	find	find	VERB	VB	VerbForm=Inf	2	conj	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	friends	friend	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	instead	instead	ADV	RB	_	21	mark	_	_
+20	of	of	SCONJ	IN	_	19	fixed	_	_
+21	having	have	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+24	out	out	ADP	RP	_	23	compound:prt	_	_
+25	for	for	ADP	IN	_	26	case	_	_
+26	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+27	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+28	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	30	aux	_	SpaceAfter=No
+29	n’t	not	PART	RB	_	30	advmod	_	_
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	Jip	Jip	PROPN	NNP	Number=Sing	30	conj	_	SpaceAfter=No
+33	?	?	PUNCT	.	_	32	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	32	punct	_	SpacesAfter=\n
+

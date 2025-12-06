@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I cannot think,” said Estella, raising her eyes after a silence “why you should be so unreasonable when I come to see you after a separation.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+9	Estella	Estella	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	raising	raise	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	eyes	eye	NOUN	NNS	Number=Plur	11	obj	_	_
+14	after	after	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	silence	silence	NOUN	NN	Number=Sing	11	obl	_	_
+17	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+18	why	why	ADV	WRB	PronType=Int	23	advmod	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+20	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	23	cop	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	unreasonable	unreasonable	ADJ	JJ	Degree=Pos	5	appos	_	_
+24	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	see	see	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	28	obj	_	_
+30	after	after	ADP	IN	_	32	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	separation	separation	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I have never forgotten your wrongs and their causes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	wrongs	wrongs	NOUN	NNS	Number=Plur	4	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	causes	causes	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have never been unfaithful to you or your schooling.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	never	never	ADV	RB	_	5	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	unfaithful	unfaithful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	schooling	schooling	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I have never shown any weakness that I can charge myself with.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	weakness	weakness	NOUN	NNS	Number=Plur	4	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	charge	charge	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	with	with	ADP	IN	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

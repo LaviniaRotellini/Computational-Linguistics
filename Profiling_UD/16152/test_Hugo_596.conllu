@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Master Olivier quitted the room and returned a moment later with the two prisoners, surrounded by archers of the guard.
+1	Master	master	NOUN	NN	Number=Sing	2	compound	_	_
+2	Olivier	Olivier	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	quitted	quit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	room	room	NOUN	NN	Number=Sing	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	moment	moment	NOUN	NN	Number=Sing	7	obj	_	_
+10	later	later	ADV	RB	_	9	advmod	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+14	prisoners	prisoner	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	_	_
+17	by	by	ADP	IN	_	18	case	_	_
+18	archers	archer	NOUN	NNS	Number=Plur	16	obl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	guard	guard	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The first had a coarse, idiotic, drunken and astonished face.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	coarse	coarse	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	idiotic	idiotic	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	drunken	drunken	ADJ	JJ	Degree=Pos	5	conj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	astonished	astonished	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	face	face	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He was clothed in rags, and walked with one knee bent and dragging his leg.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	clothed	clothed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	rags	rag	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+11	knee	knee	NOUN	NN	Number=Sing	12	compound	_	_
+12	bent	bent	NOUN	NN	Number=Sing	8	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	dragging	drag	VERB	VBG	VerbForm=Ger	12	conj	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	leg	leg	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The second had a pallid and smiling countenance, with which the reader is already acquainted.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	pallid	pallid	NOUN	NN	Number=Sing	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	smiling	smile	VERB	VBG	VerbForm=Ger	5	conj	_	_
+8	countenance	countenance	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	16	obl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	reader	reader	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+15	already	already	ADV	RB	_	16	advmod	_	_
+16	acquainted	acquaint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

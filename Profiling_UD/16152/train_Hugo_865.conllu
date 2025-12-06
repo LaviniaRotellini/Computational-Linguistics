@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was winter; a couple of fagots were crackling in the fireplace.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	winter	winter	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	couple	couple	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	fagots	fagot	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	crackling	crackl	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fireplace	fireplace	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This was tempting, and Courfeyrac could not resist.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	tempting	tempt	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	resist	resist	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He crumpled the poor Touquet Charter in his fist, and flung it in the fire.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	crumpled	crumple	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	Touquet	Touquet	PROPN	NNP	Number=Sing	2	obj	_	_
+6	Charter	Charter	PROPN	NNP	Number=Sing	5	flat	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	fist	fist	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	flung	fling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	fire	fire	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The paper flashed up.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	paper	paper	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	flashed	flash	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Combeferre watched the masterpiece of Louis XVIII.
+1	Combeferre	Combeferre	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	masterpiece	masterpiece	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Louis	Louis	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	XVIII	XVIII	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = burn philosophically, and contented himself with saying:—
+1	burn	burn	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	philosophically	philosophically	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	contented	contente	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	_
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	with	with	SCONJ	IN	_	8	mark	_	_
+8	saying	say	VERB	VBG	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+9	:—	:—	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

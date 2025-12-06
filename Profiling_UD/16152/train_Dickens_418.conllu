@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = By five o’clock, which was Mr. Wickfield’s dinner-hour, I had mustered up my spirits again, and was ready for my knife and fork.
+1	By	by	ADP	IN	_	3	case	_	_
+2	five	five	NUM	CD	NumType=Card	3	nummod	_	_
+3	o’clock	o’clock	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nmod:poss	_	_
+8	Wickfield	Wickfield	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	’s	's	PART	POS	_	7	case	_	_
+10	dinner	dinner	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	hour	hour	NOUN	NN	Number=Sing	3	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	mustered	muster	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	spirits	spirit	NOUN	NNS	Number=Plur	16	obj	_	_
+20	again	again	ADV	RB	_	16	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	ready	ready	ADJ	JJ	Degree=Pos	16	conj	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	knife	knife	NOUN	NN	Number=Sing	24	obl	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	fork	fork	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = The cloth was only laid for us two; but Agnes was waiting in the drawing-room before dinner, went down with her father, and sat opposite to him at table.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cloth	cloth	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	laid	laid	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	two	two	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	but	but	CCONJ	CC	_	13	cc	_	_
+11	Agnes	Agnes	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	21	conj	_	_
+14	in	in	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	drawing	drawing	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	room	room	NOUN	NN	Number=Sing	13	obl	_	_
+19	before	before	ADP	IN	_	20	case	_	_
+20	dinner	dinner	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+23	down	down	ADV	RB	_	22	advmod	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	father	father	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+30	opposite	opposite	ADJ	JJ	Degree=Pos	29	amod	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+33	at	at	ADP	IN	_	34	case	_	_
+34	table	table	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I doubted whether he could have dined without her.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	doubted	doubte	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	whether	whether	SCONJ	IN	_	7	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	dined	dine	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+8	without	without	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

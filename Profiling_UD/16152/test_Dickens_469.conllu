@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In her furred travelling-dress, Estella seemed more delicately beautiful than she had ever seemed yet, even in my eyes.
+1	In	in	ADP	IN	_	6	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+3	furred	furred	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	travelling	travelling	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+6	dress	dress	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	Estella	Estella	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	delicately	delicately	ADV	RB	_	12	advmod	_	_
+12	beautiful	beautiful	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+13	than	than	SCONJ	IN	_	17	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+16	ever	ever	ADV	RB	_	17	advmod	_	_
+17	seemed	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+18	yet	yet	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	9	punct	_	_
+20	even	even	ADV	RB	_	23	advmod	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	eyes	eye	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Her manner was more winning than she had cared to let it be to me before, and I thought I saw Miss Havisham’s influence in the change.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	manner	manner	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	winning	win	VERB	VBG	VerbForm=Ger	0	root	_	_
+6	than	than	SCONJ	IN	_	9	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	cared	care	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	let	let	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	xcomp	_	_
+16	before	before	ADV	RB	_	11	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+23	Miss	miss	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Havisham	Havisham	PROPN	NNP	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	_
+26	influence	influence	NOUN	NN	Number=Sing	22	obj	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	change	change	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

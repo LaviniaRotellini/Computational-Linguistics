@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “_Pasque Dieu!_
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	_Pasque	_Pasque	PROPN	NNP	Number=Sing	0	root	_	_
+3	Dieu	Dieu	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	!_	!_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Monsieur the King of Sicily seals his letters with yellow wax, like a king of France.
+1	Monsieur	yoMonsieu	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	King	king	PROPN	NNP	Number=Sing	1	flat	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Sicily	Sicily	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	seals	seal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	letters	letter	NOUN	NNS	Number=Plur	6	obj	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	yellow	yellow	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	wax	wax	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	like	like	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	king	king	NOUN	NN	Number=Sing	6	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	France	France	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Perhaps we are in the wrong to permit him so to do.
+1	Perhaps	perhaps	ADV	RB	_	6	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	wrong	wrong	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	permit	permit	VERB	VB	VerbForm=Inf	6	acl	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	so	so	ADV	RB	_	12	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	do	do	VERB	VB	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = My fair cousin of Burgundy granted no armorial bearings with a field of gules.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	fair	fair	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	cousin	cousin	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Burgundy	Burgundy	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	granted	grant	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	no	no	DET	DT	_	9	det	_	_
+8	armorial	armorial	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	bearings	bearing	NOUN	NNS	Number=Plur	6	obj	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	field	field	NOUN	NN	Number=Sing	6	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	gules	gule	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = The grandeur of houses is assured by the integrity of prerogatives.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	grandeur	grandeur	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	houses	house	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	assured	assure	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	integrity	integrity	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	prerogatives	prerogative	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Note this, friend Olivier.”
+1	Note	note	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	friend	friend	NOUN	NN	Number=Sing	5	compound	_	_
+5	Olivier	Olivier	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

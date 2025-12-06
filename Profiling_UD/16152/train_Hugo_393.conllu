@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had released Fantine’s hand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	released	release	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	Fantine	Fantine	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	hand	hand	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He listened to her words as one listens to the sighing of the breeze, with his eyes on the ground, his mind absorbed in reflection which had no bottom.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+5	words	word	NOUN	NNS	Number=Plur	2	obl	_	_
+6	as	as	SCONJ	IN	_	8	case	_	_
+7	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+8	listens	listen	NOUN	NNS	Number=Plur	2	obl	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	sighing	sighing	NOUN	NN	Number=Sing	8	nmod	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	breeze	breeze	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	8	conj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	ground	ground	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	mind	mind	NOUN	NN	Number=Sing	8	conj	_	_
+25	absorbed	absorb	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	reflection	reflection	NOUN	NN	Number=Sing	25	obl	_	_
+28	which	which	PRON	WDT	PronType=Rel	29	nsubj	_	_
+29	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+30	no	no	DET	DT	_	31	det	_	_
+31	bottom	bottom	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = All at once she ceased speaking, and this caused him to raise his head mechanically.
+1	All	all	DET	DT	_	5	nsubj	_	_
+2	at	at	ADV	RB	_	3	advmod	_	_
+3	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	ceased	cease	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	speaking	speak	VERB	VBG	VerbForm=Ger	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+10	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	raise	raise	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	head	head	NOUN	NN	Number=Sing	13	obj	_	_
+16	mechanically	mechanically	ADV	RB	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Fantine had become terrible.
+1	Fantine	Fantine	PRON	PRP	_	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	terrible	terrible	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

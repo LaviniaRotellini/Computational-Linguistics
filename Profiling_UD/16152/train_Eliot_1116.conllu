@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But, my dear Mrs. Casaubon,” said Mr. Farebrother, smiling gently at her ardor, “character is not cut in marble—it is not something solid and unalterable.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Casaubon	Casaubon	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Farebrother	Farebrother	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	smiling	smile	VERB	VBG	VerbForm=Ger	11	acl	_	_
+15	gently	gently	ADV	RB	_	14	advmod	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	ardor	ardor	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	10	punct	_	_
+20	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+21	character	character	NOUN	NN	Number=Sing	24	nsubj:pass	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	marble	marble	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+27	—	-	PUNCT	,	_	24	punct	_	SpaceAfter=No
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	not	not	PART	RB	_	31	advmod	_	_
+31	something	something	PRON	NN	Number=Sing	24	parataxis	_	_
+32	solid	solid	ADJ	JJ	Degree=Pos	31	amod	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	unalterable	unalterable	ADJ	JJ	Degree=Pos	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = It is something living and changing, and may become diseased as our bodies do.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	something	something	PRON	NN	Number=Sing	0	root	_	_
+4	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	may	may	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	become	become	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	diseased	diseased	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	as	as	ADP	IN	_	15	mark	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	bodies	body	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

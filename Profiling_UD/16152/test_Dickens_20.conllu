@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You know, Pip,” said Joe, solemnly, with his last bite in his cheek, and speaking in a confidential voice, as if we two were quite alone, “you and me is always friends, and I’d be the last to tell upon you, any time.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Pip	Pip	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Joe	Joe	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	solemnly	solemnly	ADV	RB	_	16	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	last	last	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	bite	bite	NOUN	NN	Number=Sing	9	appos	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	cheek	cheek	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	speaking	speak	VERB	VBG	VerbForm=Ger	16	conj	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	confidential	confidential	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	voice	voice	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	42	punct	_	_
+28	as	as	SCONJ	IN	_	34	mark	_	_
+29	if	if	SCONJ	IN	_	34	mark	_	_
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
+31	two	two	NUM	CD	NumType=Card	30	nummod	_	_
+32	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	cop	_	_
+33	quite	quite	ADV	RB	_	34	advmod	_	_
+34	alone	alone	ADV	RB	_	42	advcl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	42	punct	_	_
+36	“	"	PUNCT	``	_	37	punct	_	SpaceAfter=No
+37	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	42	nsubj	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	conj	_	_
+40	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+41	always	always	ADV	RB	_	42	advmod	_	_
+42	friends	friend	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	46	punct	_	_
+44	and	and	CCONJ	CC	_	46	cc	_	_
+45	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	46	nsubj	_	SpaceAfter=No
+46	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	conj	_	_
+47	be	be	AUX	VB	VerbForm=Inf	49	cop	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	last	last	ADJ	JJ	Degree=Pos	56	xcomp	_	_
+50	to	to	PART	TO	_	51	mark	_	_
+51	tell	tell	VERB	VB	VerbForm=Inf	49	advcl	_	_
+52	upon	upon	ADP	IN	_	53	case	_	_
+53	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	51	obl	_	SpaceAfter=No
+54	,	,	PUNCT	,	_	49	punct	_	_
+55	any	any	DET	DT	_	56	det	_	_
+56	time	time	NOUN	NN	Number=Sing	46	obl:tmod	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But such a—” he moved his chair and looked about the floor between us, and then again at me—“such a most oncommon Bolt as that!”
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	such	such	DET	PDT	_	4	det:predet	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	moved	move	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	chair	chair	NOUN	NN	Number=Sing	7	obj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	about	about	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	floor	floor	NOUN	NN	Number=Sing	11	obl	_	_
+15	between	between	ADP	IN	_	16	case	_	_
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	28	punct	_	_
+18	and	and	CCONJ	CC	_	28	cc	_	_
+19	then	then	ADV	RB	PronType=Dem	20	advmod	_	_
+20	again	again	ADV	RB	_	22	advmod	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+23	—“	—“	PUNCT	.	_	28	punct	_	SpaceAfter=No
+24	such	such	DET	PDT	_	28	det:predet	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+26	most	most	ADV	RBS	_	27	advmod	_	_
+27	oncommon	oncommon	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	Bolt	Bolt	NOUN	NN	Number=Sing	7	conj	_	_
+29	as	as	ADP	IN	_	30	case	_	_
+30	that	that	PRON	DT	Number=Sing|PronType=Dem	28	nmod	_	SpaceAfter=No
+31	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

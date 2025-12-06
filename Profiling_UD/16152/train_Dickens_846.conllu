@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There was a trembling upon her, that I can see now.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	trembling	trembling	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	upon	upon	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	see	see	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+12	now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The coldness of her hand when I touched it, I can feel yet.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	coldness	coldness	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	hand	hand	NOUN	NN	Number=Sing	2	nmod	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	touched	touche	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+14	yet	yet	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Its only sign of animation was to shrink from mine; and then she glided from the chair, and creeping to the other side of her uncle, bowed herself, silently and trembling still, upon his breast.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	sign	sign	NUM	CD	NumType=Card	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	animation	animation	NOUN	NN	Number=Sing	4	nmod	_	_
+7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	shrink	shrink	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	mine	mine	PRON	PRP	_	9	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	then	then	ADV	RB	PronType=Dem	16	advmod	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	glided	glide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	chair	chair	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	creeping	creep	VERB	VBG	VerbForm=Ger	4	conj	_	_
+23	to	to	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	other	other	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	side	side	NOUN	NN	Number=Sing	22	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	uncle	uncle	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	_
+31	bowed	bow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+32	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	silently	silently	ADV	RB	_	4	conj	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	trembling	trembl	VERB	VBG	VerbForm=Ger	4	conj	_	_
+37	still	still	ADV	RB	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	4	punct	_	_
+39	upon	upon	ADP	IN	_	41	case	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	breast	breast	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

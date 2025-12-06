@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, dear boy, the danger ain’t so great.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	danger	danger	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	12	advmod	_	_
+11	so	so	ADV	RB	_	12	advmod	_	_
+12	great	great	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Without I was informed agen, the danger ain’t so much to signify.
+1	Without	without	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+5	agen	agen	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	danger	danger	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	12	advmod	_	_
+11	so	so	ADV	RB	_	12	advmod	_	_
+12	much	much	ADJ	JJ	Degree=Pos	0	root	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	signify	signify	VERB	VB	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = There’s Jaggers, and there’s Wemmick, and there’s you.
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Jaggers	Jaggers	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	there	there	PRON	EX	_	7	expl	_	SpaceAfter=No
+7	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	Wemmick	Wemmick	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	there	there	PRON	EX	_	12	expl	_	SpaceAfter=No
+12	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Who else is there to inform?”
+1	Who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+2	else	else	ADV	RB	_	1	advmod	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	there	there	PRON	EX	_	3	expl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	inform	inform	VERB	VB	VerbForm=Inf	3	csubj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

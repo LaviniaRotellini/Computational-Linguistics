@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = nothing to grumble at, you know,’ said Mr. Omer.
+1	nothing	nothing	PRON	NN	Number=Sing	10	nsubj	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	grumble	grumble	VERB	VB	VerbForm=Inf	1	acl	_	_
+4	at	at	ADP	IN	_	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	1	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	obj	_	_
+12	Omer	Omer	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = ‘I find my breath gets short, but it seldom gets longer as a man gets older.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	breath	breath	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	short	short	ADJ	JJ	Degree=Pos	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	seldom	seldom	ADV	RB	_	12	advmod	_	_
+12	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	longer	longer	ADV	RBR	Degree=Cmp	12	advmod	_	_
+14	as	as	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	man	man	NOUN	NN	Number=Sing	12	obl	_	_
+17	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	older	older	ADJ	JJR	Degree=Cmp	3	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I take it as it comes, and make the most of it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	make	make	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	most	most	ADJ	JJS	Degree=Sup	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = That’s the best way, ain’t it?’
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	best	best	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	it	ight	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

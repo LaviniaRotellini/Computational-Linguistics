@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, ma’am,’ returned Bitzer, ‘that’s where it is.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	ma’	ma'	PART	POS	_	8	mark	_	SpaceAfter=No
+5	am	am	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	5	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Bitzer	Bitzer	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	SpaceAfter=No
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	where	where	ADV	WRB	PronType=Int	8	parataxis	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = If they were more provident and less perverse, ma’am, what would they do?
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	provident	provident	ADJ	JJ	Degree=Pos	11	advcl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	less	less	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	perverse	perverse	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	ma’	ma'	PUNCT	''	_	11	punct	_	SpaceAfter=No
+11	am	am	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	what	what	PRON	WP	PronType=Int	16	obj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	do	do	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = They would say, “While my hat covers my family,” or “while my bonnet covers my family,”—as the case might be, ma’am—“I have only one to feed, and that’s the person I most like to feed.”’
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+6	While	While	SCONJ	IN	_	9	mark	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hat	hat	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	covers	cover	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	advcl	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	family	family	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	11	punct	_	_
+14	or	or	CCONJ	CC	_	50	cc	_	_
+15	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+16	while	while	SCONJ	IN	_	19	mark	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	bonnet	bonnet	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	covers	cover	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	advcl	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	family	family	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+25	as	as	SCONJ	IN	_	34	mark	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	case	case	NOUN	NN	Number=Sing	34	nsubj	_	_
+28	might	might	AUX	MD	VerbForm=Fin	34	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	34	aux	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	34	punct	_	_
+31	ma’am	ma’am	INTJ	UH	_	34	discourse	_	SpaceAfter=No
+32	—“	—“	PUNCT	.	_	34	punct	_	SpaceAfter=No
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+34	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+35	only	only	ADV	RB	_	36	advmod	_	_
+36	one	one	NUM	CD	NumType=Card	34	obj	_	_
+37	to	to	ADP	IN	_	38	case	_	_
+38	feed	feed	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	44	punct	_	_
+40	and	and	CCONJ	CC	_	44	cc	_	_
+41	that	that	PRON	DT	Number=Sing|PronType=Dem	44	nsubj	_	SpaceAfter=No
+42	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	person	person	NOUN	NN	Number=Sing	19	conj	_	_
+45	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	_
+46	most	most	ADV	RBS	_	47	advmod	_	_
+47	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	_
+48	to	to	PART	TO	_	49	mark	_	_
+49	feed	feed	VERB	VB	VerbForm=Inf	47	xcomp	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+51	”	"	PUNCT	''	_	3	punct	_	SpaceAfter=No
+52	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

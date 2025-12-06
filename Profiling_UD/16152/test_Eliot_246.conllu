@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, well, now come on,” said Mrs. Poyser, “and walk before Father and Mother, and take your little sister by the hand.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	now	now	ADV	RB	_	7	advmod	_	_
+7	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	on	on	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	7	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	obj	_	_
+13	Poyser	Poyser	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	walk	walk	VERB	VB	VerbForm=Inf	11	conj	_	_
+18	before	before	ADP	IN	_	19	case	_	_
+19	Father	Father	NOUN	NN	Number=Sing	17	obl	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	Mother	mother	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+25	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	little	little	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sister	sister	NOUN	NN	Number=Sing	24	obj	_	_
+28	by	by	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	hand	hand	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = We must go straight on now.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	straight	straight	ADV	RB	_	3	advmod	_	_
+5	on	on	ADV	RB	_	6	advmod	_	_
+6	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Good boys don’t look after the birds of a Sunday.”
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	boys	boy	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+6	after	after	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	birds	bird	NOUN	NNS	Number=Plur	5	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	Sunday	Sunday	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

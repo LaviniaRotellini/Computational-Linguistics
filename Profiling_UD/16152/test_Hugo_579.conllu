@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At each wicket, all heads were obliged to stoop, except that of the old man bent double with age.
+1	At	at	ADP	IN	_	3	case	_	_
+2	each	each	DET	DT	_	3	det	_	_
+3	wicket	wicket	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	heads	head	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	stoop	stoop	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	except	except	ADP	IN	_	13	case	_	_
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	_
+14	of	of	ADP	IN	_	19	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+16	old	old	ADJ	JJ	Degree=Pos	19	amod	_	_
+17	man	man	NOUN	NN	Number=Sing	18	compound	_	_
+18	bent	bend	NOUN	NN	Number=Sing	19	compound	_	_
+19	double	double	NOUN	NN	Number=Sing	13	nmod	_	_
+20	with	with	ADP	IN	_	21	case	_	_
+21	age	age	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Hum,” said he between his gums, for he had no longer any teeth, “we are already quite prepared for the door of the sepulchre.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hum	Hum	PROPN	NNP	Number=Sing	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	between	between	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	gums	gum	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	for	for	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+14	no	no	ADV	RB	_	15	advmod	_	_
+15	longer	longer	ADV	RBR	Degree=Cmp	17	advmod	_	_
+16	any	any	DET	DT	_	17	det	_	_
+17	teeth	tooth	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	13	punct	_	_
+19	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj:pass	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+22	already	already	ADV	RB	_	24	advmod	_	_
+23	quite	quite	ADV	RB	_	24	advmod	_	_
+24	prepared	prepared	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	door	door	NOUN	NN	Number=Sing	24	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	sepulchre	sepulchre	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = For a low door, a bent passer.”
+1	For	for	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	low	low	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	door	door	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	bent	bent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	passer	passer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No; I suppose the Articles are right.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	2	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Articles	article	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	right	right	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I am not prepared with any arguments to disprove them, and much better, cleverer fellows than I am go in for them entirely.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	arguments	argument	NOUN	NNS	Number=Plur	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	disprove	disprove	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	much	much	ADV	RB	_	14	advmod	_	_
+14	better	better	ADJ	JJR	Degree=Cmp	17	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	cleverer	cleverer	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	fellows	fellows	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	than	than	SCONJ	IN	_	21	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	go	go	VERB	VB	VerbForm=Inf	17	advcl	_	_
+22	in	in	ADP	IN	_	21	compound:prt	_	_
+23	for	for	ADP	IN	_	24	case	_	_
+24	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obl	_	_
+25	entirely	entirely	ADV	RB	_	21	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I think it would be rather ridiculous in me to urge scruples of that sort, as if I were a judge,” said Fred, quite simply.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	rather	rather	ADV	RB	_	7	advmod	_	_
+7	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	urge	urge	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	scruples	scruple	NOUN	NNS	Number=Plur	11	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	sort	sort	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	as	as	SCONJ	IN	_	22	mark	_	_
+18	if	if	SCONJ	IN	_	22	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	judge	judge	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	25	punct	_	_
+25	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+26	Fred	Fred	PROPN	NNP	Number=Sing	25	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	quite	quite	ADV	RB	_	29	advmod	_	_
+29	simply	simply	ADV	RB	_	26	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n
+

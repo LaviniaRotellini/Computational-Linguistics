@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” said I.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Estella waved a blue flag, and I waved a red one, and Miss Havisham waved one sprinkled all over with little gold stars, out at the coach-window.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Estella	Estella	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	waved	wav	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	blue	blue	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	flag	flag	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	waved	wave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	red	red	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	one	one	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	Miss	miss	PROPN	NNP	Number=Sing	18	nsubj	_	_
+17	Havisham	Havisham	PROPN	NNP	Number=Sing	16	flat	_	_
+18	waved	wave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+19	one	one	NUM	CD	NumType=Card	20	nsubj	_	_
+20	sprinkled	sprinkle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	all	all	ADV	RB	_	26	advmod	_	_
+22	over	over	ADP	IN	_	26	case	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	little	little	ADJ	JJ	Degree=Pos	25	obl:npmod	_	_
+25	gold	gold	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	stars	star	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	20	punct	_	_
+28	out	out	ADV	RB	_	20	advmod	_	_
+29	at	at	ADP	IN	_	33	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	coach	coach	NOUN	NN	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	window	window	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And then we all waved our swords and hurrahed.”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	all	all	DET	DT	_	3	det	_	_
+5	waved	wav	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	swords	sword	NOUN	NNS	Number=Plur	5	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	hurrahed	hurrah	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

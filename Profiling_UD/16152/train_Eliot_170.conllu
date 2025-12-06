@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “If there is such a man, depend upon it Bulstrode knows him.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	such	such	DET	PDT	_	7	det:predet	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	man	man	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	depend	depend	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	9	flat	_	_
+13	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But, supposing you only tried to get the money lent, and didn’t get it—Bulstrode ’ud know that too.
+1	But	but	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	supposing	suppose	VERB	VBG	VerbForm=Ger	6	csubj	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	only	only	ADV	RB	_	3	advmod	_	_
+6	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	get	get	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	money	money	NOUN	NN	Number=Sing	8	obj	_	_
+11	lent	lent	NOUN	NN	Number=Sing	8	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	get	get	VERB	VB	VerbForm=Inf	6	conj	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	Bulstrode	Bulstrode	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	’ud	’uld	NOUN	NNS	Number=Plur	16	xcomp	_	_
+21	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+22	that	that	PRON	DT	Number=Sing|PronType=Dem	21	obj	_	_
+23	too	too	ADV	RB	_	21	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = You bring me a writing from Bulstrode to say he doesn’t believe you’ve ever promised to pay your debts out o’ my land.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	writing	writing	NOUN	NN	Number=Sing	2	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	2	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	say	say	VERB	VB	VerbForm=Inf	2	advcl	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	believe	believe	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	SpaceAfter=No
+15	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	ever	ever	ADV	RB	_	17	advmod	_	_
+17	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	pay	pay	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	debts	debt	NOUN	NNS	Number=Plur	19	obj	_	_
+22	out	out	ADV	RB	_	19	advmod	_	_
+23	o	of	ADP	IN	Abbr=Yes	26	case	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	26	punct	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	land	land	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Come now!”
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	now	now	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

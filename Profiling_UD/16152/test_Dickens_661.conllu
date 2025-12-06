@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now,” said Wemmick, “questioning being over,” which he emphasised and repeated for my guidance, “I come to what I did, after hearing what I heard.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Wemmick	Wemmick	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+9	questioning	questioning	VERB	VBG	VerbForm=Ger	13	acl	_	_
+10	being	be	NOUN	NN	Number=Sing	9	obj	_	_
+11	over	over	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	16	obj	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	emphasised	emphasise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	repeated	repeat	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	guidance	guidance	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	5	punct	_	_
+23	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+26	to	to	SCONJ	IN	_	27	case	_	_
+27	what	what	PRON	WP	PronType=Int	25	obl	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	after	after	SCONJ	IN	_	32	mark	_	_
+32	hearing	hearing	VERB	VBG	VerbForm=Ger	25	advcl	_	_
+33	what	what	PRON	WP	PronType=Int	32	obj	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I went to Garden Court to find you; not finding you, I went to Clarriker’s to find Mr. Herbert.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	Garden	Garden	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Court	Court	PROPN	NNP	Number=Sing	2	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	find	find	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	finding	find	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	Clarriker	Clarriker	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+18	’s	's	PART	POS	_	17	case	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	find	find	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	20	obj	_	_
+22	Herbert	Herbert	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

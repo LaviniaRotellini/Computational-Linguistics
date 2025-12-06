@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The unhappy girl dropped her head upon her hands, and the unknown began to row furiously towards the shore.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	unhappy	unhappy	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	girl	girl	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	dropped	drop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	head	head	NOUN	NN	Number=Sing	4	obj	_	_
+7	upon	upon	ADP	IN	_	9	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	unknown	unknown	ADJ	JJ	Degree=Pos	14	nsubj	_	_
+14	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	row	row	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	furiously	furiously	ADV	RB	_	16	advmod	_	_
+18	towards	towards	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	shore	shore	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Meanwhile our philosopher reflected.
+1	Meanwhile	meanwhile	SCONJ	IN	_	4	mark	_	_
+2	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	philosopher	philosopher	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	reflected	reflect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He clasped the goat in his arms, and gently drew away from the gypsy, who pressed closer and closer to him, as though to the only asylum which remained to her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	clasped	clasp	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	goat	goat	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	arms	arms	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	gently	gently	ADV	RB	_	11	advmod	_	_
+11	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	away	away	ADV	RB	_	11	advmod	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	gypsy	gypsy	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	pressed	press	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+19	closer	closer	ADJ	JJR	Degree=Cmp	18	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	closer	closer	ADJ	JJR	Degree=Cmp	19	conj	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	18	punct	_	_
+25	as	as	ADV	RB	_	26	advmod	_	_
+26	though	though	ADV	RB	_	18	advmod	_	_
+27	to	to	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	only	only	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	asylum	asylum	NOUN	NN	Number=Sing	18	obl	_	_
+31	which	which	PRON	WDT	PronType=Rel	32	nsubj	_	_
+32	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

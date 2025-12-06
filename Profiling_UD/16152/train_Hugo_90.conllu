@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The horizon was perfectly black.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	horizon	horizon	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	perfectly	perfectly	ADV	RB	_	5	advmod	_	_
+5	black	black	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = This was not alone the obscurity of night; it was caused by very low-hanging clouds which seemed to rest upon the hill itself, and which were mounting and filling the whole sky.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	alone	alone	ADV	RB	_	6	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	obscurity	obscurity	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	night	night	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+13	by	by	ADP	IN	_	18	case	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	low	low	ADJ	JJ	Degree=Pos	18	amod	_	SpaceAfter=No
+16	-	-	PUNCT	,	_	15	punct	_	SpaceAfter=No
+17	hanging	hang	VERB	VBG	VerbForm=Ger	18	amod	_	_
+18	clouds	cloud	NOUN	NNS	Number=Plur	12	obl	_	_
+19	which	which	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	rest	rest	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	upon	upon	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	hill	hill	NOUN	NN	Number=Sing	22	obl	_	_
+26	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	_
+29	which	which	PRON	WDT	PronType=Int	31	nsubj	_	_
+30	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	aux	_	_
+31	mounting	mount	VERB	VBG	Tense=Pres|VerbForm=Part	22	conj	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	filling	fill	VERB	VBG	VerbForm=Ger	31	conj	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	whole	whole	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	sky	sky	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Meanwhile, as the moon was about to rise, and as there was still floating in the zenith a remnant of the brightness of twilight, these clouds formed at the summit of the sky a sort of whitish arch, whence a gleam of light fell upon the earth.
+1	Meanwhile	meanwhile	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	as	as	SCONJ	IN	_	7	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	moon	moon	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	about	about	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	rise	rise	VERB	VB	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+15	still	still	ADV	RB	_	16	advmod	_	_
+16	floating	float	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	zenith	zenith	NOUN	NN	Number=Sing	16	obl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	remnant	remnant	NOUN	NN	Number=Sing	16	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	brightness	brightness	NOUN	NN	Number=Sing	21	nmod	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	twilight	twilight	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	these	these	DET	DT	Number=Plur|PronType=Dem	29	det	_	_
+29	cloud	cloud	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+30	s	's	PART	POS	_	29	case	_	_
+31	formed	form	VERB	VBN	Tense=Past|VerbForm=Part	29	acl	_	_
+32	at	at	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	summit	summit	NOUN	NN	Number=Sing	31	obl	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	sky	sky	NOUN	NN	Number=Sing	34	nmod	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	sort	sort	NOUN	NN	Number=Sing	37	obj	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	whitish	whitish	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	arch	arch	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	39	punct	_	_
+44	whence	whence	ADV	RB	NumType=Mult	46	advmod	_	_
+45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+46	gleam	gleam	NOUN	NN	Number=Sing	39	appos	_	_
+47	of	of	ADP	IN	_	49	case	_	_
+48	light	light	NOUN	NN	Number=Sing	49	compound	_	_
+49	fell	fall	NOUN	NN	Number=Sing	46	nmod	_	_
+50	upon	upon	ADP	IN	_	52	case	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	_
+52	earth	earth	NOUN	NN	Number=Sing	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

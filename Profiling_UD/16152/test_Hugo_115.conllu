@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = he said, in a very low voice, “is it possible that my life depends on the slightest vibration of the least of these bells?
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	low	low	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	voice	voice	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+13	possible	possible	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	life	life	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	csubj	_	_
+18	on	on	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	slightest	slightest	ADJ	JJ	Degree=Pos|NumType=Ord	21	amod	_	_
+21	vibration	vibration	NOUN	NN	Number=Sing	17	obl	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	least	least	ADV	RBS	Degree=Sup	21	nmod	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	these	these	DET	DT	Number=Plur|PronType=Dem	27	det	_	_
+27	bells	bell	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Oh!” he added, with clasped hands, “bells, do not ring, hand-bells do not clang, mule-bells do not quiver!”
+1	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	clasped	clasped	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+12	bells	bell	INTJ	UH	_	16	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	ring	ring	VERB	VB	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	23	punct	_	_
+18	hand	hand	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	bells	bell	NOUN	NNS	Number=Plur	23	nsubj	_	_
+21	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	clang	cling	VERB	VB	VerbForm=Inf	30	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	30	punct	_	_
+25	mule	mule	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	bells	bell	NOUN	NNS	Number=Plur	30	nsubj	_	_
+28	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	not	not	PART	RB	_	30	advmod	_	_
+30	quiver	quiver	VERB	VB	VerbForm=Inf	16	conj	_	SpaceAfter=No
+31	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

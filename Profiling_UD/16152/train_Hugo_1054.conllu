@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At the end of these three lines he paused.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	end	end	NOUN	NN	Number=Sing	10	obl	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	three	three	NUM	CD	NumType=Card	7	nummod	_	_
+7	lines	line	NOUN	NNS	Number=Plur	3	nmod	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = He had arrived in front of No. 50-52, and finding the door fastened, he began to assault it with resounding and heroic kicks, which betrayed rather the man’s shoes that he was wearing than the child’s feet which he owned.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	front	front	NOUN	NN	Number=Sing	3	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	No.	no.	NOUN	NN	Number=Sing	8	compound	_	_
+8	50	50	NUM	CD	NumType=Card	5	nmod	_	SpaceAfter=No
+9	-	-	SYM	SYM	_	10	case	_	SpaceAfter=No
+10	52	52	NUM	CD	NumType=Card	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	finding	find	VERB	VBG	VerbForm=Ger	16	csubj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	door	door	NOUN	NN	Number=Sing	13	obj	_	_
+16	fastened	fasten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	3	punct	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	assault	assault	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	with	with	SCONJ	IN	_	24	mark	_	_
+24	resounding	resounding	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	heroic	heroic	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	kicks	kick	NOUN	NNS	Number=Plur	24	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	24	punct	_	_
+29	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+30	betrayed	betrayed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+31	rather	rather	ADP	IN	_	35	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	man	man	NOUN	NN	Number=Sing	35	nmod:poss	_	SpaceAfter=No
+34	’s	's	PART	POS	_	33	case	_	_
+35	shoes	shoe	NOUN	NNS	Number=Plur	30	obl	_	_
+36	that	that	SCONJ	IN	_	39	mark	_	_
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+38	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	_
+39	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	30	ccomp	_	_
+40	than	than	ADP	IN	_	44	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+42	child	child	NOUN	NN	Number=Sing	44	nmod:poss	_	SpaceAfter=No
+43	’s	's	PART	POS	_	42	case	_	_
+44	feet	foot	NOUN	NNS	Number=Plur	39	obl	_	_
+45	which	which	PRON	WDT	PronType=Rel	47	obj	_	_
+46	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
+47	owned	own	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	44	acl:relcl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

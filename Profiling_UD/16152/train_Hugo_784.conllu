@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This family was that of the merry barefoot boy.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	family	family	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	merry	merry	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	barefoot	tbarefoo	NOUN	NN	Number=Sing	9	compound	_	_
+9	boy	boy	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He arrived there and found distress, and, what is still sadder, no smile; a cold hearth and cold hearts.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	distress	distress	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	16	punct	_	_
+8	and	and	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	what	what	PRON	WP	PronType=Int	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	still	still	ADV	RB	_	13	advmod	_	_
+13	sadder	sadder	ADV	RBR	_	16	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	smile	smile	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	2	punct	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	cold	cold	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hearth	hearth	NOUN	NN	Number=Sing	2	appos	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	cold	cold	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	hearts	heart	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = When he entered, he was asked: “Whence come you?”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	_	_
+9	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	Whence	Whence	ADV	RB	NumType=Mult	11	advmod	_	_
+11	come	come	VERB	VB	VerbForm=Inf	7	appos	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	11	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	11	punct	_	_
+
+# sent_id = 4
+# text = He replied: “From the street.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	From	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	street	street	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 5
+# text = When he went away, they asked him: “Whither are you going?”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+4	away	away	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	7	punct	_	_
+10	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+11	Whither	Whither	CCONJ	CC	_	14	cc	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 6
+# text = He replied: “Into the streets.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	Into	into	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	streets	street	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 7
+# text = His mother said to him: “What did you come here for?”
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	mother	mother	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+7	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+8	What	what	PRON	WP	PronType=Int	11	obj	_	_
+9	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	come	come	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+12	here	here	ADV	RB	PronType=Dem	11	advmod	_	_
+13	for	for	ADP	IN	_	11	case	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

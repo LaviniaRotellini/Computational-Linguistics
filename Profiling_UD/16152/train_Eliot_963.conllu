@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Come, Toller, be candid,” said Mr. Farebrother.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Come	come	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	Toller	Toller	PROPN	NNP	Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	candid	candid	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Farebrother	Farebrother	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “You are too clever not to see the good of a bold fresh mind in medicine, as well as in everything else; and as to cholera, I fancy, none of you are very sure what you ought to do.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	too	too	ADV	RB	_	8	advmod	_	_
+5	clever	clever	ADV	RB	_	8	advmod	_	_
+6	not	not	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	good	good	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+13	bold	bold	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	fresh	fresh	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	mind	mind	NOUN	NN	Number=Sing	10	nmod	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	medicine	medicine	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	8	punct	_	_
+19	as	as	ADV	RB	_	23	cc	_	_
+20	well	well	ADV	RB	Degree=Pos	19	fixed	_	_
+21	as	as	ADP	IN	_	19	fixed	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	everything	everything	PRON	NN	Number=Sing	8	conj	_	_
+24	else	else	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	8	punct	_	_
+26	and	and	CCONJ	CC	_	29	cc	_	_
+27	as	as	ADP	IN	_	29	case	_	_
+28	to	to	ADP	IN	_	27	fixed	_	_
+29	cholera	cholera	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	fancy	fancy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	8	punct	_	_
+34	none	none	NOUN	NN	Number=Sing	39	nsubj	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	34	nmod	_	_
+37	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	cop	_	_
+38	very	very	ADV	RB	_	39	advmod	_	_
+39	sure	sure	ADJ	JJ	Degree=Pos	8	parataxis	_	_
+40	what	what	PRON	WP	PronType=Int	39	obj	_	_
+41	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	44	nsubj	_	_
+42	ought	ought	AUX	MD	VerbForm=Fin	44	aux	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	do	do	VERB	VB	VerbForm=Inf	40	acl:relcl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = If a man goes a little too far along a new road, it is usually himself that he harms more than any one else.”
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	8	advmod	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	far	far	ADV	RB	Degree=Pos	4	advmod	_	_
+9	along	along	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	new	new	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	road	road	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	usually	usually	ADV	RB	_	17	advmod	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	0	root	_	_
+18	that	that	SCONJ	IN	_	20	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	harms	harm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+21	more	more	ADJ	JJR	Degree=Cmp	20	obj	_	_
+22	than	than	ADP	IN	_	24	case	_	_
+23	any	any	DET	DT	_	24	det	_	_
+24	one	one	NUM	CD	NumType=Card	21	obl	_	_
+25	else	else	ADJ	JJ	Degree=Pos	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+

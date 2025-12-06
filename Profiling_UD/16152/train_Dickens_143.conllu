@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No.
+1	No	no	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = There was nobody.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nobody	nobody	PRON	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I looked anxiously around; but the inquiry made no impression on any of the bystanders, if I except a man in gaiters, with one eye, who suggested that they had better put a brass collar round my neck, and tie me up in the stable.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	anxiously	anxiously	ADV	RB	_	2	advmod	_	_
+4	around	around	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	but	but	CCONJ	CC	_	9	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	inquiry	inquiry	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	impression	impression	NOUN	NN	Number=Sing	9	obj	_	_
+12	on	on	ADP	IN	_	13	case	_	_
+13	any	any	DET	DT	_	11	nmod	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	bystanders	bystander	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	if	if	SCONJ	IN	_	22	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	except	except	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	man	man	NOUN	NN	Number=Sing	9	advcl	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	gaiters	gaiter	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	9	punct	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	one	one	NUM	CD	NumType=Card	28	nummod	_	_
+28	eye	eye	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+31	suggested	suggest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+32	that	that	SCONJ	IN	_	36	mark	_	_
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
+35	better	better	ADV	RBR	Degree=Cmp	36	advmod	_	_
+36	put	put	VERB	VB	VerbForm=Inf	31	ccomp	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	brass	brass	NOUN	NN	Number=Sing	39	compound	_	_
+39	collar	collar	NOUN	NN	Number=Sing	36	obj	_	_
+40	round	round	ADP	IN	_	42	case	_	_
+41	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	neck	neck	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	45	punct	_	_
+44	and	and	CCONJ	CC	_	45	cc	_	_
+45	tie	tie	VERB	VB	VerbForm=Inf	36	conj	_	_
+46	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	45	obj	_	_
+47	up	up	ADP	RP	_	45	compound:prt	_	_
+48	in	in	ADP	IN	_	50	case	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	_
+50	stable	stable	NOUN	NN	Number=Sing	45	obl	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

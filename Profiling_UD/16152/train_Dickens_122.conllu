@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Thank you, dear Peggotty!’ said I.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Peggotty	Peggotty	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Oh, thank you!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Thank you!
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Will you promise me one thing, Peggotty?
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	promise	promise	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	Peggotty	Peggotty	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Will you write and tell Mr. Peggotty and little Em’ly, and Mrs. Gummidge and Ham, that I am not so bad as they might suppose, and that I sent ‘em all my love--especially to little Em’ly?
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	write	write	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	tell	tell	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Peggotty	Peggotty	PROPN	NNP	Number=Sing	6	flat	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	obl:npmod	_	_
+10	Em’ly	Em’ly	ADV	RB	_	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Gummidge	Gummidge	PROPN	NNP	Number=Sing	6	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	Ham	Ham	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	5	punct	_	_
+18	that	that	SCONJ	IN	_	23	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+20	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	not	not	PART	RB	_	23	advmod	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	bad	bad	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+24	as	as	SCONJ	IN	_	27	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
+26	might	might	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	suppose	suppose	VERB	VB	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	32	punct	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	_
+30	that	that	SCONJ	IN	_	32	mark	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	_
+33	‘	'	PUNCT	``	_	34	punct	_	SpaceAfter=No
+34	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	_	_
+35	all	all	DET	PDT	_	37	det:predet	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	love	love	NOUN	NN	Number=Sing	34	appos	_	SpaceAfter=No
+38	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+39	especially	especially	ADV	RB	_	42	advmod	_	_
+40	to	to	ADP	IN	_	42	case	_	_
+41	little	little	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	Em	em	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+43	’ly	’ly	ADV	RB	_	42	advmod	_	SpaceAfter=No
+44	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Will you, if you please, Peggotty?’
+1	Will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	if	if	SCONJ	IN	_	8	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	please	please	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	Peggotty	Peggotty	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

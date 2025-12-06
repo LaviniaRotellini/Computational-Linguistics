@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You talked o’ the Mosses, and what Mr Tulliver’s done for ’em,” said uncle Pullet, who became unusually suggestive where advances of money were concerned.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	7	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Mosses	Moss	PROPN	NNPS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	what	what	PRON	WP	PronType=Int	3	conj	_	_
+11	Mr	Mr	PROPN	NNP	Number=Sing	14	nsubj	_	_
+12	Tulliver	Tulliver	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	’s	's	PART	POS	_	11	case	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	’	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+17	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	uncle	uncle	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	Pullet	Pullet	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+25	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+26	unusually	unusually	ADV	RB	_	27	advmod	_	_
+27	suggestive	suggestive	NUM	CD	NumType=Card	25	xcomp	_	_
+28	where	where	ADV	WRB	PronType=Int	33	mark	_	_
+29	advances	advance	NOUN	NNS	Number=Plur	33	nsubj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	money	money	NOUN	NN	Number=Sing	29	nmod	_	_
+32	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	cop	_	_
+33	concerned	concerned	ADJ	JJ	Degree=Pos	27	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Haven’t _they_ been anear you?
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	_they	_they	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	_	_	SYM	NFP	_	8	punct	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	_	_
+7	anear	anear	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = They ought to do something as well as other folks; and if he’s lent ’em money, they ought to be made to pay it back.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	ought	ought	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	something	something	PRON	NN	Number=Sing	4	obj	_	_
+6	as	as	ADV	RB	_	10	cc	_	_
+7	well	well	ADV	RB	Degree=Pos	6	fixed	_	_
+8	as	as	ADP	IN	_	6	fixed	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	folks	folk	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	4	punct	_	_
+12	and	and	CCONJ	CC	_	21	cc	_	_
+13	if	if	SCONJ	IN	_	18	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	lent	lent	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	’em	’em	NOUN	NN	Number=Sing	18	compound	_	_
+18	money	money	NOUN	NN	Number=Sing	21	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+21	ought	ing	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	to	to	PART	TO	_	24	mark	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	_
+24	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	pay	pay	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	back	back	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

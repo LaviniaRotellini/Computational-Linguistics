@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This first danger was past; but there still reigned a frightful tumult within him.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	danger	danger	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	past	past	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	but	but	CCONJ	CC	_	10	cc	_	_
+8	there	there	PRON	EX	_	10	expl	_	_
+9	still	still	ADV	RB	_	10	advmod	_	_
+10	reigned	reign	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	frightful	frightful	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	tumult	tumult	NOUN	NN	Number=Sing	10	nsubj	_	_
+14	within	within	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nevertheless, he did not retreat.
+1	Nevertheless	nevertheless	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	retreat	retreat	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Even when he had thought himself lost, he had not drawn back.
+1	Even	even	ADV	RB	_	5	advmod	_	_
+2	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	nsubj	_	_
+7	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	drawn	draw	VERB	VB	VerbForm=Inf	0	root	_	_
+13	back	back	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = His only thought now was to finish as soon as possible.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	now	now	ADV	RB	_	3	advmod	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	finish	finish	NOUN	NN	Number=Sing	3	obl	_	_
+8	as	as	ADV	RB	_	9	advmod	_	_
+9	soon	soon	ADV	RB	Degree=Pos	7	advmod	_	_
+10	as	as	SCONJ	IN	_	11	mark	_	_
+11	possible	possible	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = He took a step and entered the room.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	step	step	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	room	room	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Who?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Why, any upstart who has got neither blood nor position.
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	any	any	DET	DT	_	4	det	_	_
+4	upstart	upstart	NOUN	NN	Number=Sing	0	root	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	neither	neither	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	blood	blood	NOUN	NN	Number=Sing	7	obj	_	_
+10	nor	nor	CCONJ	CC	_	11	cc	_	_
+11	position	position	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = People of standing should consume their independent nonsense at home, not hawk it about.
+1	People	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	standing	standing	NOUN	NN	Number=Sing	1	nmod	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	consume	consume	VERB	VB	VerbForm=Inf	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	independent	independent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	nonsense	nonsense	NOUN	NN	Number=Sing	5	obj	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	home	home	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	hawk	hawk	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	about	about	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And you!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = who are going to marry your niece, as good as your daughter, to one of our best men.
+1	who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	marry	marry	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	niece	niece	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	as	as	ADV	RB	_	10	advmod	_	_
+10	good	good	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+11	as	as	ADP	IN	_	13	case	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	daughter	daughter	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	one	one	NUM	CD	NumType=Card	3	obl	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	best	best	ADJ	JJS	Degree=Sup	20	amod	_	_
+20	men	man	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sir James would be cruelly annoyed:
+1	Sir	Sir	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	James	James	PROPN	NNP	Number=Sing	1	flat	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	cruelly	cruelly	ADV	RB	_	6	advmod	_	_
+6	annoyed	annoyed	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	6	punct	_	_
+
+# sent_id = 7
+# text = it will be too hard on him if you turn round now and make yourself a Whig sign-board.”
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	turn	turn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	round	round	ADV	RB	_	10	advmod	_	_
+12	now	now	ADV	RB	_	10	advmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	make	make	VERB	VB	VerbForm=Inf	10	conj	_	_
+15	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	Whig	Whig	PROPN	NNP	Number=Sing	20	compound	_	_
+18	sign	sign	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	board	board	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

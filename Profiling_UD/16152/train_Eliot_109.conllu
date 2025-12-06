@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It is a peculiar face,” said Dorothea, looking closely.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	peculiar	peculiar	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	face	face	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	looking	look	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+13	closely	closely	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “Those deep gray eyes rather near together—and the delicate irregular nose with a sort of ripple in it—and all the powdered curls hanging backward.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Those	those	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+3	deep	deep	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	gray	gray	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	eyes	eye	NOUN	NNS	Number=Plur	0	root	_	_
+6	rather	rather	ADV	RB	_	8	advmod	_	_
+7	near	near	ADV	RB	_	8	advmod	_	_
+8	together	together	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	delicate	delicate	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	irregular	irregular	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	nose	nose	NOUN	NN	Number=Sing	5	conj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	sort	sort	NOUN	NN	Number=Sing	14	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	ripple	ripple	NOUN	NN	Number=Sing	17	nmod	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	all	all	DET	PDT	_	27	det:predet	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	powdered	powder	VERB	VBN	Tense=Past|VerbForm=Part	27	amod	_	_
+27	curls	curl	NOUN	NNS	Number=Plur	5	conj	_	_
+28	hanging	hang	VERB	VBG	VerbForm=Ger	27	acl	_	_
+29	backward	backward	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Altogether it seems to me peculiar rather than pretty.
+1	Altogether	altogether	ADV	RB	_	3	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	peculiar	peculiar	VERB	VBP	Abbr=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
+7	rather	rather	ADV	RB	_	9	cc	_	_
+8	than	than	ADP	IN	_	7	fixed	_	_
+9	pretty	pretty	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = There is not even a family likeness between her and your mother.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	even	even	ADV	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	family	family	NOUN	NN	Number=Sing	7	compound	_	_
+7	likeness	likeness	NOUN	NN	Number=Sing	2	nsubj	_	_
+8	between	between	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mother	mother	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, not forgotten,” retorted Estella,—“not forgotten, but treasured up in my memory.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Estella	Estella	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	,—“	,—“	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	not	not	ADV	RB	_	12	advmod	_	_
+12	forgotten	forget	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	but	but	CCONJ	CC	_	15	cc	_	_
+15	treasured	treasure	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+16	up	up	ADP	RP	_	15	compound:prt	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	memory	memory	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = When have you found me false to your teaching?
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	false	false	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	teaching	teaching	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = When have you found me unmindful of your lessons?
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	unmindful	unmindful	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	lessons	lesson	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = When have you found me giving admission here,” she touched her bosom with her hand, “to anything that you excluded?
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	giving	give	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+7	admission	admission	NOUN	NN	Number=Sing	6	obj	_	_
+8	here	here	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	bosom	bosom	NOUN	NN	Number=Sing	12	obj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hand	hand	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+20	to	to	ADP	IN	_	21	case	_	_
+21	anything	anything	PRON	NN	Number=Sing	12	obj	_	_
+22	that	that	PRON	WDT	PronType=Rel	24	obj	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+24	excluded	exclude	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 5
+# text = Be just to me.”
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	just	just	ADV	RB	_	4	advmod	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

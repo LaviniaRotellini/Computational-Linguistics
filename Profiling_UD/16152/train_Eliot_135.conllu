@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, Lydgate!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Lydgate	Lydgate	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = he is not my protege, you know; only I knew an uncle of his who sent me a letter about him.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	protege	protege	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	only	only	ADV	RB	_	12	advmod	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	uncle	uncle	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	letter	letter	NOUN	NN	Number=Sing	18	obj	_	_
+22	about	about	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = However, I think he is likely to be first-rate—has studied in Paris, knew Broussais; has ideas, you know—wants to raise the profession.”
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	likely	likely	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+8	to	to	PART	TO	_	12	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	first	first	ADV	RB	_	12	advmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	rate	rate	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	studied	study	VERB	VBN	Tense=Past|VerbForm=Part	19	ccomp	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Paris	Paris	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Broussais	Broussais	PROPN	NNP	Number=Sing	19	nsubj	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	19	punct	_	_
+22	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+23	ideas	idea	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	19	punct	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	SpaceAfter=No
+27	—	-	PUNCT	,	_	28	punct	_	SpaceAfter=No
+28	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	raise	raise	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	profession	profession	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

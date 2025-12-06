@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, then,” said Bob, whose keenness saw at once what was implied, “I’ll tell you what I get by’t, an’ it’s money in my pocket in the end,—I make myself look big, wi’ makin’ a bigger purchase.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Bob	Bob	PROPN	NNP	Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	11	nmod:poss	_	_
+11	keenness	keenness	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+13	at	at	ADP	IN	_	15	case	_	_
+14	once	once	SCONJ	IN	_	15	case	_	_
+15	what	what	PRON	WP	PronType=Int	12	obl	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	implied	imply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	“	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
+21	’ll	’ll	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	tell	tell	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	obj	_	_
+24	what	what	PRON	WP	PronType=Int	26	obj	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+27	by’t	byot	PART	RB	_	26	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	22	punct	_	_
+29	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	33	punct	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	SpaceAfter=No
+32	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	money	money	NOUN	NN	Number=Sing	22	obj	_	_
+34	in	in	ADP	IN	_	36	case	_	_
+35	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	pocket	pocket	NOUN	NN	Number=Sing	33	nmod	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	end	end	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+40	,—	,—	PUNCT	.	_	22	punct	_	SpaceAfter=No
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+42	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	parataxis	_	_
+43	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	42	obj	_	_
+44	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	42	ccomp	_	_
+45	big	big	ADJ	JJ	Degree=Pos	49	amod	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	49	punct	_	_
+47	wi	wus	ADJ	JJ	Degree=Pos	49	amod	_	SpaceAfter=No
+48	’	'	PUNCT	''	_	49	punct	_	_
+49	makin	makin	NOUN	NN	Number=Sing	44	obj	_	SpaceAfter=No
+50	’	'	PUNCT	''	_	49	punct	_	_
+51	a	a	DET	DT	Definite=Ind|PronType=Art	53	det	_	_
+52	bigger	bigger	ADJ	JJR	Degree=Cmp	53	amod	_	_
+53	purchase	purchase	NOUN	NN	Number=Sing	49	appos	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = That’s what I’m thinking on.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	on	on	ADP	IN	_	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Lors!
+1	Lors	Lors	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I’m a ’cute chap,—I am.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	’	’	PUNCT	''	_	6	punct	_	SpaceAfter=No
+5	cute	cute	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	chap	chap	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,—	,—	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

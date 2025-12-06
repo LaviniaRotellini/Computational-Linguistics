@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, ay, I’m a good feller, am I?
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	ay	ay	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	feller	feller	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = Thank ye, sir, thank ye,” said Dagley, with a loud snarling irony which made Fag the sheep-dog stir from his seat and prick his ears; but seeing Monk enter the yard after some outside loitering, Fag seated himself again in an attitude of observation.
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+2	ye	ye	PRON	PRP	_	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	ye	ye	PRON	PRP	_	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Dagley	Dagley	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	with	with	ADP	IN	_	17	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	loud	loud	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	snarling	snarling	NOUN	NN	Number=Sing	17	compound	_	_
+17	irony	irony	NOUN	NN	Number=Sing	11	nmod	_	_
+18	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	Fag	Fag	PROPN	NNP	Number=Sing	19	obj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+22	sheep	sheep	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	dog	dog	NOUN	NN	Number=Sing	25	compound	_	_
+25	stir	stir	NOUN	NN	Number=Sing	20	flat	_	_
+26	from	from	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	seat	seat	NOUN	NN	Number=Sing	19	obl	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	prick	prick	VERB	VB	VerbForm=Inf	19	conj	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	ears	ear	NOUN	NNS	Number=Plur	30	obj	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	10	punct	_	_
+34	but	but	CCONJ	CC	_	46	cc	_	_
+35	seeing	see	VERB	VBG	VerbForm=Ger	46	advcl	_	_
+36	Monk	Monk	PROPN	NNP	Number=Sing	35	obj	_	_
+37	enter	enter	VERB	VB	VerbForm=Inf	35	xcomp	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	yard	yard	NOUN	NN	Number=Sing	37	obj	_	_
+40	after	after	ADP	IN	_	43	case	_	_
+41	some	some	DET	DT	_	43	det	_	_
+42	outside	outside	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	loitering	loitering	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	_
+45	Fag	Fag	PROPN	NNP	Number=Sing	46	nsubj	_	_
+46	seated	seat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+47	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	46	obj	_	_
+48	again	again	ADV	RB	_	46	advmod	_	_
+49	in	in	ADP	IN	_	51	case	_	_
+50	an	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+51	attitude	attitude	NOUN	NN	Number=Sing	46	obl	_	_
+52	of	of	ADP	IN	_	53	case	_	_
+53	observation	observation	NOUN	NN	Number=Sing	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = “I’m glad to hear I’m a good feller.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+8	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	feller	feller	NOUN	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

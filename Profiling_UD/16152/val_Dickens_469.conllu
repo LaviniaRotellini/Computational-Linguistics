@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I suppose a man never was placed in a more ridiculous position,’ he said, after looking down, and looking up, and laughing, and frowning, and walking off, and walking back again.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	never	never	ADV	RB	_	8	advmod	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	position	position	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	17	punct	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	after	after	SCONJ	IN	_	20	mark	_	_
+20	looking	look	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+21	down	down	ADP	RP	_	20	compound:prt	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	looking	look	VERB	VBG	VerbForm=Ger	20	conj	_	_
+25	up	up	ADP	RP	_	24	compound:prt	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	laughing	laugh	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	frowning	frown	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	31	conj	_	_
+35	off	off	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	17	conj	_	_
+39	back	back	ADV	RB	_	38	advmod	_	_
+40	again	again	ADV	RB	_	38	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = ‘But I see no way out of it.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	way	way	NOUN	NN	Number=Sing	4	obj	_	_
+7	out	out	ADP	IN	_	9	case	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = What will be, will be.
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	1	cop	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = _This_ will be, I suppose.
+1	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	8	punct	_	_
+4	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = I must take off myself, I imagine—in short, I engage to do it.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+4	off	off	ADP	RP	_	3	compound:prt	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	imagine	imagine	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	in	in	ADP	IN	_	11	case	_	_
+11	short	short	ADJ	JJ	Degree=Pos	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	engage	engage	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	do	do	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

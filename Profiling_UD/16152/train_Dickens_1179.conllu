@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I returned to the inn yard, and, impressed by my remembrance of the face, looked awfully around for it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	inn	inn	NOUN	NN	Number=Sing	6	compound	_	_
+6	yard	yard	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	impressed	impress	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+11	by	by	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	remembrance	remembrance	NOUN	NN	Number=Sing	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	face	face	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	awfully	awfully	ADV	RB	_	20	advmod	_	_
+20	around	around	ADV	RB	_	18	advmod	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was not there.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	there	there	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The snow had covered our late footprints; my new track was the only one to be seen; and even that began to die away (it snowed so fast) as I looked back over my shoulder.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	snow	snow	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	late	late	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	footprints	footprint	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	4	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	new	new	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	track	track	NOUN	NN	Number=Sing	15	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	only	only	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	one	one	NOUN	NN	Number=Sing	4	parataxis	_	_
+16	to	to	PART	TO	_	18	mark	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	4	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	even	even	ADV	RB	_	23	advmod	_	_
+22	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	_
+23	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	die	die	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	away	away	ADV	RB	_	25	advmod	_	_
+27	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	snowed	snow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+30	so	so	ADV	RB	_	31	advmod	_	_
+31	fast	fast	ADV	RB	Degree=Pos	29	advmod	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	_	29	punct	_	_
+33	as	as	SCONJ	IN	_	35	mark	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+36	back	back	ADV	RB	_	35	advmod	_	_
+37	over	over	ADP	IN	_	39	case	_	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	shoulder	shoulder	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

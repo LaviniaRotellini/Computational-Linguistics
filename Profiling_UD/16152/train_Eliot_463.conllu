@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, you know,” interposed Mr. Brooke, “he is trying his wings.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	_
+8	interposed	interpose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obj	_	_
+10	Brooke	Brooke	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	8	parataxis	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	wings	wing	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = He is just the sort of young fellow to rise.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	just	just	ADV	RB	_	5	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sort	sort	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	fellow	fellow	ADJ	JJ	Degree=Pos	5	nmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	rise	rise	VERB	VB	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I should be glad to give him an opportunity.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	give	give	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	opportunity	opportunity	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He would make a good secretary, now, like Hobbes, Milton, Swift—that sort of man.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	secretary	secretary	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	Hobbes	Hobbes	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Milton	Milton	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	Swift	Swift	PROPN	NNP	Number=Sing	11	conj	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	sort	sort	NOUN	NN	Number=Sing	11	appos	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	man	man	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

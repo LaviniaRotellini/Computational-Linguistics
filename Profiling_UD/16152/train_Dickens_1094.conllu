@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In the back kitchen, I raved as became me.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	back	back	NOUN	NN	Number=Sing	4	compound	_	_
+4	kitchen	kitchen	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	raved	rav	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	as	as	SCONJ	IN	_	9	mark	_	_
+9	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I went there, I suppose, to make a fool of myself, and I am quite sure I did it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	make	make	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	fool	fool	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	quite	quite	ADV	RB	_	19	advmod	_	_
+19	sure	sure	ADJ	JJ	Degree=Pos	2	conj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Miss
+1	Miss	miss	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 4
+# text = Mills had received a hasty note from Dora, telling her that all was discovered, and saying.
+1	Mills	Mills	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	hasty	hasty	NOUN	NN	Number=Sing	6	compound	_	_
+6	note	note	NOUN	NN	Number=Sing	3	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	Dora	Dora	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	telling	tell	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	obj	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	all	all	DET	DT	_	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	discovered	discover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = ‘Oh pray come to me, Julia, do, do!’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	_
+3	pray	pray	INTJ	UH	_	4	discourse	_	_
+4	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Julia	Julia	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 6
+# text = But Miss Mills, mistrusting the acceptability of her presence to the higher powers, had not yet gone; and we were all benighted in the Desert of Sahara.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	Miss	miss	PROPN	NNP	Number=Sing	19	nsubj	_	_
+3	Mills	Mills	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	mistrusting	mistrust	VERB	VBG	VerbForm=Ger	2	acl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	acceptability	acceptability	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	presence	presence	NOUN	NN	Number=Sing	7	nmod	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	higher	higher	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	powers	power	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	not	not	PART	RB	_	19	advmod	_	_
+18	yet	yet	ADV	RB	_	19	advmod	_	_
+19	gone	gone	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	19	punct	_	_
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj:pass	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+24	all	all	ADV	RB	_	25	advmod	_	_
+25	benighted	benighted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	Desert	desert	PROPN	NNP	Number=Sing	25	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	Sahara	Sahara	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+

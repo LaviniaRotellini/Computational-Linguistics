@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, mum, I know my place,” said Bob, lifting up his pack and shouldering it.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	mum	mum	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	place	place	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Bob	Bob	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	lifting	lift	VERB	VBG	VerbForm=Ger	12	parataxis	_	_
+16	up	up	ADP	RP	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	pack	pack	NOUN	NN	Number=Sing	15	obl	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	shouldering	shouldere	VERB	VB	Mood=Imp|VerbForm=Fin	15	conj	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “I’m not going t’ expose the lowness o’ my trade to a lady like you.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	t	t	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	5	punct	_	_
+8	expose	expose	VERB	VB	VerbForm=Inf	5	appos	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	lowness	lowness	NOUN	NNS	Number=Plur	8	obj	_	_
+11	o	of	ADP	IN	Abbr=Yes	14	case	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	14	punct	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	trade	trade	NOUN	NN	Number=Sing	10	nmod	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	lady	lady	NOUN	NN	Number=Sing	8	obl	_	_
+18	like	like	ADP	IN	_	19	case	_	_
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Packs is come down i’ the world; it ’ud cut you to th’ heart to see the difference.
+1	Packs	pack	NOUN	NNS	Number=Plur	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	come	come	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	8	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	world	world	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	’ud	’uld	AUX	MD	Typo=Yes|VerbForm=Fin	12	aux:pass	_	_
+12	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	_
+14	to	to	ADP	IN	_	17	case	_	_
+15	th	th	PROPN	NNP	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’	's	PART	POS	_	15	case	_	_
+17	heart	heart	NOUN	NN	Number=Sing	12	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	see	see	VERB	VB	VerbForm=Inf	12	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	difference	difference	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = I’m at your sarvice, sir, when you’ve a mind to go and see Salt.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	sarvice	sarvice	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	sir	sir	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	SpaceAfter=No
+11	’ve	’ve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	mind	mind	NOUN	NN	Number=Sing	11	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	go	go	VERB	VB	VerbForm=Inf	11	advcl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	see	see	VERB	VB	VerbForm=Inf	15	conj	_	_
+18	Salt	Salt	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

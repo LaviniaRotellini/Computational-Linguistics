@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well!
+1	‘	'	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Don’t cry!’ said Miss Betsey.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	cry	cry	VERB	VB	Mood=Imp|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Miss	miss	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Betsey	Betsey	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = ‘You were not equally matched, child--if any two people can be equally matched--and so I asked the question.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	equally	equally	ADV	RB	_	6	advmod	_	_
+6	matched	matched	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	child	child	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+10	if	if	SCONJ	IN	_	17	mark	_	_
+11	any	any	DET	DT	_	13	det	_	_
+12	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+13	people	people	NOUN	NNS	Number=Plur	17	nsubj:pass	_	_
+14	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+16	equally	equally	ADV	RB	_	17	advmod	_	_
+17	matched	match	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	SpaceAfter=No
+18	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	so	so	ADV	RB	_	22	advmod	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	question	question	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = You were an orphan, weren’t you?’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	orphan	orphan	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 5
+# text = ‘Yes.’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

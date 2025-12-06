@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The messenger himself was a very clever member of the police, who, in two words, informed Javert of what had taken place at Arras.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	messenger	messenger	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	nmod:npmod	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	very	very	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	clever	clever	NOUN	NN	Number=Sing	8	compound	_	_
+8	member	member	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	police	police	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	who	who	PRON	WP	PronType=Rel	19	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	two	two	NUM	CD	NumType=Card	17	nummod	_	_
+17	words	word	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+20	Javert	Javert	NOUN	NN	Number=Sing	19	obj	_	_
+21	of	of	SCONJ	IN	_	22	case	_	_
+22	what	what	PRON	WP	PronType=Int	20	nmod	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+25	place	place	NOUN	NN	Number=Sing	24	obj	_	_
+26	at	at	ADP	IN	_	27	case	_	_
+27	Arras	Arras	PROPN	NNP	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = The order of arrest, signed by the district-attorney, was couched in these words: “Inspector Javert will apprehend the body of the Sieur Madeleine, mayor of M. sur M., who, in this day’s session of the court, was recognized as the liberated convict, Jean Valjean.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	order	order	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	arrest	arrest	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+7	by	by	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	district	district	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	attorney	attorney	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	couched	couch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	these	these	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+17	words	word	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	14	punct	_	_
+19	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+20	Inspector	inspector	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Javert	Javert	PROPN	NNP	Number=Sing	23	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	apprehend	apprehend	VERB	VB	VerbForm=Inf	14	parataxis	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	body	body	NOUN	NN	Number=Sing	23	obj	_	_
+26	of	of	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	Sieur	Sieur	PROPN	NNP	Number=Sing	29	compound	_	_
+29	Madeleine	Madeleine	PROPN	NNP	Number=Sing	25	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	mayor	mayor	NOUN	NN	Number=Sing	29	appos	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	M.	M.	PROPN	NNP	Number=Sing	34	compound	_	_
+34	sur	sur	PROPN	NNP	Number=Sing	31	nmod	_	_
+35	M.	M.	PROPN	NNP	Number=Sing	34	flat	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	34	punct	_	_
+37	who	who	PRON	WP	PronType=Rel	49	nsubj:pass	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	49	punct	_	_
+39	in	in	ADP	IN	_	43	case	_	_
+40	this	this	DET	DT	Number=Sing|PronType=Dem	41	det	_	_
+41	day	day	NOUN	NN	Number=Sing	43	nmod:poss	_	SpaceAfter=No
+42	’s	's	PART	POS	_	41	case	_	_
+43	session	session	NOUN	NN	Number=Sing	49	obl	_	_
+44	of	of	ADP	IN	_	46	case	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+46	court	court	NOUN	NN	Number=Sing	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	49	punct	_	_
+48	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	aux:pass	_	_
+49	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	acl:relcl	_	_
+50	as	as	ADP	IN	_	53	case	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+52	liberated	liberate	VERB	VBN	Tense=Past|VerbForm=Part	53	amod	_	_
+53	convict	convict	NOUN	NN	Number=Sing	49	obl	_	SpaceAfter=No
+54	,	,	PUNCT	,	_	53	punct	_	_
+55	Jean	Jean	PROPN	NNP	Number=Sing	53	appos	_	_
+56	Valjean	Valjean	PROPN	NNP	Number=Sing	55	flat	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
+58	”	"	PUNCT	''	_	14	punct	_	SpacesAfter=\n
+

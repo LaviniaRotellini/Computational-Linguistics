@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, it’s the way i’ this world,” said Mrs Pullet, returning the bonnet to the wardrobe and locking it up.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	way	way	NOUN	NN	Number=Sing	14	obl	_	_
+8	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	11	punct	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mrs	Mrs	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Pullet	Pullet	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	returning	return	VERB	VBG	VerbForm=Ger	15	acl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	bonnet	bonnet	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	wardrobe	wardrobe	NOUN	NN	Number=Sing	18	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	locking	loc	VERB	VBG	VerbForm=Ger	18	conj	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	up	up	ADP	RP	_	25	compound:prt	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = She maintained a silence characterised by head-shaking, until they had all issued from the solemn chamber and were in her own room again.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	maintained	maintain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	silence	silence	NOUN	NN	Number=Sing	2	obj	_	_
+5	characterised	characterise	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	head	head	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+9	shaking	shaking	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	until	until	SCONJ	IN	_	15	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	all	all	ADV	RB	_	15	advmod	_	_
+15	issued	issue	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+16	from	from	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	solemn	solemn	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	chamber	chamber	NOUN	NN	Number=Sing	15	obl	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	own	own	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	room	room	NOUN	NN	Number=Sing	2	conj	_	_
+26	again	again	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Then, beginning to cry, she said, “Sister, if you should never see that bonnet again till I’m dead and gone, you’ll remember I showed it you this day.”
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	beginning	begin	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	cry	cry	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	Sister	sister	PROPN	NNPS	Number=Plur	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	if	if	SCONJ	IN	_	17	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	see	see	VERB	VB	VerbForm=Inf	8	advcl	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	bonnet	bonnet	NOUN	NN	Number=Sing	17	obj	_	_
+20	again	again	ADV	RB	_	17	advmod	_	_
+21	till	till	SCONJ	IN	_	24	mark	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No
+23	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	dead	dead	ADJ	JJ	Degree=Pos	17	advcl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	gone	gone	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	8	punct	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	SpaceAfter=No
+29	’ll	’ll	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	remember	remember	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	ccomp	_	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	32	iobj	_	_
+35	this	this	DET	DT	Number=Sing|PronType=Dem	36	det	_	_
+36	day	day	NOUN	NN	Number=Sing	32	obl:tmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

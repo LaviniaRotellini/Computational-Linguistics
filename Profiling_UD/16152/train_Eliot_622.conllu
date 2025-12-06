@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pooh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pooh	Pooh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = where’s the use of asking for such fellows’ reasons?
+1	where	where	ADV	WRB	PronType=Int	0	root	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	use	use	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	asking	ask	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	fellows	fellow	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+10	’	's	PART	POS	_	11	case	_	_
+11	reasons	reason	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = The soul of man,” said Caleb, with the deep tone and grave shake of the head which always came when he used this phrase—“The soul of man, when it gets fairly rotten, will bear you all sorts of poisonous toad-stools, and no eye can see whence came the seed thereof.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	soul	soul	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	man	man	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Caleb	Caleb	PROPN	NNP	Number=Sing	22	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	deep	deep	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	tone	tone	NOUN	NN	Number=Sing	8	nmod	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	grave	grave	NOUN	NN	Number=Sing	16	compound	_	_
+16	shake	shake	NOUN	NN	Number=Sing	13	conj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	head	head	NOUN	NN	Number=Sing	16	nmod	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	always	always	ADV	RB	_	22	advmod	_	_
+22	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+23	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	_
+27	phrase	phrase	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+29	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+30	The	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	soul	soul	NOUN	NN	Number=Sing	42	nsubj	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	man	man	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	31	punct	_	_
+35	when	when	ADV	WRB	PronType=Int	37	mark	_	_
+36	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+38	fairly	fairly	ADV	RB	_	39	advmod	_	_
+39	rotten	rotten	ADJ	JJ	Degree=Pos	37	xcomp	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	42	punct	_	_
+41	will	will	AUX	MD	VerbForm=Fin	42	aux	_	_
+42	bear	bear	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+43	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	45	obj	_	_
+44	all	all	DET	DT	_	43	det	_	_
+45	sorts	sort	NOUN	NNS	Number=Plur	58	nsubj	_	_
+46	of	of	ADP	IN	_	50	case	_	_
+47	poisonous	poisonous	ADJ	JJ	Degree=Pos	50	amod	_	_
+48	toad	toad	NOUN	NN	Number=Sing	50	compound	_	SpaceAfter=No
+49	-	-	PUNCT	HYPH	_	50	punct	_	SpaceAfter=No
+50	stools	stool	NOUN	NNS	Number=Plur	45	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	,	_	56	punct	_	_
+52	and	and	CCONJ	CC	_	56	cc	_	_
+53	no	no	DET	DT	_	54	det	_	_
+54	eye	eye	NOUN	NN	Number=Sing	56	nsubj	_	_
+55	can	can	AUX	MD	VerbForm=Fin	56	aux	_	_
+56	see	see	VERB	VB	VerbForm=Inf	58	conj	_	_
+57	whence	whence	ADV	RB	NumType=Mult	58	advmod	_	_
+58	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	parataxis	_	_
+59	the	the	DET	DT	Definite=Def|PronType=Art	61	det	_	_
+60	seed	seed	NOUN	NN	Number=Sing	61	compound	_	_
+61	thereof	thereof	NOUN	NN	Number=Sing	58	obj	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+63	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

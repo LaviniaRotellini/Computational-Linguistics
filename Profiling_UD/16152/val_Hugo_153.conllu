@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Our guardian angel seems to be absent.
+1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	guardian	guardian	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	angel	angel	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	absent	absent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = There ought to be a decree against celestial absenteeism.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	ought	ing	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	6	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	decree	decree	NOUN	NN	Number=Sing	2	xcomp	_	_
+7	against	against	ADP	IN	_	9	case	_	_
+8	celestial	celestial	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	absenteeism	absenteeism	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He is at his country-house, and takes no notice of us; so all gets in disorder.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	at	at	ADP	IN	_	7	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+5	country	country	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	house	house	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	notice	notice	NOUN	NN	Number=Sing	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	7	punct	_	_
+16	so	so	ADV	RB	_	18	advmod	_	_
+17	all	all	DET	DT	_	18	det	_	_
+18	gets	get	NOUN	NNS	Number=Plur	7	conj	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	disorder	disorder	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = It is evident that this guardian is not in the government; he is taking holiday, leaving some vicar--some seminarist angel, some wretched creature with sparrows'-wings--to look after affairs."
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	evident	evident	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	guardian	guardian	NOUN	NN	Number=Sing	11	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	not	not	PART	RB	_	11	advmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	government	government	NOUN	NN	Number=Sing	3	csubj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	3	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	_
+16	holiday	holiday	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	leaving	leave	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+19	some	some	DET	DT	_	20	det	_	_
+20	vicar	vicar	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+22	some	some	DET	DT	_	24	det	_	_
+23	seminarist	seminarist	ADJ	JJS	Degree=Sup	24	amod	_	_
+24	angel	angel	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	3	punct	_	_
+26	some	some	DET	DT	_	27	nsubj	_	_
+27	wretched	wretch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+28	creature	creature	NOUN	NN	Number=Sing	27	obj	_	_
+29	with	with	ADP	IN	_	30	case	_	_
+30	sparrows	sparrow	NOUN	NNS	Number=Plur	27	obl	_	SpaceAfter=No
+31	'-	'-	PUNCT	.	_	32	punct	_	SpaceAfter=No
+32	wings	wing	NOUN	NNS	Number=Plur	30	appos	_	SpaceAfter=No
+33	--	--	PUNCT	,	_	27	punct	_	SpaceAfter=No
+34	to	to	PART	TO	_	35	mark	_	_
+35	look	look	VERB	VB	VerbForm=Inf	27	advcl	_	_
+36	after	after	ADP	IN	_	37	case	_	_
+37	affairs	affair	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+39	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well done, Adam!” said Sandy
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	advmod	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Adam	Adam	PROPN	NNP	Number=Sing	3	vocative	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Sandy	Sandy	PROPN	NNP	Number=Sing	8	nsubj	_	_
+
+# sent_id = 2
+# text = Jim, who had paused from his planing to shift his planks while Adam was speaking; “that’s the best sarmunt I’ve heared this long while.
+1	Jim	Jim	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	paused	pause	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	planing	planing	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	shift	shift	VERB	VB	VerbForm=Inf	0	root	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	planks	plank	NOUN	NNS	Number=Plur	10	obj	_	_
+13	while	while	SCONJ	IN	_	16	mark	_	_
+14	Adam	Adam	PROPN	NNP	Number=Sing	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	10	advcl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	10	punct	_	_
+18	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	_	SpaceAfter=No
+20	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	best	best	ADJ	JJS	Degree=Sup	23	amod	_	_
+23	sarmunt	sarmunt	NOUN	NN	Number=Sing	10	parataxis	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
+25	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	heared	hear	VERB	VBN	Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+27	this	this	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+28	long	long	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	while	while	NOUN	NN	Number=Sing	26	obl:tmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = By th’ same token, my wife’s been a-plaguin’ on me to build her a oven this twelvemont.”
+1	By	by	ADP	IN	_	5	case	_	_
+2	th	th	PROPN	NNP	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+3	’	's	PART	POS	_	2	case	_	_
+4	same	same	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	token	token	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	wife	wife	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	plaguin	plaguin	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	13	punct	_	_
+15	on	on	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	build	build	VERB	VB	VerbForm=Inf	13	advcl	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	oven	oven	ADV	RB	_	23	advmod	_	_
+22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	twelvemont	twelvemont	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

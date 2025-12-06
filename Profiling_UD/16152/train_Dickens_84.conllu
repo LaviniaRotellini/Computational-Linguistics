@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As soon as I could creep away, I crept upstairs.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	soon	soon	ADV	RB	Degree=Pos	10	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	creep	creep	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	away	away	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	crept	creep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	upstairs	upstairs	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = My old dear bedroom was changed, and I was to lie a long way off.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	old	old	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	dear	dear	NOUN	NN	Number=Sing	4	compound	_	_
+4	bedroom	bedroom	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	lie	lie	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	long	long	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	way	way	NOUN	NN	Number=Sing	12	obj	_	_
+16	off	off	ADV	RB	_	12	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I rambled downstairs to find anything that was like itself, so altered it all seemed; and roamed into the yard.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	rambled	ramble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	downstairs	downstairs	ADV	RB	_	2	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	find	find	VERB	VB	VerbForm=Inf	2	advcl	_	_
+6	anything	anything	PRON	NN	Number=Sing	5	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	like	like	ADP	IN	_	10	case	_	_
+10	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	altered	alte	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	all	all	DET	DT	_	14	det	_	_
+16	seemed	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	2	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	roamed	roam	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	yard	yard	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I very soon started back from there, for the empty dog-kennel was filled up with a great dog--deep mouthed and black-haired like Him--and he was very angry at the sight of me, and sprang out to get at me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	very	very	ADV	RB	_	3	advmod	_	_
+3	soon	soon	ADV	RB	Degree=Pos	4	advmod	_	_
+4	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	back	back	ADV	RB	_	4	advmod	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	there	there	ADV	RB	PronType=Dem	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	empty	empty	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	dog	dog	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+14	kennel	kennel	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	great	great	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	dog	dog	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+23	deep	deep	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	mouthed	mouthed	NOUN	NN	Number=Sing	4	obj	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	black	black	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	haired	hair	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	conj	_	_
+29	like	like	ADP	IN	_	30	case	_	_
+30	Him	he	PROPN	NNP	Number=Sing	28	obl	_	SpaceAfter=No
+31	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+32	and	and	CCONJ	CC	_	36	cc	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	cop	_	_
+35	very	very	ADV	RB	_	36	advmod	_	_
+36	angry	angry	ADJ	JJ	Degree=Pos	4	conj	_	_
+37	at	at	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	sight	sight	NOUN	NN	Number=Sing	36	obl	_	_
+40	of	of	ADP	IN	_	41	case	_	_
+41	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	44	punct	_	_
+43	and	and	CCONJ	CC	_	44	cc	_	_
+44	sprang	spring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+45	out	out	ADV	RB	_	44	advmod	_	_
+46	to	to	PART	TO	_	47	mark	_	_
+47	get	get	VERB	VB	VerbForm=Inf	44	advcl	_	_
+48	at	at	ADP	IN	_	49	case	_	_
+49	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	47	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

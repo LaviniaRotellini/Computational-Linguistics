@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Poor old Thias!” said Mr. Irwine, when Joshua was gone.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	old	old	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	Thias	Thias	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Irwine	Irwine	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+12	Joshua	Joshua	PROPN	NNP	Number=Sing	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	gone	gone	ADJ	JJ	Degree=Pos	7	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “I’m afraid the drink helped the brook to drown him.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	drink	drink	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	helped	help	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	brook	brook	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	drown	dry	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I should have been glad for the load to have been taken off my friend Adam’s shoulders in a less painful way.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	load	load	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	PART	TO	_	12	mark	_	_
+10	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	aux:pass	_	_
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+13	off	off	ADP	RP	_	18	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	friend	friend	NOUN	NN	Number=Sing	16	compound	_	_
+16	Adam	Adam	PROPN	NNP	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	shoulders	shoulders	NOUN	NNS	Number=Plur	12	obl	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	less	less	ADJ	JJR	Degree=Cmp	23	amod	_	_
+22	painful	painful	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	way	way	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = That fine fellow has been propping up his father from ruin for the last five or six years.”
+1	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	fine	fine	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	fellow	fellow	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	_
+6	propping	prop	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	father	father	NOUN	NN	Number=Sing	6	obj	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	ruin	ruin	NOUN	NN	Number=Sing	6	obl	_	_
+12	for	for	ADP	IN	_	18	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+14	last	last	ADJ	JJ	Degree=Pos	18	amod	_	_
+15	five	five	NUM	CD	NumType=Card	18	nummod	_	_
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	six	six	NUM	CD	NumType=Card	15	conj	_	_
+18	years	year	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

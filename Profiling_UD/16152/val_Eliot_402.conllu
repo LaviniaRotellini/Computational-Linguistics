@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, my lad,” said Mr Tulliver, shaking his head slowly, “but what’s broke can never be whole again; it ’ud be your doing, not mine.”
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lad	lad	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr	Mr	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	Tulliver	Tulliver	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	shaking	shake	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	head	head	NOUN	NN	Number=Sing	12	obj	_	_
+15	slowly	slowly	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+18	but	but	CCONJ	CC	_	21	cc	_	_
+19	what	what	PRON	WP	PronType=Int	21	obj	_	SpaceAfter=No
+20	’s	be	PRON	PRP	_	21	nsubj	_	_
+21	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+22	can	can	AUX	MD	VerbForm=Fin	25	aux	_	_
+23	never	never	ADV	RB	_	25	advmod	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	whole	whole	ADJ	JJ	Degree=Pos	21	xcomp	_	_
+26	again	again	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	8	punct	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+29	’	'	PUNCT	''	_	33	punct	_	SpaceAfter=No
+30	ud	ud	AUX	MD	Typo=Yes|VerbForm=Fin	33	aux	_	_
+31	be	be	AUX	VB	VerbForm=Inf	33	aux	_	_
+32	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	33	nsubj	_	_
+33	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	8	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	not	not	ADV	RB	_	36	advmod	_	_
+36	mine	mine	PRON	PRP	_	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	33	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	33	punct	_	_
+
+# sent_id = 2
+# text = Then looking up at him, “You’re only sixteen; it’s an up-hill fight for you, but you mustn’t throw it at your father; the raskills have been too many for him.
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	looking	look	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+8	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	SpaceAfter=No
+9	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	sixteen	sixteen	NUM	CD	NumType=Card	9	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	19	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	up	up	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	hill	hill	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	fight	fight	NOUN	NN	Number=Sing	2	conj	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	27	punct	_	_
+23	but	but	CCONJ	CC	_	27	cc	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+25	must	must	AUX	MD	VerbForm=Fin	27	aux	_	SpaceAfter=No
+26	n’t	not	PART	RB	_	27	advmod	_	_
+27	throw	throw	VERB	VB	VerbForm=Inf	2	conj	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	at	at	ADP	IN	_	31	case	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	father	father	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	;	;	PUNCT	,	_	2	punct	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	raskills	raskill	NOUN	NNS	Number=Plur	38	nsubj	_	_
+35	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	38	aux	_	_
+36	been	be	AUX	VBN	Tense=Past|VerbForm=Part	38	cop	_	_
+37	too	too	ADV	RB	_	38	advmod	_	_
+38	many	many	ADJ	JJ	Degree=Pos	2	appos	_	_
+39	for	for	ADP	IN	_	40	case	_	_
+40	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I’ve given you a good eddication,—that’ll start you.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	eddication	eddication	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,—	,—	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	SpaceAfter=No
+10	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	start	start	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

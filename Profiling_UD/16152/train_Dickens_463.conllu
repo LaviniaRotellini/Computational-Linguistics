@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well, he wasn’t there at all,’ said Mr. Dick, ‘until he came up behind her, and whispered.
+1	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	there	there	ADV	RB	PronType=Dem	12	ccomp	_	_
+8	at	at	ADV	RB	_	9	advmod	_	_
+9	all	all	ADV	RB	_	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Dick	Dick	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+17	until	until	SCONJ	IN	_	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+20	up	up	ADV	RB	_	19	advmod	_	_
+21	behind	behind	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	whispered	whisper	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Then she turned round and fainted, and I stood still and looked at him, and he walked away; but that he should have been hiding ever since (in the ground or somewhere), is the most extraordinary thing!’
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	advcl	_	_
+4	round	round	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	fainted	faint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	still	still	ADV	RB	_	10	advmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	away	away	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	3	punct	_	_
+22	but	but	CCONJ	CC	_	28	cc	_	_
+23	that	that	SCONJ	IN	_	28	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+25	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+26	have	have	AUX	VB	VerbForm=Inf	28	aux	_	_
+27	been	be	AUX	VBN	Tense=Past|VerbForm=Part	28	aux	_	_
+28	hiding	hide	VERB	VBG	VerbForm=Ger	3	conj	_	_
+29	ever	ever	ADV	RB	_	28	advmod	_	_
+30	since	since	SCONJ	IN	_	34	mark	_	_
+31	(	(	PUNCT	-LRB-	_	34	punct	_	SpaceAfter=No
+32	in	in	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	ground	ground	NOUN	NN	Number=Sing	28	obj	_	_
+35	or	or	CCONJ	CC	_	36	cc	_	_
+36	somewhere	somewhere	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	3	punct	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	43	punct	_	_
+39	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+41	most	most	ADV	RBS	_	42	advmod	_	_
+42	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+44	!	!	PUNCT	.	_	43	punct	_	SpaceAfter=No
+45	’	'	PUNCT	''	_	43	punct	_	SpacesAfter=\n
+

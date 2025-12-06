@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All the young girls raised their eyes.
+1	All	all	DET	PDT	_	4	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	girls	girl	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	eyes	eye	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = A man was, in truth, leaning on the balustrade which surmounted the northern tower, looking on the Grève.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	truth	truth	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	leaning	lean	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	balustrade	balustrade	NOUN	NN	Number=Sing	8	obl	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	surmounted	surmount	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	northern	northern	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	tower	tower	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Grève	Grève	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He was a priest.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	priest	priest	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = His costume could be plainly discerned, and his face resting on both his hands.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	costume	costume	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	plainly	plainly	ADV	RB	_	6	advmod	_	_
+6	discerned	discerned	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	face	face	NOUN	NN	Number=Sing	6	conj	_	_
+11	resting	rest	VERB	VBG	VerbForm=Ger	10	acl	_	_
+12	on	on	ADP	IN	_	15	case	_	_
+13	both	both	CCONJ	CC	_	15	cc:preconj	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hands	hand	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = But he stirred no more than if he had been a statue.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	stirred	stir	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	3	obj	_	_
+6	than	than	SCONJ	IN	_	12	mark	_	_
+7	if	if	SCONJ	IN	_	12	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	statue	statue	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = His eyes, intently fixed, gazed into the Place.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	intently	intently	ADV	RB	_	5	advmod	_	_
+5	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	gazed	gaze	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	into	into	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Place	place	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

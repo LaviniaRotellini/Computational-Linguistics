@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “An’ why shouldna I like ’t?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	An	a	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	2	punct	_	_
+4	why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+5	shouldna	shouldna	NOUN	NN	Number=Sing	2	appos	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	’t	ot	PART	RB	_	7	xcomp	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It’s the right thing to be done.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	right	right	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = An’ what’s liking got to do wi’t?
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	SpaceAfter=No
+2	’	'	PUNCT	''	_	1	punct	_	_
+3	what	what	PRON	WP	PronType=Int	5	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	liking	like	VERB	VBG	Tense=Pres|VerbForm=Part	6	csubj	_	_
+6	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	wi’t	wiot	PART	RB	_	8	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = It’s choice o’ mislikings is all I’n got i’ this world.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	choice	choice	ADJ	JJ	Degree=Pos	0	root	_	_
+4	o	of	ADP	IN	Abbr=Yes	5	case	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	3	punct	_	_
+6	mislikings	misliking	NOUN	NNS	Number=Plur	5	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	I’n	I’n	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	14	punct	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	world	world	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = One morsel’s as good as another when your mouth’s out o’ taste.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	morsel	morsel	NOUN	NN	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+6	as	as	ADP	IN	_	7	case	_	_
+7	another	another	DET	DT	_	5	obl	_	_
+8	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mouth	mouth	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+11	’s	be	PART	POS	_	10	case	_	_
+12	out	out	ADV	RB	_	15	advmod	_	_
+13	o	of	X	AFX	_	14	goeswith	_	SpaceAfter=No
+14	’	’	PUNCT	''	_	15	punct	_	_
+15	taste	taste	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Thee mun set about it now this mornin’ fust thing.
+1	Thee	Thee	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	mun	mun	X	GW	_	1	obj	_	_
+3	set	set	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+4	about	about	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	now	now	ADV	RB	_	3	advmod	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	mornin	mornin	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+9	’	's	PUNCT	''	_	3	punct	_	_
+10	fust	fust	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	thing	thing	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = I wonna ha’ nobody to touch the coffin but thee.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	wonna	wonna	X	FW	Foreign=Yes	5	goeswith	_	_
+3	ha	ha	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	nobody	nobody	PRON	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	touch	touch	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	coffin	coffin	NOUN	NN	Number=Sing	7	obj	_	_
+10	but	but	CCONJ	CC	_	11	cc	_	_
+11	thee	thee	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

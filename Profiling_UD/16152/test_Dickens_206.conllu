@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But Joe had got the idea of a present in his head and must harp upon it.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	Joe	Joe	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	idea	idea	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	present	present	NOUN	NN	Number=Sing	6	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	head	head	NOUN	NN	Number=Sing	9	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	harp	harp	VERB	VB	VerbForm=Inf	4	conj	_	_
+16	upon	upon	ADP	IN	_	17	case	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Or even,” said he, “if you was helped to knocking her up a new chain for the front door,—or say a gross or two of shark-headed screws for general use,—or some light fancy article, such as a toasting-fork when she took her muffins,—or a gridiron when she took a sprat or such like—”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Or	or	CCONJ	CC	_	6	cc	_	_
+3	even	even	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	70	punct	_	_
+9	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	helped	help	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	70	advcl	_	_
+14	to	to	SCONJ	IN	_	15	mark	_	_
+15	knocking	knock	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	obj	_	_
+17	up	up	ADP	RP	_	15	compound:prt	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	new	new	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	chain	chain	NOUN	NN	Number=Sing	15	obj	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	front	front	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	door	door	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+25	,—	,—	PUNCT	.	_	27	punct	_	SpaceAfter=No
+26	or	or	CCONJ	CC	_	27	cc	_	_
+27	say	say	VERB	VB	VerbForm=Inf	13	conj	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	gross	gross	NOUN	NN	Number=Sing	27	obj	_	_
+30	or	or	CCONJ	CC	_	31	cc	_	_
+31	two	two	NUM	CD	NumType=Card	29	conj	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	shark	shark	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+35	headed	head	VERB	VBN	Tense=Past|VerbForm=Part	36	amod	_	_
+36	screws	screw	NOUN	NNS	Number=Plur	27	obj	_	_
+37	for	for	ADP	IN	_	39	case	_	_
+38	general	general	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	use	use	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+40	,—	,—	PUNCT	.	_	36	punct	_	SpaceAfter=No
+41	or	or	CCONJ	CC	_	45	cc	_	_
+42	some	some	DET	DT	_	45	det	_	_
+43	light	light	NOUN	NN	Number=Sing	45	compound	_	_
+44	fancy	fancy	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	article	article	NOUN	NN	Number=Sing	36	conj	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	36	punct	_	_
+47	such	such	ADJ	JJ	Degree=Pos	52	case	_	_
+48	as	as	ADP	IN	_	47	fixed	_	_
+49	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+50	toasting	toasting	NOUN	NN	Number=Sing	52	compound	_	SpaceAfter=No
+51	-	-	PUNCT	HYPH	_	52	punct	_	SpaceAfter=No
+52	fork	fork	NOUN	NN	Number=Sing	36	nmod	_	_
+53	when	when	ADV	WRB	PronType=Int	55	mark	_	_
+54	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	55	nsubj	_	_
+55	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	advcl	_	_
+56	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	57	nmod:poss	_	_
+57	muffins	muffin	NOUN	NNS	Number=Plur	55	obj	_	SpaceAfter=No
+58	,—	,—	PUNCT	.	_	61	punct	_	SpaceAfter=No
+59	or	or	CCONJ	CC	_	61	cc	_	_
+60	a	a	DET	DT	Definite=Ind|PronType=Art	61	det	_	_
+61	gridiron	gridiron	NOUN	NN	Number=Sing	13	conj	_	_
+62	when	when	ADV	WRB	PronType=Int	64	mark	_	_
+63	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	64	nsubj	_	_
+64	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+65	a	a	DET	DT	Definite=Ind|PronType=Art	66	det	_	_
+66	sprat	sprat	NOUN	NN	Number=Sing	64	obj	_	_
+67	or	or	CCONJ	CC	_	69	cc	_	_
+68	such	such	ADV	RB	_	69	advmod	_	_
+69	like	like	VERB	VB	VerbForm=Inf	64	conj	_	SpaceAfter=No
+70	—	-	PUNCT	.	_	7	punct	_	SpaceAfter=No
+71	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

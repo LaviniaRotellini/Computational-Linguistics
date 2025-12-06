@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now,” said the Bishop, “go in peace.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Bishop	Bishop	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	go	go	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	peace	peace	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = By the way, when you return, my friend, it is not necessary to pass through the garden.
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	15	punct	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	return	return	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	friend	friend	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	pass	pass	VERB	VB	VerbForm=Inf	15	csubj	_	_
+18	through	through	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	garden	garden	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = You can always enter and depart through the street door.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	enter	enter	VERB	VB	VerbForm=Inf	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	depart	depart	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	through	through	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	street	street	NOUN	NN	Number=Sing	10	compound	_	_
+10	door	door	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It is never fastened with anything but a latch, either by day or by night.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	fastened	fasten	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	anything	anything	PRON	NN	Number=Sing	4	obl	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	latch	latch	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	either	either	CCONJ	CC	_	13	cc:preconj	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	day	day	NOUN	NN	Number=Sing	4	obl	_	_
+14	or	or	CCONJ	CC	_	16	cc	_	_
+15	by	by	ADP	IN	_	16	case	_	_
+16	night	night	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

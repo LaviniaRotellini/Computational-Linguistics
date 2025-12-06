@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Arthur went in for the sake of patting Meg, declining as far as possible to see anything in the stables, lest he should lose his temper before breakfast.
+1	Arthur	Arthu	PRON	PRP$	Abbr=Yes|Person=2|Poss=Yes|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADV	RB	_	2	advmod	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sake	sake	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	patting	patting	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	Meg	Meg	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	declining	decline	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	as	as	ADV	RB	_	13	advmod	_	_
+13	far	far	ADV	RB	Degree=Pos	11	advmod	_	_
+14	as	as	SCONJ	IN	_	15	mark	_	_
+15	possible	possible	ADJ	JJ	Degree=Pos	11	obl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	see	see	VERB	VB	VerbForm=Inf	11	advcl	_	_
+18	anything	anything	PRON	NN	Number=Sing	17	obj	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	stables	stabl	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	lest	lest	ADV	RBS	Degree=Sup	26	advmod	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	should	should	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	lose	lose	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	temper	temper	NOUN	NN	Number=Sing	26	obj	_	_
+29	before	before	ADP	IN	_	30	case	_	_
+30	breakfast	breakfast	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The pretty creature was in one of the inner stables, and turned her mild head as her master came beside her.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	pretty	pretty	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	creature	creature	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	0	root	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	inner	inner	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	stables	stable	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	mild	mild	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	head	head	NOUN	NN	Number=Sing	13	obj	_	_
+17	as	as	ADP	IN	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	master	master	NOUN	NN	Number=Sing	13	obl	_	_
+20	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+21	beside	beside	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Little Trot, a tiny spaniel, her inseparable companion in the stable, was comfortably curled up on her back.
+1	Little	little	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Trot	trot	PROPN	NNP	Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	tiny	tiny	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	spaniel	spaniel	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	inseparable	inseparable	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	companion	companion	NOUN	NN	Number=Sing	2	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	stable	stable	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+16	comfortably	comfortably	ADV	RB	_	17	advmod	_	_
+17	curled	curl	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	up	up	ADP	RP	_	17	compound:prt	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	back	back	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

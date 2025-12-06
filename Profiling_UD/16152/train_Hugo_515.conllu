@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Such were these two beings.
+1	Such	such	ADJ	JJ	Degree=Pos	0	root	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+4	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+5	beings	being	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Cosette was between them, subjected to their double pressure, like a creature who is at the same time being ground up in a mill and pulled to pieces with pincers.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	between	between	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	subjected	subject	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+7	to	to	ADP	IN	_	10	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	double	double	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	pressure	pressure	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	like	like	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	creature	creature	NOUN	NN	Number=Sing	4	obl	_	_
+15	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	at	at	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	same	same	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	time	time	NOUN	NN	Number=Sing	14	acl:relcl	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	22	cop	_	_
+22	ground	ground	VERB	VB	VerbForm=Inf	20	acl	_	_
+23	up	up	ADP	RP	_	22	compound:prt	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	mill	mill	NUM	CD	NumType=Card	22	obl	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part	22	conj	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	pieces	piece	NOUN	NNS	Number=Plur	28	obl	_	_
+31	with	with	ADP	IN	_	32	case	_	_
+32	pincers	pincer	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 3
+# text = The man and the woman each had a different method:
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	2	conj	_	_
+6	each	each	DET	DT	_	5	advmod	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	different	different	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	method	method	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	7	punct	_	_
+
+# sent_id = 4
+# text = Cosette was overwhelmed with blows—this was the woman’s; she went barefooted in winter—that was the man’s doing.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	overwhelmed	overwhelme	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	blows	blow	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	woman	woman	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	10	punct	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+15	barefooted	barefoote	VERB	VBN	Tense=Past|VerbForm=Part	14	xcomp	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	winter	winter	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	man	man	NOUN	NN	Number=Sing	24	nsubj	_	SpaceAfter=No
+23	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’s not a thing I would put in _my_ drawing-room,” said Mrs. Mawmsey, audibly, for the warning of the rash husband.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	thing	thing	NOUN	NN	Number=Sing	19	ccomp	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	put	put	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+10	in	in	ADP	IN	_	16	case	_	_
+11	_	_	SYM	NFP	_	16	punct	_	SpaceAfter=No
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	16	punct	_	_
+14	drawing	draw	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	room	room	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Mrs.	Mrs.	PROPN	NNP	Number=Sing	19	nsubj	_	_
+21	Mawmsey	Mawmsey	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	20	punct	_	_
+23	audibly	audibly	ADV	RB	_	27	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	warning	warning	NOUN	NN	Number=Sing	20	appos	_	_
+28	of	of	ADP	IN	_	31	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	rash	rash	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	husband	husband	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = “I wonder _at_ Mrs. Larcher.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	_at_	_at_	SYM	NFP	_	6	punct	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Larcher	Larcher	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Every blessed child’s head that fell against it would be cut in two.
+1	Every	every	DET	DT	_	5	det	_	_
+2	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+3	child	child	NOUN	NN	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	head	head	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	against	against	SCONJ	IN	_	12	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+10	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	two	two	NUM	CD	NumType=Card	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The edge is like a knife.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	edge	edge	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	knife	knife	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

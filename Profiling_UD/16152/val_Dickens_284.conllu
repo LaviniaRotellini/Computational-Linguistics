@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was into the drawing-room that he was thus bidden.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	into	into	ADP	IN	_	7	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	drawing	drawing	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	room	room	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	thus	thus	ADV	RB	_	12	advmod	_	_
+12	bidden	bidden	ADJ	JJ	Degree=Pos	7	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = A tea-table was set out; and Mr. Bounderby’s young wife, and her brother, and a great gentleman from London, were present.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	tea-	tea-	PUNCT	:	_	5	punct	_	SpaceAfter=No
+3	table	table	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	5	punct	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nmod:poss	_	_
+10	Bounderby	Bounderby	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	’s	's	PART	POS	_	9	case	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	wife	wife	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	brother	brother	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	great	great	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	gentleman	gentleman	NOUN	NN	Number=Sing	5	conj	_	_
+23	from	from	ADP	IN	_	24	case	_	_
+24	London	London	PROPN	NNP	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	cop	_	_
+27	present	present	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = To whom Stephen made his obeisance, closing the door and standing near it, with his hat in his hand.
+1	To	to	ADP	IN	_	2	case	_	_
+2	whom	whom	PRON	WP	PronType=Int	4	obl	_	_
+3	Stephen	Stephen	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	obeisance	obeisance	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	closing	close	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	door	door	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	standing	stand	VERB	VBG	VerbForm=Ger	8	conj	_	_
+13	near	near	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hat	hat	NOUN	NN	Number=Sing	12	obl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	hand	hand	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” she replied; “but it meant more than it said.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	11	obj	_	_
+13	than	than	SCONJ	IN	_	15	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It meant, when it was given, that whoever had this house could want nothing else.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	whoever	whoever	PRON	WP	PronType=Int	11	nsubj	_	_
+11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	house	house	NOUN	NN	Number=Sing	11	obj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	want	want	VERB	VB	VerbForm=Inf	2	conj	_	_
+16	nothing	nothing	PRON	NN	Number=Sing	15	obj	_	_
+17	else	else	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = They must have been easily satisfied in those days, I should think.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	easily	easily	ADV	RB	_	6	advmod	_	_
+6	satisfied	satisfied	ADJ	JJ	Degree=Pos	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	those	those	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	days	day	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	think	think	VERB	VB	VerbForm=Inf	6	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = But don’t loiter, boy.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	loiter	loiter	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	boy	boy	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

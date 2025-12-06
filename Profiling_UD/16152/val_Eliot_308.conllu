@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, dear!” said Mrs
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mrs	Mrs	PROPN	NNP	Number=Sing	7	nsubj	_	_
+
+# sent_id = 2
+# text = Tulliver, “I never sent ’em word about Mr Tulliver, and they live so back’ard among the lanes at Basset, they niver hear anything only when Mr Moss comes to market.
+1	Tulliver	Tulliver	PROPN	NNP	Number=Sing	6	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	never	never	ADV	RB	_	6	advmod	_	_
+6	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	’em	’em	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	word	word	NOUN	NN	Number=Sing	6	obj	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	Mr	Mr	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Tulliver	Tulliver	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	back	back	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	15	punct	_	SpaceAfter=No
+19	ard	ard	ADP	IN	_	22	case	_	_
+20	among	among	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	lanes	lane	NOUN	NNS	Number=Plur	15	obl	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	Basset	Basset	PROPN	NNP	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+27	niver	niver	NOUN	NNS	Number=Plur	28	nsubj	_	_
+28	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+29	anything	anything	PRON	NN	Number=Sing	28	obj	_	_
+30	only	only	ADV	RB	_	34	advmod	_	_
+31	when	when	ADV	WRB	PronType=Int	34	mark	_	_
+32	Mr	Mr	SCONJ	IN	_	34	mark	_	_
+33	Moss	Moss	PROPN	NNP	Number=Sing	34	nsubj	_	_
+34	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	market	market	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	28	punct	_	_
+
+# sent_id = 3
+# text = But I niver gave ’em a thought.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	niver	niver	ADV	RB	_	4	advmod	_	_
+4	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	’em	’em	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	thought	thought	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I wonder Maggie didn’t, though, for she was allays so fond of her aunt Moss.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Maggie	Maggie	PROPN	NNP	Number=Sing	5	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	n’t	n’t	PART	RB	_	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	though	though	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	for	for	SCONJ	IN	_	14	mark	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+12	allays	allays	ADV	RB	_	14	advmod	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	fond	fond	ADJ	JJ	Degree=Pos	2	advcl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	aunt	aunt	NOUN	NN	Number=Sing	14	obl	_	_
+18	Moss	Moss	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

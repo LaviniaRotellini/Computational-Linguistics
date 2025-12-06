@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = _Clown_. . . .
+1	_Clown	_Clown	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	_.	_.	PUNCT	.	_	1	punct	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = ’Twas in the Bunch of Grapes, where, indeed, you have a delight to sit, have you not?
+1	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+2	Twas	Twas	NOUN	NNS	Number=Plur	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Bunch	bunch	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Grapes	Grapes	PROPN	NNPS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	where	where	ADV	WRB	PronType=Rel	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	indeed	indeed	ADV	RB	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	delight	delight	NOUN	NN	Number=Sing	14	obj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	sit	sit	VERB	VB	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	2	punct	_	_
+20	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	not	not	PART	RB	_	2	parataxis	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = _Froth_.
+1	_Froth	_Froth	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	_.	_.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = I have so: because it is an open room, and good for winter.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	2	punct	_	_
+5	because	because	SCONJ	IN	_	10	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	open	open	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	room	room	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	good	good	ADJ	JJ	Degree=Pos	10	conj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	winter.	winterespect	NOUN	NN	Number=Sing	13	obl	_	_
+
+# sent_id = 5
+# text = _Clo_.
+1	_Clo_	_Clo_	SYM	NFP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Why, very well then:
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	then	then	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	_	_
+
+# sent_id = 7
+# text = I hope here be truths.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	truths	truths	NOUN	NNS	Number=Plur	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = —_Measure for Measure_.
+1	—	-	PUNCT	:	_	2	punct	_	SpaceAfter=No
+2	_Measure	_Measure	NOUN	NN	Number=Sing	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	Measure	measure	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	_.	_.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

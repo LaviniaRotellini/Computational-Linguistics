@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I was not sorry to go.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	go	go	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I had lapsed into a stupid state; but I was recovering a little and looking forward to Steerforth, albeit Mr. Creakle loomed behind him.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	lapsed	lapse	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	into	into	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	stupid	stupid	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	state	state	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	recovering	recover	VERB	VBG	VerbForm=Ger	3	conj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	little	little	ADJ	JJ	Degree=Pos	12	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	looking	look	VERB	VBG	VerbForm=Ger	14	conj	_	_
+17	forward	forward	ADV	RB	_	16	advmod	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	Steerforth	Steerforth	PROPN	NNP	Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	12	punct	_	_
+21	albeit	albeit	SCONJ	IN	_	24	mark	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	24	nsubj	_	_
+23	Creakle	Creakle	PROPN	NNP	Number=Sing	22	flat	_	_
+24	loomed	loom	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+25	behind	behind	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Again Mr. Barkis appeared at the gate, and again Miss Murdstone in her warning voice, said: ‘Clara!’
+1	Again	again	ADV	RB	_	4	advmod	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Barkis	Barkis	PROPN	NNP	Number=Sing	2	flat	_	_
+4	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	gate	gate	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	again	again	ADV	RB	_	11	advmod	_	_
+11	Miss	miss	PROPN	NNP	Number=Sing	4	conj	_	_
+12	Murdstone	Murdstone	PROPN	NNP	Number=Sing	11	flat	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	warning	warning	NOUN	NN	Number=Sing	16	compound	_	_
+16	voice	voice	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	_	_
+20	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+21	Clara	Clara	PROPN	NNP	Number=Sing	18	nsubj	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	18	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	18	punct	_	_
+
+# sent_id = 4
+# text = when my mother bent over me, to bid me farewell.
+1	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	mother	mother	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	bent	bend	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+5	over	over	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	bid	bid	VERB	VB	VerbForm=Inf	0	root	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	farewell	farewell	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

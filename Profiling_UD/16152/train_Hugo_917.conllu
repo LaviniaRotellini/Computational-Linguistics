@@ -1,0 +1,54 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Good,” thought he, “I know that her name is Ursule, that she is the daughter of a gentleman who lives on his income, and that she lives there, on the third floor, in the Rue de l’Ouest.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	name	name	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	Ursule	Ursule	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	that	that	SCONJ	IN	_	21	mark	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	daughter	daughter	NOUN	NN	Number=Sing	10	ccomp	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	gentleman	gentleman	NOUN	NN	Number=Sing	21	nmod	_	_
+25	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+26	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	income	income	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	34	punct	_	_
+31	and	and	CCONJ	CC	_	34	cc	_	_
+32	that	that	SCONJ	IN	_	34	mark	_	_
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+35	there	there	ADV	RB	PronType=Dem	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	21	punct	_	_
+37	on	on	ADP	IN	_	40	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+39	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	40	amod	_	_
+40	floor	floor	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	40	punct	_	_
+42	in	in	ADP	IN	_	45	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+44	Rue	Rue	PROPN	NNP	Number=Sing	45	compound	_	_
+45	de	de	PROPN	NNP	Number=Sing	40	nmod	_	_
+46	l’	l's	PART	POS	_	47	case	_	SpaceAfter=No
+47	Ouest	Ouest	PROPN	NNP	Number=Sing	45	appos	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+49	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

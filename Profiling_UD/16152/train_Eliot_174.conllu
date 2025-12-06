@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Rosamond, reflectively; “one wonders what such people do, without any prospect.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Rosamond	Rosamond	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	reflectively	reflectively	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	wonders	wonder	NOUN	NNS	Number=Plur	5	nsubj	_	_
+13	what	what	DET	WDT	PronType=Int	15	det	_	_
+14	such	such	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	people	people	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	without	without	ADP	IN	_	20	case	_	_
+19	any	any	DET	DT	_	20	det	_	_
+20	prospect	prospect	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = To be sure, there is religion as a support.
+1	To	to	PART	TO	_	3	mark	_	_
+2	be	be	AUX	VB	VerbForm=Inf	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	religion	religion	NOUN	NN	Number=Sing	6	nsubj	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	support	support	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = But,” she added, dimpling, “it is very different with you, Mary.
+1	But	but	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	5	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	dimpling	dimpl	VERB	VBG	VerbForm=Ger	13	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	different	different	ADJ	JJ	Degree=Pos	17	amod	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	Mary	Mary	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = You may have an offer.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	offer	offer	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

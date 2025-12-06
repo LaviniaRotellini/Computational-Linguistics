@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You may make the door fast now, Poyser; Alick’s been come in this long while,” said Mrs. Poyser, rising with an appearance of relief from her low chair.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	door	door	NOUN	NN	Number=Sing	4	obj	_	_
+7	fast	fast	ADV	RB	_	8	advmod	_	_
+8	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	Poyser	Poyser	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	4	punct	_	_
+12	Alick	Alick	PROPN	NNP	Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	come	come	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+18	long	long	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	while	while	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Mrs.	Mrs.	PROPN	NNP	Number=Sing	22	nsubj	_	_
+24	Poyser	Poyser	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	23	punct	_	_
+26	rising	rise	VERB	VBG	VerbForm=Ger	23	acl	_	_
+27	with	with	ADP	IN	_	29	case	_	_
+28	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	appearance	appearance	NOUN	NN	Number=Sing	26	obl	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	relief	relief	NOUN	NN	Number=Sing	29	nmod	_	_
+32	from	from	ADP	IN	_	35	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+34	low	low	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	chair	chair	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “Get me the matches down, Hetty, for I must have the rushlight burning i’ my room.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	matches	match	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	down	down	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	Hetty	Hetty	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	have	have	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	rushlight	rushlight	NOUN	NN	Number=Sing	13	obj	_	_
+16	burning	burn	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	20	punct	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	room	room	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Come, Father.”
+1	Come	come	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Father	father	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

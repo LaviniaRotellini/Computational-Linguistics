@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, sir,” said Bob, rather indignantly; “I didn’t offer to get a apple for Mr Tom, o’ purpose to hev a bite out of it myself.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Bob	Bob	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	rather	rather	ADV	RB	_	11	advmod	_	_
+11	indignantly	indignantly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	7	punct	_	_
+13	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n’t	not	PART	RB	_	17	advmod	_	_
+17	offer	offer	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	get	get	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	apple	apple	NOUN	NN	Number=Sing	19	obj	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	Mr	Mr	PROPN	NNP	Number=Sing	21	nmod	_	_
+24	Tom	Tom	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	19	punct	_	_
+26	o	of	ADV	RB	_	28	advmod	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	28	punct	_	_
+28	purpose	purpose	VERB	VB	VerbForm=Inf	17	advcl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	hev	heve	VERB	VB	Abbr=Yes|VerbForm=Inf	28	advcl	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	bite	bite	NOUN	NN	Number=Sing	30	obj	_	_
+33	out	out	ADP	IN	_	35	case	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+36	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	30	obl:npmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = When I play folks tricks, there’ll be more fun in ’em nor that.”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	play	play	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	folks	folk	NOUN	NNS	Number=Plur	5	compound	_	_
+5	tricks	trick	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	there	there	PRON	EX	_	11	expl	_	SpaceAfter=No
+8	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	’em	’em	NOUN	NN	Number=Sing	11	obl	_	_
+14	nor	nor	CCONJ	CC	_	15	cc	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

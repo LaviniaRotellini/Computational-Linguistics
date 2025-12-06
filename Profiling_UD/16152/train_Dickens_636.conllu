@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘They were indeed, Ham.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	indeed	indeed	ADV	RB	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Ham	Ham	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = What did Em’ly do?’
+1	What	what	PRON	WP	PronType=Int	5	obj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Em	they	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	’ly	’ly	ADV	RB	_	5	advmod	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = ‘Says Em’ly, “Martha, is it you?
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Em	em	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+4	’ly	’ly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+7	Martha	Martha	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	ccomp	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Oh, Martha, can it be you?”--for they had sat at work together, many a day, at Mr. Omer’s.’
+1	Oh	oh	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	Martha	Martha	PROPN	NNP	Number=Sing	8	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpaceAfter=No
+11	--	--	PUNCT	,	_	8	punct	_	SpaceAfter=No
+12	for	for	SCONJ	IN	_	15	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	sat	sit	VERB	VB	VerbForm=Inf	8	advcl	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	work	work	NOUN	NN	Number=Sing	15	obl	_	_
+18	together	together	ADV	RB	_	15	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	many	many	DET	PDT	_	22	det:predet	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	day	day	NOUN	NN	Number=Sing	15	obl:tmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	8	punct	_	_
+24	at	at	ADP	IN	_	25	case	_	_
+25	Mr.	Mr.	PROPN	NNP	Number=Sing	8	nmod	_	_
+26	Omer	Omer	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+27	’s	's	PART	POS	_	25	case	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

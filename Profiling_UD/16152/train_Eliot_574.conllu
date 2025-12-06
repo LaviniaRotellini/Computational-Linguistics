@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But it was Sir James’s evident annoyance that most stirred Mr. Brooke.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+4	Sir	Sir	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+5	James	James	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	evident	evident	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	annoyance	annoyance	NOUN	NN	Number=Sing	0	root	_	_
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	most	must	AUX	MD	Typo=Yes|VerbForm=Fin	11	aux	_	_
+11	stirred	stir	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	11	obj	_	_
+13	Brooke	Brooke	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Well, you know, Chettam,” he said, rising, taking up his hat and leaning on his stick, “you and I have a different system.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Chettam	Chettam	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	rising	rise	VERB	VBG	VerbForm=Ger	25	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	taking	take	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	up	up	ADP	RP	_	15	compound:prt	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hat	hat	NOUN	NN	Number=Sing	15	obj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	leaning	lean	VERB	VBG	VerbForm=Ger	15	conj	_	_
+21	on	on	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	stick	stick	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	13	punct	_	_
+25	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	29	nsubj	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	conj	_	_
+29	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	different	different	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	system	system	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	29	punct	_	_
+
+# sent_id = 3
+# text = You are all for outlay with your farms.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	all	all	ADV	RB	_	5	advmod	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	outlay	outlay	NOUN	NN	Number=Sing	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	farms	farm	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I don’t want to make out that my system is good under all circumstances—under all circumstances, you know.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	make	make	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	system	system	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	good	good	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+13	under	under	ADP	IN	_	15	case	_	_
+14	all	all	DET	DT	_	15	det	_	_
+15	circumstances	circumstance	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+17	under	under	ADP	IN	_	19	case	_	_
+18	all	all	DET	DT	_	19	det	_	_
+19	circumstances	circumstance	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

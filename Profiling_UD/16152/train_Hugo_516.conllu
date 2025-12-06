@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cosette ran upstairs and down, washed, swept, rubbed, dusted, ran, fluttered about, panted, moved heavy articles, and weak as she was, did the coarse work.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	upstairs	upstairs	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	down	down	ADV	RB	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	washed	wash	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	swept	sweep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	rubbed	rub	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	dusted	dust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	fluttered	flutter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+18	about	about	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	panted	pante	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	moved	move	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+23	heavy	heavy	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	articles	article	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	weak	weak	ADJ	JJ	Degree=Pos	32	conj	_	_
+28	as	as	SCONJ	IN	_	30	mark	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	advcl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	coarse	coarse	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	work	work	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There was no mercy for her; a fierce mistress and venomous master.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	mercy	mercy	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	fierce	fierce	NOUN	NN	Number=Sing	10	compound	_	_
+10	mistress	mistress	NOUN	NN	Number=Sing	2	appos	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	venomous	venomous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	master	master	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The Thénardier hostelry was like a spider’s web, in which Cosette had been caught, and where she lay trembling.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Thénardier	Thénardier	ADJ	JJR	Degree=Cmp	3	amod	_	_
+3	hostelry	hostelry	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+5	like	like	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	spider	spider	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	web	web	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	which	which	PRON	WDT	PronType=Rel	16	obl	_	_
+13	Cosette	Cosette	PROPN	NNP	Number=Sing	16	nsubj:pass	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	where	where	ADV	WRB	PronType=Int	21	advmod	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
+22	trembling	trembling	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = The ideal of oppression was realized by this sinister household.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	ideal	ideal	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	oppression	oppression	NOUN	NN	Number=Sing	2	nmod	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	realized	realize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	by	by	ADP	IN	_	10	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	sinister	sinister	NOUN	NN	Number=Sing	10	compound	_	_
+10	household	household	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = It was something like the fly serving the spiders.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	something	something	PRON	NN	Number=Sing	0	root	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fly	fly	NOUN	NN	Number=Sing	3	nmod	_	_
+7	serving	serve	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	spiders	spider	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

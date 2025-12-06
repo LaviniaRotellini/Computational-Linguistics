@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, oh no,” said Will, with some coldness.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	oh	oh	INTJ	UH	_	8	discourse	_	_
+5	no	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Will	will	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	coldness	coldness	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “I have quite made up my mind against it.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	quite	quite	ADV	RB	_	5	advmod	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	mind	mind	NOUN	NN	Number=Sing	5	obj	_	_
+9	against	against	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It is too one-sided a life.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	one	one	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	sided	side	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	csubj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	life	life	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I have been seeing a great deal of the German artists here:
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	seeing	see	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	deal	deal	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	German	german	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	artists	artist	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	here	here	ADV	RB	PronType=Dem	11	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 5
+# text = I travelled from Frankfort with one of them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	travelled	travel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	Frankfort	Frankfort	PROPN	NNP	Number=Sing	2	obl	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	2	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Some are fine, even brilliant fellows—but I should not like to get into their way of looking at the world entirely from the studio point of view.”
+1	Some	some	DET	DT	_	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	even	even	ADV	RB	_	6	advmod	_	_
+6	brilliant	brilliant	ADJ	JJ	Degree=Pos|Typo=Yes	7	amod	_	_
+7	fellows	fellow	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	like	like	VERB	VB	VerbForm=Inf	3	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	get	get	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	into	into	ADP	IN	_	18	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	way	way	NOUN	NN	Number=Sing	15	obl	_	_
+19	of	of	SCONJ	IN	_	20	mark	_	_
+20	looking	look	VERB	VBG	VerbForm=Ger	18	acl	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	world	world	NOUN	NN	Number=Sing	20	obl	_	_
+24	entirely	entirely	ADV	RB	_	20	advmod	_	_
+25	from	from	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	studio	studio	NOUN	NN	Number=Sing	28	compound	_	_
+28	point	point	NOUN	NN	Number=Sing	24	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	view	view	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

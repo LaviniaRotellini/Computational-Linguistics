@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Concerning a guardian,” he went on.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Concerning	concern	VERB	VBG	VerbForm=Ger	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	guardian	guardian	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	on	on	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “There ought to have been some guardian, or such-like, whiles you was a minor.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	ought	ing	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	been	be	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	guardian	guardian	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	or	or	CCONJ	CC	_	15	cc	_	_
+11	such	such	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	like	like	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	whiles	whiles	NOUN	NNS	Number=Plur	8	conj	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	minor	minor	NOUN	NN	Number=Sing	15	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Some lawyer, maybe.
+1	Some	some	DET	DT	_	2	det	_	_
+2	lawyer	lawyer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	maybe	maybe	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = As to the first letter of that lawyer’s name now.
+1	As	as	ADP	IN	_	5	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	letter	letter	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	lawyer	lawyer	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	name	name	NOUN	NN	Number=Sing	5	nmod	_	_
+11	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Would it be J?”
+1	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	J	j	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

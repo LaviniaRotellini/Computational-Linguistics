@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am not begging the question we are upon—whether we are to try for nothing till we find immaculate men to work with.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	begging	begge	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	question	question	NOUN	NN	Number=Sing	5	obj	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	upon	upon	ADP	IN	_	11	case	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+12	whether	whether	SCONJ	IN	_	16	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	try	try	VERB	VB	VerbForm=Inf	11	advcl	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	nothing	nothing	PRON	NN	Number=Sing	21	obl	_	_
+19	till	till	SCONJ	IN	_	21	mark	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+22	immaculate	immaculate	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	men	man	NOUN	NNS	Number=Plur	21	obj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	work	work	VERB	VB	VerbForm=Inf	23	acl	_	_
+26	with	with	ADP	IN	_	25	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Should you go on that plan?
+1	Should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	plan	plan	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = If there were one man who would carry you a medical reform and another who would oppose it, should you inquire which had the better motives or even the better brains?”
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	carry	carry	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	iobj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	medical	medical	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	reform	reform	NOUN	NN	Number=Sing	8	obj	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	another	another	DET	DT	_	15	det	_	_
+15	who	who	PRON	WP	PronType=Int	17	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	oppose	oppose	VERB	VB	VerbForm=Inf	3	conj	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	inquire	inquire	VERB	VB	VerbForm=Inf	0	root	_	_
+23	which	which	PRON	WDT	PronType=Int	24	nsubj	_	_
+24	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	ccomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	better	better	ADJ	JJR	Degree=Cmp	27	amod	_	_
+27	motives	motive	NOUN	NNS	Number=Plur	24	obj	_	_
+28	or	or	CCONJ	CC	_	32	cc	_	_
+29	even	even	ADV	RB	_	32	advmod	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	better	better	ADJ	JJR	Degree=Cmp	32	amod	_	_
+32	brains	brain	NOUN	NNS	Number=Plur	24	conj	_	SpaceAfter=No
+33	?	?	PUNCT	.	_	22	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

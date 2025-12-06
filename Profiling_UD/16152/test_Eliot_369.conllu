@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Lean on me, sir; I’ll get you along,” said Adam.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Lean	lean	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+3	on	on	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	get	get	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	along	along	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Adam	Adam	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “Or, will you sit down a bit longer, on my coat here, and I’ll prop y’ up.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Or	or	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	sit	sit	VERB	VB	VerbForm=Inf	0	root	_	_
+7	down	down	ADP	RP	_	6	advmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	bit	bit	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+10	longer	longer	ADV	RBR	Degree=Cmp	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	coat	coat	NOUN	NN	Number=Sing	6	obl	_	_
+15	here	here	ADV	RB	PronType=Dem	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	’ll	’ll	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	prop	prop	VERB	VB	VerbForm=Inf	6	conj	_	_
+21	y	y	X	FW	Foreign=Yes	20	obj	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	21	punct	_	_
+23	up	up	ADP	RP	_	20	compound:prt	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = You’ll perhaps be better in a minute or two.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	minute	minute	NOUN	NN	Number=Sing	5	obl	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	two	two	NUM	CD	NumType=Card	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

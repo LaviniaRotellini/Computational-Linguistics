@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I do care about your mother’s money going,” he said, when she was seated again and sewing quickly.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	care	care	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+5	about	about	ADP	IN	_	9	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+7	mother	mother	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	money	money	NOUN	NN	Number=Sing	4	obl	_	_
+10	going	go	VERB	VBG	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	14	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+20	again	again	ADV	RB	_	19	advmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	sewing	sew	VERB	VBG	VerbForm=Ger	19	conj	_	_
+23	quickly	quickly	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “I wanted to ask you, Mary—don’t you think that Mr. Featherstone—if you were to tell him—tell him, I mean, about apprenticing Alfred—would advance the money?”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	ask	ask	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	Mary	Mary	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	13	advmod	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+14	that	that	SCONJ	IN	_	22	mark	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	22	nsubj	_	_
+16	Featherstone	Featherstone	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	—	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+18	if	if	SCONJ	IN	_	22	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	tell	tell	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	25	punct	_	SpaceAfter=No
+25	tell	tell	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	22	punct	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	36	punct	_	_
+31	about	about	SCONJ	IN	_	32	mark	_	_
+32	apprenticing	apprentice	VERB	VBG	VerbForm=Ger	36	advcl	_	_
+33	Alfred	Alfred	PROPN	NNP	Number=Sing	32	obj	_	SpaceAfter=No
+34	—	-	PUNCT	,	_	36	punct	_	SpaceAfter=No
+35	would	would	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	advance	advance	VERB	VB	VerbForm=Inf	22	parataxis	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	money	money	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+39	?	?	PUNCT	.	_	22	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

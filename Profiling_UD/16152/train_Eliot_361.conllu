@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Featherstone grunted:
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Featherstone	Featherstone	PROPN	NNP	Number=Sing	1	flat	_	_
+3	grunted	grunt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 2
+# text = he could not deny that an ordinary sort of girl like her might be expected to be useful, so he thought of another rejoinder, disagreeable enough to be always apropos.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	deny	deny	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	15	mark	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	ordinary	ordinary	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	sort	sort	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	girl	girl	NOUN	NN	Number=Sing	8	nmod	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+13	might	might	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+15	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+16	to	to	PART	TO	_	18	mark	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	useful	useful	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	so	so	ADV	RB	_	22	advmod	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	another	another	DET	DT	_	25	det	_	_
+25	rejoinder	rejoinder	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	4	punct	_	_
+27	disagreeable	disagreeable	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	enough	enough	ADJ	JJ	Degree=Pos	4	obj	_	_
+29	to	to	PART	TO	_	32	mark	_	_
+30	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+31	always	always	ADV	RB	_	32	advmod	_	_
+32	apropos	apropo	NOUN	NNS	Number=Plur	4	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = “If Fred Vincy comes to-morrow, now, don’t you keep him chattering: let him come up to me.”
+1	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	_
+3	Fred	Fred	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Vincy	Vincy	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+6	to	to	ADP	IN	_	8	case	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	morrow	morrow	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	now	now	ADV	RB	_	15	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	15	advmod	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	0	root	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	chattering	chatter	VERB	VBG	VerbForm=Ger	15	xcomp	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	15	punct	_	_
+19	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	15	parataxis	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	come	come	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	up	up	ADV	RB	_	21	advmod	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	15	punct	_	SpacesAfter=\n
+

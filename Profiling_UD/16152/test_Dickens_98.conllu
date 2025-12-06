@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A window was raised, and a clear voice demanded “What name?”
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	window	window	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	clear	clear	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	voice	voice	NOUN	NN	Number=Sing	4	conj	_	_
+10	demanded	demand	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	What	what	DET	WDT	PronType=Int	13	det	_	_
+13	name	name	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = To which my conductor replied, “Pumblechook.”
+1	To	to	ADP	IN	_	2	case	_	_
+2	which	which	PRON	WDT	PronType=Rel	5	obl	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	conductor	conductor	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+8	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = The voice returned, “Quite right,” and the window was shut again, and a young lady came across the court-yard, with keys in her hand.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	voice	voice	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	Quite	quite	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	right	right	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	window	window	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	shut	shut	ADJ	JJ	Degree=Pos	7	conj	_	_
+15	again	again	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	young	young	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	lady	lady	NOUN	NN	Number=Sing	21	nsubj	_	_
+21	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+22	across	across	ADP	IN	_	26	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+24	court	court	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	yard	yard	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	7	punct	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	keys	key	NOUN	NNS	Number=Plur	7	nmod	_	_
+30	in	in	ADP	IN	_	32	case	_	_
+31	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	hand	hand	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

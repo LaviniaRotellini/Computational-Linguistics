@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mary approached him cautiously, knowing him too well.
+1	Mary	Mary	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	cautiously	cautiously	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	knowing	know	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	too	too	ADV	RB	_	9	advmod	_	_
+9	well	well	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She saw him dropping his keys and trying to grasp his stick, while he looked at her like an aged hyena, the muscles of his face getting distorted with the effort of his hand.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	dropping	drop	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	keys	key	NOUN	NNS	Number=Plur	4	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	trying	try	VERB	VBG	VerbForm=Ger	4	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	grasp	grasp	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	stick	stick	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	while	while	SCONJ	IN	_	16	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	like	like	ADP	IN	_	22	case	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	aged	aged	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	hyena	hyena	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	muscles	muscle	NOUN	NNS	Number=Plur	30	nsubj:pass	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	face	face	NOUN	NN	Number=Sing	25	nmod	_	_
+29	getting	get	AUX	VBG	VerbForm=Ger	30	aux:pass	_	_
+30	distorted	distort	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+31	with	with	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	effort	effort	NOUN	NN	Number=Sing	30	obl	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	hand	hand	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She paused at a safe distance.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	safe	safe	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	distance	distance	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

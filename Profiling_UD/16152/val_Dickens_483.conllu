@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Hear me out,’ said Bounderby, ‘and refrain from cutting in till your turn comes round.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hear	hear	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	out	out	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	Bounderby	Bounderby	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	refrain	refrain	VERB	VB	VerbForm=Inf	7	conj	_	_
+13	from	from	SCONJ	IN	_	14	mark	_	_
+14	cutting	cutting	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	in	in	ADP	RP	_	14	compound:prt	_	_
+16	till	till	SCONJ	IN	_	19	mark	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	turn	turn	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+20	round	round	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I say this, because highly connected females have been astonished to see the way in which your daughter has conducted herself, and to witness her insensibility.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	because	because	SCONJ	IN	_	11	mark	_	_
+6	highly	highly	ADV	RB	_	7	advmod	_	_
+7	connected	connec	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	females	female	NOUN	NNS	Number=Plur	11	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+11	astonished	astonish	ADJ	JJ	Degree=Pos	2	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	see	see	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	which	which	PRON	WDT	PronType=Rel	21	obl	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	daughter	daughter	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+22	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	witness	witness	VERB	VB	VerbForm=Inf	11	conj	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	insensibility	insensibility	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = They have wondered how I have suffered it.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	wondered	wonder	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And I wonder myself now, and I won’t suffer it.’
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	wo	will	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	suffer	suffer	VERB	VB	VerbForm=Inf	3	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

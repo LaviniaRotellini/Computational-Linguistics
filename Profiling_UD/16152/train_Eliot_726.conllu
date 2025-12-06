@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But be reasonable, Chettam.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	4	cop	_	_
+4	reasonable	reasonable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Chettam	Chettam	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Dorothea, now.
+1	Dorothea	Dorothea	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	now	now	ADV	RB	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = As you say, she had better go to Celia as soon as possible.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	go	go	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Celia	Celia	PROPN	NNP	Number=Sing	8	nmod	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	soon	soon	ADV	RB	Degree=Pos	6	advmod	_	_
+13	as	as	SCONJ	IN	_	14	mark	_	_
+14	possible	possible	ADJ	JJ	Degree=Pos	12	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = She can stay under your roof, and in the mean time things may come round quietly.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	stay	stay	VERB	VB	VerbForm=Inf	0	root	_	_
+4	under	under	ADP	IN	_	6	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	roof	roof	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	mean	mean	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	3	conj	_	_
+13	things	thing	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	come	come	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+16	round	round	ADV	RB	_	17	advmod	_	_
+17	quietly	quietly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Don’t let us be firing off our guns in a hurry, you know.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	firing	fire	VERB	VBG	Tense=Pres|VerbForm=Part	3	xcomp	_	_
+7	off	off	ADP	RP	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	guns	gun	NOUN	NNS	Number=Plur	6	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	hurry	hurry	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Standish will keep our counsel, and the news will be old before it’s known.
+1	Standish	Standish	INTJ	UH	_	3	discourse	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	keep	keep	VERB	VB	VerbForm=Inf	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	counsel	counsel	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	news	news	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	old	old	ADJ	JJ	Degree=Pos	3	conj	_	_
+13	before	before	SCONJ	IN	_	16	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Twenty things may happen to carry off Ladislaw—without my doing anything, you know.”
+1	Twenty	twenty	NUM	CD	NumType=Card	2	nummod	_	_
+2	things	thing	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	carry	carry	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	off	off	ADP	RP	_	6	compound:prt	_	_
+8	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+10	without	without	ADP	IN	_	16	mark	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nsubj	_	_
+12	doing	do	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+13	anything	anything	PRON	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

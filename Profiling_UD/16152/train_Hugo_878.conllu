@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At this epoch, Marius was twenty years of age.
+1	At	at	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	epoch	epoch	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	Marius	Marius	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	twenty	twenty	NUM	CD	NumType=Card	8	nummod	_	_
+8	years	year	NOUN	NNS	Number=Plur	0	root	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	age	age	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = It was three years since he had left his grandfather.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	0	root	_	_
+5	since	since	SCONJ	IN	_	8	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	grandfather	grandfather	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Both parties had remained on the same terms, without attempting to approach each other, and without seeking to see each other.
+1	Both	both	DET	DT	_	2	det	_	_
+2	parties	party	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	same	same	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	terms	term	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	without	without	SCONJ	IN	_	11	mark	_	_
+11	attempting	attempt	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	approach	approach	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	each	each	DET	DT	_	15	det	_	_
+15	other	other	ADJ	JJ	Degree=Pos	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	without	without	SCONJ	IN	_	19	mark	_	_
+19	seeking	seek	VERB	VBG	VerbForm=Ger	4	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	see	see	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	each	each	DET	DT	_	23	det	_	_
+23	other	other	ADJ	JJ	Degree=Pos	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Besides, what was the use of seeing each other?
+1	Besides	besides	ADV	RB	_	3	case	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	use	use	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	seeing	see	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	each	each	DET	DT	_	10	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Marius was the brass vase, while Father Gillenormand was the iron pot.
+1	Marius	Marius	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	brass	brass	NOUN	NN	Number=Sing	5	compound	_	_
+5	vase	vase	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	while	while	SCONJ	IN	_	13	mark	_	_
+8	Father	father	PROPN	NNP	Number=Sing	13	nsubj	_	_
+9	Gillenormand	Gillenormand	PROPN	NNP	Number=Sing	8	flat	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	iron	iron	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	pot	pot	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

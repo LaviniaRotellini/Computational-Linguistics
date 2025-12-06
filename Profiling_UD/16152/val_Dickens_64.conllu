@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Jupe sent his daughter out on an errand not an hour ago, and then was seen to slip out himself, with his hat over his eyes, and a bundle tied up in a handkerchief under his arm.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Jupe	Jupe	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	daughter	daughter	NOUN	NN	Number=Sing	3	obj	_	_
+6	out	out	ADV	RB	_	3	advmod	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	errand	errand	NOUN	NN	Number=Sing	3	obl	_	_
+10	not	not	ADV	RB	_	12	advmod	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	hour	hour	NOUN	NN	Number=Sing	13	obl:npmod	_	_
+13	ago	ago	ADV	RB	_	3	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	then	then	ADV	RB	PronType=Dem	18	advmod	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	slip	slip	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	out	out	ADP	RP	_	20	compound:prt	_	_
+22	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	hat	hat	NOUN	NN	Number=Sing	20	obl	_	_
+27	over	over	ADP	IN	_	29	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	eyes	eye	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	bundle	bundle	NOUN	NN	Number=Sing	3	conj	_	_
+34	tied	tie	VERB	VBN	Tense=Past|VerbForm=Part	33	acl	_	_
+35	up	up	ADP	RP	_	34	compound:prt	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	handkerchief	handkerchief	NOUN	NN	Number=Sing	34	obl	_	_
+39	under	under	ADP	IN	_	41	case	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	arm	arm	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = She will never believe it of him, but he has cut away and left her.’
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+13	away	away	ADV	RB	_	12	advmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

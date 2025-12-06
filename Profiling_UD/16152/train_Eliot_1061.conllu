@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No—and yes,” said Lydgate, half dubiously.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Lydgate	Lydgate	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	half	half	X	GW	_	12	goeswith	_	_
+12	dubiously	dubiously	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “It is difficult to decide as to the possible effect of long-standing complications; but the man had a robust constitution to begin with.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	difficult	difficult	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	decide	decide	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	as	as	ADP	IN	_	11	case	_	_
+8	to	to	ADP	IN	_	7	fixed	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	possible	possible	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	effect	effect	NOUN	NN	Number=Sing	6	obl	_	_
+12	of	of	ADP	IN	_	16	case	_	_
+13	long	long	ADV	RB	Degree=Pos	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	standing	stand	VERB	VBG	VerbForm=Ger	16	amod	_	_
+16	complications	complication	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	4	punct	_	_
+18	but	but	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	man	man	NOUN	NN	Number=Sing	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	robust	robust	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	constitution	constitution	NOUN	NN	Number=Sing	21	obj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	begin	begin	VERB	VB	VerbForm=Inf	21	advcl	_	_
+27	with	with	ADP	IN	_	26	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I should not expect this attack to be fatal, though of course the system is in a ticklish state.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	expect	expect	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	attack	attack	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	fatal	fatal	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	though	through	ADP	IN	_	20	case	_	_
+12	of	of	ADV	RB	_	20	advmod	_	_
+13	course	course	ADV	RB	_	12	fixed	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	system	system	NOUN	NN	Number=Sing	20	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	ticklish	ticklish	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	state	state	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He should be well watched and attended to.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	attended	attend	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+8	to	to	ADP	IN	_	7	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

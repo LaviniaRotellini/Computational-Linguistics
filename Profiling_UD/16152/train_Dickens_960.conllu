@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Not, of course, but that Sophy is beautiful too in my eyes, and would be one of the dearest girls that ever was, in anybody’s eyes (I should think).
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	of	of	ADV	RB	_	11	advmod	_	_
+5	course	course	ADV	RB	_	4	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	Sophy	Sophy	PROPN	NNP	Number=Sing	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	_
+12	too	too	ADV	RB	_	15	advmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	eyes	eye	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+20	one	one	NUM	CD	NumType=Card	11	conj	_	_
+21	of	of	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	dearest	dearest	ADJ	JJS	Degree=Sup	24	amod	_	_
+24	girls	girl	NOUN	NNS	Number=Plur	20	nmod	_	_
+25	that	that	PRON	WDT	PronType=Rel	27	nsubj	_	_
+26	ever	ever	ADV	RB	_	27	advmod	_	_
+27	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	in	in	ADP	IN	_	32	case	_	_
+30	anybody	anybody	PRON	NN	Number=Sing	32	nmod:poss	_	SpaceAfter=No
+31	’s	's	PART	POS	_	30	case	_	_
+32	eyes	eye	NOUN	NNS	Number=Plur	27	obl	_	_
+33	(	(	PUNCT	-LRB-	_	36	punct	_	SpaceAfter=No
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+35	should	should	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	think	think	VERB	VB	VerbForm=Inf	11	parataxis	_	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = But when I say the eldest is a Beauty, I mean she really is a--’ he seemed to be describing clouds about himself, with both hands: ‘Splendid, you know,’ said Traddles, energetically.
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	eldest	eldest	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	Beauty	beauty	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	really	really	ADV	RB	_	16	advmod	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	12	ccomp	_	SpaceAfter=No
+17	--	--	PUNCT	,	_	12	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	20	punct	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	ccomp	_	_
+21	to	to	PART	TO	_	23	mark	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux	_	_
+23	describing	describe	VERB	VBG	Tense=Pres|VerbForm=Part	20	xcomp	_	_
+24	clouds	clouds	NOUN	NNS	Number=Plur	23	obj	_	_
+25	about	about	ADP	IN	_	26	case	_	_
+26	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	23	punct	_	_
+28	with	with	ADP	IN	_	30	case	_	_
+29	both	both	DET	DT	_	30	det	_	_
+30	hands	hand	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+31	:	:	PUNCT	:	_	20	punct	_	_
+32	‘	'	PUNCT	``	_	20	punct	_	SpaceAfter=No
+33	Splendid	Splendid	PROPN	NNP	Number=Sing	20	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	20	punct	_	_
+35	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	36	nsubj	_	_
+36	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	ccomp	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	36	punct	_	SpaceAfter=No
+38	’	'	PUNCT	''	_	39	punct	_	_
+39	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	conj	_	_
+40	Traddles	Traddles	PROPN	NNPS	Number=Plur	43	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	40	punct	_	_
+42	energetically	energetically	ADV	RB	_	40	advmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 3
+# text = ‘Indeed!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Indeed	indeed	ADV	RB	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = said I.
+1	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

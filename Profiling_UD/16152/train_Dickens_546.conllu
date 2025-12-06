@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Humph!’ retorted Steerforth, looking at the fire.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Humph	Humph	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Steerforth	Steerforth	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fire	fire	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Some brothers are not loved over much; and some love--but help yourself, Copperfield!
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Some	some	DET	DT	_	3	det	_	_
+3	brothers	brother	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	over	over	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	love	love	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+13	--	--	PUNCT	,	_	12	punct	_	SpaceAfter=No
+14	but	but	CCONJ	CC	_	15	cc	_	_
+15	help	help	VERB	VB	VerbForm=Inf	6	conj	_	_
+16	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Copperfield	Copperfield	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = We’ll drink the daisies of the field, in compliment to you; and the lilies of the valley that toil not, neither do they spin, in compliment to me--the more shame for me!’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	drink	drink	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	daisies	daisie	NOUN	NNS	Number=Plur	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	field	field	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	compliment	compliment	NOUN	NN	Number=Sing	3	obl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	3	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	lilies	lily	NOUN	NNS	Number=Plur	3	conj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	valley	valley	NOUN	NN	Number=Sing	17	nmod	_	_
+21	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+22	toil	toil	AUX	MD	Typo=Yes|VerbForm=Fin	28	aux	_	_
+23	not	not	PART	RB	_	28	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	neither	neither	CCONJ	CC	_	28	cc	_	_
+26	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+28	spin	spin	VERB	VB	VerbForm=Inf	17	acl:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	3	punct	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	compliment	compliment	NOUN	NN	Number=Sing	3	obl	_	_
+32	to	to	ADP	IN	_	33	case	_	_
+33	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	nmod	_	SpaceAfter=No
+34	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	more	more	ADV	RBR	_	37	advmod	_	_
+37	shame	shame	ADJ	JJ	Degree=Pos	3	obj	_	_
+38	for	for	ADP	IN	_	39	case	_	_
+39	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	obl	_	SpaceAfter=No
+40	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+41	’	'	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = A moody smile that had overspread his features cleared off as he said this merrily, and he was his own frank, winning self again.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	moody	moody	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	smile	smile	NOUN	NN	Number=Sing	0	root	_	_
+4	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	overspread	overspread	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	features	feature	NOUN	NNS	Number=Plur	6	obj	_	_
+9	cleared	clear	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	_
+10	off	off	ADP	RP	_	9	compound:prt	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	_
+15	merrily	merrily	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	and	and	CCONJ	CC	_	22	cc	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	frank	frank	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	3	punct	_	_
+24	winning	win	VERB	VBG	VerbForm=Ger	3	acl	_	_
+25	self	self	NOUN	NN	Number=Sing	24	obj	_	_
+26	again	again	ADV	RB	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

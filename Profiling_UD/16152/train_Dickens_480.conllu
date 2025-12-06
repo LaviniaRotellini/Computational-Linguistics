@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes,’ said Mrs. Micawber.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Micawber	Micawber	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘It is truly painful to contemplate mankind in such an aspect, Master Copperfield, but our reception was, decidedly, cool.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	truly	truly	ADV	RB	_	5	advmod	_	_
+5	painful	painful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	contemplate	contemplate	VERB	VB	VerbForm=Inf	5	csubj	_	_
+8	mankind	mankind	NOUN	NN	Number=Sing	7	obj	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	such	such	DET	PDT	_	12	det:predet	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	aspect	aspect	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	Master	master	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Copperfield	Copperfield	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	reception	reception	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	decidedly	decidedly	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	_
+24	cool	cool	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There is no doubt about it.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	doubt	doubt	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = In fact, that branch of my family which is settled in Plymouth became quite personal to Mr. Micawber, before we had been there a week.’
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	14	punct	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	branch	branch	NOUN	NN	Number=Sing	14	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	family	family	NOUN	NN	Number=Sing	5	nmod	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	Plymouth	Plymouth	PROPN	NNP	Number=Sing	11	obl	_	_
+14	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	quite	quite	ADV	RB	_	16	advmod	_	_
+16	personal	personal	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	16	obl	_	_
+19	Micawber	Micawber	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	16	punct	_	_
+21	before	before	SCONJ	IN	_	25	mark	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+24	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	cop	_	_
+25	there	there	ADV	RB	PronType=Dem	16	advcl	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	week	week	NOUN	NN	Number=Sing	25	obl:tmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	14	punct	_	SpacesAfter=\n
+

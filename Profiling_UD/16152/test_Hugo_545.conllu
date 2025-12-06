@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Cour des Miracles was entirely dark.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Cour	Cour	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	des	de	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Miracles	miracles	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	entirely	entirely	ADV	RB	_	7	advmod	_	_
+7	dark	dark	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = There was not a single light.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	single	single	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	light	light	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = One could make out there a throng of men and women conversing in low tones.
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+4	out	out	ADP	RP	_	5	case	_	_
+5	there	there	ADV	RB	PronType=Dem	3	advmod	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	throng	throng	NOUN	NN	Number=Sing	3	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	men	man	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	women	woman	NOUN	NNS	Number=Plur	9	conj	_	_
+12	conversing	converse	VERB	VBG	VerbForm=Ger	3	acl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	low	low	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	tones	ton	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = They could be heard buzzing, and a gleam of all sorts of weapons was visible in the darkness.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	buzzing	buzzing	NOUN	NN	Number=Sing	16	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	gleam	gleam	NOUN	NN	Number=Sing	5	conj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	all	all	DET	DT	_	12	det	_	_
+12	sorts	sort	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	weapons	weapon	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	visible	visible	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	darkness	darkness	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Clopin mounted a large stone.
+1	Clopin	Clopin	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	mounted	mount	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	large	large	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	stone	stone	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

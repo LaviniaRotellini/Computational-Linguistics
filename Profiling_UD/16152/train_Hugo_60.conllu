@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The infinite is.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	infinite	infinite	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He is there.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	there	there	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = If the infinite had no person, person would be without limit; it would not be infinite; in other words, it would not exist.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	infinite	infinite	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	person	person	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	person	person	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	without	without	ADP	IN	_	12	case	_	_
+12	limit	limit	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	12	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	infinite	infinite	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	18	punct	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	other	other	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	words	word	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	18	punct	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+25	would	would	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	not	not	PART	RB	_	27	advmod	_	_
+27	exist	exist	VERB	VB	VerbForm=Inf	18	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 4
+# text = There is, then, an _I_.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	_I	_I	PROPN	NNP	Number=Sing	2	nsubj	_	SpaceAfter=No
+8	_	_	SYM	NFP	_	7	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = That _I_ of the infinite is God.”
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	_I	_I	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	8	punct	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	infinite	infinite	NOUN	NN	Number=Sing	3	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	God	God	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

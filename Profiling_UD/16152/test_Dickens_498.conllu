@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I can’t do so, Mr. Pip,” said Biddy, in a tone of regret but still of quiet conviction.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	do	do	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+5	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obj	_	_
+8	Pip	Pip	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Biddy	Biddy	PROPN	NNP	Number=Sing	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	tone	tone	NOUN	NN	Number=Sing	12	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	regret	regret	NOUN	NN	Number=Sing	16	nmod	_	_
+19	but	but	CCONJ	CC	_	23	cc	_	_
+20	still	still	ADV	RB	_	23	advmod	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	quiet	quiet	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	conviction	conviction	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = “I have been speaking to Mrs. Hubble, and I am going to her to-morrow.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	speaking	speak	VERB	VBG	VerbForm=Ger	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	obl	_	_
+8	Hubble	Hubble	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	going	go	VERB	VBG	VerbForm=Ger	5	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	to	to	ADP	IN	_	18	case	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	morrow	morrow	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I hope we shall be able to take some care of Mr. Gargery, together, until he settles down.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+4	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	able	able	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	take	take	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	care	care	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obl	_	_
+13	Gargery	Gargery	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	together	together	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	until	until	SCONJ	IN	_	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	settles	settle	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+20	down	down	ADP	RP	_	19	compound:prt	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

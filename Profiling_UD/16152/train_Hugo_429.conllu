@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was a seignorial garden in the first French style which preceded Le Nôtre; to-day it is ruins and briars.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	seignorial	seignorial	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	garden	garden	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	French	french	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	style	style	NOUN	NN	Number=Sing	5	nmod	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	preceded	proceed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	Le	Le	PROPN	NNP	Number=Sing	12	obj	_	_
+14	Nôtre	Nôtre	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	5	punct	_	_
+16	to	to	ADP	IN	_	18	case	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	day	day	NOUN	NN	Number=Sing	21	obl	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	ruins	ruin	NOUN	NNS	Number=Plur	5	parataxis	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	briars	briar	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The pilasters are surmounted by globes which resemble cannon-balls of stone.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	pilasters	pilaster	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	surmounted	surmount	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	globes	glob	NOUN	NNS	Number=Plur	4	obl	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	resemble	resemble	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	cannon	cannon	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	balls	ball	NOUN	NNS	Number=Plur	8	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	stone	stone	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Forty-three balusters can still be counted on their sockets; the rest lie prostrate in the grass.
+1	Forty	Forty	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+2	-	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+3	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+4	balusters	baluster	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+5	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	still	still	ADV	RB	_	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	counted	count	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sockets	socket	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	8	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	rest	rest	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	lie	lie	NOUN	NN	Number=Sing	16	compound	_	_
+16	prostrate	prostrate	NOUN	NN	Number=Sing	8	appos	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	grass	grass	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Almost all bear scratches of bullets.
+1	Almost	almost	ADV	RB	_	4	advmod	_	_
+2	all	all	DET	DT	_	4	det	_	_
+3	bear	bear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	scratches	scratch	NOUN	NNS	Number=Plur	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	bullets	bullet	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = One broken baluster is placed on the pediment like a fractured leg.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	broken	broken	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	baluster	baluster	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	placed	place	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	pediment	pediment	NOUN	NN	Number=Sing	5	obl	_	_
+9	like	like	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	fractured	fractured	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	leg	leg	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

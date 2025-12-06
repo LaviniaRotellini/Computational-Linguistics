@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, to be sure, mum,” said Bob.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	11	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	mum	mum	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Bob	Bob	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “Why, you must ha’ dealt wi’ no end o’ packmen when you war a young lass—before the master here had the luck to set eyes on you.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	ha	ha	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+7	’	’	PART	POS	_	6	case	_	_
+8	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	wi	wus	NOUN	NN	Number=Sing	27	nsubj	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	9	punct	_	_
+11	no	no	DET	DT	_	15	det	_	_
+12	end	end	NOUN	NN	Number=Sing	15	compound	_	_
+13	o	of	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	packmen	packman	NOUN	NNS	Number=Plur	9	appos	_	_
+16	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	war	war	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	young	young	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	lass	lass	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+22	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+23	before	before	SCONJ	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	master	master	NOUN	NN	Number=Sing	18	obl	_	_
+26	here	here	ADV	RB	PronType=Dem	25	advmod	_	_
+27	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	luck	luck	NOUN	NN	Number=Sing	27	obj	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	set	set	VERB	VB	VerbForm=Inf	27	advcl	_	_
+32	eyes	eye	NOUN	NNS	Number=Plur	31	obj	_	_
+33	on	on	ADP	IN	_	34	case	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 3
+# text = I know where you lived, I do,—seen th’ house many a time,—close upon Squire Darleigh’s,—a stone house wi’ steps——”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	where	where	ADV	WRB	PronType=Int	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+11	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+12	th	th	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	’	's	PUNCT	''	_	12	punct	_	_
+14	house	house	NOUN	NN	Number=Sing	8	obj	_	_
+15	many	many	DET	PDT	_	17	det:predet	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	time	time	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+20	close	close	ADJ	JJ	Degree=Pos	32	amod	_	_
+21	upon	upon	ADP	IN	_	23	case	_	_
+22	Squire	Squire	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Darleigh	Darleigh	PROPN	NNP	Number=Sing	32	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	32	punct	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	32	punct	_	SpaceAfter=No
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	stone	stone	NOUN	NN	Number=Sing	29	compound	_	_
+29	house	house	NOUN	NN	Number=Sing	30	compound	_	_
+30	wi	wi	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	’	'	PUNCT	''	_	30	punct	_	_
+32	steps	step	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+33	——	——	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

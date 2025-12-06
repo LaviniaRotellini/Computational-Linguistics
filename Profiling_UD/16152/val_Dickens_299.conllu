@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = IT was falling dark when Stephen came out of Mr. Bounderby’s house.
+1	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	dark	dark	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	Stephen	Stephen	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+8	out	out	ADP	IN	_	13	case	_	_
+9	of	of	ADP	IN	_	13	case	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nmod:poss	_	_
+11	Bounderby	Bounderby	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	’s	's	PART	POS	_	10	case	_	_
+13	house	house	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The shadows of night had gathered so fast, that he did not look about him when he closed the door, but plodded straight along the street.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	shadows	shadow	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	night	night	NOUN	NN	Number=Sing	2	nmod	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	fast	fast	ADJ	JJ	Degree=Pos	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	look	look	VERB	VB	VerbForm=Inf	6	advcl	_	_
+15	about	about	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	closed	close	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	door	door	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	but	but	CCONJ	CC	_	24	cc	_	_
+24	plodded	plod	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+25	straight	straight	ADV	RB	_	24	advmod	_	_
+26	along	along	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	street	street	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Nothing was further from his thoughts than the curious old woman he had encountered on his previous visit to the same house, when he heard a step behind him that he knew, and turning, saw her in Rachael’s company.
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	further	further	ADJ	JJ	Degree=Pos	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	thoughts	thought	NOUN	NNS	Number=Plur	3	obl	_	_
+7	than	than	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	curious	curious	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	woman	woman	NOUN	NN	Number=Sing	3	obl	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	encountered	encounter	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	on	on	ADP	IN	_	18	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	previous	previous	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	visit	visit	NOUN	NN	Number=Sing	14	obl	_	_
+19	to	to	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	same	same	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	house	house	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	3	punct	_	_
+24	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	step	step	NOUN	NN	Number=Sing	26	obj	_	_
+29	behind	behind	ADP	IN	_	30	case	_	_
+30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
+31	that	that	SCONJ	IN	_	33	mark	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	ccomp	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	33	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	_	_
+38	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+39	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	obj	_	_
+40	in	in	ADP	IN	_	43	case	_	_
+41	Rachael	Rachael	PROPN	NNP	Number=Sing	43	nmod:poss	_	SpaceAfter=No
+42	’s	's	PART	POS	_	41	case	_	_
+43	company	company	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

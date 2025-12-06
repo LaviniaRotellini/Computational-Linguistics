@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Was G—— a vulture after all?
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	G	G	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	——	——	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	vulture	vulture	NOUN	NN	Number=Sing	2	appos	_	_
+6	after	after	ADP	IN	_	7	case	_	_
+7	all	all	DET	DT	_	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Yes; if he were to be judged by the element of ferocity in this solitude of his.
+1	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	;	;	PUNCT	,	_	1	punct	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	judged	judge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+9	by	by	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	element	element	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	ferocity	ferocity	NOUN	NN	Number=Sing	11	nmod	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	solitude	solitude	NOUN	NN	Number=Sing	5	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 3
+# text = As he had not voted for the death of the king, he had not been included in the decrees of exile, and had been able to remain in France.
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	voted	vote	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	death	death	NOUN	NN	Number=Sing	5	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	king	king	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+15	not	not	PART	RB	_	17	advmod	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	included	include	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	decrees	decree	NOUN	NNS	Number=Plur	17	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	exile	exile	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+26	been	be	AUX	VBN	Tense=Past|VerbForm=Part	27	cop	_	_
+27	able	able	ADJ	JJ	Degree=Pos	17	conj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	remain	remain	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	France	France	PROPN	NNP	Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

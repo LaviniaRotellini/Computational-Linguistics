@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At length the vagabonds gave way.
+1	At	at	ADP	IN	_	4	case	_	_
+2	length	length	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	vagabonds	vagabonds	NOUN	NNS	Number=Plur	5	obl	_	_
+5	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	way	way	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Weariness, the lack of good weapons, the fright of this surprise, the musketry from the windows, the valiant attack of the king’s troops, all overwhelmed them.
+1	Weariness	Weariness	NOUN	NNS	Number=Plur	31	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	lack	lack	NOUN	NN	Number=Sing	1	appos	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	weapons	weapon	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fright	fright	NOUN	NN	Number=Sing	1	appos	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	surprise	surprise	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	musketry	musketry	NOUN	NN	Number=Sing	1	appos	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	windows	window	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	1	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	valiant	valiant	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	attack	attack	NOUN	NN	Number=Sing	1	appos	_	_
+24	of	of	ADP	IN	_	28	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	king	king	NOUN	NN	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+27	’s	's	PART	POS	_	26	case	_	_
+28	troops	troops	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	all	all	DET	DT	_	31	nsubj	_	_
+31	overwhelmed	overwhelme	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+32	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 3
+# text = They forced the line of assailants, and fled in every direction, leaving the Parvis encumbered with dead.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	forced	force	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	line	line	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	assailants	assailant	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	fled	fle	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	every	every	DET	DT	_	12	det	_	_
+12	direction	direction	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	leaving	leave	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	Parvis	Parvis	PROPN	NNPS	Number=Plur	14	obj	_	_
+17	encumbered	encumber	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	xcomp	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	dead	dead	ADJ	JJ	Degree=Pos	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

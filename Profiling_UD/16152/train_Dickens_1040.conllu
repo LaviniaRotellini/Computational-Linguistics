@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I came out to inquire whether Annie would like to go to the opera tonight,’ said Mr. Maldon, turning to her.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	inquire	inquire	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	whether	whether	SCONJ	IN	_	10	mark	_	_
+8	Annie	Annie	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	like	like	VERB	VB	VerbForm=Inf	6	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	go	go	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	opera	opera	NOUN	NN	Number=Sing	12	obl	_	_
+16	tonight	tonight	NOUN	NN	Number=Sing	12	obl:tmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	19	nsubj	_	_
+21	Maldon	Maldon	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	turning	turn	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = ‘It’s the last good night there will be, this season; and there’s a singer there, whom she really ought to hear.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	last	last	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	night	night	NOUN	NN	Number=Sing	10	obl:tmod	_	_
+8	there	there	PRON	EX	_	10	expl	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	be	be	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	season	season	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	10	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	there	there	PRON	EX	_	17	expl	_	SpaceAfter=No
+17	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	singer	singer	NOUN	NN	Number=Sing	17	nsubj	_	_
+20	there	there	ADV	RB	PronType=Dem	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	19	punct	_	_
+22	whom	whom	PRON	WP	PronType=Rel	27	obj	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+24	really	really	ADV	RB	_	27	advmod	_	_
+25	ought	ought	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	hear	hear	VERB	VB	VerbForm=Inf	19	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = She is perfectly exquisite.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	perfectly	perfectly	ADV	RB	_	4	advmod	_	_
+4	exquisite	exquisite	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Besides which, she is so charmingly ugly,’ relapsing into languor.
+1	Besides	besides	ADP	IN	_	2	case	_	_
+2	which	which	PRON	WDT	PronType=Int	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	so	so	ADV	RB	_	8	advmod	_	_
+7	charmingly	charmingly	ADV	RB	_	8	advmod	_	_
+8	ugly	ugly	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	8	punct	_	_
+11	relapsing	relapse	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	into	into	ADP	IN	_	13	case	_	_
+13	languor	languor	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

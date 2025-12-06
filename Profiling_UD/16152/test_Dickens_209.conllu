@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now, master!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	master	master	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sure you’re not a-going to favour only one of us.
+1	Sure	sure	INTJ	UH	_	3	discourse	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	going	go	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	favour	favour	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	only	only	ADV	RB	_	11	advmod	_	_
+11	one	one	NUM	CD	NumType=Card	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = If Young Pip has a half-holiday, do as much for Old Orlick.”
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	Young	young	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	Pip	Pip	PROPN	NNP	Number=Sing	2	flat	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	half	half	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	holiday	holiday	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	much	much	ADV	RB	_	14	advmod	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	Old	old	PROPN	NNP	Number=Sing	10	nmod	_	_
+15	Orlick	Orlick	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 4
+# text = I suppose he was about five-and-twenty, but he usually spoke of himself as an ancient person.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	about	about	ADP	IN	_	6	advmod	_	_
+6	five	five	NUM	CD	NumType=Card	2	ccomp	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+8	and	and	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	twenty	twenty	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	usually	usually	ADV	RB	_	15	advmod	_	_
+15	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obl	_	_
+18	as	as	ADP	IN	_	21	case	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	ancient	ancient	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	person	person	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

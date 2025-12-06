@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs. Henry Spiker was this lady’s name; and her husband was there too: so cold a man, that his head, instead of being grey, seemed to be sprinkled with hoar-frost.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+2	Henry	Henry	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Spiker	Spiker	PROPN	NNP	Number=Sing	1	flat	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	lady	lady	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	name	name	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	8	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	husband	husband	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	there	there	ADV	RB	PronType=Dem	8	conj	_	_
+15	too	too	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	:	_	14	punct	_	_
+17	so	so	ADV	RB	_	18	advmod	_	_
+18	cold	cold	VERB	VB	Mood=Imp|VerbForm=Fin	14	parataxis	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	man	man	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	18	punct	_	_
+22	that	that	SCONJ	IN	_	31	mark	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	head	head	NOUN	NN	Number=Sing	31	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	instead	instead	ADV	RB	_	29	mark	_	_
+27	of	of	SCONJ	IN	_	26	fixed	_	_
+28	being	be	AUX	VBG	VerbForm=Ger	29	cop	_	_
+29	grey	grey	NOUN	NN	Number=Sing	24	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	_
+31	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	parataxis	_	_
+32	to	to	PART	TO	_	34	mark	_	_
+33	be	be	AUX	VB	VerbForm=Inf	34	aux:pass	_	_
+34	sprinkled	sprinkle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	advcl	_	_
+35	with	with	ADP	IN	_	38	case	_	_
+36	hoar	hoar	NOUN	NN	Number=Sing	38	compound	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	_	38	punct	_	SpaceAfter=No
+38	frost	frost	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Immense deference was shown to the Henry Spikers, male and female; which Agnes told me was on account of Mr. Henry Spiker being solicitor to something or to somebody, I forget what or which, remotely connected with the Treasury.
+1	Immense	immense	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	deference	deference	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Henry	Henry	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Spikers	Spiker	PROPN	NNPS	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	male	male	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	female	female	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	4	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	16	obj	_	_
+15	Agnes	Agnes	PROPN	NNPS	Number=Plur	16	nsubj	_	_
+16	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	on	on	ADP	IN	_	20	case	_	_
+20	account	account	NOUN	NN	Number=Sing	16	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	20	nmod	_	_
+23	Henry	Henry	PROPN	NNP	Number=Sing	22	flat	_	_
+24	Spiker	Spiker	PROPN	NNP	Number=Sing	22	flat	_	_
+25	being	be	AUX	VBG	VerbForm=Ger	26	cop	_	_
+26	solicitor	solicitor	ADJ	JJ	Degree=Pos	22	acl	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	something	something	PRON	NN	Number=Sing	26	obl	_	_
+29	or	or	CCONJ	CC	_	31	cc	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	somebody	somebody	PRON	NN	Number=Sing	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	16	punct	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+34	forget	forget	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+35	what	what	PRON	WP	PronType=Int	40	obj	_	_
+36	or	or	CCONJ	CC	_	37	cc	_	_
+37	which	which	PRON	WDT	PronType=Int	40	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	remotely	remotely	ADV	RB	_	40	advmod	_	_
+40	connected	connec	VERB	VBN	Tense=Past|VerbForm=Part	34	ccomp	_	_
+41	with	with	ADP	IN	_	43	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	Treasury	Treasury	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

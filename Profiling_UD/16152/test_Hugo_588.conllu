@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh!	oh!	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = oh!” said he, “What a long message!
+1	oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+8	What	what	PRON	WP	PronType=Int	11	obj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	long	long	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	message	message	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = What doth our brother the emperor claim?”
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	doth	doth	CCONJ	CC	_	4	cc	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	brother	brother	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	emperor	emperor	NOUN	NN	Number=Sing	7	compound	_	_
+7	claim	claim	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 4
+# text = And running his eye over the missive and breaking his reading with interjection: “Surely!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	running	run	VERB	VBG	VerbForm=Ger	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	eye	eye	NOUN	NN	Number=Sing	2	obj	_	_
+5	over	over	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	missive	missive	NOUN	NN	Number=Sing	2	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	breaking	break	NOUN	NN	Number=Sing	7	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	reading	reading	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	interjection	interjection	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	11	punct	_	_
+15	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+16	Surely	surly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = the Germans are so great and powerful, that it is hardly credible—But let us not forget the old proverb: ‘The finest county is Flanders; the finest duchy, Milan; the finest kingdom, France.’
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Germans	Germans	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	great	great	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	powerful	powerful	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	hardly	hardly	ADV	RB	_	13	advmod	_	_
+13	credible	credible	ADJ	JJ	Degree=Pos	5	parataxis	_	SpaceAfter=No
+14	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+15	But	but	CCONJ	CC	_	16	cc	_	_
+16	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	5	conj	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	16	xcomp	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	old	old	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	proverb	proverb	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+23	:	:	PUNCT	:	_	16	punct	_	_
+24	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+25	The	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	finest	finest	ADJ	JJS	Degree=Sup	27	amod	_	_
+27	county	county	NOUN	NN	Number=Sing	28	nsubj	_	_
+28	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	Flanders	Flander	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+30	;	;	PUNCT	,	_	5	punct	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	finest	finest	ADJ	JJS	Degree=Sup	33	amod	_	_
+33	duchy	duchy	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	Milan	Milan	PROPN	NNP	Number=Sing	33	appos	_	SpaceAfter=No
+36	;	;	PUNCT	,	_	33	punct	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+38	finest	finest	ADJ	JJS	Degree=Sup	39	amod	_	_
+39	kingdom	kingdom	NOUN	NN	Number=Sing	33	appos	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	33	punct	_	_
+41	France	France	PROPN	NNP	Number=Sing	33	appos	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+43	’	'	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 6
+# text = Is it not so, Messieurs Flemings?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	not	not	ADV	RB	_	4	advmod	_	_
+4	so	so	ADV	RB	_	7	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Messieurs	Messieurs	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Flemings	Flemings	PROPN	NNPS	Number=Plur	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

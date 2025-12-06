@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No,’ said Traddles.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Traddles	Traddles	PROPN	NNPS	Number=Plur	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Nothing will induce it.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Nothing	nothing	PRON	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	induce	induce	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = If I was to carry a half-hundred-weight upon it, all the way to Putney, it would be up again the moment the weight was taken off.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	carry	carry	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+7	half	half	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	hundred	hundred	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	weight	weight	NOUN	NN	Number=Sing	5	obj	_	_
+12	upon	upon	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	all	all	DET	PDT	_	17	det:predet	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	way	way	NOUN	NN	Number=Sing	31	obl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	Putney	Putney	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	31	punct	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj:pass	_	_
+22	would	would	AUX	MD	VerbForm=Fin	31	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	_	_
+24	up	up	ADV	RB	_	25	advmod	_	_
+25	again	again	ADV	RB	_	31	advmod	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	moment	moment	NOUN	NN	Number=Sing	31	nsubj:pass	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	weight	weight	NOUN	NN	Number=Sing	31	nsubj:pass	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+32	off	off	ADP	RP	_	31	compound:prt	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 4
+# text = You have no idea what obstinate hair mine is, Copperfield.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	2	obj	_	_
+5	what	what	PRON	WP	PronType=Int	11	obj	_	_
+6	obstinate	obstinate	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hair	hair	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	mine	mine	PRON	PRP	_	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	Copperfield	Copperfield	PROPN	NNP	Number=Sing	4	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I am quite a fretful porcupine.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	quite	quite	DET	PDT	_	6	det:predet	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	fretful	fretful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	porcupine	porcupine	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

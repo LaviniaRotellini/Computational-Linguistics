@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Tom, rather falteringly.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	rather	rather	ADV	RB	_	9	advmod	_	_
+9	falteringly	falteringly	ADV	RB	Degree=Pos	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “I was in Practice.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	Practice	practice	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = But Mr Stelling says I write a good hand, uncle.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	Mr	Mr	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Stelling	Stelling	PROPN	NNP	Number=Sing	2	flat	_	_
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	write	write	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	hand	hand	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	uncle	uncle	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = That’s my writing,” added Tom, laying on the table a copy of the list he had made yesterday.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	writing	writing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	laying	laye	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	table	table	NOUN	NN	Number=Sing	10	obl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	copy	copy	NOUN	NN	Number=Sing	10	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	list	list	NOUN	NN	Number=Sing	15	nmod	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	made	make	VERB	VBN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	yesterday	yesterday	NOUN	NN	Number=Sing	21	obl:tmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

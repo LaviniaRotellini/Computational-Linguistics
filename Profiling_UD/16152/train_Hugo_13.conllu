@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Bishop did not omit his pastoral visits because he had converted his carriage into alms.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Bishop	Bishop	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	omit	omit	VERB	VB	VerbForm=Inf	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	pastoral	pastoral	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	visits	visit	NOUN	NNS	Number=Plur	5	obj	_	_
+9	because	because	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	converted	convert	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	carriage	carriage	NOUN	NN	Number=Sing	12	obj	_	_
+15	into	into	ADP	IN	_	16	case	_	_
+16	alms	alm	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The diocese of D—— is a fatiguing one.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	diocese	diocese	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	D——	d——	NOUN	NN	Number=Sing	2	nmod	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	fatiguing	fatiguing	NOUN	NN	Number=Sing	0	root	_	_
+8	one	one	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = There are very few plains and a great many mountains; hardly any roads, as we have just seen; thirty-two curacies, forty-one vicarships, and two hundred and eighty-five auxiliary chapels.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	2	advmod	_	_
+4	few	few	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	plains	plain	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+8	great	great	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	mountains	mountain	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	10	punct	_	_
+12	hardly	hardly	ADV	RB	_	14	advmod	_	_
+13	any	any	DET	DT	_	14	det	_	_
+14	roads	roads	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	as	as	SCONJ	IN	_	20	mark	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	just	just	ADV	RB	_	20	advmod	_	_
+20	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	20	punct	_	_
+22	thirty	thirty	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+23	-	-	SYM	SYM	_	24	case	_	SpaceAfter=No
+24	two	two	NUM	CD	NumType=Card	22	nmod	_	_
+25	curacies	curacy	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	forty	forty	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+29	one	one	NUM	CD	NumType=Card	30	nummod	_	_
+30	vicarships	vicarship	NOUN	NNS	Number=Plur	25	appos	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	two	two	NUM	CD	NumType=Card	34	nummod	_	_
+34	hundred	hundred	NUM	CD	NumType=Card	25	conj	_	_
+35	and	and	CCONJ	CC	_	40	cc	_	_
+36	eighty	eighty	NUM	CD	NumType=Card	40	nummod	_	SpaceAfter=No
+37	-	-	SYM	SYM	_	38	case	_	SpaceAfter=No
+38	five	five	NUM	CD	NumType=Card	36	nmod	_	_
+39	auxiliary	auxiliary	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	chapels	chapel	NOUN	NNS	Number=Plur	25	conj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = To visit all these is quite a task.
+1	To	to	PART	TO	_	2	mark	_	_
+2	visit	visit	VERB	VB	VerbForm=Inf	8	advcl	_	_
+3	all	all	DET	PDT	_	4	det	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	2	obj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	quite	quite	DET	PDT	_	8	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	task	task	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

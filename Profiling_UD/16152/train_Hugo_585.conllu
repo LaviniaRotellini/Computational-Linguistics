@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I want to know where he is going,” said he, and he set out to follow them at a distance.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	know	know	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	where	where	ADV	WRB	PronType=Int	9	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	follow	follow	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	distance	distance	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Two things were left on his hands, an irony in the shape of the paper signed _Fantine_, and a consolation, the fifteen hundred francs.
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	things	thing	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hands	hand	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	irony	irony	NOUN	NN	Number=Sing	4	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	shape	shape	NOUN	NN	Number=Sing	10	nmod	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	paper	paper	NOUN	NN	Number=Sing	13	nmod	_	_
+17	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	_Fantine	_Fantine	PROPN	NNP	Number=Sing	17	xcomp	_	SpaceAfter=No
+19	_	_	SYM	NFP	_	4	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	consolation	consolation	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	fifteen	fifteen	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	hundred	hundred	NUM	CD	NumType=Card	28	nummod	_	_
+28	francs	franc	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

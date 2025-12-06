@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The young man wore a round hat and a white cravat; and his long black frock-coat was buttoned up to the neck.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	round	round	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hat	hat	NOUN	NN	Number=Sing	4	obj	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	white	white	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	cravat	cravat	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	and	and	CCONJ	CC	_	21	cc	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+15	long	long	ADJ	JJ	Degree=Pos	19	amod	_	_
+16	black	black	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	frock	frock	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	coat	coat	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	buttoned	buttone	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+22	up	up	ADP	RP	_	21	compound:prt	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	neck	neck	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He had fair hair, which he wore _en couronne_.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	fair	fair	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	hair	hair	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	obj	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+9	_en	_en	NUM	CD	NumType=Card	10	nummod	_	_
+10	couronne	couronne	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He had a somewhat feminine cast of features, a clear eye, a grave manner.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	somewhat	somewhat	ADV	RB	_	5	advmod	_	_
+5	feminine	feminine	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cast	cast	NOUN	NN	Number=Sing	2	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	features	feature	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	clear	clear	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	eye	eye	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	grave	grave	NOUN	NN	Number=Sing	16	compound	_	_
+16	manner	manner	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

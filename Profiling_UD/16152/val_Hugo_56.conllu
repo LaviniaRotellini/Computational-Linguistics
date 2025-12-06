@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This unshapely block produced a great effect upon Mess Lethierry's imagination.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	unshapely	unshapely	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	block	block	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	produced	produce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	effect	effect	NOUN	NN	Number=Sing	4	obj	_	_
+8	upon	upon	ADP	IN	_	12	case	_	_
+9	Mess	mess	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Lethierry	Lethierry	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	_
+12	imagination	imagination	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He looked upon it with an almost superstitious admiration.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	upon	upon	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	with	with	ADP	IN	_	9	case	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	almost	almost	ADV	RB	_	8	advmod	_	_
+8	superstitious	superstitious	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	admiration	admiration	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = His faith in it was complete.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	faith	faith	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	complete	complete	ADJ	JJ	Degree=Pos	2	acl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He was able to trace in it an excellent resemblance to Déruchette.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	trace	trace	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	excellent	excellent	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	resemblance	resemblance	NOUN	NN	Number=Sing	5	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	Déruchette	Déruchette	VERB	VB	VerbForm=Inf	10	acl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Thus the dogma resembles the truth, and the idol the deity.
+1	Thus	thus	ADV	RB	_	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	dogma	dogma	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	resembles	resemble	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	truth	truth	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	idol	idol	NOUN	NN	Number=Sing	4	conj	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	deity	deity	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

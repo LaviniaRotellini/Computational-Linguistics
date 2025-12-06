@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘That’s a good fellow!
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = My dear Daisy,’ said Steerforth, laughing.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	dear	dear	NOUN	NN	Number=Sing	3	compound	_	_
+3	Daisy	daisy	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Steerforth	Steerforth	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	laughing	laugh	VERB	VBG	VerbForm=Ger	6	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = ‘I have not the least desire or intention to distinguish myself in that way.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	least	least	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	desire	desire	NOUN	NN	Number=Sing	0	root	_	_
+8	or	or	CCONJ	CC	_	9	cc	_	_
+9	intention	intention	NOUN	NN	Number=Sing	7	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	distinguish	distinguish	VERB	VB	VerbForm=Inf	7	acl	_	_
+12	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = I have done quite sufficient for my purpose.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	quite	quite	ADV	RB	_	5	advmod	_	_
+5	sufficient	sufficient	ADJ	JJ	Degree=Pos	3	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	purpose	purpose	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I find that I am heavy company enough for myself as I am.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	heavy	heavy	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	company	company	NOUN	NN	Number=Sing	2	obj	_	_
+8	enough	enough	ADV	RB	_	7	advmod	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obl	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

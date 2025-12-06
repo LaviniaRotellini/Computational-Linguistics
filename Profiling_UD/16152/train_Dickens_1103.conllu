@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = These two ladies now emerged from their retirement, and proposed to take Dora to live at Putney.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	ladies	lady	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	now	now	ADV	RB	_	5	advmod	_	_
+5	emerged	emerge	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	retirement	retirement	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	take	take	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	Dora	Dora	PROPN	NNP	Number=Sing	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	live	live	VERB	VB	VerbForm=Inf	13	advcl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	Putney	Putney	PROPN	NNP	Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Dora, clinging to them both, and weeping, exclaimed, ‘O yes, aunts!
+1	Dora	Dora	PROPN	NNP	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	clinging	cling	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	both	both	CCONJ	CC	_	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	weeping	weep	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+14	O	o	INTJ	UH	_	11	discourse	_	_
+15	yes	yes	INTJ	UH	_	17	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	aunts	aunt	NOUN	NNS	Number=Plur	11	ccomp	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = Please take Julia Mills and me and Jip to Putney!’
+1	Please	please	INTJ	UH	_	2	discourse	_	_
+2	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	Julia	Julia	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Mills	Mills	PROPN	NNP	Number=Sing	3	flat	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Jip	Jip	PROPN	NNP	Number=Sing	2	conj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Putney	Putney	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = So they went, very soon after the funeral.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	soon	soon	ADV	RB	Degree=Pos	3	advmod	_	_
+7	after	after	SCONJ	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	funeral	funeral	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

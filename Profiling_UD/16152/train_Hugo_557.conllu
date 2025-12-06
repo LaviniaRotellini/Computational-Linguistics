@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cosette gazed at the marvellous doll in a sort of terror.
+1	Cosette	Cosette	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	gazed	gaze	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	at	at	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	marvellous	marvellous	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	doll	doll	NOUN	NN	Number=Sing	2	obl	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	sort	sort	NOUN	NN	Number=Sing	2	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	terror	terror	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Her face was still flooded with tears, but her eyes began to fill, like the sky at daybreak, with strange beams of joy.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	still	still	ADV	RB	_	5	advmod	_	_
+5	flooded	flood	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	tears	tear	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	eyes	eye	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	fill	fill	VERB	VB	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	like	like	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	sky	sky	NOUN	NN	Number=Sing	5	obl	_	_
+19	at	at	ADP	IN	_	20	case	_	_
+20	daybreak	daybreak	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	18	punct	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	strange	strange	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	beams	beams	NOUN	NNS	Number=Plur	18	nmod	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	joy	joy	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = What she felt at that moment was a little like what she would have felt if she had been abruptly told, “Little one, you are the Queen of France.”
+1	What	what	PRON	WP	PronType=Int	3	obj	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	moment	moment	NOUN	NN	Number=Sing	3	obl	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+10	like	like	SCONJ	IN	_	15	mark	_	_
+11	what	what	PRON	WP	PronType=Int	15	obj	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	have	have	AUX	VB	VerbForm=Inf	15	aux	_	_
+15	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part	30	advcl	_	_
+16	if	if	SCONJ	IN	_	21	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+20	abruptly	abruptly	ADV	RB	_	21	advmod	_	_
+21	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	30	punct	_	_
+23	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+24	Little	little	ADV	RB	Degree=Pos	25	advmod	_	_
+25	one	one	NUM	CD	NumType=Card	30	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	_
+28	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	Queen	Queen	PROPN	NNP	Number=Sing	3	obl	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	France	France	PROPN	NNP	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

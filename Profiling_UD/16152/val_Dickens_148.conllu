@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I was acquainted with all this, you know,’ said Mr. Bounderby, ‘except the last clause, long ago.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	acquainted	acquaint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Bounderby	Bounderby	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	14	punct	_	_
+17	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+18	except	except	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	last	last	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	clause	clause	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	14	punct	_	_
+23	long	long	ADV	RB	Degree=Pos	24	advmod	_	_
+24	ago	ago	ADV	RB	_	14	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = It’s a bad job; that’s what it is.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	job	job	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+8	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	what	what	PRON	WP	PronType=Int	8	ccomp	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = You had better have been satisfied as you were, and not have got married.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	6	aux	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+6	satisfied	satisfy	ADJ	JJ	Degree=Pos	0	root	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	not	not	ADV	RB	_	14	advmod	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	got	get	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+15	married	married	VERB	VBN	Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = However, it’s too late to say that.’
+1	However	however	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	late	late	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	say	say	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

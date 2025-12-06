@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When Clubin found himself quite alone, that cavern in which his soul had so long lain hidden, was opened.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	Clubin	Clubin	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	alone	alone	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	21	punct	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	cavern	cavern	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	14	obl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	soul	soul	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	long	long	ADV	RB	Degree=Pos	21	advmod	_	_
+17	lain	lain	ADP	IN	_	18	case	_	_
+18	hidden	hidden	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = He enjoyed a moment of delicious liberty.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	enjoyed	enjoy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	moment	moment	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	delicious	delicious	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	liberty	liberty	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He revelled for that moment in the open air.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	revelled	revell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	moment	moment	NOUN	NN	Number=Sing	2	obl	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	open	open	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	air	air	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He gave vent to himself in one long breath.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	vent	vent	NOUN	NN	Number=Sing	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+8	long	long	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	breath	breath	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

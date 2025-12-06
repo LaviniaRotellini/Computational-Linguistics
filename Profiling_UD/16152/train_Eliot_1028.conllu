@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But I had once meant better than that, and I am come back to my old intention.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	once	once	ADV	RB	NumType=Mult	6	advmod	_	_
+6	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	6	xcomp	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	come	come	VERB	VB	VerbForm=Inf	6	conj	_	_
+15	back	back	ADV	RB	_	14	advmod	_	_
+16	to	to	ADP	IN	_	19	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	old	old	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	intention	intention	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I thought that I could hardly _secure myself_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	hardly	hardly	ADV	RB	_	7	advmod	_	_
+7	_secure	_secure	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
+9	_	_	SYM	NFP	_	2	punct	_	_
+
+# sent_id = 3
+# text = in it better, Fred, than by telling you just what had gone on in me.
+1	in	in	ADP	IN	_	2	case	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Fred	Fred	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	14	punct	_	_
+7	than	than	ADP	IN	_	9	mark	_	_
+8	by	by	SCONJ	IN	_	9	mark	_	_
+9	telling	tell	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	what	what	PRON	WP	PronType=Int	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	_
+15	on	on	ADP	RP	_	14	compound:prt	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And now, do you understand me?
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	now	now	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	understand	understand	VERB	VB	VerbForm=Inf	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = I want you to make the happiness of her life and your own, and if there is any chance that a word of warning from me may turn aside any risk to the contrary—well, I have uttered it.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	make	make	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	happiness	happiness	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	own	own	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	41	punct	_	_
+15	and	and	CCONJ	CC	_	41	cc	_	_
+16	if	if	SCONJ	IN	_	18	mark	_	_
+17	there	there	PRON	EX	_	18	expl	_	_
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
+19	any	any	DET	DT	_	20	det	_	_
+20	chance	chance	NOUN	NN	Number=Sing	18	nsubj	_	_
+21	that	that	SCONJ	IN	_	29	mark	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	word	word	NOUN	NN	Number=Sing	29	nsubj	_	_
+24	of	of	SCONJ	IN	_	25	mark	_	_
+25	warning	warning	VERB	VBG	VerbForm=Ger	23	acl	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obl	_	_
+28	may	may	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	turn	turn	VERB	VB	VerbForm=Inf	20	acl	_	_
+30	aside	aside	ADP	RP	_	32	case	_	_
+31	any	any	DET	DT	_	32	det	_	_
+32	risk	risk	NOUN	NN	Number=Sing	29	obl	_	_
+33	to	to	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	contrary	contrary	ADJ	JJ	Degree=Pos	32	nmod	_	SpaceAfter=No
+36	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+37	well	well	INTJ	UH	_	41	discourse	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	41	punct	_	_
+39	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+40	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux	_	_
+41	uttered	utter	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+42	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	obj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+44	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

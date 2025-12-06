@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well said, Mas’r Davy bor’!’ cried Ham, in an ecstasy.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	3	discourse	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Mas’r	Mas’r	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Davy	Davy	PROPN	NNP	Number=Sing	7	compound	_	_
+7	bor	bor	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	’!	’!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	3	punct	_	_
+10	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	Ham	Ham	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	ecstasy	ecstasy	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = ‘Hoorah!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hoorah	hoorah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Well said!
+1	Well	well	INTJ	UH	_	2	discourse	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Nor more you wouldn’t!
+1	Nor	nor	PROPN	NNP	Number=Sing	0	root	_	_
+2	more	more	ADV	RBR	_	5	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	1	parataxis	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Hor!
+1	Hor	Hor	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Hor!’--
+1	Hor	Hor	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	’--	’--	PUNCT	.	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = Here he returned Mr. Peggotty’s back-hander, and little Em’ly got up and kissed Mr.
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nmod:poss	_	_
+5	Peggotty	Peggotty	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	back	back	ADV	RB	_	9	advmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	hander	hander	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Em	em	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	’ly	’ly	ADV	RB	_	15	advmod	_	_
+15	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+16	up	up	ADV	RB	_	15	advmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	18	obj	_	_
+
+# sent_id = 8
+# text = Peggotty.
+1	Peggotty	Peggotty	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = ‘And how’s your friend, sir?’ said Mr. Peggotty to me.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	friend	friend	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	sir	sir	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	6	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	11	obj	_	_
+13	Peggotty	Peggotty	PROPN	NNP	Number=Sing	12	flat	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Irwine gave up his intention of sending a letter to meet Arthur, since it would not now hasten his return:
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Irwine	Irwine	PROPN	NNP	Number=Sing	1	flat	_	_
+3	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	up	up	ADP	IN	_	3	compound:prt	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	intention	intention	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	sending	send	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	letter	letter	NOUN	NN	Number=Sing	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	meet	meet	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	Arthur	Arthur	PROPN	NNP	Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	since	since	SCONJ	IN	_	20	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	not	not	PART	RB	_	20	advmod	_	_
+19	now	now	ADV	RB	_	20	advmod	_	_
+20	hasten	hasten	VERB	VB	VerbForm=Inf	3	advcl	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	return	return	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 2
+# text = the news of his grandfather’s death would bring him as soon as he could possibly come.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	news	news	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	grandfather	grandfather	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	death	death	NOUN	NN	Number=Sing	2	nmod	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	soon	soon	ADV	RB	Degree=Pos	9	advmod	_	_
+13	as	as	SCONJ	IN	_	17	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	possibly	possibly	ADV	RB	_	17	advmod	_	_
+17	come	come	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = He could go to bed now and get some needful rest, before the time came for the morning’s heavy duty of carrying his sickening news to the Hall Farm and to Adam’s home.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	bed	be	NOUN	NN	Number=Sing	3	obl	_	_
+6	now	now	ADV	RB	_	3	advmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	get	get	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	some	some	DET	DT	_	11	det	_	_
+10	needful	needful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	rest	rest	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	before	before	SCONJ	IN	_	16	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	time	time	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+17	for	for	ADP	IN	_	22	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	morning	morning	NOUN	NN	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	heavy	heavy	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	duty	duty	NOUN	NN	Number=Sing	16	obl	_	_
+23	of	of	SCONJ	IN	_	24	mark	_	_
+24	carrying	carry	VERB	VBG	VerbForm=Ger	22	acl	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	sickening	sickening	VERB	VBG	VerbForm=Ger	27	amod	_	_
+27	news	news	NOUN	NN	Number=Sing	24	obj	_	_
+28	to	to	ADP	IN	_	31	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	Hall	hall	PROPN	NNP	Number=Sing	31	compound	_	_
+31	Farm	farm	PROPN	NNP	Number=Sing	24	obl	_	_
+32	and	and	CCONJ	CC	_	36	cc	_	_
+33	to	to	ADP	IN	_	36	case	_	_
+34	Adam	Adam	PROPN	NNP	Number=Sing	36	nmod:poss	_	SpaceAfter=No
+35	’s	's	PART	POS	_	34	case	_	_
+36	home	home	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

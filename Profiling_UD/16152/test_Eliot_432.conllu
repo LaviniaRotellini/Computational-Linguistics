@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What a fine old kitchen this is!” said Mr. Donnithorne, looking round admiringly.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	9	obj	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	fine	fine	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	old	old	ADJ	JJ	Degree=Pos	2	appos	_	_
+6	kitchen	kitchen	SCONJ	IN	Typo=Yes	9	mark	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+13	Donnithorne	Donnithorne	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	looking	look	VERB	VBG	VerbForm=Ger	11	parataxis	_	_
+16	round	round	ADV	RB	_	15	advmod	_	_
+17	admiringly	admiringly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = He always spoke in the same deliberate, well-chiselled, polite way, whether his words were sugary or venomous.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	same	same	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	deliberate	deliberate	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	well	well	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	chiselled	chisell	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	polite	polite	NOUN	NN	Number=Sing	14	compound	_	_
+14	way	way	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	whether	whether	SCONJ	IN	_	20	mark	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	words	word	NOUN	NNS	Number=Plur	20	nsubj	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	sugary	sugary	ADJ	JJ	Degree=Pos	3	advcl	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	venomous	venomous	ADJ	JJ	Degree=Pos	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = “And you keep it so exquisitely clean, Mrs. Poyser.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	4	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	so	so	ADV	RB	_	8	advmod	_	_
+7	exquisitely	exquisitely	ADV	RB	_	8	advmod	_	_
+8	clean	clean	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	4	conj	_	_
+11	Poyser	Poyser	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I like these premises, do you know, beyond any on the estate.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	premises	premise	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VB	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	beyond	beyond	ADP	IN	_	11	case	_	_
+11	any	any	DET	DT	_	8	obl	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	estate	estate	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

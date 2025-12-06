@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The judge speaks in the name of justice; the priest speaks in the name of pity, which is nothing but a more lofty justice.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	judge	judge	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	name	name	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	justice	justice	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	priest	priest	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	name	name	NOUN	NN	Number=Sing	13	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	pity	pity	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	nothing	nothing	PRON	NN	Number=Sing	16	acl:relcl	_	_
+23	but	but	ADP	IN	_	27	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	lofty	lofy	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	justice	justice	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A thunderbolt should commit no error.”
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	thunderbolt	thunderbolt	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	commit	commit	VERB	VB	VerbForm=Inf	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	error	error	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = And he added, regarding the member of the Convention steadily the while, “Louis XVII.?”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	regarding	regard	VERB	VBG	VerbForm=Ger	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	member	member	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Convention	convention	PROPN	NNP	Number=Sing	7	nmod	_	_
+11	steadily	steadily	ADV	RB	_	13	advmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	while	while	NOUN	NN	Number=Sing	14	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	Louis	Louis	PROPN	NNP	Number=Sing	7	appos	_	_
+17	XVII	XVII	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.?	.?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

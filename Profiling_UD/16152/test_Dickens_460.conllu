@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Wopsle shut his eyes, and opened them again; performing both ceremonies very slowly.
+1	Mr	Mr	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	Wopsle	Wopsle	PROPN	NNP	Number=Sing	1	flat	_	_
+4	shut	shut	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	eyes	eye	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	again	again	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	performing	perform	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+14	both	both	DET	DT	_	15	det	_	_
+15	ceremonies	ceremony	NOUN	NNS	Number=Plur	13	obj	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	slowly	slowly	ADV	RB	_	13	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “You must have observed, gentlemen,” said he, “an ignorant and a blatant ass, with a rasping throat and a countenance expressive of low malignity, who went through—I will not say sustained—the rôle (if I may use a French expression) of Claudius, King of Denmark.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	observed	observed	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	gentlemen	gentleman	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	ignorant	ignorant	NOUN	NN	Number=Sing	40	nsubj	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	blatant	blatant	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	ass	ass	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	with	with	ADP	IN	_	24	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	rasping	rasping	NOUN	NN	Number=Sing	24	compound	_	_
+24	throat	throat	NOUN	NN	Number=Sing	15	nmod	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	countenance	countenance	NOUN	NN	Number=Sing	24	conj	_	_
+28	expressive	expressive	ADJ	JJ	Degree=Pos	27	amod	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	low	low	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	malignity	malignity	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	_	_
+33	who	who	PRON	WP	PronType=Rel	34	nsubj	_	_
+34	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	acl:relcl	_	_
+35	through	through	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	—	-	PUNCT	,	_	34	punct	_	SpaceAfter=No
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+38	will	will	AUX	MD	VerbForm=Fin	40	aux	_	_
+39	not	not	PART	RB	_	40	advmod	_	_
+40	say	say	VERB	VB	VerbForm=Inf	45	parataxis	_	_
+41	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	ccomp	_	SpaceAfter=No
+42	—	-	PUNCT	,	_	41	punct	_	SpaceAfter=No
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	rôle	rôle	NOUN	NN	Number=Sing	41	obj	_	_
+45	(	(	PUNCT	-LRB-	_	46	punct	_	SpaceAfter=No
+46	if	if	SCONJ	IN	_	49	mark	_	_
+47	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	49	nsubj	_	_
+48	may	may	AUX	MD	VerbForm=Fin	49	aux	_	_
+49	use	use	VERB	VB	VerbForm=Inf	10	advcl	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+51	French	french	ADJ	JJ	Degree=Pos	52	amod	_	_
+52	expression	expression	NOUN	NN	Number=Sing	49	obj	_	SpaceAfter=No
+53	)	)	PUNCT	-RRB-	_	49	punct	_	_
+54	of	of	ADP	IN	_	55	case	_	_
+55	Claudius	Claudius	PROPN	NNP	Number=Sing	49	obl	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	57	punct	_	_
+57	King	King	PROPN	NNP	Number=Sing	55	appos	_	_
+58	of	of	ADP	IN	_	59	case	_	_
+59	Denmark	Denmark	PROPN	NNP	Number=Sing	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = That is his employer, gentlemen.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	employer	employer	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	gentlemen	gentlemen	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Such is the profession!”
+1	Such	such	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	profession	profession	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

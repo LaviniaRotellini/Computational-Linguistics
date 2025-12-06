@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, he dreams footnotes, and they run away with all his brains.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	dreams	dream	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	footnotes	footnote	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	run	run	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	away	away	ADV	RB	_	10	advmod	_	_
+12	with	with	ADP	IN	_	15	case	_	_
+13	all	all	DET	DT	_	15	det:predet	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	brains	brain	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = They say, when he was a little boy, he made an abstract of ‘Hop o’ my Thumb,’ and he has been making abstracts ever since.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	boy	boy	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	abstract	abstract	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	Hop	hop	PROPN	NNP	Number=Sing	14	nmod	_	_
+18	o	of	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	17	punct	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	Thumb	Thumb	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	21	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	been	be	AUX	VBN	Tense=Past|VerbForm=Part	28	aux	_	_
+28	making	make	VERB	VBG	VerbForm=Ger	2	conj	_	_
+29	abstracts	abstract	NOUN	NNS	Number=Plur	28	obj	_	_
+30	ever	ever	ADV	RB	_	28	advmod	_	_
+31	since	since	ADV	RB	_	28	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ugh!
+1	Ugh	ugh	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = And that is the man Humphrey goes on saying that a woman may be happy with.”
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	6	compound	_	_
+6	Humphrey	Humphrey	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	on	on	SCONJ	IN	_	9	mark	_	_
+9	saying	say	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	woman	woman	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	happy	happy	ADJ	JJ	Degree=Pos	9	ccomp	_	_
+16	with	with	ADP	IN	_	15	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

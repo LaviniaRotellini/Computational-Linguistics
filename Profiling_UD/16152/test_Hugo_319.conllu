@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “For some time,” he said with a bitter smile, “I have failed in all my experiments!
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	For	for	ADP	IN	_	4	case	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	bitter	bitter	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	smile	smile	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	failed	fail	VERB	VBN	Tense=Past|VerbForm=Part	8	parataxis	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	all	all	DET	PDT	_	21	det:predet	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	experiments	experiment	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = one fixed idea possesses me, and sears my brain like fire.
+1	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	idea	idea	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	possesses	possess	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	sears	sear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	brain	brain	NOUN	NN	Number=Sing	8	obj	_	_
+11	like	like	ADP	IN	_	12	case	_	_
+12	fire	fire	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have not even been able to discover the secret of Cassiodorus, whose lamp burned without wick and without oil.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	even	even	ADV	RB	_	6	advmod	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+6	able	able	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	discover	discover	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	secret	secret	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Cassiodorus	Cassiodorus	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	15	nmod:poss	_	_
+15	lamp	lamp	NOUN	NN	Number=Sing	6	obj	_	_
+16	burned	burn	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	_	_
+17	without	without	ADP	IN	_	18	case	_	_
+18	wick	wick	NOUN	NN	Number=Sing	16	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	without	without	ADP	IN	_	21	case	_	_
+21	oil	oil	NOUN	NN	Number=Sing	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = A simple matter, nevertheless—”
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	simple	simple	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	matter	matter	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	nevertheless	nevertheless	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Quasimodo ascended the tower staircase for the sake of ascending it, for the sake of seeing why the priest was ascending it.
+1	Quasimodo	Quasimodo	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	ascended	ascend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	tower	tower	NOUN	NN	Number=Sing	5	compound	_	_
+5	staircase	staircase	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	sake	sake	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	SCONJ	IN	_	10	mark	_	_
+10	ascending	ascend	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	sake	sake	NOUN	NN	Number=Sing	2	obl	_	_
+16	of	of	SCONJ	IN	_	17	mark	_	_
+17	seeing	see	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	why	why	ADV	WRB	PronType=Int	22	advmod	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	priest	priest	NOUN	NN	Number=Sing	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	ascending	ascend	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Moreover, the poor bellringer did not know what he (Quasimodo) should do, what he should say, what he wished.
+1	Moreover	moreover	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	bellringer	bellringer	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+9	what	what	PRON	WP	PronType=Int	8	obj	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+11	(	(	PUNCT	-LRB-	_	12	punct	_	SpaceAfter=No
+12	Quasimodo	Quasimodo	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	punct	_	_
+14	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	do	do	VERB	VB	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	what	what	PRON	WP	PronType=Int	20	obj	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	say	say	VERB	VB	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	8	punct	_	_
+22	what	what	PRON	WP	PronType=Int	24	obj	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = He was full of fury and full of fear.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	full	full	ADJ	JJ	Degree=Pos	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	fury	fury	NOUN	NN	Number=Sing	3	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	full	full	ADJ	JJ	Degree=Pos	3	conj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	fear	fear	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The archdeacon and the gypsy had come into conflict in his heart.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	archdeacon	archdeacon	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	gypsy	gypsy	NOUN	NN	Number=Sing	2	conj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	into	into	ADP	IN	_	9	case	_	_
+9	conflict	conflict	NOUN	NN	Number=Sing	7	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	heart	heart	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

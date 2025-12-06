@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Good heavens!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	heavens	heaven	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = she exclaimed, driven to bay, and in a voice that was full of tears in despite of her efforts, “I swear to you, monseigneur, that ’twas a cart which broke those bars.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	bay	bay	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	14	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	voice	voice	NOUN	NN	Number=Sing	14	nmod	_	_
+12	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	full	full	ADJ	JJ	Degree=Pos	2	conj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	tears	tear	NOUN	NNS	Number=Plur	14	obl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	despite	despite	NOUN	NN	Number=Sing	16	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	efforts	effort	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	swear	swear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	25	punct	_	_
+29	monseigneur	monseigneur	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	that	that	PRON	DT	Number=Sing|PronType=Dem	35	nsubj	_	_
+32	’	'	PUNCT	''	_	35	punct	_	SpaceAfter=No
+33	twas	tbe	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	cart	cart	NOUN	NN	Number=Sing	25	appos	_	_
+36	which	which	PRON	WDT	PronType=Rel	37	nsubj	_	_
+37	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	acl:relcl	_	_
+38	those	those	DET	DT	Number=Plur|PronType=Dem	39	det	_	_
+39	bars	bar	NOUN	NNS	Number=Plur	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You hear the man who saw it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	2	obj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And then, what has that to do with your gypsy?”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	what	what	PRON	WP	PronType=Int	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	gypsy	gypsy	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

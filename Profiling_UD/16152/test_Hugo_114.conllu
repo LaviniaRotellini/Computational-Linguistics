@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Come, make haste,” said the king, stamping upon his cask, which resounded like a huge drum!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Come	come	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	haste	haste	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	king	king	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	stamping	stamp	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	upon	upon	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	cask	cask	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	resounded	resound	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+19	like	like	ADP	IN	_	22	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	huge	huge	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	drum	drum	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Search the manikin, and let there be an end to this!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Search	search	VERB	VB	VerbForm=Inf	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	manikin	manikin	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	let	let	VERB	VB	VerbForm=Inf	2	conj	_	_
+8	there	there	PRON	EX	_	7	obj	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	end	end	NOUN	NN	Number=Sing	7	xcomp	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I warn you for the last time, that if I hear a single bell, you will take the place of the manikin.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warn	warn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	obj	_	_
+4	for	for	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	last	last	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	that	that	SCONJ	IN	_	19	mark	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	single	single	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	bell	bell	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	take	take	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	place	place	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	manikin	manikin	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

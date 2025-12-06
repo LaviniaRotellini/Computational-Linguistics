@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Come!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I know what you mean,’ cried Mr. Wickfield.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	what	what	PRON	WP	PronType=Int	5	obj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	_
+8	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obj	_	_
+10	Wickfield	Wickfield	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘You shall not be oppressed by the receipt of favours, Miss Trotwood.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj:pass	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	oppressed	oppress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	receipt	receipt	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	favours	favour	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	Miss	miss	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Trotwood	Trotwood	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = You may pay for him, if you like.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = We won’t be hard about terms, but you shall pay if you will.’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	hard	hard	ADJ	JJ	Degree=Pos	0	root	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	terms	term	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+11	shall	shall	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	pay	pay	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	12	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

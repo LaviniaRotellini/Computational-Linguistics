@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was no other than Tommy Traddles who gave me this piece of intelligence.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	other	other	ADJ	JJ	Degree=Pos	0	root	_	_
+5	than	than	ADP	IN	_	7	case	_	_
+6	Tommy	Tommy	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Traddles	Traddles	PROPN	NNPS	Number=Plur	4	obl	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	piece	piece	NOUN	NN	Number=Sing	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	intelligence	intelligence	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He was the first boy who returned.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He introduced himself by informing me that I should find his name on the right-hand corner of the gate, over the top-bolt; upon that I said, ‘Traddles?’ to which he replied, ‘The same,’ and then he asked me for a full account of myself and family.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	introduced	introduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	by	by	SCONJ	IN	_	5	mark	_	_
+5	informing	inform	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	find	find	VERB	VB	VerbForm=Inf	2	acl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	name	name	NOUN	NN	Number=Sing	10	obj	_	_
+13	on	on	ADP	IN	_	18	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+15	right	right	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	hand	hand	NOUN	NN	Number=Sing	18	compound	_	_
+18	corner	corner	NOUN	NN	Number=Sing	10	obl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	gate	gate	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	10	punct	_	_
+23	over	over	ADP	IN	_	27	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	top	top	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	bolt	bolt	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	2	punct	_	_
+29	upon	upon	ADP	IN	_	30	case	_	_
+30	that	that	PRON	WDT	PronType=Rel	32	obl	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	32	punct	_	_
+34	‘	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
+35	Traddles	Traddles	PROPN	NNPS	Number=Plur	38	appos	_	SpaceAfter=No
+36	?	?	PUNCT	.	_	35	punct	_	SpaceAfter=No
+37	’	'	PUNCT	''	_	35	punct	_	_
+38	to	to	ADP	IN	_	39	case	_	_
+39	which	which	PRON	WDT	PronType=Rel	41	obl	_	_
+40	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+41	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	41	punct	_	_
+43	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+44	The	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	same	same	ADJ	JJ	Degree=Pos	2	appos	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	47	punct	_	SpaceAfter=No
+47	’	'	PUNCT	''	_	45	punct	_	_
+48	and	and	CCONJ	CC	_	51	cc	_	_
+49	then	then	ADV	RB	PronType=Dem	51	advmod	_	_
+50	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
+51	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	conj	_	_
+52	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	51	obj	_	_
+53	for	for	ADP	IN	_	56	case	_	_
+54	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	_
+55	full	full	ADJ	JJ	Degree=Pos	56	amod	_	_
+56	account	account	NOUN	NN	Number=Sing	51	obl	_	_
+57	of	of	ADP	IN	_	58	case	_	_
+58	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	56	nmod	_	_
+59	and	and	CCONJ	CC	_	60	cc	_	_
+60	family	family	NOUN	NN	Number=Sing	58	conj	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

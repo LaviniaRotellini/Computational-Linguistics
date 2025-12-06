@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lethierry examined them.
+1	Lethierry	Lethierry	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was light enough to read the figures "1000," and the word "thousand" was also perfectly visible.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	light	light	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	read	read	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	figures	figure	NOUN	NNS	Number=Plur	6	obj	_	_
+9	"	"	PUNCT	''	_	10	punct	_	SpaceAfter=No
+10	1000	1000	NUM	CD	NumType=Card	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	4	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	word	word	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	thousand	thousand	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	''	_	17	punct	_	_
+19	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+20	also	also	ADV	RB	_	19	advmod	_	_
+21	perfectly	perfectly	ADV	RB	_	22	advmod	_	_
+22	visible	visible	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mess Lethierry took the three notes, placed them on the table one beside the other, looked at them, looked at Gilliatt, stood for a moment dumb; and then began again, like an eruption after an explosion:
+1	Mess	mess	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Lethierry	Lethierry	PROPN	NNP	Number=Sing	1	flat	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	three	three	NUM	CD	NumType=Card	6	nummod	_	_
+6	notes	note	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	placed	place	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	table	table	NOUN	NN	Number=Sing	8	obl	_	_
+13	one	one	NUM	CD	NumType=Card	12	conj	_	_
+14	beside	beside	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	other	other	ADJ	JJ	Degree=Pos	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	_
+19	at	at	ADP	IN	_	20	case	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	conj	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+27	for	for	ADP	IN	_	30	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	moment	moment	NOUN	NN	Number=Sing	30	compound	_	_
+30	dumb	dumb	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	3	punct	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	then	then	ADV	RB	PronType=Dem	34	advmod	_	_
+34	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+35	again	again	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	34	punct	_	_
+37	like	like	ADP	IN	_	39	case	_	_
+38	an	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	eruption	eruption	NOUN	NN	Number=Sing	34	obl	_	_
+40	after	after	ADP	IN	_	42	case	_	_
+41	an	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+42	explosion	explosion	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+43	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\n
+

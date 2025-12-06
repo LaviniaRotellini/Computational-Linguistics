@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Well, then, I will!’ said the Old Soldier.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	Old	old	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Soldier	soldier	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s a bargain.’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	bargain	bargain	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = And having, I suppose, carried her point, she tapped the Doctor’s hand several times with her fan (which she kissed first), and returned triumphantly to her former station.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	having	have	VERB	VBG	VerbForm=Ger	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	point	point	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	tapped	tap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Doctor	Doctor	PROPN	NNP	Number=Sing	16	nmod:poss	_	SpaceAfter=No
+15	’s	's	PART	POS	_	14	case	_	_
+16	hand	hand	NOUN	NN	Number=Sing	12	obj	_	_
+17	several	several	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	times	time	NOUN	NNS	Number=Plur	12	obl:tmod	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	fan	fan	NOUN	NN	Number=Sing	12	obl	_	_
+22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
+23	which	which	PRON	WDT	PronType=Int	25	obj	_	_
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+26	first	first	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	25	punct	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+31	triumphantly	triumphantly	ADV	RB	_	30	advmod	_	_
+32	to	to	ADP	IN	_	35	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+34	former	former	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	station	station	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

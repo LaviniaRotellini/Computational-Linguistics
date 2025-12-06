@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Dinah,” said Adam mournfully, “you can’t love me so well as I love you, else you’d have no doubts.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Dinah	Dinah	INTJ	UH	_	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Adam	Adam	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	mournfully	mournfully	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	ca	can	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	love	love	VERB	VB	VerbForm=Inf	25	ccomp	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	so	so	ADV	RB	_	13	advmod	_	_
+16	well	well	ADV	RB	Degree=Pos	15	fixed	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	else	else	ADJ	JJ	Degree=Pos	21	amod	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	’d	’d	ADV	RB	_	25	advmod	_	_
+25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+26	no	no	DET	DT	_	27	det	_	_
+27	doubts	doubt	NOUN	NNS	Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But it’s natural you shouldn’t, for I’m not so good as you.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	natural	natural	ADJ	JJ	Degree=Pos	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	n’t	n’t	PART	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	for	for	SCONJ	IN	_	14	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+11	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	not	not	PART	RB	_	14	advmod	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	good	good	ADJ	JJ	Degree=Pos	4	advcl	_	_
+15	as	as	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I can’t doubt it’s right for me to love the best thing God’s ever given me to know.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	doubt	doubt	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	right	right	ADV	RB	_	9	advmod	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	love	love	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	best	best	ADJ	JJS	Degree=Sup	14	amod	_	_
+14	thing	thing	NOUN	NN	Number=Sing	11	obj	_	_
+15	God	God	PROPN	NNP	Number=Sing	18	nsubj:pass	_	SpaceAfter=No
+16	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+17	ever	ever	ADV	RB	_	18	advmod	_	_
+18	given	give	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	know	know	VERB	VB	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

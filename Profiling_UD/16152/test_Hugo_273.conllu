@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At first he held his ground.
+1	At	at	ADP	IN	_	2	case	_	_
+2	first	first	ADV	RB	_	4	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	ground	ground	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But little by little that patience which had borne up under the lash of the torturer, yielded and gave way before all these stings of insects.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	little	little	ADJ	JJ	Degree=Pos	18	conj	_	_
+3	by	by	ADP	IN	_	6	case	_	_
+4	little	little	ADJ	JJ	Degree=Pos	3	fixed	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	patience	patience	NOUN	NN	Number=Sing	2	obl	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	borne	borne	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	under	under	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	lash	lash	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	torturer	torturer	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	yielded	yield	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	_
+21	way	way	NOUN	NN	Number=Sing	20	obj	_	_
+22	before	before	SCONJ	IN	_	25	case	_	_
+23	all	all	DET	PDT	_	25	det:predet	_	_
+24	these	these	DET	DT	Number=Plur|PronType=Dem	25	det	_	_
+25	stings	sting	NOUN	NNS	Number=Plur	20	obl	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	insects	insect	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = The bull of the Asturias who has been but little moved by the attacks of the picador grows irritated with the dogs and banderilleras.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bull	bull	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Asturias	Asturias	PROPN	NNPS	Number=Plur	2	nmod	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	obl:npmod	_	_
+11	moved	move	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+12	by	by	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	attacks	attack	NOUN	NNS	Number=Plur	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	picador	picador	NOUN	NN	Number=Sing	14	nmod	_	_
+18	grows	grow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+19	irritated	irritate	VERB	VBN	Tense=Past|VerbForm=Part	18	xcomp	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	dogs	dog	NOUN	NNS	Number=Plur	19	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	banderilleras	banderillera	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

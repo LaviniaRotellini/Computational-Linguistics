@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Here something took place which Quasimodo could not see very clearly.
+1	Here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+2	something	something	PRON	NN	Number=Sing	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	place	place	NOUN	NN	Number=Sing	3	obj	_	_
+5	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+6	Quasimodo	Quasimodo	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	see	see	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	clearly	clearly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It was not because his only eye had not preserved its long range, but there was a group of soldiers which prevented his seeing everything.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	because	because	SCONJ	IN	_	10	mark	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	eye	eye	PRON	PRP	_	10	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	preserved	preserve	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	long	long	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	range	range	NOUN	NN	Number=Sing	10	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	there	there	PRON	EX	_	18	expl	_	_
+18	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	group	group	NOUN	NN	Number=Sing	18	nsubj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	soldiers	soldier	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+24	prevented	prevent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	obj	_	_
+26	seeing	see	VERB	VBG	VerbForm=Ger	24	xcomp	_	_
+27	everything	everything	PRON	NN	Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Moreover, at that moment the sun appeared, and such a flood of light overflowed the horizon that one would have said that all the points in Paris, spires, chimneys, gables, had simultaneously taken fire.
+1	Moreover	moreover	ADV	RB	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	moment	moment	NOUN	NN	Number=Sing	8	obl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sun	sun	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	and	and	CCONJ	CC	_	16	cc	_	_
+11	such	such	DET	PDT	_	13	det:predet	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	flood	flood	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	light	light	NOUN	NN	Number=Sing	13	nmod	_	_
+16	overflowed	overflow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	horizon	horizon	NOUN	NN	Number=Sing	16	obj	_	_
+19	that	that	SCONJ	IN	_	23	mark	_	_
+20	one	one	NUM	CD	NumType=Card	23	nsubj	_	_
+21	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	have	have	AUX	VB	VerbForm=Inf	23	aux	_	_
+23	said	say	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+24	that	that	SCONJ	IN	_	39	mark	_	_
+25	all	all	DET	PDT	_	27	det:predet	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	points	point	NOUN	NNS	Number=Plur	39	nsubj	_	_
+28	in	in	ADP	IN	_	29	case	_	_
+29	Paris	Paris	PROPN	NNP	Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	_
+31	spires	spire	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	_	_
+33	chimneys	chimney	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	gables	gable	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux	_	_
+38	simultaneously	simultaneously	ADV	RB	_	39	advmod	_	_
+39	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	23	ccomp	_	_
+40	fire	fire	NOUN	NN	Number=Sing	39	obj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

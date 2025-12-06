@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “‘Dime; no ves aquel caballero que hacia nosotros viene sobre un caballo rucio rodado que trae puesto en la cabeza un yelmo de oro?’
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	Dime	dime	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	ves	f	NOUN	NNS	Number=Plur	20	compound	_	_
+7	aquel	aquel	X	FW	Foreign=Yes	9	goeswith	_	_
+8	caballero	caballero	X	FW	Foreign=Yes	9	goeswith	_	_
+9	que	que	NOUN	NN	Number=Sing	20	compound	_	_
+10	hacia	hacia	X	GW	_	18	goeswith	_	_
+11	nosotros	nosotros	X	GW	_	18	goeswith	_	_
+12	viene	viene	X	GW	_	18	goeswith	_	_
+13	sobre	sobre	X	GW	_	18	goeswith	_	_
+14	un	un	X	GW	_	18	goeswith	_	_
+15	caballo	caballo	X	GW	_	18	goeswith	_	_
+16	rucio	rucio	X	GW	_	18	goeswith	_	_
+17	rodado	rodado	X	AFX	_	18	goeswith	_	_
+18	que	que	NOUN	NN	Number=Sing	20	compound	_	_
+19	trae	trae	NOUN	NN	Number=Sing	20	compound	_	_
+20	puesto	puesto	NOUN	NN	Number=Sing	3	appos	_	_
+21	en	en	X	GW	_	27	punct	_	_
+22	la	la	X	GW	_	27	punct	_	_
+23	cabeza	cabeza	X	GW	_	27	punct	_	_
+24	un	un	X	GW	_	27	punct	_	_
+25	yelmo	yelmo	X	FW	Foreign=Yes	27	punct	_	_
+26	de	de	X	FW	Foreign=Yes	27	punct	_	_
+27	oro	oro	X	FW	Foreign=Yes	20	appos	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+29	’	’	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = ‘Lo que veo y columbro,’ respondio Sancho, ‘no es sino un hombre sobre un as no pardo como el mio, que trae sobre la cabeza una cosa que relumbra.’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Lo	lo	INTJ	UH	_	3	discourse	_	_
+3	que	que	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	veo	veo	X	FW	Foreign=Yes	3	appos	_	_
+5	y	y	X	FW	Foreign=Yes	4	goeswith	_	_
+6	columbro	columbro	X	FW	Foreign=Yes	4	goeswith	_	SpaceAfter=No
+7	,’	,’	PUNCT	.	_	3	punct	_	_
+8	respondio	respondio	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+9	Sancho	Sancho	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+12	no	no	DET	DT	_	13	det	_	_
+13	es	es	NOUN	NNS	Number=Plur	3	obj	_	_
+14	sino	sino	ADP	IN	_	16	case	_	_
+15	un	un	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	hombre	hombre	NOUN	NN	Number=Sing	13	nmod	_	_
+17	sobre	sobre	ADV	WRB	PronType=Rel	18	advmod	_	_
+18	un	un	ADJ	JJ	Degree=Pos	13	amod	_	_
+19	as	as	ADP	IN	_	24	case	_	_
+20	no	no	DET	DT	_	24	det	_	_
+21	pardo	pardo	NOUN	NN	Number=Sing	22	compound	_	_
+22	como	como	NOUN	NN	Number=Sing	23	compound	_	_
+23	el	el	NOUN	NN	Number=Sing	24	compound	_	_
+24	mio	mio	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	3	punct	_	_
+26	que	que	VERB	VB	Mood=Imp|VerbForm=Fin	34	compound	_	_
+27	trae	trae	X	GW	_	34	conj	_	_
+28	sobre	sobre	X	GW	_	27	goeswith	_	_
+29	la	la	X	FW	Foreign=Yes	27	goeswith	_	_
+30	cabeza	cabeza	X	FW	Foreign=Yes	34	compound	_	_
+31	una	una	X	FW	Foreign=Yes	34	compound	_	_
+32	cosa	cosa	X	FW	Foreign=Yes	33	compound	_	_
+33	que	que	NOUN	NN	Number=Sing	34	compound	_	_
+34	relumbra	relumbra	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+36	’	’	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = ‘Pues ese es el yelmo de Mambrino,’ dijo Don Quijote.”—CERVANTES.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pues	Pue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ese	ese	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	es	es	NOUN	NNS	Number=Plur	2	obj	_	_
+5	el	el	X	FW	Foreign=Yes	12	conj	_	_
+6	yelmo	yelmo	X	FW	Foreign=Yes	5	goeswith	_	_
+7	de	de	X	FW	Foreign=Yes	5	goeswith	_	_
+8	Mambrino	Mambrino	X	FW	Foreign=Yes	5	goeswith	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	12	punct	_	_
+11	dijo	dijo	ADP	IN	_	12	case	_	_
+12	Don	Don	PROPN	NNP	Number=Sing	2	flat	_	_
+13	Quijote	Quijote	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+17	CERVANTES	Cervante	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

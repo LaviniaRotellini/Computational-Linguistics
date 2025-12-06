@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “‘Yes,’ resumed my brother; ‘but in ’93, one had no longer any relatives, one had only one’s arms.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+3	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	brother	brother	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+11	but	but	CCONJ	CC	_	16	cc	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	’93	’93	NUM	CD	NumType=Card	16	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	one	one	NUM	CD	NumType=Card	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	no	no	ADV	RB	_	18	advmod	_	_
+18	longer	longer	ADV	RBR	Degree=Cmp	20	advmod	_	_
+19	any	any	DET	DT	_	20	det	_	_
+20	relatives	relative	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	16	punct	_	_
+22	one	one	NUM	CD	NumType=Card	23	nsubj	_	_
+23	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+24	only	only	ADV	RB	_	27	advmod	_	_
+25	one	one	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+26	’s	’	NOUN	NNS	Number=Plur	27	compound	_	_
+27	arms	arm	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I worked.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = They have, in the country of Pontarlier, whither you are going, Monsieur Valjean, a truly patriarchal and truly charming industry, my sister.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	country	country	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	Pontarlier	Pontarlier	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	whither	whhither	CCONJ	CC	_	13	cc	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	Monsieur	Monsieur	PROPN	NNP	Number=Sing	13	obj	_	_
+16	Valjean	Valjean	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	truly	truly	ADV	RB	_	20	advmod	_	_
+20	patriarchal	patriarchal	ADJ	JJ	Degree=Pos	13	xcomp	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	truly	truly	ADV	RB	_	23	advmod	_	_
+23	charming	charm	VERB	VBG	Tense=Pres|VerbForm=Part	20	conj	_	_
+24	industry	industry	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	2	punct	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	sister	sister	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It is their cheese-dairies, which they call _fruitières_.’
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	cheese-	cheese-	PUNCT	:	_	5	punct	_	SpaceAfter=No
+5	dairies	dairy	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	obj	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	_fruitières_.	_fruitières_.	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

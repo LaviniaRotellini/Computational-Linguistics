@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Her thought was clearly perceptible, but she uttered no name, she made no complaint, she blamed no one.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nsubj	_	_
+2	thought	thought	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	clearly	clearly	ADV	RB	_	5	advmod	_	_
+5	perceptible	perceptible	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	uttered	utter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	name	name	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	complaint	complaint	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	blamed	blame	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	no	no	DET	DT	_	21	det	_	_
+21	one	one	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But she coughed in a melancholy way.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	coughed	cough	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	melancholy	melancholy	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	way	way	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = One would have said that something dark was descending upon her.
+1	One	one	PRON	PRP	_	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	something	something	PRON	NN	Number=Sing	7	compound	_	_
+7	dark	dark	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	descending	descende	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = She was livid and her lips were blue.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	livid	livid	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	lips	lip	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	blue	blue	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = She smiled now and then.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	smiled	smile	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	now	now	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	then	then	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

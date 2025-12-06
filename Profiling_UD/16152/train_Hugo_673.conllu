@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cricket corner was near the kitchen and was highly esteemed.
+1	Cricket	cricket	NOUN	NN	Number=Sing	2	compound	_	_
+2	corner	corner	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	near	near	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	kitchen	kitchen	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+9	highly	highly	ADV	RB	_	10	advmod	_	_
+10	esteemed	esteem	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It was not so cold there as elsewhere.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	cold	cold	ADJ	JJ	Degree=Pos	0	root	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	_
+7	as	as	ADV	RB	_	8	advmod	_	_
+8	elsewhere	elsewhere	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = From the refectory the names had passed to the boarding-school, and there served as in the old College Mazarin to distinguish four nations.
+1	From	from	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	refectory	refectory	NOUN	NN	Number=Sing	7	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	names	name	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	boarding	boarding	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	school	school	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	there	there	PRON	EX	_	16	expl	_	_
+16	served	serve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+17	as	as	ADV	RB	_	22	advmod	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+20	old	old	ADJ	JJ	Degree=Pos	22	amod	_	_
+21	College	College	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Mazarin	Mazarin	PROPN	NNP	Number=Sing	16	obl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	distinguish	distinguish	VERB	VB	VerbForm=Inf	16	advcl	_	_
+25	four	four	NUM	CD	NumType=Card	26	nummod	_	_
+26	nations	nation	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Every pupil belonged to one of these four nations according to the corner of the refectory in which she sat at meals.
+1	Every	every	DET	DT	_	2	det	_	_
+2	pupil	pupil	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	belonged	belong	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	one	one	NUM	CD	NumType=Card	3	obl	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+8	four	four	NUM	CD	NumType=Card	9	nummod	_	_
+9	nations	nation	NOUN	NNS	Number=Plur	5	nmod	_	_
+10	according	accord	VERB	VBG	VerbForm=Ger	13	case	_	_
+11	to	to	ADP	IN	_	10	fixed	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	corner	corner	NOUN	NN	Number=Sing	3	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	refectory	refectory	NOUN	NN	Number=Sing	13	nmod	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	which	which	PRON	WDT	PronType=Rel	20	obl	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	meals	meal	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = One day Monseigneur the Archbishop while making his pastoral visit saw a pretty little rosy girl with beautiful golden hair enter the class-room through which he was passing.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	3	compound	_	_
+3	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	11	nsubj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Archbishop	Archbishop	PROPN	NNP	Number=Sing	3	appos	_	_
+6	while	while	SCONJ	IN	_	7	mark	_	_
+7	making	make	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	pastoral	pastoral	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	visit	visit	NOUN	NN	Number=Sing	7	obj	_	_
+11	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+13	pretty	pretty	ADV	RB	_	14	advmod	_	_
+14	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	rosy	rosy	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	girl	girl	NOUN	NN	Number=Sing	11	obj	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	beautiful	beautiful	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	golden	golden	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hair	hair	NOUN	NN	Number=Sing	16	nmod	_	_
+21	enter	enter	VERB	VB	VerbForm=Inf	11	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	class	class	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	room	room	NOUN	NN	Number=Sing	21	obj	_	_
+26	through	through	ADP	IN	_	27	case	_	_
+27	which	which	PRON	WDT	PronType=Rel	30	obl	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	passing	pass	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The fact is, you would wish me to be a little more like him, Rosy,” said Lydgate, in a sort of resigned murmur, with a smile which was not exactly tender, and certainly not merry.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	fact	fact	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	wish	wish	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	to	to	PART	TO	_	13	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	little	little	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+14	more	more	ADV	RBR	_	16	advmod	_	_
+15	like	like	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Rosy	rosy	PROPN	NNP	Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	21	punct	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Lydgate	Lydgate	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	sort	sort	NOUN	NN	Number=Sing	22	nmod	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	resigned	resign	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	_	_
+29	murmur	murmur	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	22	punct	_	_
+31	with	with	ADP	IN	_	33	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	smile	smile	NOUN	NN	Number=Sing	22	nmod	_	_
+34	which	which	PRON	WDT	PronType=Rel	38	nsubj	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	cop	_	_
+36	not	not	PART	RB	_	38	advmod	_	_
+37	exactly	exactly	ADV	RB	_	38	advmod	_	_
+38	tender	tender	NOUN	NN	Number=Sing	33	acl:relcl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	43	punct	_	_
+40	and	and	CCONJ	CC	_	43	cc	_	_
+41	certainly	certainly	ADV	RB	_	43	advmod	_	_
+42	not	not	PART	RB	_	43	advmod	_	_
+43	merry	merry	ADJ	JJ	Degree=Pos	38	conj	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = Rosamond was silent and did not smile again; but the lovely curves of her face looked good-tempered enough without smiling.
+1	Rosamond	Rosamond	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	silent	silent	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	smile	smile	VERB	VB	VerbForm=Inf	3	conj	_	_
+8	again	again	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	but	but	CCONJ	CC	_	17	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	lovely	lovely	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	curves	curve	NOUN	NNS	Number=Plur	17	nsubj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	face	face	NOUN	NN	Number=Sing	13	nmod	_	_
+17	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+18	good	good	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	tempered	temper	NOUN	NN	Number=Sing	17	obj	_	_
+21	enough	enough	ADJ	JJ	Degree=Pos	20	amod	_	_
+22	without	without	SCONJ	IN	_	23	mark	_	_
+23	smiling	smile	VERB	VBG	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

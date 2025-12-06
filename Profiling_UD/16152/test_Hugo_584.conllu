@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He tore the book from Master Olivier’s hands, and set to reckoning it himself upon his fingers, examining the paper and the cage alternately.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	tore	tore	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	book	book	NOUN	NN	Number=Sing	0	root	_	_
+5	from	from	ADP	IN	_	9	case	_	_
+6	Master	master	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Olivier	Olivier	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	set	set	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+13	to	to	SCONJ	IN	_	14	mark	_	_
+14	reckoning	reckon	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+17	upon	upon	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	fingers	finger	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	examining	examine	VERB	VBG	VerbForm=Ger	4	acl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	paper	paper	NOUN	NN	Number=Sing	21	obj	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	cage	cage	NOUN	NN	Number=Sing	21	conj	_	_
+27	alternately	alternately	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Meanwhile, the prisoner could be heard sobbing.
+1	Meanwhile	meanwhile	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	prisoner	prisoner	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	sobbing	sobbing	VERB	VBG	VerbForm=Ger	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = This was lugubrious in the darkness, and their faces turned pale as they looked at each other.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	lugubrious	lugubrious	ADJ	JJ	Degree=Pos	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	darkness	darkness	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	faces	face	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	pale	pale	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	each	each	DET	DT	_	18	det	_	_
+18	other	other	ADJ	JJ	Degree=Pos	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

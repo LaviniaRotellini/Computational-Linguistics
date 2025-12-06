@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘If you please, ma’am, the gentleman would wish to see you,’ said Bitzer, with his light eye at Mrs. Sparsit’s keyhole.
+1	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	12	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+4	please	please	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	12	punct	_	_
+6	ma’	ma'	PART	POS	_	12	mark	_	SpaceAfter=No
+7	am	am	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	gentleman	gentleman	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	wish	wish	VERB	VB	VerbForm=Inf	17	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	see	see	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,’	,’	PUNCT	.	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Bitzer	Bitzer	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	light	light	NOUN	NN	Number=Sing	23	compound	_	_
+23	eye	eye	NOUN	NN	Number=Sing	18	nmod	_	_
+24	at	at	ADP	IN	_	28	case	_	_
+25	Mrs.	Mrs.	PROPN	NNP	Number=Sing	26	compound	_	_
+26	Sparsit	Sparsit	PROPN	NNP	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+27	’s	's	PART	POS	_	26	case	_	_
+28	keyhole	keyhole	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = So, Mrs. Sparsit, who had improved the interval by touching up her cap, took her classical features down-stairs again, and entered the board-room in the manner of a Roman matron going outside the city walls to treat with an invading general.
+1	So	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Mrs.	Mrs.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+4	Sparsit	Sparsit	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	interval	interval	NOUN	NN	Number=Sing	8	obj	_	_
+11	by	by	SCONJ	IN	_	12	mark	_	_
+12	touching	touch	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	up	up	ADP	RP	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	cap	cap	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	classical	classical	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	features	feature	NOUN	NNS	Number=Plur	17	obj	_	_
+21	down	down	ADV	RB	_	17	advmod	_	SpaceAfter=No
+22	-	-	PUNCT	,	_	17	punct	_	SpaceAfter=No
+23	stairs	stair	ADV	RB	_	24	advmod	_	_
+24	again	again	ADV	RB	_	17	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+29	board	board	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	room	room	NOUN	NN	Number=Sing	27	obj	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	manner	manner	NOUN	NN	Number=Sing	27	obl	_	_
+35	of	of	ADP	IN	_	38	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	Roman	Roman	PROPN	NNP	Number=Sing	38	compound	_	_
+38	matron	matron	NOUN	NN	Number=Sing	34	nmod	_	_
+39	going	go	VERB	VBG	VerbForm=Ger	38	acl	_	_
+40	outside	outside	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	city	city	NOUN	NN	Number=Sing	39	obl	_	_
+43	walls	wall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+44	to	to	PART	TO	_	45	mark	_	_
+45	treat	treat	VERB	VB	VerbForm=Inf	43	xcomp	_	_
+46	with	with	ADP	IN	_	49	case	_	_
+47	an	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	_
+48	invading	invading	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	general	general	NOUN	NN	Number=Sing	45	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

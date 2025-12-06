@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Perhaps I thought so.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But, I say we are all liable to mistakes and I should feel sensible of your delicacy, and grateful for it, if you would spare me these references to Harthouse.
+1	But	but	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	all	all	ADV	RB	_	8	advmod	_	_
+8	liable	liable	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	mistakes	mistake	NOUN	NNS	Number=Plur	8	obl	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	feel	feel	VERB	VB	VerbForm=Inf	8	conj	_	_
+15	sensible	sensible	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	delicacy	delicacy	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	grateful	grateful	ADJ	JJ	Degree=Pos	8	conj	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	if	if	SCONJ	IN	_	28	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+27	would	would	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	spare	spare	VERB	VB	VerbForm=Inf	4	advcl	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obj	_	_
+30	these	these	DET	DT	Number=Plur|PronType=Dem	31	det	_	_
+31	references	reference	NOUN	NNS	Number=Plur	28	obj	_	_
+32	to	to	ADP	IN	_	33	case	_	_
+33	Harthouse	Harthouse	PROPN	NNP	Number=Sing	28	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I shall not associate him in our conversation with your intimacy and encouragement; pray do not persist in connecting him with mine.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	associate	associate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	conversation	conversation	NOUN	NN	Number=Sing	4	obl	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	intimacy	intimacy	NOUN	NN	Number=Sing	4	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	encouragement	encouragement	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	4	punct	_	_
+15	pray	pray	NOUN	NN	Number=Sing	18	nsubj	_	_
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	persist	persist	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+19	in	in	SCONJ	IN	_	20	mark	_	_
+20	connecting	connect	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	with	with	ADP	IN	_	23	case	_	_
+23	mine	mine	PRON	PRP	_	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

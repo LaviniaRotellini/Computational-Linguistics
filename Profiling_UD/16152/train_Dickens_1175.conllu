@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘He ain’t no care, Mas’r Davy,’ said Mr. Peggotty in a solemn whisper--‘kinder no care no-how for his life.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	care	care	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	Mas’r	Mas’r	PROPN	NNP	Number=Sing	6	appos	_	_
+9	Davy	Davy	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Peggotty	Peggotty	PROPN	NNP	Number=Sing	13	flat	_	_
+15	in	in	ADP	IN	_	20	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+17	solemn	solemn	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	whisper	whisper	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	--‘	--‘	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	kinder	kinder	NOUN	NN	Number=Sing	13	flat	_	_
+21	no	no	DET	DT	_	22	det	_	_
+22	care	care	NOUN	NN	Number=Sing	13	appos	_	_
+23	no	no	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	-	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+25	how	how	ADV	WRB	PronType=Int	28	advmod	_	_
+26	for	for	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	life	life	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = When a man’s wanted for rough sarvice in rough weather, he’s theer.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	rough	rough	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	sarvice	sarvice	NOUN	NN	Number=Sing	5	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	rough	rough	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	weather	weather	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	theer	theer	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = When there’s hard duty to be done with danger in it, he steps for’ard afore all his mates.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	hard	hard	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	duty	duty	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	danger	danger	NOUN	NN	Number=Sing	8	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	steps	step	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	for	for	ADP	IN	_	17	case	_	SpaceAfter=No
+17	’ard	’ard	NOUN	NN	Number=Sing	15	obl	_	_
+18	afore	afore	SCONJ	IN	_	21	case	_	_
+19	all	all	DET	DT	_	21	det:predet	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	mates	mate	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = And yet he’s as gentle as any child.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	yet	yet	ADV	RB	_	6	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	as	as	ADV	RB	_	6	advmod	_	_
+6	gentle	gentle	ADJ	JJ	Degree=Pos	0	root	_	_
+7	as	as	ADP	IN	_	9	case	_	_
+8	any	any	DET	DT	_	9	det	_	_
+9	child	child	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = There ain’t a child in Yarmouth that doen’t know him.’
+1	There	there	PRON	EX	_	2	expl	_	_
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	child	child	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Yarmouth	Yarmouth	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	doe	doe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	know	know	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

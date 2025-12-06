@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean worked in the garden every day and made himself very useful.
+1	Jean	Jean	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	garden	garden	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	every	every	X	GW	_	8	goeswith	_	_
+8	day	day	NOUN	NN	Number=Sing	3	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	useful	useful	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He had formerly been a pruner of trees, and he gladly found himself a gardener once more.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	formerly	formerly	ADV	RB	_	6	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	pruner	pruner	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	trees	tree	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	gladly	gladly	ADV	RB	_	13	advmod	_	_
+13	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	iobj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	gardener	gardener	NOUN	NN	Number=Sing	13	obj	_	_
+17	once	once	ADV	RB	NumType=Mult	18	advmod	_	_
+18	more	more	ADV	RBR	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = It will be remembered that he knew all sorts of secrets and receipts for agriculture.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	sorts	sort	NOUN	NNS	Number=Plur	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	secrets	secret	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	receipts	receipt	NOUN	NNS	Number=Plur	11	conj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	agriculture	agriculture	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He turned these to advantage.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	these	these	PRON	DT	Number=Plur|PronType=Dem	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	advantage	advantage	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Almost all the trees in the orchard were ungrafted, and wild.
+1	Almost	almost	ADV	RB	_	4	advmod	_	_
+2	all	all	DET	PDT	_	4	det:predet	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	trees	tree	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	orchard	orchard	NOUN	NN	Number=Sing	4	nmod	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	ungrafted	ungrafted	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	wild	wild	ADJ	JJ	Degree=Pos	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = He budded them and made them produce excellent fruit.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	budded	bud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	produce	produce	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	excellent	excellent	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	fruit	fruit	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

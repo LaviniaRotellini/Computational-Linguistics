@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cosette was meditating sadly; for, although she was only eight years old, she had already suffered so much that she reflected with the lugubrious air of an old woman.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	meditating	meditat	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	sadly	sadly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	for	for	ADP	IN	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	although	although	SCONJ	IN	_	14	mark	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+11	only	only	ADV	RB	_	13	advmod	_	_
+12	eight	eight	NUM	CD	NumType=Card	13	nummod	_	_
+13	years	year	NOUN	NNS	Number=Plur	14	obl:npmod	_	_
+14	old	old	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	already	already	ADV	RB	_	19	advmod	_	_
+19	suffered	suffer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+20	so	so	ADV	RB	_	21	advmod	_	_
+21	much	much	ADV	RB	_	19	advmod	_	_
+22	that	that	SCONJ	IN	_	24	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	reflected	reflect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+25	with	with	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	lugubrious	lugubrious	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	air	air	NOUN	NN	Number=Sing	24	obl	_	_
+29	of	of	ADP	IN	_	32	case	_	_
+30	an	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	old	old	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	woman	woman	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Her eye was black in consequence of a blow from Madame Thénardier’s fist, which caused the latter to remark from time to time, “How ugly she is with her fist-blow on her eye!”
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eye	eye	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	black	black	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	consequence	consequence	NOUN	NN	Number=Sing	4	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	blow	blow	NOUN	NN	Number=Sing	6	nmod	_	_
+10	from	from	ADP	IN	_	14	case	_	_
+11	Madame	Madame	PROPN	NNP	Number=Sing	14	nmod:poss	_	_
+12	Thénardier	Thénardier	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	’s	's	PART	POS	_	11	case	_	_
+14	fist	fist	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	latter	latter	ADJ	JJ	Degree=Pos	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	remark	remark	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+22	from	from	ADP	IN	_	23	case	_	_
+23	time	time	NOUN	NN	Number=Sing	21	obl	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	time	time	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	4	punct	_	_
+27	“	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
+28	How	how	ADV	WRB	PronType=Int	34	advmod	_	_
+29	ugly	ugly	ADV	RB	_	34	advmod	_	_
+30	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+32	with	with	ADP	IN	_	34	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	fist	fist	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+35	-	-	PUNCT	,	_	36	punct	_	SpaceAfter=No
+36	blow	blow	VERB	VB	VerbForm=Inf	34	acl	_	_
+37	on	on	ADP	IN	_	39	case	_	_
+38	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	eye	eye	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+40	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

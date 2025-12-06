@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m not sure, my lady; I’ll see, if you’ll please to walk in,” said Martha, a little confused on the score of her kitchen apron, but collected enough to be sure that “mum” was not the right title for this queenly young widow with a carriage and pair.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	23	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	lady	lady	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	’ll	’ll	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	see	see	VERB	VB	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	if	if	SCONJ	IN	_	17	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	’ll	’ll	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	please	please	VERB	VB	VerbForm=Inf	12	advcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	walk	walk	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	in	in	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	23	punct	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	Martha	Martha	PROPN	NNP	Number=Sing	23	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	23	punct	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	little	little	ADJ	JJ	Degree=Pos	28	obl:npmod	_	_
+28	confused	confused	ADJ	JJ	Degree=Pos	23	amod	_	_
+29	on	on	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	score	score	NOUN	NN	Number=Sing	28	obl	_	_
+32	of	of	ADP	IN	_	35	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+34	kitchen	kitchen	NOUN	NN	Number=Sing	35	compound	_	_
+35	apron	apron	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	but	but	CCONJ	CC	_	38	cc	_	_
+38	collected	collect	VERB	VBN	Tense=Past|VerbForm=Part	23	conj	_	_
+39	enough	enough	ADV	RB	_	38	advmod	_	_
+40	to	to	PART	TO	_	42	mark	_	_
+41	be	be	AUX	VB	VerbForm=Inf	42	cop	_	_
+42	sure	sure	ADJ	JJ	Degree=Pos	38	advcl	_	_
+43	that	that	SCONJ	IN	_	51	mark	_	_
+44	“	"	PUNCT	``	_	45	punct	_	SpaceAfter=No
+45	mum	mum	NOUN	NN	Number=Sing	51	nsubj	_	SpaceAfter=No
+46	”	"	PUNCT	''	_	45	punct	_	_
+47	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	51	cop	_	_
+48	not	not	PART	RB	_	51	advmod	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+50	right	right	ADJ	JJ	Degree=Pos	51	amod	_	_
+51	title	title	NOUN	NN	Number=Sing	42	ccomp	_	_
+52	for	for	ADP	IN	_	53	case	_	_
+53	this	this	PRON	DT	Number=Sing|PronType=Dem	51	nmod	_	_
+54	queenly	queenly	ADV	RB	_	56	advmod	_	_
+55	young	young	ADJ	JJ	Degree=Pos	56	amod	_	_
+56	widow	widow	NOUN	NN	Number=Sing	51	nmod	_	_
+57	with	with	ADP	IN	_	59	case	_	_
+58	a	a	DET	DT	Definite=Ind|PronType=Art	59	det	_	_
+59	carriage	carriage	NOUN	NN	Number=Sing	56	nmod	_	_
+60	and	and	CCONJ	CC	_	61	cc	_	_
+61	pair	pair	NOUN	NN	Number=Sing	59	conj	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 2
+# text = “Will you please to walk in, and I’ll go and see.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	please	please	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	walk	walk	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	’ll	’ll	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	go	go	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	see	see	VERB	VB	VerbForm=Inf	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You don’t know,’ said Sissy, half crying, ‘what a stupid girl I am.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Sissy	Sissy	PROPN	NNP	Number=Sing	11	compound	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	half	half	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	crying	cry	VERB	VBG	VerbForm=Ger	13	acl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+15	what	what	PRON	WP	PronType=Int	8	ccomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	stupid	stupid	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	girl	girl	NOUN	NN	Number=Sing	15	appos	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = All through school hours I make mistakes.
+1	All	all	DET	DT	_	4	det	_	_
+2	through	through	ADP	IN	_	3	case	_	_
+3	school	school	NOUN	NN	Number=Sing	1	nmod	_	_
+4	hours	hour	NOUN	NNS	Number=Plur	6	obl:tmod	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mistakes	mistake	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Mr. and Mrs. M’Choakumchild call me up, over and over again, regularly to make mistakes.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Mrs.	Mrs.	PROPN	NNP	Number=Sing	1	conj	_	_
+4	M’	M's	PART	POS	_	6	mark	_	SpaceAfter=No
+5	Choakumchild	Choakumchild	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	up	up	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	over	over	ADV	RB	_	6	advmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	over	over	ADV	RB	_	13	advmod	_	_
+13	again	again	ADV	RB	_	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	regularly	regularly	ADV	RB	_	6	advmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	make	make	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+18	mistakes	mistake	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = I can’t help them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = They seem to come natural to me.’
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	come	come	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	natural	natural	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

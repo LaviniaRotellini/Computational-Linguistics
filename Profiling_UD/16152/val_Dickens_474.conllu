@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Tom Gradgrind,’ replied Bounderby, knocking the flat of his hand several times with great vehemence on the table, ‘I speak of a very special messenger that has come to me, in reference to Louisa.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Tom	Tom	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Bounderby	Bounderby	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	knocking	knock	VERB	VBG	VerbForm=Ger	6	acl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	flat	flat	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	hand	hand	NOUN	NN	Number=Sing	11	nmod	_	_
+15	several	several	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	times	time	NOUN	NNS	Number=Plur	9	obl:tmod	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	great	great	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	vehemence	vehemence	NOUN	NN	Number=Sing	9	obl	_	_
+20	on	on	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	table	table	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	6	punct	_	_
+24	‘	'	PUNCT	``	_	26	punct	_	SpaceAfter=No
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	speak	speak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+27	of	of	ADP	IN	_	31	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+29	very	very	ADV	RB	_	30	advmod	_	_
+30	special	special	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	messenger	messenger	NOUN	NN	Number=Sing	26	obl	_	_
+32	that	that	PRON	WDT	PronType=Rel	34	nsubj	_	_
+33	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	come	come	VERB	VBN	Tense=Past|VerbForm=Part	31	acl:relcl	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	34	punct	_	_
+38	in	in	ADP	IN	_	39	case	_	_
+39	reference	reference	NOUN	NN	Number=Sing	34	obl	_	_
+40	to	to	ADP	IN	_	41	case	_	_
+41	Louisa	Louisa	PROPN	NNP	Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mrs. Sparsit, ma’am, stand forward!’
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Sparsit	Sparsit	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	ma’	ma'	PUNCT	''	_	5	punct	_	SpaceAfter=No
+5	am	am	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	stand	stand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	forward	forward	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

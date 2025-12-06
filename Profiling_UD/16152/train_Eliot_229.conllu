@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I will let you hear my attempts, if you like,” said Rosamond.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	let	let	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	obj	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	attempts	attempt	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Rosamond	Rosamond	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “Papa is sure to insist on my singing.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Papa	Papa	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	insist	insist	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	singing	singing	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But I shall tremble before you, who have heard the best singers in Paris.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	tremble	tremble	VERB	VB	VerbForm=Inf	0	root	_	_
+5	before	before	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	best	best	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	singers	singer	NOUN	NNS	Number=Plur	10	obj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Paris	Paris	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I have heard very little:
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	3	obl:tmod	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 5
+# text = I have only once been to London.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	only	only	ADV	RB	_	7	advmod	_	_
+4	once	once	ADV	RB	NumType=Mult	7	advmod	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	London	London	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = But our organist at St. Peter’s is a good musician, and I go on studying with him.”
+1	But	but	CCONJ	CC	_	11	cc	_	_
+2	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	organist	organist	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	St.	St.	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	Peter	Peter	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	’s	's	PART	POS	_	5	case	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	musician	musician	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	on	on	SCONJ	IN	_	17	mark	_	_
+17	studying	study	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

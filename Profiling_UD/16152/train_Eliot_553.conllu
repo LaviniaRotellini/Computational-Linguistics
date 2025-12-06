@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I know what you mean—the ‘Pioneer’ at the Grange!” darted in Mrs. Cadwallader, almost before the last word was off her friend’s tongue.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	6	obj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	Pioneer	pioneer	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Grange	Grange	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	darted	dart	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Mrs.	Mrs.	PROPN	NNP	Number=Sing	17	obl	_	_
+20	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	almost	almost	ADV	RB	_	26	advmod	_	_
+23	before	before	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	last	last	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	word	word	NOUN	NN	Number=Sing	32	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	cop	_	_
+28	off	off	ADP	IN	_	32	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	friend	friend	NOUN	NN	Number=Sing	32	nmod:poss	_	SpaceAfter=No
+31	’s	's	PART	POS	_	30	case	_	_
+32	tongue	tongue	NOUN	NN	Number=Sing	17	parataxis	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “It is frightful—this taking to buying whistles and blowing them in everybody’s hearing.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	frightful	frightful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	—	—	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+7	taking	take	VERB	VBG	VerbForm=Ger	4	parataxis	_	_
+8	to	to	SCONJ	IN	_	9	mark	_	_
+9	buying	buy	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	whistles	whistle	NOUN	NNS	Number=Plur	9	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	blowing	blow	VERB	VBG	VerbForm=Ger	9	conj	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	everybody	everybody	PRON	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	hearing	hearing	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Lying in bed all day and playing at dominoes, like poor Lord Plessy, would be more private and bearable.”
+1	Lying	lie	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	bed	bed	NOUN	NN	Number=Sing	1	obl	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	day	day	NOUN	NN	Number=Sing	1	obl:tmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	playing	play	VERB	VBG	VerbForm=Ger	1	conj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	dominoes	dominoes	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	like	like	ADP	IN	_	14	case	_	_
+12	poor	poor	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	Lord	Lord	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Plessy	Plessy	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+18	more	more	ADV	RBR	_	19	advmod	_	_
+19	private	private	ADJ	JJ	Degree=Pos	0	root	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	bearable	bearable	ADJ	JJ	Degree=Pos	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

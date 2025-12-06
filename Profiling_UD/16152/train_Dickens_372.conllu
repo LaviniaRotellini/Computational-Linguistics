@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Do you recollect the date,’ said Mr. Dick, looking earnestly at me, and taking up his pen to note it down, ‘when King Charles the First had his head cut off?’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	recollect	recollect	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	date	date	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Dick	Dick	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	earnestly	earnestly	ADV	RB	_	13	advmod	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	taking	take	VERB	VBG	VerbForm=Ger	13	conj	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	pen	pen	NOUN	NN	Number=Sing	19	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	note	note	VERB	VB	VerbForm=Inf	19	advcl	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	down	down	ADP	RP	_	24	compound:prt	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	9	punct	_	_
+28	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+29	when	when	ADV	WRB	PronType=Int	34	mark	_	_
+30	King	King	PROPN	NNP	Number=Sing	31	compound	_	_
+31	Charles	Charles	PROPN	NNP	Number=Sing	34	nsubj	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	First	first	PROPN	NNP	Number=Sing	31	flat	_	_
+34	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	head	head	NOUN	NN	Number=Sing	34	obj	_	_
+37	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	34	xcomp	_	_
+38	off	off	ADP	RP	_	37	compound:prt	_	SpaceAfter=No
+39	?	?	PUNCT	.	_	9	punct	_	SpaceAfter=No
+40	’	'	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 2
+# text = I said I believed it happened in the year sixteen hundred and forty-nine.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	year	year	NOUN	NN	Number=Sing	6	obl	_	_
+10	sixteen	sixteen	NUM	CD	NumType=Card	11	nummod	_	_
+11	hundred	hundred	NUM	CD	NumType=Card	9	appos	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	forty	forty	NUM	CD	NumType=Card	11	conj	_	SpaceAfter=No
+14	-	-	SYM	SYM	_	15	case	_	SpaceAfter=No
+15	nine	nine	NUM	CD	NumType=Card	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

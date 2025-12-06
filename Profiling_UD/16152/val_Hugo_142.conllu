@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "I have seen, sir, two beautiful bulls in my life.
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+9	beautiful	beautiful	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	bulls	bulls	NOUN	NNS	Number=Plur	6	appos	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	life	life	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The first has the legs low, the breast thick, the rump full, the haunches large, a good length of neck to the udder, withers of good height, the skin easy to strip.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	nsubj	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	legs	leg	NOUN	NNS	Number=Plur	3	obj	_	_
+6	low	low	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	breast	breast	NOUN	NN	Number=Sing	10	compound	_	_
+10	thick	thick	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	rump	rump	NOUN	NN	Number=Sing	5	appos	_	_
+14	full	full	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	haunches	haunch	NOUN	NNS	Number=Plur	3	obj	_	_
+18	large	large	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	good	good	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	length	length	NOUN	NN	Number=Sing	17	appos	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	neck	neck	NOUN	NN	Number=Sing	22	nmod	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	udder	udder	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	withers	wither	NOUN	NNS	Number=Plur	27	conj	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	good	good	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	height	height	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	22	punct	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	skin	skin	NOUN	NN	Number=Sing	17	appos	_	_
+36	easy	easy	ADJ	JJ	Degree=Pos	35	amod	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	strip	strip	VERB	VB	VerbForm=Inf	36	ccomp	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The second had all the signs of good fattening, a thick-set back, neck and shoulders strong, coat white and brown, rump sinking."
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	signs	sign	NOUN	NNS	Number=Plur	20	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	fattening	fattening	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+12	thick	thick	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	set	set	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	back	back	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	neck	neck	NOUN	NN	Number=Sing	6	conj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	shoulders	shoulders	NOUN	NNS	Number=Plur	6	conj	_	_
+20	strong	strong	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	coat	coat	VERB	VB	Mood=Imp|VerbForm=Fin	20	conj	_	_
+23	white	white	ADJ	JJ	Degree=Pos	22	conj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	brown	brown	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	rump	rump	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	sinking	sink	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	20	punct	_	SpaceAfter=No
+30	"	"	PUNCT	''	_	20	punct	_	SpacesAfter=\n
+

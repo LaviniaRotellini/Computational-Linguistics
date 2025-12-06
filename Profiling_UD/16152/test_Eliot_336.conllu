@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What dost think o’ that?”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	3	det	_	_
+3	dost	dost	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = he said to his wife.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	wife	wife	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “He goes as pat to the music as if he was made o’ clockwork.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	pat	pat	ADJ	JJ	Degree=Pos	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	music	music	NOUN	NN	Number=Sing	5	obl	_	_
+9	as	as	SCONJ	IN	_	13	mark	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+14	o	of	ADP	IN	Abbr=Yes	16	case	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	16	punct	_	_
+16	clockwork	clockwork	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I used to be a pretty good un at dancing myself when I was lighter, but I could niver ha’ hit it just to th’ hair like that.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	8	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	pretty	pretty	ADV	RB	_	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	un	un	NOUN	NN	Number=Sing	2	xcomp	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	dancing	dancing	NOUN	NN	Number=Sing	8	nmod	_	_
+11	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	lighter	lighter	ADJ	JJR	Degree=Cmp	2	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	niver	niver	VERB	VB	VerbForm=Inf	2	conj	_	_
+21	ha	ha	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	’	's	PUNCT	''	_	21	punct	_	_
+23	hit	hit	VERB	VB	VerbForm=Inf	20	acl	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	just	just	ADV	RB	_	27	advmod	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	th	th	PROPN	NNP	Number=Sing	23	obl	_	SpaceAfter=No
+28	’	's	PART	POS	_	23	case	_	_
+29	hair	hair	NOUN	NN	Number=Sing	23	obj	_	_
+30	like	like	ADP	IN	_	31	case	_	_
+31	that	that	PRON	DT	Number=Sing|PronType=Dem	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

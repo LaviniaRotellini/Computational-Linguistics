@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, ay, young man, come now!
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	ay	ay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+10	now	now	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = You show some notion o’ things.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	notion	notion	NOUN	NN	Number=Sing	2	obj	_	_
+5	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	things	thing	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But there’s the interest, you must remember; your aunts get five per cent on their money, and they’d lose that if they advanced it; you haven’t thought o’ that.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	interest	interest	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	remember	remember	VERB	VB	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nsubj	_	_
+12	aunts	aunt	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	get	get	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+14	five	five	NUM	CD	NumType=Card	16	nummod	_	_
+15	per	per	NOUN	NN	Number=Sing	16	compound	_	_
+16	cent	cent	NOUN	NN	Number=Sing	13	obj	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	money	money	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
+23	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+24	lose	lose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+25	that	that	SCONJ	IN	_	28	mark	_	_
+26	if	if	SCONJ	IN	_	28	mark	_	_
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+28	advanced	advanc	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	;	;	PUNCT	,	_	3	punct	_	_
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	_
+32	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	SpaceAfter=No
+33	n’t	not	PART	RB	_	34	advmod	_	_
+34	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	_
+35	o	of	ADP	IN	Abbr=Yes	37	case	_	SpaceAfter=No
+36	’	'	PUNCT	''	_	37	punct	_	_
+37	that	that	PRON	DT	Number=Sing|PronType=Dem	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

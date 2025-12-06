@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was the chain-gang, in fact, which had set out before daybreak from Bicêtre, and had taken the road to Mans in order to avoid Fontainebleau, where the King then was.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	chain	chain	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	gang	gang	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	fact	fact	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	set	set	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	before	before	ADP	IN	_	16	case	_	_
+16	daybreak	daybreak	NOUN	NN	Number=Sing	13	obl	_	_
+17	from	from	ADP	IN	_	18	case	_	_
+18	Bicêtre	Bicêtre	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	road	road	NOUN	NN	Number=Sing	22	obj	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	Mans	Mans	NOUN	NNS	Number=Plur	24	nmod	_	_
+27	in	in	ADP	IN	_	30	mark	_	_
+28	order	order	NOUN	NN	Number=Sing	27	fixed	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	avoid	avoid	VERB	VB	VerbForm=Inf	22	advcl	_	_
+31	Fontainebleau	Fontainebleau	PROPN	NNP	Number=Sing	30	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	_	_
+33	where	where	ADV	WRB	PronType=Rel	37	advmod	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	King	King	PROPN	NNP	Number=Sing	37	nsubj	_	_
+36	then	then	ADV	RB	PronType=Dem	35	advmod	_	_
+37	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = This caused the horrible journey to last three or four days longer; but torture may surely be prolonged with the object of sparing the royal personage a sight of it.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	horrible	horrible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	journey	journey	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	last	last	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+8	three	three	NUM	CD	NumType=Card	11	nummod	_	_
+9	or	or	CCONJ	CC	_	10	cc	_	_
+10	four	four	NUM	CD	NumType=Card	8	conj	_	_
+11	days	day	NOUN	NNS	Number=Plur	12	obl:npmod	_	_
+12	longer	longer	ADV	RBR	Degree=Cmp	7	advmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	but	but	CCONJ	CC	_	19	cc	_	_
+15	torture	torture	PRON	PRP$	_	19	nsubj:pass	_	_
+16	may	may	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	surely	surely	ADV	RB	_	19	advmod	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	prolonged	prolonge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	object	object	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	SCONJ	IN	_	24	mark	_	_
+24	sparing	spare	VERB	VBG	VerbForm=Ger	22	acl	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	royal	royal	PROPN	NNP	Number=Sing	27	compound	_	_
+27	personage	personage	NOUN	NN	Number=Sing	24	obj	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	sight	sight	NOUN	NN	Number=Sing	24	obj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

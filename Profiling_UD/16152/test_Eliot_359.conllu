@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Going already, Mrs. Poyser?” said old Mr. Donnithorne, as she came to curtsy and take leave; “I thought we should not part with any of our guests till eleven.
+1	Going	go	VERB	VBG	VerbForm=Ger	8	ccomp	_	_
+2	already	already	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Poyser	Poyser	PROPN	NNP	Number=Sing	1	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	old	old	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obj	_	_
+11	Donnithorne	Donnithorne	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	curtsy	curtsy	NOUN	NN	Number=Sing	15	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	take	take	NOUN	NN	Number=Sing	17	conj	_	_
+20	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	8	punct	_	_
+22	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+26	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	not	not	PART	RB	_	28	advmod	_	_
+28	part	part	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+29	with	with	ADP	IN	_	30	case	_	_
+30	any	any	DET	DT	_	28	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	guests	guest	NOUN	NNS	Number=Plur	30	nmod	_	_
+34	till	till	ADV	RB	_	35	advmod	_	_
+35	eleven	eleven	ADV	RB	_	33	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Mrs. Irwine and I, who are elderly people, think of sitting out the dance till then.”
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Irwine	Irwine	PROPN	NNP	Number=Sing	11	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	elderly	elderly	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	people	people	NOUN	NNS	Number=Plur	2	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	sitting	sit	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dance	dance	NOUN	NN	Number=Sing	13	obj	_	_
+17	till	till	ADP	IN	_	18	case	_	_
+18	then	then	ADV	RB	PronType=Dem	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My dear Chettam, that is all very fine, you know,” said Mr. Brooke.
+1	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	dear	dear	NOUN	NN	Number=Sing	4	compound	_	_
+4	Chettam	Chettam	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	all	all	DET	DT	_	10	nsubj	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	fine	fine	ADJ	JJ	Degree=Pos	16	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	16	nsubj	_	_
+18	Brooke	Brooke	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “But how will you make yourself proof against calumny?
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	obj	_	_
+8	proof	proof	NOUN	NN	Number=Sing	6	obj	_	_
+9	against	against	ADP	IN	_	10	case	_	_
+10	calumny	calumny	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = You should read history—look at ostracism, persecution, martyrdom, and that kind of thing.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	read	read	VERB	VB	VerbForm=Inf	0	root	_	_
+4	history	history	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	look	look	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	ostracism	ostracism	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	persecution	persecution	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	martyrdom	martyrdom	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	kind	kind	NOUN	NN	Number=Sing	3	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	thing	thing	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = They always happen to the best men, you know.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	best	best	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	men	man	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = But what is that in Horace?—_fiat justitia, ruat_ …
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	Horace	Horace	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+9	_fiat	_fiat	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+10	justitia	justitia	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	ruat	ruat	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	3	punct	_	_
+14	…	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = something or other.”
+1	something	something	PRON	NN	Number=Sing	0	root	_	_
+2	or	or	CCONJ	CC	_	3	cc	_	_
+3	other	other	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

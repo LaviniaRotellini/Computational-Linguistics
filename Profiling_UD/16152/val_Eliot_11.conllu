@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, dear, oh, dear, Maggie, what are you thinkin’ of, to throw your bonnet down there?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	dear	dear	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	dear	dear	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Maggie	Maggie	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	what	what	PRON	WP	PronType=Int	15	obj	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	thinkin	thinkin	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	15	punct	_	_
+17	of	of	ADP	IN	_	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	throw	throw	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	bonnet	bonnet	NOUN	NN	Number=Sing	20	obj	_	_
+23	down	down	ADV	RB	_	24	advmod	_	_
+24	there	there	ADV	RB	PronType=Dem	20	advmod	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Take it upstairs, there’s a good gell, an’ let your hair be brushed, an’ put your other pinafore on, an’ change your shoes, do, for shame; an’ come an’ go on with your patchwork, like a little lady.”
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	upstairs	upstairs	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	SpaceAfter=No
+6	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	gell	gell	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	1	punct	_	_
+13	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hair	hair	NOUN	NN	Number=Sing	13	obj	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	brushed	brush	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	13	punct	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	21	punct	_	_
+21	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	13	conj	_	_
+22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	other	other	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	pinafore	pinafore	NOUN	NN	Number=Sing	21	obj	_	_
+25	on	on	ADP	IN	_	21	compound:prt	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	21	punct	_	_
+27	an	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	29	punct	_	_
+29	change	change	VERB	VB	Mood=Imp|VerbForm=Fin	21	obj	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	shoes	shoe	NOUN	NNS	Number=Plur	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	1	punct	_	_
+33	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	shame	shame	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+37	;	;	PUNCT	,	_	1	punct	_	_
+38	an	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	SpaceAfter=No
+39	’	'	PUNCT	''	_	40	punct	_	_
+40	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+41	an	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	SpaceAfter=No
+42	’	'	PUNCT	''	_	43	punct	_	_
+43	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	40	conj	_	_
+44	on	on	ADP	IN	_	43	compound:prt	_	_
+45	with	with	ADP	IN	_	47	case	_	_
+46	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	patchwork	patchwork	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	40	punct	_	_
+49	like	like	ADP	IN	_	52	case	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+51	little	little	ADJ	JJ	Degree=Pos	52	amod	_	_
+52	lady	lady	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+54	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

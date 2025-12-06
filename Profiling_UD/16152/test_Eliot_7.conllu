@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hoorray!” shouted a small lithe fellow called Wiry Ben, running forward and seizing the door.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hoorray	Hoorray	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	shouted	shoute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	small	small	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	lithe	lithe	NOUN	NN	Number=Sing	9	compound	_	_
+9	fellow	fellow	NOUN	NN	Number=Sing	5	obj	_	_
+10	called	call	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	Wiry	Wiry	PROPN	NNP	Number=Sing	10	xcomp	_	_
+12	Ben	Ben	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	running	run	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+15	forward	forward	ADV	RB	_	14	advmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	seizing	seize	VERB	VBG	VerbForm=Ger	14	conj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	door	door	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = “We’ll hang up th’ door at fur end o’ th’ shop an’ write on’t ‘Seth Bede, the Methody, his work.’
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	hang	hang	VERB	VB	VerbForm=Inf	0	root	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	th	th	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	’	's	PUNCT	''	_	8	punct	_	_
+8	door	door	NOUN	NN	Number=Sing	4	obj	_	_
+9	at	at	ADP	IN	_	14	case	_	_
+10	fur	fur	NOUN	NN	Number=Sing	11	compound	_	_
+11	end	end	NOUN	NN	Number=Sing	14	compound	_	_
+12	o	of	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	th	th	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	16	punct	_	_
+16	shop	shop	NOUN	NN	Number=Sing	4	obj	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	19	punct	_	_
+19	write	write	NOUN	NN	Number=Sing	4	obj	_	_
+20	o	of	ADP	IN	Abbr=Yes	21	case	_	SpaceAfter=No
+21	n’t	n’t	NOUN	NN	Number=Sing	19	nmod	_	_
+22	‘	'	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	Seth	Seth	PROPN	NNP	Number=Sing	21	conj	_	_
+24	Bede	Bede	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	Methody	Methody	PROPN	NNP	Number=Sing	21	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	19	punct	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	work	work	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+32	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = Here, Jim, lend’s hould o’ th’ red pot.”
+1	Here	here	ADV	RB	PronType=Dem	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	Jim	Jim	PROPN	NNP	Number=Sing	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	lend	lend	VERB	VB	Typo=Yes|VerbForm=Inf	0	root	_	SpaceAfter=No
+6	’s	be	PRON	PRP	_	8	obj	_	_
+7	hould	hould	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	o	of	VERB	VB	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	th	th	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+11	’	'	PART	POS	_	10	case	_	_
+12	red	re	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	pot	pot	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

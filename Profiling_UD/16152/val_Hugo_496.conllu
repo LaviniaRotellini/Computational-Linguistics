@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The pathway was uneven, and sometimes wet and difficult to pass.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	pathway	pathway	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	uneven	uneven	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	sometimes	sometimes	ADV	RB	_	8	advmod	_	_
+8	wet	wet	ADJ	JJ	Degree=Pos	4	conj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	difficult	difficult	ADJ	JJ	Degree=Pos	4	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	pass	pass	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Caudray, absorbed in thought, did not observe the occasional pools of water or the heaps of shingle.
+1	Caudray	Caudray	PROPN	NNP	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	absorbed	absorb	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	thought	thought	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	observe	observe	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	occasional	occasional	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	pools	pool	NOUN	NNS	Number=Plur	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	water	water	NOUN	NN	Number=Sing	12	nmod	_	_
+15	or	or	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	heaps	heap	NOUN	NNS	Number=Plur	14	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	shingle	shingle	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But from time to time Gilliatt turned and said to him, "Take heed of those stones.
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	from	from	ADP	IN	_	3	case	_	_
+3	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+6	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	7	conj	_	_
+15	heed	heed	NOUN	NN	Number=Sing	14	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	those	those	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	stones	stones	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Give her your hand."
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hand	hand	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

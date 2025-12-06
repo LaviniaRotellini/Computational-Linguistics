@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He retraced his steps; the gates of D—— were closed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	retraced	retrace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	steps	step	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	gates	gate	NOUN	NNS	Number=Plur	11	nsubj:pass	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	D——	d——	NOUN	NN	Number=Sing	7	nmod	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = D——, which had sustained sieges during the wars of religion, was still surrounded in 1815 by ancient walls flanked by square towers which have been demolished since.
+1	D	d	NOUN	NN	Number=Sing	16	nsubj:pass	_	SpaceAfter=No
+2	——	——	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+7	sieges	siege	NOUN	NNS	Number=Plur	6	obj	_	_
+8	during	during	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	wars	wars	NOUN	NNS	Number=Plur	6	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	religion	religion	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+15	still	still	ADV	RB	_	16	advmod	_	_
+16	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	1815	1815	NUM	CD	NumType=Card	16	obl	_	_
+19	by	by	ADP	IN	_	21	case	_	_
+20	ancient	ancient	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	walls	wall	NOUN	NNS	Number=Plur	16	obl	_	_
+22	flanked	flank	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
+23	by	by	ADP	IN	_	25	case	_	_
+24	square	square	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	towers	towers	NOUN	NNS	Number=Plur	22	obl	_	_
+26	which	which	PRON	WDT	PronType=Rel	29	nsubj:pass	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	demolished	demolish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
+30	since	since	ADP	IN	_	29	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = He passed through a breach and entered the town again.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	through	through	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	breach	breach	NOUN	NN	Number=Sing	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	town	town	NOUN	NN	Number=Sing	7	obj	_	_
+10	again	again	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

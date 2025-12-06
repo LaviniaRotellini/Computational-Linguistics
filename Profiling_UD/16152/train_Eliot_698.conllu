@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How very unpleasant you both are this evening!” said Rosamond.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	12	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+6	both	both	DET	DT	_	5	det	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	evening	evening	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Rosamond	Rosamond	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “I cannot conceive why money should have been referred to.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	conceive	conceive	VERB	VB	VerbForm=Inf	0	root	_	_
+6	why	why	ADV	WRB	PronType=Int	11	advmod	_	_
+7	money	money	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+8	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+12	to	to	ADP	IN	_	11	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Politics and Medicine are sufficiently disagreeable to quarrel upon.
+1	Politics	politics	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Medicine	Medicine	PROPN	NNP	Number=Sing	1	conj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sufficiently	sufficiently	ADV	RB	_	6	advmod	_	_
+6	disagreeable	disagreeable	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	quarrel	quarrel	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	upon	upon	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = You can both of you go on quarrelling with all the world and with each other on those two topics.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	both	both	DET	DT	_	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	nmod	_	_
+6	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	on	on	SCONJ	IN	_	8	mark	_	_
+8	quarrelling	quarrelling	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	world	world	NOUN	NN	Number=Sing	8	obl	_	_
+13	and	and	CCONJ	CC	_	20	cc	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	each	each	DET	DT	_	16	det	_	_
+16	other	other	ADJ	JJ	Degree=Pos	20	nmod	_	_
+17	on	on	ADP	IN	_	20	case	_	_
+18	those	those	DET	DT	Number=Plur|PronType=Dem	20	det	_	_
+19	two	two	NUM	CD	NumType=Card	20	nummod	_	_
+20	topics	topic	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, Lord bless my soul!’ exclaimed Mr. Omer, after being thrown by his surprise into a fit of coughing, ‘you don’t say so!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Lord	Lord	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	bless	bless	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	soul	soul	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	5	punct	_	_
+10	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	obj	_	_
+12	Omer	Omer	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	after	after	SCONJ	IN	_	16	mark	_	_
+15	being	be	AUX	VBG	VerbForm=Ger	16	aux:pass	_	_
+16	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+17	by	by	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	surprise	surprise	NOUN	NN	Number=Sing	16	obl	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	fit	fit	NOUN	NN	Number=Sing	19	nmod	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	coughing	coughing	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	10	punct	_	_
+26	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+28	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No
+29	n’t	not	PART	RB	_	30	advmod	_	_
+30	say	say	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+31	so	so	ADV	RB	_	30	advmod	_	SpaceAfter=No
+32	!	!	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Minnie, my dear, you recollect?
+1	Minnie	Minnie	PROPN	NNP	Number=Sing	7	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	dear	dear	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	recollect	recollect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Dear me, yes; the party was a lady, I think?’
+1	Dear	dear	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	yes	yes	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	party	party	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	lady	lady	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

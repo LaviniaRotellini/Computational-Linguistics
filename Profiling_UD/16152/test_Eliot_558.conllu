@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Close by here.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Close	close	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	by	by	ADP	IN	_	4	case	_	_
+4	here	here	ADV	RB	PronType=Dem	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I inquired all about him of Mr. Irwine.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	inquired	inquire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	all	all	ADV	RB	_	2	advmod	_	_
+4	about	about	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	Irwine	Irwine	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He lodges over a tinman’s shop, in the street on the right hand as you entered the prison.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lodges	lodg	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	over	over	ADP	IN	_	7	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	tinman	tinman	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	shop	shop	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	street	street	NOUN	NN	Number=Sing	2	obl	_	_
+12	on	on	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	right	right	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	hand	hand	NOUN	NN	Number=Sing	11	nmod	_	_
+16	as	as	SCONJ	IN	_	18	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	prison	prison	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = There is an old school-master with him.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+4	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+5	school	school	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	master	master	NOUN	NN	Number=Sing	2	nsubj	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Now, good-bye:
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	good	good	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	bye	bye	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	_	_
+
+# sent_id = 6
+# text = I wish you success.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	success	success	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

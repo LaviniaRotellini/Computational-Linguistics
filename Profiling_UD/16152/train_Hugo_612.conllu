@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cosette walked on without asking any questions.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	2	compound:prt	_	_
+4	without	without	SCONJ	IN	_	5	mark	_	_
+5	asking	ask	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	questions	question	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The sufferings of the first six years of her life had instilled something passive into her nature.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	sufferings	suffering	NOUN	NNS	Number=Plur	12	nsubj	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+6	six	six	NUM	CD	NumType=Card	7	nummod	_	_
+7	years	year	NOUN	NNS	Number=Plur	2	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	7	nmod	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	instilled	instil	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	something	something	PRON	NN	Number=Sing	12	obj	_	_
+14	passive	passive	ADJ	JJ	Degree=Pos	13	amod	_	_
+15	into	into	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	nature	nature	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Moreover,—and this is a remark to which we shall frequently have occasion to recur,—she had grown used, without being herself aware of it, to the peculiarities of this good man and to the freaks of destiny.
+1	Moreover	moreover	ADV	RB	_	2	advmod	_	SpaceAfter=No
+2	,—	,—	PUNCT	.	_	7	punct	_	SpaceAfter=No
+3	and	and	CCONJ	CC	_	7	cc	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	remark	remark	NOUN	NN	Number=Sing	17	conj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	which	which	PRON	WDT	PronType=Rel	13	obl	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	shall	shall	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	frequently	frequently	ADV	RB	_	13	advmod	_	_
+13	have	have	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+14	occasion	occasion	NOUN	NN	Number=Sing	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	recur	recur	VERB	VB	VerbForm=Inf	14	acl	_	SpaceAfter=No
+17	,—	,—	PUNCT	.	_	20	punct	_	SpaceAfter=No
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+21	used	use	VERB	VBN	Tense=Past|VerbForm=Part	20	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	without	without	SCONJ	IN	_	26	mark	_	_
+24	being	be	AUX	VBG	VerbForm=Ger	26	cop	_	_
+25	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	nsubj	_	_
+26	aware	aware	ADJ	JJ	Degree=Pos	21	advcl	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	20	punct	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	peculiarities	peculiarity	NOUN	NNS	Number=Plur	20	obl	_	_
+33	of	of	ADP	IN	_	36	case	_	_
+34	this	this	DET	DT	Number=Sing|PronType=Dem	36	det	_	_
+35	good	good	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	man	man	NOUN	NN	Number=Sing	32	nmod	_	_
+37	and	and	CCONJ	CC	_	40	cc	_	_
+38	to	to	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	freaks	freak	NOUN	NNS	Number=Plur	20	conj	_	_
+41	of	of	ADP	IN	_	42	case	_	_
+42	destiny	destiny	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 4
+# text = And then she was with him, and she felt safe.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	safe	safe	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Messeigneurs, emperors, and kings,” said Gringoire coolly (for I know not how, firmness had returned to him, and he spoke with resolution), “don’t think of such a thing; my name is Pierre Gringoire.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Messeigneurs	Messeigneur	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	emperors	emperor	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	kings	king	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	parataxis	_	_
+11	Gringoire	Gringoire	PROPN	NNP	Number=Sing	22	nsubj	_	_
+12	coolly	coolly	ADV	RB	_	11	advmod	_	_
+13	(	(	PUNCT	-LRB-	_	11	punct	_	SpaceAfter=No
+14	for	for	SCONJ	IN	_	16	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+17	not	not	ADV	RB	_	18	advmod	_	_
+18	how	how	ADV	WRB	PronType=Int	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	firmness	firmness	NOUN	NNS	Number=Plur	22	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	25	parataxis	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	conj	_	_
+29	with	with	ADP	IN	_	30	case	_	_
+30	resolution	resolution	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	10	punct	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	36	punct	_	_
+33	“	"	PUNCT	``	_	36	punct	_	SpaceAfter=No
+34	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	36	aux	_	SpaceAfter=No
+35	n’t	not	PART	RB	_	36	advmod	_	_
+36	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+37	of	of	ADP	IN	_	40	case	_	_
+38	such	such	DET	PDT	_	40	det:predet	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+40	thing	thing	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+41	;	;	PUNCT	,	_	36	punct	_	_
+42	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	name	name	NOUN	NN	Number=Sing	45	nsubj	_	_
+44	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+45	Pierre	Pierre	PROPN	NNP	Number=Sing	36	parataxis	_	_
+46	Gringoire	Gringoire	PROPN	NNP	Number=Sing	45	flat	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	36	punct	_	_
+
+# sent_id = 2
+# text = I am the poet whose morality was presented this morning in the grand hall of the Courts.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	poet	poet	NOUN	NN	Number=Sing	0	root	_	_
+5	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	6	nmod:poss	_	_
+6	morality	morality	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	morning	morning	NOUN	NN	Number=Sing	8	obl:tmod	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	grand	grand	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hall	hall	NOUN	NN	Number=Sing	10	nmod	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Courts	court	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

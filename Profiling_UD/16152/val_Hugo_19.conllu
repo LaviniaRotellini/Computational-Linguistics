@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Some people, who happened to be present one day when Gilliatt was bathing in the sea, had fancied that they could perceive upon him a fleur-de-lys.
+1	Some	some	DET	DT	_	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	20	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	present	present	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	day	day	NOUN	NN	Number=Sing	8	obl:tmod	_	_
+11	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+12	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	bathing	bath	VERB	VBG	Tense=Pres|VerbForm=Part	8	advcl	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sea	sea	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	fancied	fancy	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+21	that	that	SCONJ	IN	_	24	mark	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+23	could	could	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	perceive	perceive	VERB	VB	VerbForm=Inf	20	ccomp	_	_
+25	upon	upon	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+28	fleur	fleur	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+30	de	de	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	lys	ly	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = Interrogated on that subject he made no reply, but merely burst into laughter.
+1	Interrogated	Interrogate	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+2	on	on	ADP	IN	_	4	case	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	subject	subject	NOUN	NN	Number=Sing	1	obl	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	reply	reply	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	but	but	CCONJ	CC	_	14	cc	_	_
+11	merely	merely	ADV	RB	_	14	advmod	_	_
+12	burst	burst	ADV	RB	_	14	advmod	_	_
+13	into	into	ADP	IN	_	14	case	_	_
+14	laughter	laughter	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = For he laughed sometimes like other men.
+1	For	for	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+5	like	like	ADP	IN	_	7	case	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	men	man	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = From that time, however, no one ever saw him bathe: he bathed thenceforth only in perilous and solitary places; probably by moonlight: a thing in itself somewhat suspicious.
+1	From	from	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	however	however	ADV	RB	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	one	one	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	ever	ever	ADV	RB	_	10	advmod	_	_
+10	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+12	bathe	bathan	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	10	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	bathed	bath	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+16	thenceforth	thenceforth	ADV	RB	_	17	advmod	_	_
+17	only	only	ADV	RB	_	15	advmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	perilous	perilous	ADJ	JJ	Degree=Pos	15	obl	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	solitary	solitary	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	places	place	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	10	punct	_	_
+24	probably	probably	ADV	RB	_	26	advmod	_	_
+25	by	by	ADP	IN	_	26	case	_	_
+26	moonlight	moonlight	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	:	_	10	punct	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	thing	thing	NOUN	NN	Number=Sing	33	nsubj	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	29	nmod	_	_
+32	somewhat	somewhat	ADV	RB	_	33	advmod	_	_
+33	suspicious	suspicious	ADJ	JJ	Degree=Pos	10	parataxis	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

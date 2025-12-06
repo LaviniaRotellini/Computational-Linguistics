@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “_I_ don’t!” said my sister.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	_I	_I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	2	punct	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	”	”	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	sister	sister	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “I’d never do it again!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I know that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I may truly say I’ve never had this apron of mine off since born you were.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	truly	truly	ADV	RB	_	4	advmod	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	never	never	ADV	RB	_	8	advmod	_	_
+8	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	apron	apron	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	mine	mine	PRON	PRP	_	10	nmod	_	_
+13	off	off	ADP	RP	_	8	compound:prt	_	_
+14	since	since	SCONJ	IN	_	15	mark	_	_
+15	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = It’s bad enough to be a blacksmith’s wife (and him a Gargery) without being your mother.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	enough	enough	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	10	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	blacksmith	blacksmith	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	wife	wife	NOUN	NN	Number=Sing	3	obl	_	_
+11	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	Gargery	Gargery	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	10	punct	_	_
+17	without	without	SCONJ	IN	_	20	mark	_	_
+18	being	be	AUX	VBG	VerbForm=Ger	20	cop	_	_
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	mother	mother	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

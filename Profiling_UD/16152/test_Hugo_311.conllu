@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Listen, Master Pierre Gringoire.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Listen	listen	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Master	master	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Pierre	Pierre	PROPN	NNP	Number=Sing	2	appos	_	_
+6	Gringoire	Gringoire	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You are not yet damned, so far as I know.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	yet	yet	ADV	RB	_	5	advmod	_	_
+5	damned	damn	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	far	far	ADV	RB	Degree=Pos	5	advmod	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I take an interest in you, and wish you well.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	interest	interest	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	_
+11	well	well	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Now the least contact with that Egyptian of the demon would make you the vassal of Satan.
+1	Now	now	ADV	RB	_	12	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	least	least	ADJ	JJS	Degree=Sup	4	amod	_	_
+4	contact	contact	NOUN	NN	Number=Sing	12	nsubj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	Egyptian	egyptian	ADJ	JJ	Degree=Pos	4	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	demon	demon	NOUN	NN	Number=Sing	7	obl	_	_
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	vassal	vassal	NOUN	NN	Number=Sing	12	obj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Satan	Satan	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 5
+# text = You know that ’tis always the body which ruins the soul.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	’	’	PUNCT	''	_	8	punct	_	SpaceAfter=No
+5	tis	ti	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	always	always	ADV	RB	_	8	advmod	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	body	body	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	ruins	ruin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	soul	soul	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Woe to you if you approach that woman!
+1	Woe	Woe	ADP	IN	_	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obl	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	approach	approach	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	woman	woman	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = That is all.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	all	all	DET	DT	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

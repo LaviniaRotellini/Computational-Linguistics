@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s the way with this boy!” exclaimed my sister, pointing me out with her needle and thread, and shaking her head at me.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	way	way	NOUN	NN	Number=Sing	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	boy	boy	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	sister	sister	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	pointing	point	VERB	VBG	VerbForm=Ger	11	conj	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	out	out	ADP	RP	_	15	compound:prt	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	needle	needle	NOUN	NN	Number=Sing	15	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	thread	thread	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	shaking	shake	VERB	VBG	VerbForm=Ger	5	conj	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	head	head	NOUN	NN	Number=Sing	25	obj	_	_
+28	at	at	ADP	IN	_	29	case	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Answer him one question, and he’ll ask you a dozen directly.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Answer	answer	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	question	question	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	ask	ask	VERB	VB	VerbForm=Inf	2	conj	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	dozen	dozen	NOUN	NN	Number=Sing	10	obj	_	_
+14	directly	directly	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Hulks are prison-ships, right ’cross th’ meshes.”
+1	Hulks	Hulk	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	prison	prison	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	ships	ship	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	right	right	ADJ	JJ	Degree=Pos	12	amod	_	_
+8	’	’	PUNCT	''	_	10	punct	_	SpaceAfter=No
+9	cross	cross	NOUN	NN	Number=Sing	10	compound	_	_
+10	th	th	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	10	punct	_	_
+12	meshes	mesh	NOUN	NNS	Number=Plur	5	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 4
+# text = We always used that name for marshes, in our country.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	always	always	ADV	RB	_	3	advmod	_	_
+3	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	name	name	NOUN	NN	Number=Sing	3	obj	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	marshes	marsh	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	country	country	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

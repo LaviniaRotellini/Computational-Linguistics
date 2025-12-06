@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What care I what the men ’ud run after?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	3	det	_	_
+3	care	care	NOUN	NN	Number=Sing	1	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	what	what	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	men	man	NOUN	NNS	Number=Plur	10	nmod:poss	_	_
+8	’	's	PART	POS	_	7	case	_	SpaceAfter=No
+9	ud	uld	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	run	run	NOUN	NN	Number=Sing	5	obj	_	_
+11	after	after	ADP	IN	_	5	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It’s well seen what choice the most of ’em know how to make, by the poor draggle-tails o’ wives you see, like bits o’ gauze ribbin, good for nothing when the colour’s gone.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	well	well	ADV	RB	Degree=Pos	4	advmod	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	what	what	DET	WDT	PronType=Int	6	det	_	_
+6	choice	choice	NOUN	NN	Number=Sing	11	obj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	most	most	ADJ	JJS	Degree=Sup	11	nsubj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	’em	’em	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	_
+11	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+12	how	how	ADV	WRB	PronType=Int	14	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	make	make	VERB	VB	VerbForm=Inf	26	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	by	by	ADP	IN	_	21	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+18	poor	poor	ADJ	JJ	Degree=Pos	21	amod	_	_
+19	draggle	draggle	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	tails	tail	NOUN	NNS	Number=Plur	14	obl	_	_
+22	o	of	ADP	IN	Abbr=Yes	24	case	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	24	punct	_	_
+24	wives	wife	NOUN	NNS	Number=Plur	21	nmod	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	like	like	SCONJ	IN	_	35	mark	_	_
+29	bits	bit	NOUN	NNS	Number=Plur	35	nsubj	_	_
+30	o	of	ADP	IN	Abbr=Yes	33	case	_	SpaceAfter=No
+31	’	'	PUNCT	''	_	33	punct	_	_
+32	gauze	gauze	NOUN	NN	Number=Sing	33	compound	_	_
+33	ribbin	ribbin	NOUN	NNS	Number=Plur	29	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	29	punct	_	_
+35	good	good	ADJ	JJ	Degree=Pos	26	advcl	_	_
+36	for	for	ADP	IN	_	37	case	_	_
+37	nothing	nothing	PRON	NN	Number=Sing	35	obl	_	_
+38	when	when	ADV	WRB	PronType=Int	42	mark	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	colour	colour	NOUN	NN	Number=Sing	42	nmod:poss	_	SpaceAfter=No
+41	’s	's	PART	POS	_	40	case	_	_
+42	gone	gone	ADJ	JJ	Degree=Pos	37	amod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+44	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pardon me, good comrade Jehan,” exclaimed Phœbus, shaking his hand, “a horse going at a gallop cannot halt short.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pardon	pardon	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	comrade	comrade	NOUN	NN	Number=Sing	7	compound	_	_
+7	Jehan	Jehan	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	Phœbus	Phœbus	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	shaking	shake	VERB	VBG	VerbForm=Ger	2	conj	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hand	hand	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	horse	horse	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	going	go	VERB	VBG	VerbForm=Ger	26	csubj	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	gallop	gallop	NOUN	NN	Number=Sing	20	obl	_	_
+24	can	can	AUX	MD	VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	not	not	PART	RB	_	26	advmod	_	_
+26	halt	hal	VERB	VB	VerbForm=Inf	2	conj	_	_
+27	short	short	ADJ	JJ	Degree=Pos	26	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Now, I was swearing at a hard gallop.
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	swearing	swear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	hard	hard	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	gallop	gallop	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I have just been with those prudes, and when I come forth, I always find my throat full of curses, I must spit them out or strangle, _ventre et tonnerre!_”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	just	just	ADV	RB	_	7	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	those	those	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	prudes	prude	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	17	punct	_	_
+9	and	and	CCONJ	CC	_	17	cc	_	_
+10	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+13	forth	forth	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	always	always	ADV	RB	_	17	advmod	_	_
+17	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	throat	throat	NOUN	NN	Number=Sing	17	obj	_	_
+20	full	full	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	curses	curse	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	7	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	must	must	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	spit	spight	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+28	out	out	ADP	RP	_	26	compound:prt	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	strangle	strangle	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	_
+32	_ventre	_ventre	ADV	WRB	PronType=Rel	34	advmod	_	_
+33	et	et	X	FW	_	34	advmod	_	_
+34	tonnerre	tonnerre	ADV	RB	PronType=Dem	30	advmod	_	SpaceAfter=No
+35	!_	!_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

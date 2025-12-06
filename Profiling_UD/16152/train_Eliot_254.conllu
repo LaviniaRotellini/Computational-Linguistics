@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I think it would be as well for gentlemen not to give their remarks a personal bearing,” said Mr. Plymdale.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+7	as	as	ADV	RB	_	10	cc	_	_
+8	well	well	ADV	RB	Degree=Pos	7	fixed	_	_
+9	for	for	ADP	IN	_	7	fixed	_	_
+10	gentlemen	gentleman	NOUN	NNS	Number=Plur	3	ccomp	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	give	give	VERB	VB	VerbForm=Inf	10	advcl	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	remarks	remark	NOUN	NNS	Number=Plur	13	iobj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	personal	personal	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	bearing	bearing	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	21	punct	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	21	nsubj	_	_
+23	Plymdale	Plymdale	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = “I shall vote for the appointment of Mr. Tyke, but I should not have known, if Mr.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	vote	vote	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	appointment	appointment	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	Tyke	Tyke	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	but	but	CCONJ	CC	_	17	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	not	not	PART	RB	_	17	advmod	_	_
+16	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	known	know	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	if	if	SCONJ	IN	_	20	mark	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	17	obj	_	_
+
+# sent_id = 3
+# text = Hackbutt hadn’t hinted it, that I was a Servile Crawler.”
+1	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	hinted	hint	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	that	that	SCONJ	IN	_	12	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	Servile	Servile	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Crawler	Crawler	PROPN	NNP	Number=Sing	4	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

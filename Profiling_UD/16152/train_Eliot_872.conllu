@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Caleb likes taking trouble:
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Caleb	Caleb	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	taking	take	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	trouble	trouble	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 2
+# text = he is one of those men who always do more than any one would have thought of asking them to do,” answered Mrs. Garth.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	men	man	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+8	always	always	ADV	RB	_	16	advmod	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	16	advmod	_	_
+11	than	than	ADP	IN	_	13	case	_	_
+12	any	any	DET	DT	_	13	det	_	_
+13	one	one	NUM	CD	NumType=Card	10	obl	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+16	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+17	of	of	SCONJ	IN	_	18	mark	_	_
+18	asking	ask	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	do	do	VERB	VB	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	24	punct	_	_
+24	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+25	Mrs.	Mrs.	PROPN	NNP	Number=Sing	24	obj	_	_
+26	Garth	Garth	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = She was knitting, and could either look at Fred or not, as she chose—always an advantage when one is bent on loading speech with salutary meaning; and though Mrs. Garth intended to be duly reserved, she did wish to say something that Fred might be the better for.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	knitting	knitt	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	either	either	CCONJ	CC	_	8	cc:preconj	_	_
+8	look	look	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	Fred	Fred	PROPN	NNP	Number=Sing	8	obl	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	not	not	PART	RB	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	chose	choose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+17	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+18	always	always	ADV	RB	_	20	advmod	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	advantage	advantage	NOUN	NN	Number=Sing	16	obj	_	_
+21	when	when	ADV	WRB	PronType=Int	24	mark	_	_
+22	one	one	NUM	CD	NumType=Card	24	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	bent	bend	ADJ	JJ	Degree=Pos	8	advcl	_	_
+25	on	on	SCONJ	IN	_	26	mark	_	_
+26	loading	loading	VERB	VBG	VerbForm=Ger	24	advcl	_	_
+27	speech	speech	NOUN	NN	Number=Sing	26	obj	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	salutary	salutary	NOUN	NN	Number=Sing	26	obl	_	_
+30	meaning	meaning	VERB	VBG	VerbForm=Ger	8	xcomp	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	3	punct	_	_
+32	and	and	CCONJ	CC	_	36	cc	_	_
+33	though	though	SCONJ	IN	_	36	mark	_	_
+34	Mrs.	Mrs.	PROPN	NNP	Number=Sing	36	nsubj	_	_
+35	Garth	Garth	PROPN	NNP	Number=Sing	34	flat	_	_
+36	intended	intend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	conj	_	_
+37	to	to	PART	TO	_	40	mark	_	_
+38	be	be	AUX	VB	VerbForm=Inf	40	aux:pass	_	_
+39	duly	duly	ADV	RB	_	40	advmod	_	_
+40	reserved	reserve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	xcomp	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	44	punct	_	_
+42	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+43	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	44	aux	_	_
+44	wish	wish	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+45	to	to	PART	TO	_	46	mark	_	_
+46	say	say	VERB	VB	VerbForm=Inf	44	xcomp	_	_
+47	something	something	PRON	NN	Number=Sing	46	obj	_	_
+48	that	that	PRON	WDT	PronType=Rel	53	obj	_	_
+49	Fred	Fred	PROPN	NNP	Number=Sing	53	nsubj	_	_
+50	might	might	AUX	MD	VerbForm=Fin	53	aux	_	_
+51	be	be	AUX	VB	VerbForm=Inf	53	cop	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	better	better	ADJ	JJR	Degree=Cmp	47	acl:relcl	_	_
+54	for	for	ADP	IN	_	53	case	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

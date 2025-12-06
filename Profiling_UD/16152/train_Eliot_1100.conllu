@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, ay, he’s a ’complice you can’t send out o’ the country,” said Mr. Crabbe, the glazier, who gathered much news and groped among it dimly.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	ay	ay	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	’	’	PUNCT	''	_	10	punct	_	SpaceAfter=No
+10	complice	complice	NOUN	NN	Number=Sing	22	nsubj	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+12	ca	can	AUX	MD	VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	send	send	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+15	out	out	ADP	RP	_	14	compound:prt	_	_
+16	o	of	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	10	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	country	country	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Mr.	Mr.	PROPN	NNP	Number=Sing	22	nsubj	_	_
+24	Crabbe	Crabbe	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	23	punct	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	glazier	glazier	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	who	who	PRON	WP	PronType=Rel	30	nsubj	_	_
+30	gathered	gather	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+31	much	much	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	news	news	NOUN	NN	Number=Sing	30	obj	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	groped	grope	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	conj	_	_
+35	among	among	ADP	IN	_	36	case	_	_
+36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obl	_	_
+37	dimly	dimly	ADV	RB	_	34	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “But by what I can make out, there’s them says
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	11	cc	_	_
+3	by	by	SCONJ	IN	_	4	case	_	_
+4	what	what	PRON	WP	PronType=Int	7	obj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	make	make	VERB	VB	VerbForm=Inf	11	advcl	_	_
+8	out	out	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	there	there	PRON	EX	_	11	expl	_	SpaceAfter=No
+11	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+13	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = 3
+# text = Bulstrode was for running away, for fear o’ being found out, before now.”
+1	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	for	for	SCONJ	IN	_	4	mark	_	_
+4	running	running	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	away	away	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	fear	fear	NOUN	NN	Number=Sing	10	obl	_	_
+9	o	of	ADP	IN	Abbr=Yes	10	case	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	2	punct	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	12	aux:pass	_	_
+12	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+13	out	out	ADP	RP	_	12	compound:prt	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	before	before	ADV	RB	_	16	advmod	_	_
+16	now	now	ADV	RB	_	12	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

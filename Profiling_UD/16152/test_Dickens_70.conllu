@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We had not gone far when three cannon were fired ahead of us with a sound that seemed to burst something inside my ear.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	far	far	ADV	RB	Degree=Pos	4	advmod	_	_
+6	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+7	three	three	NUM	CD	NumType=Card	8	nummod	_	_
+8	cannon	cannon	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+11	ahead	ahead	ADV	RB	_	10	advmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	sound	sound	NOUN	NN	Number=Sing	10	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	burst	burst	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	xcomp	_	_
+21	something	something	PRON	NN	Number=Sing	20	obj	_	_
+22	inside	inside	ADP	IN	_	24	case	_	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	ear	ear	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “You are expected on board,” said the sergeant to my convict; “they know you are coming.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	board	board	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	sergeant	sergeant	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	convict	convict	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	9	punct	_	_
+16	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	18	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Don’t straggle, my man.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	straggle	straggle	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	man	man	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Close up here.”
+1	Close	close	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	up	up	ADP	RP	_	1	compound:prt	_	_
+3	here	here	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

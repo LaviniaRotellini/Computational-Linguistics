@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, my boy, you have a claim,” said Caleb, with much feeling in his voice.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	boy	boy	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	claim	claim	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Caleb	Caleb	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	much	much	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	feeling	feeling	NOUN	NN	Number=Sing	14	nmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	voice	voice	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “The young ones have always a claim on the old to help them forward.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	ones	one	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	always	always	ADV	RB	_	8	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	claim	claim	NOUN	NN	Number=Sing	5	obj	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	old	old	ADJ	JJ	Degree=Pos	8	nmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	help	help	VERB	VB	VerbForm=Inf	8	acl	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	forward	forward	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I was young myself once and had to do without much help; but help would have been welcome to me, if it had been only for the fellow-feeling’s sake.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	young	young	ADJ	JJ	Degree=Pos	0	root	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obl:npmod	_	_
+5	once	once	ADV	RB	NumType=Mult	3	advmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	without	without	ADP	IN	_	12	case	_	_
+11	much	much	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	help	help	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	3	punct	_	_
+14	but	but	CCONJ	CC	_	19	cc	_	_
+15	help	help	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	have	have	AUX	VB	VerbForm=Inf	19	aux	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	cop	_	_
+19	welcome	welcome	ADJ	JJ	Degree=Pos	3	conj	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	3	punct	_	_
+23	if	if	SCONJ	IN	_	34	mark	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+25	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	aux	_	_
+26	been	be	AUX	VBN	Tense=Past|VerbForm=Part	34	cop	_	_
+27	only	only	ADV	RB	_	34	advmod	_	_
+28	for	for	ADP	IN	_	34	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+30	fellow	fellow	ADJ	JJ	Degree=Pos	32	amod	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	feeling	feel	NOUN	NN	Number=Sing	34	compound	_	SpaceAfter=No
+33	’s	’	PART	POS	_	32	case	_	_
+34	sake	sake	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = But I must consider.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	consider	consider	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Come to me to-morrow at the office, at nine o’clock.
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+4	to	to	ADP	IN	_	6	case	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	morrow	morrow	NOUN	NN	Number=Sing	1	obl	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	office	office	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	at	at	ADP	IN	_	13	case	_	_
+12	nine	nine	NUM	CD	NumType=Card	13	nummod	_	_
+13	o’clock	o’clock	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = At the office, mind.”
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	office	office	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why—there’s awmost nobbody but has their troubles, missus.’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+3	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	there	there	PRON	EX	_	5	expl	_	SpaceAfter=No
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	awmost	awmost	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	nobbody	nobbody	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	but	but	CCONJ	CC	_	9	cc	_	_
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	troubles	trouble	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	missus	missus	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = He answered evasively, because the old woman appeared to take it for granted that he would be very happy indeed, and he had not the heart to disappoint her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	evasively	evasively	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	because	because	SCONJ	IN	_	9	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	old	old	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	woman	woman	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	take	take	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	granted	grant	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+15	that	that	SCONJ	IN	_	20	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	very	very	ADV	RB	_	20	advmod	_	_
+20	happy	happy	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+21	indeed	indeed	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+26	not	not	PART	RB	_	28	advmod	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	heart	heart	NOUN	NN	Number=Sing	25	obj	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	disappoint	disappoind	VERB	VB	VerbForm=Inf	28	acl	_	_
+31	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He knew that there was trouble enough in the world; and if the old woman had lived so long, and could count upon his having so little, why so much the better for her, and none the worse for him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	trouble	trouble	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	5	advmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	world	world	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	and	and	CCONJ	CC	_	18	cc	_	_
+13	if	if	SCONJ	IN	_	18	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	old	old	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	woman	woman	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	long	long	ADV	RB	Degree=Pos	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	could	could	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	count	count	VERB	VB	VerbForm=Inf	18	conj	_	_
+25	upon	upon	ADP	IN	_	27	mark	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nsubj	_	_
+27	having	have	VERB	VBG	VerbForm=Ger	24	advcl	_	_
+28	so	so	ADV	RB	_	29	advmod	_	_
+29	little	little	ADJ	JJ	Degree=Pos	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	18	punct	_	_
+31	why	why	ADV	WRB	PronType=Int	33	advmod	_	_
+32	so	so	ADV	RB	_	33	advmod	_	_
+33	much	much	ADV	RB	_	35	advmod	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	mark	_	_
+35	better	better	ADJ	JJR	Degree=Cmp	18	advcl	_	_
+36	for	for	ADP	IN	_	37	case	_	_
+37	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	42	punct	_	_
+39	and	and	CCONJ	CC	_	42	cc	_	_
+40	none	none	NOUN	NN	Number=Sing	42	nsubj	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	worse	worse	ADJ	JJR	Degree=Cmp	2	conj	_	_
+43	for	for	ADP	IN	_	44	case	_	_
+44	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs. Bulstrode was not satisfied with this answer.
+1	Mrs	Mrs	NOUN	NNS	Number=Plur	3	compound	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	Bulstrode	Bulstrode	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	satisfied	satisfy	ADJ	JJ	Degree=Pos	0	root	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	answer	answer	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = There remained in her the belief that some calamity had befallen her husband, of which she was to be kept in ignorance; and it was in her nature strongly to object to such concealment.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	belief	belief	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	calamity	calamity	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	befallen	befall	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	husband	husband	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	which	which	PRON	WDT	PronType=Rel	18	obl	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	_
+21	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	ignorance	ignorance	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	2	punct	_	_
+25	and	and	CCONJ	CC	_	30	cc	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	nature	nature	NOUN	NN	Number=Sing	2	conj	_	_
+31	strongly	strongly	ADV	RB	_	33	advmod	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	object	object	VERB	VB	VerbForm=Inf	30	acl	_	_
+34	to	to	ADP	IN	_	36	case	_	_
+35	such	such	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	concealment	concealment	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She begged leave for her daughters to sit with their father, and drove into the town to pay some visits, conjecturing that if anything were known to have gone wrong in Mr. Bulstrode’s affairs, she should see or hear some sign of it.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	begged	beg	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	leave	leave	VERB	VB	VerbForm=Inf	2	conj	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	daughters	daughter	NOUN	NNS	Number=Plur	3	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	sit	sit	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	father	father	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	drove	drive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	into	into	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	town	town	NOUN	NN	Number=Sing	14	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	pay	pay	VERB	VB	VerbForm=Inf	14	advcl	_	_
+20	some	some	DET	DT	_	21	det	_	_
+21	visits	visit	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	conjecturing	conjectur	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+24	that	that	SCONJ	IN	_	41	mark	_	_
+25	if	if	SCONJ	IN	_	28	mark	_	_
+26	anything	anything	PRON	NN	Number=Sing	28	nsubj:pass	_	_
+27	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	41	advcl	_	_
+29	to	to	PART	TO	_	31	mark	_	_
+30	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+31	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	28	xcomp	_	_
+32	wrong	wrong	ADJ	JJ	Degree=Pos	31	xcomp	_	_
+33	in	in	ADP	IN	_	37	case	_	_
+34	Mr.	Mr.	PROPN	NNP	Number=Sing	37	nmod:poss	_	_
+35	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	34	flat	_	SpaceAfter=No
+36	’s	's	PART	POS	_	34	case	_	_
+37	affairs	affair	NOUN	NNS	Number=Plur	32	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	41	punct	_	_
+39	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	should	should	AUX	MD	VerbForm=Fin	41	aux	_	_
+41	see	see	VERB	VB	VerbForm=Inf	23	ccomp	_	_
+42	or	or	CCONJ	CC	_	43	cc	_	_
+43	hear	hear	VERB	VB	VerbForm=Inf	41	conj	_	_
+44	some	some	DET	DT	_	45	det	_	_
+45	sign	sign	NOUN	NN	Number=Sing	43	obj	_	_
+46	of	of	ADP	IN	_	47	case	_	_
+47	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

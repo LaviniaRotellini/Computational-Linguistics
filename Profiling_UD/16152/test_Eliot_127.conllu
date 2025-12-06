@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, I know Seth well, and his brother Adam a little.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Seth	Seth	ADV	RB	_	7	advmod	_	_
+7	well	well	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	brother	brother	NOUN	NN	Number=Sing	5	conj	_	_
+12	Adam	Adam	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	appos	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	little	little	NOUN	NN	Number=Sing	12	obl:npmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Seth is a gracious young man—sincere and without offence; and Adam is like the patriarch Joseph, for his great skill and knowledge and the kindness he shows to his brother and his parents.”
+1	Seth	Seth	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	gracious	gracious	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	sincere	sincere	ADJ	JJ	Degree=Pos	6	amod	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	without	without	ADP	IN	_	11	case	_	_
+11	offence	offence	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	6	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	Adam	Adam	PROPN	NNP	Number=Sing	18	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	like	like	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	patriarch	patriarch	NOUN	NN	Number=Sing	6	conj	_	_
+19	Joseph	Joseph	PROPN	NNP	Number=Sing	18	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	great	great	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	skill	skill	NOUN	NN	Number=Sing	19	nmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	knowledge	knowledge	NOUN	NN	Number=Sing	24	conj	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	kindness	kindness	NOUN	NN	Number=Sing	24	conj	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	to	to	ADP	IN	_	34	case	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	brother	brother	NOUN	NN	Number=Sing	31	obl	_	_
+35	and	and	CCONJ	CC	_	37	cc	_	_
+36	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	parents	parent	NOUN	NNS	Number=Plur	31	conj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

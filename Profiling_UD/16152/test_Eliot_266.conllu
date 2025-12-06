@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I used to watch ’em often when I was a lad.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	watch	watch	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	’em	’em	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	often	often	ADV	RB	_	7	advmod	_	_
+10	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	lad	lad	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But now, you see, I can carry the basket with one arm, as if it was an empty nutshell, and give you th’ other arm to lean on.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	carry	carry	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	basket	basket	NOUN	NN	Number=Sing	9	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	one	one	NUM	CD	NumType=Card	14	nummod	_	_
+14	arm	arm	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	as	as	SCONJ	IN	_	22	mark	_	_
+17	if	if	SCONJ	IN	_	22	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	empty	empty	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	nutshell	nutshell	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	give	give	VERB	VB	VerbForm=Inf	9	conj	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	iobj	_	_
+27	th	th	ADJ	JJ	Degree=Pos|NumType=Ord	30	amod	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	30	punct	_	_
+29	other	other	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	arm	arm	NOUN	NN	Number=Sing	25	obj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	lean	lean	VERB	VB	VerbForm=Inf	25	advcl	_	_
+33	on	on	ADP	RP	_	32	compound:prt	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Won’t you?
+1	Wo	will	AUX	MD	VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Such big arms as mine were made for little arms like yours to lean on.”
+1	Such	such	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	big	big	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	arms	arm	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+4	as	as	SCONJ	IN	_	7	mark	_	_
+5	mine	mine	PRON	PRP	_	7	nsubj:pass	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	arms	arm	NOUN	NNS	Number=Plur	7	obl	_	_
+11	like	like	SCONJ	IN	_	14	mark	_	_
+12	yours	yours	PRON	PRP	_	14	nsubj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	lean	lean	VERB	VB	VerbForm=Inf	7	advcl	_	_
+15	on	on	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

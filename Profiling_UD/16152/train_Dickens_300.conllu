@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = And now I fell into a state of neglect, which I cannot look back upon without compassion.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	now	now	ADV	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	state	state	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	neglect	neglect	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	not	not	PART	RB	_	15	advmod	_	_
+15	look	look	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+16	back	back	ADV	RB	_	15	advmod	_	_
+17	upon	upon	ADP	IN	_	19	case	_	_
+18	without	without	ADP	IN	_	19	case	_	_
+19	compassion	compassion	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I fell at once into a solitary condition,--apart from all friendly notice, apart from the society of all other boys of my own age, apart from all companionship but my own spiritless thoughts,--which seems to cast its gloom upon this paper as I write.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADV	RB	_	4	advmod	_	_
+4	once	once	ADV	RB	NumType=Mult	2	advmod	_	_
+5	into	into	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	solitary	solitary	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	condition	condition	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,--	,--	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	apart	apart	ADV	RB	_	14	advmod	_	_
+11	from	from	ADP	IN	_	14	case	_	_
+12	all	all	DET	DT	_	14	det	_	_
+13	friendly	friendly	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	notice	notice	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	apart	apart	ADV	RB	_	19	advmod	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	society	society	NOUN	NN	Number=Sing	14	nmod	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	all	all	DET	DT	_	23	det	_	_
+22	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	boys	boy	NOUN	NNS	Number=Plur	19	nmod	_	_
+24	of	of	ADP	IN	_	27	case	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	own	own	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	age	age	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	14	punct	_	_
+29	apart	apart	ADV	RB	_	14	advmod	_	_
+30	from	from	ADP	IN	_	32	case	_	_
+31	all	all	DET	DT	_	32	det	_	_
+32	companionship	companionship	NOUN	NN	Number=Sing	29	obl	_	_
+33	but	but	CCONJ	CC	_	37	cc	_	_
+34	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+35	own	own	ADJ	JJ	Degree=Pos	37	amod	_	_
+36	spiritless	spiritless	NOUN	NN	Number=Sing	37	compound	_	_
+37	thoughts	thought	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+38	,--	,--	PUNCT	.	_	37	punct	_	SpaceAfter=No
+39	which	which	PRON	WDT	PronType=Rel	40	nsubj	_	_
+40	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+41	to	to	PART	TO	_	42	mark	_	_
+42	cast	cast	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+43	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	SpaceAfter=No
+44	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+45	gloom	gloom	ADJ	JJ	Degree=Pos	42	ccomp	_	_
+46	upon	upon	ADP	IN	_	48	case	_	_
+47	this	this	DET	DT	Number=Sing|PronType=Dem	48	det	_	_
+48	paper	paper	NOUN	NN	Number=Sing	45	obl	_	_
+49	as	as	SCONJ	IN	_	51	mark	_	_
+50	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	51	nsubj	_	_
+51	write	write	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	45	advcl	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

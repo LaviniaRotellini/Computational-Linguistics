@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And how did he look, sir?
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	look	look	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	sir	sir	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Was he portly, bold, outspoken, and hearty?’
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	portly	portly	ADV	RB	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	bold	bold	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	outspoken	outspoken	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	hearty	hearty	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	’	’	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = As she straightened her own figure, and held up her head in adapting her action to her words, the idea crossed Stephen that he had seen this old woman before, and had not quite liked her.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	straightened	straighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	own	own	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	figure	figure	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	held	hold	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+10	up	up	ADP	RP	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	head	head	NOUN	NN	Number=Sing	9	obl	_	_
+13	in	in	SCONJ	IN	_	14	mark	_	_
+14	adapting	adapt	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	action	action	NOUN	NN	Number=Sing	14	obj	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	words	word	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	idea	idea	NOUN	NN	Number=Sing	0	root	_	_
+23	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	_	_
+24	Stephen	Stephen	SCONJ	IN	_	28	mark	_	_
+25	that	that	SCONJ	IN	_	28	mark	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	_
+29	this	this	DET	DT	Number=Sing|PronType=Dem	31	det	_	_
+30	old	old	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	woman	woman	NOUN	NN	Number=Sing	28	obj	_	_
+32	before	before	ADV	RB	_	28	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	38	punct	_	_
+34	and	and	CCONJ	CC	_	38	cc	_	_
+35	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	aux	_	_
+36	not	not	PART	RB	_	38	advmod	_	_
+37	quite	quite	ADV	RB	_	38	advmod	_	_
+38	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	22	conj	_	_
+39	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am ashamed to say it,” I returned, “and yet it’s no worse to say it than to think it.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	ashamed	asham	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	and	and	CCONJ	CC	_	27	cc	_	_
+15	yet	yet	CCONJ	CC	_	19	cc	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	no	no	ADV	RB	_	19	advmod	_	_
+19	worse	worse	ADJ	JJR	Degree=Cmp	14	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	say	say	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	than	than	SCONJ	IN	_	25	mark	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	think	think	VERB	VB	VerbForm=Inf	21	advcl	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = You call me a lucky fellow.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	lucky	lucky	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellow	fellow	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Of course, I am.
+1	Of	of	ADV	RB	_	5	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I was a blacksmith’s boy but yesterday; I am—what shall I say I am—to-day?”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	blacksmith	blacksmith	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	boy	boy	NOUN	NN	Number=Sing	0	root	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	yesterday	yesterday	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+13	what	what	PRON	WP	PronType=Int	16	obj	_	_
+14	shall	shall	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	say	say	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	am—	am-	PUNCT	:	_	21	punct	_	SpaceAfter=No
+19	to	to	ADP	IN	_	21	case	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	day	day	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

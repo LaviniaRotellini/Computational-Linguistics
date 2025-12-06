@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = They were obstructed by quantities of shingle, heaped together in their recesses.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	obstructed	obstruct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	by	by	ADP	IN	_	5	case	_	_
+5	quantities	quantity	NOUN	NNS	Number=Plur	3	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	shingle	shingle	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	heaped	heape	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+10	together	together	ADV	RB	_	9	advmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	recesses	recess	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Some of their huge smooth stones weighed more than a ton.
+1	Some	some	DET	DT	_	7	nsubj	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+4	huge	huge	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	smooth	smooth	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	stones	stone	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	weighed	weigh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	more	more	ADJ	JJR	Degree=Cmp	7	obj	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	ton	ton	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = They were of every proportion, and of every hue; but the greater part were blood coloured.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	proportion	proportion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	hue	hue	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	but	but	CCONJ	CC	_	18	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	greater	greater	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	part	part	NOUN	NN	Number=Sing	18	nsubj	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
+17	blood	blood	NOUN	NN	Number=Sing	18	obl:npmod	_	_
+18	coloured	colou	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Some, covered with a hairy and glutinous seaweed, seemed like large green moles boring a way into the rock.
+1	Some	some	DET	DT	_	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	covered	cover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	hairy	hairy	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	glutinous	glutinous	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	conj	_	_
+9	seaweed	seaweed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+12	like	like	ADP	IN	_	15	case	_	_
+13	large	large	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	green	green	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	moles	mole	NOUN	NNS	Number=Plur	11	obl	_	_
+16	boring	bo	VERB	VBG	VerbForm=Ger	15	acl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	way	way	NOUN	NN	Number=Sing	16	obj	_	_
+19	into	into	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	rock	rock	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

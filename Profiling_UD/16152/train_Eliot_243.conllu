@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Men of your profession don’t generally smoke,” he said.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Men	man	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	profession	profession	NOUN	NN	Number=Sing	2	nmod	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	9	advmod	_	_
+8	generally	generally	ADV	RB	_	9	advmod	_	_
+9	smoke	smoke	VERB	VB	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	9	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = Lydgate smiled and shook his head.
+1	Lydgate	Lydgate	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	smiled	smile	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	head	head	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “Nor of mine either, properly, I suppose.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Nor	nor	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	mine	mine	PRON	PRP	_	2	nmod	_	_
+5	either	either	CCONJ	CC	_	10	cc:preconj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	properly	properly	ADV	RB	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = You will hear that pipe alleged against me by Bulstrode and Company.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	hear	hear	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	pipe	pipe	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	against	against	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	by	by	ADP	IN	_	10	case	_	_
+10	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	6	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	Company	company	PROPN	NNP	Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = They don’t know how pleased the devil would be if I gave it up.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+6	pleased	pleased	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	devil	devil	PROPN	NNP	Number=Sing	6	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	up	up	ADP	RP	_	13	compound:prt	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

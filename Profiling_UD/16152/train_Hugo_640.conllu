@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The night wind had risen, which indicated that it must be between one and two o’clock in the morning.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	night	night	NOUN	NN	Number=Sing	3	compound	_	_
+3	wind	wind	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	risen	risen	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	indicated	indicate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	that	that	SCONJ	IN	_	14	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	between	between	ADP	IN	_	14	case	_	_
+14	one	one	NUM	CD	NumType=Card	8	ccomp	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	two	two	NUM	CD	NumType=Card	17	nummod	_	_
+17	o’clock	o’clock	NOUN	NN	Number=Sing	14	conj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	morning	morning	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Poor Cosette said nothing.
+1	Poor	poor	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Cosette	Cosette	PROPN	NNP	Number=Sing	1	flat	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = As she had seated herself beside him and leaned her head against him, Jean Valjean had fancied that she was asleep.
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	beside	beside	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	head	head	NOUN	NN	Number=Sing	9	obj	_	_
+12	against	against	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	Jean	Jean	PROPN	NNP	Number=Sing	18	nsubj	_	_
+16	Valjean	Valjean	PROPN	NNP	Number=Sing	15	flat	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	fancied	fancy	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	asleep	asleep	ADJ	JJ	Degree=Pos	18	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 4
+# text = He bent down and looked at her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bent	bend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	down	down	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Cosette’s eyes were wide open, and her thoughtful air pained Jean Valjean.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	eyes	eye	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	wide	wide	ADV	RB	_	6	advmod	_	_
+6	open	open	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	air	air	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	pained	pain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+13	Jean	Jean	PROPN	NNP	Number=Sing	12	obj	_	_
+14	Valjean	Valjean	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

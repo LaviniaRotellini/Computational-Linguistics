@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ostentation, Hackbutt?” said Mr. Toller, ironically.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ostentation	Ostentation	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Toller	Toller	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	ironically	ironically	ADV	RB	_	7	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “I don’t see that.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = A man can’t very well be ostentatious of what nobody believes in.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	ostentatious	ostentatious	ADJ	JJ	Degree=Pos	0	root	_	_
+9	of	of	SCONJ	IN	_	10	case	_	_
+10	what	what	PRON	WP	PronType=Int	8	obl	_	_
+11	nobody	nobody	PRON	NN	Number=Sing	12	nsubj	_	_
+12	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	in	in	ADP	RP	_	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = There’s no reform in the matter: the question is, whether the profit on the drugs is paid to the medical man by the druggist or by the patient, and whether there shall be extra pay under the name of attendance.”
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	reform	reform	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	matter	matter	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	2	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	question	question	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	whether	whether	SCONJ	IN	_	20	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	profit	profit	NOUN	NN	Number=Sing	20	nsubj:pass	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	drugs	drug	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+21	to	to	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	medical	medical	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	man	man	NOUN	NN	Number=Sing	20	obl	_	_
+25	by	by	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	druggist	druggist	NOUN	NN	Number=Sing	20	obl	_	_
+28	or	or	CCONJ	CC	_	31	cc	_	_
+29	by	by	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	patient	patient	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	39	punct	_	_
+33	and	and	CCONJ	CC	_	39	cc	_	_
+34	whether	whether	SCONJ	IN	_	39	mark	_	_
+35	there	there	PRON	EX	_	39	expl	_	_
+36	shall	shall	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	be	be	AUX	VB	VerbForm=Inf	39	cop	_	_
+38	extra	extra	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	pay	pay	VERB	VB	VerbForm=Inf	2	conj	_	_
+40	under	under	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	name	name	NOUN	NN	Number=Sing	39	obl	_	_
+43	of	of	ADP	IN	_	44	case	_	_
+44	attendance	attendance	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	39	punct	_	SpaceAfter=No
+46	”	"	PUNCT	''	_	39	punct	_	SpacesAfter=\n
+

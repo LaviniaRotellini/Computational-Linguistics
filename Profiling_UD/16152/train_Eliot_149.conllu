@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mary Garth can bear being at Stone Court, because she likes that better than being a governess,” said Rosamond, folding up her work.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Mary	Mary	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	Garth	Garth	PROPN	NNP	Number=Sing	2	flat	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	bear	bear	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	9	cop	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	Stone	stone	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Court	Court	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	because	because	SCONJ	IN	_	13	mark	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+15	better	better	ADJ	JJR	Degree=Cmp	13	xcomp	_	_
+16	than	than	SCONJ	IN	_	19	mark	_	_
+17	being	be	AUX	VBG	VerbForm=Ger	19	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	governess	governess	NOUN	NN	Number=Sing	15	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Rosamond	Rosamond	PROPN	NNP	Number=Sing	25	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	folding	fold	VERB	VBG	VerbForm=Ger	22	parataxis	_	_
+26	up	up	ADP	RP	_	28	case	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	work	work	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = “I would rather not have anything left to me if I must earn it by enduring much of my uncle’s cough and his ugly relations.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	rather	rather	ADV	RB	_	6	advmod	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+7	anything	anything	PRON	NN	Number=Sing	6	obj	_	_
+8	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+11	if	if	SCONJ	IN	_	14	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	must	must	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	earn	earn	VERB	VB	VerbForm=Inf	6	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	by	by	SCONJ	IN	_	17	mark	_	_
+17	enduring	enduring	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+18	much	much	ADV	RB	_	23	advmod	_	_
+19	of	of	ADP	IN	_	23	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	uncle	uncle	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	cough	cough	NOUN	NN	Number=Sing	17	obl	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	ugly	ugly	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	relations	relation	NOUN	NNS	Number=Plur	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

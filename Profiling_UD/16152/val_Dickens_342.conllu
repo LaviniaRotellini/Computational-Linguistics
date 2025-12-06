@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He assisted her to rise, and she took his arm, and they advanced to meet the whelp.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	assisted	assist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	rise	rise	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	arm	arm	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	advanced	advanc	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	meet	meet	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	whelp	whelp	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was idly beating the branches as he lounged along: or he stooped viciously to rip the moss from the trees with his stick.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	idly	idly	ADV	RB	_	4	advmod	_	_
+4	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	branches	branch	NOUN	NNS	Number=Plur	4	obj	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	lounged	lounge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	along	along	ADP	IN	_	9	compound:prt	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	4	punct	_	_
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	stooped	stoop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	viciously	viciously	ADV	RB	_	14	advmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	rip	rip	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	moss	moss	NOUN	NN	Number=Sing	17	obj	_	_
+20	from	from	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	trees	tree	NOUN	NNS	Number=Plur	17	obl	_	_
+23	with	with	ADP	IN	_	25	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	stick	stick	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He was startled when they came upon him while he was engaged in this latter pastime, and his colour changed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	startled	startle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+7	upon	upon	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	while	while	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+15	latter	latter	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	pastime	pastime	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	colour	colour	NOUN	NN	Number=Sing	3	conj	_	_
+21	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

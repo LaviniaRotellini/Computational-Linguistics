@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘There is not the least hope.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	not	not	PART	RB	_	3	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	least	least	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	hope	hope	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The first object of my coming here, sir, is to assure you that you must believe that there is no more hope of your ever speaking with her again, than there would be if she had died when she came home last night.’
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	object	object	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	of	of	ADP	IN	_	11	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+6	coming	come	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+7	here	here	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	sir	sir	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	assure	assure	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obj	_	_
+15	that	that	SCONJ	IN	_	18	mark	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+17	must	must	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	believe	believe	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+19	that	that	SCONJ	IN	_	21	mark	_	_
+20	there	there	PRON	EX	_	21	expl	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+22	no	no	DET	DT	_	24	det	_	_
+23	more	more	ADJ	JJR	Degree=Cmp	24	amod	_	_
+24	hope	hope	NOUN	NN	Number=Sing	21	nsubj	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	ever	ever	ADV	RB	_	28	advmod	_	_
+28	speaking	speak	VERB	VBG	VerbForm=Ger	24	acl	_	_
+29	with	with	ADP	IN	_	30	case	_	_
+30	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	obl	_	_
+31	again	again	ADV	RB	_	28	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	28	punct	_	_
+33	than	than	SCONJ	IN	_	36	mark	_	_
+34	there	there	PRON	EX	_	36	expl	_	_
+35	would	would	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	be	be	VERB	VB	VerbForm=Inf	28	advcl	_	_
+37	if	if	SCONJ	IN	_	40	mark	_	_
+38	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+39	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	aux	_	_
+40	died	die	VERB	VBN	Tense=Past|VerbForm=Part	36	advcl	_	_
+41	when	when	ADV	WRB	PronType=Int	43	mark	_	_
+42	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+43	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	advcl	_	_
+44	home	home	ADV	RB	_	43	advmod	_	_
+45	last	last	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	night	night	NOUN	NN	Number=Sing	43	obl:tmod	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	28	punct	_	SpaceAfter=No
+48	’	'	PUNCT	''	_	28	punct	_	SpacesAfter=\n
+

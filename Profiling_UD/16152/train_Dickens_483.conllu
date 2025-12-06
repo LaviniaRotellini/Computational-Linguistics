@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And I’ll tell you what, my dear Copperfield,’ said Mr. Micawber, ‘your friend
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	tell	tell	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	what	what	PRON	WP	PronType=Int	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	dear	dear	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Copperfield	Copperfield	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Micawber	Micawber	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	‘	'	PUNCT	``	_	20	punct	_	SpaceAfter=No
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	friend	friend	NOUN	NN	Number=Sing	15	appos	_	_
+
+# sent_id = 2
+# text = Heep is a young fellow who might be attorney-general.
+1	Heep	Heep	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+7	might	might	AUX	MD	VerbForm=Fin	11	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+9	attorney	attorney	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+10	-	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+11	general	general	ADJ	JJ	Degree=Pos	5	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = If I had known that young man, at the period when my difficulties came to a crisis, all I can say is, that I believe my creditors would have been a great deal better managed than they were.’
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part	28	advcl	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	period	period	NOUN	NN	Number=Sing	4	obl	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	difficulties	difficulty	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	crisis	crisis	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	all	all	DET	DT	_	24	det:predet	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	say	say	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+24	is	be	ADV	RB	_	4	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	that	that	SCONJ	IN	_	28	mark	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	creditors	creditor	NOUN	NNS	Number=Plur	36	nsubj	_	_
+31	would	would	AUX	MD	VerbForm=Fin	36	aux	_	_
+32	have	have	AUX	VB	VerbForm=Inf	36	aux	_	_
+33	been	be	AUX	VBN	Tense=Past|VerbForm=Part	36	cop	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+35	great	great	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	deal	deal	NOUN	NN	Number=Sing	28	ccomp	_	_
+37	better	better	ADV	RBR	Degree=Cmp	38	advmod	_	_
+38	managed	manage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	conj	_	_
+39	than	than	SCONJ	IN	_	41	mark	_	_
+40	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+41	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	28	punct	_	SpaceAfter=No
+43	’	'	PUNCT	''	_	28	punct	_	SpacesAfter=\n
+

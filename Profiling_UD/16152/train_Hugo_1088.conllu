@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The principal leaders,” as they said in the faubourg, held themselves apart.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	principal	principal	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	leaders	leader	NOUN	NNS	Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	14	punct	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	faubourg	faubourg	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	apart	apart	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = It was supposed that they met for consultation in a wine-shop near the point Saint-Eustache.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	consultation	consultation	NOUN	NN	Number=Sing	6	obl	_	_
+9	in	in	ADP	IN	_	13	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	wine	wine	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	shop	shop	NOUN	NN	Number=Sing	6	obl	_	_
+14	near	near	ADP	IN	_	19	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+16	point	point	NOUN	NN	Number=Sing	19	compound	_	_
+17	Saint	Saint	PROPN	NNP	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	Eustache	Eustache	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = A certain Aug—, chief of the Society aid for tailors, Rue Mondétour, had the reputation of serving as intermediary central between the leaders and the Faubourg Saint-Antoine.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	certain	certain	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Aug	Aug	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	chief	chief	NOUN	NN	Number=Sing	3	appos	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	Society	society	PROPN	NNP	Number=Sing	10	compound	_	_
+10	aid	aid	NOUN	NN	Number=Sing	6	nmod	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	tailors	tailor	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	Rue	Rue	PROPN	NNP	Number=Sing	12	conj	_	_
+15	Mondétour	Mondétour	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	reputation	reputation	NOUN	NN	Number=Sing	17	obj	_	_
+20	of	of	SCONJ	IN	_	21	mark	_	_
+21	serving	serving	VERB	VBG	VerbForm=Ger	19	acl	_	_
+22	as	as	ADP	IN	_	24	case	_	_
+23	intermediary	intermediary	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	central	central	NOUN	NN	Number=Sing	21	obl	_	_
+25	between	between	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	leaders	leader	NOUN	NNS	Number=Plur	24	nmod	_	_
+28	and	and	CCONJ	CC	_	33	cc	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+30	Faubourg	Faubourg	PROPN	NNP	Number=Sing	33	compound	_	_
+31	Saint	Saint	PROPN	NNP	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	Antoine	Antoine	PROPN	NNP	Number=Sing	27	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A smile broke through the gloom of Lydgate’s face.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	smile	smile	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	through	through	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	gloom	gloom	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	Lydgate	Lydgate	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	face	face	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The childlike grave-eyed earnestness with which Dorothea said all this was irresistible—blent into an adorable whole with her ready understanding of high experience.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	childlike	childlike	NOUN	NN	Number=Sing	3	compound	_	_
+3	grave	grave	NOUN	NN	Number=Sing	5	obl:npmod	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	eyed	eye	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	_
+6	earnestness	earnestness	NOUN	NNS	Number=Plur	0	root	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	obl	_	_
+9	Dorothea	Dorothea	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+11	all	all	ADV	RB	_	14	advmod	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	irresistible	irresistible	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+16	blent	blend	ADJ	JJ	Degree=Pos	14	amod	_	_
+17	into	into	ADP	IN	_	20	case	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	adorable	adorable	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	whole	whole	ADJ	JJ	Degree=Pos	16	obl	_	_
+21	with	with	ADP	IN	_	24	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	ready	ready	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	understanding	understanding	NOUN	NN	Number=Sing	20	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	high	high	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	experience	experience	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = (Of lower experience such as plays a great part in the world, poor Mrs. Casaubon had a very blurred shortsighted knowledge, little helped by her imagination.)
+1	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+2	Of	of	ADP	IN	_	4	case	_	_
+3	lower	lower	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	experience	experience	NOUN	NN	Number=Sing	0	root	_	_
+5	such	such	ADJ	JJ	Degree=Pos	7	mark	_	_
+6	as	as	SCONJ	IN	_	5	fixed	_	_
+7	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	great	great	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	part	part	NOUN	NN	Number=Sing	7	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	world	world	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	poor	poor	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	Mrs.	Mrs.	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Casaubon	Casaubon	PROPN	NNP	Number=Sing	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+20	very	very	ADV	RB	_	21	advmod	_	_
+21	blurred	blurred	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	shortsighted	shortsighted	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	knowledge	knowledge	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	little	little	ADJ	JJ	Degree=Pos	26	obl:npmod	_	_
+26	helped	help	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+27	by	by	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	imagination	imagination	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	4	punct	_	_
+
+# sent_id = 4
+# text = But she took the smile as encouragement of her plan.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	smile	smile	NOUN	NN	Number=Sing	3	obj	_	_
+6	as	as	ADP	IN	_	7	case	_	_
+7	encouragement	encouragement	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	plan	plan	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

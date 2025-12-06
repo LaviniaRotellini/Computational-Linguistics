@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All at once, as she struggled and crawled on the floor, the gypsy’s hand came in contact with something cold and metallic—it was Quasimodo’s whistle.
+1	All	all	DET	DT	_	18	obl	_	_
+2	at	at	ADP	IN	_	3	case	_	_
+3	once	once	ADV	RB	NumType=Mult	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	18	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	struggled	struggle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	crawled	crawl	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	floor	floor	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	gypsy	gypsy	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	hand	hand	NOUN	NN	Number=Sing	18	nsubj	_	_
+18	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	contact	contact	NOUN	NN	Number=Sing	18	obl	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	something	something	PRON	NN	Number=Sing	20	nmod	_	_
+23	cold	cold	ADJ	JJ	Degree=Pos	22	amod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	metallic	metallic	ADJ	JJ	Degree=Pos	22	conj	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+29	Quasimodo	Quasimodo	PROPN	NNP	Number=Sing	31	nmod:poss	_	SpaceAfter=No
+30	’s	's	PART	POS	_	29	case	_	_
+31	whistle	whistle	NOUN	NN	Number=Sing	18	parataxis	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = She seized it with a convulsive hope, raised it to her lips and blew with all the strength that she had left.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seized	seize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	convulsive	convulsive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hope	hope	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+13	lips	lip	NOUN	NNS	Number=Plur	9	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	blew	blow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	all	all	DET	PDT	_	19	det:predet	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	strength	strength	NOUN	NN	Number=Sing	15	obl	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	15	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The whistle gave a clear, piercing sound.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	whistle	whistle	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	clear	clear	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	piercing	piercing	NOUN	NN	Number=Sing	8	compound	_	_
+8	sound	sound	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The sea entered beneath it, but was not deep.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	sea	sea	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	beneath	beneath	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	but	but	CCONJ	CC	_	10	cc	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	deep	deep	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The bottom was visible, covered with large pebbles.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bottom	bottom	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	covered	covere	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	large	large	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	pebbles	pebble	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The pebbles were green and clothed with _confervæ_, indicating that they were never dry.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	pebbles	pebble	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	green	green	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	clothed	clothed	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	_confervæ_	_confervæ_	SYM	NFP	_	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	indicating	indicate	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	never	never	ADV	RB	_	15	advmod	_	_
+15	dry	dry	ADJ	JJ	Degree=Pos	10	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = They were like the tops of a number of heads of infants, covered with a kind of green hair.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	tops	top	NOUN	NNS	Number=Plur	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	number	number	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	heads	head	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	infants	infant	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	kind	kind	NOUN	NN	Number=Sing	14	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	green	green	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hair	hair	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

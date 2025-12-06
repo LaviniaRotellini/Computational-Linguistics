@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Good God!” said Sir James, with as much passion as he ever showed, “let us get him a post; let us spend money on him.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	God	God	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Sir	Sir	PROPN	NNP	Number=Sing	6	obj	_	_
+8	James	James	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	much	much	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	passion	passion	NOUN	NN	Number=Sing	7	nmod	_	_
+14	as	as	SCONJ	IN	_	17	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	ever	ever	ADV	RB	_	17	advmod	_	_
+17	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+20	let	let	VERB	VB	VerbForm=Inf	6	conj	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+22	get	get	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	post	post	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	6	punct	_	_
+27	let	let	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+28	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	27	obj	_	_
+29	spend	spend	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	money	money	NOUN	NN	Number=Sing	29	obj	_	_
+31	on	on	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = If he could go in the suite of some Colonial Governor!
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	suite	suite	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	some	some	DET	DT	_	11	det	_	_
+10	Colonial	Colonial	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Governor	Governor	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Grampus might take him—and I could write to Fulke about it.”
+1	Grampus	Grampus	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	write	write	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	Fulke	Fulke	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	about	about	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

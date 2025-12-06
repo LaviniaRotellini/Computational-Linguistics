@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I dropped my face into my hands, but was able to control myself better than I could have expected, considering what agony it gave me to hear her say those words.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dropped	drop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	face	face	NOUN	NN	Number=Sing	2	obj	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hands	hand	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	able	able	ADJ	JJ	Degree=Pos	2	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	control	control	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	better	better	ADJ	JJR	Degree=Cmp	13	xcomp	_	_
+16	than	than	SCONJ	IN	_	20	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+20	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	2	punct	_	_
+22	considering	consider	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+23	what	what	PRON	WP	PronType=Int	26	obj	_	_
+24	agony	agony	DET	DT	_	25	det	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	iobj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	hear	hear	VERB	VB	VerbForm=Inf	26	advcl	_	_
+30	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	say	say	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+32	those	those	DET	DT	Number=Plur|PronType=Dem	33	det	_	_
+33	words	word	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = When I raised my face again, there was such a ghastly look upon Miss Havisham’s, that it impressed me, even in my passionate hurry and grief.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	face	face	NOUN	NN	Number=Sing	3	obj	_	_
+6	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	there	there	PRON	EX	_	9	expl	_	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	such	such	DET	PDT	_	13	det:predet	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	ghastly	ghastly	ADV	RB	_	13	advmod	_	_
+13	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	9	nsubj	_	_
+14	upon	upon	ADP	IN	_	15	case	_	_
+15	Miss	miss	PROPN	NNP	Number=Sing	13	obl	_	_
+16	Havisham	Havisham	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	’s	's	PART	POS	_	15	case	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	13	punct	_	_
+19	that	that	SCONJ	IN	_	21	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	impressed	impress	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	21	punct	_	_
+24	even	even	ADV	RB	_	28	advmod	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	passionate	passionate	NOUN	NN	Number=Sing	28	compound	_	_
+28	hurry	hurry	NOUN	NN	Number=Sing	21	obl	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	grief	grief	NOUN	NN	Number=Sing	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

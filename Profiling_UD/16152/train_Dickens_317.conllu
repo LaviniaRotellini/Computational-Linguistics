@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘If Mr. Micawber’s creditors will not give him time,’ said Mrs. Micawber, ‘they must take the consequences; and the sooner they bring it to an issue the better.
+1	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	9	mark	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	Micawber	Micawber	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	’s	's	PART	POS	_	3	case	_	_
+6	creditors	creditor	NOUN	NNS	Number=Plur	9	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	give	give	VERB	VB	VerbForm=Inf	14	advcl	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
+11	time	time	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Micawber	Micawber	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+20	must	must	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	take	take	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	consequences	consequence	NOUN	NNS	Number=Plur	21	obj	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	14	punct	_	_
+25	and	and	CCONJ	CC	_	29	cc	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	sooner	sooner	ADV	RBR	Degree=Cmp	29	advmod	_	_
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+29	bring	bring	VERB	VB	VerbForm=Inf	14	conj	_	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	issue	issue	NOUN	NN	Number=Sing	35	obl	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	mark	_	_
+35	better	better	ADJ	JJR	Degree=Cmp	29	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = Blood cannot be obtained from a stone, neither can anything on account be obtained at present (not to mention law expenses) from Mr. Micawber.’
+1	Blood	Blood	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	obtained	obtain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	stone	stone	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	neither	neither	CCONJ	CC	_	16	cc	_	_
+11	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+12	anything	anything	PRON	NN	Number=Sing	16	nsubj:pass	_	_
+13	on	on	ADP	IN	_	14	case	_	_
+14	account	account	NOUN	NN	Number=Sing	12	nmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	obtained	obtain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	present	present	ADJ	JJ	Degree=Pos	16	obl	_	_
+19	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
+20	not	not	ADV	RB	_	22	advmod	_	_
+21	to	to	PART	TO	_	20	fixed	_	_
+22	mention	mention	VERB	VB	VerbForm=Inf	16	parataxis	_	_
+23	law	law	NOUN	NN	Number=Sing	24	compound	_	_
+24	expenses	expense	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	22	punct	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	Mr.	Mr.	PROPN	NNP	Number=Sing	16	obl	_	_
+28	Micawber	Micawber	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

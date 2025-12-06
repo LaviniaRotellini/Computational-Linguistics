@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The young girl was there with M. Leblanc.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	girl	girl	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	there	there	ADV	RB	PronType=Dem	0	root	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	M.	M.	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Leblanc	Leblanc	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Marius approached as near as he could, pretending to be busy reading a book, but he halted afar off, then returned and seated himself on his bench, where he spent four hours in watching the house-sparrows who were skipping about the walk, and who produced on him the impression that they were making sport of him.
+1	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	ADV	RB	_	4	advmod	_	_
+4	near	near	ADV	RB	_	2	advmod	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	pretending	pretend	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	busy	busy	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+13	reading	read	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	book	book	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	halted	halt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	afar	afar	ADV	RB	Degree=Pos	21	advmod	_	_
+21	off	off	ADV	RB	_	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	then	then	ADV	RB	PronType=Dem	24	advmod	_	_
+24	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	seated	seat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	conj	_	_
+27	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	_
+28	on	on	ADP	IN	_	30	case	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	bench	bench	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	_
+32	where	where	ADV	WRB	PronType=Rel	34	advmod	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
+35	four	four	NUM	CD	NumType=Card	36	nummod	_	_
+36	hours	hour	NOUN	NNS	Number=Plur	34	obj	_	_
+37	in	in	SCONJ	IN	_	38	mark	_	_
+38	watching	watch	VERB	VBG	VerbForm=Ger	34	advcl	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	house	house	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No
+41	-	-	PUNCT	,	_	42	punct	_	SpaceAfter=No
+42	sparrows	sparrow	NOUN	NNS	Number=Plur	38	obj	_	_
+43	who	who	PRON	WP	PronType=Rel	45	nsubj	_	_
+44	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	aux	_	_
+45	skipping	skip	VERB	VBG	Tense=Pres|VerbForm=Part	42	acl:relcl	_	_
+46	about	about	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	walk	walk	NOUN	NN	Number=Sing	45	obl	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	52	punct	_	_
+50	and	and	CCONJ	CC	_	52	cc	_	_
+51	who	who	PRON	WP	PronType=Int	52	nsubj	_	_
+52	produced	produce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+53	on	on	ADP	IN	_	54	case	_	_
+54	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obl	_	_
+55	the	the	DET	DT	Definite=Def|PronType=Art	56	det	_	_
+56	impression	impression	NOUN	NN	Number=Sing	52	obj	_	_
+57	that	that	SCONJ	IN	_	60	mark	_	_
+58	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	60	nsubj	_	_
+59	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	60	aux	_	_
+60	making	make	VERB	VBG	VerbForm=Ger	56	acl	_	_
+61	sport	sport	NOUN	NN	Number=Sing	60	obj	_	_
+62	of	of	ADP	IN	_	63	case	_	_
+63	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	61	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

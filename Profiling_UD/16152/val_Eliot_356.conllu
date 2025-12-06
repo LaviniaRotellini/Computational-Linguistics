@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = that’s good, that’s good.
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	good	good	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But, you see, the best hand in the world’ll not get you a better place than a copying-clerk’s, if you know nothing of book-keeping,—nothing of accounts.
+1	But	but	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	best	best	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	hand	hand	NOUN	NN	Number=Sing	14	nsubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	’ll	’ll	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	get	get	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	better	better	ADJ	JJR	Degree=Cmp	18	amod	_	_
+18	place	place	NOUN	NN	Number=Sing	14	obj	_	_
+19	than	than	ADP	IN	_	24	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+21	copying	copying	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+23	clerk	clerk	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+24	’s	's	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	14	punct	_	_
+26	if	if	SCONJ	IN	_	28	mark	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+29	nothing	nothing	PRON	NN	Number=Sing	28	obj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	book	book	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	keeping	keep	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	,—	,—	PUNCT	.	_	33	punct	_	SpaceAfter=No
+35	nothing	nothing	PRON	NN	Number=Sing	33	appos	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	accounts	account	NOUN	NNS	Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = And a copying-clerk’s a cheap article.
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	copying	copying	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	clerk	clerk	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	cheap	cheap	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	article	article	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = But what have you been learning at school, then?”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	6	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	_
+6	learning	learn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	school	school	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

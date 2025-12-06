@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t take it so much amiss, sir,” pleaded the keeper to the angry passenger; “I’ll sit next you myself.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	much	much	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	amiss	amiss	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	sir	sir	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	pleaded	plead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	keeper	keeper	NOUN	NN	Number=Sing	13	obj	_	_
+16	to	to	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	angry	angry	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	passenger	passenger	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	4	punct	_	_
+21	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No
+23	’ll	’ll	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	sit	sit	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+25	next	next	ADP	IN	_	26	case	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obl	_	_
+27	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	24	obl:npmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I’ll put ’em on the outside of the row.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	put	put	VERB	VB	VerbForm=Inf	0	root	_	_
+4	’em	’em	NOUN	NN	Number=Sing	3	obj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	outside	outside	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	row	row	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = They won’t interfere with you, sir.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	interfere	interfere	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	sir	sir	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You needn’t know they’re there.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+6	’re	’re	ADV	WRB	PronType=Rel	7	advmod	_	_
+7	there	there	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

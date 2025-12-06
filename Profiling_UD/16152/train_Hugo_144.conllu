@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A few moments later he was breakfasting at the very table at which Jean Valjean had sat on the previous evening.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	moments	moment	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	later	later	ADV	RBR	Degree=Cmp	7	advmod	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	breakfasting	breakfaste	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	very	very	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	table	table	NOUN	NN	Number=Sing	7	obl	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	17	obl	_	_
+14	Jean	Jean	PROPN	NNP	Number=Sing	17	nsubj	_	_
+15	Valjean	Valjean	PROPN	NNP	Number=Sing	14	flat	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+18	on	on	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	previous	previous	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	evening	evening	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = As he ate his breakfast, Monseigneur Welcome remarked gayly to his sister, who said nothing, and to Madame Magloire, who was grumbling under her breath, that one really does not need either fork or spoon, even of wood, in order to dip a bit of bread in a cup of milk.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	breakfast	breakfast	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Welcome	welcome	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	remarked	remark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	gayly	gayly	ADV	RB	_	9	advmod	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	sister	sister	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+17	nothing	nothing	PRON	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	36	punct	_	_
+19	and	and	CCONJ	CC	_	36	cc	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	Madame	Madame	PROPN	NNP	Number=Sing	36	obl	_	_
+22	Magloire	Magloire	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	21	punct	_	_
+24	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	_
+26	grumbling	grumbl	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	_
+27	under	under	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	breath	breath	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	36	punct	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	one	one	NOUN	NN	Number=Sing	36	nsubj	_	_
+33	really	really	ADV	RB	_	36	advmod	_	_
+34	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	not	not	PART	RB	_	36	advmod	_	_
+36	need	need	VERB	VB	VerbForm=Inf	17	conj	_	_
+37	either	either	CCONJ	CC	_	38	cc:preconj	_	_
+38	fork	fork	NOUN	NN	Number=Sing	36	obj	_	_
+39	or	or	CCONJ	CC	_	40	cc	_	_
+40	spoon	spoon	NOUN	NN	Number=Sing	38	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	16	punct	_	_
+42	even	even	ADV	RB	_	44	advmod	_	_
+43	of	of	ADP	IN	_	44	case	_	_
+44	wood	wood	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	16	punct	_	_
+46	in	in	ADP	IN	_	49	mark	_	_
+47	order	order	NOUN	NN	Number=Sing	46	fixed	_	_
+48	to	to	PART	TO	_	49	mark	_	_
+49	dip	dip	VERB	VB	VerbForm=Inf	16	advcl	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+51	bit	bit	NOUN	NN	Number=Sing	49	obj	_	_
+52	of	of	ADP	IN	_	53	case	_	_
+53	bread	bread	NOUN	NN	Number=Sing	51	nmod	_	_
+54	in	in	ADP	IN	_	56	case	_	_
+55	a	a	DET	DT	Definite=Ind|PronType=Art	56	det	_	_
+56	cup	cup	NOUN	NN	Number=Sing	53	nmod	_	_
+57	of	of	ADP	IN	_	58	case	_	_
+58	milk	milk	NOUN	NN	Number=Sing	56	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

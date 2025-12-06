@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Why was that fore-carriage of a truck in that place in the street?
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	fore	fore	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	carriage	carriage	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	truck	truck	NOUN	NN	Number=Sing	6	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	place	place	NOUN	NN	Number=Sing	6	nmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	street	street	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = In the first place, to encumber the street; next, in order that it might finish the process of rusting.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	place	place	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	encumber	encumber	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	street	street	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	7	punct	_	_
+11	next	next	ADV	RB	_	7	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	order	order	NOUN	NN	Number=Sing	7	obl	_	_
+15	that	that	SCONJ	IN	_	18	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	finish	finish	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	process	process	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	rusting	rusting	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = There is a throng of institutions in the old social order, which one comes across in this fashion as one walks about outdoors, and which have no other reasons for existence than the above.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	throng	throng	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	institutions	institution	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	social	social	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	order	order	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	one	one	NUM	CD	NumType=Card	15	nsubj	_	_
+15	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+16	across	across	ADP	IN	_	19	case	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	fashion	fashion	NOUN	NN	Number=Sing	15	obl	_	_
+20	as	as	ADP	IN	_	22	case	_	_
+21	one	one	NUM	CD	NumType=Card	22	nummod	_	_
+22	walks	walk	NOUN	NNS	Number=Plur	15	obl	_	_
+23	about	about	ADV	RB	_	24	advmod	_	_
+24	outdoors	outdoor	ADV	RB	_	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	which	which	PRON	WDT	PronType=Int	28	nsubj	_	_
+28	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	_
+29	no	no	DET	DT	_	31	det	_	_
+30	other	other	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	reasons	reason	NOUN	NNS	Number=Plur	28	obj	_	_
+32	for	for	ADP	IN	_	33	case	_	_
+33	existence	existence	NOUN	NN	Number=Sing	31	nmod	_	_
+34	than	than	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	above	above	ADJ	JJ	Degree=Pos	31	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

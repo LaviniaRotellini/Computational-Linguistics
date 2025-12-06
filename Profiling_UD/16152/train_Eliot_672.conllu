@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, dear, if you are tired,” said Lydgate, gently, turning his eyes and resting them on her, but not otherwise moving.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	12	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	tired	tired	ADJ	JJ	Degree=Pos	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Lydgate	Lydgate	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	gently	gently	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	turning	turn	VERB	VBG	VerbForm=Ger	12	parataxis	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	eyes	eye	NOUN	NNS	Number=Plur	17	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	resting	rest	VERB	VBG	VerbForm=Ger	17	conj	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
+23	on	on	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	but	but	CCONJ	CC	_	29	cc	_	_
+27	not	not	ADV	RB	_	29	advmod	_	_
+28	otherwise	otherwise	ADV	RB	_	29	advmod	_	_
+29	moving	move	VERB	VBG	VerbForm=Ger	12	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Rosamond’s presence at that moment was perhaps no more than a spoonful brought to the lake, and her woman’s instinct in this matter was not dull.
+1	Rosamond	Rosamond	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	presence	presence	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	moment	moment	NOUN	NN	Number=Sing	3	nmod	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+8	perhaps	perhaps	ADV	RB	_	10	advmod	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+11	than	than	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	spoonful	spoonful	ADJ	JJ	Degree=Pos	14	obl	_	_
+14	brought	breek	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	lake	lake	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	woman	woman	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	instinct	instinct	NOUN	NN	Number=Sing	29	nsubj	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	matter	matter	NOUN	NN	Number=Sing	23	nmod	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	dull	dull	ADJ	JJ	Degree=Pos	10	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

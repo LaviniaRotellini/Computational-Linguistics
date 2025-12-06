@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Which was injudicious, Trot,’ said my aunt, ‘but well meant.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Which	which	PRON	WDT	PronType=Int	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	injudicious	injudicious	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Trot	trot	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+14	but	but	CCONJ	CC	_	16	cc	_	_
+15	well	well	ADV	RB	Degree=Pos	16	advmod	_	_
+16	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = You are a generous boy--I suppose I must say, young man, now--and I am proud of you, my dear.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	generous	generous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	must	must	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	say	say	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	young	young	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	man	man	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	_
+16	now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No
+17	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	proud	proud	ADJ	JJ	Degree=Pos	5	conj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	21	punct	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	dear	dear	NOUN	NN	Number=Sing	21	appos	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = So far, so good.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Now, Trot and Agnes, let us look the case of Betsey Trotwood in the face, and see how it stands.’
+1	Now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Trot	trot	PROPN	NNP	Number=Sing	7	advcl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Agnes	Agnes	PROPN	NNPS	Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+9	look	look	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	case	case	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	Betsey	Betsey	PROPN	NNP	Number=Sing	11	nmod	_	_
+14	Trotwood	Trotwood	PROPN	NNP	Number=Sing	13	flat	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	face	face	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	see	see	VERB	VB	VerbForm=Inf	7	conj	_	_
+21	how	how	ADV	WRB	PronType=Int	23	advmod	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

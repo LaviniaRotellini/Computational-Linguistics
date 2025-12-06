@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The last words had a visible effect upon her.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	last	last	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	words	word	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	visible	visible	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	effect	effect	NOUN	NN	Number=Sing	4	obj	_	_
+8	upon	upon	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She stopped in her wild crying, a little detached herself from Emma Gordon, and turned her face full upon her patron.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	wild	wild	NOUN	NN	Number=Sing	2	obl	_	_
+6	crying	cry	VERB	VBG	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	obl:npmod	_	_
+10	detached	detach	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	Emma	Emma	PROPN	NNP	Number=Sing	2	obl	_	_
+14	Gordon	Gordon	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	face	face	NOUN	NN	Number=Sing	17	obj	_	_
+20	full	full	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+21	upon	upon	ADP	IN	_	23	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	patron	patron	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The whole company perceived the force of the change, and drew a long breath together, that plainly said, ‘she will go!’
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	whole	whole	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	company	company	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	force	force	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	change	change	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	long	long	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	breath	breath	NOUN	NN	Number=Sing	12	obj	_	_
+16	together	together	ADV	RB	_	12	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	that	that	SCONJ	IN	_	20	mark	_	_
+19	plainly	plainly	ADV	RB	_	20	advmod	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	go	go	VERB	VB	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

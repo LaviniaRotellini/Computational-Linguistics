@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said he, with a glance of surprise: “who else should there be?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	glance	glance	NOUN	NN	Number=Sing	5	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	surprise	surprise	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	5	punct	_	_
+14	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+15	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+16	else	else	ADJ	JJ	Degree=Pos	15	amod	_	_
+17	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	there	there	PRON	EX	_	19	expl	_	_
+19	be	be	VERB	VB	VerbForm=Inf	5	acl:relcl	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = And, dear boy, how good looking you have growed!
+1	And	and	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	advmod	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	growed	grow	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There’s bright eyes somewheres—eh?
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bright	bright	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	eyes	eye	NOUN	NNS	Number=Plur	5	compound	_	_
+5	somewheres	somewhere	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+7	eh	eh	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Isn’t there bright eyes somewheres, wot you love the thoughts on?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	8	advmod	_	_
+3	there	there	ADV	RB	PronType=Dem	4	advmod	_	_
+4	bright	bright	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	eyes	eye	NOUN	NNS	Number=Plur	6	compound	_	_
+6	somewheres	somewhere	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	wot	wet	NOUN	NN	Number=Sing	0	root	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	thoughts	thought	NOUN	NNS	Number=Plur	10	obj	_	_
+13	on	on	ADP	IN	_	12	case	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

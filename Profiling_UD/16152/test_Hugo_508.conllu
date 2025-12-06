@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Now, with la Esmeralda dead, the sponge was soaked, all was at an end on this earth for Dom Claude.
+1	Now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	la	la	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Esmeralda	Esmeralda	PROPN	NNP	Number=Sing	11	obl	_	_
+6	dead	dead	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sponge	sponge	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	soaked	soak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	all	all	DET	DT	_	17	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	end	end	NOUN	NN	Number=Sing	11	ccomp	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	earth	earth	NOUN	NN	Number=Sing	17	nmod	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	Dom	Dom	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Claude	Claude	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = But to feel that she was alive, and Phœbus also, meant that tortures, shocks, alternatives, life, were beginning again.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	alive	alive	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	Phœbus	Phœbus	PROPN	NNP	Number=Sing	7	conj	_	_
+11	also	also	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	meant	mean	VERB	VB	VerbForm=Inf	7	conj	_	_
+14	that	that	SCONJ	IN	_	24	mark	_	_
+15	tortures	torture	NOUN	NNS	Number=Plur	24	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	shocks	shocks	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	alternatives	alternative	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	life	life	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	_
+25	again	again	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And Claude was weary of all this.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	Claude	Claude	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	weary	weary	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	all	all	DET	PDT	_	7	det:predet	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

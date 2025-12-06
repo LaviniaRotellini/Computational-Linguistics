@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I wish I had taken to it before I had thought of being a B. A.,” said Fred.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	before	before	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+13	of	of	SCONJ	IN	_	17	mark	_	_
+14	being	be	AUX	VBG	VerbForm=Ger	17	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	B.	B.	PROPN	NNP	Number=Sing	17	compound	_	_
+17	A.	A.	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	Fred	Fred	PROPN	NNP	Number=Sing	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = He paused a moment, and then added, more hesitatingly, “Do you think I am too old to learn your business, Mr. Garth?”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	moment	moment	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	then	then	ADV	RB	PronType=Dem	8	advmod	_	_
+8	added	add	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	hesitatingly	hesitatingly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	think	think	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	too	too	ADV	RB	_	20	advmod	_	_
+20	old	old	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	learn	learn	VERB	VB	VerbForm=Inf	20	advcl	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	business	business	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	Mr.	Mr.	PROPN	NNP	Number=Sing	24	appos	_	_
+27	Garth	Garth	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

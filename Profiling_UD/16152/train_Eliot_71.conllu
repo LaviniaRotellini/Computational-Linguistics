@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nothing of the sort,” said Mr. Brooke, smiling and rubbing his eye-glasses, but really blushing a little at the impeachment.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Nothing	nothing	PRON	NN	Number=Sing	8	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sort	sort	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+10	Brooke	Brooke	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	smiling	smile	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	rubbing	rub	VERB	VBG	VerbForm=Ger	12	conj	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	eye	eye	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	glasses	glass	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	really	really	ADV	RB	_	22	advmod	_	_
+22	blushing	blush	VERB	VBG	VerbForm=Ger	12	conj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	little	little	NOUN	NN	Number=Sing	22	obj	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	impeachment	impeachment	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “Casaubon and I don’t talk politics much.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Casaubon	Casaubon	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+8	politics	politics	NOUN	NNS	Number=Plur	7	obj	_	_
+9	much	much	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = He doesn’t care much about the philanthropic side of things; punishments, and that kind of thing.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+5	much	much	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	about	about	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	philanthropic	philanthropic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	side	side	NOUN	NN	Number=Sing	4	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	things	thing	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	punishments	punishment	NOUN	NNS	Number=Plur	4	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	kind	kind	NOUN	NN	Number=Sing	13	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	thing	thing	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He only cares about Church questions.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	Church	church	PROPN	NNP	Number=Sing	6	compound	_	_
+6	questions	question	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = That is not my line of action, you know.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	line	line	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	action	action	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

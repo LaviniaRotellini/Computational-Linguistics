@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had replaced his neckerchief loosely, and had stood, keenly observant of me, biting a long end of it.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	neckerchief	neckerchief	NOUN	NN	Number=Sing	3	obj	_	_
+6	loosely	loosely	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	stood	stood	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	keenly	keenly	ADV	RB	_	13	advmod	_	_
+13	observant	observant	ADJ	JJ	Degree=Pos	3	conj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	biting	bite	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	long	long	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	end	end	NOUN	NN	Number=Sing	17	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “I think,” he answered, still with the end at his mouth and still observant of me, “that I _will_
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	still	still	ADV	RB	_	7	advmod	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	end	end	NOUN	NN	Number=Sing	7	obl	_	_
+13	at	at	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	mouth	mouth	NOUN	NN	Number=Sing	7	obl	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	still	still	ADV	RB	_	18	advmod	_	_
+18	observant	observant	ADJ	JJ	Degree=Pos	7	conj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	3	punct	_	_
+22	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+23	that	that	PRON	WDT	PronType=Rel	26	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	_	_	SYM	NFP	_	24	punct	_	SpaceAfter=No
+26	will	will	AUX	MD	VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+27	_	_	SYM	NFP	_	3	punct	_	_
+
+# sent_id = 3
+# text = drink (I thank you) afore I go.”
+1	drink	drink	NOUN	NN	Number=Sing	0	root	_	_
+2	(	(	PUNCT	-LRB-	_	1	punct	_	SpaceAfter=No
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	1	punct	_	_
+7	afore	afore	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

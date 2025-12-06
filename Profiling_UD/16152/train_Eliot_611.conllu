@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Have you any message for your old playfellow, Miss Garth?” said the Vicar, as he took a fragrant apple from the basket which she held towards him, and put it in his pocket.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	iobj	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	message	message	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	playfellow	playfellow	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	Miss	miss	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Garth	Garth	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Vicar	Vicar	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	as	as	SCONJ	IN	_	21	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	fragrant	fragrant	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	apple	apple	NOUN	NN	Number=Sing	21	obj	_	_
+25	from	from	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	basket	basket	NOUN	NN	Number=Sing	21	nmod	_	_
+28	which	which	PRON	WDT	PronType=Rel	30	obj	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+31	towards	towards	ADP	IN	_	32	case	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	conj	_	_
+36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	pocket	pocket	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “Something to soften down that harsh judgment?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Something	something	PRON	NN	Number=Sing	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	soften	soften	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	down	down	ADP	RP	_	4	compound:prt	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	harsh	harsh	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	judgment	judgment	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I am going straight to see him.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	straight	straight	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poor Lydgate!
+1	Poor	poor	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	Lydgate	Lydgate	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = the “if Rosamond will not mind,” which had fallen from him involuntarily as part of his thought, was a significant mark of the yoke he bore.
+1	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+2	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+3	if	if	SCONJ	IN	_	7	mark	_	_
+4	Rosamond	Rosamond	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	mind	mind	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	7	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	involuntarily	involuntarily	ADV	RB	_	17	advmod	_	_
+16	as	as	ADP	IN	_	17	case	_	_
+17	part	part	NOUN	NN	Number=Sing	12	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	thought	thought	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	significant	significant	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	mark	mark	NOUN	NN	Number=Sing	7	conj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	yoke	yoke	NOUN	NN	Number=Sing	25	nmod	_	_
+29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	bore	bear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = But Mr. Farebrother, whose hopes entered strongly into the same current with Lydgate’s, and who knew nothing about him that could now raise a melancholy presentiment, left him with affectionate congratulation.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	31	nsubj	_	_
+3	Farebrother	Farebrother	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	6	nmod:poss	_	_
+6	hopes	hope	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	strongly	strongly	ADV	RB	_	7	advmod	_	_
+9	into	into	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	same	same	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	current	current	NOUN	NN	Number=Sing	7	obl	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	Lydgate	Lydgate	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+15	’s	's	PART	POS	_	14	case	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	who	who	PRON	WP	PronType=Int	19	nsubj	_	_
+19	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	nothing	nothing	PRON	NN	Number=Sing	19	obj	_	_
+21	about	about	ADP	IN	_	22	case	_	_
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+23	that	that	PRON	WDT	PronType=Rel	26	nsubj	_	_
+24	could	could	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	now	now	ADV	RB	_	26	advmod	_	_
+26	raise	raise	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	melancholy	melancholy	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	presentiment	presentiment	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	_
+31	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	affectionate	affectionate	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	congratulation	congratulation	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	31	punct	_	SpacesAfter=\n
+

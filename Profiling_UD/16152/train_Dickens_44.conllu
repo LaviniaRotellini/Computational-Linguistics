@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We went to an hotel by the sea, where two gentlemen were smoking cigars in a room by themselves.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	hotel	hotel	NOUN	NN	Number=Sing	2	obl	_	_
+6	by	by	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	sea	sea	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	where	where	ADV	WRB	PronType=Rel	14	advmod	_	_
+11	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+12	gentlemen	gentleman	NOUN	NNS	Number=Plur	14	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
+15	cigars	cigar	NOUN	NNS	Number=Plur	14	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	room	room	NOUN	NN	Number=Sing	14	obl	_	_
+19	by	by	ADP	IN	_	20	case	_	_
+20	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Each of them was lying on at least four chairs, and had a large rough jacket on.
+1	Each	each	DET	DT	_	5	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	on	on	ADP	IN	_	10	case	_	_
+7	at	at	ADV	RB	_	8	case	_	_
+8	least	least	ADV	RBS	Degree=Sup	10	nmod	_	_
+9	four	four	NUM	CD	NumType=Card	10	nummod	_	_
+10	chairs	chair	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	large	large	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	rough	rough	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	jacket	jacket	NOUN	NN	Number=Sing	13	obj	_	_
+18	on	on	ADP	IN	_	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = In a corner was a heap of coats and boat-cloaks, and a flag, all bundled up together.
+1	In	in	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	corner	corner	NOUN	NN	Number=Sing	6	obl	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	heap	heap	NOUN	NN	Number=Sing	19	advcl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	coats	coat	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	boat	boat	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	cloaks	cloak	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	flag	flag	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	all	all	DET	DT	_	19	nsubj	_	_
+19	bundled	bundle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	together	together	ADV	RB	_	19	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+

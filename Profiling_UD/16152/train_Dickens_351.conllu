@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, what do you want?
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	what	what	PRON	WP	PronType=Int	7	obj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	want	want	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Oh, my eyes and limbs, what do you want?
+1	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	eyes	eye	NOUN	NNS	Number=Plur	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	limbs	limb	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	what	what	PRON	WP	PronType=Int	11	obj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	want	want	VERB	VB	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Oh, my lungs and liver, what do you want?
+1	Oh	oh	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	lungs	lung	NOUN	NNS	Number=Plur	11	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	liver	liver	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	what	what	PRON	WP	PronType=Int	11	obj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	want	want	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Oh, goroo!’--which he screwed out of himself, with an energy that made his eyes start in his head.
+1	Oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	goroo	goroo	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	’--which	’--which	PRON	WDT	PronType=Rel	7	advcl	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	screwed	screw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	out	out	ADP	IN	_	10	case	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	energy	energy	NOUN	NN	Number=Sing	7	obl	_	_
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	16	obj	_	_
+19	start	start	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	head	head	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

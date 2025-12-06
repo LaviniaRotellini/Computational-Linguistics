@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Dear me!’ said Mr. Omer.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	3	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	6	obj	_	_
+8	Omer	Omer	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘Yes, to be sure.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Two parties!
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	parties	party	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Why, in that very ride, if you’ll believe me, the day was named for my Minnie to marry Joram.
+1	Why	why	ADV	WRB	PronType=Int	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	17	punct	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	ride	ride	ADJ	JJ	Degree=Pos	17	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	17	punct	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	believe	believe	VERB	VB	VerbForm=Inf	17	advcl	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	day	day	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	named	name	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	Minnie	Minnie	PROPN	NNP	Number=Sing	17	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	marry	marry	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+23	Joram	Joram	PROPN	NNP	Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 5
+# text = “Do name it, sir,” says Joram.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	name	name	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Joram	Joram	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = “Yes, do, father,” says Minnie.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	father	father	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Minnie	Minnie	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 7
+# text = And now he’s come into the business.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	now	now	ADV	RB	_	5	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	business	business	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = And look here!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	here	here	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = The youngest!’
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	youngest	youngest	ADJ	JJS	Degree=Sup	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

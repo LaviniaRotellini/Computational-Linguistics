@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I can’t,” Adam said.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n	not	PART	RB	_	5	advmod	_	SpaceAfter=No
+5	’t	’t	VERB	VB	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	9	punct	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “I can’t say good-bye while there’s any hope.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	bye	bye	NOUN	NN	Number=Sing	5	obj	_	_
+9	while	while	SCONJ	IN	_	11	mark	_	_
+10	there	there	PRON	EX	_	11	expl	_	SpaceAfter=No
+11	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	any	any	DET	DT	_	13	det	_	_
+13	hope	hope	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I’m listening, and listening—I can’t think o’ nothing but that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	and	and	CCONJ	CC	_	11	cc	_	_
+6	listening	listen	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	ca	can	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	think	think	VERB	VB	VerbForm=Inf	3	conj	_	_
+12	o	of	ADP	IN	Abbr=Yes	14	case	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	nothing	nothing	PRON	NN	Number=Sing	11	obl	_	_
+15	but	but	ADP	IN	_	16	case	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It can’t be as she’ll die that shameful death—I can’t bring my mind to it.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	16	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	16	aux	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’ll	’ll	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	die	die	VERB	VB	VerbForm=Inf	16	advcl	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+10	shameful	shameful	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	death	death	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	16	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	ca	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	mind	mind	NOUN	NN	Number=Sing	16	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

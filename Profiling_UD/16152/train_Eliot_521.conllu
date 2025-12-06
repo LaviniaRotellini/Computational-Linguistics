@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I remember them all,” said Will, with the unspeakable content in his soul of feeling that he was in the presence of a creature worthy to be perfectly loved.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	all	all	DET	DT	_	4	det	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Will	will	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	unspeakable	unspeakable	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	content	content	NOUN	NN	Number=Sing	9	nmod	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	soul	soul	NOUN	NN	Number=Sing	14	nmod	_	_
+18	of	of	SCONJ	IN	_	19	mark	_	_
+19	feeling	feeling	VERB	VBG	VerbForm=Ger	17	acl	_	_
+20	that	that	SCONJ	IN	_	25	mark	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	presence	presence	NOUN	NN	Number=Sing	19	ccomp	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	creature	creature	NOUN	NN	Number=Sing	25	nmod	_	_
+29	worthy	worthy	ADV	WRB	PronType=Rel	33	advmod	_	_
+30	to	to	PART	TO	_	33	mark	_	_
+31	be	be	AUX	VB	VerbForm=Inf	33	aux:pass	_	_
+32	perfectly	perfectly	ADV	RB	_	33	advmod	_	_
+33	loved	love	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I think his own feelings at that moment were perfect, for we mortals have our divine moments, when love is satisfied in the completeness of the beloved object.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	own	own	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	feelings	feeling	NOUN	NNS	Number=Plur	10	nsubj	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	moment	moment	NOUN	NN	Number=Sing	5	nmod	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	perfect	perfect	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	compound	_	_
+14	mortals	mortal	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	divine	divine	NOUN	NN	Number=Sing	18	compound	_	_
+18	moments	moment	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	when	when	ADV	WRB	PronType=Int	23	mark	_	_
+21	love	love	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	satisfied	satisfied	ADJ	JJ	Degree=Pos	15	advcl	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	completeness	completeness	NOUN	NN	Number=Sing	23	obl	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	beloved	beloved	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	object	object	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

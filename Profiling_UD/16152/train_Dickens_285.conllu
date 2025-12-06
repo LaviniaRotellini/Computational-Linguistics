@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘There’s a friend!’ said Mr. Peggotty, stretching out his pipe.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	friend	friend	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	3	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obj	_	_
+10	Peggotty	Peggotty	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	stretching	stretch	VERB	VBG	VerbForm=Ger	8	acl	_	_
+13	out	out	ADP	RP	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	pipe	pipe	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = ‘There’s a friend, if you talk of friends!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	friend	friend	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	talk	talk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	friends	friend	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Why, Lord love my heart alive, if it ain’t a treat to look at him!’
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	Lord	Lord	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	love	love	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	heart	heart	NOUN	NN	Number=Sing	4	obj	_	_
+7	alive	alive	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	if	if	SCONJ	IN	_	14	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	14	advmod	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	treat	treat	NOUN	NN	Number=Sing	4	advcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	look	look	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

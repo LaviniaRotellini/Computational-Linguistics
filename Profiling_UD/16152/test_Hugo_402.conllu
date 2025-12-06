@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When the prisoner had been “unbooted,” the procurator of the ecclesiastical court examined her foot, which was still swollen with pain.
+1	When	when	ADV	WRB	PronType=Int	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	prisoner	prisoner	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+7	unbooted	unbooted	ADJ	JJ	Degree=Pos	16	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	11	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	procurator	procurator	NOUN	NN	Number=Sing	16	nsubj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	ecclesiastical	ecclesiastical	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	court	court	NOUN	NN	Number=Sing	11	nmod	_	_
+16	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	foot	foot	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	which	which	PRON	WDT	PronType=Rel	23	nsubj:pass	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+22	still	still	ADV	RB	_	23	advmod	_	_
+23	swollen	swoll	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+24	with	with	ADP	IN	_	25	case	_	_
+25	pain	pain	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “Come,” said he, “there’s no great harm done.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	there	there	PRON	EX	_	10	expl	_	SpaceAfter=No
+10	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	no	no	DET	DT	_	13	det	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	harm	harm	NOUN	NN	Number=Sing	10	nsubj	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = You shrieked in good season.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	shrieked	shriek	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	season	season	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = You could still dance, my beauty!”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	still	still	ADV	RB	_	4	advmod	_	_
+4	dance	dance	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	beauty	beauty	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

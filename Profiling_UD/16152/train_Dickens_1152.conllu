@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I gave him no answer, and went upstairs into the quiet room where Agnes had so often sat beside me at my books.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	answer	answer	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	upstairs	upstairs	ADV	RB	_	8	advmod	_	_
+10	into	into	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	quiet	quiet	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	room	room	NOUN	NN	Number=Sing	8	obl	_	_
+14	where	where	ADV	WRB	PronType=Rel	16	advmod	_	_
+15	Agnes	Agnes	PROPN	NNP	Number=Sing	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	so	so	ADV	RB	_	19	advmod	_	_
+18	often	often	ADV	RB	_	19	advmod	_	_
+19	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+20	beside	beside	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	books	book	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nobody came near me until late at night.
+1	Nobody	nobody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	near	near	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	until	until	ADP	IN	_	6	case	_	_
+6	late	late	ADV	RB	Degree=Pos	2	obl	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	night	night	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I took up a book, and tried to read.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	book	book	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	read	read	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I heard the clocks strike twelve, and was still reading, without knowing what I read, when Agnes touched me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	clocks	clock	NOUN	NNS	Number=Plur	5	compound	_	_
+5	strike	strike	NOUN	NN	Number=Sing	2	obj	_	_
+6	twelve	twelve	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	without	without	SCONJ	IN	_	14	mark	_	_
+14	knowing	know	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+15	what	what	PRON	WP	PronType=Int	14	obj	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	Agnes	Agnes	PROPN	NNPS	Number=Plur	21	nsubj	_	_
+21	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

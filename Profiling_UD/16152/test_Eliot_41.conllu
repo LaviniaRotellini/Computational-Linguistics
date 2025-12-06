@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, Seth; but I counsel you to wait patiently, and not lightly to leave your own country and kindred.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Seth	Seth	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	counsel	counsel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	wait	wait	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	patiently	patiently	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	not	not	ADV	RB	_	16	advmod	_	_
+16	lightly	lightly	ADV	RB	_	18	advmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	leave	leave	VERB	VB	VerbForm=Inf	4	conj	_	_
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	own	own	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	country	country	NOUN	NN	Number=Sing	18	obj	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	kindred	kindr	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Do nothing without the Lord’s clear bidding.
+1	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	nothing	nothing	PRON	NN	Number=Sing	1	obj	_	_
+3	without	without	ADP	IN	_	8	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Lord	Lord	PROPN	NNP	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	clear	clear	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	bidding	bidding	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = It’s a bleak and barren country there, not like this land of Goshen you’ve been used to.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	bleak	bleak	NOUN	NN	Number=Sing	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	barren	barren	ADJ	JJ	Degree=Pos	7	conj	_	_
+7	country	country	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	there	there	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	not	not	ADV	RB	_	13	advmod	_	_
+11	like	like	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	land	land	NOUN	NN	Number=Sing	19	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Goshen	Goshen	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj:pass	_	SpaceAfter=No
+17	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+19	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+20	to	to	ADP	IN	_	19	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = We mustn’t be in a hurry to fix and choose our own lot; we must wait to be guided.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	7	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	hurry	hurry	NOUN	NN	Number=Sing	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	fix	fix	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	choose	choose	VERB	VB	VerbForm=Inf	9	conj	_	_
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	own	own	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	lot	lot	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	7	punct	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+17	must	must	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	wait	wait	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	_
+21	guided	guide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He first cast around a slow glance of hatred upon the crowd.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	cast	cast	NOUN	NN	Number=Sing	0	root	_	_
+4	around	around	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	slow	slow	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	glance	glance	NOUN	NN	Number=Sing	3	nmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	hatred	hatred	NOUN	NN	Number=Sing	7	nmod	_	_
+10	upon	upon	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	crowd	crowd	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But bound as he was, his glance was powerless to drive away those flies which were stinging his wound.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	bound	bound	ADJ	JJ	Degree=Pos	0	root	_	_
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	glance	glance	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	powerless	powerless	ADJ	JJ	Degree=Pos	2	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	drive	drive	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	away	away	ADV	RB	_	12	advmod	_	_
+14	those	those	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+15	flies	fly	NOUN	NNS	Number=Plur	12	obj	_	_
+16	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	stinging	stinge	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl:relcl	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	wound	wound	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Then he moved in his bonds, and his furious exertions made the ancient wheel of the pillory shriek on its axle.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	moved	move	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	bonds	bond	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	furious	furious	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	exertions	exertion	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	ancient	ancient	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	wheel	wheel	NOUN	NN	Number=Sing	12	obj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	pillory	pillory	NOUN	NN	Number=Sing	19	compound	_	_
+19	shriek	shriek	NOUN	NN	Number=Sing	15	nmod	_	_
+20	on	on	ADP	IN	_	22	case	_	_
+21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	axle	axle	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = All this only increased the derision and hooting.
+1	All	all	DET	PDT	_	6	det:predet	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	derision	derision	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	hooting	hooting	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

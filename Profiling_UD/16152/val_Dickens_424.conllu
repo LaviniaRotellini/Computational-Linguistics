@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘How could you give me life, and take from me all the inappreciable things that raise it from the state of conscious death?
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	life	life	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	take	take	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	all	all	DET	PDT	_	16	det:predet	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	inappreciable	inappreciable	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	things	thing	NOUN	NNS	Number=Plur	10	obj	_	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	raise	raise	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	from	from	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	state	state	NOUN	NN	Number=Sing	10	obl	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	conscious	conscious	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	death	death	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Where are the graces of my soul?
+1	Where	where	ADV	WRB	PronType=Int	0	root	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	graces	graces	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	soul	soul	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Where are the sentiments of my heart?
+1	Where	where	ADV	WRB	PronType=Int	0	root	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	sentiments	sentiments	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	heart	heart	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = What have you done, O father, what have you done, with the garden that should have bloomed once, in this great wilderness here!’
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	O	of	INTJ	UH	_	4	discourse	_	_
+7	father	father	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	what	what	PRON	WP	PronType=Int	12	obj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	garden	garden	NOUN	NN	Number=Sing	4	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+18	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+20	bloomed	bloom	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+21	once	once	ADV	RB	NumType=Mult	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	_	_
+23	in	in	ADP	IN	_	26	case	_	_
+24	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+25	great	great	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	wilderness	wilderness	NOUN	NN	Number=Sing	4	obl	_	_
+27	here	here	ADV	RB	PronType=Dem	26	advmod	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

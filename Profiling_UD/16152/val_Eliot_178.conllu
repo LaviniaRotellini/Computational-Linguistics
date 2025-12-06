@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s pretty; come, then.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	pretty	pretty	ADV	RB	_	6	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	6	punct	_	_
+6	come	come	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Why, what a nice little lady you are, to be sure!” said the gypsy, taking her by the hand.
+1	Why	why	ADV	WRB	PronType=Int	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	13	obj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	nice	nice	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	lady	lady	NOUN	NN	Number=Sing	13	nsubj	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	sure	sure	ADJ	JJ	Degree=Pos	16	ccomp	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	gypsy	gypsy	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	taking	take	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	obj	_	_
+22	by	by	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	hand	hand	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = Maggie thought her very agreeable, but wished she had not been so dirty.
+1	Maggie	Maggie	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	agreeable	agreeable	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	wished	wishe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+11	not	not	PART	RB	_	14	advmod	_	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	dirty	dirty	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

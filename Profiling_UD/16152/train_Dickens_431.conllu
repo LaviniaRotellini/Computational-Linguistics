@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, because Annie’s a charming young girl, and the old Doctor--Doctor Strong, I mean--is not quite a charming young boy,’ said Mr. Jack Maldon, laughing.
+1	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	because	because	SCONJ	IN	_	10	mark	_	_
+5	Annie	Annie	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	charming	charm	NOUN	NN	Number=Sing	10	compound	_	_
+9	young	young	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	girl	girl	NOUN	NN	Number=Sing	27	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	Doctor	doctor	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+16	--	--	PUNCT	,	_	10	punct	_	SpaceAfter=No
+17	Doctor	doctor	PROPN	NNP	Number=Sing	10	appos	_	_
+18	Strong	strong	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	10	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	SpaceAfter=No
+22	--	--	PUNCT	,	_	10	punct	_	SpaceAfter=No
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	not	not	PART	RB	_	27	advmod	_	_
+25	quite	quite	DET	PDT	_	27	det:predet	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	charming	charming	NOUN	NN	Number=Sing	32	ccomp	_	_
+28	young	young	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	boy	boy	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	SpaceAfter=No
+31	’	'	PUNCT	''	_	32	punct	_	_
+32	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+33	Mr.	Mr.	PROPN	NNP	Number=Sing	37	nsubj	_	_
+34	Jack	Jack	PROPN	NNP	Number=Sing	33	flat	_	_
+35	Maldon	Maldon	PROPN	NNP	Number=Sing	33	flat	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	33	punct	_	_
+37	laughing	laugh	VERB	VBG	VerbForm=Ger	32	ccomp	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	32	punct	_	_
+
+# sent_id = 2
+# text = ‘No offence to anybody, Mr. Wickfield.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	3	det	_	_
+3	offence	offence	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	anybody	anybody	PRON	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	3	appos	_	_
+8	Wickfield	Wickfield	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I only mean that I suppose some compensation is fair and reasonable in that sort of marriage.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	compensation	compensation	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	fair	fair	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	reasonable	reasonable	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	sort	sort	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	marriage	marriage	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

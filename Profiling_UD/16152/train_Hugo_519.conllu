@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There’s a brat as big as my fist who tells lies as big as the house,” exclaimed the pedler.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	brat	brat	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	as	as	ADP	IN	_	7	case	_	_
+7	big	big	ADJ	JJ	Degree=Pos	5	nmod	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	fist	fist	NOUN	NN	Number=Sing	7	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	lies	lie	NOUN	NNS	Number=Plur	12	obj	_	_
+14	as	as	ADP	IN	_	15	case	_	_
+15	big	big	ADJ	JJ	Degree=Pos	12	obl	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	house	house	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	21	punct	_	_
+21	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	pedler	pedler	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “I tell you that he has not been watered, you little jade!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	watered	water	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	little	little	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	jade	jade	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He has a way of blowing when he has had no water, which I know well.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	way	way	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	blowing	blowing	NOUN	NN	Number=Sing	4	nmod	_	_
+7	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	water	water	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	16	obj	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	well	well	ADV	RB	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

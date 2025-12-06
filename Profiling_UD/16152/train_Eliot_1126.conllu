@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I should hardly think so,” said Mrs. Tom Toller.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	hardly	hardly	ADV	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+6	so	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Tom	Tom	PROPN	NNP	Number=Sing	10	flat	_	_
+12	Toller	Toller	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “We hear that _he_ is ill, and has never stirred out of the house since the meeting on Thursday; but she was with her girls at church yesterday, and they had new Tuscan bonnets.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	_	_	SYM	NFP	_	8	punct	_	SpaceAfter=No
+6	he_	he_	SYM	NFP	_	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	ill	ill	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	stirred	stir	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+14	out	out	ADP	IN	_	17	case	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	house	house	NOUN	NN	Number=Sing	13	obl	_	_
+18	since	since	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	meeting	meeting	NOUN	NN	Number=Sing	13	obl	_	_
+21	on	on	ADP	IN	_	22	case	_	_
+22	Thursday	Thursday	PROPN	NNP	Number=Sing	20	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	3	punct	_	_
+24	but	but	CCONJ	CC	_	29	cc	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+27	with	with	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	girls	girl	NOUN	NNS	Number=Plur	3	conj	_	_
+30	at	at	ADP	IN	_	31	case	_	_
+31	church	church	NOUN	NN	Number=Sing	29	nmod	_	_
+32	yesterday	yesterday	NOUN	NN	Number=Sing	29	nmod:tmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	and	and	CCONJ	CC	_	36	cc	_	_
+35	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
+36	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+37	new	new	ADJ	JJ	Degree=Pos	39	amod	_	_
+38	Tuscan	Tuscan	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	bonnets	bonnet	NOUN	NNS	Number=Plur	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Her own had a feather in it.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	own	own	ADJ	JJ	Degree=Pos	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	feather	feather	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I have never seen that her religion made any difference in her dress.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	religion	religion	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	made	make	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	difference	difference	NOUN	NN	Number=Sing	8	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	dress	dress	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

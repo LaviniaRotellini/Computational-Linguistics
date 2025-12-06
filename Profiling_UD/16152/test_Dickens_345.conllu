@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We all looked awkwardly at the tablecloth while this was going on.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	awkwardly	awkwardly	ADV	RB	_	3	advmod	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	tablecloth	tablecloth	NOUN	NN	Number=Sing	3	obl	_	_
+8	while	while	SCONJ	IN	_	11	mark	_	_
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	_
+12	on	on	ADP	RP	_	11	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = A pause succeeded, during which the honest and irrepressible baby made a series of leaps and crows at little Jane, who appeared to me to be the only member of the family (irrespective of servants) with whom it had any decided acquaintance.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	pause	pause	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	succeeded	succeed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	during	during	ADP	IN	_	6	case	_	_
+6	which	which	PRON	WDT	PronType=Rel	12	obl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+8	honest	honest	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	irrepressible	irrepressible	ADJ	JJ	Degree=Pos	8	conj	_	_
+11	baby	baby	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	series	series	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	leaps	leap	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	crows	crows	NOUN	NNS	Number=Plur	16	conj	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	Jane	Jane	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	who	who	PRON	WP	PronType=Rel	24	nsubj	_	_
+24	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	_
+27	to	to	PART	TO	_	31	mark	_	_
+28	be	be	AUX	VB	VerbForm=Inf	31	cop	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	only	only	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	member	member	NOUN	NN	Number=Sing	24	xcomp	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	family	family	NOUN	NN	Number=Sing	31	nmod	_	_
+35	(	(	PUNCT	-LRB-	_	36	punct	_	SpaceAfter=No
+36	irrespective	irrespective	ADJ	JJ	Degree=Pos	31	parataxis	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	servants	servants	NOUN	NNS	Number=Plur	36	obl	_	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	_	36	punct	_	_
+40	with	with	ADP	IN	_	41	case	_	_
+41	whom	whom	PRON	WP	PronType=Int	24	obl	_	_
+42	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+43	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
+44	any	any	DET	DT	_	46	det	_	_
+45	decided	decided	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	acquaintance	acquaintance	NOUN	NN	Number=Sing	43	obj	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

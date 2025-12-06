@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘There!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Get out, get out!’ said Mr. Childers, thrusting his young friend from the room, rather in the prairie manner.
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	8	ccomp	_	_
+2	out	out	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	1	obj	_	_
+5	out	out	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	parataxis	_	_
+10	Childers	Childers	PROPN	NNPS	Number=Plur	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	thrusting	thrust	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	young	young	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	friend	friend	NOUN	NN	Number=Sing	12	obj	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	room	room	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	rather	rather	ADV	RB	_	24	advmod	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	prairie	prairie	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	manner	manner	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = ‘Tight-Jeff or Slack-Jeff, it don’t much signify: it’s only tight-rope and slack-rope.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Tight	tight	PROPN	NNP	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	Jeff	Jeff	PROPN	NNP	Number=Sing	10	vocative	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	Slack	slack	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+8	Jeff	Jeff	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	much	much	ADV	RB	_	14	advmod	_	_
+14	signify	signify	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	:	:	PUNCT	:	_	14	punct	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+18	only	only	ADV	RB	_	25	advmod	_	_
+19	tight	tight	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	rope	rope	NOUN	NN	Number=Sing	25	compound	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	slack	slack	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	rope	rope	NOUN	NN	Number=Sing	14	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = You were going to give me a message for Jupe?’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	give	give	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	message	message	NOUN	NN	Number=Sing	5	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	Jupe	Jupe	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

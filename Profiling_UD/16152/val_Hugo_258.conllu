@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had been profoundly thoughtful during all this labour.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+4	profoundly	profoundly	ADV	RB	_	5	advmod	_	_
+5	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	during	during	ADP	IN	_	9	case	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	labour	labour	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He had sought in vain for the figure-head--the "doll," as the Guernsey folks called it, of the Durande.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	sought	seek	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	vain	vain	ADJ	JJ	Degree=Pos	3	obl	_	_
+6	for	for	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	figure	figure	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	head	head	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	doll	doll	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+16	"	"	PUNCT	``	_	3	punct	_	_
+17	as	as	SCONJ	IN	_	21	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	Guernsey	Guernsey	PROPN	NNP	Number=Sing	20	compound	_	_
+20	folks	folk	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	Durande	Durande	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It was one of the things which the waves had carried away for ever.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	things	thing	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	which	which	PRON	WDT	PronType=Rel	11	obj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	waves	wafe	NOUN	NNS	Number=Plur	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	away	away	ADV	RB	_	11	advmod	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	ever	ever	ADV	RB	_	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Gilliatt would have given his hands to find it--if he had not had such peculiar need of them at that time.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	hands	hand	NOUN	NNS	Number=Plur	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	find	find	VERB	VB	VerbForm=Inf	4	advcl	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+11	if	if	SCONJ	IN	_	15	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	had	have	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+16	such	such	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	peculiar	peculiar	NOUN	NN	Number=Sing	18	compound	_	_
+18	need	need	NOUN	NN	Number=Sing	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	nmod	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	time	time	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

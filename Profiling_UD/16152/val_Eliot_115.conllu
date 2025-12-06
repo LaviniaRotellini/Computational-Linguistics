@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, ay, a cool hundred a year, that’s all,” said Mr Tulliver, with some pride at his own spirited course.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	ay	ay	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	cool	cool	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hundred	hundr	VERB	VBN	Tense=Past|VerbForm=Part	17	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	year	year	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	SpaceAfter=No
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	all	all	ADV	RB	_	8	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mr	Mr	PROPN	NNP	Number=Sing	17	nsubj	_	_
+19	Tulliver	Tulliver	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	some	some	DET	DT	_	23	det	_	_
+23	pride	pride	NOUN	NN	Number=Sing	18	nmod	_	_
+24	at	at	ADP	IN	_	28	case	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+26	own	own	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	spirited	spirited	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	course	course	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “But then, you know, it’s an investment; Tom’s eddication ’ull be so much capital to him.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	investment	investment	NOUN	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	6	punct	_	_
+13	Tom	Tom	PROPN	NNP	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	eddication	eddication	NOUN	NN	Number=Sing	20	nsubj	_	_
+16	’ull	’ull	AUX	MD	VerbForm=Fin	20	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	much	much	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	capital	capital	NOUN	NN	Number=Sing	6	parataxis	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

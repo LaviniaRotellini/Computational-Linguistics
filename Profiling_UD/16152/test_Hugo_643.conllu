@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He gave vent to a horrible cry, like the wretch to whom a hot iron is applied.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	nsubj:pass	_	_
+3	vent	vent	NOUN	NN	Number=Sing	2	obj	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	horrible	horrible	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	cry	cry	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	like	like	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	wretch	wretch	NOUN	NN	Number=Sing	2	obl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	whom	whom	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	hot	hot	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	iron	iron	NOUN	NN	Number=Sing	13	obj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = “Die, then!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Die	die	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	then	then	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = he said, gnashing his teeth.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	gnashing	gnash	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	teeth	tooth	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She saw his terrible look and tried to fly.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	terrible	terrible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	look	look	NOUN	NN	Number=Sing	2	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	fly	fly	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = He caught her once more, he shook her, he flung her on the ground, and walked with rapid strides towards the corner of the Tour-Roland, dragging her after him along the pavement by her beautiful hands.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	more	more	ADV	RBR	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	flung	fling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	ground	ground	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	rapid	rapid	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	strides	stride	NOUN	NNS	Number=Plur	19	obl	_	_
+23	towards	towards	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	corner	corner	NOUN	NN	Number=Sing	22	nmod	_	_
+26	of	of	ADP	IN	_	30	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+28	Tour	Tour	PROPN	NNP	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	Roland	Roland	PROPN	NNP	Number=Sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	19	punct	_	_
+32	dragging	drag	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	obj	_	_
+34	after	after	ADP	IN	_	35	case	_	_
+35	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+36	along	along	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	pavement	pavement	NOUN	NN	Number=Sing	32	obl	_	_
+39	by	by	ADP	IN	_	42	case	_	_
+40	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+41	beautiful	beautiful	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	hands	hand	NOUN	NNS	Number=Plur	38	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

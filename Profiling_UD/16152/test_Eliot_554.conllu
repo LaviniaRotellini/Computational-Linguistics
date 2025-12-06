@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When Mills got to the stables, a horse was being saddled, and Arthur was forcing himself to read the remaining words of the letter.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	Mills	Mills	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	stables	stabl	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	horse	horse	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	12	aux:pass	_	_
+12	saddled	saddled	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	Arthur	Arthu	PROPN	NNP	Number=Sing	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	forcing	force	VERB	VBG	Tense=Pres|VerbForm=Part	12	conj	_	_
+18	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	read	read	VERB	VB	VerbForm=Inf	17	advcl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	remaining	remain	VERB	VBG	VerbForm=Ger	23	amod	_	_
+23	words	word	NOUN	NNS	Number=Plur	20	obj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	letter	letter	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He thrust it into his pocket as the horse was led up to him, and at that moment caught sight of Mills’ anxious face in front of him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thrust	thrust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	pocket	pocket	NOUN	NN	Number=Sing	2	obl	_	_
+7	as	as	ADP	IN	_	11	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	horse	horse	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	led	lead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	moment	moment	NOUN	NN	Number=Sing	20	obl	_	_
+20	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	sight	sight	NOUN	NN	Number=Sing	20	obj	_	_
+22	of	of	ADP	IN	_	26	case	_	_
+23	Mills	Mills	PROPN	NNP	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+24	’	's	PART	POS	_	23	case	_	_
+25	anxious	anxious	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	face	face	NOUN	NN	Number=Sing	21	nmod	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	front	front	NOUN	NN	Number=Sing	20	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

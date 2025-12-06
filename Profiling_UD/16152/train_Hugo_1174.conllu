@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = However, nothing of all this was perceptible to Cosette.
+1	However	however	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	all	all	DET	DT	_	6	det	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nmod	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	perceptible	perceptible	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Cosette	Cosette	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = No ill-temper, no harshness.
+1	No	no	DET	DT	_	4	det	_	_
+2	ill	ill	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	temper	temper	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	harshness	harshness	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = His face was always serene and kind.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	serene	serene	NUM	CD	NumType=Card	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	kind	kind	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Jean Valjean’s manners were more tender and more paternal than ever.
+1	Jean	Jean	PROPN	NNP	Number=Sing	4	nmod:poss	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	’s	's	PART	POS	_	1	case	_	_
+4	manners	manners	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	tender	tender	NOUN	NN	Number=Sing	0	root	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	more	more	ADV	RBR	_	10	advmod	_	_
+10	paternal	paternal	ADJ	JJ	Degree=Pos	7	conj	_	_
+11	than	than	ADP	IN	_	12	case	_	_
+12	ever	ever	ADV	RB	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = If anything could have betrayed his lack of joy, it was his increased suavity.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	anything	anything	PRON	NN	Number=Sing	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	betrayed	betrayed	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	lack	lack	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	joy	joy	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	suavity	suavity	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

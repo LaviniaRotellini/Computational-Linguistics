@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = They went and seated themselves in the chimney-corner.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	seated	seat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	in	in	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	chimney	chimney	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	corner	corner	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = They had a doll, which they turned over and over on their knees with all sorts of joyous chatter.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	doll	doll	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	8	obj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+9	over	over	ADP	RP	_	8	compound:prt	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	over	over	ADV	RB	_	14	advmod	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	knees	knee	NOUN	NNS	Number=Plur	8	conj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	all	all	DET	DT	_	17	det	_	_
+17	sorts	sort	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	joyous	joyous	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	chatter	chatter	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = From time to time Cosette raised her eyes from her knitting, and watched their play with a melancholy air.
+1	From	from	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+5	Cosette	Cosette	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	eyes	eye	NOUN	NNS	Number=Plur	6	obj	_	_
+9	from	from	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	knitting	knitting	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	play	play	NOUN	NN	Number=Sing	14	obj	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	melancholy	melancholy	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	air	air	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Lucky for you then, Handel,” said Herbert, “that you are picked out for her and allotted to her.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Lucky	lucky	ADJ	JJ	Degree=Pos	7	amod	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	_
+5	then	then	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	Handel	Handel	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Herbert	Herbert	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj:pass	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+17	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	allotted	allot	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Without encroaching on forbidden ground, we may venture to say that there can be no doubt between ourselves of that fact.
+1	Without	without	SCONJ	IN	_	2	mark	_	_
+2	encroaching	encroaching	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	forbidden	forbidden	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	ground	ground	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	may	may	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	venture	venture	VERB	VB	VerbForm=Inf	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	say	say	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	there	there	PRON	EX	_	15	expl	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	be	be	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	no	no	DET	DT	_	17	det	_	_
+17	doubt	doubt	NOUN	NN	Number=Sing	15	nsubj	_	_
+18	between	between	ADP	IN	_	19	case	_	_
+19	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	17	nmod	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	fact	fact	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Have you any idea yet, of Estella’s views on the adoration question?”
+1	Have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	iobj	_	_
+3	any	any	DET	DT	_	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	1	obj	_	_
+5	yet	yet	ADV	RB	_	1	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	Estella	Estella	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	views	view	NOUN	NNS	Number=Plur	1	nmod	_	_
+11	on	on	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	adoration	adoration	NOUN	NN	Number=Sing	14	compound	_	_
+14	question	question	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

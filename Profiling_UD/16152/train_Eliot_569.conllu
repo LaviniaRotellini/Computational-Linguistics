@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, that is really a hit about the gates,” said Sir James, anxious to tread carefully.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	really	really	ADV	RB	_	8	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	hit	hit	NOUN	NN	Number=Sing	14	ccomp	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	gates	gate	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Sir	Sir	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	James	James	PROPN	NNPS	Number=Plur	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	anxious	anxious	ADJ	JJ	Degree=Pos	15	amod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	tread	tread	VERB	VB	VerbForm=Inf	18	advcl	_	_
+21	carefully	carefully	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “Dagley complained to me the other day that he hadn’t got a decent gate on his farm.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Dagley	Dagley	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	complained	complain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	day	day	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	decent	decent	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	gate	gate	NOUN	NN	Number=Sing	13	obj	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	farm	farm	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Garth has invented a new pattern of gate—I wish you would try it.
+1	Garth	Garth	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	invented	invent	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	pattern	pattern	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	gate	gate	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	try	try	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = One ought to use some of one’s timber in that way.”
+1	One	one	PRON	PRP	_	4	nsubj	_	_
+2	ought	ought	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+5	some	some	DET	DT	_	4	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	one	one	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	timber	timber	NOUN	NN	Number=Sing	5	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	way	way	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

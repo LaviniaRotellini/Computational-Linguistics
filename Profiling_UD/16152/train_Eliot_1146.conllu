@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Not because there is no one to believe in you?” said Dorothea, pouring out her words in clearness from a full heart.
+1	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+2	Not	not	ADV	RB	_	5	advmod	_	_
+3	because	because	SCONJ	IN	_	5	mark	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	one	one	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	believe	believe	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Dorothea	Dorothea	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	pouring	pour	VERB	VBG	VerbForm=Ger	14	parataxis	_	_
+18	out	out	ADP	RP	_	20	case	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	words	word	NOUN	NNS	Number=Plur	17	obl	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	clearness	clearness	NOUN	NNS	Number=Plur	17	obl	_	_
+23	from	from	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	full	full	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	heart	heart	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “I know the unhappy mistakes about you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	unhappy	unhappy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	mistakes	mistake	NOUN	NNS	Number=Plur	3	obj	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I knew them from the first moment to be mistakes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	from	from	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	moment	moment	NOUN	NN	Number=Sing	2	obl	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	mistakes	mistake	NOUN	NNS	Number=Plur	2	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = You have never done anything vile.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	anything	anything	PRON	NN	Number=Sing	6	compound	_	_
+6	vile	vile	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = You would not do anything dishonorable.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	_
+6	dishonorable	dishonorable	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

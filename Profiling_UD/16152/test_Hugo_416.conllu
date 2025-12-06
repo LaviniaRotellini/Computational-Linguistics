@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The priest threw back his cowl; she looked.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	priest	priest	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	threw	throw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	back	back	ADV	RB	_	3	advmod	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	cowl	cowl	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It was the sinister visage which had so long pursued her; that demon’s head which had appeared at la Falourdel’s, above the head of her adored Phœbus; that eye which she last had seen glittering beside a dagger.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	sinister	sinister	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	visage	visage	NOUN	NN	Number=Sing	0	root	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	long	long	ADV	RB	Degree=Pos	10	advmod	_	_
+10	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	5	punct	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	demon	demon	NOUN	NN	Number=Sing	16	nmod:poss	_	SpaceAfter=No
+15	’s	's	PART	POS	_	14	case	_	_
+16	head	head	NOUN	NN	Number=Sing	5	appos	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	appeared	appear	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	la	la	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Falourdel	Falourdel	PROPN	NNP	Number=Sing	19	obl	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	22	punct	_	_
+25	above	above	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	head	head	NOUN	NN	Number=Sing	22	nmod	_	_
+28	of	of	ADP	IN	_	31	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+30	adored	adore	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	Phœbus	Phœbus	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+32	;	;	PUNCT	,	_	5	punct	_	_
+33	that	that	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	eye	eye	NOUN	NN	Number=Sing	39	nsubj	_	_
+35	which	which	PRON	WDT	PronType=Rel	37	obj	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	last	last	ADJ	JJ	Degree=Pos	34	acl:relcl	_	_
+38	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux	_	_
+39	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+40	glittering	glitter	VERB	VBG	VerbForm=Ger	39	xcomp	_	_
+41	beside	beside	ADP	IN	_	43	case	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+43	dagger	dagger	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

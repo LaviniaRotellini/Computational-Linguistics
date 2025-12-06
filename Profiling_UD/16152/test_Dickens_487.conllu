@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = However, my determined manner would have its effect, and Herbert would fall to work again.
+1	However	however	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	determined	determined	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	manner	manner	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	effect	effect	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	Herbert	Herbert	PROPN	NNP	Number=Sing	15	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	fall	fall	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	work	work	VERB	VB	VerbForm=Inf	15	advcl	_	_
+18	again	again	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = After a time he would give up once more, on the plea that he had not got Cobbs’s bill, or Lobbs’s, or Nobbs’s, as the case might be.
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	once	once	ADV	RB	NumType=Mult	9	advmod	_	_
+9	more	more	ADV	RBR	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	plea	plea	NOUN	NN	Number=Sing	6	obl	_	_
+14	that	that	SCONJ	IN	_	18	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	got	get	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
+19	Cobbs	Cobbs	PROPN	NNP	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	bill	bill	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	or	or	CCONJ	CC	_	24	cc	_	_
+24	Lobbs	Lobbs	PROPN	NNP	Number=Sing	26	conj	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	or	or	CCONJ	CC	_	28	cc	_	_
+28	Nobbs	Nobbs	PROPN	NNP	Number=Sing	30	conj	_	SpaceAfter=No
+29	’s	’	PART	POS	_	28	case	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	6	punct	_	_
+31	as	as	SCONJ	IN	_	35	mark	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	case	case	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	might	might	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	be	be	AUX	VB	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

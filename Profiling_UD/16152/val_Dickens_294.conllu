@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I’ll tell you something towards it, at any rate,’ returned Mr. Bounderby.
+1	‘I	‘I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	something	something	PRON	NN	Number=Sing	3	obj	_	_
+6	towards	towards	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	rate	rate	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	3	punct	_	_
+14	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	obj	_	_
+16	Bounderby	Bounderby	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = ‘We will make an example of half a dozen Slackbridges.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	example	example	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	half	half	DET	PDT	_	11	det:predet	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	dozen	dozen	NOUN	NN	Number=Sing	11	compound	_	_
+11	Slackbridges	Slackbridge	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = We’ll indict the blackguards for felony, and get ’em shipped off to penal settlements.’
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	indict	indict	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	blackguards	blackguard	NOUN	NNS	Number=Plur	3	obj	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	felony	felony	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	get	get	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	shipped	ship	VERB	VBN	Tense=Past|VerbForm=Part	10	xcomp	_	_
+13	off	off	ADP	RP	_	12	compound:prt	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	penal	penal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	settlements	settlement	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

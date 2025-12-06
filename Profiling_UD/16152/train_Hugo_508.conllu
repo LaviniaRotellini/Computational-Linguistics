@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Cosette was in her usual place, seated on the cross-bar of the kitchen table near the chimney.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	usual	usual	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	place	place	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	seated	seat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+9	on	on	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	cross	cross	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+12	-bar	-bar	NOUN	NN	Number=Sing	8	obl	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	kitchen	kitchen	NOUN	NN	Number=Sing	16	compound	_	_
+16	table	table	NOUN	NN	Number=Sing	12	nmod	_	_
+17	near	near	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	chimney	chimney	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She was in rags; her bare feet were thrust into wooden shoes, and by the firelight she was engaged in knitting woollen stockings destined for the young Thénardiers.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	rags	rag	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nsubj	_	_
+7	bare	bare	VERB	VB	Typo=Yes|VerbForm=Inf	2	parataxis	_	_
+8	feet	foot	NOUN	NNS	Number=Plur	7	obj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
+10	thrust	thrust	ADV	RB	_	13	advmod	_	_
+11	into	into	ADP	IN	_	13	case	_	_
+12	wooden	wooden	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	shoes	shoe	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	by	by	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	firelight	firelight	NOUN	NN	Number=Sing	7	conj	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	knitting	knitt	VERB	VBG	VerbForm=Ger	25	amod	_	_
+24	woollen	woollen	NOUN	NNS	Number=Plur	25	compound	_	_
+25	stockings	stocking	NOUN	NNS	Number=Plur	21	obl	_	_
+26	destined	destin	VERB	VBN	Tense=Past|VerbForm=Part	25	acl	_	_
+27	for	for	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	young	young	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	Thénardiers	Thénardier	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = A very young kitten was playing about among the chairs.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	very	very	ADV	RB	_	3	advmod	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	kitten	kitten	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	about	about	ADV	RB	_	10	advmod	_	_
+8	among	among	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	chairs	chair	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Laughter and chatter were audible in the adjoining room, from two fresh children’s voices: it was Éponine and Azelma.
+1	Laughter	laughter	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	chatter	chatter	NOUN	NN	Number=Sing	1	conj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	audible	audible	ADJ	JJ	Degree=Pos	0	root	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	adjoining	adjoining	NOUN	NN	Number=Sing	9	compound	_	_
+9	room	room	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	from	from	ADP	IN	_	16	case	_	_
+12	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+13	fresh	fresh	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	children	child	NOUN	NNS	Number=Plur	16	nmod:poss	_	SpaceAfter=No
+15	’s	's	PART	POS	_	14	case	_	_
+16	voices	voice	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	5	punct	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	Éponine	Éponine	PROPN	NNP	Number=Sing	5	parataxis	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	Azelma	Azelma	PROPN	NNP	Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

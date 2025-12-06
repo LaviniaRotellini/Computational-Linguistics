@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why,’ replied Traddles, on whose attentive face a thoughtful shade had stolen, ‘it was rather a painful transaction, Copperfield, in my case.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Traddles	Traddles	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	11	nmod:poss	_	_
+10	attentive	attentive	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	face	face	NOUN	NN	Number=Sing	16	obl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	shade	shade	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	24	punct	_	_
+18	‘	'	PUNCT	``	_	24	punct	_	SpaceAfter=No
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+21	rather	rather	ADP	IN	_	24	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	painful	painful	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	transaction	transaction	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	Copperfield	Copperfield	PROPN	NNP	Number=Sing	24	appos	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	24	punct	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	case	case	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = You see, Sophy being of so much use in the family, none of them could endure the thought of her ever being married.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Sophy	Sophy	PROPN	NNP	Number=Sing	2	obj	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	9	cop	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	use	use	NOUN	NN	Number=Sing	2	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	family	family	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	none	none	NOUN	NN	Number=Sing	18	nsubj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	nmod	_	_
+17	could	could	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	endure	endure	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	thought	thought	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	25	mark	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	ever	ever	ADV	RB	_	25	advmod	_	_
+24	being	be	AUX	VBG	VerbForm=Ger	25	aux:pass	_	_
+25	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Indeed, they had quite settled among themselves that she never was to be married, and they called her the old maid.
+1	Indeed	indeed	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	among	among	ADP	IN	_	8	case	_	_
+8	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	obl	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+15	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	old	old	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	maid	maid	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Accordingly, when I mentioned it, with the greatest precaution, to Mrs. Crewler--’
+1	Accordingly	accordingly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	mentioned	mention	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	greatest	greatest	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	precaution	precaution	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	Mrs.	Mrs.	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Crewler	Crewler	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+16	--’	--’	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

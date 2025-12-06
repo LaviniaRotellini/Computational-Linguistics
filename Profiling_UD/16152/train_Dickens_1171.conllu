@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Some money was enclosed in this letter also.
+1	Some	some	DET	DT	_	2	det	_	_
+2	money	money	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	enclosed	enclose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	letter	letter	NOUN	NN	Number=Sing	4	obl	_	_
+8	also	also	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Five pounds.
+1	Five	five	NUM	CD	NumType=Card	2	nummod	_	_
+2	pounds	pound	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It was untouched like the previous sum, and he refolded it in the same way.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	untouched	untouched	ADJ	JJ	Degree=Pos	0	root	_	_
+4	like	like	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	previous	previous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	sum	sum	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	refolded	refold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	same	same	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	way	way	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Detailed instructions were added relative to the address of a reply, which, although they betrayed the intervention of several hands, and made it difficult to arrive at any very probable conclusion in reference to her place of concealment, made it at least not unlikely that she had written from that spot where she was stated to have been seen.
+1	Detailed	detailed	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	instructions	instruction	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	relative	relative	ADV	RB	_	4	advmod	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	address	address	NOUN	NN	Number=Sing	5	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	reply	reply	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	25	punct	_	_
+15	although	although	SCONJ	IN	_	17	mark	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	betrayed	betrayed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	intervention	intervention	NOUN	NN	Number=Sing	17	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	several	several	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	hands	hand	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	difficult	difficult	ADJ	JJ	Degree=Pos	25	xcomp	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	arrive	arrive	VERB	VB	VerbForm=Inf	25	advcl	_	_
+30	at	at	ADP	IN	_	34	case	_	_
+31	any	any	DET	DT	_	34	det	_	_
+32	very	very	ADV	RB	_	33	advmod	_	_
+33	probable	probable	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	conclusion	conclusion	NOUN	NN	Number=Sing	29	obl	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	reference	reference	NOUN	NN	Number=Sing	34	nmod	_	_
+37	to	to	ADP	IN	_	39	case	_	_
+38	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	place	place	NOUN	NN	Number=Sing	29	obl	_	_
+40	of	of	ADP	IN	_	41	case	_	_
+41	concealment	concealment	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	4	punct	_	_
+43	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+44	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	at	at	ADV	RB	_	43	advmod	_	_
+46	least	least	ADV	RBS	Degree=Sup	45	fixed	_	_
+47	not	not	PART	RB	_	48	advmod	_	_
+48	unlikely	unlikely	ADJ	JJ	Degree=Pos	43	xcomp	_	_
+49	that	that	SCONJ	IN	_	52	mark	_	_
+50	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+51	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	52	aux	_	_
+52	written	write	VERB	VBN	Tense=Past|VerbForm=Part	43	ccomp	_	_
+53	from	from	ADP	IN	_	55	case	_	_
+54	that	that	DET	DT	Number=Sing|PronType=Dem	55	det	_	_
+55	spot	spot	NOUN	NN	Number=Sing	52	obl	_	_
+56	where	where	ADV	WRB	PronType=Rel	59	advmod	_	_
+57	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	59	nsubj:pass	_	_
+58	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	aux:pass	_	_
+59	stated	state	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	55	acl:relcl	_	_
+60	to	to	PART	TO	_	63	mark	_	_
+61	have	have	AUX	VB	VerbForm=Inf	63	aux	_	_
+62	been	be	AUX	VBN	Tense=Past|VerbForm=Part	63	aux:pass	_	_
+63	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	59	xcomp	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

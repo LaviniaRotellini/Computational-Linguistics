@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She rose quickly and went out of the room, hurrying along the corridor, with the irresistible impulse to go and see her husband and inquire if she could do anything for him.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	quickly	quickly	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	out	out	ADP	IN	_	9	case	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	room	room	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	hurrying	hurry	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	along	along	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	corridor	corridor	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	irresistible	irresistible	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	impulse	impulse	NOUN	NN	Number=Sing	2	obl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	go	go	VERB	VB	VerbForm=Inf	19	acl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	see	see	VERB	VB	VerbForm=Inf	21	conj	_	_
+24	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	husband	husband	NOUN	NN	Number=Sing	23	obj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	inquire	inquire	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	_
+28	if	if	SCONJ	IN	_	31	mark	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+30	could	could	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	do	do	VERB	VB	VerbForm=Inf	27	advcl	_	_
+32	anything	anything	PRON	NN	Number=Sing	31	obj	_	_
+33	for	for	ADP	IN	_	34	case	_	_
+34	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Perhaps Mr. Tucker was gone and Mr. Casaubon was alone in the library.
+1	Perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	Tucker	Tucker	PROPN	NNP	Number=Sing	2	flat	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	gone	gone	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+8	Casaubon	Casaubon	PROPN	NNP	Number=Sing	7	flat	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	alone	alone	ADJ	JJ	Degree=Pos	5	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	library	library	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She felt as if all her morning’s gloom would vanish if she could see her husband glad because of her presence.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	SCONJ	IN	_	11	mark	_	_
+4	if	if	SCONJ	IN	_	11	mark	_	_
+5	all	all	DET	DT	_	9	det	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	morning	morning	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	gloom	gloom	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	vanish	vanish	VERB	VB	VerbForm=Inf	2	advcl	_	_
+12	if	if	SCONJ	IN	_	15	mark	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	see	see	VERB	VB	VerbForm=Inf	11	advcl	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	husband	husband	NOUN	NN	Number=Sing	15	obj	_	_
+18	glad	glad	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+19	because	because	ADP	IN	_	22	case	_	_
+20	of	of	ADP	IN	_	19	fixed	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	presence	presence	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

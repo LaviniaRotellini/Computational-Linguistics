@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How very beautiful these gems are!” said Dorothea, under a new current of feeling, as sudden as the gleam.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	beautiful	beautiful	ADJ	JJ	Degree=Pos	10	ccomp	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	gems	gem	NOUN	NNS	Number=Plur	4	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Dorothea	Dorothea	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	under	under	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	new	new	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	current	current	NOUN	NN	Number=Sing	10	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	feeling	feeling	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	10	punct	_	_
+20	as	as	ADV	RB	_	21	advmod	_	_
+21	sudden	sudden	ADV	RB	_	10	advmod	_	_
+22	as	as	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	gleam	gleam	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “It is strange how deeply colors seem to penetrate one, like scent.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	strange	strange	ADJ	JJ	Degree=Pos	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+6	deeply	deeply	ADV	RB	_	8	advmod	_	_
+7	colors	color	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	penetrate	penetrate	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	one	one	NUM	CD	NumType=Card	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	like	like	ADP	IN	_	14	case	_	_
+14	scent	scent	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I suppose that is the reason why gems are used as spiritual emblems in the Revelation of St. John.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	reason	reason	NOUN	NN	Number=Sing	2	ccomp	_	_
+7	why	why	ADV	WRB	PronType=Rel	10	advmod	_	_
+8	gems	gem	NOUN	NNS	Number=Plur	10	nsubj:pass	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+11	as	as	ADP	IN	_	13	case	_	_
+12	spiritual	spiritual	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	emblems	emblem	NOUN	NNS	Number=Plur	10	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	Revelation	Revelation	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	St.	St.	PROPN	NNP	Number=Sing	16	nmod	_	_
+19	John	John	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = They look like fragments of heaven.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	like	like	ADP	IN	_	4	case	_	_
+4	fragments	fragment	NOUN	NNS	Number=Plur	2	obl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	heaven	heaven	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I think that emerald is more beautiful than any of them.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	7	mark	_	_
+4	emerald	emerald	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	beautiful	beautiful	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	any	any	DET	DT	_	7	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

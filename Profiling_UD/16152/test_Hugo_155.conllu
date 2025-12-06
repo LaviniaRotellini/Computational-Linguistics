@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Paris of the present day has then, no general physiognomy.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Paris	Paris	PROPN	NNP	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	present	present	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	day	day	NOUN	NN	Number=Sing	2	nmod	_	_
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	no	no	DET	DT	_	12	det	_	_
+11	general	general	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	physiognomy	physiognomy	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = It is a collection of specimens of many centuries, and the finest have disappeared.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	collection	collection	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	specimens	specimen	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	many	many	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	centuries	century	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	finest	finest	ADJ	JJS	Degree=Sup	15	nsubj	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	disappeared	disappear	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The capital grows only in houses, and what houses!
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	capital	capital	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	grows	grow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	RB	_	3	advmod	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	houses	house	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	what	what	DET	WDT	PronType=Int	10	det	_	_
+10	houses	house	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = At the rate at which Paris is now proceeding, it will renew itself every fifty years.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	rate	rate	NOUN	NN	Number=Sing	13	obl	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	which	which	PRON	WDT	PronType=Rel	9	obl	_	_
+6	Paris	Paris	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	now	now	ADV	RB	_	9	advmod	_	_
+9	proceeding	proceed	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	renew	renew	VERB	VB	VerbForm=Inf	0	root	_	_
+14	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	every	every	DET	DT	_	17	det	_	_
+16	fifty	fifty	NUM	CD	NumType=Card	17	nummod	_	_
+17	years	year	NOUN	NNS	Number=Plur	13	obl:tmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

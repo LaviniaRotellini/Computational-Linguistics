@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I don’t mean that it’s of any consequence,” said Sir James, disliking that Mrs. Cadwallader should understand too much.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	mean	mean	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	consequence	consequence	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Sir	Sir	PROPN	NNP	Number=Sing	18	nsubj	_	_
+16	James	James	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	disliking	dislike	VERB	VBG	VerbForm=Ger	14	ccomp	_	_
+19	that	that	SCONJ	IN	_	23	mark	_	_
+20	Mrs.	Mrs.	PROPN	NNP	Number=Sing	23	nsubj	_	_
+21	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	20	flat	_	_
+22	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	understand	understand	VERB	VB	VerbForm=Inf	18	ccomp	_	_
+24	too	too	ADV	RB	_	25	advmod	_	_
+25	much	much	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “Only it is desirable that Dorothea should know there are reasons why she should not receive him again; and I really can’t say so to her.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Only	only	ADV	RB	_	5	advmod	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	desirable	desirable	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	Dorothea	Dorothea	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	know	know	VERB	VB	VerbForm=Inf	5	csubj	_	_
+10	there	there	PRON	EX	_	11	expl	_	_
+11	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+12	reasons	reason	NOUN	NNS	Number=Plur	11	nsubj	_	_
+13	why	why	ADV	WRB	PronType=Int	17	advmod	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	receive	receive	VERB	VB	VerbForm=Inf	11	conj	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	again	again	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	5	punct	_	_
+21	and	and	CCONJ	CC	_	26	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+23	really	really	ADV	RB	_	26	advmod	_	_
+24	ca	can	AUX	MD	VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	say	say	VERB	VB	VerbForm=Inf	5	conj	_	_
+27	so	so	ADV	RB	_	26	advmod	_	_
+28	to	to	ADP	IN	_	29	case	_	_
+29	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It will come lightly from you.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+4	lightly	lightly	ADV	RB	_	3	advmod	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

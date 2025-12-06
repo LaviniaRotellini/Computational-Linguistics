@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adam started up from his chair and seized his hat, which lay on the table.
+1	Adam	Adam	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	started	start	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	chair	chair	NOUN	NN	Number=Sing	2	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	seized	seize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	hat	hat	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	table	table	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But he stood still then, and looked at Mr. Irwine, as if he had a question to ask which it was yet difficult to utter.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	still	still	ADV	RB	_	3	advmod	_	_
+5	then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obl	_	_
+11	Irwine	Irwine	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	if	if	SCONJ	IN	_	16	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	question	question	NOUN	NN	Number=Sing	16	obj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	ask	ask	VERB	VB	VerbForm=Inf	16	advcl	_	_
+21	which	which	PRON	WDT	PronType=Int	20	obj	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+24	yet	yet	ADV	RB	_	25	advmod	_	_
+25	difficult	difficult	ADJ	JJ	Degree=Pos	20	ccomp	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	utter	utter	VERB	VB	VerbForm=Inf	25	csubj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Bartle Massey rose quietly, turned the key in the door, and put it in his pocket.
+1	Bartle	Bartle	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Massey	Massey	PROPN	NNP	Number=Sing	1	flat	_	_
+3	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	quietly	quietly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	key	key	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	door	door	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	pocket	pocket	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

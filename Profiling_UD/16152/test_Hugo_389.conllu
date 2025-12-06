@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, monseigneur,” replied the crone, “except that the report has described my house as a hovel and stinking; which is an outrageous fashion of speaking.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	monseigneur	monseigneur	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	crone	crone	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+12	except	except	SCONJ	IN	_	17	mark	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	report	report	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	described	describe	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	house	house	NOUN	NN	Number=Sing	17	obj	_	_
+20	as	as	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	hovel	hovel	NOUN	NN	Number=Sing	17	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	stinking	stink	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	22	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	outrageous	outrageous	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	fashion	fashion	NOUN	NN	Number=Sing	22	acl:relcl	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	speaking	speaking	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The houses on the bridge are not imposing, because there are such multitudes of people; but, nevertheless, the butchers continue to dwell there, who are wealthy folk, and married to very proper and handsome women.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	houses	house	NOUN	NNS	Number=Plur	8	nsubj	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	bridge	bridge	NOUN	NN	Number=Sing	2	nmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	imposing	impose	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	because	because	SCONJ	IN	_	12	mark	_	_
+11	there	there	PRON	EX	_	12	expl	_	_
+12	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	such	such	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	multitudes	multitude	NOUN	NNS	Number=Plur	12	nsubj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	8	punct	_	_
+18	but	but	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	nevertheless	nevertheless	ADV	RB	_	24	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	butchers	butcher	NOUN	NNS	Number=Plur	24	nsubj	_	_
+24	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	dwell	dwell	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	there	there	ADV	RB	PronType=Dem	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	8	punct	_	_
+29	who	who	PRON	WP	PronType=Rel	32	nsubj	_	_
+30	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	wealthy	wealthy	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	folk	folk	NOUN	NNS	Number=Plur	8	acl:relcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	conj	_	_
+36	to	to	ADP	IN	_	41	case	_	_
+37	very	very	ADV	RB	_	38	advmod	_	_
+38	proper	proper	ADJ	JJ	Degree=Pos	41	amod	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	handsome	handsome	ADJ	JJ	Degree=Pos	38	conj	_	_
+41	women	woman	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

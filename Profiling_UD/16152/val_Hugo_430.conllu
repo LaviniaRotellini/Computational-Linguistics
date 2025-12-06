@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She had been making water gradually during his absence.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	water	water	NOUN	NN	Number=Sing	4	obj	_	_
+6	gradually	gradually	ADV	RB	_	4	advmod	_	_
+7	during	during	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	absence	absence	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Burdened as she was, two feet of water was a perilous addition.
+1	Burdened	Burden	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	two	two	NUM	CD	NumType=Card	7	nummod	_	_
+7	feet	foot	NOUN	NNS	Number=Plur	13	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	water	water	NOUN	NN	Number=Sing	7	nmod	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	perilous	perilous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	addition	addition	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = A little more, and she must inevitably founder.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	obl:npmod	_	_
+3	more	more	ADV	RBR	_	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	inevitably	inevitably	ADV	RB	_	9	advmod	_	_
+9	founder	founder	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = If he had returned but an hour later, he would probably have found nothing above water but the funnel and the mast.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+5	but	but	CCONJ	CC	_	7	cc	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	hour	hour	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+8	later	later	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	probably	probably	ADV	RB	_	14	advmod	_	_
+13	have	have	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	nothing	nothing	PRON	NN	Number=Sing	14	obj	_	_
+16	above	above	ADP	IN	_	17	case	_	_
+17	water	water	NOUN	NN	Number=Sing	15	nmod	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	funnel	funnel	NOUN	NN	Number=Sing	14	conj	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	mast	mast	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

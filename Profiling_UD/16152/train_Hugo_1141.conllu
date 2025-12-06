@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When Toussaint came, he had said to her:
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	Toussaint	Toussaint	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	7	punct	_	_
+
+# sent_id = 2
+# text = “It is the young lady who is the mistress of this house.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	lady	lady	NOUN	NN	Number=Sing	0	root	_	_
+7	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	mistress	mistress	NOUN	NN	Number=Sing	6	acl:relcl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	house	house	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = —“And you, monsieur?”
+1	—“	—“	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	3	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	monsieur	monsieur	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = Toussaint replied in amazement.
+1	Toussaint	Toussaint	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	replied	reply	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	amazement	amazement	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = —“I am a much better thing than the master, I am the father.”
+1	—	-	PUNCT	:	_	8	punct	_	SpaceAfter=No
+2	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	much	much	ADV	RB	_	7	advmod	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	master	master	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	father	father	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then the time comes,” said Herbert, “when you see your opening.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Herbert	Herbert	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+12	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	opening	opening	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = And you go in, and you swoop upon it and you make your capital, and then there you are!
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	swoop	swoop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	upon	upon	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	capital	capital	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+19	there	there	ADV	RB	PronType=Dem	3	conj	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = When you have once made your capital, you have nothing to do but employ it.”
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	capital	capital	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	nothing	nothing	PRON	NN	Number=Sing	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	but	but	CCONJ	CC	_	15	cc	_	_
+15	employ	employ	VERB	VB	VerbForm=Inf	10	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He did this so that nobody but I saw the file; and when he had done it he wiped the file and put it in a breast-pocket.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	nobody	nobody	NOUN	NN	Number=Sing	2	obj	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	file	file	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	20	cc	_	_
+14	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	done	do	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	wiped	wip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	file	file	NOUN	NN	Number=Sing	20	obj	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	in	in	ADP	IN	_	30	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	breast	breast	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	pocket	pocket	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I knew it to be Joe’s file, and I knew that he knew my convict, the moment I saw the instrument.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	8	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	Joe	Joe	PROPN	NNP	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	file	file	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	convict	convict	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	moment	moment	NOUN	NN	Number=Sing	2	nsubj	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	instrument	instrument	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I sat gazing at him, spell-bound.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gazing	gazing	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	spell	spell	NOUN	NN	Number=Sing	9	obl:npmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	bound	bound	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But he now reclined on his settle, taking very little notice of me, and talking principally about turnips.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	reclined	recline	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	settle	settle	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	taking	take	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+10	very	very	ADV	RB	_	12	advmod	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	notice	notice	NOUN	NN	Number=Sing	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	talking	talk	VERB	VBG	VerbForm=Ger	9	conj	_	_
+18	principally	principally	ADV	RB	_	17	advmod	_	_
+19	about	about	ADP	IN	_	20	case	_	_
+20	turnips	turnip	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

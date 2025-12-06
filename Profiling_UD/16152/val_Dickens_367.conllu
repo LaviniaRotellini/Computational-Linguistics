@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘A hundred and fifty odd pound,’ resumed Mr. Bounderby.
+1	‘A	‘a	ADP	IN	_	2	case	_	_
+2	hundred	hundred	NUM	CD	NumType=Card	9	obl	_	_
+3	and	and	CCONJ	CC	_	6	cc	_	_
+4	fifty	fifty	NUM	CD	NumType=Card	6	nummod	_	_
+5	odd	odd	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	pound	pound	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	appos	_	_
+11	Bounderby	Bounderby	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘That sum of money, young Tom locked in his safe, not a very strong safe, but that’s no matter now.
+1	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+2	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	sum	sum	NOUN	NN	Number=Sing	18	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	money	money	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	locked	lock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	safe	safe	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	not	not	ADV	RB	_	18	advmod	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	strong	strong	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	safe	safe	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	22	nsubj	_	SpaceAfter=No
+22	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	no	no	DET	DT	_	24	det	_	_
+24	matter	matter	NOUN	NN	Number=Sing	22	obj	_	_
+25	now	now	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = Everything was left, all right.
+1	Everything	everything	PRON	NN	Number=Sing	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	all	all	DET	DT	_	6	det:predet	_	_
+6	right	right	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Some time in the night, while this young fellow snored—Mrs.
+1	Some	some	DET	DT	_	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	night	night	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	while	while	SCONJ	IN	_	11	mark	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	young	young	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fellow	fellow	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	snored	snor	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+13	Mrs	Mrs	PROPN	NNPS	Number=Plur	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Sparsit, ma’am, you say you have heard him snore?’
+1	Sparsit	Sparsit	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	ma’	ma'	PUNCT	''	_	1	punct	_	SpaceAfter=No
+4	am	am	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	snore	snore	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

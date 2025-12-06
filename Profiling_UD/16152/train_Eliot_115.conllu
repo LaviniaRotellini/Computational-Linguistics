@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, come, this is a nice bit, now.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	nice	nice	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	bit	bit	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I did a little in this way myself at one time, you know.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	little	little	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	way	way	NOUN	NN	Number=Sing	4	nmod	_	_
+8	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	2	obl:npmod	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	time	time	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Look here, now; this is what I call a nice thing, done with what we used to call _brio_.”
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	here	here	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	now	now	ADV	RB	_	1	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	1	punct	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	what	what	PRON	WP	PronType=Int	1	parataxis	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	nice	nice	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	thing	thing	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	1	punct	_	_
+15	done	do	VERB	VBN	Tense=Past|VerbForm=Part	1	parataxis	_	_
+16	with	with	SCONJ	IN	_	17	case	_	_
+17	what	what	PRON	WP	PronType=Int	15	obl	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	call	call	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	_brio_.	_brio_.	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mr. Brooke held out towards the two girls a large colored sketch of stony ground and trees, with a pool.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Brooke	Brooke	PROPN	NNP	Number=Sing	1	flat	_	_
+3	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	towards	towards	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	two	two	NUM	CD	NumType=Card	8	nummod	_	_
+8	girls	girl	NOUN	NNS	Number=Plur	3	obl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	large	large	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	colored	colored	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	sketch	sketch	NOUN	NN	Number=Sing	8	appos	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	stony	stony	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	ground	ground	NOUN	NN	Number=Sing	12	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	trees	tree	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	pool	pool	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There is, in that mode of life, good mingled with evil, for if enervation is baleful, generosity is good and healthful.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	mode	mode	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	life	life	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	mingled	mingl	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	evil	evil	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	for	for	SCONJ	IN	_	19	mark	_	_
+16	if	if	SCONJ	IN	_	19	mark	_	_
+17	enervation	enervation	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	baleful	baleful	ADJ	JJ	Degree=Pos	11	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	2	punct	_	_
+21	generosity	generosity	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	good	good	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	healthful	healthful	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But the poor man who is generous and noble, and who does not work, is lost.
+1	But	but	CCONJ	CC	_	18	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	18	nsubj:pass	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	generous	generous	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	noble	noble	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	who	who	PRON	WP	PronType=Int	15	nsubj	_	_
+13	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	work	work	VERB	VB	VerbForm=Inf	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	lost	lost	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = Resources are exhausted, needs crop up.
+1	Resources	resource	NOUN	NNS	Number=Plur	3	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	exhausted	exhaust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	crop	crop	NOUN	NN	Number=Sing	5	obj	_	_
+7	up	up	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘We are young and inexperienced, aunt, I know,’ I replied; ‘and I dare say we say and think a good deal that is rather foolish.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	young	young	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	inexperienced	inexperienced	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	aunt	aunt	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+12	,’	,’	PUNCT	.	_	4	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	14	punct	_	_
+16	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	say	say	INTJ	UH	_	22	discourse	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	good	good	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	deal	deal	NOUN	NN	Number=Sing	24	obj	_	_
+28	that	that	PRON	WDT	PronType=Rel	31	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	rather	rather	ADV	RB	_	31	advmod	_	_
+31	foolish	foolish	ADJ	JJ	Degree=Pos	27	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But we love one another truly, I am sure.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	another	another	DET	DT	_	6	obj	_	_
+6	truly	truly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = If I thought Dora could ever love anybody else, or cease to love me; or that I could ever love anybody else, or cease to love her; I don’t know what I should do--go out of my mind, I think!’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+4	Dora	Dora	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	ever	ever	ADV	RB	_	7	advmod	_	_
+7	love	love	VERB	VB	VerbForm=Inf	40	advcl	_	_
+8	anybody	anybody	PRON	NN	Number=Sing	7	obj	_	_
+9	else	else	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	cease	cease	NOUN	NN	Number=Sing	7	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	love	love	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	7	punct	_	_
+17	or	or	CCONJ	CC	_	22	cc	_	_
+18	that	that	SCONJ	IN	_	22	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	ever	ever	ADV	RB	_	22	advmod	_	_
+22	love	love	VERB	VB	VerbForm=Inf	7	conj	_	_
+23	anybody	anybody	PRON	NN	Number=Sing	22	obj	_	_
+24	else	else	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	or	or	CCONJ	CC	_	27	cc	_	_
+27	cease	cease	NOUN	NN	Number=Sing	22	conj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	love	love	VERB	VB	VerbForm=Inf	27	acl	_	_
+30	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	7	punct	_	_
+32	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+33	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	SpaceAfter=No
+34	n’t	not	PART	RB	_	35	advmod	_	_
+35	know	know	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+36	what	what	PRON	WP	PronType=Int	39	obj	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+38	should	should	AUX	MD	VerbForm=Fin	39	aux	_	_
+39	do	do	VERB	VB	VerbForm=Inf	35	ccomp	_	SpaceAfter=No
+40	--	--	PUNCT	,	_	41	punct	_	SpaceAfter=No
+41	go	go	VERB	VB	VerbForm=Inf	48	advcl	_	_
+42	out	out	ADP	IN	_	45	case	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	mind	mind	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	41	punct	_	_
+47	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
+48	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+49	!	!	PUNCT	.	_	48	punct	_	SpaceAfter=No
+50	’	'	PUNCT	''	_	48	punct	_	SpacesAfter=\n
+

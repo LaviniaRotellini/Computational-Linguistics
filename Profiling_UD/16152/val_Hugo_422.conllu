@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The struggle was ended.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	struggle	struggle	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	ended	end	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The folds relaxed.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	folds	fold	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	relaxed	relaxed	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The monster dropped away, like the slow detaching of bands.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	monster	monster	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	dropped	drop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	away	away	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	like	like	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	slow	slow	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	detaching	detaching	NOUN	NN	Number=Sing	3	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	bands	band	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The four hundred suckers, deprived of their sustaining power, dropped at once from the man and the rock.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	four	four	NUM	CD	NumType=Card	3	nummod	_	_
+3	hundred	hundred	NUM	CD	NumType=Card	4	nummod	_	_
+4	suckers	sucker	NOUN	NNS	Number=Plur	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	deprived	deprive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	sustaining	sustain	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	power	power	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+13	at	at	ADV	RB	_	14	advmod	_	_
+14	once	once	ADV	RB	NumType=Mult	12	advmod	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	14	obl	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	rock	rock	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = The mass sank to the bottom of the water.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	mass	mass	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	sank	sank	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	bottom	bottom	NOUN	NN	Number=Sing	3	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	water	water	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, he has not the style of a captain in the army, or that sort of carriage as if everybody was beneath him, or that showy kind of talking, and singing, and intellectual talent.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	style	style	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	captain	captain	NOUN	NN	Number=Sing	8	nmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	army	army	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	or	or	CCONJ	CC	_	18	cc	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	sort	sort	NOUN	NN	Number=Sing	8	conj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	carriage	carriage	NOUN	NN	Number=Sing	18	nmod	_	_
+21	as	as	SCONJ	IN	_	26	mark	_	_
+22	if	if	SCONJ	IN	_	26	mark	_	_
+23	everybody	everybody	PRON	NN	Number=Sing	26	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+25	beneath	beneath	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	or	or	CCONJ	CC	_	31	cc	_	_
+29	that	that	DET	DT	Number=Sing|PronType=Dem	31	det	_	_
+30	showy	showy	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	kind	kind	NOUN	NN	Number=Sing	8	conj	_	_
+32	of	of	SCONJ	IN	_	33	mark	_	_
+33	talking	talking	VERB	VBG	VerbForm=Ger	31	acl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	singing	singe	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	40	punct	_	_
+38	and	and	CCONJ	CC	_	40	cc	_	_
+39	intellectual	intellectual	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	talent	talent	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But I am thankful he has not.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	thankful	thankful	ADJ	JJ	Degree=Pos	0	root	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	not	not	PART	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It is a poor preparation both for here and Hereafter.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	preparation	preparation	NOUN	NN	Number=Sing	0	root	_	_
+6	both	both	CCONJ	CC	_	8	cc:preconj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	here	here	ADV	RB	PronType=Dem	5	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	Hereafter	Hereafter	PROPN	NNP	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

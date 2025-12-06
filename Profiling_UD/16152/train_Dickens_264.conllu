@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You might have gone farther off,’ I said, brightening a little, ‘and been as bad as lost.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+6	farther	farther	ADV	RB	_	5	advmod	_	_
+7	off	off	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,’	,’	PUNCT	.	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	brightening	brighten	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	little	little	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	‘	'	PUNCT	``	_	20	punct	_	SpaceAfter=No
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+19	as	as	ADV	RB	_	20	advmod	_	_
+20	bad	bad	ADJ	JJ	Degree=Pos	10	parataxis	_	_
+21	as	as	SCONJ	IN	_	22	mark	_	_
+22	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = I shall see you sometimes, my dear old Peggotty, there.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	sometimes	sometimes	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+8	dear	dear	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	old	old	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	Peggotty	Peggotty	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You won’t be quite at the other end of the world, will you?’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	9	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+5	quite	quite	ADV	RB	_	9	advmod	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	end	end	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	world	world	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	15	punct	_	SpaceAfter=No
+17	’	’	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

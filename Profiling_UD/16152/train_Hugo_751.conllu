@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean experienced some difficulty in moving and in walking.
+1	Jean	Jean	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	experienced	experience	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	difficulty	difficulty	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	SCONJ	IN	_	7	mark	_	_
+7	moving	moving	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	walking	walking	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He had stiffened himself in that coffin, and had become a little like a corpse.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	stiffened	stiffen	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	coffin	coffin	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	become	become	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	little	little	NOUN	NN	Number=Sing	11	obj	_	_
+14	like	like	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	corpse	corpse	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The rigidity of death had seized upon him between those four planks.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rigidity	rigidity	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	death	death	NOUN	NN	Number=Sing	2	nmod	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	upon	upon	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	between	between	ADP	IN	_	12	case	_	_
+10	those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+11	four	four	NUM	CD	NumType=Card	12	nummod	_	_
+12	planks	plank	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = He had, in a manner, to thaw out, from the tomb.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	manner	manner	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	thaw	thaw	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+10	out	out	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	tomb	tomb	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

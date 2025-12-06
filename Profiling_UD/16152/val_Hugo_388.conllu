@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On this day, however, the crayfish and crabs were both wanting.
+1	On	on	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	day	day	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	however	however	ADV	RB	_	13	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	crayfish	crayfish	NOUN	NNS	Number=Plur	13	nsubj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	crabs	crab	NOUN	NNS	Number=Plur	8	conj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	both	both	ADV	RB	_	13	advmod	_	_
+13	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = The tempest had driven them into their solitary retreats; and they had not yet mustered courage to venture abroad.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	tempest	tempest	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	into	into	ADP	IN	_	9	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	solitary	solitary	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	retreats	retreat	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	yet	yet	ADV	RB	_	16	advmod	_	_
+16	mustered	muster	VERB	VBN	Tense=Past|VerbForm=Part	13	xcomp	_	_
+17	courage	courage	NOUN	NN	Number=Sing	16	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	venture	venture	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	abroad	abroad	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Gilliatt held his open knife in his hand, and from time to time scraped a cockle from under the bunches of seaweed, which he ate while still walking.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	open	open	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	knife	knife	NOUN	NN	Number=Sing	2	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hand	hand	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	and	and	CCONJ	CC	_	15	cc	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	time	time	NOUN	NN	Number=Sing	15	obl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	time	time	NOUN	NN	Number=Sing	12	nmod	_	_
+15	scraped	scrape	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	cockle	cockle	NOUN	NN	Number=Sing	15	obj	_	_
+18	from	from	ADP	IN	_	21	case	_	_
+19	under	under	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	bunches	bunch	NOUN	NNS	Number=Plur	17	nmod	_	_
+22	of	of	ADP	IN	_	23	mark	_	_
+23	seaweed	seaweed	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	which	which	PRON	WDT	PronType=Rel	27	obj	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+28	while	while	SCONJ	IN	_	30	mark	_	_
+29	still	still	ADV	RB	_	30	advmod	_	_
+30	walking	walk	VERB	VBG	VerbForm=Ger	27	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

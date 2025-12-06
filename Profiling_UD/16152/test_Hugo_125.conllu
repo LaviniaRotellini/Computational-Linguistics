@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A moment later, there stood upon the table a loaf of rye bread, a slice of bacon, some wrinkled apples and a jug of beer.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	moment	moment	NOUN	NN	Number=Sing	22	nsubj	_	_
+3	later	later	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	upon	upon	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	table	table	NOUN	NN	Number=Sing	6	obl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	loaf	loaf	NOUN	NN	Number=Sing	9	nmod	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	rye	rye	NOUN	NN	Number=Sing	14	compound	_	_
+14	bread	bread	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	slice	slice	NOUN	NN	Number=Sing	14	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	bacon	bacon	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	some	some	DET	DT	_	22	det	_	_
+22	wrinkled	wrinkle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	apples	apple	NOUN	NNS	Number=Plur	22	obj	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	jug	jug	NOUN	NN	Number=Sing	23	conj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	beer	beer	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = Gringoire began to eat eagerly.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	eat	eat	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	eagerly	eagerly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = One would have said, to hear the furious clashing of his iron fork and his earthenware plate, that all his love had turned to appetite.
+1	One	one	PRON	PRP	_	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	hear	hear	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	furious	furious	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	clashing	clashing	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	iron	iron	NOUN	NN	Number=Sing	14	compound	_	_
+14	fork	fork	NOUN	NN	Number=Sing	10	nmod	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	earthenware	earthenware	NOUN	NN	Number=Sing	18	compound	_	_
+18	plate	plate	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	that	that	SCONJ	IN	_	25	mark	_	_
+21	all	all	DET	DT	_	23	det:predet	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	love	love	NOUN	NN	Number=Sing	25	nsubj	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	appetite	appetite	VERB	VB	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

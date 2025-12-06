@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The time has come round when Miss Havisham wishes to have me for a day at Satis.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	round	round	ADV	RB	_	5	advmod	_	_
+7	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+8	Miss	miss	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	Havisham	Havisham	PROPN	NNP	Number=Sing	8	flat	_	_
+10	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	have	have	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	day	day	NOUN	NN	Number=Sing	12	obl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	Satis	Satis	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = You are to take me there, and bring me back, if you will.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	there	there	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	bring	bring	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	back	back	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	9	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She would rather I did not travel alone, and objects to receiving my maid, for she has a sensitive horror of being talked of by such people.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+3	rather	rather	ADV	RB	_	7	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	travel	travel	VERB	VB	VerbForm=Inf	0	root	_	_
+8	alone	alone	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	objects	object	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	to	to	SCONJ	IN	_	13	mark	_	_
+13	receiving	receive	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	maid	maid	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	for	for	SCONJ	IN	_	19	mark	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	sensitive	sensitive	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	horror	horror	NOUN	NN	Number=Sing	19	obj	_	_
+23	of	of	SCONJ	IN	_	25	mark	_	_
+24	being	be	AUX	VBG	VerbForm=Ger	25	aux:pass	_	_
+25	talked	talk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	_
+26	of	of	ADP	IN	_	25	obl	_	_
+27	by	by	ADP	IN	_	29	case	_	_
+28	such	such	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	people	people	NOUN	NNS	Number=Plur	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Can you take me?”
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

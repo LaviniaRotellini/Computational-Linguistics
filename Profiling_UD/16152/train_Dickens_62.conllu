@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You’re quite a sailor, I suppose?’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quite	quite	DET	PDT	_	6	det:predet	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	sailor	sailor	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = I said to Em’ly.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Em	em	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+5	’ly	’ly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I don’t know that I supposed anything of the kind, but I felt it an act of gallantry to say something; and a shining sail close to us made such a pretty little image of itself, at the moment, in her bright eye, that it came into my head to say this.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	supposed	suppose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	anything	anything	PRON	NN	Number=Sing	7	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	kind	kind	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	but	but	CCONJ	CC	_	15	cc	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	act	act	NOUN	NN	Number=Sing	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	gallantry	gallantry	NOUN	NN	Number=Sing	18	nmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	say	say	VERB	VB	VerbForm=Inf	15	acl	_	_
+23	something	something	PRON	NN	Number=Sing	22	obj	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	4	punct	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	shining	shining	VERB	VBG	VerbForm=Ger	28	amod	_	_
+28	sail	sail	NOUN	NN	Number=Sing	32	nsubj	_	_
+29	close	close	ADJ	JJ	Degree=Pos	28	amod	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	29	obl	_	_
+32	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+33	such	such	DET	PDT	_	37	det:predet	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+35	pretty	pretty	ADV	RB	_	36	advmod	_	_
+36	little	little	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	image	image	NOUN	NN	Number=Sing	32	obj	_	_
+38	of	of	ADP	IN	_	39	case	_	_
+39	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	4	punct	_	_
+41	at	at	ADP	IN	_	43	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	moment	moment	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	4	punct	_	_
+45	in	in	ADP	IN	_	48	case	_	_
+46	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	48	nmod:poss	_	_
+47	bright	bright	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	eye	eye	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	4	punct	_	_
+50	that	that	SCONJ	IN	_	52	mark	_	_
+51	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+52	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+53	into	into	ADP	IN	_	55	case	_	_
+54	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	head	head	NOUN	NN	Number=Sing	52	obl	_	_
+56	to	to	PART	TO	_	57	mark	_	_
+57	say	say	VERB	VB	VerbForm=Inf	52	advcl	_	_
+58	this	this	PRON	DT	Number=Sing|PronType=Dem	57	obj	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

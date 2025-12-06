@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You see,” said the doctor, “how excited you become.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	doctor	doctor	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+11	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+12	excited	excited	ADJ	JJ	Degree=Pos	14	advmod	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = So long as you are in this state I shall oppose your having your child.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	long	long	ADV	RB	Degree=Pos	11	advmod	_	_
+3	as	as	SCONJ	IN	_	8	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	state	state	NOUN	NN	Number=Sing	11	advcl	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	shall	shall	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	oppose	oppose	VERB	VB	VerbForm=Inf	0	root	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	r	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	11	parataxis	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	child	child	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = It is not enough to see her; it is necessary that you should live for her.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	4	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	necessary	necessary	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	live	live	VERB	VB	VerbForm=Inf	11	csubj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = When you are reasonable, I will bring her to you myself.”
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	reasonable	reasonable	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	_
+12	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

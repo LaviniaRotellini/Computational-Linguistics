@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What excellent sight you have!” said old Mr. Donnithorne, who was holding a double glass up to his eyes, “to see the expression of that young man’s face so far off.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	4	det	_	_
+3	excellent	excellent	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	sight	sight	NOUN	NN	Number=Sing	6	obj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+12	Donnithorne	Donnithorne	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part	11	acl:relcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	double	double	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	glass	glass	NOUN	NN	Number=Sing	16	obj	_	_
+20	up	up	ADP	IN	_	16	compound:prt	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	eyes	eye	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	9	punct	_	_
+25	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+26	to	to	PART	TO	_	27	mark	_	_
+27	see	see	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	expression	expression	NOUN	NN	Number=Sing	27	obj	_	_
+30	of	of	ADP	IN	_	35	case	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+32	young	young	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	man	man	NOUN	NN	Number=Sing	35	nmod:poss	_	SpaceAfter=No
+34	’s	's	PART	POS	_	33	case	_	_
+35	face	face	NOUN	NN	Number=Sing	29	nmod	_	_
+36	so	so	ADV	RB	_	37	advmod	_	_
+37	far	far	ADV	RB	Degree=Pos	27	advmod	_	_
+38	off	off	ADV	RB	_	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = His face is nothing but a pale blurred spot to me.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+5	but	but	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	pale	pale	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	blurred	blurred	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	spot	spot	NOUN	NN	Number=Sing	4	nmod	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But I fancy I have the advantage of you when we come to look close.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	fancy	fancy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	advantage	advantage	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	nmod	_	_
+10	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	look	look	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	close	close	ADJ	JJ	Degree=Pos	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I can read small print without spectacles.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	read	read	VERB	VB	VerbForm=Inf	0	root	_	_
+4	small	small	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	print	print	NOUN	NN	Number=Sing	3	obj	_	_
+6	without	without	ADP	IN	_	7	case	_	_
+7	spectacles	spectacle	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

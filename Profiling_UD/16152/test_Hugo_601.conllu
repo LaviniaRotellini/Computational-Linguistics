@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Gossip,” retorted Louis XI.,
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Gossip	Gossip	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	Louis	Louis	PROPN	NNP	Number=Sing	5	obj	_	_
+7	XI.	XI.	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 2
+# text = “think you that ’tis for birds of this feather that we cause to be made cages at three hundred and sixty-seven livres, eight sous, three deniers apiece?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+4	that	that	SCONJ	IN	_	14	mark	_	_
+5	’	'	PUNCT	''	_	6	punct	_	SpaceAfter=No
+6	tis	ti	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	obj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	birds	bird	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	feather	feather	NOUN	NN	Number=Sing	8	nmod	_	_
+12	that	that	SCONJ	IN	_	14	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	cause	cause	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	cages	cage	NOUN	NNS	Number=Plur	17	obj	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	three	three	NUM	CD	NumType=Card	21	nummod	_	_
+21	hundred	hundred	NUM	CD	NumType=Card	18	nmod	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	sixty	sixty	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+24	-	-	SYM	SYM	_	25	case	_	SpaceAfter=No
+25	seven	seven	NUM	CD	NumType=Card	23	nmod	_	_
+26	livres	livre	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	eight	eight	NUM	CD	NumType=Card	29	nummod	_	_
+29	sous	sous	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	18	punct	_	_
+31	three	three	NUM	CD	NumType=Card	32	nummod	_	_
+32	deniers	denier	NOUN	NNS	Number=Plur	33	obl:npmod	_	_
+33	apiece	apiece	ADV	RB	NumType=Mult	18	appos	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Release him at once, the wanton (Louis XI.
+1	Release	release	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	at	at	ADV	RB	_	4	advmod	_	_
+4	once	once	ADV	RB	NumType=Mult	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	wanton	wanton	NOUN	NN	Number=Sing	1	obj	_	_
+8	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
+9	Louis	Louis	PROPN	NNP	Number=Sing	7	appos	_	_
+10	XI	XI	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = was fond of this word which formed, with _Pasque-Dieu_, the foundation of his joviality), and put him out with a buffet.”
+1	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	fond	fond	ADJ	JJ	Degree=Pos	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	word	word	NOUN	NN	Number=Sing	2	obl	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	formed	form	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	_Pasque	_Pasque	PROPN	NNP	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+12	Dieu_	dieu_	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	foundation	foundation	NOUN	NN	Number=Sing	2	appos	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	joviality	joviality	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	15	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	out	out	ADP	RP	_	22	compound:prt	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	buffet	buffet	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

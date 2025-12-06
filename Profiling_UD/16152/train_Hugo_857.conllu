@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And I am delighted.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	delighted	delighted	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I was on the brink of becoming a lawyer.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	brink	brink	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	becoming	become	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lawyer	lawyer	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = This erasure saves me.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	erasure	erasure	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	saves	save	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I renounce the triumphs of the bar.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	renounce	renounce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	triumphs	triumph	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	bar	bar	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I shall not defend the widow, and I shall not attack the orphan.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	defend	defend	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	widow	widow	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	shall	shall	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	attack	attack	VERB	VB	VerbForm=Inf	4	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	orphan	orphan	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = No more toga, no more stage.
+1	No	no	DET	DT	_	3	det	_	_
+2	more	more	ADJ	JJR	Degree=Cmp	3	amod	_	_
+3	toga	toga	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	no	no	DET	DT	_	7	det	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	stage	stage	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Here is my erasure all ready for me.
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	erasure	erasure	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	all	all	DET	DT	_	6	nsubj	_	_
+6	ready	ready	ADJ	JJ	Degree=Pos	1	ccomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = It is to you that I am indebted for it, Monsieur Pontmercy.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	indebted	indebt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	Monsieur	Monsieur	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Pontmercy	Pontmercy	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = I intend to pay a solemn call of thanks upon you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	intend	intend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	pay	pay	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	solemn	solemn	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	call	call	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	thanks	thanks	NOUN	NN	Number=Sing	4	obl	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Where do you live?”
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	live	live	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I thought they said th’ young mester war took ill last night,” said sour old John, the groom, at dinner-time in the servants’ hall.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	th	th	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+7	’	’	PART	POS	_	6	case	_	_
+8	young	young	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	mester	mester	NOUN	NN	Number=Sing	10	compound	_	_
+10	war	war	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+12	ill	ill	ADV	RB	_	11	advmod	_	_
+13	last	last	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	night	night	NOUN	NN	Number=Sing	11	obl:tmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	sour	sour	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	old	old	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	John	John	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	groom	groom	NOUN	NN	Number=Sing	20	appos	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	17	punct	_	_
+25	at	at	ADP	IN	_	28	case	_	_
+26	dinner	dinner	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	time	time	NOUN	NN	Number=Sing	17	obl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	servants	servants	NOUN	NNS	Number=Plur	33	nmod:poss	_	SpaceAfter=No
+32	’	's	PART	POS	_	31	case	_	_
+33	hall	hall	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “He’s been ridin’ fit to split the mare i’ two this forenoon.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	ridin	ridin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	5	punct	_	_
+7	fit	fit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	split	split	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	mare	mare	NOUN	NN	Number=Sing	12	compound	_	_
+12	i	I	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	5	punct	_	_
+14	two	two	NUM	CD	NumType=Card	16	nummod	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	forenoon	forenoon	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

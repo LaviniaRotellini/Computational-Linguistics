@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The mother, who had established herself, as we shall see later on, at M. sur M., wrote, or, more correctly, caused to be written, a letter every month, that she might have news of her child.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	mother	mother	NOUN	NN	Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	shall	shall	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	see	see	VERB	VB	VerbForm=Inf	2	advcl	_	_
+13	later	later	ADV	RB	_	14	advmod	_	_
+14	on	on	ADV	RB	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	M.	M.	PROPN	NNP	Number=Sing	18	compound	_	_
+18	sur	sur	PROPN	NNP	Number=Sing	2	nmod	_	_
+19	M.	M.	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	_	_
+23	or	or	CCONJ	CC	_	28	cc	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	correctly	correctly	ADV	RB	_	28	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	conj	_	_
+29	to	to	PART	TO	_	31	mark	_	_
+30	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	_	_
+31	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	xcomp	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	21	punct	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	letter	letter	NOUN	NN	Number=Sing	21	obj	_	_
+35	every	every	DET	DT	_	36	det	_	_
+36	month	month	NOUN	NN	Number=Sing	34	obl:tmod	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	21	punct	_	_
+38	that	that	SCONJ	IN	_	41	mark	_	_
+39	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+40	might	might	AUX	MD	VerbForm=Fin	41	aux	_	_
+41	have	have	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+42	news	news	NOUN	NN	Number=Sing	41	obj	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	child	child	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = The Thénardiers replied invariably, “Cosette is doing wonderfully well.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Thénardiers	Thénardier	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	invariably	invariably	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+7	Cosette	Cosette	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	ccomp	_	_
+10	wonderfully	wonderfully	ADV	RB	_	11	advmod	_	_
+11	well	well	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

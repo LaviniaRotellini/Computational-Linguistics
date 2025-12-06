@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You,’ said Tom; ‘you are a girl, Loo, and a girl comes out of it better than a boy does.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	,’	,’	PUNCT	.	_	3	punct	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	girl	girl	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	Loo	Loo	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	girl	girl	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	out	out	ADP	IN	_	20	case	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+21	better	better	ADJ	JJR	Degree=Cmp	17	xcomp	_	_
+22	than	than	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	boy	boy	NOUN	NN	Number=Sing	21	obl	_	_
+25	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I don’t miss anything in you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	miss	miss	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anything	anything	PRON	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You are the only pleasure I have—you can brighten even this place—and you can always lead me as you like.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	only	only	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	pleasure	pleasure	NOUN	NN	Number=Sing	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	brighten	brighten	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+12	even	even	ADV	RB	_	14	advmod	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	place	place	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+18	can	can	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	always	always	ADV	RB	_	20	advmod	_	_
+20	lead	lead	VERB	VB	VerbForm=Inf	11	conj	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
+22	as	as	SCONJ	IN	_	24	mark	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+24	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

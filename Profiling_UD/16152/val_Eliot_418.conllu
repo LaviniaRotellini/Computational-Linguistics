@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, sir,” said Luke, “you’d be a deal better here nor in some new place.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Luke	Luke	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	deal	deal	NOUN	NN	Number=Sing	12	obj	_	_
+16	better	better	ADV	RBR	Degree=Cmp	17	advmod	_	_
+17	here	here	ADV	RB	PronType=Dem	15	advmod	_	_
+18	nor	nor	CCONJ	CC	_	22	cc	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	some	some	DET	DT	_	22	det	_	_
+21	new	new	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	place	place	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I can’t abide new places mysen:
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	abide	abide	VERB	VB	VerbForm=Inf	0	root	_	_
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	places	place	NOUN	NNS	Number=Plur	7	compound	_	_
+7	mysen	mysen	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	4	punct	_	_
+
+# sent_id = 3
+# text = things is allays awk’ard,—narrow-wheeled waggins, belike, and the stiles all another sort, an’ oat-cake i’ some places, tow’rt th’ head o’ the Floss, there.
+1	things	thing	NOUN	NNS	Number=Plur	9	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	allays	allays	ADV	RB	_	9	advmod	_	_
+4	awk’ard	awk’ard	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+5	,—	,—	PUNCT	.	_	9	punct	_	SpaceAfter=No
+6	narrow	narrow	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	wheeled	wheel	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	waggins	waggin	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	belike	belike	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	stiles	stile	NOUN	NNS	Number=Plur	9	conj	_	_
+16	all	all	DET	DT	_	18	det:predet	_	_
+17	another	another	DET	DT	_	18	det	_	_
+18	sort	sort	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	24	punct	_	_
+22	oat	oat	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	cake	cake	NOUN	NN	Number=Sing	18	appos	_	_
+25	i	I	NOUN	NN	Number=Sing	26	nsubj	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	24	punct	_	_
+27	some	some	DET	DT	_	28	det	_	_
+28	places	place	NOUN	NNS	Number=Plur	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	tow	tow	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+31	’rt	’rt	NOUN	NN	Number=Sing	32	compound	_	_
+32	th	th	NOUN	NN	Number=Sing	28	appos	_	SpaceAfter=No
+33	’	's	PUNCT	''	_	28	punct	_	_
+34	head	head	NOUN	NN	Number=Sing	28	appos	_	_
+35	o	of	ADP	IN	Abbr=Yes	38	case	_	SpaceAfter=No
+36	’	'	PUNCT	''	_	38	punct	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	Floss	Floss	PROPN	NNP	Number=Sing	34	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	18	punct	_	_
+40	there	there	ADV	RB	PronType=Dem	18	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = It’s poor work, changing your country-side.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	work	work	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	changing	change	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+8	country	country	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	side	side	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

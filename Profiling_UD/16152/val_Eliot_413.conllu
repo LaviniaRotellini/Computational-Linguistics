@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Father,” said Tom, “I don’t agree with my mother or my uncles, and I don’t think you ought to submit to be under Wakem.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Father	father	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	agree	agree	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	mother	mother	NOUN	NN	Number=Sing	12	obl	_	_
+16	or	or	CCONJ	CC	_	18	cc	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	uncles	uncle	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+23	n’t	not	PART	RB	_	24	advmod	_	_
+24	think	think	VERB	VB	VerbForm=Inf	12	conj	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+26	ought	ing	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	submit	submit	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+29	to	to	PART	TO	_	32	mark	_	_
+30	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+31	under	under	ADP	IN	_	32	case	_	_
+32	Wakem	Wakem	PROPN	NNP	Number=Sing	28	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I get a pound a-week now, and you can find something else to do when you get well.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+4	pound	pound	NOUN	NN	Number=Sing	7	compound	_	_
+5	a	a	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	week	week	NOUN	NN	Number=Sing	2	obj	_	_
+8	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	find	find	VERB	VB	VerbForm=Inf	2	conj	_	_
+14	something	something	PRON	NN	Number=Sing	13	obj	_	_
+15	else	else	ADJ	JJ	Degree=Pos	14	amod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	do	do	VERB	VB	VerbForm=Inf	14	acl	_	_
+18	when	when	ADV	WRB	PronType=Int	20	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+20	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+21	well	well	ADV	RB	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

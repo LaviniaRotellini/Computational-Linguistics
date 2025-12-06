@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He reproached himself bitterly.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	reproached	reproach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	bitterly	bitterly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He thought that he ought to have seen the damage immediately.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	ought	ought	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	damage	damage	NOUN	NN	Number=Sing	8	obj	_	_
+11	immediately	immediately	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The six inches of water in the hold ought to have suggested it to him.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	six	six	NUM	CD	NumType=Card	3	nummod	_	_
+3	inches	inch	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	water	water	NOUN	NN	Number=Sing	3	nmod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	hold	hold	NOUN	NN	Number=Sing	3	nmod	_	_
+9	ought	ink	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	suggested	suggest	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = He had been stupid enough to attribute these six inches of water to the rain and the foam.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	cop	_	_
+4	stupid	stupid	ADJ	JJ	Degree=Pos	0	root	_	_
+5	enough	enough	ADJ	JJ	Degree=Pos	4	advmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	attribute	attribute	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+9	six	six	NUM	CD	NumType=Card	10	nummod	_	_
+10	inches	inch	NOUN	NNS	Number=Plur	7	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	water	water	NOUN	NN	Number=Sing	10	nmod	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	rain	rain	NOUN	NN	Number=Sing	7	obl	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	foam	foam	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = He was angry with himself for having slept and eaten; he taxed himself even with his weariness, and almost with the storm and the dark night.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	_
+6	for	for	SCONJ	IN	_	7	mark	_	_
+7	having	have	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	slept	slept	NOUN	NN	Number=Sing	7	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	eaten	eat	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	taxed	taxed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	even	even	ADV	RB	_	18	advmod	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	weariness	weariness	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	almost	almost	ADV	RB	_	24	advmod	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	storm	storm	NOUN	NN	Number=Sing	13	conj	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	dark	dark	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	night	night	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = All seemed to him to have been his own fault.
+1	All	all	DET	DT	_	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	to	to	PART	TO	_	10	mark	_	_
+6	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fault	fault	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

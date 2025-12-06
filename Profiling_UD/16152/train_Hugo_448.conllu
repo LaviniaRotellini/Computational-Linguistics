@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Composed half of light and half of shadow, Napoleon thought himself protected in good and tolerated in evil.
+1	Composed	compose	VERB	VBN	Tense=Past|VerbForm=Part	2	amod	_	_
+2	half	half	NOUN	NN	Number=Sing	11	obl:npmod	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	light	light	NOUN	NN	Number=Sing	2	nmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	half	half	NOUN	NN	Number=Sing	2	conj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	shadow	shadow	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	Napoleon	Napoleon	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	good	good	ADJ	JJ	Degree=Pos	13	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	tolerated	tolerate	VERB	VBN	Tense=Past|VerbForm=Part	15	conj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	evil	evil	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = He had, or thought that he had, a connivance, one might almost say a complicity, of events in his favor, which was equivalent to the invulnerability of antiquity.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	or	or	CCONJ	CC	_	5	cc	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	connivance	connivance	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	one	one	NUM	CD	NumType=Card	16	nsubj	_	_
+14	might	might	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	almost	almost	ADV	RB	_	16	advmod	_	_
+16	say	say	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	complicity	complicity	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	events	event	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	favor	favor	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	16	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	equivalent	equivalent	ADJ	JJ	Degree=Pos	16	acl:relcl	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	invulnerability	invulnerability	NOUN	NN	Number=Sing	28	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	antiquity	antiquity	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

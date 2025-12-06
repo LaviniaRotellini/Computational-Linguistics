@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It is the grandest profession in the world, Rosamond,” said Lydgate, gravely.
+1	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	grandest	grandest	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	_
+6	profession	profession	NOUN	NN	Number=Sing	14	ccomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	Rosamond	Rosamond	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Lydgate	Lydgate	PROPN	NNP	Number=Sing	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	gravely	gravely	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “And to say that you love me without loving the medical man in me, is the same sort of thing as to say that you like eating a peach but don’t like its flavor.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	4	cc	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	without	without	SCONJ	IN	_	10	mark	_	_
+10	loving	love	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	medical	medical	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	man	man	NOUN	NN	Number=Sing	10	obj	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	same	same	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	sort	sort	NOUN	NN	Number=Sing	4	conj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	thing	thing	NOUN	NN	Number=Sing	20	nmod	_	_
+23	as	as	SCONJ	IN	_	25	mark	_	_
+24	to	to	PART	TO	_	23	fixed	_	_
+25	say	say	VERB	VB	VerbForm=Inf	20	advcl	_	_
+26	that	that	SCONJ	IN	_	28	mark	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+29	eating	eat	VERB	VBG	VerbForm=Ger	28	xcomp	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	peach	peach	NOUN	NN	Number=Sing	29	obj	_	_
+32	but	but	CCONJ	CC	_	35	cc	_	_
+33	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	SpaceAfter=No
+34	n’t	not	PART	RB	_	35	advmod	_	_
+35	like	like	VERB	VB	VerbForm=Inf	4	conj	_	_
+36	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	flavor	flavor	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Don’t say that again, dear, it pains me.”
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	dear	dear	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	pains	pain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

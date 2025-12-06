@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I coom home desp’rate.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	coom	coom	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	home	home	ADV	RB	_	5	advmod	_	_
+5	desp’rate	desp’rate	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I coom home wi’out a hope, and mad wi’ thinking that when I said a word o’ complaint I was reckoned a unreasonable Hand.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	coom	coom	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	home	home	ADV	RB	_	2	advmod	_	_
+4	wi’out	wi’out	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	hope	hope	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	mad	mad	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	wi	wus	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	2	punct	_	_
+12	thinking	think	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+13	that	that	SCONJ	IN	_	24	mark	_	_
+14	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	word	word	NOUN	NN	Number=Sing	16	obj	_	_
+19	o	of	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	21	punct	_	_
+21	complaint	complaint	NOUN	NN	Number=Sing	18	appos	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj:pass	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	reckoned	reckon	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	unreasonable	unreasonable	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	Hand	hand	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I told thee I had had a fright.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	thee	thee	ADV	RB	_	2	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	fright	fright	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It were the Poison-bottle on table.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	Poison	poison	PROPN	NNP	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	bottle	bottle	NOUN	NN	Number=Sing	0	root	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	table	table	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = I never hurt a livin’ creetur; but happenin’ so suddenly upon ’t, I thowt, “How can _I_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	hurt	hurt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	livin	livin	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	’	's	PUNCT	''	_	5	punct	_	_
+7	creetur	creetur	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	but	but	CCONJ	CC	_	10	cc	_	_
+10	happenin	happenin	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	suddenly	suddenly	ADV	RB	_	15	advmod	_	_
+14	upon	upon	ADP	IN	_	15	case	_	_
+15	’t	’t	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	thowt	thowt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	3	punct	_	_
+20	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	How	how	ADV	WRB	PronType=Int	23	advmod	_	_
+22	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	_I	_i	PROPN	NNP	Number=Sing	3	parataxis	_	SpaceAfter=No
+24	_	_	SYM	NFP	_	23	punct	_	_
+
+# sent_id = 6
+# text = say what I might ha’ done to myseln, or her, or both!”’
+1	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	what	what	PRON	WP	PronType=Int	7	obj	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	ha	ha	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	myseln	myseln	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	both	both	ADV	RB	_	1	conj	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	1	punct	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

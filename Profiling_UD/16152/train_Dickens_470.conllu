@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, indeed you must excuse me, Master Copperfield!
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	indeed	indeed	ADV	RB	_	7	advmod	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	excuse	excuse	VERB	VB	VerbForm=Inf	0	root	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Master	master	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Copperfield	Copperfield	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I am greatly obliged, and I should like it of all things, I assure you; but I am far too umble.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	greatly	greatly	ADV	RB	_	4	advmod	_	_
+4	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	like	like	VERB	VB	VerbForm=Inf	4	conj	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	things	thing	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	assure	assure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	4	punct	_	_
+19	but	but	CCONJ	CC	_	24	cc	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+21	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	far	far	ADV	RB	Degree=Pos	24	advmod	_	_
+23	too	too	ADV	RB	_	24	advmod	_	_
+24	umble	umble	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There are people enough to tread upon me in my lowly state, without my doing outrage to their feelings by possessing learning.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	enough	enough	ADV	RB	_	2	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	tread	tread	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	upon	upon	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	lowly	lowly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	state	state	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	without	without	SCONJ	IN	_	16	mark	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nsubj	_	_
+16	doing	do	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+17	outrage	outrage	ADV	RB	_	16	advmod	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	feelings	feeling	NOUN	NNS	Number=Plur	17	obl	_	_
+21	by	by	SCONJ	IN	_	22	mark	_	_
+22	possessing	possessing	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+23	learning	learn	VERB	VBG	VerbForm=Ger	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Learning ain’t for me.
+1	Learning	learn	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = A person like myself had better not aspire.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	0	root	_	_
+3	like	like	SCONJ	IN	_	6	mark	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	better	better	ADJ	JJR	Degree=Cmp	8	advcl	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	aspire	aspire	VERB	VB	VerbForm=Inf	2	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = If he is to get on in life, he must get on umbly, Master Copperfield!’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	life	life	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+13	on	on	ADV	RB	_	14	advmod	_	_
+14	umbly	umbly	ADV	RB	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	Master	master	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Copperfield	Copperfield	PROPN	NNP	Number=Sing	12	obj	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Suppose the soil dry, and the artillery capable of moving, the action would have begun at six o’clock in the morning.
+1	Suppose	suppose	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	soil	soil	NOUN	NN	Number=Sing	4	compound	_	_
+4	dry	dry	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	17	punct	_	_
+6	and	and	CCONJ	CC	_	17	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	artillery	artillery	NOUN	NN	Number=Sing	17	nsubj	_	_
+9	capable	capable	ADJ	JJ	Degree=Pos	17	advcl	_	_
+10	of	of	SCONJ	IN	_	11	mark	_	_
+11	moving	move	VERB	VBG	VerbForm=Ger	9	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	action	action	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	_
+18	at	at	ADP	IN	_	20	case	_	_
+19	six	six	NUM	CD	NumType=Card	20	nummod	_	_
+20	o’clock	o’clock	NOUN	NN	Number=Sing	17	obl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	morning	morning	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = The battle would have been won and ended at two o’clock, three hours before the change of fortune in favor of the Prussians.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	battle	battle	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+6	won	win	ADJ	JJ	Degree=Pos	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	ended	end	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	two	two	NUM	CD	NumType=Card	11	nummod	_	_
+11	o’clock	o’clock	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	three	three	NUM	CD	NumType=Card	14	nummod	_	_
+14	hours	hour	NOUN	NNS	Number=Plur	17	nmod:npmod	_	_
+15	before	before	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	change	change	NOUN	NN	Number=Sing	6	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	fortune	fortune	NUM	CD	NumType=Card	17	nmod	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	favor	favor	NOUN	NN	Number=Sing	17	nmod	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	Prussians	Prussians	PROPN	NNPS	Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = What amount of blame attaches to Napoleon for the loss of this battle?
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	amount	amount	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	blame	blame	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	attaches	attach	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	Napoleon	Napoleon	PROPN	NNP	Number=Sing	2	nmod	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	loss	loss	NOUN	NN	Number=Sing	2	nmod	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	battle	battle	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Is the shipwreck due to the pilot?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	shipwreck	shipwreck	NOUN	NN	Number=Sing	0	root	_	_
+4	due	due	ADP	IN	_	7	case	_	_
+5	to	to	ADP	IN	_	4	fixed	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	pilot	pilot	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

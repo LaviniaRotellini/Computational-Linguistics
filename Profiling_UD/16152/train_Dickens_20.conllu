@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Really--really--as Mr. Chillip told my mother, he was almost shocked; speaking in a professional point of view alone, he was almost shocked.
+1	Really	really	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	--	--	PUNCT	,	_	1	punct	_	SpaceAfter=No
+3	really	really	ADV	RB	_	8	advmod	_	SpaceAfter=No
+4	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	Chillip	Chillip	PROPN	NNP	Number=Sing	6	flat	_	_
+8	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mother	mother	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	almost	almost	ADV	RB	_	15	advmod	_	_
+15	shocked	shocked	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	15	punct	_	_
+17	speaking	speak	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	professional	professional	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	point	point	NOUN	NN	Number=Sing	17	obl	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	view	view	NOUN	NN	Number=Sing	21	nmod	_	_
+24	alone	alone	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	15	punct	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+28	almost	almost	ADV	RB	_	29	advmod	_	_
+29	shocked	shocked	ADJ	JJ	Degree=Pos	15	parataxis	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = But he sat and looked at her, notwithstanding, for nearly two hours, as she sat looking at the fire, until he was again called out.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	notwithstanding	notwithstand	ADV	RB	_	3	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	nearly	nearly	ADV	RB	_	13	advmod	_	_
+13	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+14	hours	hour	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	as	as	SCONJ	IN	_	18	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+19	looking	look	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	fire	fire	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	3	punct	_	_
+24	until	until	SCONJ	IN	_	28	mark	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+27	again	again	ADV	RB	_	28	advmod	_	_
+28	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+29	out	out	ADP	RP	_	28	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = After another absence, he again returned.
+1	After	after	ADP	IN	_	3	case	_	_
+2	another	another	DET	DT	_	3	det	_	_
+3	absence	absence	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	again	again	ADV	RB	_	7	advmod	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh yes—I only wanted to know,” said Tom, rather ashamed of himself, now he saw Philip colouring and looking uncomfortable.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	7	discourse	_	_
+3	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	know	know	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Tom	Tom	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	rather	rather	ADV	RB	_	16	advmod	_	_
+16	ashamed	asham	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	now	now	ADV	RB	_	22	advmod	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+23	Philip	Philip	PROPN	NNP	Number=Sing	22	obj	_	_
+24	colouring	colouring	VERB	VBG	VerbForm=Ger	22	xcomp	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	looking	look	VERB	VBG	VerbForm=Ger	24	conj	_	_
+27	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	26	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He found much difficulty in adjusting his attitude of mind toward the son of Lawyer Wakem, and it had occurred to him that if Philip disliked his father, that fact might go some way toward clearing up his perplexity.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	much	much	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	difficulty	difficulty	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	SCONJ	IN	_	6	mark	_	_
+6	adjusting	adjust	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	attitude	attitude	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	mind	mind	NOUN	NN	Number=Sing	8	nmod	_	_
+11	toward	toward	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	son	son	NOUN	NN	Number=Sing	6	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	Lawyer	lawyer	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Wakem	Wakem	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	occurred	occur	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+24	that	that	SCONJ	IN	_	34	mark	_	_
+25	if	if	SCONJ	IN	_	27	mark	_	_
+26	Philip	Philip	PROPN	NNP	Number=Sing	27	nsubj	_	_
+27	disliked	dislike	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	advcl	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	father	father	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	34	punct	_	_
+31	that	that	SCONJ	IN	_	34	mark	_	_
+32	fact	fact	NOUN	NN	Number=Sing	34	nsubj	_	_
+33	might	might	AUX	MD	VerbForm=Fin	34	aux	_	_
+34	go	go	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+35	some	some	DET	DT	_	36	det	_	_
+36	way	way	NOUN	NN	Number=Sing	34	obj	_	_
+37	toward	toward	SCONJ	IN	_	38	mark	_	_
+38	clearing	clear	VERB	VBG	VerbForm=Ger	36	acl	_	_
+39	up	up	ADP	RP	_	41	case	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	perplexity	perplexity	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

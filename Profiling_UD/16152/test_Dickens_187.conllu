@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Estella took no notice of either of us, but led us the way that I knew so well.
+1	Estella	Estella	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	notice	notice	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	either	either	CCONJ	CC	_	8	cc:preconj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	but	but	CCONJ	CC	_	11	cc	_	_
+11	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	way	way	NOUN	NN	Number=Sing	11	obj	_	_
+15	that	that	PRON	WDT	PronType=Rel	17	obj	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+18	so	so	ADV	RB	_	17	advmod	_	_
+19	well	well	ADV	RB	Degree=Pos	18	fixed	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I followed next to her, and Joe came last.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	next	next	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	Joe	Joe	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	last	last	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = When I looked back at Joe in the long passage, he was still weighing his hat with the greatest care, and was coming after us in long strides on the tips of his toes.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+4	back	back	ADV	RB	_	3	advmod	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Joe	Joe	PROPN	NNP	Number=Sing	3	obl	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	long	long	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	passage	passage	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	still	still	ADV	RB	_	15	advmod	_	_
+15	weighing	weigh	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hat	hat	NOUN	NN	Number=Sing	15	obj	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	greatest	greatest	ADJ	JJS	Degree=Sup	21	amod	_	_
+21	care	care	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	15	conj	_	_
+26	after	after	ADP	IN	_	27	case	_	_
+27	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obl	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	long	long	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	strides	stride	NOUN	NNS	Number=Plur	25	obl	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	tips	tip	NOUN	NNS	Number=Plur	25	obl	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	toes	toe	NOUN	NNS	Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

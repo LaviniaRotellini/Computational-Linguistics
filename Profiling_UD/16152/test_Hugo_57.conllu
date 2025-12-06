@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This word produced a magical effect.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	word	word	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	produced	produce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	magical	magical	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	effect	effect	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Every one who was left in the hall flew to the windows, climbing the walls in order to see, and repeating, “La Esmeralda!
+1	Every	every	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	hall	hall	NOUN	NN	Number=Sing	5	obl	_	_
+9	flew	fly	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	windows	window	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	climbing	climb	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	walls	wall	NOUN	NNS	Number=Plur	14	obj	_	_
+17	in	in	ADP	IN	_	20	mark	_	_
+18	order	order	NOUN	NN	Number=Sing	17	fixed	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	see	see	VERB	VB	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	repeating	repeat	VERB	VBG	Tense=Pres|VerbForm=Part	14	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+26	La	La	PROPN	NNP	Number=Sing	27	compound	_	_
+27	Esmeralda	Esmeralda	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = La Esmeralda?”
+1	La	la	PROPN	NNP	Number=Sing	0	root	_	_
+2	Esmeralda	Esmeralda	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 4
+# text = At the same time, a great sound of applause was heard from without.
+1	At	at	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	same	same	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	time	time	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	great	great	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	sound	sound	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	applause	applause	NOUN	NN	Number=Sing	8	nmod	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	without	without	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

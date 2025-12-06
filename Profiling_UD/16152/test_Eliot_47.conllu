@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, aye, Seth’s at no harm, mother, thee mayst be sure.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	aye	aye	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Seth	Seth	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	no	no	DET	DT	_	10	det	_	_
+10	harm	harm	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	mother	mother	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	thee	thee	NUM	CD	NumType=Card	15	nummod	_	_
+15	mayst	mayst	NOUN	NN	Number=Sing	6	appos	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+17	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = But where’s father?” said Adam quickly, as he entered the house and glanced into the room on the left hand, which was used as a workshop.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	where	where	ADV	WRB	PronType=Int	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	father	father	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	7	obj	_	_
+9	quickly	quickly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	house	house	NOUN	NN	Number=Sing	13	obj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	glanced	glance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+18	into	into	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	room	room	NOUN	NN	Number=Sing	17	obl	_	_
+21	on	on	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	left	left	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	hand	hand	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	20	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	28	nsubj:pass	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+29	as	as	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	workshop	workshop	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = “Hasn’t he done the coffin for Tholer?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	done	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	coffin	coffin	NOUN	NN	Number=Sing	5	obj	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	Tholer	Tholer	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = There’s the stuff standing just as I left it this morning.”
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	stuff	stuff	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	standing	stand	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	just	just	ADV	RB	_	9	advmod	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	morning	morning	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

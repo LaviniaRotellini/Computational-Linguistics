@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “All false!” said Mrs. Cadwallader.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	All	all	DET	DT	_	3	nsubj	_	_
+3	false	false	ADJ	JJ	Degree=Pos	6	ccomp	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	Cadwallader	Cadwallader	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “He is not gone, or going, apparently; the ‘Pioneer’ keeps its color, and Mr. Orlando Ladislaw is making a sad dark-blue scandal by warbling continually with your Mr. Lydgate’s wife, who they tell me is as pretty as pretty can be.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	gone	gone	ADJ	JJ	Degree=Pos	48	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	going	go	VERB	VBG	VerbForm=Ger	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	apparently	apparently	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	Pioneer	pioneer	NOUN	NN	Number=Sing	16	nsubj	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	14	punct	_	_
+16	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+17	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	color	color	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	25	punct	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	25	nsubj	_	_
+22	Orlando	Orlando	PROPN	NNP	Number=Sing	21	flat	_	_
+23	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	21	flat	_	_
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+27	sad	sad	ADJ	JJ	Degree=Pos	31	amod	_	_
+28	dark	dark	ADJ	JJ	Degree=Pos	30	amod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	blue	blue	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	scandal	scandal	NOUN	NN	Number=Sing	25	obj	_	_
+32	by	by	SCONJ	IN	_	33	mark	_	_
+33	warbling	warbl	VERB	VBG	VerbForm=Ger	25	advcl	_	_
+34	continually	continually	ADV	RB	_	33	advmod	_	_
+35	with	with	ADP	IN	_	40	case	_	_
+36	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	Mr.	Mr.	PROPN	NNP	Number=Sing	40	nmod:poss	_	_
+38	Lydgate	Lydgate	PROPN	NNP	Number=Sing	37	flat	_	SpaceAfter=No
+39	’s	's	PART	POS	_	37	case	_	_
+40	wife	wife	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	40	punct	_	_
+42	who	who	PRON	WP	PronType=Rel	44	obj	_	_
+43	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	44	nsubj	_	_
+44	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+45	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	44	obj	_	_
+46	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+47	as	as	ADP	IN	_	48	case	_	_
+48	pretty	pretty	ADV	RB	_	53	advmod	_	_
+49	as	as	SCONJ	IN	_	52	mark	_	_
+50	pretty	pretty	ADV	RB	_	52	advmod	_	_
+51	can	can	AUX	MD	VerbForm=Fin	52	aux	_	_
+52	be	be	AUX	VB	VerbForm=Inf	48	advcl	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 3
+# text = It seems nobody ever goes into the house without finding this young gentleman lying on the rug or warbling at the piano.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nobody	nobody	PRON	NN	Number=Sing	2	obj	_	_
+4	ever	ever	ADV	RB	_	5	advmod	_	_
+5	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	house	house	NOUN	NN	Number=Sing	5	obl	_	_
+9	without	without	SCONJ	IN	_	10	mark	_	_
+10	finding	find	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	gentleman	gentleman	NOUN	NN	Number=Sing	10	obj	_	_
+14	lying	lie	VERB	VBG	VerbForm=Ger	13	acl	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	rug	rug	NOUN	NN	Number=Sing	14	obl	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	warbling	warbl	VERB	VBG	VerbForm=Ger	10	conj	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	piano	piano	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But the people in manufacturing towns are always disreputable.”
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	manufacturing	manufacturing	NOUN	NN	Number=Sing	6	compound	_	_
+6	towns	town	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	always	always	ADV	RB	_	9	advmod	_	_
+9	disreputable	disreputable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

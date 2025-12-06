@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Belly and guts!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Belly	belly	ADV	RB	_	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	guts	gut	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = a truce to your whimsical nonsense!
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	truce	truce	NOUN	NN	Number=Sing	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	whimsical	whimsical	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	nonsense	nonsense	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Tell me, Jehan of the devil!
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	Jehan	Jehan	ADP	IN	_	7	case	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	devil	devil	PROPN	NNPS	Number=Plur	1	obl	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = have you any money left?
+1	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	any	any	DET	DT	_	4	det	_	_
+4	money	money	NOUN	NN	Number=Sing	1	obj	_	_
+5	left	leave	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Give it to me, _bédieu!_ or I will search you, were you as leprous as Job, and as scabby as Cæsar!”
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	_bédieu	_bédieu	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	conj	_	SpaceAfter=No
+7	!_	!_	PUNCT	.	_	1	punct	_	_
+8	or	or	CCONJ	CC	_	11	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	search	search	VERB	VB	VerbForm=Inf	1	conj	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+16	as	as	ADV	RB	_	17	advmod	_	_
+17	leprous	leprous	ADJ	JJ	Degree=Pos	1	conj	_	_
+18	as	as	ADP	IN	_	19	case	_	_
+19	Job	job	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	as	as	ADP	IN	_	23	case	_	_
+23	scabby	scabby	NOUN	NN	Number=Sing	1	conj	_	_
+24	as	as	ADP	IN	_	25	case	_	_
+25	Cæsar	Cæsar	PROPN	NNP	Number=Sing	23	nmod	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All depended upon a brute struggle between two mechanical quantities.
+1	All	all	DET	DT	_	2	nsubj	_	_
+2	depended	depend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	upon	upon	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	brute	brute	NOUN	NN	Number=Sing	6	compound	_	_
+6	struggle	struggle	NOUN	NN	Number=Sing	2	obl	_	_
+7	between	between	ADP	IN	_	10	case	_	_
+8	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+9	mechanical	mechanical	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	quantities	quantity	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Henceforth he could neither aid his auxiliary, nor stop his enemy.
+1	Henceforth	Henceforth	SCONJ	IN	_	5	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	neither	neither	ADV	RB	_	5	advmod	_	_
+5	aid	ay	VERB	VB	VerbForm=Inf	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	auxiliary	auxiliary	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	nor	nor	CCONJ	CC	_	10	cc	_	_
+10	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	enemy	enemy	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He was no longer any other than a mere spectator of this struggle, which was one for him of life or death.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	longer	longer	ADV	RBR	Degree=Cmp	6	advmod	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	other	other	ADJ	JJ	Degree=Pos	0	root	_	_
+7	than	than	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	mere	mere	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	spectator	spectator	NOUN	NN	Number=Sing	6	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	struggle	struggle	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	one	one	NUM	CD	NumType=Card	10	acl:relcl	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	life	life	NOUN	NN	Number=Sing	19	nmod	_	_
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	death	death	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = He who had ruled over it, a supreme intelligence, was at the last moment compelled to resign all to a mere blind resistance.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	ruled	rule	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	over	over	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	supreme	supreme	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	intelligence	intelligence	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	last	last	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	moment	moment	NOUN	NN	Number=Sing	0	root	_	_
+17	compelled	compelle	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	resign	resign	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	all	all	DET	DT	_	19	obj	_	_
+21	to	to	ADP	IN	_	25	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	mere	mere	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	blind	blind	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	resistance	resistance	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

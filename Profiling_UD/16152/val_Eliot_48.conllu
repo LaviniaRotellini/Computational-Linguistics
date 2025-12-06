@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Maggie’s heart began to flutter with fear.
+1	Maggie	Maggie	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	flutter	flutter	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	fear	fear	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She dared not tell the sad truth at once, but she walked after Tom in trembling silence as he went out, thinking how she could tell him the news so as to soften at once his sorrow and his anger; for Maggie dreaded Tom’s anger of all things; it was quite a different anger from her own.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	dared	dar	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	sad	sad	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	truth	truth	NOUN	NN	Number=Sing	4	obj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	once	once	ADV	RB	NumType=Mult	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	but	but	CCONJ	CC	_	13	cc	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	after	after	ADP	IN	_	15	case	_	_
+15	Tom	Tom	PROPN	NNP	Number=Sing	13	obl	_	_
+16	in	in	SCONJ	IN	_	17	mark	_	_
+17	trembling	trembling	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+18	silence	silence	NOUN	NN	Number=Sing	17	obj	_	_
+19	as	as	SCONJ	IN	_	21	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+22	out	out	ADV	RB	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	thinking	think	VERB	VBG	VerbForm=Ger	21	xcomp	_	_
+25	how	how	ADV	WRB	PronType=Int	28	advmod	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	could	could	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	tell	tell	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	news	news	NOUN	NN	Number=Sing	28	obj	_	_
+32	so	so	SCONJ	IN	_	35	mark	_	_
+33	as	as	SCONJ	IN	_	32	fixed	_	_
+34	to	to	PART	TO	_	32	fixed	_	_
+35	soften	soften	VERB	VB	VerbForm=Inf	39	advcl	_	_
+36	at	at	ADP	IN	_	39	case	_	_
+37	once	once	ADV	RB	NumType=Mult	39	advmod	_	_
+38	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nsubj	_	_
+39	sorrow	sorrow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	conj	_	_
+40	and	and	CCONJ	CC	_	42	cc	_	_
+41	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	anger	anger	NOUN	NN	Number=Sing	39	conj	_	SpaceAfter=No
+43	;	;	PUNCT	,	_	39	punct	_	_
+44	for	for	ADP	IN	_	45	case	_	_
+45	Maggie	Maggie	PROPN	NNP	Number=Sing	39	nsubj	_	_
+46	dreaded	dread	VERB	VBN	Tense=Past|VerbForm=Part	45	acl	_	_
+47	Tom	Tom	PROPN	NNP	Number=Sing	49	nmod:poss	_	SpaceAfter=No
+48	’s	's	PART	POS	_	47	case	_	_
+49	anger	anger	NOUN	NN	Number=Sing	46	obj	_	_
+50	of	of	ADP	IN	_	52	case	_	_
+51	all	all	DET	DT	_	52	det	_	_
+52	things	thing	NOUN	NNS	Number=Plur	49	nmod	_	SpaceAfter=No
+53	;	;	PUNCT	,	_	2	punct	_	_
+54	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
+55	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	cop	_	_
+56	quite	quite	DET	PDT	_	59	det:predet	_	_
+57	a	a	DET	DT	Definite=Ind|PronType=Art	59	det	_	_
+58	different	different	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	anger	anger	NOUN	NN	Number=Sing	2	parataxis	_	_
+60	from	from	ADP	IN	_	62	case	_	_
+61	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	62	nmod:poss	_	_
+62	own	own	ADJ	JJ	Degree=Pos	59	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I tell you,” repeated his companion, with a thick tongue, “that I don’t live in the Rue des Mauvaises Paroles, _indignus qui inter mala verba habitat_.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	3	punct	_	_
+7	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	companion	companion	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	thick	thick	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	tongue	tongue	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+17	that	that	SCONJ	IN	_	21	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
+20	n’t	not	PART	RB	_	21	advmod	_	_
+21	live	live	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	Rue	Rue	PROPN	NNP	Number=Sing	21	obl	_	_
+25	des	de	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	_
+26	Mauvaises	Mauvaise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+27	Paroles	Paroles	NOUN	NNS	Number=Plur	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	34	punct	_	_
+29	_indignus	_indignus	CCONJ	CC	_	34	cc	_	_
+30	qui	qui	ADJ	JJ	Degree=Pos	34	amod	_	_
+31	inter	inter	NOUN	NN	Number=Sing	32	compound	_	_
+32	mala	mala	NOUN	NN	Number=Sing	33	compound	_	_
+33	verba	verba	NOUN	NN	Number=Sing	34	compound	_	_
+34	habitat	habitat	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No
+35	_.	_.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 2
+# text = I have a lodging in the Rue Jean-Pain-Mollet, _in vico Johannis Pain-Mollet_.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lodging	lodging	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	12	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+7	Rue	Rue	PROPN	NNP	Number=Sing	12	compound	_	_
+8	Jean	Jean	PROPN	NNP	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	Pain	pain	PROPN	NNP	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+12	Mollet	Mollet	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	_in	_in	ADP	IN	_	18	case	_	_
+15	vico	vico	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Johannis	Johannis	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Pain-	pain-	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+18	Mollet_	mollet_	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You are more horned than a unicorn if you assert the contrary.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	more	more	ADV	RBR	_	4	advmod	_	_
+4	horned	horned	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	than	than	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	unicorn	unicorn	NOUN	NN	Number=Sing	4	obl	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	assert	assert	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	contrary	contrary	ADJ	JJ	Degree=Pos	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Every one knows that he who once mounts astride a bear is never after afraid; but you have a nose turned to dainties like Saint-Jacques of the hospital.”
+1	Every	every	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	15	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+6	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+7	once	once	SCONJ	IN	_	15	mark	_	_
+8	mounts	mount	NOUN	NNS	Number=Plur	15	nsubj	_	_
+9	astride	astride	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	bear	bear	NOUN	NN	Number=Sing	8	nmod	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	never	never	ADV	RB	_	15	advmod	_	_
+14	after	after	ADP	IN	_	15	case	_	_
+15	afraid	afraid	ADJ	JJ	Degree=Pos	3	ccomp	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	nose	nose	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	dainties	dainty	NOUN	NNS	Number=Plur	22	obl	_	_
+25	like	like	ADP	IN	_	26	case	_	_
+26	Saint	Saint	PROPN	NNP	Number=Sing	24	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	Jacques	Jacques	PROPN	NNP	Number=Sing	26	flat	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	hospital	hospital	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

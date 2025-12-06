@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, you can’t expect me to persuade _Jane_ to beg pardon,” said Mrs Pullet.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	ca	can	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	expect	expect	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	persuade	persuade	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	_Jane_	_jane_	NOUN	NN	Number=Sing	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	beg	beg	VERB	VB	VerbForm=Inf	10	advcl	_	_
+14	pardon	pardon	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mrs	Mrs	PROPN	NNP	Number=Sing	17	nsubj	_	_
+19	Pullet	Pullet	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “Her temper’s beyond everything; it’s well if it doesn’t carry her off her mind, though there never _was_ any of our family went to a madhouse.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	temper	temper	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	beyond	beyond	ADP	IN	_	6	case	_	_
+6	everything	everything	PRON	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	10	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	well	well	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+11	if	if	SCONJ	IN	_	15	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n’t	not	PART	RB	_	15	advmod	_	_
+15	carry	carry	VERB	VB	VerbForm=Inf	10	advcl	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	off	off	ADP	RP	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	mind	mind	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	27	punct	_	_
+21	though	though	SCONJ	IN	_	22	mark	_	_
+22	there	there	PRON	EX	_	27	expl	_	_
+23	never	never	ADV	RB	_	22	advmod	_	_
+24	_	_	SYM	NFP	_	27	punct	_	SpaceAfter=No
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	SpaceAfter=No
+26	_	_	SYM	NFP	_	27	punct	_	_
+27	any	any	DET	DT	_	31	nsubj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	family	family	NOUN	NN	Number=Sing	27	nmod	_	_
+31	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+32	to	to	ADP	IN	_	34	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	madhouse	madhouse	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = However, he was thought to be dead, and this still further increased the obscurity which had gathered about him.
+1	However	however	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	dead	dead	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+12	still	still	ADV	RB	_	14	advmod	_	_
+13	further	further	ADV	RB	_	14	advmod	_	_
+14	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	obscurity	obscurity	NOUN	NN	Number=Sing	14	obj	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	about	about	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = At Paris, one of the journals which chronicled the fact fell into his hands.
+1	At	at	ADP	IN	_	2	case	_	_
+2	Paris	Paris	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	one	one	NUM	CD	NumType=Card	2	nummod	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	journals	journals	NOUN	NNS	Number=Plur	2	nmod	_	_
+8	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	chronicled	chronicle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fact	fact	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hands	hand	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He felt reassured and almost at peace, as though he had really been dead.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	reassured	reassured	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	almost	almost	ADV	RB	_	7	advmod	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	peace	peace	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	as	as	SCONJ	IN	_	15	mark	_	_
+10	though	though	SCONJ	IN	_	15	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+13	really	really	ADV	RB	_	15	advmod	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+15	dead	dead	ADJ	JJ	Degree=Pos	7	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

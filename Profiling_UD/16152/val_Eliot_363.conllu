@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Stop a bit, stop a bit; we mustn’t be in too great a hurry.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	bit	bit	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	bit	bit	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	16	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	too	too	ADV	RB	_	16	advmod	_	_
+16	great	great	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	hurry	hurry	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You must bear in mind, if I put you in a place you’re a bit young for, because you happen to be my nephew, I shall be responsible for you.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	mind	mind	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	put	put	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	place	place	NOUN	NN	Number=Sing	9	obl	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	bit	bit	NOUN	NN	Number=Sing	15	obj	_	_
+18	young	young	ADJ	JJ	Degree=Pos	17	nmod	_	_
+19	for	for	ADP	IN	_	18	case	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	3	punct	_	_
+21	because	because	SCONJ	IN	_	23	mark	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+23	happen	happen	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+24	to	to	PART	TO	_	27	mark	_	_
+25	be	be	AUX	VB	VerbForm=Inf	27	cop	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	nephew	nephew	NOUN	NN	Number=Sing	23	xcomp	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	3	punct	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+30	shall	shall	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+32	responsible	responsible	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+33	for	for	ADP	IN	_	34	case	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And there’s no better reason, you know, than your being my nephew; because it remains to be seen whether you’re good for anything.”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	reason	reason	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	than	than	SCONJ	IN	_	15	mark	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+13	being	be	AUX	VBG	VerbForm=Ger	15	cop	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	nephew	nephew	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	because	because	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+23	whether	whether	SCONJ	IN	_	25	mark	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	SpaceAfter=No
+25	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+26	good	good	ADJ	JJ	Degree=Pos	25	xcomp	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	anything	anything	PRON	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

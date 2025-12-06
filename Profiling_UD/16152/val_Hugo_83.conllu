@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The two most famous smugglers who haunted Pleinmont at that period were Blasco and Blasquito.
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+3	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+4	famous	famous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	smugglers	smuggler	NOUN	NNS	Number=Plur	14	nsubj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	haunted	haunt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	Pleinmo	Pleinmo	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	nt	not	PART	RB	_	8	advmod	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	period	period	NOUN	NN	Number=Sing	7	obl	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	Blasco	Blasco	PROPN	NNP	Number=Sing	0	root	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	Blasquito	Blasquito	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = They were _Tocayos_.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	_	_	SYM	NFP	_	4	punct	_	SpaceAfter=No
+4	Tocayos_	Tocayos_	SYM	NFP	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = This was a sort of Spanish or Catholic relationship which consisted in having the same patron saint in heaven; a thing, it will be admitted, not less worthy of consideration than having the same father upon earth.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	sort	sort	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Spanish	spanish	ADJ	JJ	Degree=Pos	4	nmod	_	_
+7	or	or	CCONJ	CC	_	9	cc	_	_
+8	Catholic	Catholic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	relationship	relationship	NOUN	NN	Number=Sing	4	conj	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	consisted	consist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12	in	in	SCONJ	IN	_	13	mark	_	_
+13	having	have	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	same	same	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	patron	patron	NOUN	NN	Number=Sing	17	compound	_	_
+17	saint	saint	NOUN	NN	Number=Sing	13	obj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	heaven	heaven	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	4	punct	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	thing	thing	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	_
+25	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	_	_
+27	admitted	admit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	not	not	ADV	RB	_	31	advmod	_	_
+30	less	less	ADV	RBR	Degree=Cmp	31	advmod	_	_
+31	worthy	worthy	ADJ	JJ	Degree=Pos	27	xcomp	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	consideration	consideration	NOUN	NN	Number=Sing	31	obl	_	_
+34	than	than	SCONJ	IN	_	35	mark	_	_
+35	having	have	VERB	VBG	VerbForm=Ger	31	advcl	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+37	same	same	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	father	father	NOUN	NN	Number=Sing	35	obj	_	_
+39	upon	upon	ADP	IN	_	40	case	_	_
+40	earth	earth	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

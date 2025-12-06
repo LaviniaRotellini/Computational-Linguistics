@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius shuddered in dismay.
+1	Marius	Marius	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	shuddered	shudder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	dismay	dismay	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = What!
+1	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = It was she!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = The palpitations of his heart troubled his sight.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	palpitations	palpitation	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	heart	heart	NOUN	NN	Number=Sing	2	nmod	_	_
+6	troubled	troublead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	sight	sight	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = He felt that he was on the brink of bursting into tears!
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	brink	brink	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	of	of	SCONJ	IN	_	10	mark	_	_
+10	bursting	burst	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	into	into	ADP	IN	_	12	case	_	_
+12	tears	tear	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = What!
+1	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = He beheld her again at last, after having sought her so long!
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	beheld	beheld	AUX	MD	VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	again	again	ADV	RB	_	6	advmod	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	last	last	ADJ	JJ	Degree=Pos	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	after	after	SCONJ	IN	_	10	mark	_	_
+9	having	have	AUX	VBG	VerbForm=Ger	10	aux	_	_
+10	sought	seek	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	long	long	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = It seemed to him that he had lost his soul, and that he had just found it again.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	soul	soul	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	just	just	ADV	RB	_	17	advmod	_	_
+17	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	again	again	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I saw the door move, and instinctively tried to hold the latch on the outside, to gain a moment’s time.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	door	door	NOUN	NN	Number=Sing	5	compound	_	_
+5	move	move	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	instinctively	instinctively	ADV	RB	_	9	advmod	_	_
+9	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	hold	hold	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	latch	latch	NOUN	NN	Number=Sing	11	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	outside	outside	ADJ	JJ	Degree=Pos	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	gain	gain	VERB	VB	VerbForm=Inf	2	advcl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	moment	moment	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	time	time	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was too late.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	too	too	ADV	RB	_	4	advmod	_	_
+4	late	late	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mr. Peggotty thrust forth his face; and never could I forget the change that came upon it when he saw us, if I were to live five hundred years.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Peggotty	Peggotty	PROPN	NNP	Number=Sing	1	flat	_	_
+3	thrust	thrust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	forth	forth	ADV	RB	_	3	advmod	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	face	face	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	never	never	ADV	RB	_	12	advmod	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	forget	forget	VERB	VB	VerbForm=Inf	3	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	change	change	NOUN	NN	Number=Sing	12	obj	_	_
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	upon	upon	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	12	punct	_	_
+24	if	if	SCONJ	IN	_	26	mark	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	live	live	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	five	five	NUM	CD	NumType=Card	30	nummod	_	_
+30	hundred	hundred	NUM	CD	NumType=Card	31	nummod	_	_
+31	years	year	NOUN	NNS	Number=Plur	28	obl:tmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

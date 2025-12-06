@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There the halfpenny lies,” he said.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	4	nmod:poss	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	halfpenny	halfpenny	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “I don’t want your halfpenny; I wouldn’t have kept it.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	halfpenny	halfpenny	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	13	advmod	_	_
+12	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = But you wanted to cheat; I hate a cheat.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	cheat	cheat	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	cheat	cheat	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I sha’n’t go along with you any more,” he added, turning round homeward, not without casting a regret toward the rat-catching and other pleasures which he must relinquish along with Bob’s society.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	sha	sha	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	2	punct	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+6	along	along	ADV	RB	_	5	advmod	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+9	any	any	ADV	RB	_	10	advmod	_	_
+10	more	more	ADV	RBR	_	5	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	turning	turn	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	round	round	ADV	RB	_	18	advmod	_	_
+18	homeward	homeward	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	not	not	ADV	RB	_	16	advmod	_	_
+21	without	without	SCONJ	IN	_	22	mark	_	_
+22	casting	cast	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	regret	regret	NOUN	NN	Number=Sing	22	obj	_	_
+25	toward	toward	ADP	IN	_	29	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+27	rat	rat	NOUN	NN	Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	catching	catching	NOUN	NN	Number=Sing	24	nmod	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	other	other	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	pleasures	pleasure	NOUN	NNS	Number=Plur	29	conj	_	_
+33	which	which	PRON	WDT	PronType=Rel	36	obj	_	_
+34	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+35	must	must	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	relinquish	relinquish	VERB	VB	VerbForm=Inf	32	acl:relcl	_	_
+37	along	along	ADP	IN	_	41	case	_	_
+38	with	with	ADP	IN	_	41	case	_	_
+39	Bob	Bob	PROPN	NNP	Number=Sing	41	nmod:poss	_	SpaceAfter=No
+40	’s	's	PART	POS	_	39	case	_	_
+41	society	society	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was time that he killed the devil-fish.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	devil	devil	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	fish	fish	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He was almost suffocated.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	almost	almost	ADV	RB	_	4	advmod	_	_
+4	suffocated	suffocate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = His right arm and his chest were purple.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nsubj	_	_
+2	right	right	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	arm	arm	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	chest	chest	NOUN	NN	Number=Sing	3	conj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	purple	purple	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Numberless little swellings were distinguishable upon them; the blood flowed from them here and there.
+1	Numberless	Numberless	ADJ	JJS	Degree=Sup	3	amod	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	swellings	swelling	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	distinguishable	distinguishable	ADJ	JJ	Degree=Pos	0	root	_	_
+6	upon	upon	ADP	IN	_	7	case	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	blood	blood	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	flowed	flow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	here	here	ADV	RB	PronType=Dem	11	advmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	there	there	ADV	RB	PronType=Dem	11	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = The remedy for these wounds is sea-water.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	remedy	remedy	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	wounds	wound	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sea-water	sea-water	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Gilliatt plunged into it, rubbing himself at the same time with the palms of his hands.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	plunged	plunge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	into	into	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	rubbing	rub	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	palms	palm	NOUN	NNS	Number=Plur	6	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hands	hand	NOUN	NNS	Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = The swellings disappeared under the friction.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	swellings	swelling	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	disappeared	disappear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	under	under	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	friction	friction	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

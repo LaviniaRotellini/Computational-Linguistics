@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She would have liked to encounter her “passer-by,” to see what he would say, and to “teach him a lesson!”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	encounter	encounter	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+9	passer	passer	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+11	by	by	INTJ	UH	_	15	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	15	punct	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	see	see	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+16	what	what	PRON	WP	PronType=Int	15	obj	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	say	say	VERB	VB	VerbForm=Inf	16	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	to	to	PART	TO	_	24	mark	_	_
+23	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+24	teach	teach	VERB	VB	VerbForm=Inf	15	conj	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	lesson	lesson	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = The truth is, that she was ravishing in every respect, and that she distinguished the difference between a bonnet from Gérard and one from Herbaut in the most marvellous way.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	truth	truth	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	ravishing	ravish	VERB	VBG	Tense=Pres|VerbForm=Part	3	ccomp	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	every	every	DET	DT	_	11	det	_	_
+11	respect	respect	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	distinguished	distinguished	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	difference	difference	NOUN	NN	Number=Sing	16	obj	_	_
+19	between	between	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	bonnet	bonnet	NOUN	NN	Number=Sing	18	nmod	_	_
+22	from	from	ADP	IN	_	23	case	_	_
+23	Gérard	Gérard	PROPN	NNP	Number=Sing	21	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	one	one	NUM	CD	NumType=Card	3	conj	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	Herbaut	Herbaut	PROPN	NNP	Number=Sing	25	nmod	_	_
+28	in	in	ADP	IN	_	32	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+30	most	most	ADV	RBS	_	31	advmod	_	_
+31	marvellous	marvellous	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	way	way	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

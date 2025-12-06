@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mad in sooth, monseigneur.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mad	mad	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	sooth	sooth	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	monseigneur	monseigneur	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = If she released the gypsy, it was not her fault, for she loves not the gypsies.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	released	release	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	gypsy	gypsy	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	fault	fault	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	for	for	SCONJ	IN	_	15	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	gypsies	gypsy	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = I have been of the watch these fifteen years, and I hear her every evening cursing the Bohemian women with endless imprecations.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	watch	watch	NOUN	NN	Number=Sing	0	root	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+8	fifteen	fifteen	NUM	CD	NumType=Card	9	nummod	_	_
+9	years	year	NOUN	NNS	Number=Plur	6	obl:tmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	every	every	DET	DT	_	16	det	_	_
+16	evening	evening	NOUN	NN	Number=Sing	13	obl:tmod	_	_
+17	cursing	curse	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	Bohemian	Bohemian	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	women	woman	NOUN	NNS	Number=Plur	17	obj	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	endless	endless	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	imprecations	imprecation	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = If the one of whom we are in pursuit is, as I suppose, the little dancer with the goat, she detests that one above all the rest.”
+1	If	if	SCONJ	IN	_	10	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	one	one	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	whom	whom	PRON	WP	PronType=Rel	9	obl	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	pursuit	pursuit	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	24	punct	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	dancer	dancer	NOUN	NN	Number=Sing	14	obj	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	goat	goat	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	detests	detest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	one	one	NUM	CD	NumType=Card	24	obj	_	_
+27	above	above	ADP	IN	_	30	case	_	_
+28	all	all	DET	PDT	_	30	det:predet	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	rest	rest	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	24	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	24	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, my dear Copperfield,’ said the Doctor, ‘you are a man!
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Copperfield	Copperfield	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Doctor	Doctor	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = How do you do?
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I am delighted to see you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	delighted	delighted	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = My dear Copperfield, how very much you have improved!
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	dear	dear	NOUN	NN	Number=Sing	3	compound	_	_
+3	Copperfield	Copperfield	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	much	much	ADV	RB	_	10	advmod	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = You are quite--yes--dear me!’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	quite	quite	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+6	--	--	PUNCT	,	_	7	punct	_	SpaceAfter=No
+7	dear	dear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

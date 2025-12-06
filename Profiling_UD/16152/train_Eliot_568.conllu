@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, that is Keck—an illiterate fellow, you know.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Keck	Keck	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+7	—	—	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	illiterate	illiterate	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fellow	fellow	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Retrogressive, now!
+1	Retrogressive	Retrogressive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	now	now	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Come, that’s capital.
+1	Come	come	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	capital	capital	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = He thinks it means destructive: they want to make me out a destructive, you know,” said Mr. Brooke, with that cheerfulness which is usually sustained by an adversary’s ignorance.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	destructive	destructive	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	2	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	out	out	ADP	RP	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	destructive	destructive	NOUN	NN	Number=Sing	10	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	20	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	20	nsubj	_	_
+22	Brooke	Brooke	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	21	punct	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	cheerfulness	cheerfulness	NOUN	NN	Number=Sing	21	nmod	_	_
+27	which	which	PRON	WDT	PronType=Rel	30	nsubj:pass	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+29	usually	usually	ADV	RB	_	30	advmod	_	_
+30	sustained	sustain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
+31	by	by	ADP	IN	_	35	case	_	_
+32	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	adversary	adversary	NOUN	NN	Number=Sing	35	nmod:poss	_	SpaceAfter=No
+34	’s	's	PART	POS	_	33	case	_	_
+35	ignorance	ignorance	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n
+

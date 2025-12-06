@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean’s first care had been to get hold of his shoes and put them on again, then to step under the shed with Cosette.
+1	Jean	Jean	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	’s	's	PART	POS	_	1	case	_	_
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	care	care	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+10	hold	hold	NOUN	NN	Number=Sing	9	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	shoes	shoe	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	put	put	VERB	VB	VerbForm=Inf	9	conj	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	on	on	ADV	RB	_	15	advmod	_	_
+18	again	again	ADV	RB	_	15	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	9	punct	_	_
+20	then	then	ADV	RB	PronType=Dem	22	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	step	step	VERB	VB	VerbForm=Inf	9	advcl	_	_
+23	under	under	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	shed	shed	NOUN	NN	Number=Sing	22	obl	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	Cosette	Cosette	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = A man who is fleeing never thinks himself sufficiently hidden.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fleeing	flee	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	never	never	ADV	RB	_	7	advmod	_	_
+7	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	sufficiently	sufficiently	ADV	RB	_	10	advmod	_	_
+10	hidden	hide	ADV	RB	_	7	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The child, whose thoughts were still on the Thénardier, shared his instinct for withdrawing from sight as much as possible.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	child	child	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+5	thoughts	thought	NOUN	NNS	Number=Plur	10	nsubj	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+7	still	still	ADV	RB	_	10	advmod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Thénardier	Thénardier	PROPN	NNP	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	shared	share	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	instinct	instinct	NOUN	NN	Number=Sing	12	obj	_	_
+15	for	for	SCONJ	IN	_	16	mark	_	_
+16	withdrawing	withdrawing	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+17	from	from	ADP	IN	_	18	case	_	_
+18	sight	sight	NOUN	NN	Number=Sing	16	obl	_	_
+19	as	as	ADV	RB	_	20	advmod	_	_
+20	much	much	ADJ	JJ	Degree=Pos	16	obj	_	_
+21	as	as	SCONJ	IN	_	22	mark	_	_
+22	possible	possible	ADJ	JJ	Degree=Pos	20	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

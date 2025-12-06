@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I can’t tell what you mean,” said Lydgate, “unless it is that I once spoke of you to Mrs. Casaubon.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	tell	tell	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+6	what	what	PRON	WP	PronType=Int	8	obj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Lydgate	Lydgate	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+15	unless	unless	SCONJ	IN	_	17	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	once	once	ADV	RB	NumType=Mult	21	advmod	_	_
+21	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obl	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	Mrs.	Mrs.	PROPN	NNP	Number=Sing	21	obl	_	_
+26	Casaubon	Casaubon	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = But I did not think that she would break her promise not to mention that I had done so,” said Lydgate, leaning his back against the corner of the mantel-piece, and showing no radiance in his face.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	break	break	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	promise	promise	NOUN	NN	Number=Sing	9	obj	_	_
+12	not	not	ADV	RB	_	9	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	mention	mention	VERB	VB	VerbForm=Inf	9	advcl	_	_
+15	that	that	SCONJ	IN	_	18	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	done	do	VERB	VBN	Tense=Past|VerbForm=Part	14	ccomp	_	_
+19	so	so	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+23	Lydgate	Lydgate	PROPN	NNP	Number=Sing	22	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	22	punct	_	_
+25	leaning	lean	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	back	back	ADV	RB	_	25	advmod	_	_
+28	against	against	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	corner	corner	NOUN	NN	Number=Sing	27	obl	_	_
+31	of	of	ADP	IN	_	35	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+33	mantel	mantel	NOUN	NN	Number=Sing	35	compound	_	SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	35	punct	_	SpaceAfter=No
+35	piece	piece	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	showing	show	VERB	VBG	VerbForm=Ger	35	conj	_	_
+39	no	no	DET	DT	_	40	det	_	_
+40	radiance	radiance	NOUN	NN	Number=Sing	38	obj	_	_
+41	in	in	ADP	IN	_	43	case	_	_
+42	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	face	face	NOUN	NN	Number=Sing	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

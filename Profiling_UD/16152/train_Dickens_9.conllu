@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘There have not been any since we have lived here,’ said my mother.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	6	expl	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+6	any	any	ADV	RB	_	14	advmod	_	_
+7	since	since	SCONJ	IN	_	10	mark	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+11	here	here	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘We thought--Mr. Copperfield thought--it was quite a large rookery; but the nests were very old ones, and the birds have deserted them a long while.’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	Copperfield	Copperfield	PROPN	NNP	Number=Sing	5	flat	_	_
+7	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+11	quite	quite	DET	PDT	_	14	det:predet	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	large	large	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	rookery	rookery	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	3	punct	_	_
+16	but	but	CCONJ	CC	_	22	cc	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	nests	nests	NOUN	NNS	Number=Plur	22	nsubj	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	very	very	ADV	RB	_	21	advmod	_	_
+21	old	old	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	ones	one	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	birds	bird	NOUN	NNS	Number=Plur	28	nsubj	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	deserted	desert	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	iobj	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	long	long	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	while	while	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was in fact, the archdeacon.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	fact	fact	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	archdeacon	archdeacon	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = On his left he had the sub-chanter, on his right, the chanter, armed with his official wand.
+1	On	on	ADP	IN	_	3	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	obl	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	sub	sub	X	AFX	_	8	goeswith	_	SpaceAfter=No
+8	-chanter	-chanter	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	right	right	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	chanter	chanter	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	armed	armed	ADJ	JJ	Degree=Pos	15	amod	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	official	official	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	wand	wand	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He advanced with head thrown back, his eyes fixed and wide open, intoning in a strong voice,—
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	advanced	advance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	head	head	NOUN	NN	Number=Sing	2	obl	_	_
+5	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+6	back	back	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	eyes	eye	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	wide	wide	ADV	RB	_	13	advmod	_	_
+13	open	open	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	intoning	into	VERB	VBG	VerbForm=Ger	5	conj	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	strong	strong	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	voice	voice	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,—	,—	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

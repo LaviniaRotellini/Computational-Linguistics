@@ -1,0 +1,131 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “_Te Deum laudamus_!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	3	punct	_	SpaceAfter=No
+3	Te	the	PROPN	NNP	Number=Sing	0	root	_	_
+4	Deum	Deum	PROPN	NNP	Number=Sing	3	flat	_	_
+5	laudamus_!	laudamus_!	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = exclaimed Master
+1	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Master	master	NOUN	NN	Number=Sing	1	obj	_	_
+
+# sent_id = 3
+# text = Jehan, creeping out from his hole, “the screech-owls have departed.
+1	Jehan	Jehan	PROPN	NNP	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	creeping	creep	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hole	hole	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	screech	screech	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+13	owls	owl	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	departed	depart	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = Och! och!
+1	Och	Och	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+3	och	och	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Hax!
+1	Hax	Hax	SYM	NFP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = pax! max!
+1	pax	pax	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+3	max	max	NOUN	NN	Abbr=Yes|Number=Sing	1	appos	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = fleas!
+1	fleas	flea	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = mad dogs!
+1	mad	mad	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	dogs	dog	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = the devil!
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	devil	devil	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = I have had enough of their conversation!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	conversation	conversation	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = My head is humming like a bell tower.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	head	head	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	humming	hum	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	like	like	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	bell	bell	NOUN	NN	Number=Sing	8	compound	_	_
+8	tower	tower	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 12
+# text = And mouldy cheese to boot!
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	mouldy	mouldy	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	cheese	cheese	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	boot	boot	VERB	VB	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Come on!
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	on	on	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Let us descend, take the big brother’s purse and convert all these coins into bottles!”
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	descend	descmend	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	take	take	VERB	VB	VerbForm=Inf	1	conj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	big	big	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	brother	brother	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	purse	purse	NOUN	NN	Number=Sing	5	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	convert	convert	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	all	all	DET	PDT	_	15	det:predet	_	_
+14	these	these	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+15	coins	coin	NOUN	NNS	Number=Plur	12	obj	_	_
+16	into	into	ADP	IN	_	17	case	_	_
+17	bottles	bottle	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

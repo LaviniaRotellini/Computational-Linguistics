@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’ll tell you,” said she, in the same hurried passionate whisper, “what real love is.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	in	in	ADP	IN	_	16	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+13	same	same	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	hurried	hurried	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+15	passionate	passionate	NOUN	NN	Number=Sing	16	compound	_	_
+16	whisper	whisper	NOUN	NN	Number=Sing	8	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+19	what	what	PRON	WP	PronType=Int	8	obj	_	_
+20	real	real	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	love	love	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = It is blind devotion, unquestioning self-humiliation, utter submission, trust and belief against yourself and against the whole world, giving up your whole heart and soul to the smiter—as I did!”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	blind	blind	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	devotion	devotion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	unquestioning	unquestion	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	self	self	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	humiliation	humiliation	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	utter	utter	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	submission	submission	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	trust	trust	NOUN	NN	Number=Sing	12	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	belief	belief	NOUN	NN	Number=Sing	12	conj	_	_
+17	against	against	ADP	IN	_	18	case	_	_
+18	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	nmod	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	against	against	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	whole	whole	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	world	world	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	giving	give	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	whole	whole	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	heart	heart	NOUN	NN	Number=Sing	25	obj	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	soul	soul	NOUN	NN	Number=Sing	25	conj	_	_
+32	to	to	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	smiter	smiter	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+36	as	as	SCONJ	IN	_	38	mark	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+38	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+39	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

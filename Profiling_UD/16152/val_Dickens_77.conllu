@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Must find out Mr. Sleary, who would then let him know where you went.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+6	Sleary	Sleary	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+11	let	let	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	know	know	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	where	where	ADV	WRB	PronType=Int	16	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I should have no power of keeping you against his wish, and he would have no difficulty, at any time, in finding Mr. Thomas Gradgrind of Coketown.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	power	power	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	keeping	keep	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+9	against	against	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	wish	wish	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	have	have	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	no	no	DET	DT	_	18	det	_	_
+18	difficulty	difficulty	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	any	any	DET	DT	_	22	det	_	_
+22	time	time	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	16	punct	_	_
+24	in	in	SCONJ	IN	_	25	mark	_	_
+25	finding	finding	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+26	Mr.	Mr.	PROPN	NNP	Number=Sing	25	obj	_	_
+27	Thomas	Thomas	PROPN	NNP	Number=Sing	26	flat	_	_
+28	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	26	flat	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	Coketown	Coketown	PROPN	NNP	Number=Sing	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am well known.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	well	well	ADV	RB	Degree=Pos	4	advmod	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

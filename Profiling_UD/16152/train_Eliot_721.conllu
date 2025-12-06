@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Not about this action of Casaubon’s, I should hope,” interrupted Sir James.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	5	advmod	_	_
+3	about	about	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	action	action	NOUN	NN	Number=Sing	12	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Casaubon	Casaubon	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	hope	hope	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	interrupted	interrupt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+16	Sir	Sir	PROPN	NNP	Number=Sing	15	obj	_	_
+17	James	James	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “I say that he has most unfairly compromised Dorothea.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	most	most	ADV	RBS	_	8	advmod	_	_
+8	unfairly	unfairly	ADV	RB	_	9	advmod	_	_
+9	compromised	compromised	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I say that there never was a meaner, more ungentlemanly action than this—a codicil of this sort to a will which he made at the time of his marriage with the knowledge and reliance of her family—a positive insult to Dorothea!”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	there	there	PRON	EX	_	8	expl	_	_
+5	never	never	ADV	RB	_	8	advmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	meaner	meaner	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	ungentlemanly	ungentlemanly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	action	action	NOUN	NN	Number=Sing	8	nsubj	_	_
+13	than	than	ADP	IN	_	14	case	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nmod	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	codicil	codicil	NOUN	NN	Number=Sing	2	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	sort	sort	NOUN	NN	Number=Sing	17	nmod	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	will	will	NOUN	NN	Number=Sing	2	nmod	_	_
+24	which	which	PRON	WDT	PronType=Rel	26	obj	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+27	at	at	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	time	time	NOUN	NN	Number=Sing	26	obl	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	marriage	marriage	NOUN	NN	Number=Sing	29	nmod	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	knowledge	knowledge	NOUN	NN	Number=Sing	32	nmod	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	reliance	reliance	NOUN	NN	Number=Sing	35	conj	_	_
+38	of	of	ADP	IN	_	40	case	_	_
+39	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+40	family	family	NOUN	NN	Number=Sing	37	nmod	_	SpaceAfter=No
+41	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+43	positive	positive	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	insult	insult	NOUN	NN	Number=Sing	2	obj	_	_
+45	to	to	ADP	IN	_	46	case	_	_
+46	Dorothea	Dorothea	PROPN	NNP	Number=Sing	44	nmod	_	SpaceAfter=No
+47	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+48	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

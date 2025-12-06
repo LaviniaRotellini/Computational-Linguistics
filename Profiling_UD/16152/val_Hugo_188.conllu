@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At half-past nine o'clock, at L'Equerrier, a trawler carrying home his net stopped for a time to observe between Colombelle and the Soufleresse something which looked like a boat.
+1	At	at	ADP	IN	_	6	case	_	_
+2	half	half	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	past	past	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	nine	nine	NUM	CD	NumType=Card	6	nummod	_	_
+6	o'clock	o'clock	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	18	punct	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	L'	L'	PROPN	NNP	Number=Sing	18	obl	_	SpaceAfter=No
+10	Equerrier	Equerrier	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	trawler	trawler	NOUN	NN	Number=Sing	18	nsubj	_	_
+14	carrying	carry	VERB	VBG	VerbForm=Ger	13	acl	_	_
+15	home	home	ADV	RB	_	14	advmod	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	net	net	NOUN	NN	Number=Sing	14	obj	_	_
+18	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	time	time	NOUN	NN	Number=Sing	18	obl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	observe	observe	VERB	VB	VerbForm=Inf	21	acl	_	_
+24	between	between	ADP	IN	_	25	case	_	_
+25	Colombelle	Colombelle	PROPN	NNP	Number=Sing	23	obl	_	_
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	Soufleresse	Soufleresse	NOUN	NN	Number=Sing	25	conj	_	_
+29	something	something	PRON	NN	Number=Sing	28	appos	_	_
+30	which	which	PRON	WDT	PronType=Rel	31	nsubj	_	_
+31	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+32	like	like	ADP	IN	_	34	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	boat	boat	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = The boat was in a dangerous position.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	boat	boat	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	dangerous	dangerous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	position	position	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Sudden gusts of wind of a very dangerous kind are very common in that spot.
+1	Sudden	sudden	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	gusts	gust	NOUN	NNS	Number=Plur	12	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	wind	wind	NOUN	NN	Number=Sing	2	nmod	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	dangerous	dangerous	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	kind	kind	NOUN	NN	Number=Sing	4	nmod	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	common	common	ADJ	JJ	Degree=Pos	0	root	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	spot	spot	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = The _Soufleresse_, or Blower, derives its name from the sudden gusts of wind which it seems to direct upon the vessels, which by rare chance find their way thither.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	_Soufleresse_	_soufleresse_	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	or	or	CCONJ	CC	_	5	cc	_	_
+5	Blower	blower	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	derives	derive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	SpaceAfter=No
+9	s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	name	name	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	from	from	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	sudden	sudden	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	gusts	gust	NOUN	NNS	Number=Plur	10	obl	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	wind	wind	NOUN	NN	Number=Sing	14	nmod	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+19	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	direct	direct	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	upon	upon	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	vessels	vessel	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+27	by	by	ADP	IN	_	29	case	_	_
+28	rare	rare	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	chance	chance	NOUN	NN	Number=Sing	30	obl	_	_
+30	find	find	VERB	VB	VerbForm=Inf	24	acl:relcl	_	_
+31	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	way	way	NOUN	NN	Number=Sing	30	obj	_	_
+33	thither	thither	ADV	RB	_	30	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

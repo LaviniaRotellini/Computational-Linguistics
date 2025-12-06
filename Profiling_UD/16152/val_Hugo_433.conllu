@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But meanwhile what uncertainty must he not endure!
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	meanwhile	meanwhile	SCONJ	IN	_	8	mark	_	_
+3	what	what	PRON	WP	PronType=Int	4	det	_	_
+4	uncertainty	uncertainty	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	endure	endure	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = What perils, what chances of accidents!
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	perils	peril	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	what	what	PRON	WP	PronType=Int	5	det	_	_
+5	chances	chance	NOUN	NNS	Number=Plur	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	accidents	accident	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He heard the water rising inexorably.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	water	water	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	rising	rise	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+6	inexorably	inexorably	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = One shock, and all would have perished.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	shock	shock	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	all	all	ADV	RB	_	8	advmod	_	_
+6	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	perished	perish	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = What misery seemed in store for him.
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	misery	misery	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	store	store	NOUN	NN	Number=Sing	3	obl	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Perhaps his endeavours were even now too late.
+1	Perhaps	perhaps	ADV	RB	_	8	advmod	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	endeavours	endeavour	NOUN	NNS	Number=Plur	8	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	even	even	ADV	RB	_	6	advmod	_	_
+6	now	now	ADV	RB	_	8	advmod	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	late	late	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There’s something in what she says, though,” said Caleb, not disposed to have Mary’s sharpness undervalued.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	something	something	PRON	NN	Number=Sing	3	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	what	what	PRON	WP	PronType=Int	8	obl	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	though	though	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	Caleb	Caleb	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	disposed	dispose	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	have	have	VERB	VB	VerbForm=Inf	17	advcl	_	_
+20	Mary	Mary	PROPN	NNP	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+21	’s	's	PART	POS	_	20	case	_	_
+22	sharpness	sharpness	NOUN	NNS	Number=Plur	19	obj	_	_
+23	undervalued	undervalue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “A bad workman of any sort makes his fellows mistrusted.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	workman	workman	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	sort	sort	NOUN	NN	Number=Sing	4	nmod	_	_
+8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	fellows	fellow	NOUN	NNS	Number=Plur	8	obj	_	_
+11	mistrusted	mistrust	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Things hang together,” he added, looking on the floor and moving his feet uneasily with a sense that words were scantier than thoughts.
+1	Things	thing	NOUN	NNS	Number=Plur	2	obj	_	_
+2	hang	hing	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	together	together	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	looking	look	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	floor	floor	NOUN	NN	Number=Sing	9	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	moving	move	VERB	VBG	VerbForm=Ger	9	conj	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	feet	foot	NOUN	NNS	Number=Plur	14	obj	_	_
+17	uneasily	uneasily	ADV	RB	_	14	advmod	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	sense	sense	NOUN	NN	Number=Sing	14	obl	_	_
+21	that	that	SCONJ	IN	_	24	mark	_	_
+22	words	word	NOUN	NNS	Number=Plur	24	nsubj	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	scantier	scantier	ADJ	JJR	Degree=Cmp	20	acl	_	_
+25	than	than	ADP	IN	_	26	case	_	_
+26	thoughts	thought	NOUN	NNS	Number=Plur	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “She never did give me any—not the least in the world, when I talked to her myself,” said Fred, eager to vindicate Mary.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	never	never	ADV	RB	_	5	advmod	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	give	give	VERB	VB	VerbForm=Inf	24	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	any	any	DET	DT	_	11	det	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+9	not	not	ADV	RB	_	11	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	least	least	ADJ	JJS	Degree=Sup	5	obj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	world	world	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	18	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	24	punct	_	_
+24	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+25	Fred	Fred	PROPN	NNP	Number=Sing	24	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	eager	eager	ADJ	JJ	Degree=Pos	25	amod	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	vindicate	vindicate	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	Mary	Mary	PROPN	NNP	Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = 2
+# text = “But when I asked Mr. Farebrother to speak for me, she allowed him to tell me there was a hope.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Farebrother	Farebrother	PROPN	NNP	Number=Sing	6	flat	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	speak	speak	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	allowed	allow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	tell	tell	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	there	there	PRON	EX	_	20	expl	_	_
+20	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	hope	hope	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

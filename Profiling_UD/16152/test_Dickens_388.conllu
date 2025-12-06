@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thank God,” said Joe, “I’m ekerval to most.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	PROPN	NNP	Number=Sing	6	ccomp	_	_
+3	God	God	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+7	Joe	Joe	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	ekerval	ekerval	ADJ	JJ	Degree=Pos	7	appos	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	most	most	ADJ	JJS	Degree=Sup	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = And your sister, she’s no worse than she were.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	sister	sister	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	no	no	ADV	RB	_	8	advmod	_	_
+8	worse	worse	ADJ	JJR	Degree=Cmp	0	root	_	_
+9	than	than	SCONJ	IN	_	11	mark	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = And Biddy, she’s ever right and ready.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	Biddy	Biddy	PROPN	NNP	Number=Sing	7	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	ever	ever	ADV	RB	_	7	advmod	_	_
+7	right	right	ADJ	JJ	Degree=Pos	0	root	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	ready	ready	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = And all friends is no backerder, if not no forarder.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	friends	friend	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	backerder	backerder	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	if	if	SCONJ	IN	_	11	mark	_	_
+9	not	not	ADV	RB	_	11	advmod	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	forarder	forarder	NOUN	NN	Number=Sing	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = ’Ceptin Wopsle; he’s had a drop.”
+1	’	'	PART	POS	_	3	case	_	SpaceAfter=No
+2	Ceptin	Ceptin	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Wopsle	Wopsle	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	7	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	had	have	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	drop	drop	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

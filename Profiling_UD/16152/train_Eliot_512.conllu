@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Do send him word of it, you naughty undutiful nephew.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	send	send	VERB	VB	VerbForm=Inf	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	word	word	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	naughty	naughty	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	undutiful	undutiful	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	nephew	nephew	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He will perhaps ask you to take me to Quallingham; and then you could show me about the grounds, and I could imagine you there when you were a boy.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+4	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	take	take	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Quallingham	Quallingham	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	4	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	then	then	ADV	RB	PronType=Dem	16	advmod	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	could	could	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	show	show	VERB	VB	VerbForm=Inf	4	conj	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	about	about	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	grounds	grounds	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	could	could	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	imagine	imagine	VERB	VB	VerbForm=Inf	4	conj	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	obj	_	_
+27	there	there	ADV	RB	PronType=Dem	25	advmod	_	_
+28	when	when	ADV	WRB	PronType=Int	32	mark	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	_
+30	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	cop	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	boy	boy	NOUN	NN	Number=Sing	25	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Remember, you see me in my home, just as it has been since I was a child.
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	home	home	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	1	punct	_	_
+10	just	just	ADV	RB	_	14	advmod	_	_
+11	as	as	SCONJ	IN	_	14	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	been	be	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	_
+15	since	since	SCONJ	IN	_	19	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	child	child	NOUN	NN	Number=Sing	14	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = It is not fair that I should be so ignorant of yours.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	fair	fair	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	so	so	ADV	RB	_	10	advmod	_	_
+10	ignorant	ignorant	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	yours	yours	PRON	PRP	_	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = But perhaps you would be a little ashamed of me.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	8	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	ashamed	ashamed	NOUN	NN	Number=Sing	0	root	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 6
+# text = I forgot that.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	forgot	forget	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

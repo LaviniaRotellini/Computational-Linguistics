@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, lad, well,” said Bartle, in a gentle tone, strangely in contrast with his usual peremptoriness and impatience of contradiction, “it’s likely enough I talk foolishness.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	lad	lad	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	well	well	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Bartle	Bartle	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	gentle	genle	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	tone	tone	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	strangely	strangely	ADV	RB	_	19	advmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	contrast	contrast	NOUN	NN	Number=Sing	10	obl	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	usual	usual	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	peremptoriness	peremptoriness	NOUN	NN	Number=Sing	19	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	impatience	impatience	NOUN	NN	Number=Sing	23	conj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	contradiction	contradiction	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	10	punct	_	_
+29	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+30	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	expl	_	SpaceAfter=No
+31	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+32	likely	likely	ADV	RB	_	10	advmod	_	_
+33	enough	enough	ADV	RB	_	10	advmod	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	talk	talk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+36	foolishness	foolishness	NOUN	NNS	Number=Plur	35	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = I’m an old fellow, and it’s a good many years since I was in trouble myself.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	old	old	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	13	punct	_	_
+7	and	and	CCONJ	CC	_	13	cc	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	many	many	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	years	year	NOUN	NNS	Number=Plur	5	conj	_	_
+14	since	since	SCONJ	IN	_	19	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	in	in	ADV	RB	_	18	advmod	_	_
+18	trouble	trouble	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It’s easy finding reasons why other folks should be patient.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	easy	easy	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	finding	find	VERB	VBG	VerbForm=Ger	5	amod	_	_
+5	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	_
+6	why	why	ADV	WRB	PronType=Int	11	advmod	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	folks	folk	NOUN	NNS	Number=Plur	11	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	patient	patient	ADJ	JJ	Degree=Pos	5	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “We will send,” said the king with an air of false seriousness.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	send	send	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	king	king	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	air	air	NOUN	NN	Number=Sing	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	false	false	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	seriousness	seriousness	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “It is well.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	well	well	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Assuredly we will send.
+1	Assuredly	Assuredly	ADV	RB	_	4	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	send	send	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Monsieur the bailiff is our friend.
+1	Monsieur	Monsieur	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	bailiff	bailiff	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	friend	friend	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Six thousand!
+1	Six	six	NUM	CD	NumType=Card	2	nummod	_	_
+2	thousand	thousand	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = They are desperate scamps!
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	desperate	desperate	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	scamps	scamp	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Their audacity is marvellous, and we are greatly enraged at it.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	audacity	audacity	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	marvellous	marvellous	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	and	and	CCONJ	CC	_	10	cc	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj:pass	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	greatly	greatly	ADV	RB	_	10	advmod	_	_
+10	enraged	enrage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = But we have only a few people about us to-night.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	few	few	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	people	people	NOUN	NNS	Number=Plur	3	obj	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+10	to	to	ADP	IN	_	12	case	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	night	night	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = To-morrow morning will be time enough.”
+1	To	to	ADP	IN	_	3	case	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	morrow	morrow	NOUN	NN	Number=Sing	8	obl	_	_
+4	morning	morning	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	time	time	NOUN	NN	Number=Sing	8	obl:npmod	_	_
+8	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Never mind me, Mum,” returned that diabolical cornchandler.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Never	never	INTJ	UH	_	3	discourse	_	_
+3	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	Mum	Mum	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	_
+9	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	diabolical	diabolical	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	cornchandler	cornchandler	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “A pleasure’s a pleasure all the world over.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	pleasure	pleasure	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	pleasure	pleasure	NOUN	NN	Number=Sing	0	root	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	6	nmod	_	_
+10	over	over	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = But this boy, you know; we must have him bound.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	boy	boy	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	have	have	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	bound	bound	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = I said I’d see to it—to tell you the truth.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’d	’d	ADV	RB	_	5	advmod	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+9	to	to	PART	TO	_	10	mark	_	_
+10	tell	tell	VERB	VB	VerbForm=Inf	2	acl	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	truth	truth	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

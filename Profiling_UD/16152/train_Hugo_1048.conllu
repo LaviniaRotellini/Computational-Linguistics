@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Are you mad!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	mad	mad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Are you crazy!
+1	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	crazy	crazy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = What a pack of boobies!
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	pack	pack	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	boobies	booby	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = You want to waste time, do you?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	waste	waste	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	time	time	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Draw lots, do you?
+1	Draw	draw	NOUN	NN	Number=Sing	2	compound	_	_
+2	lots	lot	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = By a wet finger, by a short straw!
+1	By	by	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	wet	wet	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	finger	finger	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	by	by	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	short	short	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	straw	straw	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 7
+# text = With written names!
+1	With	with	ADP	IN	_	3	case	_	_
+2	written	write	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	_
+3	names	name	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Thrown into a hat!—”
+1	Thrown	throw	ADV	RB	_	4	advmod	_	_
+2	into	into	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	hat	hat	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

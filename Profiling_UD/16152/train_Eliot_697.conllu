@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You quite mistake me, Ladislaw,” said Lydgate, surprised.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	quite	quite	ADV	RB	_	4	advmod	_	_
+4	mistake	mistake	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	Ladislaw	Ladislaw	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	Lydgate	Lydgate	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	surprised	surprised	ADJ	JJ	Degree=Pos	10	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He had been preoccupied with his own vindication, and had been blind to what Ladislaw might infer on his own account.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	preoccupied	preoccupy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	vindication	vindication	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+13	blind	blind	ADJ	JJ	Degree=Pos	4	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	what	what	PRON	WP	PronType=Int	18	obl	_	_
+16	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	18	nsubj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	infer	infer	VERB	VB	VerbForm=Inf	13	acl:relcl	_	_
+19	on	on	ADP	IN	_	22	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	account	account	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = “I beg your pardon for unintentionally annoying you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	beg	beg	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	pardon	pardon	NOUN	NN	Number=Sing	3	obj	_	_
+6	for	for	SCONJ	IN	_	8	mark	_	_
+7	unintentionally	unintentionally	ADV	RB	_	8	advmod	_	_
+8	annoying	annoie	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = In fact, I should rather attribute to you a romantic disregard of your own worldly interests.
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	rather	rather	ADV	RB	_	7	advmod	_	_
+7	attribute	attribute	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	romantic	romantic	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	disregard	disregard	NOUN	NN	Number=Sing	7	obj	_	_
+13	of	of	ADP	IN	_	17	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+15	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	worldly	worldly	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	interests	interest	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = On the political question, I referred simply to intellectual bias.”
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	political	political	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	question	question	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	referred	refer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	simply	simply	ADV	RB	_	11	advmod	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	intellectual	intellectual	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	bias	bia	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

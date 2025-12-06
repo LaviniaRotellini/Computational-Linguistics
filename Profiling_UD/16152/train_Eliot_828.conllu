@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How happy is he born and taught
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	happy	happy	ADJ	JJ	Degree=Pos	6	nsubj:pass	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+
+# sent_id = 2
+# text = That serveth not another’s will; Whose armor is his honest thought, And simple truth his only skill! . . . . . . .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	serveth	servell	AUX	MD	Typo=Yes|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	another	another	DET	DT	_	5	det	_	SpaceAfter=No
+5	’s	’	NOUN	NNS	Number=Plur	2	xcomp	_	_
+6	will	will	AUX	MD	VerbForm=Fin	5	conj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	5	punct	_	_
+8	Whose	whose	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	armor	armor	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	honest	honest	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	thought	thought	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	And	and	CCONJ	CC	_	17	cc	_	_
+16	simple	simple	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	truth	truth	NOUN	NN	Number=Sing	5	conj	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nsubj	_	_
+19	only	only	ADV	RB	_	20	advmod	_	_
+20	skill	skill	VERB	VB	VerbForm=Inf	17	acl	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	20	punct	_	_
+22	.	.	PUNCT	.	_	20	punct	_	_
+23	.	.	PUNCT	.	_	5	punct	_	_
+24	.	.	PUNCT	.	_	5	punct	_	_
+25	.	.	PUNCT	.	_	5	punct	_	_
+26	.	.	PUNCT	.	_	5	punct	_	_
+27	.	.	PUNCT	.	_	5	punct	_	_
+28	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = This man is freed from servile bands
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	freed	free	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	servile	servile	NOUN	NN	Number=Sing	7	compound	_	_
+7	bands	band	NOUN	NNS	Number=Plur	4	obl	_	_
+
+# sent_id = 4
+# text = Of hope to rise or fear to fall; Lord of himself though not of lands; And having nothing yet hath all.”
+1	Of	have	ADP	IN	_	2	case	_	_
+2	hope	hope	NOUN	NN	Number=Sing	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	rise	rise	VERB	VB	VerbForm=Inf	2	acl	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	fear	fear	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	fall	fall	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	Lord	Lord	PROPN	NNP	Number=Sing	14	nsubj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	nmod	_	_
+13	though	though	SCONJ	IN	_	14	mark	_	_
+14	not	not	PART	RB	_	2	parataxis	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	lands	land	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	14	punct	_	_
+18	And	and	CCONJ	CC	_	19	cc	_	_
+19	having	have	VERB	VBG	VerbForm=Ger	14	conj	_	_
+20	nothing	nothing	PRON	NN	Number=Sing	19	obj	_	_
+21	yet	yet	ADV	RB	_	19	advmod	_	_
+22	hath	hath	ADV	RB	_	23	advmod	_	_
+23	all	all	ADV	RB	_	19	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 5
+# text = —SIR HENRY WOTTON.
+1	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+2	SIR	Sir	PROPN	NNP	Number=Sing	0	root	_	_
+3	HENRY	Henry	PROPN	NNP	Number=Sing	2	flat	_	_
+4	WOTTON	WOTTON	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

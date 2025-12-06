@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Micawber was very anxious that I should stay to dinner.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Micawber	Micawber	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	anxious	anxious	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	stay	stay	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	dinner	dinner	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I should not have been averse to do so, but that I imagined I detected trouble, and calculation relative to the extent of the cold meat, in Mrs. Micawber’s eye.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	_
+2	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	averse	averse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	so	so	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	that	that	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	imagined	imagine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	detected	detect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+17	trouble	trouble	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	calculation	calculation	NOUN	NN	Number=Sing	16	conj	_	_
+21	relative	relative	ADV	RB	_	20	advmod	_	_
+22	to	to	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	extent	extent	NOUN	NN	Number=Sing	21	obl	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	cold	cold	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	meat	meat	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	in	in	ADP	IN	_	34	case	_	_
+31	Mrs.	Mrs.	PROPN	NNP	Number=Sing	32	compound	_	_
+32	Micawber	Micawber	PROPN	NNP	Number=Sing	34	nmod:poss	_	SpaceAfter=No
+33	’s	's	PART	POS	_	32	case	_	_
+34	eye	eye	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = I therefore pleaded another engagement; and observing that Mrs. Micawber’s spirits were immediately lightened, I resisted all persuasion to forego it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	therefore	therefore	ADV	RB	_	3	advmod	_	_
+3	pleaded	plead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	another	another	DET	DT	_	5	det	_	_
+5	engagement	engagement	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	observing	observe	VERB	VBG	VerbForm=Ger	3	conj	_	_
+9	that	that	SCONJ	IN	_	16	mark	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	nmod:poss	_	_
+11	Micawber	Micawber	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	’s	's	PART	POS	_	10	case	_	_
+13	spirits	spirit	NOUN	NNS	Number=Plur	16	nsubj:pass	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+15	immediately	immediately	ADV	RB	_	16	advmod	_	_
+16	lightened	lighten	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	3	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	resisted	resist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	persuasion	persuasion	NOUN	NN	Number=Sing	19	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	forego	forego	VERB	VB	VerbForm=Inf	19	advcl	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

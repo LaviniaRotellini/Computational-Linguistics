@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘So sh’ is!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	So	so	ADV	RB	_	3	advmod	_	_
+3	sh	sh	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	3	punct	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = so sh’ is!’ cried Ham.
+1	so	so	ADV	RB	_	2	advmod	_	_
+2	sh	sh	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	2	punct	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	Ham	ham	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘Mas’r Davy bor’, so sh’ is!’ and he sat and chuckled at her for some time, in a state of mingled admiration and delight, that made his face a burning red.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Mas’r	Mas’r	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Davy	Davy	PROPN	NNP	Number=Sing	4	compound	_	_
+4	bor	bor	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	so	so	ADV	RB	_	10	advmod	_	_
+8	sh	sh	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	8	punct	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	’	’	PUNCT	''	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	conj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	chuckled	chuckle	VERB	VBN	Tense=Past|VerbForm=Part	15	conj	_	_
+18	at	at	ADP	IN	_	19	case	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	some	some	DET	DT	_	22	det	_	_
+22	time	time	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	15	punct	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	state	state	NOUN	NN	Number=Sing	15	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	mingled	mingled	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	_	_
+29	admiration	admiration	NOUN	NN	Number=Sing	26	nmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	delight	delight	NOUN	NN	Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	26	punct	_	_
+33	that	that	PRON	WDT	PronType=Rel	34	nsubj	_	_
+34	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	face	face	NOUN	NN	Number=Sing	34	obj	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	burning	burning	VERB	VBG	VerbForm=Ger	34	xcomp	_	_
+39	red	red	ADV	RB	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

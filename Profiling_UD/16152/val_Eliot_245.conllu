@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tom ran in to Philip, who was enjoying his afternoon’s holiday at the piano, in the drawing-room, picking out tunes for himself and singing them.
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Philip	Philip	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	enjoying	enjoy	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	afternoon	afternoon	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	holiday	holiday	NOUN	NN	Number=Sing	9	obj	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	piano	piano	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+20	drawing	drawing	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	room	room	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	9	punct	_	_
+24	picking	pick	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+25	out	out	ADP	RP	_	24	compound:prt	_	_
+26	tunes	tune	NOUN	NNS	Number=Plur	24	obj	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	nmod	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	singing	singe	VERB	VBG	VerbForm=Ger	24	conj	_	_
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was supremely happy, perched like an amorphous bundle on the high stool, with his head thrown back, his eyes fixed on the opposite cornice, and his lips wide open, sending forth, with all his might, impromptu syllables to a tune of Arne’s which had hit his fancy.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	supremely	supremely	ADV	RB	_	4	advmod	_	_
+4	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	perched	perch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	like	like	ADP	IN	_	10	case	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	amorphous	amorphous	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	bundle	bundle	NOUN	NN	Number=Sing	6	obl	_	_
+11	on	on	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	high	high	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	stool	stool	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	head	head	NOUN	NN	Number=Sing	6	obl	_	_
+19	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	_
+20	back	back	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	4	punct	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	eyes	eye	NOUN	NNS	Number=Plur	4	obj	_	_
+24	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	_
+25	on	on	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	opposite	opposite	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	cornice	cornice	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	lips	lip	NOUN	NNS	Number=Plur	4	conj	_	_
+33	wide	wide	ADV	RB	_	34	advmod	_	_
+34	open	open	ADJ	JJ	Degree=Pos	32	amod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	32	punct	_	_
+36	sending	send	VERB	VBG	VerbForm=Ger	32	acl	_	_
+37	forth	forth	ADV	RB	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	4	punct	_	_
+39	with	with	ADP	IN	_	42	case	_	_
+40	all	all	DET	PDT	_	42	det:predet	_	_
+41	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	might	might	NOUN	NN	Number=Sing	45	obl	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	45	punct	_	_
+44	impromptu	impromptu	PRON	PRP	Case=Nom|Person=2|PronType=Prs	45	nsubj	_	_
+45	syllables	syllable	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+46	to	to	ADP	IN	_	48	case	_	_
+47	a	a	DET	DT	Definite=Ind|PronType=Art	48	det	_	_
+48	tune	tune	NUM	CD	NumType=Card	45	obl	_	_
+49	of	of	ADP	IN	_	51	case	_	_
+50	Arne	Arne	NUM	CD	NumType=Card	51	nummod	_	SpaceAfter=No
+51	’s	's	NOUN	NNS	Number=Plur	48	nmod	_	_
+52	which	which	PRON	WDT	PronType=Rel	54	nsubj	_	_
+53	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	54	aux	_	_
+54	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part	51	acl:relcl	_	_
+55	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	56	nmod:poss	_	_
+56	fancy	fancy	NOUN	NN	Number=Sing	54	obj	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

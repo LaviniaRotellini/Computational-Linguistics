@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He took no notice, and she thought that he must be fast asleep.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	notice	notice	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	that	that	SCONJ	IN	_	14	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+13	fast	fast	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	asleep	asleep	NOUN	NN	Number=Sing	8	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She laid her hand on his shoulder, and repeated, “I am ready!”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hand	hand	NOUN	NN	Number=Sing	2	obj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	shoulder	shoulder	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	repeated	repeat	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	ready	ready	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = Still he was motionless; and with a sudden confused fear, she leaned down to him, took off his velvet cap, and leaned her cheek close to his head, crying in a distressed tone—
+1	Still	still	SCONJ	IN	_	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	motionless	motionless	ADJ	JJ	Degree=Pos	14	advcl	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	and	and	CCONJ	CC	_	11	cc	_	_
+7	with	with	ADP	IN	_	11	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	sudden	sudden	ADV	RB	_	10	advmod	_	_
+10	confused	confused	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	fear	fear	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	down	down	ADP	RP	_	14	compound:prt	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	off	off	ADP	RP	_	23	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	velvet	velvet	NOUN	NN	Number=Sing	23	compound	_	_
+23	cap	cap	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	cheek	cheek	NOUN	NN	Number=Sing	26	obj	_	_
+29	close	close	ADJ	JJ	Degree=Pos	26	xcomp	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	head	head	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	crying	cry	VERB	VBG	VerbForm=Ger	14	conj	_	_
+35	in	in	ADP	IN	_	38	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	distressed	distressed	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	tone	tone	NOUN	NN	Number=Sing	34	obl	_	SpaceAfter=No
+39	—	-	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

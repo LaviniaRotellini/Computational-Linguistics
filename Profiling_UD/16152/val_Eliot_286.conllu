@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t alarm yourself too much, my dear,” he said, taking her hand.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	alarm	alarm	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	too	too	ADV	RB	_	7	advmod	_	_
+7	much	much	ADV	RB	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	dear	dear	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	14	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	taking	take	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hand	hand	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Your father has had a sudden attack, and has not quite recovered his memory.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	father	father	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	sudden	sudden	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	attack	attack	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	not	not	PART	RB	_	14	advmod	_	_
+13	quite	quite	ADV	RB	_	14	advmod	_	_
+14	recovered	recover	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	memory	memory	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = But he has been asking for you, and it will do him good to see you.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	do	do	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	see	see	VERB	VB	VerbForm=Inf	12	advcl	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Keep as quiet as you can; take off your things, and come upstairs with me.”
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	as	as	ADV	RB	_	3	advmod	_	_
+3	quiet	quiet	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	1	advcl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	1	punct	_	_
+8	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+9	off	off	ADP	RP	_	8	compound:prt	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	things	thing	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+15	upstairs	upstairs	ADV	RB	_	14	advmod	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

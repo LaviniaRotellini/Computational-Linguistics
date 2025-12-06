@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Barkis came into the house for Peggotty’s boxes.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Barkis	Barkis	PROPN	NNP	Number=Sing	1	flat	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	house	house	NOUN	NN	Number=Sing	3	obl	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	Peggotty	Peggotty	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	boxes	box	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I had never known him to pass the garden-gate before, but on this occasion he came into the house.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	pass	pass	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	garden	garden	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	gate	gate	NOUN	NN	Number=Sing	7	obj	_	_
+12	before	before	ADV	RB	_	7	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	but	but	CCONJ	CC	_	19	cc	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	occasion	occasion	NOUN	NN	Number=Sing	19	obl	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	house	house	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And he gave me a look as he shouldered the largest box and went out, which I thought had meaning in it, if meaning could ever be said to find its way into Mr. Barkis’s visage.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	look	look	NOUN	NN	Number=Sing	3	obj	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	shouldered	shouldere	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	largest	largest	ADJ	JJS	Degree=Sup	12	amod	_	_
+12	box	box	NOUN	NN	Number=Sing	9	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+15	out	out	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	14	punct	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	obj	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	meaning	meane	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	_
+25	if	if	SCONJ	IN	_	26	mark	_	_
+26	meaning	meaning	VERB	VBG	VerbForm=Ger	30	advcl	_	_
+27	could	could	AUX	MD	VerbForm=Fin	30	aux	_	_
+28	ever	ever	ADV	RB	_	30	advmod	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	_	_
+30	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	find	find	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	way	way	NOUN	NN	Number=Sing	32	obj	_	_
+35	into	into	ADP	IN	_	39	case	_	_
+36	Mr.	Mr.	PROPN	NNP	Number=Sing	39	nmod:poss	_	_
+37	Barkis	Barkis	PROPN	NNP	Number=Sing	36	flat	_	SpaceAfter=No
+38	’s	's	PART	POS	_	36	case	_	_
+39	visage	visage	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

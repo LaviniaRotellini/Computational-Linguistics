@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The indefinite things which were brewing gradually acquired a strange and indescribable notoriety.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	indefinite	indefinite	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	things	thing	NOUN	NNS	Number=Plur	14	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	brewing	brew	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	gradually	gradually	ADV	RB	_	8	advmod	_	_
+8	acquired	acquire	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	strange	strange	ADJ	JJ	Degree=Pos	13	amod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	indescribable	indescribable	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	notoriety	notoriety	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = A woman sweeping off her doorsteps said to another woman:
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	sweeping	sweep	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	off	off	ADP	RP	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	doorsteps	doorsteps	NOUN	NN	Number=Sing	3	obl	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	another	another	DET	DT	_	10	det	_	_
+10	woman	woman	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	7	punct	_	_
+
+# sent_id = 3
+# text = “For a long time, there has been a strong force busy making cartridges.”
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	For	for	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	there	there	PRON	EX	_	9	expl	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	been	be	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	strong	strong	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	force	force	NOUN	NN	Number=Sing	13	compound	_	_
+13	busy	busy	NOUN	NN	Number=Sing	9	nsubj	_	_
+14	making	make	VERB	VBG	VerbForm=Ger	13	acl	_	_
+15	cartridges	cartridge	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 4
+# text = In the open street, proclamation could be seen addressed to the National Guard in the departments.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	open	open	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	street	street	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	proclamation	proclamation	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+7	could	could	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+9	seen	see	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	addressed	address	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	National	National	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Guard	Guard	PROPN	NNP	Number=Sing	10	obl	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	departments	department	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = One of these proclamations was signed: _Burtot, wine-merchant_.
+1	One	one	NUM	CD	NumType=Card	6	nsubj:pass	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	proclamations	proclamation	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	signed	sign	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	8	punct	_	_
+8	_Burtot	_Burtot	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	wine	wine	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	merchant	merchant	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	8	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My Uriah,’ said Mrs. Heep, ‘has looked forward to this, sir, a long while.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	Uriah	Uriah	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mrs	Mrs	PROPN	NNPS	Number=Plur	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+9	Heep	Heep	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	_
+14	forward	forward	ADV	RB	_	13	advmod	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	sir	sir	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	13	punct	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	long	long	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	while	while	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He had his fears that our umbleness stood in the way, and I joined in them myself.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	fears	fear	NOUN	NNS	Number=Plur	2	obj	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	umbleness	umbleness	NOUN	NN	Number=Sing	8	compound	_	_
+8	stood	stood	NOUN	NN	Number=Sing	4	appos	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	way	way	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	joined	join	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+18	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Umble we are, umble we have been, umble we shall ever be,’ said Mrs. Heep.
+1	Umble	Umble	ADJ	JJ	Degree=Pos	0	root	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	umble	umble	ADJ	JJ	Degree=Pos	1	ccomp	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	umble	umble	ADJ	JJ	Degree=Pos	17	ccomp	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+12	shall	shall	AUX	MD	VerbForm=Fin	17	aux	_	_
+13	ever	ever	ADV	RB	_	14	advmod	_	_
+14	be	be	AUX	VB	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	’	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+18	Mrs.	Mrs.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+19	Heep	Heep	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Come!’ retorted Bounderby, stopping to wheel round upon him, ‘let’s have none of _your_ interruptions.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	_
+5	retorted	retort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	Bounderby	Bounderby	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	stopping	stop	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	wheel	wheel	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	round	round	ADV	RB	_	10	advmod	_	_
+12	upon	upon	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+16	let	let	VERB	VB	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+17	’s	us	PRON	PRP	_	16	obj	_	_
+18	have	have	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	none	none	NOUN	NN	Number=Sing	18	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	_	_	SYM	NFP	_	22	punct	_	SpaceAfter=No
+22	your_	your_	SYM	NFP	_	19	nmod	_	_
+23	interruptions	interruption	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It’s enough to be robbed while you’re snoring because you’re too comfortable, without being put right with _your_ four seven ones.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	robbed	robb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	csubj	_	_
+7	while	while	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	SpaceAfter=No
+9	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	snoring	snoring	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+11	because	because	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+13	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+14	too	too	ADV	RB	_	15	advmod	_	_
+15	comfortable	comfortable	ADJ	JJ	Degree=Pos	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	without	without	SCONJ	IN	_	19	mark	_	_
+18	being	be	AUX	VBG	VerbForm=Ger	19	aux:pass	_	_
+19	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+20	right	right	ADV	RB	_	27	advmod	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	_	_	SYM	NFP	_	27	punct	_	SpaceAfter=No
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	SpaceAfter=No
+24	_	_	SYM	NFP	_	27	punct	_	_
+25	four	four	NUM	CD	NumType=Card	27	nummod	_	_
+26	seven	seven	NUM	CD	NumType=Card	27	nummod	_	_
+27	ones	one	NOUN	NNS	Number=Plur	19	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I didn’t snore, myself, when I was your age, let me tell you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	snore	snore	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	age	age	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+16	tell	tell	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I hadn’t victuals enough to snore.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	victuals	victual	VERB	VB	VerbForm=Inf	0	root	_	_
+5	enough	enough	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	snore	snore	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = And I didn’t four seven one.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	7	advmod	_	_
+5	four	four	NUM	CD	NumType=Card	7	nummod	_	_
+6	seven	seven	NUM	CD	NumType=Card	7	nummod	_	_
+7	one	one	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Not if I knew it.’
+1	Not	not	PART	RB	_	4	advmod	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

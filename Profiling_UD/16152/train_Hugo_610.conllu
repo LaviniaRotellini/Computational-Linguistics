@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When the old woman had taken her departure, he did up a hundred francs which he had in a cupboard, into a roll, and put it in his pocket.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	old	old	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	departure	departure	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	hundred	hundred	NUM	CD	NumType=Card	15	nummod	_	_
+15	francs	franc	NOUN	NNS	Number=Plur	11	obj	_	_
+16	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	cupboard	cupboard	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	11	punct	_	_
+23	into	into	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	roll	roll	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	in	in	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	pocket	pocket	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = In spite of all the precautions which he took in this operation so that he might not be heard rattling silver, a hundred-sou piece escaped from his hands and rolled noisily on the floor.
+1	In	in	ADP	IN	_	2	case	_	_
+2	spite	spite	NOUN	NN	Number=Sing	38	obl	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	precautions	precaution	NOUN	NNS	Number=Plur	2	nmod	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	obj	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	operation	operation	NOUN	NN	Number=Sing	9	obl	_	_
+13	so	so	SCONJ	IN	_	19	mark	_	_
+14	that	that	SCONJ	IN	_	13	fixed	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+16	might	might	AUX	MD	VerbForm=Fin	19	aux	_	_
+17	not	not	PART	RB	_	19	advmod	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+20	rattling	rattling	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	silver	silver	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+24	hundred	hundred	NUM	CD	NumType=Card	26	nummod	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	sou	sou	NOUN	NN	Number=Sing	27	compound	_	_
+27	piece	piece	NOUN	NN	Number=Sing	21	appos	_	_
+28	escaped	escape	VERB	VBN	Tense=Past|VerbForm=Part	27	acl	_	_
+29	from	from	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	hands	hand	NOUN	NNS	Number=Plur	28	obl	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	rolled	roll	VERB	VBN	Tense=Past|VerbForm=Part	28	conj	_	_
+34	noisily	noisily	ADV	RB	_	33	advmod	_	_
+35	on	on	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	floor	floor	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+

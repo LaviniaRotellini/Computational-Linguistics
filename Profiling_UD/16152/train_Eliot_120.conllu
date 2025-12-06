@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Perhaps he has conscientious scruples founded on his own unfitness,” said Dorothea, who was interesting herself in finding a favorable explanation.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+5	conscientious	conscientious	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	scruples	scruple	NOUN	NNS	Number=Plur	4	obj	_	_
+7	founded	founde	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	unfitness	unfitness	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Dorothea	Dorothea	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	interesting	interesting	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	acl:relcl	_	_
+21	in	in	SCONJ	IN	_	22	mark	_	_
+22	finding	find	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	favorable	favorable	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	explanation	explanation	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “Because the law and medicine should be very serious professions to undertake, should they not?
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Because	because	SCONJ	IN	_	11	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	law	law	NOUN	NN	Number=Sing	11	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	medicine	medicine	NOUN	NN	Number=Sing	4	conj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	serious	serious	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	professions	profession	NOUN	NNS	Number=Plur	17	obl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	undertake	undertake	VERB	VB	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	not	not	PART	RB	_	0	root	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = People’s lives and fortunes depend on them.”
+1	People	people	NOUN	NNS	Number=Plur	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	lives	life	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	fortunes	fortune	NOUN	NNS	Number=Plur	3	conj	_	_
+6	depend	depend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	on	on	ADP	IN	_	8	case	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No!
+1	“	"	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = just imagine!
+1	just	just	ADV	RB	_	2	advmod	_	_
+2	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Really it was a mercy,” said Celia; “and I think it is very nice for Dodo to be a widow.
+1	Really	really	ADV	RB	_	5	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	mercy	mercy	NOUN	NN	Number=Sing	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Celia	Celia	PROPN	NNP	Number=Sing	8	parataxis	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	very	very	ADV	RB	_	18	advmod	_	_
+18	nice	nice	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	Dodo	Dodo	PROPN	NNP	Number=Sing	18	obl	_	_
+21	to	to	PART	TO	_	24	mark	_	_
+22	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	widow	widow	NOUN	NN	Number=Sing	18	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = She can be just as fond of our baby as if it were her own, and she can have as many notions of her own as she likes.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	just	just	ADV	RB	_	6	advmod	_	_
+5	as	as	ADV	RB	_	6	advmod	_	_
+6	fond	fond	ADJ	JJ	Degree=Pos	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	baby	baby	NOUN	NN	Number=Sing	6	obl	_	_
+10	as	as	SCONJ	IN	_	15	mark	_	_
+11	if	if	SCONJ	IN	_	15	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	own	own	ADJ	JJ	Degree=Pos	6	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	can	can	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	have	have	VERB	VB	VerbForm=Inf	6	conj	_	_
+21	as	as	ADP	IN	_	23	case	_	_
+22	many	many	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	notions	notion	NOUN	NNS	Number=Plur	20	obl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	own	own	ADJ	JJ	Degree=Pos	23	nmod	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = For one moment, he was relieved.
+1	For	for	ADP	IN	_	3	case	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	moment	moment	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	relieved	relieved	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = As he plunged into the side aisles, he perceived a reddish light behind a cluster of pillars.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	plunged	plunge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	into	into	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	side	side	NOUN	NN	Number=Sing	7	compound	_	_
+7	aisles	aisle	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	reddish	reddish	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	light	light	NOUN	NN	Number=Sing	10	obj	_	_
+14	behind	behind	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	cluster	cluster	NOUN	NN	Number=Sing	10	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	pillars	pillars	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = He ran towards it as to a star.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	towards	towards	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	as	as	ADP	IN	_	8	case	_	_
+6	to	to	ADP	IN	_	5	fixed	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	star	star	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It was the poor lamp which lighted the public breviary of Notre-Dame night and day, beneath its iron grating.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	lamp	lamp	NOUN	NN	Number=Sing	0	root	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	lighted	lighte	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	public	public	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	breviary	breviary	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	Notre	Notre	PROPN	NNP	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	Dame	Dame	PROPN	NNP	Number=Sing	15	compound	_	_
+15	night	night	NOUN	NN	Number=Sing	10	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	day	day	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	5	punct	_	_
+19	beneath	beneath	ADP	IN	_	22	case	_	_
+20	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	iron	iron	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	grating	grating	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = He flung himself eagerly upon the holy book in the hope of finding some consolation, or some encouragement there.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	flung	fling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	eagerly	eagerly	ADV	RB	_	2	advmod	_	_
+5	upon	upon	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	holy	holy	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	book	book	NOUN	NN	Number=Sing	2	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	hope	hope	NOUN	NN	Number=Sing	8	nmod	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	finding	find	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	consolation	consolation	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	or	or	CCONJ	CC	_	19	cc	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	encouragement	encouragement	NOUN	NN	Number=Sing	15	conj	_	_
+20	there	there	ADV	RB	PronType=Dem	13	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = The hook lay open at this passage of Job, over which his staring eye glanced,—
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	hook	hook	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	lay	lay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	open	open	ADJ	JJ	Degree=Pos	3	obj	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	passage	passage	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Job	job	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	over	over	ADP	IN	_	12	case	_	_
+12	which	which	PRON	WDT	PronType=Rel	16	obl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	staring	stare	VERB	VBG	VerbForm=Ger	15	amod	_	_
+15	eye	eye	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	glanced	glance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+17	,—	,—	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

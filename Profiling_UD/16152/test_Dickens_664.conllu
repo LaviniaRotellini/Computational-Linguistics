@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mr. Herbert,” said Wemmick, “after being all of a heap for half an hour, struck out a plan.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	Herbert	Herbert	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Wemmick	Wemmick	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+10	after	after	SCONJ	IN	_	12	mark	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	12	cop	_	_
+12	all	all	DET	DT	_	21	advcl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	heap	heap	NOUN	NN	Number=Sing	12	nmod	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	half	half	DET	PDT	_	19	det:predet	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	hour	hour	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	struck	strike	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+22	out	out	ADP	RP	_	21	compound:prt	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	plan	plan	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He mentioned to me as a secret, that he is courting a young lady who has, as no doubt you are aware, a bedridden Pa.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	mentioned	mention	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	secret	secret	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	courting	court	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	young	young	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	lady	lady	NOUN	NN	Number=Sing	12	obj	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	as	as	SCONJ	IN	_	21	case	_	_
+20	no	no	DET	DT	_	21	det	_	_
+21	doubt	doubt	NOUN	NN	Number=Sing	17	obl	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	aware	aware	ADJ	JJ	Degree=Pos	21	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	bedridden	bedridden	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	Pa	pa	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Which Pa, having been in the Purser line of life, lies a-bed in a bow-window where he can see the ships sail up and down the river.
+1	Which	which	PROPN	NNP	Number=Sing	9	nsubj	_	_
+2	Pa	pa	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	having	have	AUX	VBG	VerbForm=Ger	9	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	cop	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	Purser	Purser	NOUN	NN	Number=Sing	9	compound	_	_
+9	line	line	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	life	life	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	bed	bed	NOUN	NN	Number=Sing	13	obj	_	_
+17	in	in	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	bow	bow	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	window	window	NOUN	NN	Number=Sing	13	obl	_	_
+22	where	where	ADV	WRB	PronType=Rel	25	advmod	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	can	can	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	see	see	VERB	VB	VerbForm=Inf	21	acl:relcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	ships	ship	NOUN	NNS	Number=Plur	28	nsubj	_	_
+28	sail	sail	VERB	VB	VerbForm=Inf	25	ccomp	_	_
+29	up	up	ADP	RP	_	28	compound:prt	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	down	down	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	river	river	NOUN	NN	Number=Sing	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = You are acquainted with the young lady, most probably?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	acquainted	acquaint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	lady	lady	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	most	most	ADV	RBS	_	10	advmod	_	_
+10	probably	probably	ADV	RB	_	3	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

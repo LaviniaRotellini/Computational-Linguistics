@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, indeed, I can imagine,” said Mrs. Taft, keeping the number of thirty stitches carefully in her mind all the while; “there are so many of that sort.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	indeed	indeed	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	imagine	imagine	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Taft	Taft	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	keeping	keep	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	number	number	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	thirty	thirty	NUM	CD	NumType=Card	20	nummod	_	_
+20	stitches	stitch	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	carefully	carefully	ADV	RB	_	15	advmod	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	mind	mind	NOUN	NN	Number=Sing	15	obl	_	_
+25	all	all	DET	PDT	_	27	det:predet	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	while	while	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	11	punct	_	_
+29	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+30	there	there	PRON	EX	_	31	expl	_	_
+31	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+32	so	so	ADV	RB	_	33	advmod	_	_
+33	many	many	ADJ	JJ	Degree=Pos	31	nsubj	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	that	that	DET	DT	Number=Sing|PronType=Dem	36	det	_	_
+36	sort	sort	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = I remember Mr. Cheshire, with his irons, trying to make people straight when the Almighty had made them crooked.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Cheshire	Cheshire	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	irons	iron	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	trying	try	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	make	make	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	people	people	NOUN	NNS	Number=Plur	12	obj	_	_
+14	straight	straight	ADV	RB	_	19	advmod	_	_
+15	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Almighty	Almighty	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	made	make	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	crooked	crooke	VERB	VBN	Tense=Past|VerbForm=Part	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

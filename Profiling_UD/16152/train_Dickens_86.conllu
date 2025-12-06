@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I dare say no words she could have uttered would have affected me so much, then, as her calling me her child.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	words	word	NOUN	NNS	Number=Plur	12	nsubj	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	have	have	AUX	VB	VerbForm=Inf	9	aux	_	_
+9	uttered	utter	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	much	much	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	then	then	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	as	as	SCONJ	IN	_	21	mark	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nsubj	_	_
+21	calling	call	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	child	child	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I hid my tears in the bedclothes, and pressed her from me with my hand, when she would have raised me up.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hid	hide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	tears	tear	NOUN	NNS	Number=Plur	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	bedclothes	bedclothes	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	pressed	press	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hand	hand	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	10	punct	_	_
+18	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	up	up	ADP	RP	_	22	compound:prt	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

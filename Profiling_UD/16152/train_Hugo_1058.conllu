@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It thought that it had roots, because it was the past.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	roots	root	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	because	because	SCONJ	IN	_	12	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	past	past	NOUN	NN	Number=Sing	2	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was mistaken; it formed a part of the past, but the whole past was France.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	mistaken	mistaken	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	formed	form	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	part	part	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	past	past	ADJ	JJ	Degree=Pos	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	but	but	CCONJ	CC	_	18	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	whole	whole	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	past	past	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	France	France	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The roots of French society were not fixed in the Bourbons, but in the nations.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	roots	root	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	French	french	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	society	society	NOUN	NN	Number=Sing	2	nmod	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Bourbons	Bourbon	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	but	but	CCONJ	CC	_	16	cc	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	nations	nation	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = These obscure and lively roots constituted, not the right of a family, but the history of a people.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+2	obscure	obscure	ADJ	JJ	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	lively	lively	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	roots	root	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	constituted	constitute	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	not	not	CCONJ	CC	_	10	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	right	right	NOUN	NN	Number=Sing	6	conj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	family	family	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	but	but	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	history	history	NOUN	NN	Number=Sing	6	conj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	people	people	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = They were everywhere, except under the throne.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	everywhere	everywhere	ADV	RB	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	except	except	ADP	IN	_	8	case	_	_
+6	under	under	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	throne	throne	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

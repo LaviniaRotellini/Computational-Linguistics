@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Maggie, you little silly,” said Tom, peeping into the room ten minutes after, “why don’t you come and have your dinner?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Maggie	Maggie	X	FW	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	obl:npmod	_	_
+6	silly	silly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	parataxis	_	_
+10	Tom	Tom	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	peeping	pee	VERB	VBG	VerbForm=Ger	19	ccomp	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	room	room	NOUN	NN	Number=Sing	12	obl	_	_
+16	ten	ten	NUM	CD	NumType=Card	17	nummod	_	_
+17	minutes	minute	NOUN	NNS	Number=Plur	18	obl:npmod	_	_
+18	after	after	ADV	RB	_	12	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	9	punct	_	_
+20	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+21	why	why	ADV	WRB	PronType=Int	25	advmod	_	_
+22	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+23	n’t	not	PART	RB	_	25	advmod	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	_
+25	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	have	have	VERB	VB	VerbForm=Inf	25	conj	_	_
+28	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	dinner	dinner	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	?	?	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 2
+# text = There’s lots o’ goodies, and mother says you’re to come.
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lots	lot	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	o	of	ADP	IN	Abbr=Yes	6	case	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	goodies	goody	NOUN	NNS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	mother	mother	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
+12	’re	’re	ADV	RB	PronType=Dem	11	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	come	come	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = What are you crying for, you little spooney?”
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	crying	cry	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	for	for	ADP	IN	_	4	case	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nmod:poss	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	spooney	spooney	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

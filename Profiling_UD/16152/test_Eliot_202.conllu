@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, what nonsense that is to talk!” said Mrs. Poyser.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	12	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	what	what	DET	WDT	PronType=Int	5	det	_	_
+5	nonsense	nonsense	NOUN	NN	Number=Sing	2	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	talk	talk	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Poyser	Poyser	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Do you think you can live wi’out eatin’, an’ nourish your inside wi’ stickin’ red ribbons on your head?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	live	live	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	wi’out	wi’out	ADP	IN	_	9	case	_	_
+9	eatin	eatin	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	’	's	PUNCT	''	_	4	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	nourish	nourish	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+16	inside	inside	ADP	RP	_	17	case	_	_
+17	wi	wus	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	19	punct	_	_
+19	stickin	stickin	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	19	punct	_	_
+21	red	red	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	ribbons	ribbon	NOUN	NNS	Number=Plur	19	appos	_	_
+23	on	on	ADP	IN	_	25	case	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	head	head	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Go an’ get your supper this minute, child; there’s a nice bit o’ cold pudding i’ the safe—just what you’re fond of.”
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	1	punct	_	_
+4	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	supper	supper	NOUN	NN	Number=Sing	4	obj	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	minute	minute	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	child	child	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	1	punct	_	_
+12	there	there	PRON	EX	_	13	expl	_	SpaceAfter=No
+13	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	nice	nice	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	bit	bit	NOUN	NN	Number=Sing	13	nsubj	_	_
+17	o	of	ADP	IN	Abbr=Yes	20	mark	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	19	punct	_	_
+19	cold	could	ADJ	JJ	Degree=Pos	17	amod	_	_
+20	pudding	pudd	VERB	VBG	VerbForm=Ger	16	acl	_	_
+21	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	24	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	safe	safe	ADJ	JJ	Degree=Pos	20	obl	_	SpaceAfter=No
+25	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+26	just	just	ADV	RB	_	27	advmod	_	_
+27	what	what	PRON	WP	PronType=Int	29	obj	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	SpaceAfter=No
+29	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+30	fond	fond	NOUN	NN	Number=Sing	29	obj	_	_
+31	of	of	ADP	IN	_	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

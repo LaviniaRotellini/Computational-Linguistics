@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I tipped him several more, and he was in great spirits.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tipped	tip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	several	several	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	more	more	ADV	RBR	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	and	and	CCONJ	CC	_	12	cc	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	great	great	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	spirits	spirit	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = We left him bestirring himself to feed the fowls, and we sat down to our punch in the arbour; where Wemmick told me, as he smoked a pipe, that it had taken him a good many years to bring the property up to its present pitch of perfection.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	bestirring	bestirr	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	feed	feed	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	fowls	fowl	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	conj	_	_
+14	down	down	ADV	RB	_	13	advmod	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	punch	punch	NOUN	NN	Number=Sing	13	obl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	arbour	arbour	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	13	punct	_	_
+22	where	where	ADV	WRB	PronType=Rel	24	advmod	_	_
+23	Wemmick	Wemmick	PROPN	NNP	Number=Sing	24	nsubj	_	_
+24	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	2	punct	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	smoked	smoke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	pipe	pipe	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	29	punct	_	_
+33	that	that	SCONJ	IN	_	36	mark	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+35	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
+36	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+37	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+39	good	good	ADJ	JJ	Degree=Pos	41	amod	_	_
+40	many	many	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	years	year	NOUN	NNS	Number=Plur	36	obj	_	_
+42	to	to	PART	TO	_	43	mark	_	_
+43	bring	bring	VERB	VB	VerbForm=Inf	41	acl	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	property	property	NOUN	NN	Number=Sing	43	obj	_	_
+46	up	up	ADP	RP	_	43	compound:prt	_	_
+47	to	to	ADP	IN	_	50	case	_	_
+48	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	nmod:poss	_	_
+49	present	present	ADJ	JJ	Degree=Pos	50	amod	_	_
+50	pitch	pitch	NOUN	NN	Number=Sing	43	obl	_	_
+51	of	of	ADP	IN	_	52	case	_	_
+52	perfection	perfection	NOUN	NN	Number=Sing	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

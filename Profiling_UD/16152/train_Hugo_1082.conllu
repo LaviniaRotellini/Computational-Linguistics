@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I don’t know the names of the leaders.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	names	name	NOUN	NNS	Number=Plur	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	leaders	leader	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = We folks shall not know the day until two hours beforehand.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	compound	_	_
+2	folks	folk	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	day	day	NOUN	NN	Number=Sing	5	obj	_	_
+8	until	until	ADP	IN	_	10	case	_	_
+9	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+10	hours	hour	NOUN	NNS	Number=Plur	5	obl	_	_
+11	beforehand	beforehand	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = One workman said: “There are three hundred of us, let each contribute ten sous, that will make one hundred and fifty francs with which to procure powder and shot.”
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	workman	workman	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+6	There	there	PRON	EX	_	7	expl	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	three	three	NUM	CD	NumType=Card	9	nummod	_	_
+9	hundred	hundred	NUM	CD	NumType=Card	7	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	let	let	VERB	VB	VerbForm=Inf	7	conj	_	_
+14	each	each	DET	DT	_	15	obj	_	_
+15	contribute	contribute	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	ten	ten	NUM	CD	NumType=Card	17	nummod	_	_
+17	sous	sous	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	make	make	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+22	one	one	NUM	CD	NumType=Card	23	nummod	_	_
+23	hundred	hundred	NUM	CD	NumType=Card	21	obj	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	fifty	fifty	NUM	CD	NumType=Card	26	nummod	_	_
+26	francs	franc	NOUN	NNS	Number=Plur	23	conj	_	_
+27	with	with	ADP	IN	_	28	case	_	_
+28	which	which	PRON	WDT	PronType=Int	26	nmod	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	procure	procure	VERB	VB	VerbForm=Inf	26	acl	_	_
+31	powder	powder	NOUN	NN	Number=Sing	30	obj	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	shot	shot	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

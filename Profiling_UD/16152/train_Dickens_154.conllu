@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Mell never said much to me, but he was never harsh to me.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Mell	Mell	PROPN	NNP	Number=Sing	1	flat	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	much	much	ADV	RB	_	7	advmod	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	harsh	harsh	ADJ	JJ	Degree=Pos	4	conj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I suppose we were company to each other, without talking.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	company	company	NOUN	NN	Number=Sing	2	ccomp	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	each	each	DET	DT	_	8	det	_	_
+8	other	other	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	without	without	SCONJ	IN	_	11	mark	_	_
+11	talking	talk	VERB	VBG	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I forgot to mention that he would talk to himself sometimes, and grin, and clench his fist, and grind his teeth, and pull his hair in an unaccountable manner.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	forgot	forget	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	mention	mention	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	talk	talk	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	_
+11	sometimes	sometimes	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	grin	grin	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	clench	clench	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	fist	fist	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	grind	grind	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	teeth	tooth	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	pull	pull	VERB	VB	VerbForm=Inf	2	conj	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	hair	hair	NOUN	NN	Number=Sing	27	obj	_	_
+30	in	in	ADP	IN	_	33	case	_	_
+31	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	unaccountable	unaccountable	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	manner	manner	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But he had these peculiarities:
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	peculiarities	peculiarity	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 5
+# text = and at first they frightened me, though I soon got used to them.
+1	and	and	CCONJ	CC	_	5	cc	_	_
+2	at	at	ADV	RB	_	3	advmod	_	_
+3	first	first	ADV	RBS	_	5	advmod	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	frightened	frighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	though	though	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	soon	soon	ADV	RB	Degree=Pos	11	advmod	_	_
+11	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+12	used	used	VERB	VBN	Tense=Past|VerbForm=Part	11	xcomp	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

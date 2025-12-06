@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s true.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = But a man mopes, you know.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	man	man	NOUN	NN	Number=Sing	4	compound	_	_
+4	mopes	mope	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have always been a bachelor too, but I have that sort of disposition that I never moped; it was my way to go about everywhere and take in everything.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	always	always	ADV	RB	_	6	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	bachelor	bachelor	NOUN	NN	Number=Sing	0	root	_	_
+7	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	sort	sort	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	disposition	disposition	NOUN	NN	Number=Sing	13	nmod	_	_
+16	that	that	PRON	WDT	PronType=Rel	19	obj	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	never	never	ADV	RB	_	19	advmod	_	_
+19	moped	mo	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	6	punct	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	way	way	NOUN	NN	Number=Sing	6	parataxis	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	go	go	VERB	VB	VerbForm=Inf	24	acl	_	_
+27	about	about	ADV	RB	_	28	advmod	_	_
+28	everywhere	everywhere	ADV	RB	_	26	advmod	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	take	take	VERB	VB	VerbForm=Inf	26	conj	_	_
+31	in	in	ADP	RP	_	32	case	_	_
+32	everything	everything	PRON	NN	Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = I never moped: but I can see that Casaubon does, you know.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	moped	mo	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	but	but	CCONJ	CC	_	8	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	Casaubon	Casaubon	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = He wants a companion—a companion, you know.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	companion	companion	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	companion	companion	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

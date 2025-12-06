@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That is all very fine,” replied Mr. Standish, who was not fond of Mr. Bulstrode; “if you like him to try experiments on your hospital patients, and kill a few people for charity I have no objection.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	all	all	DET	DT	_	6	nsubj	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+9	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Standish	Standish	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	not	not	PART	RB	_	16	advmod	_	_
+16	fond	fond	ADJ	JJ	Degree=Pos	10	acl:relcl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	16	obl	_	_
+19	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	9	punct	_	_
+21	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+22	if	if	SCONJ	IN	_	24	mark	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+24	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	try	try	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+28	experiments	experiment	NOUN	NNS	Number=Plur	27	obj	_	_
+29	on	on	ADP	IN	_	32	case	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	hospital	hospital	NOUN	NN	Number=Sing	32	compound	_	_
+32	patients	patient	NOUN	NNS	Number=Plur	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	kill	kill	VERB	VB	VerbForm=Inf	24	conj	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	few	few	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	people	people	NOUN	NNS	Number=Plur	35	obj	_	_
+39	for	for	ADP	IN	_	40	case	_	_
+40	charity	charity	NOUN	NN	Number=Sing	35	obl	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+42	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+43	no	no	DET	DT	_	44	det	_	_
+44	objection	objection	NOUN	NN	Number=Sing	42	obj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = But I am not going to hand money out of my purse to have experiments tried on me.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	hand	hand	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+9	out	out	ADP	IN	_	12	case	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	purse	purse	NOUN	NN	Number=Sing	7	obl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	have	have	VERB	VB	VerbForm=Inf	7	advcl	_	_
+15	experiments	experiment	NOUN	NNS	Number=Plur	14	obj	_	_
+16	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	_	_
+17	on	on	ADP	IN	_	18	case	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I like treatment that has been tested a little.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	treatment	treatment	NOUN	NN	Number=Sing	2	obj	_	_
+4	that	that	PRON	WDT	PronType=Rel	7	nsubj:pass	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	tested	test	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	7	obl:npmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

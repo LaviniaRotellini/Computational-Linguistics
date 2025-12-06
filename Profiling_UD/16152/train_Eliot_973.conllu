@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, you didn’t mean me to know it; I call that ungenerous reticence.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	know	know	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	7	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+16	ungenerous	ungenerous	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	reticence	reticence	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = You should let a man have the pleasure of feeling that you have done him a good turn.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	man	man	NOUN	NN	Number=Sing	3	obj	_	_
+6	have	have	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	pleasure	pleasure	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	feeling	feeling	NOUN	NN	Number=Sing	8	nmod	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	done	do	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	good	good	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	turn	turn	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I don’t enter into some people’s dislike of being under an obligation: upon my word, I prefer being under an obligation to everybody for behaving well to me.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	enter	enter	VERB	VB	VerbForm=Inf	0	root	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	some	some	DET	DT	_	7	det	_	_
+7	people	people	NOUN	NNS	Number=Plur	14	nsubj	_	SpaceAfter=No
+8	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+9	dislike	dislike	ADP	IN	_	14	case	_	_
+10	of	of	SCONJ	IN	_	14	mark	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	14	cop	_	_
+12	under	under	ADP	IN	_	14	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	obligation	obligation	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+15	:	:	PUNCT	:	_	4	punct	_	_
+16	upon	upon	ADP	IN	_	18	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	word	word	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	prefer	prefer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	being	be	AUX	VBG	VerbForm=Ger	25	cop	_	_
+23	under	under	ADP	IN	_	25	case	_	_
+24	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	obligation	obligation	NOUN	NN	Number=Sing	21	obl	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	everybody	everybody	PRON	NN	Number=Sing	25	nmod	_	_
+28	for	for	SCONJ	IN	_	29	mark	_	_
+29	behaving	behave	VERB	VBG	VerbForm=Ger	27	acl	_	_
+30	well	well	ADV	RB	Degree=Pos	29	advmod	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

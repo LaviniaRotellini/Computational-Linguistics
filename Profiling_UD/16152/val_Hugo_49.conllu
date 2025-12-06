@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Déruchette had her music and piano in this chamber; she accompanied herself on the instrument when singing the melody which she preferred--the melancholy Scottish air of "Bonnie Dundee."
+1	Déruchette	Déruchette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	music	music	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	piano	piano	NOUN	NN	Number=Sing	4	conj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	chamber	chamber	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	accompanied	accompany	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	instrument	instrument	NOUN	NN	Number=Sing	12	obl	_	_
+17	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+18	singing	singe	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	melody	melody	NOUN	NN	Number=Sing	18	obj	_	_
+21	which	which	PRON	WDT	PronType=Rel	23	obj	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	preferred	prefer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+24	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	melancholy	melancholy	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	Scottish	scottish	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	air	air	NOUN	NN	Number=Sing	2	appos	_	_
+29	of	of	ADP	IN	_	32	case	_	_
+30	"	"	PUNCT	``	_	32	punct	_	SpaceAfter=No
+31	Bonnie	Bonnie	PROPN	NNP	Number=Sing	32	compound	_	_
+32	Dundee	Dundee	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	"	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = The very spirit of night breathes in this melody; but her voice was full of the freshness of dawn.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	very	very	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	spirit	spirit	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	night	night	NOUN	NN	Number=Sing	6	compound	_	_
+6	breathes	breath	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	melody	melody	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	3	punct	_	_
+11	but	but	CCONJ	CC	_	15	cc	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	voice	voice	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	full	full	ADJ	JJ	Degree=Pos	3	conj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	freshness	freshness	NOUN	NN	Number=Sing	15	obl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	dawn	dawn	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The contrast was quaint and pleasing; people said, "Miss Déruchette is at her piano."
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	contrast	contrast	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	quaint	quaint	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	pleasing	pleasing	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+12	Miss	miss	PROPN	NNP	Number=Sing	9	nsubj	_	_
+13	Déruchette	Déruchette	PROPN	NNP	Number=Sing	12	flat	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	piano	piano	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+19	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

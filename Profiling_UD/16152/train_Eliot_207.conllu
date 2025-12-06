@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Confound John Waule!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Confound	Confound	PROPN	NNP	Number=Sing	0	root	_	_
+3	John	John	PROPN	NNP	Number=Sing	2	appos	_	_
+4	Waule	Waule	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I did not mean to make you angry.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	make	make	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	angry	angry	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I didn’t know you had any reason for being grateful to me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	any	any	DET	DT	_	8	det	_	_
+8	reason	reason	NOUN	NN	Number=Sing	6	obj	_	_
+9	for	for	SCONJ	IN	_	11	mark	_	_
+10	being	be	AUX	VBG	VerbForm=Ger	11	cop	_	_
+11	grateful	grateful	ADJ	JJ	Degree=Pos	6	advcl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I forgot what a great service you think it if any one snuffs a candle for you.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	forgot	forget	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	what	what	PRON	WP	PronType=Int	8	obj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	great	great	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	service	service	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	one	one	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	snuffs	snuff	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	candle	candle	NOUN	NN	Number=Sing	13	obj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 5
+# text = Fred also had his pride, and was not going to show that he knew what had called forth this outburst of Mary’s.
+1	Fred	Fred	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	pride	pride	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	show	show	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+16	what	what	PRON	WP	PronType=Int	18	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	called	call	VERB	VBN	Tense=Past|VerbForm=Part	15	ccomp	_	_
+19	forth	forth	ADV	RB	_	18	advmod	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	outburst	outburst	NOUN	NN	Number=Sing	18	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	Mary	Mary	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

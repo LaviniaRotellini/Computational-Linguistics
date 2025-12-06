@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Boatman!
+1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Boatman	Boatman	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = wait there for us.
+1	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	there	there	ADV	RB	PronType=Dem	1	advmod	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = We shall return soon.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	return	return	VERB	VB	VerbForm=Inf	0	root	_	_
+4	soon	soon	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = You asked me, Miss Lethierry, how I came to be here.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	Miss	miss	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Lethierry	Lethierry	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	here	here	ADV	RB	PronType=Dem	10	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = The answer is very simple.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	answer	answer	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	simple	simple	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = I walked behind you.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	behind	behind	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = You are twenty-one.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	twenty	twenty	NUM	CD	NumType=Card	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	one	one	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = In this country, when persons are of age, and depend only on themselves, they may be married immediately.
+1	In	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	country	country	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+6	persons	person	NOUN	NNS	Number=Plur	9	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	age	age	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	depend	depend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	only	only	ADV	RB	_	15	advmod	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj:pass	_	_
+18	may	may	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+21	immediately	immediately	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 9
+# text = Let us take the path along the water-side.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	take	take	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	path	path	NOUN	NN	Number=Sing	3	obj	_	_
+6	along	along	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	water	water	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	side	side	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 10
+# text = It is passable; the tide will not rise here till noon.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	passable	passable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	tide	tide	NOUN	NN	Number=Sing	9	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	rise	rise	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+10	here	here	ADV	RB	PronType=Dem	9	advmod	_	_
+11	till	till	ADP	IN	_	12	case	_	_
+12	noon	noon	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 11
+# text = But lose no time.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	lose	lose	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	time	time	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Come with me."
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	with	with	ADP	IN	_	3	case	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	"	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

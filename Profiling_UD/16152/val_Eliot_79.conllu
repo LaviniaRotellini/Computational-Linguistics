@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “An’ I’n gi’en you everything, an’ showed you everything, an’ niver wanted nothin’ from you.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	An	a	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	2	punct	_	_
+4	I’n	I’n	PROPN	NNP	Number=Sing	5	compound	_	_
+5	gi	gi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	6	nsubj	_	SpaceAfter=No
+6	’en	’en	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	everything	everythe	PRON	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	8	punct	_	_
+12	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	iobj	_	_
+14	everything	everything	PRON	NN	Number=Sing	19	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	18	punct	_	_
+18	niver	niver	NOUN	NN	Number=Sing	14	appos	_	_
+19	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	parataxis	_	_
+20	nothin	nothin	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	19	punct	_	_
+22	from	from	ADP	IN	_	23	case	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = An’ there’s your horn-handed knife, then as you gi’en me.”
+1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
+2	’	'	PUNCT	''	_	4	punct	_	_
+3	there	there	PRON	EX	_	4	expl	_	SpaceAfter=No
+4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	horn	horn	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	handed	hand	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	knife	knife	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nmod:poss	_	_
+14	gi	gi	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No
+15	’en	’en	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = Here Bob flung the knife as far as he could after Tom’s retreating footsteps.
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	_
+2	Bob	Bob	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	flung	fling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	knife	knife	NOUN	NN	Number=Sing	3	obj	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	far	far	ADV	RB	Degree=Pos	3	advmod	_	_
+8	as	as	SCONJ	IN	_	15	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+11	after	after	ADP	IN	_	15	case	_	_
+12	Tom	Tom	PROPN	NNP	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	retreating	retreat	NOUN	NN	Number=Sing	15	compound	_	_
+15	footsteps	footstep	NOUN	NNS	Number=Plur	3	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = But it produced no effect, except the sense in Bob’s mind that there was a terrible void in his lot, now that knife was gone.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	produced	produce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	effect	effect	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	except	except	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sense	sense	NOUN	NN	Number=Sing	3	obl	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	Bob	Bob	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	mind	mind	NOUN	NN	Number=Sing	9	nmod	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	there	there	PRON	EX	_	16	expl	_	_
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	terrible	terrible	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	void	void	NOUN	NN	Number=Sing	16	nsubj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	lot	lot	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	16	punct	_	_
+24	now	now	ADV	RB	_	16	advmod	_	_
+25	that	that	SCONJ	IN	_	28	mark	_	_
+26	knife	knife	NOUN	NN	Number=Sing	28	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	gone	go	ADJ	JJ	Degree=Pos	16	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

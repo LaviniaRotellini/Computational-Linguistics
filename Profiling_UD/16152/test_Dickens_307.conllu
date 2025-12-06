@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mr. Jaggers left word, would you wait in his room.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Jaggers	Jaggers	PROPN	NNP	Number=Sing	2	flat	_	_
+4	left	left	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	word	word	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	wait	wait	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	room	room	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He couldn’t say how long he might be, having a case on.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+6	long	long	ADV	RB	Degree=Pos	11	advmod	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	might	might	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	aux	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	having	have	VERB	VBG	VerbForm=Ger	4	ccomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	case	case	NOUN	NN	Number=Sing	14	obl:npmod	_	_
+14	on	on	ADV	RB	_	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But it stands to reason, his time being valuable, that he won’t be longer than he can help.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	reason	reason	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+9	being	be	AUX	VBG	VerbForm=Ger	10	cop	_	_
+10	valuable	valuable	ADJ	JJ	Degree=Pos	8	acl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	that	that	SCONJ	IN	_	17	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	wo	will	AUX	MD	VerbForm=Fin	17	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	17	advmod	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+17	longer	longer	ADJ	JJR	Degree=Cmp	3	advcl	_	_
+18	than	than	SCONJ	IN	_	21	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	can	can	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	help	help	VERB	VB	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘But ’t an’t sommuch for that as I stands out.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	3	cc	_	_
+3	’t	’t	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	SpaceAfter=No
+5	n’t	n’t	NOUN	NN	Number=Sing	6	compound	_	_
+6	sommuch	sommuch	NOUN	NN	Number=Sing	3	obj	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nmod	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	out	out	ADP	RP	_	11	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = If that were aw, I’d coom in wi’ th’ rest.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	aw	aw	ADV	RB	_	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+7	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	coom	coom	NOUN	NN	Number=Sing	7	obj	_	_
+9	in	in	ADP	IN	_	14	case	_	_
+10	wi	wi	PROPN	NNP	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+11	’	's	PART	POS	_	10	case	_	_
+12	th	th	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	’	's	PUNCT	''	_	12	punct	_	_
+14	rest	rest	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = But I ha’ my reasons—mine, yo see—for being hindered; not on’y now, but awlus—awlus—life long!’
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	ha	ha	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	6	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	reasons	reason	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	mine	mine	PRON	PRP	_	11	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	yo	yo	INTJ	UH	_	11	discourse	_	_
+11	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+13	for	for	SCONJ	IN	_	15	mark	_	_
+14	being	be	AUX	VBG	VerbForm=Ger	15	aux:pass	_	_
+15	hindered	hinder	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	11	punct	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	o	o	ADV	RB	_	19	advmod	_	SpaceAfter=No
+19	n’y	n’y	ADV	RB	_	20	advmod	_	_
+20	now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	27	punct	_	_
+22	but	but	CCONJ	CC	_	27	cc	_	_
+23	awlus	awlus	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	25	punct	_	SpaceAfter=No
+25	awlus	awlus	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	27	punct	_	SpaceAfter=No
+27	life	life	NOUN	NN	Number=Sing	6	conj	_	_
+28	long	long	ADV	RB	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

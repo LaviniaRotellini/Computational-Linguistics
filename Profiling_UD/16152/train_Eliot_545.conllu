@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have had the gratification of meeting my former acquaintance, Dr. Spanning, to-day, and of being praised by one who is himself a worthy recipient of praise.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	gratification	gratification	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	meeting	meet	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	former	former	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	acquaintance	acquaintance	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	Dr.	Dr.	PROPN	NNP	Number=Sing	4	obj	_	_
+14	Spanning	Spanning	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	to	to	ADP	IN	_	18	case	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	day	day	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	of	of	SCONJ	IN	_	23	mark	_	_
+22	being	be	AUX	VBG	VerbForm=Ger	23	aux:pass	_	_
+23	praised	praise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+24	by	by	ADP	IN	_	25	case	_	_
+25	one	one	NUM	CD	NumType=Card	23	obl	_	_
+26	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+28	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	nsubj	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	worthy	worthy	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	recipient	recipient	NOUN	NN	Number=Sing	25	acl:relcl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	praise	praise	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He spoke very handsomely of my late tractate on the Egyptian Mysteries,—using, in fact, terms which it would not become me to repeat.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	handsomely	handsomely	ADV	RB	_	2	advmod	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	late	late	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	tractate	tractate	NOUN	NN	Number=Sing	4	obl	_	_
+9	on	on	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	Egyptian	egyptian	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	Mysteries	mystery	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+13	,—	,—	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	using	use	VERB	VBG	VerbForm=Ger	2	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	fact	fact	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	terms	terms	NOUN	NNS	Number=Plur	2	nmod	_	_
+20	which	which	PRON	WDT	PronType=Rel	24	obj	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	become	become	VERB	VB	VerbForm=Inf	19	acl:relcl	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	repeat	repeat	VERB	VB	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = In uttering the last clause, Mr. Casaubon leaned over the elbow of his chair, and swayed his head up and down, apparently as a muscular outlet instead of that recapitulation which would not have been becoming.
+1	In	in	SCONJ	IN	_	2	mark	_	_
+2	uttering	uttering	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	last	last	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	clause	clause	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Casaubon	Casaubon	PROPN	NNP	Number=Sing	7	flat	_	_
+9	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	over	over	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	elbow	elbow	NOUN	NN	Number=Sing	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	chair	chair	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	swayed	sway	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	head	head	NOUN	NN	Number=Sing	18	obj	_	_
+21	up	up	ADP	RP	_	18	compound:prt	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	down	down	ADV	RB	_	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	9	punct	_	_
+25	apparently	apparently	ADV	RB	_	29	advmod	_	_
+26	as	as	ADP	IN	_	29	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	muscular	muscular	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	outlet	outlet	NOUN	NN	Number=Sing	9	obl	_	_
+30	instead	instead	ADV	RB	_	33	case	_	_
+31	of	of	ADP	IN	_	30	fixed	_	_
+32	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+33	recapitulation	recapitulation	NOUN	NN	Number=Sing	29	nmod	_	_
+34	which	which	PRON	WDT	PronType=Rel	39	nsubj	_	_
+35	would	would	AUX	MD	VerbForm=Fin	39	aux	_	_
+36	not	not	PART	RB	_	39	advmod	_	_
+37	have	have	AUX	VB	VerbForm=Inf	39	aux	_	_
+38	been	be	AUX	VBN	Tense=Past|VerbForm=Part	39	aux	_	_
+39	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	29	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

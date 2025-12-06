@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!’ said my aunt, ‘I was not aware at first to whom I had the pleasure of objecting.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	aunt	aunt	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	aware	aware	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	first	first	ADV	RB	_	13	obl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	whom	whom	PRON	WP	PronType=Rel	19	obl	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	pleasure	pleasure	NOUN	NN	Number=Sing	13	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	objecting	objecting	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But I don’t allow anybody to ride over that turf.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	allow	allow	VERB	VB	VerbForm=Inf	0	root	_	_
+6	anybody	anybody	PRON	NN	Number=Sing	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	ride	ride	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	over	over	ADP	IN	_	11	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	turf	turf	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I make no exceptions.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	exceptions	exceptions	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I don’t allow anybody to do it.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	allow	allow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anybody	anybody	PRON	NN	Number=Sing	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

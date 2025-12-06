@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, my dear friend,” said he, when he had recovered wind for speech.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	friend	friend	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	recovered	recover	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+16	wind	wind	NOUN	NN	Number=Sing	15	obj	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	speech	speech	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “Not if I can help it.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	6	advmod	_	_
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	help	help	VERB	VB	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = This occasion shall not entirely pass without that affability on your part.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	occasion	occasion	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	entirely	entirely	ADV	RB	_	6	advmod	_	_
+6	pass	pass	VERB	VB	VerbForm=Inf	0	root	_	_
+7	without	without	ADP	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	affability	affability	NOUN	NN	Number=Sing	6	obl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	part	part	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = —May I, as an old friend and well-wisher?
+1	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+2	May	may	AUX	MD	VerbForm=Fin	8	cop	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	as	as	ADP	IN	_	8	case	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	old	old	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	friend	friend	NOUN	NN	Number=Sing	0	root	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	well	well	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+11	-	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+12	wisher	wisher	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	conj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = _May_ I?”
+1	_May	_May	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	3	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

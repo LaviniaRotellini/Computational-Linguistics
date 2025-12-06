@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I tell you what, Thquire.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	what	what	PRON	WP	PronType=Int	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Thquire	Thquire	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = To thpeak plain to you, my opinion ith that you had better cut it thort, and drop it.
+1	To	to	PART	TO	_	2	mark	_	_
+2	thpeak	thpeak	VERB	VB	VerbForm=Inf	8	advcl	_	_
+3	plain	plain	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	opinion	opinion	NOUN	NN	Number=Sing	0	root	_	_
+9	ith	ith	SCONJ	IN	_	14	mark	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	better	better	ADV	RBR	Degree=Cmp	14	advmod	_	_
+14	cut	cut	VERB	VB	VerbForm=Inf	8	acl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	thort	thort	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	drop	drop	VERB	VB	VerbForm=Inf	14	conj	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = They’re a very good natur’d people, my people, but they’re accuthtomed to be quick in their movementh; and if you don’t act upon my advithe, I’m damned if I don’t believe they’ll pith you out o’ winder.’
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	natur	natur	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	’d	’d	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	people	people	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	but	but	CCONJ	CC	_	16	cc	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’re	’re	ADV	RB	PronType=Dem	16	advmod	_	_
+16	accuthtomed	accuthtom	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	quick	quick	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	movementh	movementh	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	2	punct	_	_
+24	and	and	CCONJ	CC	_	36	cc	_	_
+25	if	if	SCONJ	IN	_	29	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	_
+27	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	SpaceAfter=No
+28	n’t	not	PART	RB	_	29	advmod	_	_
+29	act	act	VERB	VB	VerbForm=Inf	36	advcl	_	_
+30	upon	upon	ADP	IN	_	32	case	_	_
+31	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	advithe	advithe	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj:pass	_	SpaceAfter=No
+35	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+36	damned	damne	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+37	if	if	SCONJ	IN	_	41	mark	_	_
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+39	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux	_	SpaceAfter=No
+40	n’t	not	PART	RB	_	41	advmod	_	_
+41	believe	believe	VERB	VB	VerbForm=Inf	36	advcl	_	_
+42	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	44	nsubj	_	SpaceAfter=No
+43	’ll	’ll	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	pith	pith	VERB	VB	VerbForm=Inf	41	ccomp	_	_
+45	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	44	obj	_	_
+46	out	out	ADP	RP	_	44	compound:prt	_	_
+47	o	of	X	AFX	_	49	goeswith	_	SpaceAfter=No
+48	’	'	PUNCT	''	_	49	punct	_	_
+49	winder	winder	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+51	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

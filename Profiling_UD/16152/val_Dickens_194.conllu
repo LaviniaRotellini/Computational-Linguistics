@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, I have been otherwise engaged, Loo, in the evenings; and in the daytime old Bounderby has been keeping me at it rather.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	otherwise	otherwise	ADV	RB	_	8	advmod	_	_
+8	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Loo	Loo	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	evenings	evening	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	8	punct	_	_
+16	and	and	CCONJ	CC	_	24	cc	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	daytime	daytime	NOUN	NN	Number=Sing	24	obl	_	_
+20	old	old	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	Bounderby	Bounderby	PROPN	NNP	Number=Sing	24	nsubj	_	_
+22	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	aux	_	_
+24	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+26	at	at	ADP	IN	_	27	case	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+28	rather	rather	ADV	RB	_	24	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But I touch him up with you when he comes it too strong, and so we preserve an understanding.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	touch	touch	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	up	up	ADP	RP	_	3	compound:prt	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	too	too	ADV	RB	_	13	advmod	_	_
+13	strong	strong	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	so	so	ADV	RB	_	18	advmod	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+18	preserve	preserve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	understanding	understanding	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I say!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Has father said anything particular to you to-day or yesterday, Loo?’
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	anything	anything	PRON	NN	Number=Sing	14	compound	_	_
+5	particular	particular	ADJ	JJ	Degree=Pos	4	amod	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	to	to	ADP	IN	_	10	case	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	day	day	NOUN	NN	Number=Sing	5	obl	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	yesterday	yesterday	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	Loo	Loo	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

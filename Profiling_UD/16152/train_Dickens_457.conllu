@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We walked very slowly home, Mr. Wickfield, Agnes, and I--Agnes and I admiring the moonlight, and Mr. Wickfield scarcely raising his eyes from the ground.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	slowly	slowly	ADV	RB	_	2	advmod	_	_
+5	home	home	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	2	parataxis	_	_
+8	Wickfield	Wickfield	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Agnes	Agnes	PROPN	NNPS	Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	conj	_	SpaceAfter=No
+14	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+15	Agnes	Agnes	PROPN	NNPS	Number=Plur	2	appos	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	admiring	admir	VERB	VBG	VerbForm=Ger	15	conj	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	moonlight	moonlight	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	Mr.	Mr.	PROPN	NNP	Number=Sing	26	nsubj	_	_
+24	Wickfield	Wickfield	PROPN	NNP	Number=Sing	23	flat	_	_
+25	scarcely	scarcely	ADV	RB	_	26	advmod	_	_
+26	raising	raise	VERB	VBG	VerbForm=Ger	15	conj	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	eyes	eye	NOUN	NNS	Number=Plur	26	obj	_	_
+29	from	from	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	ground	ground	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = When we, at last, reached our own door, Agnes discovered that she had left her little reticule behind.
+1	When	when	ADV	WRB	PronType=Int	7	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	last	last	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	door	door	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	Agnes	Agnes	PROPN	NNP	Number=Sing	13	nsubj	_	_
+13	discovered	discover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	little	little	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	reticule	reticule	NOUN	NN	Number=Sing	17	obj	_	_
+21	behind	behind	ADP	IN	_	17	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Delighted to be of any service to her, I ran back to fetch it.
+1	Delighted	delighte	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+2	to	to	PART	TO	_	6	mark	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	service	service	NOUN	NN	Number=Sing	1	xcomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	1	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+12	back	back	ADV	RB	_	11	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	fetch	fetch	VERB	VB	VerbForm=Inf	11	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

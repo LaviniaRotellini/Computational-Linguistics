@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘That’s well,’ said Mr. Gradgrind.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+4	well	well	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = So, he kissed her and went away; and Louisa returned to the serene apartment of the hair-cutting character, and leaning her elbow on her hand, looked again at the short-lived sparks that so soon subsided into ashes.
+1	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	away	away	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	Louisa	Louisa	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	serene	serene	NOUN	NN	Number=Sing	16	compound	_	_
+16	apartment	apartment	NOUN	NN	Number=Sing	12	obl	_	_
+17	of	of	ADP	IN	_	22	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+19	hair	hair	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	cutting	cutting	NOUN	NN	Number=Sing	22	compound	_	_
+22	character	character	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	leaning	lean	VERB	VBG	VerbForm=Ger	22	conj	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	elbow	elbow	NOUN	NN	Number=Sing	25	obj	_	_
+28	on	on	ADP	IN	_	30	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	hand	hand	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+33	again	again	ADV	RB	_	32	advmod	_	_
+34	at	at	ADP	IN	_	39	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+36	short	short	ADJ	JJ	Degree=Pos	38	amod	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	_	38	punct	_	SpaceAfter=No
+38	lived	lived	VERB	VBN	Tense=Past|VerbForm=Part	39	amod	_	_
+39	sparks	spark	NOUN	NNS	Number=Plur	32	obl	_	_
+40	that	that	PRON	WDT	PronType=Rel	43	nsubj	_	_
+41	so	so	ADV	RB	_	42	advmod	_	_
+42	soon	soon	ADV	RB	Degree=Pos	43	advmod	_	_
+43	subsided	subsid	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+44	into	into	ADP	IN	_	45	case	_	_
+45	ashes	ash	NOUN	NNS	Number=Plur	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

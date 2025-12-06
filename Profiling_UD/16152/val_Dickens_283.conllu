@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Then go straight up there, will you?’ said Bitzer.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	12	ccomp	_	_
+4	straight	straight	ADV	RB	_	6	advmod	_	_
+5	up	up	ADP	IN	_	4	compound:prt	_	_
+6	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Bitzer	Bitzer	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = ‘You’re expected, and have only to tell the servant it’s you.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’re	’re	ADV	RB	PronType=Dem	4	advmod	_	_
+4	expected	expect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	only	only	ADV	RB	_	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	tell	tell	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	servant	servant	NOUN	NN	Number=Sing	10	obj	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+14	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I belong to the Bank; so, if you go straight up without me (I was sent to fetch you), you’ll save me a walk.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	belong	belong	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Bank	Bank	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	2	punct	_	_
+7	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	if	if	SCONJ	IN	_	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+12	straight	straight	ADV	RB	_	13	advmod	_	_
+13	up	up	ADV	RB	_	11	advmod	_	_
+14	without	without	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+16	(	(	PUNCT	-LRB-	_	19	punct	_	SpaceAfter=No
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	fetch	fetch	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	19	punct	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	SpaceAfter=No
+26	’ll	’ll	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	save	save	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+28	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	walk	walk	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He struck a match and lighted a candle.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	struck	strike	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	match	match	NOUN	NN	Number=Sing	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	lighted	light	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	candle	candle	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = All this was prepared beforehand on the table, and, as he had done on the previous evening, he began to scrutinize Cosette’s face with a gaze full of ecstasy, in which the expression of kindness and tenderness almost amounted to aberration.
+1	All	all	DET	DT	_	2	det	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	beforehand	beforehas	NUM	CD	NumType=Card	8	obj	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	table	table	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	22	punct	_	_
+10	and	and	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	22	punct	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	done	do	VERB	VBN	Tense=Past|VerbForm=Part	22	advcl	_	_
+16	on	on	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	previous	previous	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	evening	evening	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	scrutinize	scrutinize	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	Cosette	Cosette	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	face	face	NOUN	NN	Number=Sing	24	obj	_	_
+28	with	with	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	gaze	gaze	NOUN	NN	Number=Sing	24	obl	_	_
+31	full	full	ADJ	JJ	Degree=Pos	30	amod	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	ecstasy	ecstasy	PRON	NN	Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	22	punct	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	which	which	PRON	WDT	PronType=Rel	44	obl	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	expression	expression	NOUN	NN	Number=Sing	44	nsubj	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	kindness	kindness	NOUN	NN	Number=Sing	38	nmod	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	tenderness	tenderness	NOUN	NNS	Number=Plur	40	conj	_	_
+43	almost	almost	ADV	RB	_	44	advmod	_	_
+44	amounted	amount	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+45	to	to	ADP	IN	_	46	case	_	_
+46	aberration	aberration	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The little girl, with that tranquil confidence which belongs only to extreme strength and extreme weakness, had fallen asleep without knowing with whom she was, and continued to sleep without knowing where she was.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	girl	girl	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	tranquil	tranquil	NOUN	NN	Number=Sing	8	compound	_	_
+8	confidence	confidence	NOUN	NN	Number=Sing	3	nmod	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+11	only	only	ADV	RB	_	14	advmod	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	extreme	extreme	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	strength	strength	NOUN	NN	Number=Sing	10	obl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	extreme	extreme	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	weakness	weakness	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+21	asleep	asleep	ADV	RB	_	20	advmod	_	_
+22	without	without	SCONJ	IN	_	23	mark	_	_
+23	knowing	know	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+24	with	with	ADP	IN	_	25	case	_	_
+25	whom	whom	PRON	WP	PronType=Int	23	obl	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	sleep	sleep	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	without	without	SCONJ	IN	_	34	mark	_	_
+34	knowing	know	VERB	VBG	VerbForm=Ger	32	advcl	_	_
+35	where	where	ADV	WRB	PronType=Int	37	mark	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	advcl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n
+

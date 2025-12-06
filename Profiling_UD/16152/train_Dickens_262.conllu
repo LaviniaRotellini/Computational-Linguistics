@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Peggotty,’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Peggotty	Peggotty	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I said in a thoughtful whisper, one evening, when I was warming my hands at the kitchen fire, ‘Mr.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	whisper	whisper	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+9	evening	evening	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	warming	warm	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hands	hand	NOUN	NNS	Number=Plur	14	obj	_	_
+17	at	at	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	kitchen	kitchen	NOUN	NN	Number=Sing	20	compound	_	_
+20	fire	fire	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	‘	'	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	Mr	Mr	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Murdstone likes me less than he used to.
+1	Murdstone	Murdstone	PRON	PRP	_	2	nsubj	_	_
+2	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	less	less	ADJ	JJR	Degree=Cmp	2	obj	_	_
+5	than	than	SCONJ	IN	_	4	fixed	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	to	to	PART	TO	_	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He never liked me much, Peggotty; but he would rather not even see me now, if he can help it.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	much	much	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Peggotty	Peggotty	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	but	but	CCONJ	CC	_	15	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+12	rather	rather	ADV	RB	_	15	advmod	_	_
+13	not	not	PART	RB	_	15	advmod	_	_
+14	even	even	ADV	RB	_	15	advmod	_	_
+15	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	now	now	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	if	if	SCONJ	IN	_	22	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	can	can	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	help	help	VERB	VB	VerbForm=Inf	15	advcl	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Offence!’ repeated Bounderby.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Offence	Offence	ADV	RB	NumType=Mult	5	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Bounderby	Bounderby	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Do you suppose if there was any offence given me, I shouldn’t name it, and request to have it corrected?
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	suppose	suppose	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+8	any	any	DET	DT	_	9	det	_	_
+9	offence	offence	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	given	give	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	name	name	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	request	request	NOUN	NN	Number=Sing	16	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	have	have	VERB	VB	VerbForm=Inf	20	acl	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	corrected	correct	VERB	VBN	Tense=Past|VerbForm=Part	22	xcomp	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I am a straightforward man, I believe.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	straightforward	straightforward	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I don’t go beating about for side-winds.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	beating	beat	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	about	about	ADV	RB	_	5	advmod	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	side	side	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	winds	wind	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

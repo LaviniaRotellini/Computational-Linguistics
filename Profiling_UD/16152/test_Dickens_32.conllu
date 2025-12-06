@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well,” said he, “I believe you.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = You’d be but a fierce young hound indeed, if at your time of life you could help to hunt a wretched warmint hunted as near death and dunghill as this poor wretched warmint is!”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fierce	fierce	NOUN	NN	Number=Sing	8	compound	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	hound	hound	NOUN	NN	Number=Sing	2	obj	_	_
+9	indeed	indeed	ADV	RB	_	2	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	if	if	SCONJ	IN	_	19	mark	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	time	time	NOUN	NN	Number=Sing	19	obl	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	life	life	NOUN	NN	Number=Sing	14	nmod	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+18	could	could	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	help	help	VERB	VB	VerbForm=Inf	2	advcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	hunt	hunt	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	wretched	wretched	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	_	_
+24	warmint	warmint	NOUN	NN	Number=Sing	21	obj	_	_
+25	hunted	hunt	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+26	as	as	ADP	IN	_	28	case	_	_
+27	near	near	ADP	IN	_	28	case	_	_
+28	death	death	NOUN	NN	Number=Sing	25	obl	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	dunghill	dunghill	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	_
+31	as	as	ADP	IN	_	35	case	_	_
+32	this	this	DET	DT	Number=Sing|PronType=Dem	35	det	_	_
+33	poor	poor	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	wretched	wretched	NOUN	NN	Number=Sing	35	compound	_	_
+35	warmint	warmint	NOUN	NN	Number=Sing	30	obl	_	_
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+37	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This was bringing me (I felt) towards dangerous ground.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	punct	_	_
+9	towards	towards	ADP	IN	_	11	case	_	_
+10	dangerous	dangerous	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	ground	ground	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I answered with a constraint I made no attempt to disguise, that I had seen Mr. Jaggers in Miss Havisham’s house on the very day of our combat, but never at any other time, and that I believed he had no recollection of having ever seen me there.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	constraint	constraint	NOUN	NN	Number=Sing	2	obl	_	_
+6	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	attempt	attempt	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	disguise	disguise	VERB	VB	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	that	that	SCONJ	IN	_	16	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	16	obj	_	_
+18	Jaggers	Jaggers	PROPN	NNP	Number=Sing	17	flat	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	Miss	miss	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Havisham	Havisham	PROPN	NNP	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	house	house	NOUN	NN	Number=Sing	16	obl	_	_
+24	on	on	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	very	very	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	day	day	NOUN	NN	Number=Sing	23	nmod	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	combat	combat	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	but	but	CCONJ	CC	_	33	cc	_	_
+33	never	never	ADV	RB	_	2	advmod	_	_
+34	at	at	ADP	IN	_	37	case	_	_
+35	any	any	DET	DT	_	37	det	_	_
+36	other	other	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	time	time	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	42	punct	_	_
+39	and	and	CCONJ	CC	_	42	cc	_	_
+40	that	that	SCONJ	IN	_	42	mark	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+42	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+43	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+44	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	ccomp	_	_
+45	no	no	DET	DT	_	46	det	_	_
+46	recollection	recollection	NOUN	NN	Number=Sing	44	obj	_	_
+47	of	of	SCONJ	IN	_	48	mark	_	_
+48	having	have	VERB	VBG	VerbForm=Ger	46	acl	_	_
+49	ever	ever	ADV	RB	_	48	advmod	_	_
+50	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	48	ccomp	_	_
+51	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	50	obj	_	_
+52	there	there	ADV	RB	PronType=Dem	50	advmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m very grateful to you for thinking of me all those years.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	grateful	grateful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	thinking	think	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	those	those	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	years	year	NOUN	NNS	Number=Plur	9	obl:tmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It is very sweet to have people love us.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	sweet	sweet	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	love	love	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = What a wonderful, beautiful thing it seems that God should have made your heart so that you could care about a queer little girl whom you only knew for a few weeks!
+1	What	what	DET	WDT	PronType=Int	6	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	wonderful	wonderful	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	God	God	PROPN	NNP	Number=Sing	13	nsubj	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	made	make	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	heart	heart	NOUN	NN	Number=Sing	13	obj	_	_
+16	so	so	SCONJ	IN	_	20	mark	_	_
+17	that	that	SCONJ	IN	_	16	fixed	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	care	care	VERB	VB	VerbForm=Inf	13	advcl	_	_
+21	about	about	ADP	IN	_	25	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	queer	queer	ADV	RBR	_	25	advmod	_	_
+24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	girl	girl	NOUN	NN	Number=Sing	20	obl	_	_
+26	whom	whom	PRON	WP	PronType=Rel	29	obl	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	_
+28	only	only	ADV	RB	_	29	advmod	_	_
+29	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+30	for	for	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	few	few	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	weeks	week	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+34	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = I remember saying to you that I thought you cared for me more than Tom did.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	saying	say	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	cared	care	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	10	amod	_	_
+14	than	than	ADP	IN	_	15	case	_	_
+15	Tom	Tom	PROPN	NNP	Number=Sing	13	obl	_	_
+16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

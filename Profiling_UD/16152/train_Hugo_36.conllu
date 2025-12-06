@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In the Bishop’s own chamber, at the head of his bed, there was a small cupboard, in which Madame Magloire locked up the six silver knives and forks and the big spoon every night.
+1	In	in	ADP	IN	_	6	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	Bishop	Bishop	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	own	own	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	chamber	chamber	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	16	punct	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	head	head	NOUN	NN	Number=Sing	16	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	bed	bed	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	there	there	PRON	EX	_	16	expl	_	_
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	small	small	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	cupboard	cupboard	NOUN	NN	Number=Sing	16	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	which	which	PRON	WDT	PronType=Rel	25	obl	_	_
+23	Madame	Madame	PROPN	NNP	Number=Sing	25	nsubj	_	_
+24	Magloire	Magloire	PROPN	NNP	Number=Sing	23	flat	_	_
+25	locked	lock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+26	up	up	ADP	IN	_	25	compound:prt	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+28	six	six	NUM	CD	NumType=Card	29	nummod	_	_
+29	silver	silver	NOUN	NN	Number=Sing	30	compound	_	_
+30	knives	knife	NOUN	NNS	Number=Plur	25	obj	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	forks	fork	NOUN	NNS	Number=Plur	30	conj	_	_
+33	and	and	CCONJ	CC	_	36	cc	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	big	big	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	spoon	spoon	NOUN	NN	Number=Sing	16	conj	_	_
+37	every	every	DET	DT	_	38	det	_	_
+38	night	night	NOUN	NN	Number=Sing	36	obl:tmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = But it is necessary to add, that the key was never removed.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	add	add	VERB	VB	VerbForm=Inf	4	csubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	that	that	SCONJ	IN	_	13	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	key	key	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+12	never	never	ADV	RB	_	13	advmod	_	_
+13	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

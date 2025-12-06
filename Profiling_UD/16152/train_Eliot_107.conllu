@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “This is your mother,” said Dorothea, who had turned to examine the group of miniatures.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	mother	mother	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Dorothea	Dorothea	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	examine	examine	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	group	group	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	miniatures	miniature	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “It is like the tiny one you brought me; only, I should think, a better portrait.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	like	like	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	tiny	tiny	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	one	one	NUM	CD	NumType=Card	0	root	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	7	punct	_	_
+12	only	only	ADV	RB	_	16	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	think	think	VERB	VB	VerbForm=Inf	7	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	better	better	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	portrait	portrait	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And this one opposite, who is this?”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	opposite	opposite	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	this	the	PRON	DT	Number=Sing|PronType=Dem	4	acl:relcl	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

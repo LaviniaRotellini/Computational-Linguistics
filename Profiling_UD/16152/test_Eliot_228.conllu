@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hallo, Arthur, that’s a good fellow!
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Hallo	Hallo	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	Arthur	Arthur	PROPN	NNP	Number=Sing	10	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = You’re just in time,” said Mr. Irwine, as Arthur paused and stepped in over the low window-sill.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+3	just	just	ADV	RB	_	5	advmod	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	time	time	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+10	Irwine	Irwine	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	Arthur	Arthu	PROPN	NNP	Number=Sing	14	nsubj	_	_
+14	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	stepped	step	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+17	in	in	ADP	IN	_	23	case	_	_
+18	over	over	ADP	IN	_	23	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+20	low	low	ADJ	JJ	Degree=Pos	23	amod	_	_
+21	window	window	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	sill	sill	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = “Carroll, we shall want more coffee and eggs, and haven’t you got some cold fowl for us to eat with that ham?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Carroll	Carroll	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	coffee	coffee	NOUN	NN	Number=Sing	6	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	eggs	egg	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+14	n’t	not	PART	RB	_	16	advmod	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	some	some	DET	DT	_	19	det	_	_
+18	cold	cold	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	fowl	fowl	NOUN	NN	Number=Sing	16	obj	_	_
+20	for	for	SCONJ	IN	_	23	mark	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	eat	eat	VERB	VB	VerbForm=Inf	16	advcl	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	ham	ham	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Why, this is like old days, Arthur; you haven’t been to breakfast with me these five years.”
+1	Why	why	ADV	WRB	PronType=Int	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	like	like	ADP	IN	_	7	case	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	days	day	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Arthur	Arthur	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	7	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	16	advmod	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	breakfast	breakfast	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+19	these	these	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+20	five	five	NUM	CD	NumType=Card	21	nummod	_	_
+21	years	year	NOUN	NNS	Number=Plur	16	obl:tmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

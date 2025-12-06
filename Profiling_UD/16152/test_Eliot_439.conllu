@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Indeed, sir, if it’s anything t’ our advantage, it’ll be the first offer o’ the sort I’ve heared on.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Indeed	indeed	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	ADJ	JJ	Degree=Pos	20	amod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	if	if	SCONJ	IN	_	10	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	anything	anything	PRON	NN	Number=Sing	10	compound	_	_
+10	t	t	NOUN	NN	Number=Sing	20	advcl	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	advantage	advantage	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+16	’ll	’ll	AUX	MD	VerbForm=Fin	20	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	amod	_	_
+20	offer	offer	NOUN	NN	Number=Sing	0	root	_	_
+21	o	of	ADP	IN	Abbr=Yes	24	case	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	24	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	sort	sort	NOUN	NN	Number=Sing	20	nmod	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
+26	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	heared	hear	VERB	VBN	Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+28	on	on	ADP	RP	_	27	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = It’s them as take advantage that get advantage i’ this world, _I_ think: folks have to wait long enough afore it’s brought to ’em.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	take	take	VERB	VB	VerbForm=Inf	2	csubj	_	_
+6	advantage	advantage	NOUN	NN	Number=Sing	5	obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	advantage	advantage	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+10	i	I	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	world	world	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	_I	_I	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+16	_	_	SYM	NFP	_	17	punct	_	_
+17	think	think	VERB	VB	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	2	punct	_	_
+19	folks	folk	NOUN	NNS	Number=Plur	20	nsubj	_	_
+20	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	wait	wait	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	long	long	ADV	RB	Degree=Pos	24	advmod	_	_
+24	enough	enough	ADV	RB	_	22	advmod	_	_
+25	afore	afore	SCONJ	IN	_	28	mark	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	SpaceAfter=No
+27	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	’	'	PUNCT	''	_	31	punct	_	SpaceAfter=No
+31	em	em	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

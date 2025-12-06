@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She read my letter to the two old ladies, in the morning, and approved of it.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	letter	letter	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	two	two	NUM	CD	NumType=Card	9	nummod	_	_
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	ladies	lady	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	morning	morning	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	approved	approve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I posted it, and had nothing to do then, but wait, as patiently as I could, for the reply.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	posted	post	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	nothing	nothing	PRON	NN	Number=Sing	9	nsubj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	then	then	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	but	but	CCONJ	CC	_	13	cc	_	_
+13	wait	wait	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	as	as	ADV	RB	_	16	advmod	_	_
+16	patiently	patiently	ADV	RB	_	13	advmod	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	2	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	2	punct	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	reply	reply	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I was still in this state of expectation, and had been, for nearly a week; when I left the Doctor’s one snowy night, to walk home.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	still	still	ADV	RB	_	2	advmod	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	state	state	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	expectation	expectation	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	and	and	CCONJ	CC	_	17	cc	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	cop	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	nearly	nearly	ADV	RB	_	17	advmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	week	week	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	2	punct	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	Doctor	Doctor	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	one	one	NUM	CD	NumType=Card	27	nummod	_	_
+26	snowy	snowy	NOUN	NN	Number=Sing	27	compound	_	_
+27	night	night	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	21	punct	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	walk	walk	VERB	VB	VerbForm=Inf	21	advcl	_	_
+31	home	home	ADV	RB	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Tulliver was out of the room superintending a choice supper-dish, and Mr Tulliver’s heart was touched; so Maggie was not scolded about the book.
+1	Tulliver	Tulliver	PRON	WP	PronType=Int	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	out	out	ADP	IN	_	6	case	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	room	room	NOUN	NN	Number=Sing	0	root	_	_
+7	superintending	superintend	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	choice	choice	NOUN	NN	Number=Sing	7	obj	_	_
+10	supper-	supper-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	dish	dish	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	Mr	Mr	PROPN	NNP	Number=Sing	17	nmod:poss	_	_
+15	Tulliver	Tulliver	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	’s	's	PART	POS	_	14	case	_	_
+17	heart	heart	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	touched	touch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	6	punct	_	_
+21	so	so	ADV	RB	_	25	advmod	_	_
+22	Maggie	Maggie	PROPN	NNP	Number=Sing	25	nsubj:pass	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	scolded	scold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+26	about	about	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	book	book	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Mr Riley quietly picked it up and looked at it, while the father laughed, with a certain tenderness in his hard-lined face, and patted his little girl on the back, and then held her hands and kept her between his knees.
+1	Mr	Mr	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Riley	Riley	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	quietly	quietly	ADV	RB	_	4	advmod	_	_
+4	picked	pick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	up	up	ADP	RP	_	4	compound:prt	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	while	while	SCONJ	IN	_	15	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	father	father	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	certain	certain	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	tenderness	tenderness	NOUN	NN	Number=Sing	15	obl	_	_
+21	in	in	ADP	IN	_	26	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+23	hard	hard	ADV	RB	Degree=Pos	25	advmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	lined	line	VERB	VBN	Tense=Past|VerbForm=Part	26	amod	_	_
+26	face	face	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	patted	pat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	little	little	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	girl	girl	NOUN	NN	Number=Sing	29	obj	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	back	back	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	and	and	CCONJ	CC	_	39	cc	_	_
+38	then	then	ADV	RB	PronType=Dem	39	advmod	_	_
+39	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+40	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	hands	hand	NOUN	NNS	Number=Plur	39	obj	_	_
+42	and	and	CCONJ	CC	_	43	cc	_	_
+43	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	conj	_	_
+44	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	between	between	ADP	IN	_	47	case	_	_
+46	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	knees	knee	NOUN	NNS	Number=Plur	43	obl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

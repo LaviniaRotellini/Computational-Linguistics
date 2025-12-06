@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Some persons hold,’ he pursued, still hesitating, ‘that there is a wisdom of the Head, and that there is a wisdom of the Heart.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Some	some	DET	DT	_	3	det	_	_
+3	persons	person	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	hold	hold	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	still	still	ADV	RB	_	10	advmod	_	_
+10	hesitating	hesitate	VERB	VBG	VerbForm=Ger	7	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	there	there	PRON	EX	_	15	expl	_	_
+15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	wisdom	wisdom	NOUN	NN	Number=Sing	15	nsubj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	Head	head	PROPN	NNP	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	that	that	SCONJ	IN	_	25	mark	_	_
+24	there	there	PRON	EX	_	25	expl	_	_
+25	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	wisdom	wisdom	NOUN	NN	Number=Sing	25	nsubj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	Heart	heart	PROPN	NNP	Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I have not supposed so; but, as I have said, I mistrust myself now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	4	punct	_	_
+7	but	but	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	said	say	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	mistrust	mistrust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	obj	_	_
+17	now	now	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have supposed the head to be all-sufficient.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	head	head	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	be	be	VERB	VB	VerbForm=Inf	10	aux:pass	_	_
+8	all	all	ADV	RB	_	10	advmod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	sufficient	sufficient	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It may not be all-sufficient; how can I venture this morning to say it is!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+3	not	not	PART	RB	_	7	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	all	all	ADV	RB	_	7	advmod	_	SpaceAfter=No
+6	-	-	PUNCT	:	_	7	punct	_	SpaceAfter=No
+7	sufficient	sufficient	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+10	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	venture	venture	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	morning	morning	NOUN	NN	Number=Sing	12	obl:tmod	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	say	say	VERB	VB	VerbForm=Inf	12	advcl	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = If that other kind of wisdom should be what I have neglected, and should be the instinct that is wanted, Louisa—’
+1	If	if	SCONJ	IN	_	9	mark	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	kind	kind	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	wisdom	wisdom	NOUN	NN	Number=Sing	4	nmod	_	_
+7	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	what	what	PRON	WP	PronType=Int	25	advcl	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	neglected	neglect	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	should	should	AUX	MD	VerbForm=Fin	18	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	instinct	instinct	NOUN	NN	Number=Sing	9	conj	_	_
+19	that	that	PRON	WDT	PronType=Rel	21	nsubj:pass	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	Louisa	Louisa	PROPN	NNP	Number=Sing	21	xcomp	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	23	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	0	root	_	SpacesAfter=\n
+

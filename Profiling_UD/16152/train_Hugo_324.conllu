@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He followed the road-mender’s advice, retraced his steps, and, half an hour later, he passed the same spot again, but this time at full speed, with a good horse to aid; a stable-boy, who called himself a postilion, was seated on the shaft of the cariole.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	road	road	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	mender	mender	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	advice	advice	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	retraced	retrace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	steps	step	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	half	half	DET	PDT	_	18	det:predet	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	hour	hour	NOUN	NN	Number=Sing	19	obl:npmod	_	_
+19	later	later	ADV	RBR	Degree=Cmp	10	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	2	punct	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	same	same	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	spot	spot	NOUN	NN	Number=Sing	22	obj	_	_
+26	again	again	ADV	RB	_	22	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	but	but	CCONJ	CC	_	30	cc	_	_
+29	this	this	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	time	time	NOUN	NN	Number=Sing	2	conj	_	_
+31	at	at	ADP	IN	_	33	case	_	_
+32	full	full	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	speed	speed	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	30	punct	_	_
+35	with	with	ADP	IN	_	38	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	good	good	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	horse	horse	NOUN	NN	Number=Sing	30	nmod	_	_
+39	to	to	PART	TO	_	40	mark	_	_
+40	aid	aid	VERB	VB	VerbForm=Inf	38	acl	_	SpaceAfter=No
+41	;	;	PUNCT	,	_	2	punct	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+43	stable	stable	NOUN	NN	Number=Sing	45	compound	_	SpaceAfter=No
+44	-	-	PUNCT	HYPH	_	45	punct	_	SpaceAfter=No
+45	boy	boy	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	45	punct	_	_
+47	who	who	PRON	WP	PronType=Rel	48	nsubj	_	_
+48	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	acl:relcl	_	_
+49	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	48	obj	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+51	postilion	postilion	NOUN	NN	Number=Sing	48	xcomp	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	2	punct	_	_
+53	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	54	aux:pass	_	_
+54	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+55	on	on	ADP	IN	_	57	case	_	_
+56	the	the	DET	DT	Definite=Def|PronType=Art	57	det	_	_
+57	shaft	shaft	NOUN	NN	Number=Sing	54	obl	_	_
+58	of	of	ADP	IN	_	60	case	_	_
+59	the	the	DET	DT	Definite=Def|PronType=Art	60	det	_	_
+60	cariole	cariole	NOUN	NN	Number=Sing	57	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

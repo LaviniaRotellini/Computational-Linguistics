@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Heaven knows we need never be ashamed of our tears, for they are rain upon the blinding dust of earth, overlying our hard hearts.
+1	Heaven	heaven	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	never	never	ADV	RB	_	7	advmod	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	ashamed	asham	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	tears	tear	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	for	for	SCONJ	IN	_	15	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	rain	rain	NOUN	NN	Number=Sing	2	advcl	_	_
+16	upon	upon	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	blinding	blinding	NOUN	NN	Number=Sing	19	compound	_	_
+19	dust	dust	NOUN	NN	Number=Sing	15	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	earth	earth	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	15	punct	_	_
+23	overlying	overly	VERB	VBG	VerbForm=Ger	15	acl	_	_
+24	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	hard	hard	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	hearts	heart	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I was better after I had cried than before,—more sorry, more aware of my own ingratitude, more gentle.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+4	after	after	SCONJ	IN	_	7	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	cried	cry	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	before	before	ADV	RB	_	7	obl	_	SpaceAfter=No
+10	,—	,—	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	sorry	sorry	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	more	more	ADV	RBR	_	15	advmod	_	_
+15	aware	aware	ADJ	JJ	Degree=Pos	12	conj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	ingratitude	ingratitude	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	12	punct	_	_
+21	more	more	ADV	RBR	_	22	advmod	_	_
+22	gentle	gentle	ADJ	JJ	Degree=Pos	12	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = If I had cried before, I should have had Joe with me then.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	cried	cry	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+5	before	before	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	Joe	Joe	PROPN	NNP	Number=Sing	10	obj	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+14	then	then	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘What has risen to my lips now, would have risen to my lips then, if you had given me a moment’s help.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	risen	rise	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	lips	lip	NOUN	NNS	Number=Plur	4	obl	_	_
+8	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	risen	rise	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	lips	lip	NOUN	NNS	Number=Plur	12	obl	_	_
+16	then	then	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	if	if	SCONJ	IN	_	21	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	given	give	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	moment	moment	NOUN	NN	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	_
+26	help	help	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = I don’t reproach you, father.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	reproach	reproach	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	father	father	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = What you have never nurtured in me, you have never nurtured in yourself; but O! if you had only done so long ago, or if you had only neglected me, what a much better and much happier creature I should have been this day!’
+1	What	what	PRON	WP	PronType=Int	12	obj	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	nurtured	nurture	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	nurtured	nurture	VERB	VBN	Tense=Past|VerbForm=Part	36	advcl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	12	obl	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	12	punct	_	_
+16	but	but	CCONJ	CC	_	36	cc	_	_
+17	O	o	INTJ	UH	_	36	discourse	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	36	punct	_	_
+19	if	if	SCONJ	IN	_	23	mark	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	only	only	ADV	RB	_	23	advmod	_	_
+23	done	do	VERB	VBN	Tense=Past|VerbForm=Part	36	advcl	_	_
+24	so	so	ADV	RB	_	25	advmod	_	_
+25	long	long	ADV	RB	Degree=Pos	23	advmod	_	_
+26	ago	ago	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	36	punct	_	_
+28	or	or	CCONJ	CC	_	36	cc	_	_
+29	if	if	SCONJ	IN	_	33	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	_
+32	only	only	ADV	RB	_	33	advmod	_	_
+33	neglected	neglect	VERB	VBN	Tense=Past|VerbForm=Part	36	advcl	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	_
+36	what	what	DET	WDT	PronType=Int	0	root	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	mark	_	_
+38	much	much	ADV	RB	_	39	advmod	_	_
+39	better	better	ADJ	JJR	Degree=Cmp	36	amod	_	_
+40	and	and	CCONJ	CC	_	43	cc	_	_
+41	much	much	ADJ	JJ	Degree=Pos	43	amod	_	_
+42	happier	happier	ADJ	JJR	Degree=Cmp	43	amod	_	_
+43	creature	creature	NOUN	NN	Number=Sing	39	conj	_	_
+44	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	49	nsubj	_	_
+45	should	should	AUX	MD	VerbForm=Fin	49	aux	_	_
+46	have	have	AUX	VB	VerbForm=Inf	49	aux	_	_
+47	been	be	AUX	VBN	Tense=Past|VerbForm=Part	49	cop	_	_
+48	this	this	DET	DT	Number=Sing|PronType=Dem	49	det	_	_
+49	day	day	NOUN	NN	Number=Sing	43	acl:relcl	_	SpaceAfter=No
+50	!	!	PUNCT	.	_	36	punct	_	SpaceAfter=No
+51	’	'	PUNCT	''	_	36	punct	_	SpacesAfter=\n
+

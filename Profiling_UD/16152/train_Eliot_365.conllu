@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’ll tell you what, Wrench, this is beyond a joke,” said the Mayor, who of late had had to rebuke offenders with an official air, and now broadened himself by putting his thumbs in his armholes.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	what	what	PRON	WP	PronType=Int	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Wrench	Wrench	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	beyond	beyond	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	joke	joke	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	Mayor	Mayor	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	late	late	ADV	RB	Degree=Pos	21	nmod	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	had	have	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	rebuke	rebuke	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	offenders	offender	NOUN	NNS	Number=Plur	27	obj	_	_
+29	with	with	ADP	IN	_	32	case	_	_
+30	an	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	official	official	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	air	air	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	and	and	CCONJ	CC	_	36	cc	_	_
+35	now	now	ADV	RB	_	36	advmod	_	_
+36	broadened	broaden	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	_
+37	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	_
+38	by	by	SCONJ	IN	_	39	mark	_	_
+39	putting	put	VERB	VBG	VerbForm=Ger	36	advcl	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	thumbs	thumb	NOUN	NNS	Number=Plur	39	obj	_	_
+42	in	in	ADP	IN	_	44	case	_	_
+43	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+44	armholes	armhole	NOUN	NNS	Number=Plur	39	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “To let fever get unawares into a house like this.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	To	to	PART	TO	_	3	mark	_	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+4	fever	fever	NOUN	NN	Number=Sing	3	obj	_	_
+5	get	get	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	unawares	unawar	NOUN	NNS	Number=Plur	5	obj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	house	house	NOUN	NN	Number=Sing	5	obl	_	_
+10	like	like	ADP	IN	_	11	case	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = There are some things that ought to be actionable, and are not so— that’s my opinion.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	things	thing	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+6	ought	ought	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	actionable	actionable	ADJ	JJ	Degree=Pos	4	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	19	punct	_	_
+11	and	and	CCONJ	CC	_	19	cc	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+13	not	not	PART	RB	_	19	advmod	_	_
+14	so	so	ADV	RB	_	19	advmod	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	19	punct	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	opinion	opinion	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

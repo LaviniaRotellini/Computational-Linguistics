@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Say no more, Adam, say no more,” said Seth, gently, though his voice told that he spoke with some effort; “Mother’s in the right.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	more	more	ADV	RBR	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Adam	Adam	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	13	parataxis	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	more	more	ADV	RBR	_	13	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+14	Seth	Seth	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	gently	gently	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	though	though	SCONJ	IN	_	21	mark	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	voice	voice	NOUN	NN	Number=Sing	21	nsubj	_	_
+21	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+22	that	that	SCONJ	IN	_	24	mark	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	some	some	DET	DT	_	27	det	_	_
+27	effort	effort	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	2	punct	_	_
+29	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+30	Mother	mother	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+31	’s	’	NOUN	NNS	Number=Plur	2	parataxis	_	_
+32	in	in	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	right	right	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I’ll go to work, and do thee stay at home.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	work	work	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	thee	thee	ADV	RB	_	10	advmod	_	_
+10	stay	stay	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	home	home	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

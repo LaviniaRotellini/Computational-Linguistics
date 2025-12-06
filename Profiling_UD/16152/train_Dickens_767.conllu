@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s not a great deal towards the furnishing,’ said Traddles, ‘but it’s something.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	deal	deal	NOUN	NN	Number=Sing	0	root	_	_
+8	towards	towards	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	furnishing	furnishing	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+12	’	’	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+14	Traddles	Traddles	PROPN	NNPS	Number=Plur	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+19	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+20	something	something	PRON	NN	Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The table-cloths, and pillow-cases, and articles of that kind, are what discourage me most, Copperfield.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	table	table	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	cloths	clot	NOUN	NNS	Number=Plur	18	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	pillow	pillow	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	cases	case	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	articles	article	NOUN	NNS	Number=Plur	4	conj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	kind	kind	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	what	what	PRON	WP	PronType=Int	0	root	_	_
+19	discourage	discourage	VERB	VB	VerbForm=Inf	18	acl:relcl	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	most	most	ADV	RBS	_	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	18	punct	_	_
+23	Copperfield	Copperfield	PROPN	NNP	Number=Sing	18	appos	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = So does the ironmongery--candle-boxes, and gridirons, and that sort of necessaries--because those things tell, and mount up.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	ironmongery	ironmongery	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	candle	candle	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	boxes	box	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	gridirons	gridiron	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	sort	sort	NOUN	NN	Number=Sing	4	conj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	necessaries	necessaries	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+18	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+19	because	because	SCONJ	IN	_	22	mark	_	_
+20	those	those	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+21	things	thing	NOUN	NNS	Number=Plur	22	nsubj	_	_
+22	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	mount	mount	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	_
+26	up	up	ADP	RP	_	25	compound:prt	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = However, “wait and hope!”
+1	However	however	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+4	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	hope	hope	VERB	VB	VerbForm=Inf	4	conj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 5
+# text = And I assure you she’s the dearest girl!’
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	assure	assure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	dearest	dearest	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	_	_
+9	girl	girl	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

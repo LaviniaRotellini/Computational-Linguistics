@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Miss Louisa, I said I didn’t know.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Miss	miss	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Louisa	Louisa	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n’t	not	PART	RB	_	10	advmod	_	_
+10	know	know	VERB	VB	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I thought I couldn’t know whether it was a prosperous nation or not, and whether I was in a thriving state or not, unless I knew who had got the money, and whether any of it was mine.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	could	could	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	know	know	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	whether	whether	SCONJ	IN	_	12	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	prosperous	prosperous	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	nation	nation	NOUN	NN	Number=Sing	6	advcl	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	not	not	PART	RB	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	23	punct	_	_
+16	and	and	CCONJ	CC	_	23	cc	_	_
+17	whether	whether	SCONJ	IN	_	23	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	thriving	thrive	NOUN	NN	Number=Sing	23	compound	_	_
+23	state	state	NOUN	NN	Number=Sing	12	conj	_	_
+24	or	or	CCONJ	CC	_	25	cc	_	_
+25	not	not	PART	RB	_	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	6	punct	_	_
+27	unless	unless	SCONJ	IN	_	29	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+30	who	who	PRON	WP	PronType=Int	32	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	got	get	VERB	VBN	Tense=Past|VerbForm=Part	29	ccomp	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	money	money	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	42	punct	_	_
+36	and	and	CCONJ	CC	_	42	cc	_	_
+37	whether	whether	SCONJ	IN	_	42	mark	_	_
+38	any	any	DET	DT	_	42	nsubj	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	nmod	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
+42	mine	mine	PRON	PRP	_	2	conj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But that had nothing to do with it.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It was not in the figures at all,’ said Sissy, wiping her eyes.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	figures	figure	NOUN	NNS	Number=Plur	0	root	_	_
+7	at	at	ADV	RB	_	8	case	_	_
+8	all	all	ADV	RB	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+12	Sissy	Sissy	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	wiping	wip	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	eyes	eye	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

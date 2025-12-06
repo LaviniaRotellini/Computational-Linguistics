@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What time was left to him, after these thousand details of business, and his offices and his breviary, he bestowed first on the necessitous, the sick, and the afflicted; the time which was left to him from the afflicted, the sick, and the necessitous, he devoted to work.
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	after	after	ADP	IN	_	11	case	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+10	thousand	thousand	NUM	CD	NumType=Card	11	nummod	_	_
+11	details	detail	NOUN	NNS	Number=Plur	4	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	business	business	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	offices	office	NOUN	NNS	Number=Plur	4	conj	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	breviary	breviary	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	bestowed	bestow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+24	first	first	ADV	RB	_	23	advmod	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	necessitous	necessitous	ADJ	JJ	Degree=Pos	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	sick	sick	ADJ	JJ	Degree=Pos	23	obj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	and	and	CCONJ	CC	_	34	cc	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	afflicted	afflict	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+35	;	;	PUNCT	,	_	4	punct	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	time	time	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+38	which	which	PRON	WDT	PronType=Rel	40	nsubj:pass	_	_
+39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux:pass	_	_
+40	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	37	acl:relcl	_	_
+41	to	to	ADP	IN	_	42	case	_	_
+42	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obl	_	_
+43	from	from	ADP	IN	_	45	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	afflicted	afflict	VERB	VBN	Tense=Past|VerbForm=Part	40	obl	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	4	punct	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	sick	sick	ADJ	JJ	Degree=Pos	4	appos	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	52	punct	_	_
+50	and	and	CCONJ	CC	_	52	cc	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	_
+52	necessitous	necessitous	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+53	,	,	PUNCT	,	_	55	punct	_	_
+54	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	nsubj	_	_
+55	devoted	devote	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+56	to	to	PART	TO	_	57	mark	_	_
+57	work	work	VERB	VB	VerbForm=Inf	55	xcomp	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sometimes he dug in his garden; again, he read or wrote.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	dug	dug	NOUN	NN	Number=Sing	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	garden	garden	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He had but one word for both these kinds of toil; he called them _gardening_.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	but	but	CCONJ	CC	_	5	cc	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	word	word	NOUN	NN	Number=Sing	2	obj	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	both	both	CCONJ	CC	_	9	cc:preconj	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	kinds	kind	NOUN	NNS	Number=Plur	5	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	toil	toil	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	_gardening_	_gardening_	SYM	NFP	_	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = “The mind is a garden,” said he.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	mind	mind	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

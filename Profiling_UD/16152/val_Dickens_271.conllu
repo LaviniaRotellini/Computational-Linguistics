@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, my friends and fellow-men!’ said Slackbridge then, shaking his head with violent scorn, ‘I do not wonder that you, the prostrate sons of labour, are incredulous of the existence of such a man.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	friends	friend	NOUN	NNS	Number=Plur	12	nsubj	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	fellow	fellow	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	men	man	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	5	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Slackbridge	Slackbridge	PROPN	NNP	Number=Sing	12	obj	_	_
+14	then	then	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	shaking	shake	VERB	VBG	VerbForm=Ger	12	ccomp	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	head	head	NOUN	NN	Number=Sing	16	obj	_	_
+19	with	with	ADP	IN	_	21	case	_	_
+20	violent	violent	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	scorn	scorn	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	12	punct	_	_
+23	‘	'	PUNCT	``	_	27	punct	_	SpaceAfter=No
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	not	not	PART	RB	_	27	advmod	_	_
+27	wonder	wonder	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+28	that	that	SCONJ	IN	_	33	mark	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	prostrate	prostrate	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	sons	son	NOUN	NNS	Number=Plur	27	ccomp	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	labour	labour	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	41	punct	_	_
+37	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	cop	_	_
+38	incredulous	incredulous	ADP	IN	_	41	case	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	existence	existence	NOUN	NN	Number=Sing	33	conj	_	_
+42	of	of	ADP	IN	_	45	case	_	_
+43	such	such	DET	PDT	_	45	det:predet	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	man	man	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = But he who sold his birthright for a mess of pottage existed, and Judas Iscariot existed, and Castlereagh existed, and this man exists!’
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	sold	sell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	birthright	birthright	NOUN	NN	Number=Sing	4	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	mess	mess	NOUN	NN	Number=Sing	4	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	pottage	pottage	NOUN	NN	Number=Sing	9	nmod	_	_
+12	existed	exist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	Judas	Judas	PROPN	NNP	Number=Sing	17	nsubj	_	_
+16	Iscariot	tIscario	PROPN	NNP	Number=Sing	15	flat	_	_
+17	existed	exist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	Castlereagh	Castlereagh	PROPN	NNP	Number=Sing	21	nsubj	_	_
+21	existed	exist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	this	this	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	man	man	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+27	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

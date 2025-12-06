@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Of course there was a public-house in the village, and of course Joe liked sometimes to smoke his pipe there.
+1	Of	of	ADV	RB	_	4	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	public	public	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	house	house	NOUN	NN	Number=Sing	4	nsubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	village	village	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	of	of	ADV	RB	_	17	advmod	_	_
+15	course	course	ADV	RB	_	14	fixed	_	_
+16	Joe	Joe	PROPN	NNP	Number=Sing	17	nsubj	_	_
+17	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	sometimes	sometimes	ADV	RB	_	17	advmod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	smoke	smoke	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	pipe	pipe	NOUN	NN	Number=Sing	20	obj	_	_
+23	there	there	ADV	RB	PronType=Dem	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I had received strict orders from my sister to call for him at the Three Jolly Bargemen, that evening, on my way from school, and bring him home at my peril.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	strict	strict	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	orders	order	NOUN	NNS	Number=Plur	3	obj	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	sister	sister	NOUN	NN	Number=Sing	3	obl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	call	call	VERB	VB	VerbForm=Inf	8	acl	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	at	at	ADP	IN	_	17	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	Three	Three	PROPN	NNP	Number=Sing	17	compound	_	_
+16	Jolly	Jolly	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Bargemen	Bargemen	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	evening	evening	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	3	punct	_	_
+22	on	on	ADP	IN	_	24	case	_	_
+23	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	way	way	NOUN	NN	Number=Sing	3	obl	_	_
+25	from	from	ADP	IN	_	26	case	_	_
+26	school	school	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	bring	bring	VERB	VB	VerbForm=Inf	3	conj	_	_
+30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	home	home	ADV	RB	_	29	advmod	_	_
+32	at	at	ADP	IN	_	34	case	_	_
+33	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	peril	peril	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = To the Three Jolly Bargemen, therefore, I directed my steps.
+1	To	to	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	Three	Three	PROPN	NNP	Number=Sing	5	compound	_	_
+4	Jolly	Jolly	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Bargemen	Bargemen	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	therefore	therefore	ADV	RB	_	10	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	directed	direct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	steps	step	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

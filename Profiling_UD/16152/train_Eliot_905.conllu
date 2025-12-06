@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Dear!” with the lingering utterance which affection gives to the word.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Dear	dear	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	lingering	lingering	VERB	VBG	VerbForm=Ger	8	amod	_	_
+8	utterance	utterance	NOUN	NN	Number=Sing	2	obl	_	_
+9	which	which	DET	WDT	PronType=Int	10	det	_	_
+10	affection	affection	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	word	word	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Rosamond too was still under the power of that same past, and her husband was still in part the Lydgate whose approval had stirred delight.
+1	Rosamond	Rosamond	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	too	too	ADV	RB	_	3	advmod	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	still	still	ADV	RB	_	3	advmod	_	_
+5	under	under	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	power	power	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	past	past	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	husband	husband	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	still	still	ADV	RB	_	19	advmod	_	_
+18	in	in	ADV	RB	_	19	advmod	_	_
+19	part	part	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Lydgate	Lydgate	NOUN	NN	Number=Sing	19	obj	_	_
+22	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	23	nmod:poss	_	_
+23	approval	approval	NOUN	NN	Number=Sing	25	nsubj	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	stirred	stir	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	delight	delight	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = She put his hair lightly away from his forehead, then laid her other hand on his, and was conscious of forgiving him.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	hair	hair	NOUN	NN	Number=Sing	2	obj	_	_
+5	lightly	lightly	ADV	RB	_	6	advmod	_	_
+6	away	away	ADV	RB	_	2	advmod	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	forehead	forehead	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	12	advmod	_	_
+12	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	hand	hand	NOUN	NN	Number=Sing	12	obj	_	_
+16	on	on	ADP	IN	_	17	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	conscious	conscious	ADJ	JJ	Degree=Pos	2	conj	_	_
+22	of	of	SCONJ	IN	_	23	mark	_	_
+23	forgiving	forgive	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

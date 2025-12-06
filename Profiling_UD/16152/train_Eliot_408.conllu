@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then it is really true?” said Mrs. Bulstrode, looking very earnestly at her niece.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	really	really	ADV	RB	_	6	advmod	_	_
+6	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	earnestly	earnestly	ADV	RB	_	13	advmod	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	niece	niece	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “You are thinking of Mr. Lydgate—there is some understanding between you, though your father doesn’t know.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+7	Lydgate	Lydgate	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	there	there	PRON	EX	_	10	expl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	understanding	understanding	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	between	between	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	10	punct	_	_
+16	though	though	SCONJ	IN	_	21	mark	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	father	father	NOUN	NN	Number=Sing	21	nsubj	_	_
+19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
+20	n’t	not	PART	RB	_	21	advmod	_	_
+21	know	know	VERB	VB	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Be open, my dear Rosamond:
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	cop	_	_
+2	open	open	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Rosamond	Rosamond	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+7	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mr. Lydgate has really made you an offer?”
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Lydgate	Lydgate	PROPN	NNP	Number=Sing	1	flat	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	really	really	ADV	RB	_	5	advmod	_	_
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	offer	offer	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

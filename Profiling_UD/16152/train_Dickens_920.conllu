@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He said this solemnly, bare-headed; then, putting on his hat, he went down the stairs, and away.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	solemnly	solemnly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	bare	bare	VERB	VB	Typo=Yes|VerbForm=Inf	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+8	headed	head	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	2	punct	_	_
+10	then	then	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	putting	put	VERB	VBG	VerbForm=Ger	2	conj	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hat	hat	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+19	down	down	ADP	RP	_	18	compound:prt	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	stairs	stair	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	away	away	ADV	RB	_	18	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = We followed to the door.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	door	door	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It was a warm, dusty evening, just the time when, in the great main thoroughfare out of which that by-way turned, there was a temporary lull in the eternal tread of feet upon the pavement, and a strong red sunshine.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+4	warm	warm	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	dusty	dusty	NOUN	NN	Number=Sing	7	compound	_	_
+7	evening	evening	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	just	just	ADV	RB	_	11	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	time	time	NOUN	NN	Number=Sing	7	appos	_	_
+12	when	when	ADV	WRB	PronType=Int	29	mark	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	29	punct	_	_
+14	in	in	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	great	great	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	main	main	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	thoroughfare	thoroughfare	NOUN	NN	Number=Sing	29	obl	_	_
+19	out	out	ADP	IN	_	21	case	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	which	which	PRON	WDT	PronType=Rel	26	obl	_	_
+22	that	that	PRON	WDT	PronType=Rel	26	nsubj	_	_
+23	by	by	ADP	IN	_	25	case	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	way	way	NOUN	NN	Number=Sing	26	obl	_	_
+26	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	there	there	PRON	EX	_	29	expl	_	_
+29	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	temporary	temporary	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	lull	lull	NOUN	NN	Number=Sing	29	nsubj	_	_
+33	in	in	ADP	IN	_	36	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	eternal	eternal	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	tread	tread	NOUN	NN	Number=Sing	32	nmod	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	feet	foot	NOUN	NNS	Number=Plur	36	nmod	_	_
+39	upon	upon	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	pavement	pavement	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	47	punct	_	_
+43	and	and	CCONJ	CC	_	47	cc	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+45	strong	strong	ADJ	JJ	Degree=Pos	47	amod	_	_
+46	red	red	ADJ	JJ	Degree=Pos	47	amod	_	_
+47	sunshine	sunshine	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = He turned, alone, at the corner of our shady street, into a glow of light, in which we lost him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	alone	alone	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	corner	corner	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	shady	shady	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	street	street	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	glow	glow	NOUN	NN	Number=Sing	2	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	light	light	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	2	punct	_	_
+20	in	in	ADP	IN	_	2	compound:prt	_	_
+21	which	which	PRON	WDT	PronType=Rel	23	obj	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+23	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

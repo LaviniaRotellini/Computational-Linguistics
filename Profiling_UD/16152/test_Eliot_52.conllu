@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I know thee dost things as nobody else ’ud do, my lad.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	thee	thee	NUM	CD	NumType=Card	6	nummod	_	_
+5	dost	dost	NOUN	NN	Number=Sing	6	compound	_	_
+6	things	thing	NOUN	NNS	Number=Plur	11	nsubj	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	nobody	nobody	PRON	NN	Number=Sing	10	compound	_	_
+9	else	else	ADJ	JJ	Degree=Pos	8	amod	_	_
+10	’ud	’uld	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	lad	lad	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But thee’t allays so hard upo’ thy feyther, Adam.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	thee’t	thee’t	PART	RB	_	3	mark	_	_
+3	allays	allays	VERB	NNS	Number=Plur	0	root	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	hard	hard	ADV	RB	Degree=Pos	3	advmod	_	_
+6	upo	upo	ADP	IN	_	9	case	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	9	punct	_	_
+8	thy	thy	PRON	PRP$	_	9	nmod:poss	_	_
+9	feyther	feyther	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	Adam	Adam	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Thee think’st nothing too much to do for Seth: thee snapp’st me up if iver I find faut wi’ th’ lad.
+1	Thee	Thee	ADV	RB	_	2	advmod	_	_
+2	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	’st	’st	ADP	IN	_	4	case	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	2	obl	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	4	amod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	Seth	Seth	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	2	punct	_	_
+12	thee	thee	NUM	CD	NumType=Card	13	nummod	_	_
+13	snapp	snapp	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+14	’st	’st	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
+16	up	up	ADP	RP	_	13	compound:prt	_	_
+17	if	if	SCONJ	IN	_	18	mark	_	_
+18	iver	iver	PRON	WP	PronType=Int	20	advcl	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+20	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+21	faut	faut	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	wi	wus	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	22	punct	_	_
+24	th	th	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	24	punct	_	_
+26	lad	lad	NOUN	NN	Number=Sing	22	appos	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But thee’t so angered wi’ thy feyther, more nor wi’ anybody else.”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	thee’t	thee’t	PART	RB	_	0	root	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	angered	angered	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	wi	wus	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	’	's	PUNCT	''	_	5	punct	_	_
+7	thy	thy	PRON	PRP$	_	8	nmod:poss	_	_
+8	feyther	feyther	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	nor	nor	ADJ	JJ	Degree=Pos	5	parataxis	_	_
+12	wi	wus	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	’	’	PUNCT	''	_	12	punct	_	_
+14	anybody	anybody	PRON	NN	Number=Sing	11	conj	_	_
+15	else	else	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And since I cannot marry you, we must part—we must try not to feel like lovers any more.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	12	cc	_	_
+3	since	since	SCONJ	IN	_	7	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	not	not	PART	RB	_	7	advmod	_	_
+7	marry	marry	VERB	VB	VerbForm=Inf	12	advcl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	part	part	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	16	punct	_	SpaceAfter=No
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+15	must	must	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	try	try	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+17	not	not	ADV	RB	_	19	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	feel	feel	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+20	like	like	ADP	IN	_	21	case	_	_
+21	lovers	lover	NOUN	NNS	Number=Plur	19	obl	_	_
+22	any	any	ADV	RB	_	23	advmod	_	_
+23	more	more	ADV	RBR	_	19	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = I am miserable while I say this, but nothing else can be.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	miserable	miserable	ADJ	JJ	Degree=Pos	0	root	_	_
+4	while	while	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	but	but	CCONJ	CC	_	13	cc	_	_
+10	nothing	nothing	PRON	NN	Number=Sing	13	nsubj	_	_
+11	else	else	ADJ	JJ	Degree=Pos	10	amod	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Be angry with me, my sweet one, I deserve it; but do not believe that I shall not always care for you—always be grateful to you—always remember my Hetty; and if any trouble should come that we do not now foresee, trust in me to do everything that lies in my power.
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	cop	_	_
+2	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	sweet	sweet	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	one	one	NUM	CD	NumType=Card	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	deserve	deserve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	but	but	CCONJ	CC	_	17	cc	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	believe	believe	VERB	VB	VerbForm=Inf	2	conj	_	_
+18	that	that	SCONJ	IN	_	23	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+20	shall	shall	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	not	not	PART	RB	_	23	advmod	_	_
+22	always	always	ADV	RB	_	23	advmod	_	_
+23	care	care	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+27	always	always	ADV	RB	_	29	advmod	_	_
+28	be	be	AUX	VB	VerbForm=Inf	29	cop	_	_
+29	grateful	grateful	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	29	obl	_	SpaceAfter=No
+32	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+33	always	always	ADV	RB	_	34	advmod	_	_
+34	remember	remember	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+35	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	Hetty	Hetty	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No
+37	;	;	PUNCT	,	_	2	punct	_	_
+38	and	and	CCONJ	CC	_	43	cc	_	_
+39	if	if	SCONJ	IN	_	43	mark	_	_
+40	any	any	DET	DT	_	41	det	_	_
+41	trouble	trouble	NOUN	NN	Number=Sing	43	nsubj	_	_
+42	should	should	AUX	MD	VerbForm=Fin	43	aux	_	_
+43	come	come	VERB	VB	VerbForm=Inf	2	conj	_	_
+44	that	that	SCONJ	IN	_	49	mark	_	_
+45	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	49	nsubj	_	_
+46	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	49	aux	_	_
+47	not	not	PART	RB	_	49	advmod	_	_
+48	now	now	ADV	RB	_	49	advmod	_	_
+49	foresee	foresee	VERB	VB	VerbForm=Inf	43	ccomp	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	51	punct	_	_
+51	trust	trust	ADJ	JJS	Degree=Sup	49	conj	_	_
+52	in	in	ADP	IN	_	53	case	_	_
+53	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	51	obl	_	_
+54	to	to	PART	TO	_	55	mark	_	_
+55	do	do	VERB	VB	VerbForm=Inf	51	xcomp	_	_
+56	everything	everything	PRON	NN	Number=Sing	55	obj	_	_
+57	that	that	PRON	WDT	PronType=Rel	58	nsubj	_	_
+58	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
+59	in	in	ADP	IN	_	61	case	_	_
+60	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	61	nmod:poss	_	_
+61	power	power	NOUN	NN	Number=Sing	58	obl	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

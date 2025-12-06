@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The winds rush, fly, swoop down, dwindle away, commence again; hover above, whistle, roar, and smile; they are frenzied, wanton, unbridled, or sinking at ease upon the raging waves.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	winds	wind	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	rush	rush	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	fly	fly	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	swoop	swoop	VERB	VB	VerbForm=Inf	5	conj	_	_
+8	down	down	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	dwindle	dwindle	ADV	RB	_	11	advmod	_	_
+11	away	away	ADV	RB	_	5	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	commence	commence	NOUN	NN	Number=Sing	3	obj	_	_
+14	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	3	punct	_	_
+16	hover	hover	ADV	WRB	PronType=Int	17	advmod	_	_
+17	above	above	ADV	RB	_	3	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	whistle	whistle	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	roar	roar	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	smile	smile	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	3	punct	_	_
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj:pass	_	_
+27	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	frenzied	frenzy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	wanton	wanton	X	FW	Foreign=Yes	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	unbridled	unbridle	ADJ	JJ	Degree=Pos	28	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	or	or	CCONJ	CC	_	35	cc	_	_
+35	sinking	sinke	VERB	VBG	VerbForm=Ger	28	conj	_	_
+36	at	at	ADP	IN	_	37	case	_	_
+37	ease	ease	NOUN	NN	Number=Sing	35	obl	_	_
+38	upon	upon	ADP	IN	_	41	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+40	raging	raging	NOUN	NN	Number=Sing	41	compound	_	_
+41	waves	wafe	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Their howlings have a harmony of their own.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	howlings	howling	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	harmony	harmony	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	own	own	ADJ	JJ	Degree=Pos	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = They make all the heavens sonorous.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	all	all	DET	PDT	_	5	det:predet	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	heavens	heaven	NOUN	NNS	Number=Plur	6	obj	_	_
+6	sonorous	sonorous	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = They blow in the cloud as in a trumpet; they sing through the infinite space with the mingled tones of clarions, horns, bugles, and trumpets--a sort of Promethean fanfare.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	blow	blow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	cloud	cloud	NOUN	NN	Number=Sing	2	obl	_	_
+6	as	as	ADP	IN	_	9	case	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	trumpet	trumpet	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	sing	s	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+13	through	through	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	infinite	infinite	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	space	space	NOUN	NN	Number=Sing	12	obl	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	mingled	mingl	VERB	VBN	Tense=Past|VerbForm=Part	20	amod	_	_
+20	tones	tone	NOUN	NNS	Number=Plur	16	nmod	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	clarions	clarion	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	horns	horn	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	bugles	bugles	NOUN	NNS	Number=Plur	20	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	33	punct	_	_
+28	and	and	CCONJ	CC	_	33	cc	_	_
+29	trumpets	trumpet	NOUN	NNS	Number=Plur	33	compound	_	SpaceAfter=No
+30	-	-	PUNCT	,	_	29	punct	_	SpaceAfter=No
+31	-	-	PUNCT	,	_	29	punct	_	SpaceAfter=No
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	sort	sort	NOUN	NN	Number=Sing	20	conj	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	Promethean	Promethean	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	fanfare	fanfare	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

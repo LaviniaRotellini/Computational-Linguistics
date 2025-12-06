@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Ah!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = that’s not enough!’ she cried.
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	4	punct	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = ‘That is because you are good; not because I am!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	because	because	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	good	good	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	not	not	ADV	RB	_	3	advmod	_	_
+10	because	because	SCONJ	IN	_	12	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Oh, my dear, it might have been a better fortune for you, if you had been fond of someone else--of someone steadier and much worthier than me, who was all bound up in you, and never vain and changeable like me!’
+1	Oh	oh	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	12	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	dear	dear	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	12	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+7	might	might	AUX	MD	VerbForm=Fin	12	aux	_	_
+8	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	fortune	fortune	NOUN	NN	Number=Sing	0	root	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	if	if	SCONJ	IN	_	20	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+20	fond	fond	ADJ	JJ	Degree=Pos	12	advcl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	someone	someone	PRON	NN	Number=Sing	20	obl	_	_
+23	else	else	ADJ	JJ	Degree=Pos	22	amod	_	SpaceAfter=No
+24	--	--	PUNCT	,	_	20	punct	_	SpaceAfter=No
+25	of	of	ADP	IN	_	26	case	_	_
+26	someone	someone	PRON	NN	Number=Sing	20	obl	_	_
+27	steadier	steadier	ADJ	JJR	Degree=Cmp	26	amod	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	much	much	ADV	RB	_	30	advmod	_	_
+30	worthier	worthier	ADJ	JJR	Degree=Cmp	27	conj	_	_
+31	than	than	ADP	IN	_	32	case	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	26	punct	_	_
+34	who	who	PRON	WP	PronType=Rel	37	nsubj	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
+36	all	all	ADV	RB	_	37	advmod	_	_
+37	bound	bound	ADJ	JJ	Degree=Pos	26	acl:relcl	_	_
+38	up	up	ADP	RP	_	37	compound:prt	_	_
+39	in	in	ADP	IN	_	40	case	_	_
+40	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	44	punct	_	_
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	never	never	ADV	RB	_	44	advmod	_	_
+44	vain	vain	ADJ	JJ	Degree=Pos	26	conj	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	changeable	changeable	ADJ	JJ	Degree=Pos	44	conj	_	_
+47	like	like	ADP	IN	_	48	case	_	_
+48	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	46	obl	_	SpaceAfter=No
+49	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+50	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

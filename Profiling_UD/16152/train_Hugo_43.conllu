@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Last year he went quite alone into a country of robbers.
+1	Last	last	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	year	year	NOUN	NN	Number=Sing	4	obl	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	quite	quite	ADV	RB	_	6	advmod	_	_
+6	alone	alone	ADV	RB	_	4	advmod	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	country	country	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	robbers	robber	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He would not take us.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He was absent for a fortnight.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	absent	absent	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fortnight	fortnight	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = On his return nothing had happened to him; he was thought to be dead, but was perfectly well, and said, “This is the way I have been robbed!”
+1	On	on	ADP	IN	_	3	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	return	return	NOUN	NN	Number=Sing	6	obl	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	23	ccomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	dead	dead	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	perfectly	perfectly	ADV	RB	_	20	advmod	_	_
+20	well	well	ADV	RB	Degree=Pos	23	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+26	This	this	PRON	DT	Number=Sing|PronType=Dem	29	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	way	way	NOUN	NN	Number=Sing	23	parataxis	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj:pass	_	_
+31	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	been	be	AUX	VBN	Tense=Past|VerbForm=Part	33	aux:pass	_	_
+33	robbed	rob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	acl:relcl	_	SpaceAfter=No
+34	!	!	PUNCT	.	_	23	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	23	punct	_	_
+
+# sent_id = 5
+# text = And then he opened a trunk full of jewels, all the jewels of the cathedral of Embrun, which the thieves had given him.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	trunk	trunk	NOUN	NN	Number=Sing	4	obj	_	_
+7	full	full	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	jewels	jewel	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	all	all	DET	PDT	_	13	det:predet	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	jewels	jewel	NOUN	NNS	Number=Plur	4	appos	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	cathedral	cathedral	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	Embrun	Embrun	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	16	punct	_	_
+20	which	which	PRON	WDT	PronType=Rel	24	obj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	thieves	thief	NOUN	NNS	Number=Plur	24	nsubj	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	given	give	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

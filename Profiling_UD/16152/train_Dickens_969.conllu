@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am very much obliged to you, indeed,’ said Traddles, on hearing it was to be sent to where he lived, that night.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	indeed	indeed	ADV	RB	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Traddles	Traddles	NOUN	NNS	Number=Plur	27	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	on	on	SCONJ	IN	_	17	mark	_	_
+17	hearing	hearing	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+23	to	to	SCONJ	IN	_	24	case	_	_
+24	where	where	ADV	WRB	PronType=Int	22	obl	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	13	punct	_	_
+28	that	that	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+29	night	night	NOUN	NN	Number=Sing	13	obl:tmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = ‘If I might ask one other favour, I hope you would not think it absurd, Copperfield?’
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	ask	ask	VERB	VB	VerbForm=Inf	11	advcl	_	_
+6	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	favour	favour	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+13	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	think	think	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	absurd	absurd	ADJ	JJ	Degree=Pos	19	amod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	Copperfield	Copperfield	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	11	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

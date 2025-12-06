@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What a state of mind I was in!
+1	What	what	DET	WDT	PronType=Int	3	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	state	state	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	mind	mind	NOUN	NN	Number=Sing	3	nmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	in	in	ADV	RB	_	3	acl:relcl	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I was jealous of everybody.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	jealous	jealous	ADJ	JJ	Degree=Pos	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	everybody	everybody	PRON	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I couldn’t bear the idea of anybody knowing Mr. Spenlow better than I did.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	idea	idea	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	anybody	anybody	PRON	NN	Number=Sing	6	nmod	_	_
+9	knowing	know	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Spenlow	Spenlow	ADV	RB	_	12	advmod	_	_
+12	better	better	ADJ	JJR	Degree=Cmp	9	xcomp	_	_
+13	than	than	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It was torturing to me to hear them talk of occurrences in which I had had no share.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	torturing	torture	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	hear	hear	VERB	VB	VerbForm=Inf	3	advcl	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
+9	talk	talk	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	occurrences	occurrence	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	16	obl	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	had	have	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+17	no	no	DET	DT	_	18	det	_	_
+18	share	share	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = When a most amiable person, with a highly polished bald head, asked me across the dinner table, if that were the first occasion of my seeing the grounds, I could have done anything to him that was savage and revengeful.
+1	When	when	ADV	WRB	PronType=Int	14	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	amiable	amiable	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	person	person	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	with	with	ADP	IN	_	12	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+9	highly	highly	ADV	RB	_	10	advmod	_	_
+10	polished	polished	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	bald	bald	NOUN	NN	Number=Sing	12	compound	_	_
+12	head	head	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+16	across	across	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	dinner	dinner	NOUN	NN	Number=Sing	19	compound	_	_
+19	table	table	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	14	punct	_	_
+21	if	if	SCONJ	IN	_	26	mark	_	_
+22	that	that	PRON	DT	Number=Sing|PronType=Dem	26	nsubj	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	26	amod	_	_
+26	occasion	occasion	NOUN	NN	Number=Sing	14	advcl	_	_
+27	of	of	ADP	IN	_	36	case	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+29	seeing	see	VERB	VBG	VerbForm=Ger	36	advcl	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	grounds	grounds	NOUN	NNS	Number=Plur	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	36	punct	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+34	could	could	AUX	MD	VerbForm=Fin	36	aux	_	_
+35	have	have	AUX	VB	VerbForm=Inf	36	aux	_	_
+36	done	do	VERB	VBN	Tense=Past|VerbForm=Part	26	nmod	_	_
+37	anything	anything	PRON	NN	Number=Sing	36	obj	_	_
+38	to	to	ADP	IN	_	39	case	_	_
+39	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nmod	_	_
+40	that	that	PRON	DT	Number=Sing|PronType=Dem	42	nsubj	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
+42	savage	savage	ADJ	JJ	Degree=Pos	37	acl:relcl	_	_
+43	and	and	CCONJ	CC	_	44	cc	_	_
+44	revengeful	revengeful	ADJ	JJ	Degree=Pos	42	conj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

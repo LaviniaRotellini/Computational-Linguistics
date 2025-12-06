@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When she went away she left her mark in her cell.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+4	away	away	ADV	RB	_	3	advmod	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	mark	mark	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	cell	cell	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Madame de Genlis was superstitious and a Latinist.
+1	Madame	Madame	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Genlis	Genlis	PROPN	NNP	Number=Sing	1	flat	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	superstitious	superstitious	ADJ	JJ	Degree=Pos	0	root	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	Latinist	Latinist	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = These two words furnish a tolerably good profile of her.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	words	word	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	furnish	furnish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	tolerably	tolerably	ADV	RB	_	7	advmod	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	profile	profile	NOUN	NN	Number=Sing	4	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = A few years ago, there were still to be seen, pasted in the inside of a little cupboard in her cell in which she locked up her silverware and her jewels, these five lines in Latin, written with her own hand in red ink on yellow paper, and which, in her opinion, possessed the property of frightening away robbers:—
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	years	year	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	ago	ago	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	still	still	ADV	RB	_	7	advmod	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	pasted	paste	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	inside	inside	NOUN	NN	Number=Sing	13	obl	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	little	little	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	cupboard	cupboard	NOUN	NN	Number=Sing	16	nmod	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	cell	cell	NOUN	NN	Number=Sing	20	nmod	_	_
+24	in	in	ADP	IN	_	25	case	_	_
+25	which	which	PRON	WDT	PronType=Rel	27	obl	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	locked	lock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+28	up	up	ADP	RP	_	30	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	silverware	silverware	NOUN	NN	Number=Sing	27	obl	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	jewels	jewel	NOUN	NNS	Number=Plur	30	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	37	punct	_	_
+35	these	these	DET	DT	Number=Plur|PronType=Dem	37	det	_	_
+36	five	five	NUM	CD	NumType=Card	37	nummod	_	_
+37	lines	line	NOUN	NNS	Number=Plur	7	nsubj	_	_
+38	in	in	ADP	IN	_	39	case	_	_
+39	Latin	latin	PROPN	NNP	Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	37	punct	_	_
+41	written	write	VERB	VBN	Tense=Past|VerbForm=Part	37	acl	_	_
+42	with	with	ADP	IN	_	45	case	_	_
+43	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+44	own	own	ADJ	JJ	Degree=Pos	45	amod	_	_
+45	hand	hand	NOUN	NN	Number=Sing	41	obl	_	_
+46	in	in	ADP	IN	_	48	case	_	_
+47	red	red	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	ink	ink	NOUN	NN	Number=Sing	41	obl	_	_
+49	on	on	ADP	IN	_	51	case	_	_
+50	yellow	yellow	ADJ	JJ	Degree=Pos	51	amod	_	_
+51	paper	paper	NOUN	NN	Number=Sing	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	60	punct	_	_
+53	and	and	CCONJ	CC	_	60	cc	_	_
+54	which	which	PRON	WDT	PronType=Int	60	nsubj	_	SpaceAfter=No
+55	,	,	PUNCT	,	_	60	punct	_	_
+56	in	in	ADP	IN	_	58	case	_	_
+57	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	58	nmod:poss	_	_
+58	opinion	opinion	NOUN	NN	Number=Sing	60	obl	_	SpaceAfter=No
+59	,	,	PUNCT	,	_	60	punct	_	_
+60	possessed	possess	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	conj	_	_
+61	the	the	DET	DT	Definite=Def|PronType=Art	62	det	_	_
+62	property	property	NOUN	NN	Number=Sing	60	obj	_	_
+63	of	of	SCONJ	IN	_	64	mark	_	_
+64	frightening	frightening	VERB	VBG	VerbForm=Ger	62	acl	_	_
+65	away	away	ADV	RB	_	66	advmod	_	_
+66	robbers	robber	NOUN	NNS	Number=Plur	64	obj	_	SpaceAfter=No
+67	:—	:—	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

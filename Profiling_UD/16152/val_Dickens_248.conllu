@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Perhaps you know,’ said he, ‘or perhaps you don’t know, I married Tom Gradgrind’s daughter.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	16	punct	_	_
+10	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+11	or	or	CCONJ	CC	_	16	cc	_	_
+12	perhaps	perhaps	ADV	RB	_	16	advmod	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	know	know	VERB	VB	VerbForm=Inf	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+20	Tom	Tom	PROPN	NNP	Number=Sing	23	nmod:poss	_	_
+21	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	’s	's	PART	POS	_	20	case	_	_
+23	daughter	daughter	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = If you have nothing better to do than to walk up town with me, I shall be glad to introduce you to Tom Gradgrind’s daughter.’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	5	obj	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	3	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	than	than	SCONJ	IN	_	10	mark	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	walk	walk	VERB	VB	VerbForm=Inf	7	advcl	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	_
+12	town	town	NOUN	NN	Number=Sing	10	obj	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	shall	shall	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	introduce	introduce	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	_
+23	to	to	ADP	IN	_	27	case	_	_
+24	Tom	Tom	PROPN	NNP	Number=Sing	27	nmod:poss	_	_
+25	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	24	flat	_	SpaceAfter=No
+26	’s	's	PART	POS	_	24	case	_	_
+27	daughter	daughter	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

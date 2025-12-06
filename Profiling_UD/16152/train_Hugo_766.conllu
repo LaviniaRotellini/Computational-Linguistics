@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In these meditations, his pride vanished.
+1	In	in	ADP	IN	_	3	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	meditations	meditation	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	pride	pride	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	vanished	vanish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He scrutinized his own heart in all manner of ways; he felt his pettiness, and many a time he wept.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	scrutinized	scrutinize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	own	own	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	heart	heart	NOUN	NN	Number=Sing	2	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	manner	manner	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	ways	way	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	pettiness	pettiness	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	many	many	DET	PDT	_	20	det:predet	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	time	time	NOUN	NN	Number=Sing	13	conj	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	wept	weep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = All that had entered into his life for the last six months had led him back towards the Bishop’s holy injunctions; Cosette through love, the convent through humility.
+1	All	all	DET	DT	_	14	nsubj	_	_
+2	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	entered	enter	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	life	life	NOUN	NN	Number=Sing	4	obl	_	_
+8	for	for	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	last	last	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	six	six	NUM	CD	NumType=Card	12	nummod	_	_
+12	months	month	NOUN	NNS	Number=Plur	1	nmod	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	led	lead	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	back	back	ADV	RB	_	14	advmod	_	_
+17	towards	towards	ADP	IN	_	22	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	Bishop	Bishop	PROPN	NNP	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	holy	holy	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	injunctions	injunction	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	22	punct	_	_
+24	Cosette	Cosette	NOUN	NN	Number=Sing	22	appos	_	_
+25	through	through	ADP	IN	_	26	case	_	_
+26	love	love	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	22	punct	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	convent	convent	NOUN	NN	Number=Sing	22	appos	_	_
+30	through	through	ADP	IN	_	31	case	_	_
+31	humility	humility	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

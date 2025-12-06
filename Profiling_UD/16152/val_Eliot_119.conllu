@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’ve been over-ready at lending, then, if I haven’t been over-ready at giving,” said Mrs Glegg.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	over	over	ADV	RB	_	6	advmod	_	SpaceAfter=No
+6	-ready	-ready	ADJ	JJ	Degree=Pos	23	ccomp	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	lending	lending	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	if	if	SCONJ	IN	_	18	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	18	advmod	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+17	over	over	ADV	RB	_	18	advmod	_	SpaceAfter=No
+18	-ready	-ready	ADJ	JJ	Degree=Pos	6	advcl	_	_
+19	at	at	SCONJ	IN	_	20	mark	_	_
+20	giving	give	VERB	VBG	VerbForm=Ger	18	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	23	punct	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	Mrs	Mrs	PROPN	NNP	Number=Sing	23	nsubj	_	_
+25	Glegg	Glegg	PROPN	NNP	Number=Sing	24	flat	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 2
+# text = “There’s folks I’ve lent money to, as perhaps I shall repent o’ lending money to kin.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	folks	folk	NOUN	NNS	Number=Plur	3	nsubj	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	’ve	’ve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	lent	lent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	money	money	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	ADP	IN	_	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	as	as	SCONJ	IN	_	15	mark	_	_
+12	perhaps	perhaps	ADV	RB	_	15	advmod	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	shall	shall	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	repent	repent	VERB	VB	VerbForm=Inf	3	advcl	_	_
+16	o	of	ADP	IN	Abbr=Yes	18	mark	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	18	punct	_	_
+18	lending	lend	VERB	VBG	VerbForm=Ger	15	xcomp	_	_
+19	money	money	NOUN	NN	Number=Sing	18	obj	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	kin	kin	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

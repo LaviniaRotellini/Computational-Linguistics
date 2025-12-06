@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = If I had been round the world since we parted, we could hardly have been better pleased to meet again.
+1	If	if	SCONJ	IN	_	7	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	round	round	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	world	world	NOUN	NN	Number=Sing	18	advcl	_	_
+8	since	since	SCONJ	IN	_	10	mark	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	parted	parte	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	18	aux	_	_
+14	hardly	hardly	ADV	RB	_	18	advmod	_	_
+15	have	have	AUX	VB	VerbForm=Inf	18	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+17	better	better	ADV	RBR	Degree=Cmp	18	advmod	_	_
+18	pleased	pleased	ADJ	JJ	Degree=Pos	0	root	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	meet	meet	VERB	VB	VerbForm=Inf	18	advcl	_	_
+21	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = My aunt cried outright as she embraced me; and said, pretending to laugh, that if my poor mother had been alive, that silly little creature would have shed tears, she had no doubt.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	outright	outright	ADV	RB	_	3	advmod	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	embraced	embrace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	pretending	pretend	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	laugh	laugh	VERB	VB	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	that	that	SCONJ	IN	_	24	mark	_	_
+18	if	if	SCONJ	IN	_	24	mark	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	poor	poor	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	mother	mother	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	cop	_	_
+24	alive	alive	ADJ	JJ	Degree=Pos	15	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	that	that	SCONJ	IN	_	32	mark	_	_
+27	silly	silly	ADV	RB	_	32	advmod	_	_
+28	little	little	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	creature	creature	NOUN	NN	Number=Sing	32	nsubj	_	_
+30	would	would	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	have	have	AUX	VB	VerbForm=Inf	32	aux	_	_
+32	shed	she	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	_	_
+33	tears	tear	NOUN	NNS	Number=Plur	32	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	11	punct	_	_
+35	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+37	no	no	DET	DT	_	38	det	_	_
+38	doubt	doubt	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

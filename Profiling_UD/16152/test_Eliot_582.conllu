@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The people were astir already, moving rapidly, in one direction, through the streets.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+4	astir	astre	ADV	RB	_	5	advmod	_	_
+5	already	already	ADV	RB	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	moving	move	VERB	VBG	VerbForm=Ger	0	root	_	_
+8	rapidly	rapidly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	direction	direction	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	through	through	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	streets	street	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Adam tried not to think where they were going, as they hurried past him in that short space between his lodging and the prison gates.
+1	Adam	Adbe	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	ADV	RB	_	5	advmod	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	think	think	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	where	where	ADV	WRB	PronType=Int	9	mark	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	hurried	hurry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+14	past	past	ADP	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+18	short	short	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	space	space	NOUN	NN	Number=Sing	13	obl	_	_
+20	between	between	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	lodging	lodging	NOUN	NN	Number=Sing	19	nmod	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	prison	prison	NOUN	NN	Number=Sing	26	compound	_	_
+26	gates	gate	NOUN	NNS	Number=Plur	22	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He was thankful when the gates shut him in from seeing those eager people.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	thankful	thankful	ADJ	JJ	Degree=Pos	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	gates	gate	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	shut	shut	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	in	in	ADP	IN	_	7	compound:prt	_	_
+10	from	from	SCONJ	IN	_	11	mark	_	_
+11	seeing	see	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+12	those	those	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+13	eager	eager	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	people	people	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Five francs!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Five	five	NUM	CD	NumType=Card	3	nummod	_	_
+3	francs	franc	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = the shiner!
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	shiner	shiner	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = a monarch!
+1	a	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	monarch	monarch	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = in this hole!
+1	in	in	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	hole	hole	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ain’t this fine!
+1	Ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	4	advmod	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	fine	fine	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = You’re a jolly thief!
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	jolly	jolly	NOUN	NN	Number=Sing	5	compound	_	_
+5	thief	thief	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = I’m your humble servant!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	humble	humble	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	servant	servant	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Bravo for the good fellows!
+1	Bravo	Bravo	PROPN	NNP	Number=Sing	0	root	_	_
+2	for	for	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fellows	fellow	NOUN	NNS	Number=Plur	1	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Two days’ wine!
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	days	day	NOUN	NNS	Number=Plur	4	nmod:poss	_	SpaceAfter=No
+3	’	’	PART	POS	_	2	case	_	_
+4	wine	wine	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 10
+# text = and meat!
+1	and	and	CCONJ	CC	_	2	cc	_	_
+2	meat	meat	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = and stew!
+1	and	and	CCONJ	CC	_	2	cc	_	_
+2	stew	stew	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 12
+# text = we’ll have a royal feast!
+1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	royal	royal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	feast	feast	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 13
+# text = and a good fill!”
+1	and	and	CCONJ	CC	_	4	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	fill	fill	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

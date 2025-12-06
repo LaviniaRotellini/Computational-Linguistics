@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Leave your nephew here, for the present.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	nephew	nephew	NOUN	NN	Number=Sing	2	obj	_	_
+5	here	here	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	present	present	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He’s a quiet fellow.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	quiet	quiet	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He won’t disturb me at all.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	disturb	disturb	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	at	at	ADV	RB	_	7	case	_	_
+7	all	all	ADV	RB	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It’s a capital house for study.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	capital	capital	NOUN	NN	Number=Sing	5	compound	_	_
+5	house	house	NOUN	NN	Number=Sing	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	study	study	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = As quiet as a monastery, and almost as roomy.
+1	As	as	SCONJ	IN	_	2	mark	_	_
+2	quiet	quiet	ADJ	JJ	Degree=Pos	0	root	_	_
+3	as	as	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	monastery	monastery	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	almost	almost	ADV	RB	_	10	advmod	_	_
+9	as	as	ADP	IN	_	10	case	_	_
+10	roomy	roomy	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Leave him here.’
+1	Leave	leave	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	here	here	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

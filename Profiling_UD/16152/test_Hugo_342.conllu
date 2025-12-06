@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Be at ease,” said Charmolue with a smile; “I’ll buckle him down again for you on the leather bed when I get home.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Be	be	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	ease	ease	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Charmolue	Charmolue	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	smile	smile	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	7	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’ll	’ll	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	buckle	buckle	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	down	down	ADP	RP	_	16	compound:prt	_	_
+19	again	again	ADV	RB	_	16	advmod	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obl	_	_
+22	on	on	ADP	IN	_	25	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	leather	leather	NOUN	NN	Number=Sing	25	compound	_	_
+25	bed	be	NOUN	NN	Number=Sing	16	obl	_	_
+26	when	when	ADV	WRB	PronType=Int	28	mark	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+29	home	home	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = But ’tis a devil of a man; he wearies even Pierrat Torterue himself, who hath hands larger than my own.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	’	’	PUNCT	''	_	5	punct	_	SpaceAfter=No
+3	tis	tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	devil	devil	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	man	man	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	wearies	weary	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+12	even	even	ADV	RB	_	13	advmod	_	_
+13	Pierrat	Pierrat	PROPN	NNP	Number=Sing	15	compound	_	_
+14	Torterue	Torterue	PROPN	NNP	Number=Sing	13	flat	_	_
+15	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	_	_
+17	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+18	hath	hall	AUX	MD	Typo=Yes|VerbForm=Fin	20	cop	_	_
+19	hands	hand	NOUN	NNS	Number=Plur	20	obl:npmod	_	_
+20	larger	larger	ADJ	JJR	Degree=Cmp	5	acl:relcl	_	_
+21	than	than	ADP	IN	_	23	case	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	own	own	ADJ	JJ	Degree=Pos	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = As that good Plautus saith,—
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+3	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	Plautus	Plautus	NOUN	NN	Number=Sing	5	compound	_	_
+5	saith	saith	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+7	—	—	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” said she, “the headsman scoffs at the condemned.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	headsman	headsman	NOUN	NN	Number=Sing	11	compound	_	_
+11	scoffs	scoffs	NOUN	NNS	Number=Plur	5	parataxis	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	condemned	condemned	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Here he has been pursuing me, threatening me, terrifying me for months!
+1	Here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	pursuing	pursue	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	threatening	threaten	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	terrifying	terrify	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	months	month	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Had it not been for him, my God, how happy it should have been!
+1	Had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	God	God	PROPN	NNP	Number=Sing	1	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+12	happy	happy	ADJ	JJ	Degree=Pos	1	parataxis	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	cop	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = It was he who cast me into this abyss!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	cast	cast	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	abyss	abyss	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Oh heavens!
+1	Oh	oh	INTJ	UH	_	2	discourse	_	_
+2	heavens	heaven	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = it was he who killed him!
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = my Phœbus!”
+1	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	Phœbus	Phœbus	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

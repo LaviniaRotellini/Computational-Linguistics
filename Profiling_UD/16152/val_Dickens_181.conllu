@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am, as I have told thee, Stephen, thy poor friend.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+9	thee	thee	NUM	CD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	Stephen	Stephen	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	thy	thy	PRON	PRP$	_	15	nmod:poss	_	_
+14	poor	poor	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	friend	friend	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Angels are not like me.
+1	Angels	angel	NOUN	NNS	Number=Plur	5	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Between them, and a working woman fu’ of faults, there is a deep gulf set.
+1	Between	between	ADP	IN	_	2	case	_	_
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	working	work	VERB	VBG	VerbForm=Ger	8	amod	_	_
+7	woman	woman	NOUN	NN	Number=Sing	8	compound	_	_
+8	fu	fu	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	8	punct	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	faults	fault	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	deep	deep	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	gulf	gulf	NOUN	NN	Number=Sing	14	nsubj	_	_
+18	set	set	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = My little sister is among them, but she is changed.’
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	sister	sister	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	among	among	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

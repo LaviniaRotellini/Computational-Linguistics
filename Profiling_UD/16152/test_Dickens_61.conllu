@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Joe had got his coat and waistcoat and cravat off, and his leather apron on, and passed into the forge.
+1	Joe	Joe	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	coat	coat	NOUN	NN	Number=Sing	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	waistcoat	waistcoat	NOUN	NN	Number=Sing	5	conj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	cravat	cravat	NOUN	NN	Number=Sing	10	compound	_	_
+10	off	off	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	leather	leather	NOUN	NN	Number=Sing	15	compound	_	_
+15	apron	apron	NOUN	NN	Number=Sing	3	conj	_	_
+16	on	on	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	forge	forge	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = One of the soldiers opened its wooden windows, another lighted the fire, another turned to at the bellows, the rest stood round the blaze, which was soon roaring.
+1	One	one	NUM	CD	NumType=Card	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	soldiers	soldier	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	wooden	wooden	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	windows	window	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	another	another	DET	DT	_	11	nsubj	_	_
+11	lighted	light	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fire	fire	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	another	another	DET	DT	_	16	nsubj	_	_
+16	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+17	to	to	PART	TO	_	20	mark	_	_
+18	at	at	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	bellows	bellow	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	16	punct	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	rest	rest	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	stood	stood	NOUN	NN	Number=Sing	16	obj	_	_
+25	round	round	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	blaze	blaze	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	16	punct	_	_
+29	which	which	PRON	WDT	PronType=Rel	32	nsubj	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	_
+31	soon	soon	ADV	RB	Degree=Pos	32	advmod	_	_
+32	roaring	roar	VERB	VBG	VerbForm=Ger	16	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Then Joe began to hammer and clink, hammer and clink, and we all looked on.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	Joe	Joe	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	hammer	hammer	NOUN	NN	Number=Sing	3	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	clink	clink	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	hammer	hammer	NOUN	NN	Number=Sing	5	conj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	clink	clink	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+15	all	all	DET	DT	_	14	det	_	_
+16	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+17	on	on	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

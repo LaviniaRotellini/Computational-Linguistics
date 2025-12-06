@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Very good.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Very	very	ADV	RB	_	3	advmod	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Then prove it.
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	prove	prove	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You bring me a letter from Bulstrode saying he doesn’t believe you’ve been cracking and promising to pay your debts out o’ my land, and then, if there’s any scrape you’ve got into, we’ll see if I can’t back you a bit.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	letter	letter	NOUN	NN	Number=Sing	2	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	2	obl	_	_
+8	saying	say	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	believe	believe	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux	_	_
+16	cracking	crack	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	promising	promise	VERB	VBG	Tense=Pres|VerbForm=Part	16	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	pay	pay	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	debts	debt	NOUN	NNS	Number=Plur	20	obj	_	_
+23	out	out	ADV	RB	_	20	advmod	_	_
+24	o	of	ADP	IN	Abbr=Yes	27	case	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	27	punct	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	land	land	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	44	punct	_	_
+29	and	and	CCONJ	CC	_	44	cc	_	_
+30	then	then	ADV	RB	PronType=Dem	44	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	44	punct	_	_
+32	if	if	SCONJ	IN	_	34	mark	_	_
+33	there	there	PRON	EX	_	34	expl	_	SpaceAfter=No
+34	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+35	any	any	DET	DT	_	36	det	_	_
+36	scrape	scrape	NOUN	NN	Number=Sing	34	nsubj	_	_
+37	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	39	nsubj	_	SpaceAfter=No
+38	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	got	get	VERB	VBN	Tense=Past|VerbForm=Part	36	acl:relcl	_	_
+40	into	into	ADP	IN	_	39	obl	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	44	punct	_	_
+42	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	44	nsubj	_	SpaceAfter=No
+43	’ll	’ll	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	see	see	VERB	VB	VerbForm=Inf	2	conj	_	_
+45	if	if	SCONJ	IN	_	49	mark	_	_
+46	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	49	nsubj	_	_
+47	ca	can	AUX	MD	VerbForm=Fin	49	aux	_	SpaceAfter=No
+48	n’t	not	PART	RB	_	49	advmod	_	_
+49	back	back	VERB	VB	VerbForm=Inf	44	advcl	_	_
+50	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	49	obj	_	_
+51	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+52	bit	bit	NOUN	NN	Number=Sing	49	obl:npmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Come now!
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	now	now	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = That’s a bargain.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	bargain	bargain	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Here, give me your arm.
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	arm	arm	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = I’ll try and walk round the room.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	walk	walk	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	round	round	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	room	room	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

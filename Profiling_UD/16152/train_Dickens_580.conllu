@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What extravagances she committed; what laughing and crying over me; what pride she showed, what joy, what sorrow that she whose pride and joy I might have been, could never hold me in a fond embrace; I have not the heart to tell.
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	extravagances	extravagance	NOUN	NNS	Number=Plur	4	obj	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	committed	commit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	what	what	PRON	WP	PronType=Int	7	obj	_	_
+7	laughing	laugh	VERB	VBG	VerbForm=Ger	12	csubj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	crying	cry	VERB	VBG	VerbForm=Ger	7	conj	_	_
+10	over	over	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	what	what	DET	WDT	PronType=Int	14	det	_	_
+14	pride	pride	NOUN	NN	Number=Sing	17	obj	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	what	what	DET	WDT	PronType=Int	19	det	_	_
+19	joy	joy	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	what	what	PRON	WP	PronType=Rel	22	nsubj	_	_
+22	sorrow	sorrow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+23	that	that	SCONJ	IN	_	32	mark	_	_
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+25	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	26	nmod:poss	_	_
+26	pride	pride	NOUN	NN	Number=Sing	24	obj	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	joy	joy	NOUN	NN	Number=Sing	26	conj	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+30	might	might	AUX	MD	VerbForm=Fin	32	aux	_	_
+31	have	have	AUX	VB	VerbForm=Inf	32	aux	_	_
+32	been	be	VERB	VBN	Tense=Past|VerbForm=Part	22	ccomp	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	could	could	AUX	MD	VerbForm=Fin	36	aux	_	_
+35	never	never	ADV	RB	_	36	advmod	_	_
+36	hold	hold	VERB	VB	VerbForm=Inf	32	conj	_	_
+37	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	36	obj	_	_
+38	in	in	ADP	IN	_	41	case	_	_
+39	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+40	fond	fond	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	embrace	embrace	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+42	;	;	PUNCT	,	_	4	punct	_	_
+43	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	_
+44	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	47	aux	_	_
+45	not	not	PART	RB	_	47	advmod	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+47	heart	heart	NOUN	NN	Number=Sing	4	parataxis	_	_
+48	to	to	PART	TO	_	49	mark	_	_
+49	tell	tell	VERB	VB	VerbForm=Inf	47	acl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I was troubled with no misgiving that it was young in me to respond to her emotions.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	troubled	troublead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	misgiving	misgiving	NOUN	NN	Number=Sing	3	obl	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	young	young	ADJ	JJ	Degree=Pos	6	acl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	respond	respond	VERB	VB	VerbForm=Inf	10	advcl	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	emotions	emotion	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I had never laughed and cried in all my life, I dare say--not even to her--more freely than I did that morning.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	laughed	laugh	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	cried	cry	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	all	all	DET	PDT	_	10	det:predet	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	life	life	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	say	say	INTJ	UH	_	22	discourse	_	SpaceAfter=No
+15	--	--	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	not	not	PART	RB	_	17	advmod	_	_
+17	even	even	ADV	RB	_	22	advmod	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	--	--	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	more	more	ADV	RBR	_	22	advmod	_	_
+22	freely	freely	ADV	RB	_	13	advmod	_	_
+23	than	than	SCONJ	IN	_	25	mark	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+26	that	that	DET	DT	Number=Sing|PronType=Dem	27	det	_	_
+27	morning	morning	NOUN	NN	Number=Sing	25	obl:tmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

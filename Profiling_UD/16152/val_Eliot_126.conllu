@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Mrs Moss, “but he’s only in the potato-field yonders.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mrs	Mrs	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Moss	Moss	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+10	but	but	CCONJ	CC	_	19	cc	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+13	only	only	ADV	RB	_	19	advmod	_	_
+14	in	in	ADP	IN	_	19	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+16	potato	potato	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	field	field	NOUN	NN	Number=Sing	19	compound	_	_
+19	yonders	yonder	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Georgy, run to the Far Close in a minute, and tell father your uncle’s come.
+1	Georgy	Georgy	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	run	run	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	Far	Far	ADV	RB	Degree=Pos	7	advmod	_	_
+7	Close	close	ADV	RB	Degree=Pos	3	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	minute	minute	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	father	father	NOUN	NN	Number=Sing	18	obj	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	uncle	uncle	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	come	come	VERB	VB	VerbForm=Inf	13	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You’ll get down, brother, won’t you, and take something?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+4	down	down	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	brother	brother	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	wo	will	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+9	n’t	not	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	3	conj	_	_
+14	something	something	PRON	NN	Number=Sing	13	obj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

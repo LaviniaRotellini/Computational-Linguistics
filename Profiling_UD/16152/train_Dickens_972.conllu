@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We looked at one another, without knowing what to make of this, and went into the sitting-room.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	one	one	NUM	CD	NumType=Card	5	nummod	_	_
+5	another	another	DET	DT	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	without	without	SCONJ	IN	_	8	mark	_	_
+8	knowing	know	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+9	what	what	PRON	WP	PronType=Int	8	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	into	into	ADP	IN	_	21	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+19	sitting	sitting	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	room	room	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = What was my amazement to find, of all people upon earth, my aunt there, and Mr. Dick!
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	amazement	amazement	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	find	find	VERB	VB	VerbForm=Inf	1	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	people	people	NOUN	NNS	Number=Plur	1	nmod	_	_
+11	upon	upon	ADP	IN	_	12	case	_	_
+12	earth	earth	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	aunt	aunt	NOUN	NN	Number=Sing	12	conj	_	_
+16	there	there	ADV	RB	PronType=Dem	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	12	conj	_	_
+20	Dick	Dick	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = My aunt sitting on a quantity of luggage, with her two birds before her, and her cat on her knee, like a female Robinson Crusoe, drinking tea.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	0	root	_	_
+3	sitting	sit	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	quantity	quantity	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	luggage	luggage	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+13	birds	bird	NOUN	NNS	Number=Plur	2	nmod	_	_
+14	before	before	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	cat	cat	NOUN	NN	Number=Sing	2	conj	_	_
+20	on	on	ADP	IN	_	22	case	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	knee	knee	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	19	punct	_	_
+24	like	like	ADP	IN	_	27	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	female	female	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	Robinson	Robinson	PROPN	NNP	Number=Sing	19	nmod	_	_
+28	Crusoe	Crusoe	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	27	punct	_	_
+30	drinking	drink	VERB	VBG	VerbForm=Ger	31	amod	_	_
+31	tea	tea	NOUN	NN	Number=Sing	27	appos	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mr. Dick leaning thoughtfully on a great kite, such as we had often been out together to fly, with more luggage piled about him!
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Dick	Dick	PROPN	NNP	Number=Sing	1	flat	_	_
+3	leaning	lean	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	thoughtfully	thoughtfully	ADV	RB	_	3	advmod	_	_
+5	on	on	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	great	great	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	kite	kite	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	such	such	ADJ	JJ	Degree=Pos	16	mark	_	_
+11	as	as	SCONJ	IN	_	10	fixed	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+14	often	often	ADV	RB	_	16	advmod	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	_	_
+16	out	out	ADV	RB	_	3	advmod	_	_
+17	together	together	ADV	RB	_	16	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	fly	fly	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	more	more	ADJ	JJR	Degree=Cmp	23	amod	_	_
+23	luggage	luggage	NOUN	NN	Number=Sing	19	obl	_	_
+24	piled	pile	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	_
+25	about	about	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	!	!	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

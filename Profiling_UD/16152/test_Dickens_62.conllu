@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “With you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	With	with	ADP	IN	_	3	case	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = Hob and nob,” returned the sergeant.
+1	Hob	Hob	NOUN	NN	Abbr=Yes|Number=Sing	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	nob	nob	NOUN	NN	Abbr=Yes|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	_
+6	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	sergeant	sergeant	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = “The top of mine to the foot of yours,—the foot of yours to the top of mine,—Ring once, ring twice,—the best tune on the Musical Glasses!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	top	top	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	mine	mine	PRON	PRP	_	3	nmod	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	foot	foot	NOUN	NN	Number=Sing	3	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	yours	yours	PRON	PRP	_	8	nmod	_	SpaceAfter=No
+11	,—	,—	PUNCT	.	_	8	punct	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	foot	foot	NOUN	NN	Number=Sing	8	appos	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	yours	yours	PRON	PRP	_	13	nmod	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	top	top	NOUN	NN	Number=Sing	13	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	mine	mine	PRON	PRP	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+22	—	-	PUNCT	,	_	23	punct	_	SpaceAfter=No
+23	Ring	ring	VERB	VBG	VerbForm=Ger	18	acl	_	_
+24	once	once	ADV	RB	NumType=Mult	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	23	punct	_	_
+26	ring	ring	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+27	twice	twice	ADV	RB	NumType=Mult	26	advmod	_	SpaceAfter=No
+28	,—	,—	PUNCT	.	_	31	punct	_	SpaceAfter=No
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	best	best	ADJ	JJS	Degree=Sup	31	amod	_	_
+31	tune	tune	NOUN	NN	Number=Sing	26	obj	_	_
+32	on	on	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	Musical	musical	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	Glasses	glasses	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+36	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Your health.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	health	health	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = May you live a thousand years, and never be a worse judge of the right sort than you are at the present moment of your life!”
+1	May	may	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	thousand	thousand	NUM	CD	NumType=Card	6	nummod	_	_
+6	years	year	NOUN	NNS	Number=Plur	3	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	never	never	ADV	RB	_	13	advmod	_	_
+10	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	worse	worse	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	judge	judge	NOUN	NN	Number=Sing	3	conj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	right	right	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	sort	sort	NOUN	NN	Number=Sing	13	nmod	_	_
+18	than	than	SCONJ	IN	_	24	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	at	at	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	present	present	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	moment	moment	NOUN	NN	Number=Sing	3	advcl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	life	life	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

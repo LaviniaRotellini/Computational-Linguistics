@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A nightingale was singing in the distance.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	nightingale	nightingale	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	singing	singe	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	distance	distance	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The stirring of the wind among the branches set in movement, the inexpressible silence of the night.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	stirring	stirring	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	wind	wind	NOUN	NN	Number=Sing	2	nmod	_	_
+6	among	among	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	branches	branch	NOUN	NNS	Number=Plur	5	nmod	_	_
+9	set	set	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	movement	movement	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	inexpressible	inexpressible	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	silence	silence	NOUN	NN	Number=Sing	2	appos	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	night	night	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Déruchette, beautiful, divine, appeared in the twilight like a creation from those rays and from the perfumes in the air.
+1	Déruchette	Déruchette	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	divine	divine	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	twilight	twilight	NOUN	NN	Number=Sing	7	obl	_	_
+11	like	like	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	creation	creation	NOUN	NN	Number=Sing	10	nmod	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	those	those	DET	DT	Number=Plur|PronType=Dem	16	det	_	_
+16	rays	ray	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	perfumes	perfume	NOUN	NNS	Number=Plur	13	conj	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	air	air	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = That widespread enchantment seemed to concentre and embody itself mysteriously in her; she became its living manifestation.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	widespread	widespread	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	enchantment	enchantment	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	concentre	concentre	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	embody	embody	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	mysteriously	mysteriously	ADV	RB	_	8	advmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	4	punct	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	living	liive	VERB	VBG	Tense=Pres|VerbForm=Part	15	ccomp	_	_
+19	manifestation	manifestation	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = She seemed the outblossoming of all that shadow and silence.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	outblossoming	outblossoming	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	all	all	DET	PDT	_	8	det:predet	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	shadow	shadow	NOUN	NN	Number=Sing	4	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	silence	silence	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

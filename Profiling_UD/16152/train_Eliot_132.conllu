@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Really, by the side of Sir James, he looks like a death’s head skinned over for the occasion.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Really	really	ADV	RB	_	12	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	12	punct	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	side	side	NOUN	NN	Number=Sing	12	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	Sir	Sir	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	James	James	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	like	like	ADP	IN	_	17	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	death	death	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	head	head	NOUN	NN	Number=Sing	12	obl	_	_
+18	skinned	skinn	VERB	VBN	Tense=Past|VerbForm=Part	12	xcomp	_	_
+19	over	over	ADP	IN	_	18	compound:prt	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	occasion	occasion	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Mark my words: in a year from this time that girl will hate him.
+1	Mark	Mark	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	words	word	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	year	year	NOUN	NN	Number=Sing	1	obl	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	time	time	NOUN	NN	Number=Sing	7	nmod	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	girl	girl	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	hate	hate	VERB	VB	VerbForm=Inf	1	parataxis	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = She looks up to him as an oracle now, and by-and-by she will be at the other extreme.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+6	as	as	ADP	IN	_	8	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	oracle	oracle	NOUN	NN	Number=Sing	2	obl	_	_
+9	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	23	punct	_	_
+11	and	and	CCONJ	CC	_	23	cc	_	_
+12	by	by	ADP	IN	_	15	case	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+14	and	and	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+16	by	by	SCONJ	IN	_	23	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	23	cop	_	_
+20	at	at	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	other	other	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	extreme	extreme	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = All flightiness!”
+1	All	all	DET	DT	_	2	det	_	_
+2	flightiness	flightiness	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

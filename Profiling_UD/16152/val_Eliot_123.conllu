@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My place, indeed!” said Mrs
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	place	place	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	indeed	indeed	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+9	Mrs	Mrs	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Glegg, getting rather more shrill.
+1	Glegg	Glegg	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	getting	get	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+4	rather	rather	ADV	RB	_	6	advmod	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	shrill	shrill	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = “There’s your betters, Mr Tulliver, as are dead and in their grave, treated me with a different sort o’ respect to what you do; _though_
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	betters	betters	NOUN	NNS	Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	Mr	Mr	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Tulliver	Tulliver	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	dead	dead	ADJ	JJ	Degree=Pos	3	advcl	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	grave	grave	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	treated	treat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	different	different	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	sort	sort	NOUN	NN	Number=Sing	26	obl	_	_
+24	o	of	ADP	IN	Abbr=Yes	26	case	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	26	punct	_	_
+26	respect	respect	X	GW	_	18	obl	_	_
+27	to	to	SCONJ	IN	_	28	case	_	_
+28	what	what	PRON	WP	PronType=Int	18	obl	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	_
+30	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	3	punct	_	_
+32	_though	_though	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+33	_	_	SYM	NFP	_	3	discourse	_	_
+
+# sent_id = 4
+# text = I’ve got a husband as’ll sit by and see me abused by them as ’ud never ha’ had the chance if there hadn’t been them in our family as married worse than they might ha’ done.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	husband	husband	NOUN	NN	Number=Sing	3	obj	_	_
+6	as	as	ADV	RB	_	8	advmod	_	SpaceAfter=No
+7	’ll	’ll	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	sit	sit	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+9	by	by	ADV	RP	_	8	advmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	see	see	VERB	VB	VerbForm=Inf	8	conj	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	abused	abuse	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+14	by	by	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+16	as	as	SCONJ	IN	_	17	mark	_	_
+17	’ud	’uld	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+18	never	never	ADV	RB	_	19	advmod	_	_
+19	ha	ha	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	8	punct	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	chance	chance	NOUN	NN	Number=Sing	21	obj	_	_
+24	if	if	SCONJ	IN	_	29	mark	_	_
+25	there	there	PRON	EX	_	29	expl	_	_
+26	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux	_	SpaceAfter=No
+27	n’t	not	PART	RB	_	29	advmod	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	29	cop	_	_
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	advcl	_	_
+30	in	in	ADP	IN	_	32	case	_	_
+31	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	family	family	NOUN	NN	Number=Sing	29	nmod	_	_
+33	as	as	SCONJ	IN	_	34	mark	_	_
+34	married	marry	VERB	VBN	Tense=Past|VerbForm=Part	21	advcl	_	_
+35	worse	worse	ADJ	JJR	Degree=Cmp	34	xcomp	_	_
+36	than	than	SCONJ	IN	_	41	mark	_	_
+37	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+38	might	might	AUX	MD	VerbForm=Fin	41	aux	_	_
+39	ha	ha	PROPN	NNP	Number=Sing	41	nsubj	_	SpaceAfter=No
+40	’	's	PART	POS	_	41	mark	_	_
+41	done	do	VERB	VBN	Tense=Past|VerbForm=Part	35	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

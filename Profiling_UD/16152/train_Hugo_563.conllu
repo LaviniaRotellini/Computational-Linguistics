@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Many hours passed.
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	hours	hour	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The midnight mass was over, the chimes had ceased, the drinkers had taken their departure, the drinking-shop was closed, the public room was deserted, the fire extinct, the stranger still remained in the same place and the same attitude.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	midnight	midnight	NOUN	NN	Number=Sing	3	compound	_	_
+3	mass	mass	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	over	over	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	chimes	chime	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	ceased	cease	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	drinkers	drinker	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	departure	departure	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+20	drinking	drinking	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	shop	shop	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	closed	close	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	4	punct	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	public	public	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	room	room	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+30	deserted	desert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	39	punct	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+33	fire	fire	NOUN	NN	Number=Sing	34	compound	_	_
+34	extinct	extinct	NOUN	NN	Number=Sing	39	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	39	punct	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	stranger	stranger	NOUN	NN	Number=Sing	39	nsubj	_	_
+38	still	still	ADV	RB	_	39	advmod	_	_
+39	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	conj	_	_
+40	in	in	ADP	IN	_	43	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+42	same	same	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	place	place	NOUN	NN	Number=Sing	39	obl	_	_
+44	and	and	CCONJ	CC	_	47	cc	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+46	same	same	ADJ	JJ	Degree=Pos	47	amod	_	_
+47	attitude	attitude	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = From time to time he changed the elbow on which he leaned.
+1	From	from	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	2	nmod	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	changed	change	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	elbow	elbow	NOUN	NN	Number=Sing	6	obj	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	which	which	PRON	WDT	PronType=Rel	12	obl	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = That was all; but he had not said a word since Cosette had left the room.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	all	all	DET	DT	_	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	but	but	CCONJ	CC	_	9	cc	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	said	say	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	word	word	NOUN	NN	Number=Sing	15	nsubj	_	_
+12	since	since	ADP	IN	_	13	case	_	_
+13	Cosette	Cosette	PROPN	NNP	Number=Sing	11	nmod	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	room	room	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” resumed Gringoire, talking to himself and touching his nose with his forefinger in sign of meditation,—“that’s it!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Gringoire	Gringoire	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	talking	talk	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	touching	touch	VERB	VBG	VerbForm=Ger	8	conj	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	nose	nose	NOUN	NN	Number=Sing	12	obj	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	forefinger	forefinger	NOUN	NN	Number=Sing	14	nmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	sign	sign	NOUN	NN	Number=Sing	12	obl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	meditation	meditation	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	,—“	,—“	PUNCT	.	_	5	punct	_	SpaceAfter=No
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	_	SpaceAfter=No
+24	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 2
+# text = —The thieves are brave fellows!
+1	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	thieves	thief	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	brave	brave	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellows	fellow	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = —The tribe of Egypt love her!
+1	—	-	PUNCT	:	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	tribe	tribe	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Egypt	Egypt	PROPN	NNP	Number=Sing	3	nmod	_	_
+6	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = —They will rise at the first word!
+1	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	rise	rise	VERB	VB	VerbForm=Inf	0	root	_	_
+5	at	at	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	_
+8	word	word	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 5
+# text = —Nothing easier!
+1	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+2	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+3	easier	easier	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 6
+# text = —A sudden stroke.
+1	—A	—a	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	sudden	sudden	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	stroke	stroke	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 7
+# text = —Under cover of the disorder, they will easily carry her off!
+1	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+2	Under	under	ADP	IN	_	3	case	_	_
+3	cover	cover	NOUN	NN	Number=Sing	11	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	disorder	disorder	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	easily	easily	ADV	RB	_	11	advmod	_	_
+11	carry	carry	VERB	VB	VerbForm=Inf	0	root	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obj	_	_
+13	off	off	ADP	RP	_	11	compound:prt	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 8
+# text = —Beginning to-morrow evening.
+1	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+2	Beginning	begin	VERB	VBG	VerbForm=Ger	6	amod	_	_
+3	to	to	ADP	IN	_	5	case	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	morrow	morrow	NOUN	NN	Number=Sing	6	compound	_	_
+6	evening	evening	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 9
+# text = They will ask nothing better.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

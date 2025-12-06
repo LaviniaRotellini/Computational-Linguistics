@@ -1,0 +1,122 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He answered himself:
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 2
+# text = “If this man has, indeed, stolen a few apples, that means a month in prison.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	indeed	indeed	ADV	RB	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	few	few	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	apples	apple	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	15	nsubj	_	_
+15	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	month	month	NOUN	NN	Number=Sing	15	obj	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	prison	prison	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = It is a long way from that to the galleys.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	long	long	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	way	way	NOUN	NN	Number=Sing	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nmod	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	galleys	galley	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And who knows?
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Did he steal?
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	steal	steal	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Has it been proved?
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = The name of Jean Valjean overwhelms him, and seems to dispense with proofs.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	name	name	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Jean	Jean	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	Valjean	Valjean	PROPN	NNP	Number=Sing	4	flat	_	_
+6	overwhelms	overwhelm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	dispense	dispense	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	proofs	proofs	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Do not the attorneys for the Crown always proceed in this manner?
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+2	not	not	PART	RB	_	4	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	attorneys	attorney	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Crown	Crown	PROPN	NNP	Number=Sing	4	nmod	_	_
+8	always	always	ADV	RB	_	9	advmod	_	_
+9	proceed	proceed	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	manner	manner	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 9
+# text = He is supposed to be a thief because he is known to be a convict.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	7	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	thief	thief	NOUN	NN	Number=Sing	3	xcomp	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+12	to	to	PART	TO	_	15	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	convict	convict	NOUN	NN	Number=Sing	11	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

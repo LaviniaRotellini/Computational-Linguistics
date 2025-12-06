@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What will you do at Lowick, Dodo?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	Lowick	Lowick	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Dodo	Dodo	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = You say yourself there is nothing to be done there:
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	5	nsubj	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+10	there	there	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 3
+# text = everybody is so clean and well off, it makes you quite melancholy.
+1	everybody	everybody	PRON	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	clean	clean	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	10	cc	_	_
+6	well	well	ADV	RB	Degree=Pos	7	advmod	_	_
+7	off	off	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	quite	quite	ADV	RB	_	13	advmod	_	_
+13	melancholy	melancholy	ADV	RB	_	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = And here you have been so happy going all about Tipton with Mr. Garth into the worst backyards.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	here	here	ADV	RB	PronType=Dem	7	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+8	going	go	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+9	all	all	ADV	RB	_	8	advmod	_	_
+10	about	about	ADP	IN	_	11	case	_	_
+11	Tipton	Tipton	PROPN	NNP	Number=Sing	8	obl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obl	_	_
+14	Garth	Garth	PROPN	NNP	Number=Sing	13	flat	_	_
+15	into	into	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	worst	worst	ADJ	JJS	Degree=Sup	18	amod	_	_
+18	backyards	backyard	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = And now uncle is abroad, you and Mr. Garth can have it all your own way; and I am sure James does everything you tell him.”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	now	now	ADV	RB	_	5	advmod	_	_
+3	uncle	uncle	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	abroad	abroad	ADV	RB	_	12	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	7	conj	_	_
+10	Garth	Garth	PROPN	NNP	Number=Sing	9	flat	_	_
+11	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	all	all	DET	PDT	_	13	det	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	way	way	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	12	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	sure	sure	ADJ	JJ	Degree=Pos	12	conj	_	_
+23	James	James	PROPN	NNP	Number=Sing	24	nsubj	_	_
+24	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
+25	everything	everything	PRON	NN	Number=Sing	24	obj	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+27	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

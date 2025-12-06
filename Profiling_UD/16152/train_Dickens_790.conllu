@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘What do I deduce from this?’
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	deduce	deduce	VERB	VB	VerbForm=Inf	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mrs. Micawber went on to say, still with the same air of putting a case lucidly.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Micawber	Micawber	PROPN	NNP	Number=Sing	1	flat	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	on	on	ADV	RB	_	3	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	still	still	ADV	RB	_	12	advmod	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	same	same	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	air	air	NOUN	NN	Number=Sing	6	obl	_	_
+13	of	of	SCONJ	IN	_	14	mark	_	_
+14	putting	put	VERB	VBG	VerbForm=Ger	12	acl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	case	case	NOUN	NN	Number=Sing	14	obj	_	_
+17	lucidly	lucidly	ADV	RB	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ‘What is the conclusion, my dear Mr. Copperfield, to which I am irresistibly brought?
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	0	root	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	conclusion	conclusion	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	dear	dear	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	2	appos	_	_
+10	Copperfield	Copperfield	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	which	which	PRON	WDT	PronType=Rel	17	obl	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj:pass	_	_
+15	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+16	irresistibly	irresistibly	ADV	RB	_	17	advmod	_	_
+17	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Am I wrong in saying, it is clear that we must live?’
+1	Am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	_
+4	in	in	SCONJ	IN	_	5	mark	_	_
+5	saying	say	VERB	VBG	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	clear	clear	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+10	that	that	SCONJ	IN	_	13	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	must	must	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	live	living	VERB	VB	VerbForm=Inf	9	csubj	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

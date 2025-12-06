@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear Copperfield,’ he replied.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	Copperfield	Copperfield	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘To a man possessed of the higher imaginative powers, the objection to legal studies is the amount of detail which they involve.
+1	‘	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+2	To	to	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	19	obl	_	_
+5	possessed	possess	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	higher	higher	ADJ	JJR	Degree=Cmp	10	amod	_	_
+9	imaginative	imaginative	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	powers	power	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	19	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	objection	objection	NOUN	NN	Number=Sing	19	nsubj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	legal	legal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	studies	study	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	amount	amount	NOUN	NN	Number=Sing	0	root	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	detail	detail	NOUN	NN	Number=Sing	19	nmod	_	_
+22	which	which	PRON	WDT	PronType=Rel	24	obj	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	involve	involve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 3
+# text = Even in our professional correspondence,’ said Mr. Micawber, glancing at some letters he was writing, ‘the mind is not at liberty to soar to any exalted form of expression.
+1	Even	even	ADV	RB	_	5	advmod	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	professional	professional	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	correspondence	correspondence	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+10	Micawber	Micawber	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	glancing	glance	VERB	VBG	VerbForm=Ger	8	ccomp	_	_
+13	at	at	ADP	IN	_	15	case	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	letters	letter	NOUN	NNS	Number=Plur	12	obl	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	8	punct	_	_
+20	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	mind	mind	NOUN	NN	Number=Sing	26	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	not	not	PART	RB	_	26	advmod	_	_
+25	at	at	ADP	IN	_	26	case	_	_
+26	liberty	liberty	NOUN	NN	Number=Sing	8	ccomp	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	soar	soar	VERB	VB	VerbForm=Inf	26	acl	_	_
+29	to	to	ADP	IN	_	32	case	_	_
+30	any	any	DET	DT	_	32	det	_	_
+31	exalted	exalt	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	form	form	NOUN	NN	Number=Sing	28	obl	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	expression	expression	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Still, it is a great pursuit.
+1	Still	still	PROPN	NNP	Number=Sing	7	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	pursuit	pursuit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = A great pursuit!’
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	great	great	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	pursuit	pursuit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

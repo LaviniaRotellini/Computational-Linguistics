@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = For years and years, Mr. Barkis had carried this box, on all his journeys, every day.
+1	For	for	ADP	IN	_	2	case	_	_
+2	years	year	NOUN	NNS	Number=Plur	9	obl	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	years	year	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	Barkis	Barkis	PROPN	NNP	Number=Sing	6	flat	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	box	box	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	on	on	ADP	IN	_	16	case	_	_
+14	all	all	DET	DT	_	16	det:predet	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	journeys	journey	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	every	every	DET	DT	_	19	det	_	_
+19	day	day	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = That it might the better escape notice, he had invented a fiction that it belonged to ‘Mr.
+1	That	that	SCONJ	IN	_	7	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	7	amod	_	_
+6	escape	escape	NOUN	NN	Number=Sing	7	compound	_	_
+7	notice	notice	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	invented	invent	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	fiction	fiction	NOUN	NN	Number=Sing	11	obj	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	belonged	belong	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+17	to	to	ADP	IN	_	16	obl	_	_
+18	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+
+# sent_id = 3
+# text = Blackboy’, and was ‘to be left with Barkis till called for’; a fable he had elaborately written on the lid, in characters now scarcely legible.
+1	Blackboy	Blackboy	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+2	’	’	PUNCT	''	_	1	punct	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	and	and	CCONJ	CC	_	9	cc	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+6	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	Barkis	Barkis	PROPN	NNPS	Number=Plur	9	obl	_	_
+12	till	till	SCONJ	IN	_	13	mark	_	_
+13	called	call	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+14	for	for	ADP	IN	_	15	case	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	13	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	9	punct	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	fable	fable	ADJ	JJ	Degree=Pos	9	amod	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	elaborately	elaborately	ADV	RB	_	22	advmod	_	_
+22	written	write	VERB	VBN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	on	on	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	lid	lid	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	9	punct	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	characters	character	NOUN	NNS	Number=Plur	9	obl	_	_
+29	now	now	ADV	RB	_	9	advmod	_	_
+30	scarcely	scarcely	ADV	RB	_	31	advmod	_	_
+31	legible	legible	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

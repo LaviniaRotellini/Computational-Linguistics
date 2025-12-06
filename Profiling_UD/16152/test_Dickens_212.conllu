@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When I said that I only came to see how Miss Havisham was, Sarah evidently deliberated whether or no she should send me about my business.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	see	see	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	how	how	ADV	WRB	PronType=Int	17	advmod	_	_
+11	Miss	miss	PROPN	NNP	Number=Sing	17	nsubj	_	_
+12	Havisham	Havisham	PROPN	NNP	Number=Sing	11	flat	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	Sarah	Sarah	PROPN	NNP	Number=Sing	17	nsubj	_	_
+16	evidently	evidently	ADV	RB	_	17	advmod	_	_
+17	deliberated	deliberate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+18	whether	whether	SCONJ	IN	_	23	mark	_	_
+19	or	or	CCONJ	CC	_	18	fixed	_	_
+20	no	no	ADV	RB	_	18	fixed	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	should	should	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	send	send	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obj	_	_
+25	about	about	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	business	business	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But unwilling to hazard the responsibility, she let me in, and presently brought the sharp message that I was to “come up.”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	unwilling	unwill	ADJ	JJ	Degree=Pos	9	conj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hazard	hazard	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	responsibility	responsibility	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	let	let	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	in	in	ADP	RP	_	9	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	presently	presently	ADV	RB	_	15	advmod	_	_
+15	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	sharp	sharp	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	message	message	NOUN	NN	Number=Sing	15	obj	_	_
+19	that	that	PRON	WDT	PronType=Rel	21	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+22	to	to	PART	TO	_	24	mark	_	_
+23	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+24	come	come	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	up	up	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

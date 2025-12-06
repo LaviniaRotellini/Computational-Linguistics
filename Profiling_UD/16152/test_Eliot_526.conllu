@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, nay, I canna spare thee.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	nay	nay	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	na	to	PART	TO	Abbr=Yes	9	mark	_	_
+9	spare	spare	VERB	VB	VerbForm=Inf	0	root	_	_
+10	thee	thee	NUM	CD	NumType=Card	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Thee must go an’ see thy brother, an’ bring me word what he’s a-doin’.
+1	Thee	Thee	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	3	ccomp	_	_
+7	thy	thy	PRON	PRP$	_	8	nmod:poss	_	_
+8	brother	brother	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	6	punct	_	_
+12	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	6	parataxis	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	word	word	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	what	what	PRON	WP	PronType=Int	14	obj	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	doin	doin	NOUN	NN	Number=Sing	15	acl:relcl	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	6	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mester Irwine said he’d come an’ tell me, but I canna make out so well what it means when he tells me.
+1	Mester	Mester	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Irwine	Irwine	PROPN	NNP	Number=Sing	1	flat	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’d	’d	ADV	RB	_	6	advmod	_	_
+6	come	come	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	tell	tell	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	but	but	CCONJ	CC	_	16	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	na	to	PART	TO	Abbr=Yes	16	mark	_	_
+16	make	make	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	out	out	ADP	RP	_	16	compound:prt	_	_
+18	so	so	ADV	RB	_	20	advmod	_	_
+19	well	well	ADV	RB	Degree=Pos	18	fixed	_	_
+20	what	what	PRON	WP	PronType=Int	16	obj	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+23	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Thee must go thysen, sin’ Adam wonna let me go to him.
+1	Thee	Thee	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	thysen	thysen	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	sin	sin	ADP	IN	_	8	case	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	3	obl	_	_
+9	wonna	wonto	PART	TO	Abbr=Yes	10	mark	_	_
+10	let	let	VERB	VB	VerbForm=Inf	3	advcl	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	go	go	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Write a letter to Dinah canstna?
+1	Write	write	DET	PDT	_	3	det:predet	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	letter	letter	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	Dinah	Dinah	PROPN	NNP	Number=Sing	6	compound	_	_
+6	canstna	canstna	PROPN	NNP	Number=Sing	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Thee’t fond enough o’ writin’ when nobody wants thee.”
+1	Thee’t	Theeot	PART	RB	_	2	mark	_	_
+2	fond	fond	VERB	VB	VerbForm=Inf	0	root	_	_
+3	enough	enough	ADJ	JJ	Degree=Pos	6	amod	_	_
+4	o	of	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	writin	writin	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	nobody	nobody	PRON	NN	Number=Sing	10	nsubj	_	_
+10	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	thee	thee	NUM	CD	NumType=Card	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

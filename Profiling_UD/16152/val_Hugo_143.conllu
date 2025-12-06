@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Sir," said the tourist, "I will tell you the tonnage of the civilised world.
+1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Sir	Sir	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	"	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	tourist	tourist	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	tell	tell	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	iobj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	tonnage	tonnage	NOUN	NN	Number=Sing	12	obj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	civilised	civilised	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	world	world	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = France 716,000 tons; Germany 1,000,000; the United States, 5,000,000; England, 5,500,000; add the small vessels.
+1	France	France	PROPN	NNP	Number=Sing	3	compound	_	_
+2	716,000	716,000	NUM	CD	NumType=Card	1	nummod	_	_
+3	tons	ton	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	Germany	Germany	PROPN	NNP	Number=Sing	3	appos	_	_
+6	1,000,000	1,000,000	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	United	United	PROPN	NNP	Number=Sing	10	compound	_	_
+10	States	States	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	5,000,000	5,000,000	NUM	CD	NumType=Card	3	appos	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	3	punct	_	_
+14	England	England	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	5,500,000	5,500,000	NUM	CD	NumType=Card	3	appos	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	3	punct	_	_
+18	add	add	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	small	small	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	vessels	vessel	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Total 12,904,000 tons, carried in 145,000 vessels scattered over the waters of the globe."
+1	Total	total	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	12,904,000	12,904,000	NUM	CD	NumType=Card	3	nummod	_	_
+3	tons	ton	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	145,000	145,000	NUM	CD	NumType=Card	8	nummod	_	_
+8	vessels	vessel	NOUN	NNS	Number=Plur	5	obl	_	_
+9	scattered	scatter	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	_
+10	over	over	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	waters	water	NOUN	NNS	Number=Plur	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	globe	globe	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

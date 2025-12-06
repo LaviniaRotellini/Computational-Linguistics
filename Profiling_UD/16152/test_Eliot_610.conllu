@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But no one who knows you will think that, Adam.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	one	one	NOUN	NN	Number=Sing	0	root	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	think	think	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	Adam	Adam	PROPN	NNP	Number=Sing	9	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = That is not a reason strong enough against a course that is really more generous, more unselfish than the other.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	reason	reason	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	strong	strong	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+8	against	against	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	course	course	NOUN	NN	Number=Sing	7	obl	_	_
+11	that	that	PRON	WDT	PronType=Rel	15	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	really	really	ADV	RB	_	15	advmod	_	_
+14	more	more	ADV	RBR	_	15	advmod	_	_
+15	generous	generous	ADJ	JJ	Degree=Pos	10	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	more	more	ADV	RBR	_	18	advmod	_	_
+18	unselfish	unselfish	ADJ	JJ	Degree=Pos	7	conj	_	_
+19	than	than	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	other	other	ADJ	JJ	Degree=Pos	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And it will be known—it shall be made known, that both you and the Poysers stayed at my entreaty.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+11	known	known	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	both	both	CCONJ	CC	_	15	cc:preconj	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Poysers	Poyser	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	stayed	stay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+20	at	at	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	entreaty	entreaty	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Adam, don’t try to make things worse for me; I’m punished enough without that.”
+1	Adam	Adam	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	try	try	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	make	make	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	things	thing	NOUN	NNS	Number=Plur	7	obj	_	_
+9	worse	worse	ADJ	JJR	Degree=Cmp	7	xcomp	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	5	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	SpaceAfter=No
+14	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	punished	punish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+16	enough	enough	ADV	RB	_	15	advmod	_	_
+17	without	without	ADP	IN	_	18	case	_	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

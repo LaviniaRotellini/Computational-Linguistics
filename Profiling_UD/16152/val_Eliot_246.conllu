@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m fit to speak to something better than you, you poor-spirited imp!” said Tom, lighting up immediately at Philip’s fire.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fit	fit	VERB	VB	VerbForm=Inf	18	ccomp	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	speak	speak	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	something	something	PRON	NN	Number=Sing	6	obl	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	8	amod	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	poor-spirited	poor-spirit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+15	imp	imp	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	18	punct	_	_
+18	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Tom	Tom	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	lighting	light	VERB	VBG	VerbForm=Ger	18	parataxis	_	_
+22	up	up	ADP	RP	_	21	compound:prt	_	_
+23	immediately	immediately	ADV	RB	_	21	advmod	_	_
+24	at	at	ADP	IN	_	27	case	_	_
+25	Philip	Philip	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	fire	fire	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = “You know I won’t hit you, because you’re no better than a girl.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	wo	will	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	hit	hit	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	because	because	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	no	no	ADV	RB	_	14	advmod	_	_
+14	better	better	ADJ	JJR	Degree=Cmp	12	xcomp	_	_
+15	than	than	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	girl	girl	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But I’m an honest man’s son, and _your_ father’s a rogue; everybody says so!”
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	honest	honest	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	son	son	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	and	and	CCONJ	CC	_	17	cc	_	_
+11	_	_	SYM	NFP	_	14	punct	_	SpaceAfter=No
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	14	punct	_	_
+14	father	father	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	rogue	rogue	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	8	punct	_	_
+19	everybody	everybody	PRON	NN	Number=Sing	20	nsubj	_	_
+20	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+21	so	so	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

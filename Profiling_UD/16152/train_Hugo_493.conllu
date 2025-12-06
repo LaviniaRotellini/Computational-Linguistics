@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had “ferreted out” nothing.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+4	ferreted	ferret	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+5	out	out	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+6	”	"	PUNCT	``	_	4	punct	_	_
+7	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = No one in Montfermeil thought any more about it.
+1	No	no	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	Montfermeil	Montfermeil	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	any	any	ADV	RB	_	7	advmod	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	5	obj	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There were only a few brave gossips, who said, “You may be certain that the mender on the Gagny road did not take all that trouble for nothing; he was sure that the devil had come.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	only	only	ADV	RB	_	2	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	few	few	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	brave	brave	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	gossips	gossip	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+14	may	may	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	certain	certain	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+17	that	that	SCONJ	IN	_	26	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	mender	mender	NOUN	NN	Number=Sing	26	nsubj	_	_
+20	on	on	ADP	IN	_	23	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	Gagny	Gagny	PROPN	NNP	Number=Sing	23	compound	_	_
+23	road	road	NOUN	NN	Number=Sing	19	nmod	_	_
+24	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+25	not	not	PART	RB	_	26	advmod	_	_
+26	take	take	VERB	VB	VerbForm=Inf	16	csubj	_	_
+27	all	all	DET	PDT	_	29	det:predet	_	_
+28	that	that	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+29	trouble	trouble	NOUN	NN	Number=Sing	26	obj	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	nothing	nothing	PRON	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+32	;	;	PUNCT	,	_	2	punct	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	_
+35	sure	sure	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+36	that	that	SCONJ	IN	_	40	mark	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	devil	devil	PROPN	NNPS	Number=Plur	40	nsubj	_	_
+39	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	aux	_	_
+40	come	come	VERB	VBN	Tense=Past|VerbForm=Part	35	ccomp	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

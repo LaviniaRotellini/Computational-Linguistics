@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When she repeated Fred’s news to Lydgate, he said, “Take care you don’t drop the faintest hint to Ladislaw, Rosy.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	Fred	Fred	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	news	news	NOUN	NN	Number=Sing	3	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	Lydgate	Lydgate	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	11	ccomp	_	_
+15	care	care	NOUN	NN	Number=Sing	14	obj	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	19	advmod	_	_
+19	drop	drop	VERB	VB	VerbForm=Inf	14	parataxis	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	faintest	faintest	ADJ	JJ	Degree=Pos|NumType=Ord	22	amod	_	_
+22	hint	hint	NOUN	NN	Number=Sing	19	obj	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	Rosy	rosy	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = He is likely to fly out as if you insulted him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	likely	likely	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	fly	fly	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	as	as	SCONJ	IN	_	10	mark	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	insulted	insult	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Of course it is a painful affair.”
+1	Of	of	ADV	RB	_	7	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	painful	painful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	affair	affair	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

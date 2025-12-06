@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We had exhausted the crocodiles, and begun with the alligators, when the garden-bell rang.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	exhausted	exhaust	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	crocodiles	crocodile	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	alligators	alligator	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+15	garden	garden	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	bell	bell	NOUN	NN	Number=Sing	18	compound	_	_
+18	rang	rang	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = We went out to the door; and there was my mother, looking unusually pretty, I thought, and with her a gentleman with beautiful black hair and whiskers, who had walked home with us from church last Sunday.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	door	door	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	looking	look	VERB	VBG	VerbForm=Ger	10	ccomp	_	_
+15	unusually	unusually	ADV	RB	_	16	advmod	_	_
+16	pretty	pretty	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	with	with	ADP	IN	_	23	case	_	_
+23	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nmod	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	gentleman	gentleman	NOUN	NN	Number=Sing	2	conj	_	_
+26	with	with	ADP	IN	_	29	case	_	_
+27	beautiful	beautiful	ADJ	JJ	Degree=Pos	29	amod	_	_
+28	black	black	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	hair	hair	NOUN	NN	Number=Sing	25	nmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	whiskers	whisker	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	25	punct	_	_
+33	who	who	PRON	WP	PronType=Rel	35	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	walked	walk	VERB	VBN	Tense=Past|VerbForm=Part	25	acl:relcl	_	_
+36	home	home	ADV	RB	_	35	advmod	_	_
+37	with	with	ADP	IN	_	38	case	_	_
+38	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	35	obl	_	_
+39	from	from	ADP	IN	_	40	case	_	_
+40	church	church	NOUN	NN	Number=Sing	35	obl	_	_
+41	last	last	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	Sunday	Sunday	PROPN	NNP	Number=Sing	35	obl:tmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

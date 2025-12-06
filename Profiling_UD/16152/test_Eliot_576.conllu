@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adam never went to bed that night.
+1	Adam	Adam	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	bed	be	NOUN	NN	Number=Sing	3	obl	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	night	night	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The excitement of suspense, heightening with every hour that brought him nearer the fatal moment, was too great, and in spite of his entreaties, in spite of his promises that he would be perfectly quiet, the schoolmaster watched too.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	excitement	excitement	NOUN	NN	Number=Sing	20	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	suspense	suspense	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	heightening	heighten	VERB	VBG	VerbForm=Ger	2	acl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	every	every	DET	DT	_	9	det	_	_
+9	hour	hour	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	nearer	nearer	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	fatal	fatal	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	moment	moment	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	too	too	ADV	RB	_	20	advmod	_	_
+20	great	great	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	43	punct	_	_
+22	and	and	CCONJ	CC	_	43	cc	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	spite	spite	NOUN	NN	Number=Sing	43	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	entreaties	entreaty	NOUN	NNS	Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	43	punct	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	spite	spite	NOUN	NN	Number=Sing	43	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	promises	promise	NOUN	NNS	Number=Plur	30	nmod	_	_
+34	that	that	SCONJ	IN	_	39	mark	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+36	would	would	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	be	be	AUX	VB	VerbForm=Inf	39	cop	_	_
+38	perfectly	perfectly	ADV	RB	_	39	advmod	_	_
+39	quiet	quiet	ADJ	JJ	Degree=Pos	30	acl	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	43	punct	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	schoolmaster	schoolmaster	NOUN	NN	Number=Sing	43	nsubj	_	_
+43	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+44	too	too	ADV	RB	_	43	advmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n
+

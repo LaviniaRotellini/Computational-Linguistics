@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘As to me,’ said Tom, tumbling his hair all manner of ways with his sulky hands, ‘I am a Donkey, that’s what _I_ am.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	As	as	ADP	IN	_	4	case	_	_
+3	to	to	ADP	IN	_	2	fixed	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	tumbling	tumbl	VERB	VBG	VerbForm=Ger	7	parataxis	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hair	hair	NOUN	NN	Number=Sing	10	obj	_	_
+13	all	all	DET	DT	_	14	det	_	_
+14	manner	manner	NOUN	NN	Number=Sing	10	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	ways	way	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	sulky	sulky	NOUN	NN	Number=Sing	20	compound	_	_
+20	hands	hand	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	10	punct	_	_
+22	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	Donkey	Donkey	PROPN	NNP	Number=Sing	7	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	that	that	PRON	DT	Number=Sing|PronType=Dem	29	nsubj	_	SpaceAfter=No
+29	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	what	what	PRON	WP	PronType=Int	26	parataxis	_	_
+31	_I	_i	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+32	_	_	SYM	NFP	_	33	case	_	_
+33	am	am	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I am as obstinate as one, I am more stupid than one, I get as much pleasure as one, and I should like to kick like one.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	as	as	ADV	RB	_	4	advmod	_	_
+4	obstinate	obstinate	ADJ	JJ	Degree=Pos	0	root	_	_
+5	as	as	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	stupid	stupid	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+12	than	than	ADP	IN	_	13	case	_	_
+13	one	one	NUM	CD	NumType=Card	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+17	as	as	ADV	RB	_	18	advmod	_	_
+18	much	much	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	pleasure	pleasure	NOUN	NN	Number=Sing	16	obj	_	_
+20	as	as	ADP	IN	_	21	case	_	_
+21	one	one	NUM	CD	NumType=Card	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	should	should	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	like	like	VERB	VB	VerbForm=Inf	4	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	kick	kick	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	like	like	ADP	IN	_	30	case	_	_
+30	one	one	NUM	CD	NumType=Card	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+32	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

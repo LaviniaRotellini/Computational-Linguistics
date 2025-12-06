@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have been in the greatest concern and uneasiness during the last four-and-twenty hours (which have appeared as many years),’ he returned, ‘on a lady’s account.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	greatest	greatest	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	concern	concern	NOUN	NN	Number=Sing	0	root	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	uneasiness	uneasiness	NOUN	NN	Number=Sing	8	conj	_	_
+11	during	during	ADP	IN	_	19	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+13	last	last	ADJ	JJ	Degree=Pos	19	amod	_	_
+14	four	four	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+16	and	and	CCONJ	CC	_	19	cc	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+18	twenty	twenty	NUM	CD	NumType=Card	19	nummod	_	_
+19	hours	hour	NOUN	NNS	Number=Plur	31	obl	_	_
+20	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
+21	which	which	PRON	WDT	PronType=Rel	23	nsubj	_	_
+22	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	appeared	appear	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+24	as	as	ADP	IN	_	26	case	_	_
+25	many	many	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	years	year	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	23	punct	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	31	punct	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	8	punct	_	_
+33	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+34	on	on	ADP	IN	_	38	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	lady	lady	NOUN	NN	Number=Sing	38	nmod:poss	_	SpaceAfter=No
+37	’s	's	PART	POS	_	36	case	_	_
+38	account	account	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = The hopes I have been encouraged to form that you come from that lady, do not deceive me, I trust.’
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	hopes	hope	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	encouraged	encourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	form	form	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	that	that	SCONJ	IN	_	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	lady	lady	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	deceive	deceive	VERB	VB	VerbForm=Inf	11	conj	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	6	punct	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	trust	trust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

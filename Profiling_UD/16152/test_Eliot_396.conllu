@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Bless your sweet face, my pet,” she said, the mother’s strong love filling her keen eyes with mildness, as Totty leaned forward and put out her arms.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Bless	bless	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	sweet	sweet	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	face	face	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	pet	pet	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	mother	mother	NOUN	NN	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	strong	strong	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	love	love	NOUN	NN	Number=Sing	12	obj	_	_
+19	filling	fill	VERB	VBG	VerbForm=Ger	18	acl	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	keen	keen	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	eyes	eye	NOUN	NNS	Number=Plur	19	obj	_	_
+23	with	with	ADP	IN	_	24	case	_	_
+24	mildness	mildness	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	18	punct	_	_
+26	as	as	SCONJ	IN	_	28	mark	_	_
+27	Totty	Totty	PROPN	NNP	Number=Sing	28	nsubj	_	_
+28	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+29	forward	forward	ADV	RB	_	28	advmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	put	put	VERB	VB	VerbForm=Inf	28	conj	_	_
+32	out	out	ADP	RP	_	31	compound:prt	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	arms	arms	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = She had no eyes for Hetty at that moment, and only said, without looking at her, “You go and draw some ale, Hetty; the gells are both at the cheese.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	eyes	eye	NOUN	NNS	Number=Plur	2	obj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	Hetty	Hetty	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	moment	moment	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	only	only	ADV	RB	_	13	advmod	_	_
+13	said	say	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	without	without	SCONJ	IN	_	16	mark	_	_
+16	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	2	punct	_	_
+20	“	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
+21	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	draw	draw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	_
+25	some	some	DET	DT	_	26	det	_	_
+26	ale	ale	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	Hetty	Hetty	INTJ	UH	_	26	discourse	_	SpaceAfter=No
+29	;	;	PUNCT	,	_	2	punct	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	gells	gell	NOUN	NNS	Number=Plur	36	nsubj	_	_
+32	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	cop	_	_
+33	both	both	CCONJ	CC	_	36	cc:preconj	_	_
+34	at	at	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	cheese	cheese	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

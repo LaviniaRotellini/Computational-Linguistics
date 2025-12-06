@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, indeed, Bob,” said Maggie, “I’m very thankful to you for thinking of me, and being so good to me and Tom.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	indeed	indeed	ADV	RB	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	Bob	Bob	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Maggie	Maggie	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	thankful	thankful	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obl	_	_
+19	for	for	SCONJ	IN	_	20	mark	_	_
+20	thinking	think	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	being	be	AUX	VBG	VerbForm=Ger	27	cop	_	_
+26	so	so	ADV	RB	_	27	advmod	_	_
+27	good	good	ADJ	JJ	Degree=Pos	16	conj	_	_
+28	to	to	ADP	IN	_	29	case	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	obl	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	Tom	Tom	PROPN	NNP	Number=Sing	29	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = I don’t think any one ever did such a kind thing for me before.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	one	one	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+9	such	such	DET	PDT	_	12	det:predet	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	kind	kind	NOUN	NN	Number=Sing	12	compound	_	_
+12	thing	thing	NOUN	NN	Number=Sing	8	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+15	before	before	ADV	RB	_	8	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I haven’t many friends who care for me.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	friends	friend	NOUN	NNS	Number=Plur	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	care	care	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

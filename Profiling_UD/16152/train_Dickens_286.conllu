@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Nothing seems to cost him any trouble,’ said I.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	cost	cost	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+7	any	any	DET	DT	_	8	det	_	_
+8	trouble	trouble	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = ‘He knows a task if he only looks at it.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	task	task	NOUN	NN	Number=Sing	3	obj	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	only	only	ADV	RB	_	9	advmod	_	_
+9	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He is the best cricketer you ever saw.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	best	best	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	cricketer	cricketer	NOUN	NN	Number=Sing	0	root	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = He will give you almost as many men as you like at draughts, and beat you easily.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	almost	almost	ADV	RB	_	8	advmod	_	_
+6	as	as	SCONJ	IN	_	8	case	_	_
+7	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	men	man	NOUN	NNS	Number=Plur	3	obj	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	draughts	draught	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	beat	beat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	obj	_	_
+18	easily	easily	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

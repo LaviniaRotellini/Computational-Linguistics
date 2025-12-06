@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Madame Victurnien sometimes saw her passing, from her window, noticed the distress of “that creature” who, “thanks to her,” had been “put back in her proper place,” and congratulated herself.
+1	Madame	Madame	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Victurnien	Victurnien	PROPN	NNP	Number=Sing	1	flat	_	_
+3	sometimes	sometimes	ADV	RB	_	4	advmod	_	_
+4	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	passing	passing	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	window	window	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	distress	distress	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	creature	creature	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	18	punct	_	_
+20	who	who	PRON	WP	PronType=Rel	31	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	31	punct	_	_
+22	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	thanks	thanks	NOUN	NN	Number=Sing	31	nsubj	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	31	punct	_	_
+28	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	aux	_	_
+29	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	cop	_	_
+30	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+31	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+32	back	back	ADV	RB	_	31	advmod	_	_
+33	in	in	ADP	IN	_	36	case	_	_
+34	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+35	proper	proper	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	place	place	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	31	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	31	punct	_	_
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	congratulated	congratulate	VERB	VBN	Tense=Past|VerbForm=Part	41	amod	_	_
+41	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 2
+# text = The happiness of the evil-minded is black.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	happiness	happiness	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	evil	evil	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	minded	minded	NOUN	NN	Number=Sing	2	nmod	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	black	black	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

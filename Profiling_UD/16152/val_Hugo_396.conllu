@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Agony when at its height is mute.
+1	Agony	Agony	PROPN	NNP	Number=Sing	0	root	_	_
+2	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	SpaceAfter=No
+5	s	's	PART	POS	_	4	case	_	_
+6	height	height	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	mute	mute	ADJ	JJ	Degree=Pos	1	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Gilliatt uttered no cry.
+1	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	uttered	utter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	cry	cry	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = There was sufficient light for him to see the repulsive forms which had entangled themselves about him.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sufficient	sufficient	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	light	light	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	see	see	VERB	VB	VerbForm=Inf	2	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	repulsive	repulsive	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	forms	form	NOUN	NNS	Number=Plur	8	obj	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	entangled	entangle	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	about	about	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = A fourth ligature, but this one swift as an arrow, darted towards his stomach, and wound around him there.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	fourth	fourth	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	ligature	ligature	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	but	but	CCONJ	CC	_	13	cc	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+8	swift	swift	NOUN	NN	Number=Sing	13	nsubj	_	_
+9	as	as	ADP	IN	_	11	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	arrow	arrow	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	darted	dart	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	towards	towards	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	stomach	stomach	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	wound	wound	ADJ	JJ	Degree=Pos	3	conj	_	_
+20	around	around	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	there	there	ADV	RB	PronType=Dem	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

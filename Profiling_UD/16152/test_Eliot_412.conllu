@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have told you where you are to direct a letter to, if you want to write, but I put it down below lest you should have forgotten.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	where	where	ADV	WRB	PronType=Int	10	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	direct	direct	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	letter	letter	NOUN	NN	Number=Sing	10	obj	_	_
+13	to	to	PART	TO	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	if	if	SCONJ	IN	_	17	mark	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	write	write	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	but	but	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	down	down	ADV	RB	_	23	advmod	_	_
+26	below	below	ADV	RB	_	25	advmod	_	_
+27	lest	lest	ADV	RBS	Degree=Sup	31	advmod	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+29	should	should	AUX	MD	VerbForm=Fin	31	aux	_	_
+30	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+31	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Do not write unless there is something I can really do for you; for, dear Hetty, we must try to think of each other as little as we can.
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	write	write	VERB	VB	VerbForm=Inf	0	root	_	_
+4	unless	unless	SCONJ	IN	_	6	mark	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	something	something	PRON	NN	Number=Sing	6	nsubj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	really	really	ADV	RB	_	11	advmod	_	_
+11	do	do	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	3	punct	_	_
+15	for	for	ADP	IN	_	18	case	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	dear	dear	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	Hetty	Hetty	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+21	must	must	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	try	try	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	think	think	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	each	each	DET	DT	_	27	det	_	_
+27	other	other	ADJ	JJ	Degree=Pos	24	obl	_	_
+28	as	as	ADV	RB	_	32	advmod	_	_
+29	little	little	ADV	RB	Degree=Pos	28	fixed	_	_
+30	as	as	SCONJ	IN	_	32	mark	_	_
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
+32	can	can	AUX	MD	VerbForm=Fin	24	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Forgive me, and try to forget everything about me, except that I shall be, as long as I live, your affectionate friend,
+1	Forgive	forgive	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	try	try	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	forget	forget	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	everything	everything	PRON	NN	Number=Sing	7	obj	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	except	except	SCONJ	IN	_	26	mark	_	_
+13	that	that	SCONJ	IN	_	12	fixed	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+15	shall	shall	AUX	MD	VerbForm=Fin	26	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	26	cop	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	26	punct	_	_
+18	as	as	ADV	RB	_	19	advmod	_	_
+19	long	long	ADV	RB	Degree=Pos	26	advmod	_	_
+20	as	as	SCONJ	IN	_	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	affectionate	affectionate	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	friend	friend	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\n
+

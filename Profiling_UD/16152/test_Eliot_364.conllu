@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Arthur felt a startled uncertainty how far Adam was speaking from knowledge, and how far from mere inference.
+1	Arthur	Arthu	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	startled	start	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	uncertainty	uncertainty	NOUN	NN	Number=Sing	2	obj	_	_
+6	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+7	far	far	ADV	RB	Degree=Pos	10	advmod	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	knowledge	knowledge	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+16	far	far	ADV	RB	Degree=Pos	10	conj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	mere	mere	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	inference	inference	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = And this uncertainty, which prevented him from contriving a prudent answer, heightened his irritation.
+1	And	and	CCONJ	CC	_	14	cc	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	uncertainty	uncertainty	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	prevented	prevent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	from	from	SCONJ	IN	_	9	mark	_	_
+9	contriving	contrive	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	prudent	prudent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	answer	answer	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	heightened	heighten	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	irritation	irritation	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 3
+# text = He said, in a high sharp tone, “Well, sir, what then?”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	high	high	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	sharp	sharp	NOUN	NN	Number=Sing	8	compound	_	_
+8	tone	tone	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+11	Well	well	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	sir	sir	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	what	what	PRON	WP	PronType=Int	13	obj	_	_
+16	then	then	ADV	RB	PronType=Dem	15	advmod	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

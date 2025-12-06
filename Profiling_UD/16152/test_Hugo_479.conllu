@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I frighten you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	frighten	fright	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I am very ugly, am I not?
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	ugly	ugly	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	not	not	PART	RB	_	4	parataxis	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Do not look at me; only listen to me.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	only	only	ADV	RB	_	8	advmod	_	_
+8	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = During the day you will remain here; at night you can walk all over the church.
+1	During	during	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	day	day	NOUN	NN	Number=Sing	6	obl	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	remain	remain	VERB	VB	VerbForm=Inf	0	root	_	_
+7	here	here	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	6	punct	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	night	night	NOUN	NN	Number=Sing	13	obl	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	walk	walk	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+14	all	all	ADV	RB	_	17	advmod	_	_
+15	over	over	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	church	church	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = But do not leave the church either by day or by night.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	church	church	NOUN	NN	Number=Sing	4	obj	_	_
+7	either	either	CCONJ	CC	_	9	cc:preconj	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	day	day	NOUN	NN	Number=Sing	4	obl	_	_
+10	or	or	CCONJ	CC	_	12	cc	_	_
+11	by	by	ADP	IN	_	12	case	_	_
+12	night	night	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = You would be lost.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj:pass	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = They would kill you, and I should die.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	kill	kill	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	die	die	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

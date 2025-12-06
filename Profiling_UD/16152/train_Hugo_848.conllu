@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Marquis d’Avaray, whom Louis XVIII.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Marquis	Marquis	PROPN	NNP	Number=Sing	3	compound	_	_
+3	d’Avaray	d’Avaray	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	whom	whom	PRON	WP	PronType=Rel	3	appos	_	_
+6	Louis	Louis	PROPN	NNP	Number=Sing	5	appos	_	_
+7	XVIII	XVIII	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = made a duke for having assisted him to enter a hackney-coach on the day when he emigrated, was wont to relate, that in 1814, on his return to France, as the King was disembarking at Calais, a man handed him a petition.
+1	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	duke	duke	NOUN	NN	Number=Sing	1	obj	_	_
+4	for	for	SCONJ	IN	_	6	mark	_	_
+5	having	have	AUX	VBG	VerbForm=Ger	6	aux	_	_
+6	assisted	assist	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	enter	enter	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	hackney	hackney	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	coach	coach	NOUN	NN	Number=Sing	9	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	day	day	NOUN	NN	Number=Sing	9	obl	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	emigrated	emigrate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	1	punct	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	wont	wont	ADJ	JJ	Degree=Pos	1	parataxis	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	relate	relate	VERB	VB	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	that	that	SCONJ	IN	_	40	mark	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	1814	1814	NUM	CD	NumType=Card	40	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	on	on	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	return	return	NOUN	NN	Number=Sing	28	obl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	France	France	PROPN	NNP	Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	40	punct	_	_
+36	as	as	SCONJ	IN	_	40	mark	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	King	King	PROPN	NNP	Number=Sing	40	nsubj	_	_
+39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	aux	_	_
+40	disembarking	disembark	VERB	VBG	Tense=Pres|VerbForm=Part	24	ccomp	_	_
+41	at	at	ADP	IN	_	42	case	_	_
+42	Calais	Calais	PROPN	NNP	Number=Sing	40	obl	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	40	punct	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	man	man	NOUN	NN	Number=Sing	40	nsubj	_	_
+46	handed	hand	VERB	VBN	Tense=Past|VerbForm=Part	45	acl	_	_
+47	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	iobj	_	_
+48	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	_
+49	petition	petition	NOUN	NN	Number=Sing	46	obj	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

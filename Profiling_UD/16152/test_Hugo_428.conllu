@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There is one in particular whom I hate, and whom I have cursed,” she resumed; “it is a young one, of the age which my daughter would be if her mother had not eaten my daughter.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	3	nsubj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	particular	particular	ADJ	JJ	Degree=Pos	4	nmod	_	_
+7	whom	whom	PRON	WP	PronType=Rel	9	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	whom	whom	PRON	WP	PronType=Int	3	conj	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	cursed	curse	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	3	punct	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	3	punct	_	_
+21	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	young	young	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	one	one	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	age	age	NOUN	NN	Number=Sing	26	nmod	_	_
+31	which	which	PRON	WDT	PronType=Rel	35	obj	_	_
+32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	daughter	daughter	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	would	would	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	be	be	AUX	VB	VerbForm=Inf	30	acl:relcl	_	_
+36	if	if	SCONJ	IN	_	41	mark	_	_
+37	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	mother	mother	NOUN	NN	Number=Sing	41	nsubj	_	_
+39	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	aux	_	_
+40	not	not	PART	RB	_	41	advmod	_	_
+41	eaten	eat	VERB	VB	VerbForm=Inf	35	advcl	_	_
+42	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+43	daughter	daughter	NOUN	NN	Number=Sing	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Every time that that young viper passes in front of my cell, she sets my blood in a ferment.”
+1	Every	every	DET	DT	_	2	det	_	_
+2	time	time	NOUN	NN	Number=Sing	0	root	_	_
+3	that	that	SCONJ	IN	_	15	mark	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+5	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	viper	viper	NOUN	NN	Number=Sing	7	compound	_	_
+7	passes	pass	NOUN	NNS	Number=Plur	15	nsubj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	front	front	NOUN	NN	Number=Sing	7	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	cell	cell	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	sets	set	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	blood	blood	NOUN	NN	Number=Sing	15	obj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	ferment	ferment	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

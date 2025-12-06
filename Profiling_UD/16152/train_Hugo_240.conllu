@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = If they were richer, one would say, “They are dandies;” if they were poorer, one would say, “They are idlers.”
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	richer	richer	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	one	one	PRON	PRP	_	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+11	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	dandies	dandy	NOUN	NNS	Number=Plur	8	ccomp	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	8	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	8	punct	_	_
+16	if	if	SCONJ	IN	_	19	mark	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	poorer	poorer	ADJ	JJR	Degree=Cmp	23	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	one	one	PRON	PRP	_	23	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	say	say	VERB	VB	VerbForm=Inf	8	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	“	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
+26	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+27	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	idlers	idler	NOUN	NNS	Number=Plur	23	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 2
+# text = They are simply men without employment.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	simply	simply	ADV	RB	_	4	advmod	_	_
+4	men	man	NOUN	NNS	Number=Plur	0	root	_	_
+5	without	without	ADP	IN	_	6	case	_	_
+6	employment	employment	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Among these unemployed there are bores, the bored, dreamers, and some knaves.
+1	Among	among	ADP	IN	_	3	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	unemployed	unemployed	ADJ	JJ	Degree=Pos	5	obl	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bores	bores	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	bored	bored	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	dreamers	dreamer	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	knaves	knave	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

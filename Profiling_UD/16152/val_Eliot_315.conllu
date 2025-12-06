@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “As to disgrace o’ the family,” said Mrs Glegg, “that can’t be helped wi’ buying teapots.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	As	as	SCONJ	IN	_	4	mark	_	_
+3	to	to	PART	TO	_	2	fixed	_	_
+4	disgrace	disgrace	VERB	VB	VerbForm=Inf	11	advcl	_	_
+5	o	of	ADP	IN	Abbr=Yes	8	case	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	8	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	family	family	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mrs	Mrs	PROPN	NNP	Number=Sing	11	appos	_	_
+13	Glegg	Glegg	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+16	that	that	PRON	WDT	PronType=Rel	20	nsubj:pass	_	_
+17	ca	can	AUX	MD	VerbForm=Fin	20	aux	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	20	advmod	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	helped	help	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+21	wi	wus	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	23	obj	_	SpaceAfter=No
+22	’	’	PUNCT	''	_	23	punct	_	_
+23	buying	buy	VERB	VBG	VerbForm=Ger	20	xcomp	_	_
+24	teapots	teapot	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = The disgrace is, for one o’ the family to ha’ married a man as has brought her to beggary.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	disgrace	disgrace	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	3	obl	_	_
+7	o	of	ADP	IN	Abbr=Yes	10	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	10	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	family	family	NOUN	NN	Number=Sing	6	nmod	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	ha	ha	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+13	’	's	PUNCT	''	_	3	punct	_	_
+14	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	man	man	NOUN	NN	Number=Sing	14	obj	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	beggary	beggary	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The disgrace is, as they’re to be sold up.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	disgrace	disgrace	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+7	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = We can’t hinder the country from knowing that.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	hinder	hinder	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	country	country	NOUN	NN	Number=Sing	4	obj	_	_
+7	from	from	SCONJ	IN	_	8	mark	_	_
+8	knowing	know	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

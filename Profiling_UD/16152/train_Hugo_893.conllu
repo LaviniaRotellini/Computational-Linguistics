@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One sometimes sees people, who, poor and mean, seem to wake up, pass suddenly from indigence to luxury, indulge in expenditures of all sorts, and become dazzling, prodigal, magnificent, all of a sudden.
+1	One	one	NUM	CD	NumType=Card	3	nsubj	_	_
+2	sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+3	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	people	people	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	8	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	poor	poor	ADJ	JJ	Degree=Pos	4	acl:relcl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	wake	wake	VERB	VB	VerbForm=Inf	12	advcl	_	_
+15	up	up	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	pass	pass	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+18	suddenly	suddenly	ADV	RB	_	17	advmod	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	indigence	indigence	NOUN	NN	Number=Sing	17	obl	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	luxury	luxury	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	indulge	indulge	NOUN	NN	Number=Sing	17	conj	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	expenditures	expenditure	NOUN	NNS	Number=Plur	24	nmod	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	all	all	DET	DT	_	29	det	_	_
+29	sorts	sort	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	become	become	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+33	dazzling	dazzling	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	prodigal	prodigal	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	magnificent	magnificent	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	39	punct	_	_
+39	all	all	DET	DT	_	17	conj	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+42	sudden	sudden	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = That is the result of having pocketed an income; a note fell due yesterday.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	result	result	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	SCONJ	IN	_	7	mark	_	_
+6	having	have	AUX	VBG	VerbForm=Ger	7	aux	_	_
+7	pocketed	pocket	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	income	income	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	note	note	NOUN	NN	Number=Sing	13	compound	_	_
+13	fell	fell	NOUN	NN	Number=Sing	9	appos	_	_
+14	due	due	ADP	IN	_	15	case	_	_
+15	yesterday	yesterday	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The young girl had received her quarterly income.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	girl	girl	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	quarterly	quarterly	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	income	income	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

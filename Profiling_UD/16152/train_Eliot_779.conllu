@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I think Fred ought not to need telling again what I have already said to him,” Mary answered, with a slight resentment in her manner.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Fred	Fred	PROPN	NNP	Number=Sing	8	nsubj	_	_
+5	ought	ought	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	need	need	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	telling	tell	VERB	VBG	VerbForm=Ger	8	xcomp	_	_
+10	again	again	ADV	RB	_	9	advmod	_	_
+11	what	what	PRON	WP	PronType=Int	9	obj	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	already	already	ADV	RB	_	15	advmod	_	_
+15	said	say	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	21	punct	_	_
+20	Mary	Mary	PROPN	NNP	Number=Sing	21	nsubj	_	_
+21	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	slight	slight	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	resentment	resentment	NOUN	NN	Number=Sing	21	obl	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	manner	manner	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “I mean that he ought not to put such questions until he has done something worthy, instead of saying that he could do it.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	ought	ought	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	not	not	PART	RB	_	9	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	put	put	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+10	such	such	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	questions	question	NOUN	NNS	Number=Plur	9	obj	_	_
+12	until	until	SCONJ	IN	_	15	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+16	something	something	PRON	NN	Number=Sing	15	obj	_	_
+17	worthy	worthy	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	instead	instead	ADV	RB	_	21	mark	_	_
+20	of	of	SCONJ	IN	_	19	fixed	_	_
+21	saying	say	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+22	that	that	SCONJ	IN	_	25	mark	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	could	could	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	do	do	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

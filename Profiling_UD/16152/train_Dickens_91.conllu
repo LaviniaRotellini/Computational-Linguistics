@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘She has been my mistress a long time, sir,’ answered Peggotty, ‘I ought to know it.’
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mistress	mistress	NOUN	NN	Number=Sing	14	nsubj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	long	long	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	time	time	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	sir	sir	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	’	’	PUNCT	''	_	14	punct	_	_
+14	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Peggotty	Peggotty	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	_	_
+17	‘	'	PUNCT	``	_	21	punct	_	SpaceAfter=No
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+19	ought	ing	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	know	know	VERB	VB	VerbForm=Inf	14	parataxis	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	21	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	21	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s true,’ he answered.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	true	true	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = ‘But I thought I heard you, as I came upstairs, address her by a name that is not hers.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+12	upstairs	upstairs	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	address	address	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	by	by	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	name	name	NOUN	NN	Number=Sing	14	obl	_	_
+19	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	not	not	PART	RB	_	22	advmod	_	_
+22	hers	hers	NOUN	NNS	Number=Plur	18	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = She has taken mine, you know.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	mine	mine	PRON	PRP	_	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Will you remember that?’
+1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

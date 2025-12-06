@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thank you, my calling is to enjoy myself as much as I can.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	calling	calling	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	enjoy	enjoy	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+10	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	much	much	ADV	RB	_	9	advmod	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	12	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I don’t care about working any more.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+5	about	about	SCONJ	IN	_	6	mark	_	_
+6	working	work	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	any	any	ADV	RB	_	8	advmod	_	_
+8	more	more	ADV	RBR	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = If I did anything it would be a little travelling in the tobacco line—or something of that sort, which takes a man into agreeable company.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	anything	anything	PRON	NN	Number=Sing	3	obj	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	travelling	travelling	NOUN	NN	Number=Sing	0	root	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	tobacco	tobacco	NOUN	NN	Number=Sing	14	compound	_	_
+14	line	line	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+16	or	or	CCONJ	CC	_	17	cc	_	_
+17	something	something	PRON	NN	Number=Sing	10	conj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	sort	sort	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	which	which	PRON	WDT	PronType=Rel	23	nsubj	_	_
+23	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	man	man	NOUN	NN	Number=Sing	23	obj	_	_
+26	into	into	ADP	IN	_	28	case	_	_
+27	agreeable	agreeable	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	company	company	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = But not without an independence to fall back upon.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	not	not	PART	RB	_	5	advmod	_	_
+3	without	without	ADP	IN	_	5	case	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	independence	independence	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	fall	fall	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	back	back	ADV	RB	_	7	advmod	_	_
+9	upon	upon	ADP	IN	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = That’s what I want: I’m not so strong as I was, Nick, though I’ve got more color than you.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+8	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	strong	strong	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+12	as	as	SCONJ	IN	_	16	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	Nick	Nick	PROPN	NNP	Number=Sing	11	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	11	punct	_	_
+18	though	though	SCONJ	IN	_	21	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+20	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	got	get	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+22	more	more	ADJ	JJR	Degree=Cmp	23	amod	_	_
+23	color	color	NOUN	NN	Number=Sing	21	obj	_	_
+24	than	than	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = I want an independence.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	independence	independence	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

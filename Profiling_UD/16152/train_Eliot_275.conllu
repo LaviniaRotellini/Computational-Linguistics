@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pray sit down.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Pray	pray	INTJ	UH	_	3	discourse	_	_
+3	sit	sit	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	down	down	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He is not here now, but he will be glad to hear of you, I am sure,” said Dorothea, seating herself unthinkingly between the fire and the light of the tall window, and pointing to a chair opposite, with the quietude of a benignant matron.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	here	here	ADV	RB	PronType=Dem	19	advmod	_	_
+5	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	glad	glad	ADJ	JJ	Degree=Pos	4	conj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	hear	hear	VERB	VB	VerbForm=Inf	11	advcl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	sure	sure	ADJ	JJ	Degree=Pos	22	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	22	punct	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	Dorothea	Dorothea	PROPN	NNP	Number=Sing	25	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	seating	seat	VERB	VBG	VerbForm=Ger	22	ccomp	_	_
+26	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+27	unthinkingly	unthinkingly	ADV	RB	_	25	advmod	_	_
+28	between	between	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	fire	fire	NOUN	NN	Number=Sing	27	obl	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	light	light	NOUN	NN	Number=Sing	30	conj	_	_
+34	of	of	ADP	IN	_	37	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	tall	tall	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	window	window	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	pointing	point	VERB	VBG	VerbForm=Ger	22	conj	_	_
+41	to	to	ADP	IN	_	44	case	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+43	chair	chair	NOUN	NN	Number=Sing	44	compound	_	_
+44	opposite	opposite	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	44	punct	_	_
+46	with	with	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	quietude	quietude	NOUN	NN	Number=Sing	44	nmod	_	_
+49	of	of	ADP	IN	_	52	case	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+51	benignant	benignant	ADJ	JJ	Degree=Pos	52	amod	_	_
+52	matron	matron	NOUN	NN	Number=Sing	48	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 3
+# text = The signs of girlish sorrow in her face were only the more striking.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	signs	sign	NOUN	NNS	Number=Plur	13	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	girlish	girlish	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sorrow	sorrow	NOUN	NN	Number=Sing	2	nmod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	face	face	NOUN	NN	Number=Sing	2	nmod	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	_
+10	only	only	ADV	RB	_	13	advmod	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	striking	striking	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = “Mr. Casaubon is much engaged; but you will leave your address—will you not?—and he will write to you.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+3	Casaubon	Casaubon	PROPN	NNP	Number=Sing	2	flat	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	much	much	ADV	RB	_	6	advmod	_	_
+6	engaged	engaged	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	parataxis	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	leave	leave	VERB	VB	VerbForm=Inf	6	conj	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	address	address	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+15	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+17	not	not	PART	RB	_	23	advmod	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	—	-	PUNCT	,	_	23	punct	_	SpaceAfter=No
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	write	write	VERB	VB	VerbForm=Inf	0	root	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	23	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	23	punct	_	SpacesAfter=\n
+

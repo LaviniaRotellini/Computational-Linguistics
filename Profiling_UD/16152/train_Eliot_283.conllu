@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, indeed,” he answered, promptly.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	indeed	indeed	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	promptly	promptly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “And therefore it is a pity that it should be thrown away, as so much English scholarship is, for want of knowing what is being done by the rest of the world.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	7	cc	_	_
+3	therefore	therefore	ADV	RB	_	7	advmod	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	pity	pity	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+10	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+13	away	away	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	as	as	SCONJ	IN	_	23	mark	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	much	much	ADV	RB	_	18	advmod	_	_
+18	English	English	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	scholarship	scholarship	NOUN	NN	Number=Sing	23	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	want	want	NOUN	NN	Number=Sing	12	advcl	_	_
+24	of	of	SCONJ	IN	_	25	mark	_	_
+25	knowing	know	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+26	what	what	PRON	WP	PronType=Int	25	obj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	being	be	AUX	VBG	VerbForm=Ger	29	aux:pass	_	_
+29	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	conj	_	_
+30	by	by	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	rest	rest	NOUN	NN	Number=Sing	29	obl	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	world	world	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = If Mr. Casaubon read German he would save himself a great deal of trouble.”
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Casaubon	Casaubon	PROPN	NNP	Number=Sing	2	flat	_	_
+4	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+5	German	german	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	save	save	VERB	VB	VerbForm=Inf	0	root	_	_
+9	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	great	great	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	deal	deal	NOUN	NN	Number=Sing	8	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	trouble	trouble	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

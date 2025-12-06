@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘This fust one come,’ he said, selecting it from the rest, ‘afore I had been gone a week.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	fust	fust	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	one	one	NUM	CD	NumType=Card	5	nsubj	_	_
+5	come	come	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+6	,’	,’	PUNCT	.	_	5	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	selecting	select	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	rest	rest	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	‘	'	PUNCT	``	_	21	punct	_	SpaceAfter=No
+17	afore	afore	SCONJ	IN	_	21	mark	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj:pass	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	week	week	NOUN	NN	Number=Sing	21	obl:tmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = A fifty pound Bank note, in a sheet of paper, directed to me, and put underneath the door in the night.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	fifty	fifty	NUM	CD	NumType=Card	4	nummod	_	_
+3	pound	pound	NOUN	NN	Number=Sing	4	compound	_	_
+4	Bank	Bank	PROPN	NNP	Number=Sing	5	compound	_	_
+5	note	note	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	sheet	sheet	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	paper	paper	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	put	put	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+19	underneath	underneath	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	door	door	NOUN	NN	Number=Sing	18	obl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	night	night	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She tried to hide her writing, but she couldn’t hide it from Me!’
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hide	hide	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	writing	writing	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	hide	hide	VERB	VB	VerbForm=Inf	2	conj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

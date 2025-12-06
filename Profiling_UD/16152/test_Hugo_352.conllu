@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He stamped his foot when he found himself on the ground once again.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stamped	stamp	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	foot	foot	NOUN	NN	Number=Sing	2	obj	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+8	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ground	ground	NOUN	NN	Number=Sing	7	obl	_	_
+12	once	once	ADV	RB	NumType=Mult	13	advmod	_	_
+13	again	again	ADV	RB	_	2	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = “Oh!” said he, “good and honorable pavement of Paris, cursed staircase, fit to put the angels of Jacob’s ladder out of breath!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+9	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	honorable	honorable	ADJ	JJ	Degree=Pos	9	conj	_	_
+12	pavement	pavement	NOUN	NN	Number=Sing	5	appos	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	Paris	Paris	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	_
+16	cursed	curse	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	staircase	staircase	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	5	punct	_	_
+19	fit	fit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	put	put	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	angels	angels	NOUN	NNS	Number=Plur	21	obj	_	_
+24	of	of	ADP	IN	_	27	case	_	_
+25	Jacob	Jacob	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	ladder	ladder	NOUN	NN	Number=Sing	23	nmod	_	_
+28	out	out	ADP	IN	_	30	case	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	breath	breath	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+31	!	!	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 3
+# text = What was I thinking of to thrust myself into that stone gimlet which pierces the sky; all for the sake of eating bearded cheese, and looking at the bell-towers of Paris through a hole in the wall!”
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	of	of	ADP	IN	_	7	mark	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	thrust	thrust	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	into	into	ADP	IN	_	12	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	stone	stone	NOUN	NN	Number=Sing	12	compound	_	_
+12	gimlet	gimlet	NOUN	NN	Number=Sing	7	obl	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	pierces	pierce	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	sky	sky	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	4	punct	_	_
+18	all	all	DET	DT	_	4	parataxis	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	sake	sake	NOUN	NN	Number=Sing	18	nmod	_	_
+22	of	of	SCONJ	IN	_	23	mark	_	_
+23	eating	eat	VERB	VBG	VerbForm=Ger	21	acl	_	_
+24	bearded	bearded	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	cheese	cheese	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	looking	look	VERB	VBG	VerbForm=Ger	18	conj	_	_
+29	at	at	ADP	IN	_	33	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	bell	bell	NOUN	NN	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	towers	towers	NOUN	NNS	Number=Plur	28	obl	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	Paris	Paris	PROPN	NNP	Number=Sing	33	nmod	_	_
+36	through	through	ADP	IN	_	38	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	hole	hole	NOUN	NN	Number=Sing	28	obl	_	_
+39	in	in	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	wall	wall	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+42	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

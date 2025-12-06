@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In brief, Joe thought that if I thought well of it, he thought well of it.
+1	In	in	ADP	IN	_	2	case	_	_
+2	brief	brief	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Joe	Joe	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	15	mark	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+10	well	well	ADV	RB	Degree=Pos	9	advmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+16	well	well	ADV	RB	Degree=Pos	15	advmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But, he was particular in stipulating that if I were not received with cordiality, or if I were not encouraged to repeat my visit as a visit which had no ulterior object but was simply one of gratitude for a favour received, then this experimental trip should have no successor.
+1	But	but	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	particular	particular	ADJ	JJ	Degree=Pos	44	nsubj	_	_
+6	in	in	SCONJ	IN	_	7	mark	_	_
+7	stipulating	stipulat	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	that	that	SCONJ	IN	_	22	mark	_	_
+9	if	if	SCONJ	IN	_	13	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	22	advcl	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	cordiality	cordiality	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	or	or	CCONJ	CC	_	22	cc	_	_
+18	if	if	SCONJ	IN	_	22	mark	_	_
+19	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj:pass	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+21	not	not	PART	RB	_	22	advmod	_	_
+22	encouraged	encourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	repeat	repeat	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	visit	visit	NOUN	NN	Number=Sing	24	obj	_	_
+27	as	as	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	visit	visit	NOUN	NN	Number=Sing	24	obl	_	_
+30	which	which	PRON	WDT	PronType=Rel	31	nsubj	_	_
+31	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+32	no	no	DET	DT	_	34	det	_	_
+33	ulterior	ulterior	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	object	object	NOUN	NN	Number=Sing	31	obj	_	_
+35	but	but	CCONJ	CC	_	38	cc	_	_
+36	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	cop	_	_
+37	simply	simply	ADV	RB	_	38	advmod	_	_
+38	one	one	NUM	CD	NumType=Card	22	conj	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	gratitude	gratitude	NOUN	NN	Number=Sing	38	nmod	_	_
+41	for	for	ADP	IN	_	43	case	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+43	favour	favour	NOUN	NN	Number=Sing	40	nmod	_	_
+44	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	44	punct	_	_
+46	then	then	ADV	RB	PronType=Dem	51	advmod	_	_
+47	this	this	DET	DT	Number=Sing|PronType=Dem	49	det	_	_
+48	experimental	experimental	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	trip	trip	NOUN	NN	Number=Sing	51	nsubj	_	_
+50	should	should	AUX	MD	VerbForm=Fin	51	aux	_	_
+51	have	have	VERB	VB	VerbForm=Inf	44	parataxis	_	_
+52	no	no	DET	DT	_	53	det	_	_
+53	successor	successor	NOUN	NN	Number=Sing	51	obj	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	44	punct	_	_
+
+# sent_id = 3
+# text = By these conditions I promised to abide.
+1	By	by	ADP	IN	_	3	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	conditions	condition	NOUN	NNS	Number=Plur	5	obl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	promised	promise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	abide	abide	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

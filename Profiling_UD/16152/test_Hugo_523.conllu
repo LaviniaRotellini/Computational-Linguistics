@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Wait a bit.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	bit	bit	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I was told that she had taken refuge in Notre-Dame, and that she was safe there, and I am delighted to hear it, and I have not been able to discover whether the goat was saved with her, and that is all I know.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	refuge	refuge	NOUN	NN	Number=Sing	7	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	Notre	Notre	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	Dame	Dame	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	that	that	SCONJ	IN	_	18	mark	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	safe	safe	ADJ	JJ	Degree=Pos	3	conj	_	_
+19	there	there	ADV	RB	PronType=Dem	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+23	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	delighted	delighted	ADJ	JJ	Degree=Pos	3	conj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	hear	hear	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	34	punct	_	_
+29	and	and	CCONJ	CC	_	34	cc	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+31	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	not	not	PART	RB	_	34	advmod	_	_
+33	been	be	AUX	VBN	Tense=Past|VerbForm=Part	34	cop	_	_
+34	able	able	ADJ	JJ	Degree=Pos	3	conj	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	discover	discover	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+37	whether	whether	SCONJ	IN	_	41	mark	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	goat	goat	NOUN	NN	Number=Sing	41	nsubj:pass	_	_
+40	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	aux:pass	_	_
+41	saved	save	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	ccomp	_	_
+42	with	with	ADP	IN	_	43	case	_	_
+43	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	48	punct	_	_
+45	and	and	CCONJ	CC	_	48	cc	_	_
+46	that	that	PRON	DT	Number=Sing|PronType=Dem	48	nsubj	_	_
+47	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+48	all	all	DET	DT	_	41	conj	_	_
+49	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	50	nsubj	_	_
+50	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	48	acl:relcl	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+52	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

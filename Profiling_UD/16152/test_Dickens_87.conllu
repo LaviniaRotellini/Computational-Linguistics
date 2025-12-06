@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, you see, Pip, and here we are!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Pip	Pip	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+13	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = That’s about where it lights; here we are!
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	about	about	SCONJ	IN	_	4	case	_	_
+4	where	where	ADV	WRB	PronType=Int	2	obl	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	lights	light	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Now, when you take me in hand in my learning, Pip (and I tell you beforehand I am awful dull, most awful dull), Mrs. Joe mustn’t see too much of what we’re up to.
+1	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	hand	hand	NOUN	NN	Number=Sing	5	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	learning	learning	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	Pip	Pip	NOUN	NN	Number=Sing	14	obj	_	_
+14	(	(	PUNCT	-LRB-	_	17	punct	_	SpaceAfter=No
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	beforehand	beforehand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	awful	awful	ADJ	JJ	Degree=Pos	19	ccomp	_	_
+23	dull	dull	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	most	most	ADV	RBS	_	26	advmod	_	_
+26	awful	awful	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	dull	dull	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	27	punct	_	_
+30	Mrs.	Mrs.	PROPN	NNP	Number=Sing	34	nsubj	_	_
+31	Joe	Joe	PROPN	NNP	Number=Sing	30	flat	_	_
+32	must	must	AUX	MD	VerbForm=Fin	34	aux	_	SpaceAfter=No
+33	n’t	not	PART	RB	_	34	advmod	_	_
+34	see	see	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+35	too	too	ADV	RB	_	36	advmod	_	_
+36	much	much	ADJ	JJ	Degree=Pos	34	obj	_	_
+37	of	of	SCONJ	IN	_	38	case	_	_
+38	what	what	PRON	WP	PronType=Int	36	obl	_	_
+39	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	40	nsubj	_	SpaceAfter=No
+40	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	_
+41	up	up	ADP	RP	_	40	compound:prt	_	_
+42	to	to	ADP	IN	_	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 4
+# text = It must be done, as I may say, on the sly.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	as	as	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	may	may	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	say	say	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sly	sly	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = And why on the sly?
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	why	why	ADV	WRB	PronType=Int	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sly	sly	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = I’ll tell you why, Pip.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	why	why	ADV	WRB	PronType=Int	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Pip	Pip	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

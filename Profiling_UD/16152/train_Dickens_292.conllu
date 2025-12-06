@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No, Dan’l,’ returned Mrs. Gummidge, whimpering and shaking her head.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	Dan	Dan	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+5	’l	’l	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	obj	_	_
+10	Gummidge	Gummidge	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	whimpering	whimper	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	shaking	shake	VERB	VBG	VerbForm=Ger	12	conj	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	head	head	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘If I felt less, I could do more.
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	less	less	ADV	RBR	Degree=Cmp	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = You don’t feel like me, Dan’l; thinks don’t go contrary with you, nor you with them; you had better do it yourself.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	feel	feel	VERB	VB	VerbForm=Inf	0	root	_	_
+5	like	like	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Dan	Dan	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+9	’l	’l	NOUN	NN	Number=Sing	8	flat	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	thinks	think	NOUN	NNS	Number=Plur	14	nsubj	_	_
+12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	14	advmod	_	_
+14	go	go	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+15	contrary	contrary	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	nor	nor	CCONJ	CC	_	20	cc	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	conj	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	4	punct	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+25	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+26	better	better	ADV	RBR	Degree=Cmp	27	advmod	_	_
+27	do	do	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+31	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Meanwhile Mrs. Larcher’s drawing-room furniture was enough for him.
+1	Meanwhile	meanwhile	SCONJ	IN	_	10	mark	_	_
+2	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+3	Larcher	Larcher	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	’s	's	PART	POS	_	2	case	_	_
+5	drawing	drawing	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	room	room	NOUN	NN	Number=Sing	8	compound	_	_
+8	furniture	furniture	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = When Will Ladislaw had come in, a second fender, said to have been forgotten in its right place, suddenly claimed the auctioneer’s enthusiasm, which he distributed on the equitable principle of praising those things most which were most in need of praise.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	Will	Will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+6	in	in	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+10	fender	fender	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	PART	TO	_	16	mark	_	_
+14	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	right	right	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	place	place	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	12	punct	_	_
+22	suddenly	suddenly	ADV	RB	_	23	advmod	_	_
+23	claimed	claim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	auctioneer	auctioneer	NOUN	NN	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	enthusiasm	enthusiasm	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	which	which	PRON	WDT	PronType=Rel	31	obj	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	distributed	distribute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+32	on	on	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	equitable	equitable	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	principle	principle	NOUN	NN	Number=Sing	31	obl	_	_
+36	of	of	SCONJ	IN	_	37	mark	_	_
+37	praising	praise	VERB	VBG	VerbForm=Ger	35	acl	_	_
+38	those	those	DET	DT	Number=Plur|PronType=Dem	39	det	_	_
+39	things	thing	NOUN	NNS	Number=Plur	37	obj	_	_
+40	most	most	ADV	RBS	_	39	advmod	_	_
+41	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	_
+42	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	cop	_	_
+43	most	most	ADJ	JJS	Degree=Sup	39	acl:relcl	_	_
+44	in	in	ADP	IN	_	45	case	_	_
+45	need	need	NOUN	NN	Number=Sing	43	obl	_	_
+46	of	of	ADP	IN	_	47	case	_	_
+47	praise	praise	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = The fender was of polished steel, with much lancet-shaped open-work and a sharp edge.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	fender	fender	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	polished	polished	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	steel	steel	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	much	much	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	lancet	lancet	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+12	shaped	shaped	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+13	open	open	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	work	work	NOUN	NN	Number=Sing	12	obj	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	sharp	sharp	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	edge	edge	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

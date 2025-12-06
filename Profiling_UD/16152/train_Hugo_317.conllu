@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That would require such a horse as does not exist in these parts.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	require	require	VERB	VB	VerbForm=Inf	0	root	_	_
+5	such	such	DET	PDT	_	7	det:predet	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	horse	horse	NOUN	NN	Number=Sing	4	obj	_	_
+8	as	as	SCONJ	IN	_	11	mark	_	_
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	exist	exist	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	these	these	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	parts	part	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = You would have to buy it to begin with, because no one knows you.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	buy	buy	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	begin	begin	VERB	VB	VerbForm=Inf	5	advcl	_	_
+9	with	with	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	because	because	SCONJ	IN	_	14	mark	_	_
+12	no	no	DET	DT	_	13	det	_	_
+13	one	one	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But you will not find one for sale nor to let, for five hundred francs, or for a thousand.”
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+6	one	one	NUM	CD	NumType=Card	5	obj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	sale	sale	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	nor	nor	NOUN	NN	Number=Sing	5	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	let	let	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	for	for	ADP	IN	_	16	case	_	_
+14	five	five	NUM	CD	NumType=Card	15	nummod	_	_
+15	hundred	hundred	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	francs	franc	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	or	or	CCONJ	CC	_	21	cc	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	thousand	thousand	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

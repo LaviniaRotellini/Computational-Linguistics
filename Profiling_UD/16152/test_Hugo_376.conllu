@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = (A conversation between lovers is a very commonplace affair.
+1	(	(	PUNCT	-LRB-	_	10	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	conversation	conversation	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	between	between	ADP	IN	_	5	case	_	_
+5	lovers	lover	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	commonplace	commonplace	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	affair	affair	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = It is a perpetual “I love you.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	perpetual	perpetual	ADJ	JJ	Degree=Pos	0	root	_	_
+5	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = A musical phrase which is very insipid and very bald for indifferent listeners, when it is not ornamented with some _fioriture;_ but Claude was not an indifferent listener.)
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	musical	musical	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	phrase	phrase	NOUN	NN	Number=Sing	19	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	insipid	insipid	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	bald	bald	ADJ	JJ	Degree=Pos	7	conj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	indifferent	indifferent	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	listeners	listener	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	ornamented	ornament	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	some	some	DET	DT	_	22	det	_	_
+22	_fioriture	_fioriture	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	;_	;_	PUNCT	.	_	30	punct	_	_
+24	but	but	CCONJ	CC	_	30	cc	_	_
+25	Claude	Claude	PROPN	NNP	Number=Sing	30	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	_
+27	not	not	PART	RB	_	30	advmod	_	_
+28	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	indifferent	indifferent	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	listener	listener	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No
+32	)	)	PUNCT	-RRB-	_	19	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fantine threw her mirror out of the window.
+1	Fantine	Fantine	PRON	PRP	_	2	nsubj	_	_
+2	threw	throw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	mirror	mirror	NOUN	NN	Number=Sing	2	obj	_	_
+5	out	out	ADP	IN	_	8	case	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	window	window	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She had long since quitted her cell on the second floor for an attic with only a latch to fasten it, next the roof; one of those attics whose extremity forms an angle with the floor, and knocks you on the head every instant.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	long	long	ADV	RB	Degree=Pos	2	advmod	_	_
+4	since	since	SCONJ	IN	_	5	mark	_	_
+5	quitted	quit	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	cell	cell	NOUN	NN	Number=Sing	5	obj	_	_
+8	on	on	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	floor	floor	NOUN	NN	Number=Sing	5	obl	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	attic	attic	ADJ	JJ	Degree=Pos	5	obl	_	_
+15	with	with	ADP	IN	_	18	case	_	_
+16	only	only	ADV	RB	_	18	advmod	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	latch	latch	NOUN	NN	Number=Sing	14	obl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	fasten	fast	VERB	VB	VerbForm=Inf	18	acl	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	next	next	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	roof	roof	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	2	punct	_	_
+27	one	one	NUM	CD	NumType=Card	2	obj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	those	those	DET	DT	Number=Plur|PronType=Dem	30	det	_	_
+30	attics	attic	NOUN	NNS	Number=Plur	27	nmod	_	_
+31	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	33	nmod:poss	_	_
+32	extremity	extremity	NOUN	NN	Number=Sing	33	compound	_	_
+33	forms	form	NOUN	NNS	Number=Plur	35	nsubj	_	_
+34	an	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	angle	angle	NOUN	NN	Number=Sing	27	acl:relcl	_	_
+36	with	with	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	floor	floor	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	knocks	knock	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+42	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	41	obj	_	_
+43	on	on	ADP	IN	_	45	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	head	head	NOUN	NN	Number=Sing	41	obl	_	_
+46	every	every	DET	DT	_	47	det	_	_
+47	instant	instant	NOUN	NN	Number=Sing	41	obl:tmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The poor occupant can reach the end of his chamber as he can the end of his destiny, only by bending over more and more.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	poor	poor	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	occupant	occupant	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	reach	reach	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	end	end	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	chamber	chamber	NOUN	NN	Number=Sing	7	nmod	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	5	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	end	end	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	destiny	destiny	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	only	only	ADV	RB	_	22	advmod	_	_
+21	by	by	SCONJ	IN	_	22	mark	_	_
+22	bending	bend	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+23	over	over	ADV	RB	_	24	advmod	_	_
+24	more	more	ADJ	JJR	Degree=Cmp	22	obj	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	more	more	ADJ	JJR	Degree=Cmp	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

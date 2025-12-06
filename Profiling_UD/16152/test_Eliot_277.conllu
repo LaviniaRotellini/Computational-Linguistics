@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Did ever anybody see the like?”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	anybody	anybody	PRON	NN	Number=Sing	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	like	like	ADJ	JJ	Degree=Pos	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 2
+# text = she said, with a suddenly lowered tone, after a moment’s bewildered glance round the room.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	suddenly	suddenly	ADV	RB	_	7	advmod	_	_
+7	lowered	lowered	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	tone	tone	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	after	after	ADP	IN	_	15	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	moment	moment	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	bewildered	bewilder	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	glance	glance	NOUN	NN	Number=Sing	2	obl	_	_
+16	round	round	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	room	room	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “The jugs are bewitched, _I_ think.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	jugs	jug	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	bewitched	bewitch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	_I	_I	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+8	_	_	SYM	NFP	_	9	punct	_	_
+9	think	think	VERB	VB	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = It’s them nasty glazed handles—they slip o’er the finger like a snail.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	nasty	nasty	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	glazed	glaze	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	_
+6	handles	handle	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	slip	slip	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+10	o’er	o’er	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	finger	finger	NOUN	NN	Number=Sing	9	obl	_	_
+13	like	like	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	snail	snail	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

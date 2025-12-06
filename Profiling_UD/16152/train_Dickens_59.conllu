@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I’m much obleeged to her, I’m sure,’ said Mr. Peggotty.
+1	‘I	‘I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	much	much	ADV	RB	_	4	advmod	_	_
+4	obleeged	obleege	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	ccomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	sure	sure	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Peggotty	Peggotty	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = ‘Well, sir, if you can make out here, fur a fortnut, ‘long wi’ her,’ nodding at his sister, ‘and Ham, and little Em’ly, we shall be proud of your company.’
+1	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	13	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	13	punct	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	make	make	VERB	VB	VerbForm=Inf	13	advcl	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	here	here	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	fur	fur	VERB	VB	VerbForm=Inf	0	root	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	fortnut	fortnut	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+18	long	long	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	wi	wus	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	19	punct	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	appos	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	21	punct	_	_
+24	nodding	nodd	VERB	VBG	VerbForm=Ger	13	acl	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	sister	sister	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	Ham	Ham	PROPN	NNP	Number=Sing	13	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	little	little	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	Em	em	PROPN	NNP	Number=Sing	13	conj	_	SpaceAfter=No
+36	’ly	’ly	ADV	RB	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	13	punct	_	_
+38	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	_	_
+39	shall	shall	AUX	MD	VerbForm=Fin	41	aux	_	_
+40	be	be	AUX	VB	VerbForm=Inf	41	cop	_	_
+41	proud	proud	ADJ	JJ	Degree=Pos	13	parataxis	_	_
+42	of	of	ADP	IN	_	44	case	_	_
+43	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+44	company	company	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+46	’	'	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

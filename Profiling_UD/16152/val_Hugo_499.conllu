@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "That need not delay us," said Gilliatt.
+1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	delay	delay	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	"	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Gilliatt	Gilliatt	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = And he presented a paper to the Dean.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	presented	present	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	paper	paper	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Dean	Dean	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The Dean took it, perused it by a glance, seemed to pass over some lines as unimportant, and read aloud:
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Dean	dean	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	perused	peruse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	by	by	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	glance	glance	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	pass	pass	VERB	VB	VerbForm=Inf	12	advcl	_	_
+15	over	over	ADP	IN	_	14	compound:prt	_	_
+16	some	some	DET	DT	_	17	det	_	_
+17	lines	line	NOUN	NNS	Number=Plur	14	obj	_	_
+18	as	as	ADP	IN	_	19	case	_	_
+19	unimportant	unimportant	ADJ	JJ	Degree=Pos	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	read	read	VERB	VB	VerbForm=Inf	3	conj	_	_
+23	aloud	aloud	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 4
+# text = "Go to the Dean for the licence.
+1	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Dean	Dean	PROPN	NNP	Number=Sing	2	obl	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	licence	licence	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I wish the marriage to take place as soon as possible.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	marriage	marriage	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	take	take	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	place	place	NOUN	NN	Number=Sing	6	obj	_	_
+8	as	as	ADV	RB	_	9	advmod	_	_
+9	soon	soon	ADV	RB	Degree=Pos	6	advmod	_	_
+10	as	as	SCONJ	IN	_	11	mark	_	_
+11	possible	possible	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Immediately would be better."
+1	Immediately	immediately	ADV	RB	_	4	advmod	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

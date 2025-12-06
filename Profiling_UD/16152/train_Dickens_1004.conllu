@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She was going to my rooms to see my aunt.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	rooms	room	NOUN	NNS	Number=Plur	3	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	see	see	VERB	VB	VerbForm=Inf	3	advcl	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	aunt	aunt	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The day being very fine, she was glad to come out of the chariot, which smelt (I had my head in it all this time) like a stable put under a cucumber-frame.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	day	day	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	glad	glad	ADJ	JJ	Degree=Pos	5	parataxis	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	come	come	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	out	out	ADP	IN	_	15	case	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	chariot	chariot	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	smelt	smelt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+19	(	(	PUNCT	-LRB-	_	21	punct	_	SpaceAfter=No
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	head	head	NOUN	NN	Number=Sing	21	obj	_	_
+24	in	in	ADP	IN	_	25	case	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+26	all	all	DET	PDT	_	28	det:predet	_	_
+27	this	this	DET	DT	Number=Sing|PronType=Dem	28	det	_	_
+28	time	time	NOUN	NN	Number=Sing	21	obl:tmod	_	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	_	21	punct	_	_
+30	like	like	ADP	IN	_	32	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	stable	stable	NOUN	NN	Number=Sing	21	obl	_	_
+33	put	put	VERB	VBN	Tense=Past|VerbForm=Part	32	acl	_	_
+34	under	under	ADP	IN	_	38	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+36	cucumber	cucumber	NOUN	NN	Number=Sing	38	compound	_	SpaceAfter=No
+37	-	-	PUNCT	HYPH	_	38	punct	_	SpaceAfter=No
+38	frame	frame	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I dismissed the coachman, and she took my arm, and we walked on together.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dismissed	dismiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	coachman	coachman	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	arm	arm	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	on	on	ADP	IN	_	14	compound:prt	_	_
+16	together	together	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She was like Hope embodied, to me.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	like	like	ADP	IN	_	4	case	_	_
+4	Hope	hope	NOUN	NN	Number=Sing	2	obl	_	_
+5	embodied	embody	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = How different I felt in one short minute, having Agnes at my side!
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	different	different	ADJ	JJ	Degree=Pos	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	one	one	NUM	CD	NumType=Card	8	nummod	_	_
+7	short	short	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	minute	minute	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	having	have	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+11	Agnes	Agnes	NOUN	NNS	Number=Plur	10	obj	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	side	side	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

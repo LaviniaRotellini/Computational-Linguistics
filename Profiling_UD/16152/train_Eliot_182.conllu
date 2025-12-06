@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Not at all.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	0	root	_	_
+3	at	at	ADV	RB	_	4	case	_	_
+4	all	all	ADV	RB	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She would not have said so if you had not provoked her.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	so	so	ADV	RB	_	5	advmod	_	_
+7	if	if	SCONJ	IN	_	11	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	provoked	provoke	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = Before reaching home, Fred concluded that he would tell the whole affair as simply as possible to his father, who might perhaps take on himself the unpleasant business of speaking to Bulstrode.
+1	Before	before	SCONJ	IN	_	2	mark	_	_
+2	reaching	reach	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+3	home	home	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	Fred	F	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	concluded	conclude	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	tell	tell	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	whole	whole	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	affair	affair	NOUN	NN	Number=Sing	10	obj	_	_
+14	as	as	ADV	RB	_	15	advmod	_	_
+15	simply	simply	ADV	RB	_	17	advmod	_	_
+16	as	as	SCONJ	IN	_	17	mark	_	_
+17	possible	possible	ADJ	JJ	Degree=Pos	10	advcl	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	father	father	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+23	might	might	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	perhaps	perhaps	ADV	RB	_	25	advmod	_	_
+25	take	take	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+26	on	on	ADP	RP	_	27	case	_	_
+27	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obl	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	business	business	NOUN	NN	Number=Sing	25	obj	_	_
+31	of	of	SCONJ	IN	_	32	mark	_	_
+32	speaking	speak	VERB	VBG	VerbForm=Ger	30	acl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	32	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

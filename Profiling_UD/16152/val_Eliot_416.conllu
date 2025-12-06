@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The old mill ’ud miss me, I think, Luke.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	old	old	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	mill	mill	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	’ud	’uld	AUX	MD	Typo=Yes|VerbForm=Fin	6	aux	_	_
+6	miss	miss	VERB	VB	VerbForm=Inf	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	Luke	Luke	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = There’s a story as when the mill changes hands, the river’s angry; I’ve heard my father say it many a time.
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	story	story	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	as	as	SCONJ	IN	_	15	mark	_	_
+6	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	mill	mill	NUM	CD	NumType=Card	10	nummod	_	_
+9	changes	change	NOUN	NNS	Number=Plur	10	compound	_	_
+10	hands	hand	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	river	river	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	angry	angry	ADJ	JJ	Degree=Pos	4	acl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	22	ccomp	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	father	father	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+24	many	many	DET	PDT	_	26	det:predet	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	time	time	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = There’s no telling whether there mayn’t be summat _in_ the story, for this is a puzzling world, and Old Harry’s got a finger in it—it’s been too many for me, I know.”
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	telling	telling	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	whether	whether	SCONJ	IN	_	10	mark	_	_
+6	there	there	PRON	EX	_	10	expl	_	_
+7	may	may	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	10	advmod	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	summat	summat	ADJ	JJ	Degree=Pos	4	acl	_	_
+11	_in_	_in_	SYM	NFP	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	story	story	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	this	this	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	puzzling	puzzling	NOUN	NN	Number=Sing	20	compound	_	_
+20	world	world	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	Old	old	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Harry	Harry	PROPN	NNP	Number=Sing	26	nsubj:pass	_	SpaceAfter=No
+25	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	finger	finger	NOUN	NN	Number=Sing	26	obj	_	_
+29	in	in	ADP	IN	_	30	case	_	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nmod	_	SpaceAfter=No
+31	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+32	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	SpaceAfter=No
+33	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+34	been	be	AUX	VBN	Tense=Past|VerbForm=Part	36	cop	_	_
+35	too	too	ADV	RB	_	36	advmod	_	_
+36	many	many	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+37	for	for	ADP	IN	_	38	case	_	_
+38	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	2	punct	_	_
+40	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+41	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

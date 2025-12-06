@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’s Dorlcote Mill, a good way off,” said Maggie.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	Dorlcote	Dorlcote	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Mill	mill	PROPN	NNP	Number=Sing	13	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	way	way	NOUN	NN	Number=Sing	5	parataxis	_	_
+10	off	off	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Maggie	Maggie	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “My father is Mr Tulliver, but we mustn’t let him know where I am, else he’ll fetch me home again.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	father	father	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	Mr	Mr	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Tulliver	Tulliver	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+10	must	must	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	let	let	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	know	know	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	where	where	ADV	WRB	PronType=Int	14	ccomp	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	else	else	ADV	RB	_	12	advmod	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+21	’ll	’ll	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	fetch	fetch	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	_
+24	home	home	ADV	RB	_	22	advmod	_	_
+25	again	again	ADV	RB	_	22	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Where does the queen of the gypsies live?”
+1	Where	where	ADV	WRB	PronType=Int	8	advmod	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	queen	queen	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	gypsies	gypsy	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pray excuse me,” said Dorothea, coloring deeply.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Pray	pray	INTJ	UH	_	3	discourse	_	_
+3	excuse	excuse	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Dorothea	Dorothea	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	coloring	color	VERB	VBG	VerbForm=Ger	7	parataxis	_	_
+11	deeply	deeply	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “I am aware, as you say, that I am in fault in having introduced the subject.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	that	that	SCONJ	IN	_	14	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	fault	fault	NOUN	NN	Number=Sing	8	ccomp	_	_
+15	in	in	SCONJ	IN	_	16	mark	_	_
+16	having	have	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	introduced	introduce	VERB	VBN	Tense=Past|VerbForm=Part	16	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	subject	subject	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Indeed, I am wrong altogether.
+1	Indeed	indeed	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	wrong	wrong	ADJ	JJ	Degree=Pos	0	root	_	_
+6	altogether	altogether	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Failure after long perseverance is much grander than never to have a striving good enough to be called a failure.”
+1	Failure	failure	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	after	after	ADP	IN	_	4	case	_	_
+3	long	long	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	perseverance	perseverance	NOUN	NN	Number=Sing	1	obl	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	much	much	ADV	RB	_	7	advmod	_	_
+7	grander	grander	ADJ	JJR	Degree=Cmp	1	parataxis	_	_
+8	than	than	SCONJ	IN	_	11	mark	_	_
+9	never	never	ADV	RB	_	11	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	striving	striving	NOUN	NN	Number=Sing	11	obj	_	_
+14	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	enough	enough	ADJ	JJ	Degree=Pos	13	amod	_	_
+16	to	to	PART	TO	_	18	mark	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	failure	failure	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh how glad I am you have not!’ exclaimed Uriah.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	_
+3	how	how	ADV	WRB	PronType=Int	4	advmod	_	_
+4	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	not	not	PART	RB	_	12	advmod	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+13	Uriah	Uriah	PROPN	NNP	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = ‘To think that you should be the first to kindle the sparks of ambition in my umble breast, and that you’ve not forgot it!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	To	to	PART	TO	_	3	mark	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	ccomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	kindle	kindle	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sparks	spark	NOUN	NNS	Number=Plur	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	ambition	ambition	NOUN	NN	Number=Sing	13	nmod	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	umble	umble	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	breast	breast	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	26	punct	_	_
+21	and	and	CCONJ	CC	_	26	cc	_	_
+22	that	that	SCONJ	IN	_	26	mark	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	SpaceAfter=No
+24	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	not	not	PART	RB	_	26	advmod	_	_
+26	forgot	forget	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Oh!--Would you excuse me asking for a cup more coffee?’
+1	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	!--	!--	PUNCT	.	_	5	punct	_	SpaceAfter=No
+3	Would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	excuse	excuse	VERB	VB	VerbForm=Inf	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	asking	ask	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	cup	cup	NOUN	NN	Number=Sing	12	nmod	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	coffee	coffee	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

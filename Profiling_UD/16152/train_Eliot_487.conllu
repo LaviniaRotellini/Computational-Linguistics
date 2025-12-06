@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, I could.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The sooner the engagement’s off, the better.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	sooner	sooner	ADV	RBR	Degree=Cmp	4	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	engagement	engagement	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	off	off	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	mark	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = I don’t believe he’ll ever make an income, the way he goes on.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	’ll	’ll	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	ever	ever	ADV	RB	_	8	advmod	_	_
+8	make	make	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	income	income	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	way	way	NOUN	NN	Number=Sing	4	obj	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	on	on	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He makes enemies; that’s all I hear of his making.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	enemies	enemy	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	2	punct	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	all	all	DET	DT	_	2	ccomp	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	making	making	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

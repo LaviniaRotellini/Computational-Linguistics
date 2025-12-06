@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Paris of three hundred and fifty years ago—the Paris of the fifteenth century—was already a gigantic city.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Paris	Paris	PROPN	NNP	Number=Sing	22	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	hundred	hundred	NUM	CD	NumType=Card	2	nmod	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	fifty	fifty	NUM	CD	NumType=Card	8	nummod	_	_
+8	years	year	NOUN	NNS	Number=Plur	9	obl:npmod	_	_
+9	ago	ago	ADV	RB	_	2	advmod	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Paris	Paris	PROPN	NNPS	Number=Plur	2	appos	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	fifteenth	fifteenth	ADJ	JJ	Degree=Pos|NumType=Ord	16	amod	_	_
+16	century	century	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+17	—	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+19	already	already	ADV	RB	_	22	advmod	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	gigantic	gigantic	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	city	city	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = We Parisians generally make a mistake as to the ground which we think that we have gained, since Paris has not increased much over one-third since the time of Louis XI.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	Parisians	Parisians	PROPN	NNPS	Number=Plur	4	nsubj	_	_
+3	generally	generally	ADV	RB	_	4	advmod	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	mistake	mistake	NOUN	NN	Number=Sing	4	obj	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	to	to	ADP	IN	_	7	fixed	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ground	ground	NOUN	NN	Number=Sing	4	obl	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	obj	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	gained	gain	VERB	VBN	Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	since	since	SCONJ	IN	_	23	mark	_	_
+20	Paris	Paris	PROPN	NNP	Number=Sing	23	nsubj	_	_
+21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+22	not	not	PART	RB	_	23	advmod	_	_
+23	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+24	much	much	ADV	RB	_	23	advmod	_	_
+25	over	over	ADP	IN	_	28	case	_	_
+26	one	one	NUM	CD	NumType=Card	28	nummod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	23	obl	_	_
+29	since	since	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	time	time	NOUN	NN	Number=Sing	23	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	Louis	Louis	PROPN	NNP	Number=Sing	31	nmod	_	_
+34	XI	XI	PROPN	NNP	Number=Sing	33	flat	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It has certainly lost more in beauty than it has gained in size.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	certainly	certainly	ADV	RB	_	4	advmod	_	_
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	more	more	ADV	RBR	_	4	advmod	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	beauty	beauty	NOUN	NN	Number=Sing	4	obl	_	_
+8	than	than	SCONJ	IN	_	11	mark	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	gained	gain	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	size	size	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The house of the Petit-Picpus was becoming rapidly depopulated.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	house	house	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Petit	petit	PROPN	NNP	Number=Sing	2	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	Picpus	Picpus	PROPN	NNP	Number=Sing	5	flat	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	rapidly	rapidly	ADV	RB	_	11	advmod	_	_
+11	depopulated	depopulate	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = In 1840, the Little Convent had disappeared, the school had disappeared.
+1	In	in	ADP	IN	_	2	case	_	_
+2	1840	1840	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	Little	Little	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Convent	Convent	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	disappeared	disappear	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	school	school	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	disappeared	disappear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = There were no longer any old women, nor young girls; the first were dead, the latter had taken their departure.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	longer	longer	ADV	RBR	Degree=Cmp	7	advmod	_	_
+5	any	any	DET	DT	_	7	det	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	women	woman	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	nor	nor	CCONJ	CC	_	11	cc	_	_
+10	young	young	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	girls	girl	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	16	nsubj	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	dead	dead	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	latter	latter	ADJ	JJ	Degree=Pos	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	_
+22	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	departure	departure	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = _Volaverunt_.
+1	_Volaverunt_.	_Volaverunt_.	PROPN	NNP	Number=Sing	0	root	_	SpacesAfter=\n
+

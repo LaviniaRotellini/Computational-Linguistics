@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Dear me!’ said the Doctor, innocently.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Doctor	doctor	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	innocently	innocently	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘To think that so little should go for so much!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	To	to	PART	TO	_	3	mark	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	little	little	ADJ	JJ	Degree=Pos	8	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	go	go	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	much	much	ADV	RB	_	8	obl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dear, dear!
+1	Dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And when you can do better, you will?
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	do	do	VERB	VB	VerbForm=Inf	9	advcl	_	_
+6	better	better	ADV	RBR	Degree=Cmp	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = On your word, now?’ said the Doctor,--which he had always made a very grave appeal to the honour of us boys.
+1	On	on	ADP	IN	_	3	case	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	word	word	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Doctor	Doctor	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,--	,--	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	which	which	PRON	WDT	PronType=Rel	16	obj	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	always	always	ADV	RB	_	16	advmod	_	_
+16	made	make	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+18	very	very	ADV	RB	_	19	advmod	_	_
+19	grave	grave	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	appeal	appeal	NOUN	NN	Number=Sing	16	obj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	honour	honour	NOUN	NN	Number=Sing	16	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	nmod	_	_
+26	boys	boy	NOUN	NNS	Number=Plur	23	appos	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

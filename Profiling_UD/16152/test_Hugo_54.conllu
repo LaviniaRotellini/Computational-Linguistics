@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What a devil of a man!” said Robin Poussepain still all bruised with his fall.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	4	det	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	devil	devil	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	man	man	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Robin	Robin	PROPN	NNP	Number=Sing	15	nsubj	_	_
+12	Poussepain	Poussepain	PROPN	NNP	Number=Sing	11	flat	_	_
+13	still	still	ADV	RB	_	15	advmod	_	_
+14	all	all	ADV	RB	_	15	advmod	_	_
+15	bruised	bruise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	parataxis	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	fall	fall	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “He shows himself; he’s a hunchback.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	hunchback	hunchback	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He walks; he’s bandy-legged.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	walks	walk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	2	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	bandy	bandy	NUM	CD	NumType=Card	2	ccomp	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	legged	leg	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He looks at you; he’s one-eyed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	one	one	NUM	CD	NumType=Card	10	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	eyed	eyed	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = You speak to him; he’s deaf.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	speak	speak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	deaf	deaf	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = And what does this Polyphemus do with his tongue?”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	what	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	Polyphemus	Polyphemus	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	tongue	tongue	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

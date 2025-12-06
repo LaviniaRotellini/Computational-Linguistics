@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = very well!’ returned Tom.
+1	very	very	ADV	RB	_	2	advmod	_	_
+2	well	well	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = ‘Only father has brought old Bounderby home, and I want you to come into the drawing-room.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Only	only	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	father	father	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	old	old	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	Bounderby	Bounderby	PROPN	NNP	Number=Sing	8	compound	_	_
+8	home	home	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	come	come	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+16	into	into	ADP	IN	_	20	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	drawing	drawing	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	room	room	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Because if you come, there’s a good chance of old Bounderby’s asking me to dinner; and if you don’t, there’s none.’
+1	Because	because	SCONJ	IN	_	7	mark	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	SpaceAfter=No
+7	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	chance	chance	NOUN	NN	Number=Sing	7	nsubj	_	_
+11	of	of	ADP	IN	_	15	case	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Bounderby	Bounderby	PROPN	NNP	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	asking	ask	VERB	VBG	VerbForm=Ger	10	acl	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	dinner	dinner	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	7	punct	_	_
+20	and	and	CCONJ	CC	_	27	cc	_	_
+21	if	if	SCONJ	IN	_	23	mark	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+23	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	SpaceAfter=No
+24	n’t	not	PART	RB	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	there	there	PRON	EX	_	27	expl	_	SpaceAfter=No
+27	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+28	none	none	NOUN	NN	Number=Sing	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

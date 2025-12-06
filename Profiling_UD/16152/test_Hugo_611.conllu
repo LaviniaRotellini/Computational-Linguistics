@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Let him speak, Monsieur Rym, my friend,” said the king; “I love this frankness of speech.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	speak	speak	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Monsieur	Monsieur	PROPN	NNP	Number=Sing	2	conj	_	_
+7	Rym	Rym	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	friend	friend	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	king	king	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	frankness	frankness	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	speech	speech	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My father, Charles the Seventh, was accustomed to say that the truth was ailing; I thought her dead, and that she had found no confessor.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Charles	Charles	PROPN	NNP	Number=Sing	2	appos	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Seventh	Seventh	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	accustomed	accustom	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	say	say	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	truth	truth	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	ailing	ail	VERB	VBG	Tense=Pres|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	9	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	dead	dead	ADJ	JJ	Degree=Pos	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	27	punct	_	_
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	that	that	SCONJ	IN	_	27	mark	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	found	find	VERB	VBN	Tense=Past|VerbForm=Part	19	conj	_	_
+28	no	no	DET	DT	_	29	det	_	_
+29	confessor	confessor	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Master Coppenole undeceiveth me.”
+1	Master	master	NOUN	NN	Number=Sing	2	compound	_	_
+2	Coppenole	Coppenole	NOUN	NN	Number=Sing	0	root	_	_
+3	undeceiveth	undeceiveth	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

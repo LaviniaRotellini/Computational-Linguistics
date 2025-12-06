@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Though he knows,’ said Mr. Bounderby, now blowing a gale, ‘that there are a set of rascals and rebels whom transportation is too good for!
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Though	though	SCONJ	IN	_	4	mark	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Bounderby	Bounderby	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	now	now	ADV	RB	_	12	advmod	_	_
+12	blowing	blow	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	gale	gale	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	‘	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+17	that	that	SCONJ	IN	_	19	mark	_	_
+18	there	there	PRON	EX	_	19	expl	_	_
+19	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	set	set	NOUN	NN	Number=Sing	19	nsubj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	rascals	rascal	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	rebels	rebel	NOUN	NNS	Number=Plur	23	conj	_	_
+26	whom	whom	PRON	WP	PronType=Rel	27	nmod:poss	_	_
+27	transportation	transportation	NOUN	NN	Number=Sing	30	nsubj	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	too	too	ADV	RB	_	30	advmod	_	_
+30	good	good	ADJ	JJ	Degree=Pos	25	acl:relcl	_	_
+31	for	for	ADP	IN	_	30	obl	_	SpaceAfter=No
+32	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Now, Mr. Harthouse, you have been knocking about in the world some time.
+1	Now	now	ADV	RB	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	9	punct	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+4	Harthouse	Harthouse	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	_
+9	knocking	knock	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	about	about	ADP	IN	_	13	case	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	world	world	NOUN	NN	Number=Sing	9	obl	_	_
+14	some	some	DET	DT	_	15	det	_	_
+15	time	time	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Did you ever meet with anything like that man out of this blessed country?’
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	ever	ever	ADV	RB	_	4	advmod	_	_
+4	meet	meet	VERB	VB	VerbForm=Inf	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	anything	anything	PRON	NN	Number=Sing	4	obl	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	man	man	NOUN	NN	Number=Sing	6	nmod	_	_
+10	out	out	ADP	IN	_	14	case	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+13	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+14	country	country	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 4
+# text = And Mr. Bounderby pointed him out for inspection, with an angry finger.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Bounderby	Bounderby	PROPN	NNP	Number=Sing	2	flat	_	_
+4	pointed	point	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	out	out	ADP	RP	_	4	compound:prt	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	inspection	inspection	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	angry	angry	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	finger	finger	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “A most singular testamentary disposition!” exclaimed Mr. Trumbull, preferring for once that he should be considered ignorant in the past.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	singular	singular	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	testamentary	testamentary	NOUN	NN	Number=Sing	6	compound	_	_
+6	disposition	disposition	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+9	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Trumbull	Trumbull	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	preferring	prefer	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	once	once	SCONJ	IN	_	13	obl	_	_
+16	that	that	SCONJ	IN	_	20	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
+18	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+21	ignorant	ignorant	ADJ	JJ	Degree=Pos	20	xcomp	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	past	past	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “But there is a second will—there is a further document.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	will	will	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+9	there	there	PRON	EX	_	10	expl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	further	further	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	document	document	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = We have not yet heard the final wishes of the deceased.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	yet	yet	ADV	RB	_	5	advmod	_	_
+5	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	final	final	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	wishes	wish	NOUN	NNS	Number=Plur	5	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	deceased	decease	VERB	VBN	Tense=Past|VerbForm=Part	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

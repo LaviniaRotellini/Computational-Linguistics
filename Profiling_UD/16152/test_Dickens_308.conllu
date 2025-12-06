@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = With those words, the clerk opened a door, and ushered me into an inner chamber at the back.
+1	With	with	ADP	IN	_	3	case	_	_
+2	those	those	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	words	word	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	clerk	clerk	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	door	door	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	ushered	usher	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	into	into	ADP	IN	_	17	case	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	inner	inner	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	chamber	chamber	NOUN	NN	Number=Sing	12	obl	_	_
+18	at	at	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	back	back	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Here, we found a gentleman with one eye, in a velveteen suit and knee-breeches, who wiped his nose with his sleeve on being interrupted in the perusal of the newspaper.
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	gentleman	gentleman	NOUN	NN	Number=Sing	4	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+9	eye	eye	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	velveteen	velveteen	NUM	CD	NumType=Card	14	nummod	_	_
+14	suit	suit	NOUN	NN	Number=Sing	4	obl	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	knee	knee	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	breeches	breech	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	14	punct	_	_
+20	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+21	wiped	wip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	nose	nose	NOUN	NN	Number=Sing	21	obj	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	sleeve	sleeve	NOUN	NN	Number=Sing	21	obl	_	_
+27	on	on	SCONJ	IN	_	29	mark	_	_
+28	being	be	AUX	VBG	VerbForm=Ger	29	aux:pass	_	_
+29	interrupted	interrupt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl	_	_
+30	in	in	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	perusal	perusal	NOUN	NN	Number=Sing	29	obl	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	newspaper	newspaper	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

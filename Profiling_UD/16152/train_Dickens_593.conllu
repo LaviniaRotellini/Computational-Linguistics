@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As to Mrs. Gummidge, he roused that victim of despondency with a success never attained by anyone else (so Mr. Peggotty informed me), since the decease of the old one.
+1	As	as	ADP	IN	_	3	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	obl	_	_
+4	Gummidge	Gummidge	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	roused	rouse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	victim	victim	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	despondency	despondency	NOUN	NN	Number=Sing	9	nmod	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	success	success	NOUN	NN	Number=Sing	7	obl	_	_
+15	never	never	ADV	RB	_	16	advmod	_	_
+16	attained	attaine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+17	by	by	ADP	IN	_	18	case	_	_
+18	anyone	anyone	PRON	NN	Number=Sing	16	obl	_	_
+19	else	else	ADJ	JJ	Degree=Pos	18	amod	_	_
+20	(	(	PUNCT	-LRB-	_	24	punct	_	SpaceAfter=No
+21	so	so	ADV	RB	_	24	advmod	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	24	nsubj	_	_
+23	Peggotty	Peggotty	PROPN	NNP	Number=Sing	22	flat	_	_
+24	informed	inform	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	24	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	7	punct	_	_
+28	since	since	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	decease	decease	NOUN	NN	Number=Sing	7	obl	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+33	old	old	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	one	one	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He left her so little leisure for being miserable, that she said next day she thought she must have been bewitched.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	leisure	leisure	NOUN	NN	Number=Sing	2	obj	_	_
+7	for	for	SCONJ	IN	_	9	mark	_	_
+8	being	be	AUX	VBG	VerbForm=Ger	9	cop	_	_
+9	miserable	miserable	ADJ	JJ	Degree=Pos	6	acl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+14	next	next	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	day	day	NOUN	NN	Number=Sing	13	obl:tmod	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
+19	must	must	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	bewitched	bewitch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

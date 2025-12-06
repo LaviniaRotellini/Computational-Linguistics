@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pay attention.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	attention	attention	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = This is the Rue Plâtrière, now called Rue Jean-Jacques Rousseau, on account of a singular household which lived in it sixty years ago.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	Rue	Rue	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Plâtrière	Plâtrière	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	now	now	ADV	RB	_	8	advmod	_	_
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+9	Rue	Rue	PROPN	NNP	Number=Sing	12	compound	_	_
+10	Jean	Jean	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	Jacques	Jacques	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Rousseau	Rousseau	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	on	on	ADP	IN	_	16	case	_	_
+16	account	account	NOUN	NN	Number=Sing	5	nmod	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	singular	singular	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	household	household	NOUN	NN	Number=Sing	16	nmod	_	_
+21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+25	sixty	sixty	NUM	CD	NumType=Card	26	nummod	_	_
+26	years	year	NOUN	NNS	Number=Plur	27	obl:npmod	_	_
+27	ago	ago	ADV	RB	_	22	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = This consisted of Jean-Jacques and Thérèse.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	consisted	consis	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Jean	Jean	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	Jacques	Jacques	PROPN	NNP	Number=Sing	4	flat	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Thérèse	Thérèse	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = From time to time, little beings were born there.
+1	From	from	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	9	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	beings	being	NOUN	NNS	Number=Plur	9	nsubj:pass	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	there	there	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Thérèse gave birth to them, Jean-Jacques represented them as foundlings.”
+1	Thérèse	Thérèse	PRON	DT	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	birth	birth	NOUN	NN	Number=Sing	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	Jean	Jean	PROPN	NNP	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	Jacques	Jacques	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	represented	represent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	as	as	ADP	IN	_	13	case	_	_
+13	foundlings	foundling	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

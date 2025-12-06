@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I never beheld anything approaching to Miss Mowcher’s wink except Miss Mowcher’s self-possession.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	beheld	beheld	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anything	anything	PRON	NN	Number=Sing	3	obj	_	_
+5	approaching	approach	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	to	to	ADP	IN	_	10	case	_	_
+7	Miss	miss	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Mowcher	Mowcher	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	wink	wink	NOUN	NN	Number=Sing	5	obl	_	_
+11	except	except	ADP	IN	_	17	case	_	_
+12	Miss	miss	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Mowcher	Mowcher	PROPN	NNP	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	self	self	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	possession	possession	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = She had a wonderful way too, when listening to what was said to her, or when waiting for an answer to what she had said herself, of pausing with her head cunningly on one side, and one eye turned up like a magpie’s.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	wonderful	wonderful	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	way	way	NOUN	NN	Number=Sing	2	obj	_	_
+6	too	too	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+9	listening	listen	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	to	to	SCONJ	IN	_	13	mark	_	_
+11	what	what	PRON	WP	PronType=Int	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	or	or	CCONJ	CC	_	13	cc	_	_
+18	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+19	waiting	wait	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	answer	answer	NOUN	NN	Number=Sing	19	obl	_	_
+23	to	to	SCONJ	IN	_	24	case	_	_
+24	what	what	PRON	WP	PronType=Int	22	nmod	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	said	say	VERB	VBN	Tense=Past|VerbForm=Part	24	acl:relcl	_	_
+28	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	43	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	of	or	SCONJ	IN	_	31	mark	_	_
+31	pausing	pause	VERB	VBG	VerbForm=Ger	28	advcl	_	_
+32	with	with	ADP	IN	_	34	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	head	head	NOUN	NN	Number=Sing	31	obl	_	_
+35	cunningly	cunningly	ADV	RB	_	31	advmod	_	_
+36	on	on	ADP	IN	_	38	case	_	_
+37	one	one	NUM	CD	NumType=Card	38	nummod	_	_
+38	side	side	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	43	punct	_	_
+40	and	and	CCONJ	CC	_	43	cc	_	_
+41	one	one	NUM	CD	NumType=Card	42	nummod	_	_
+42	eye	eye	NOUN	NN	Number=Sing	43	nsubj	_	_
+43	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	ccomp	_	_
+44	up	up	ADP	RP	_	43	compound:prt	_	_
+45	like	like	ADP	IN	_	48	case	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	48	det	_	_
+47	magpie	magpie	ADJ	JJ	Degree=Pos	48	amod	_	SpaceAfter=No
+48	’s	's	NOUN	NNS	Number=Plur	43	obl	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Altogether I was lost in amazement, and sat staring at her, quite oblivious, I am afraid, of the laws of politeness.
+1	Altogether	altogether	ADV	RB	_	4	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	amazement	amazement	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	staring	staring	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	quite	quite	ADV	RB	_	15	advmod	_	_
+15	oblivious	oblivious	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	afraid	afraid	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	laws	law	NOUN	NNS	Number=Plur	4	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	politeness	politeness	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

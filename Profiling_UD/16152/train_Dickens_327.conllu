@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There was something gipsy-like and agreeable in the dinner, after all.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	something	something	PRON	NN	Number=Sing	2	nsubj	_	_
+4	gipsy	gipsy	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	like	like	ADJ	JJ	Degree=Pos	3	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	agreeable	agreeable	ADJ	JJ	Degree=Pos	3	conj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	dinner	dinner	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	after	after	ADV	RB	_	14	advmod	_	_
+14	all	all	ADV	RB	_	2	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I took back Captain Hopkins’s knife and fork early in the afternoon, and went home to comfort Mrs. Micawber with an account of my visit.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	back	back	ADV	RB	_	2	advmod	_	_
+4	Captain	captain	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
+5	Hopkins	Hopkins	PROPN	NNPS	Number=Plur	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	knife	knife	NOUN	NN	Number=Sing	2	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	fork	fork	NOUN	NN	Number=Sing	7	conj	_	_
+10	early	early	ADV	RB	Degree=Pos	2	advmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	afternoon	afternoon	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	home	home	ADV	RB	_	16	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	comfort	comfort	VERB	VB	VerbForm=Inf	16	advcl	_	_
+20	Mrs.	Mrs.	PROPN	NNP	Number=Sing	19	obj	_	_
+21	Micawber	Micawber	PROPN	NNP	Number=Sing	20	flat	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	account	account	NOUN	NN	Number=Sing	19	obl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	visit	visit	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She fainted when she saw me return, and made a little jug of egg-hot afterwards to console us while we talked it over.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fainted	faint	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
+7	return	return	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	jug	jug	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	ADP	IN	_	18	case	_	_
+15	egg	egg	NOUN	NN	Number=Sing	17	obl:npmod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	hot	hot	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	afterwards	afterwards	NOUN	NNS	Number=Plur	13	nmod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	console	conseal	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+22	while	while	SCONJ	IN	_	24	mark	_	_
+23	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+24	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	over	over	ADV	RB	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

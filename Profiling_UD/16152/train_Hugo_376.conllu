@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He directed his steps towards the door.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	directed	direct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	steps	step	NOUN	NNS	Number=Plur	2	obj	_	_
+5	towards	towards	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	door	door	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Not a voice was raised, not an arm extended to hinder him.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	voice	voice	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	not	not	ADV	RB	_	9	advmod	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	arm	arm	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+10	extended	extend	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	hinder	hinder	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = All stood aside.
+1	All	all	DET	DT	_	2	det	_	_
+2	stood	stand	NOUN	NN	Number=Sing	0	root	_	_
+3	aside	aside	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = At that moment there was about him that divine something which causes multitudes to stand aside and make way for a man.
+1	At	at	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	5	obl	_	_
+4	there	there	ADV	RB	PronType=Dem	5	expl	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	divine	divine	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	something	something	PRON	NN	Number=Sing	9	obj	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	multitudes	multitudes	NOUN	NNS	Number=Plur	12	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	stand	stand	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+16	aside	aside	ADV	RB	_	15	advmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	make	make	VERB	VB	VerbForm=Inf	15	conj	_	_
+19	way	way	NOUN	NN	Number=Sing	18	obj	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	man	man	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = He traversed the crowd slowly.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	traversed	traverse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	crowd	crowd	NOUN	NN	Number=Sing	2	obj	_	_
+5	slowly	slowly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = It was never known who opened the door, but it is certain that he found the door open when he reached it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	who	who	PRON	WP	PronType=Int	6	nsubj	_	_
+6	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	door	door	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	but	but	CCONJ	CC	_	13	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	certain	certain	ADJ	JJ	Degree=Pos	4	conj	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	door	door	NOUN	NN	Number=Sing	16	obj	_	_
+19	open	open	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+20	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = On arriving there he turned round and said:—
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	arriving	arrive	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	round	round	ADP	RP	_	5	compound:prt	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+9	:—	:—	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

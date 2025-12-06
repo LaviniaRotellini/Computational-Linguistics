@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One autumn morning I was with my mother in the front garden, when Mr. Murdstone--I knew him by that name now--came by, on horseback.
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	autumn	autumn	NOUN	NN	Number=Sing	3	compound	_	_
+3	morning	morning	NOUN	NN	Number=Sing	8	obl:tmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	mother	mother	NOUN	NN	Number=Sing	0	root	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	front	front	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	garden	garden	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	26	nsubj	_	_
+16	Murdstone	Murdstone	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	by	by	ADP	IN	_	23	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	name	name	NOUN	NN	Number=Sing	19	obl	_	_
+24	now	now	ADV	RB	_	19	advmod	_	SpaceAfter=No
+25	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+26	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+27	by	by	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	26	punct	_	_
+29	on	on	ADP	IN	_	30	case	_	_
+30	horseback	horseback	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = He reined up his horse to salute my mother, and said he was going to Lowestoft to see some friends who were there with a yacht, and merrily proposed to take me on the saddle before him if I would like the ride.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	reined	rein	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	horse	horse	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	salute	salute	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	mother	mother	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	12	ccomp	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	Lowestoft	Lowestoft	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	see	see	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	some	some	DET	DT	_	21	det	_	_
+21	friends	friend	NOUN	NNS	Number=Plur	19	obj	_	_
+22	who	who	PRON	WP	PronType=Rel	24	nsubj	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	there	there	ADV	RB	PronType=Dem	21	acl:relcl	_	_
+25	with	with	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	yacht	yacht	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	merrily	merrily	ADV	RB	_	31	advmod	_	_
+31	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	19	conj	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	take	take	VERB	VB	VerbForm=Inf	31	advcl	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
+35	on	on	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	saddle	saddle	NOUN	NN	Number=Sing	33	obl	_	_
+38	before	before	ADP	IN	_	39	case	_	_
+39	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	_
+40	if	if	SCONJ	IN	_	43	mark	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+42	would	would	AUX	MD	VerbForm=Fin	43	aux	_	_
+43	like	like	VERB	VB	VerbForm=Inf	33	advcl	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	ride	ride	NOUN	NN	Number=Sing	43	obj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

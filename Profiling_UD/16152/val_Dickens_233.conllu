@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Thank you, ma’am.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	ma’	ma's	PUNCT	''	_	6	punct	_	SpaceAfter=No
+6	am	am	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I shouldn’t wish to disturb you at your meals, ma’am, particularly tea, knowing your partiality for it,’ said Bitzer, craning a little to look over into the street from where he stood; ‘but there’s a gentleman been looking up here for a minute or so, ma’am, and he has come across as if he was going to knock.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	wish	wish	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	disturb	disturb	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	meals	meal	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	ma’	ma'	PUNCT	''	_	13	punct	_	SpaceAfter=No
+13	am	am	NOUN	NN	Number=Sing	25	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	particularly	particularly	ADV	RB	_	25	advmod	_	_
+16	tea	tea	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	knowing	know	VERB	VBG	VerbForm=Ger	16	acl	_	_
+19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	partiality	partiality	NOUN	NN	Number=Sing	18	obj	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	25	punct	_	_
+25	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+26	Bitzer	Bitzer	PROPN	NNP	Number=Sing	28	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	craning	cran	VERB	VBG	VerbForm=Ger	25	parataxis	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	little	little	ADJ	JJ	Degree=Pos	28	obj	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	look	look	VERB	VB	VerbForm=Inf	30	acl	_	_
+33	over	over	ADV	RB	_	32	advmod	_	_
+34	into	into	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	street	street	NOUN	NN	Number=Sing	32	obl	_	_
+37	from	from	SCONJ	IN	_	38	case	_	_
+38	where	where	ADV	WRB	PronType=Int	32	obl	_	_
+39	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+40	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	acl:relcl	_	SpaceAfter=No
+41	;	;	PUNCT	,	_	4	punct	_	_
+42	‘	'	PUNCT	``	_	45	punct	_	SpaceAfter=No
+43	but	but	CCONJ	CC	_	45	cc	_	_
+44	there	there	PRON	EX	_	45	expl	_	SpaceAfter=No
+45	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+47	gentleman	gentleman	NOUN	NN	Number=Sing	49	nsubj	_	_
+48	been	be	AUX	VBN	Tense=Past|VerbForm=Part	49	aux	_	_
+49	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	45	ccomp	_	_
+50	up	up	ADP	RP	_	51	case	_	_
+51	here	here	ADV	RB	PronType=Dem	49	advmod	_	_
+52	for	for	ADP	IN	_	54	case	_	_
+53	a	a	DET	DT	Definite=Ind|PronType=Art	54	det	_	_
+54	minute	minute	NOUN	NN	Number=Sing	49	obl	_	_
+55	or	or	CCONJ	CC	_	59	cc	_	_
+56	so	so	ADV	RB	_	59	advmod	_	SpaceAfter=No
+57	,	,	PUNCT	,	_	59	punct	_	_
+58	ma’	ma'	PUNCT	''	_	59	punct	_	SpaceAfter=No
+59	am	am	NOUN	NN	Number=Sing	49	conj	_	SpaceAfter=No
+60	,	,	PUNCT	,	_	64	punct	_	_
+61	and	and	CCONJ	CC	_	64	cc	_	_
+62	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	nsubj	_	_
+63	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	_
+64	come	come	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+65	across	across	ADV	RB	_	64	advmod	_	_
+66	as	as	SCONJ	IN	_	70	mark	_	_
+67	if	if	SCONJ	IN	_	70	mark	_	_
+68	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	70	nsubj	_	_
+69	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	70	aux	_	_
+70	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	64	advcl	_	_
+71	to	to	PART	TO	_	72	mark	_	_
+72	knock	knock	VERB	VB	VerbForm=Inf	70	xcomp	_	SpaceAfter=No
+73	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = That _is_ his knock, ma’am, no doubt.’
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	_is	_i	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	5	punct	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	knock	knock	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	ma’	ma'	PUNCT	''	_	8	punct	_	SpaceAfter=No
+8	am	am	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	doubt	doubt	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

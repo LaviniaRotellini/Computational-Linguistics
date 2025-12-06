@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I donno, sir.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	donno	kdonnow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	sir	sir	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I canna be expecten to ’t.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	na	to	PART	TO	Abbr=Yes	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	expecten	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	’t	’t	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = ’Tis not me as should be looken to for that, sir.
+1	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+2	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+5	as	as	SCONJ	IN	_	8	mark	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	looken	loeak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+9	to	to	ADP	IN	_	8	obl	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	sir	sir	ADV	RB	_	8	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = ’Tis them as is put ower me, and ower aw the rest of us.
+1	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+2	Tis	Ti	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
+7	ower	ower	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	ower	ower	ADV	RB	_	12	advmod	_	_
+12	aw	aw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	rest	rest	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = What do they tak upon themseln, sir, if not to do’t?’
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	tak	tak	VERB	VB	VerbForm=Inf	0	root	_	_
+5	upon	upon	ADP	IN	_	6	case	_	_
+6	themseln	themseln	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	sir	sir	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+14	’t	’t	PART	RB	_	13	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

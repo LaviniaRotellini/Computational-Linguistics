@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I believed, from the solitary and thoughtful way in which my mother murmured her song, that she was alone.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	from	from	ADP	IN	_	9	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+6	solitary	solitary	ADJ	JJ	Degree=Pos	9	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	way	way	NOUN	NN	Number=Sing	2	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	14	obl	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	murmured	murmure	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	song	song	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	2	punct	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	alone	alone	ADJ	JJ	Degree=Pos	2	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = And I went softly into the room.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	softly	softly	ADV	RB	_	3	advmod	_	_
+5	into	into	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	room	room	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = She was sitting by the fire, suckling an infant, whose tiny hand she held against her neck.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fire	fire	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	suckling	suck	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	infant	infant	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	14	nmod:poss	_	_
+13	tiny	tiny	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hand	hand	NOUN	NN	Number=Sing	3	obj	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	against	against	ADP	IN	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	neck	neck	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Her eyes were looking down upon its face, and she sat singing to it.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	down	down	ADP	RP	_	4	compound:prt	_	_
+6	upon	upon	ADP	IN	_	9	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	SpaceAfter=No
+8	s	be	PART	POS	_	7	case	_	_
+9	face	face	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+14	singing	singe	VERB	VBG	VerbForm=Ger	13	xcomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I was so far right, that she had no other companion.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	far	far	ADV	RB	Degree=Pos	0	root	_	_
+5	right	right	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	no	no	DET	DT	_	12	det	_	_
+11	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	companion	companion	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

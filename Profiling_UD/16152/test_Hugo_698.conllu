@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Bark, Grève, grumble, Grève!
+1	Bark	bark	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	Grève	Grève	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	grumble	grumble	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	Grève	Grève	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Spin, spin, my distaff, spin her rope for the hangman, who is whistling in the meadow.
+1	Spin	spin	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	spin	spin	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	distaff	distaff	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	spin	spin	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	rope	rope	NOUN	NN	Number=Sing	8	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	hangman	hangman	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	whistling	whistle	VERB	VBG	Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	meadow	meadow	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = What a beautiful hempen rope!
+1	What	what	DET	WDT	PronType=Int	5	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	beautiful	beautiful	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	hempen	hempen	NOUN	NN	Number=Sing	5	compound	_	_
+5	rope	rope	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Sow hemp, not wheat, from Issy to Vanvre.
+1	Sow	sow	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	hemp	hemp	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	not	not	ADV	RB	_	5	advmod	_	_
+5	wheat	wheat	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	Issy	Issy	PROPN	NNP	Number=Sing	2	nmod	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	Vanvre	Vanvre	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = The thief hath not stolen the beautiful hempen rope.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	thief	thief	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	hath	hall	AUX	MD	Typo=Yes|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	beautiful	beautiful	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	hempen	hempen	NOUN	NN	Number=Sing	9	compound	_	_
+9	rope	rope	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Grumble, Grève, bark, Grève!
+1	Grumble	grumble	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	Grève	Grève	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	bark	bark	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	Grève	Grève	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = To see the dissolute wench hang on the blear-eyed gibbet, windows are eyes.
+1	To	to	PART	TO	_	2	mark	_	_
+2	see	see	VERB	VB	VerbForm=Inf	16	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	dissolute	dissolute	NOUN	NN	Number=Sing	2	obj	_	_
+5	wench	wench	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	hang	hang	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	on	on	ADP	IN	_	12	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+9	blear	blear	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	eyed	eyed	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	gibbet	gibbet	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	windows	window	NOUN	NNS	Number=Plur	16	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	eyes	eyes	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s the old story,’ said I.
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	story	story	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Don’t laugh, when I say it was always the same in little things as it is in greater ones.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	laugh	laugh	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	always	always	ADV	RB	_	13	advmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	same	same	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	things	thing	NOUN	NNS	Number=Plur	13	obl	_	_
+17	as	as	SCONJ	IN	_	22	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	greater	greater	ADJ	JJR	Degree=Cmp	22	amod	_	_
+22	ones	one	NOUN	NNS	Number=Plur	4	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = My old troubles were nonsense, and now they are serious; but whenever I have gone away from my adopted sister--’
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	troubles	troubles	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	nonsense	nonsense	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	now	now	ADV	RB	_	11	advmod	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	serious	serious	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	5	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	whenever	whenever	ADV	WRB	PronType=Int	17	advmod	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+18	away	away	ADV	RB	_	17	advmod	_	_
+19	from	from	ADP	IN	_	22	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	adopted	adopted	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	sister	sister	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	--’	--’	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

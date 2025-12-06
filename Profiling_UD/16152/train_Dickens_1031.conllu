@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh dear, yes!’ said the Doctor; ‘Annie’s quite well, and she’ll be delighted to see you.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Oh	oh	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	dear	dear	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	yes	yes	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Doctor	Doctor	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	10	punct	_	_
+12	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+13	Annie	Annie	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+14	’s	's	PART	POS	_	10	case	_	_
+15	quite	quite	ADV	RB	_	16	advmod	_	_
+16	well	well	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+20	’ll	’ll	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	delighted	delighted	ADJ	JJ	Degree=Pos	8	conj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	see	see	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = You were always her favourite.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	always	always	ADV	RB	_	5	advmod	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	favourite	favourite	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She said so, last night, when I showed her your letter.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	night	night	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	letter	letter	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And--yes, to be sure--you recollect Mr. Jack Maldon, Copperfield?’
+1	And	and	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	--	--	PUNCT	,	_	7	punct	_	SpaceAfter=No
+3	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	--	--	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	recollect	recollect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	obj	_	_
+12	Jack	Jack	PROPN	NNP	Number=Sing	11	flat	_	_
+13	Maldon	Maldon	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	Copperfield	Copperfield	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

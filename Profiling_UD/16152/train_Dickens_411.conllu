@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Wickfield thought I could.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Wickfield	Wickfield	PROPN	NNP	Number=Sing	1	flat	_	_
+3	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = After a little discussion, he proposed to take my aunt to the school, that she might see it and judge for herself; also, to take her, with the same object, to two or three houses where he thought I could be boarded.
+1	After	after	ADP	IN	_	4	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	discussion	discussion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	proposed	propose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	take	take	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	school	school	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	might	might	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	see	see	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	judge	judge	VERB	VB	VerbForm=Inf	19	conj	_	_
+23	for	for	ADP	IN	_	24	case	_	_
+24	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	obl	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	7	punct	_	_
+26	also	also	ADV	RB	_	7	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	7	punct	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	take	take	VERB	VB	VerbForm=Inf	7	advcl	_	_
+30	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	29	punct	_	_
+32	with	with	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	same	same	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	object	object	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	7	punct	_	_
+37	to	to	ADP	IN	_	38	case	_	_
+38	two	two	NUM	CD	NumType=Card	41	nummod	_	_
+39	or	or	CCONJ	CC	_	40	cc	_	_
+40	three	three	NUM	CD	NumType=Card	38	conj	_	_
+41	houses	house	NOUN	NNS	Number=Plur	7	appos	_	_
+42	where	where	ADV	WRB	PronType=Rel	44	advmod	_	_
+43	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+44	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
+45	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj:pass	_	_
+46	could	could	AUX	MD	VerbForm=Fin	48	aux	_	_
+47	be	be	AUX	VB	VerbForm=Inf	48	aux:pass	_	_
+48	boarded	boarde	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	44	ccomp	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = My aunt embracing the proposal, we were all three going out together, when he stopped and said:
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	embracing	embrace	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	proposal	proposal	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	three	three	NUM	CD	NumType=Card	3	parataxis	_	_
+11	going	go	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+12	out	out	ADP	RP	_	11	compound:prt	_	_
+13	together	together	ADV	RB	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	SpaceAfter=No
+20	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\n
+

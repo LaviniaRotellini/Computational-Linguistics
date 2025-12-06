@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mr Askern says you’ll soon be all right again, Tulliver, did you know?”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Mr	Mr	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Askern	Askern	PROPN	NNP	Number=Sing	2	flat	_	_
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	SpaceAfter=No
+6	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	soon	soon	ADV	RB	Degree=Pos	10	advmod	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	right	right	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+11	again	again	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	Tulliver	Tulliver	PROPN	NNP	Number=Sing	10	vocative	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	know	know	VERB	VB	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = he said rather timidly, as he stepped gently up to Tom’s bed.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	rather	rather	ADV	RB	_	2	advmod	_	_
+4	timidly	timidly	ADV	RB	_	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	stepped	step	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	gently	gently	ADV	RB	_	8	advmod	_	_
+10	up	up	ADP	IN	_	8	compound:prt	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	Tom	Tom	PROPN	NNP	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	bed	bed	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “I’ve just been to ask Mr Stelling, and he says you’ll walk as well as ever again by-and-day.”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	just	just	ADV	RB	_	7	advmod	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+8	Mr	Mr	PROPN	NNP	Number=Sing	7	obj	_	_
+9	Stelling	Stelling	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’ll	’ll	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	walk	walk	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	as	as	ADV	RB	_	20	cc	_	_
+18	well	well	ADV	RB	Degree=Pos	17	fixed	_	_
+19	as	as	ADP	IN	_	17	fixed	_	_
+20	ever	ever	ADV	RB	_	16	advmod	_	_
+21	again	again	ADV	RB	_	16	advmod	_	_
+22	by	by	ADP	IN	_	26	case	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+24	and	and	CCONJ	CC	_	26	cc	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	day	day	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

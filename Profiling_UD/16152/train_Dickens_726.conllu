@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Thank you,
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 2
+# text = Master Copperfield!
+1	Master	master	NOUN	NN	Number=Sing	2	compound	_	_
+2	Copperfield	Copperfield	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I have risen from my umble station since first you used to address me, it is true; but I am umble still.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	risen	rise	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	from	from	ADP	IN	_	7	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	umble	umble	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	station	station	NOUN	NN	Number=Sing	3	obl	_	_
+8	since	since	SCONJ	IN	_	11	mark	_	_
+9	first	first	ADV	RB	_	11	advmod	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	address	address	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	true	true	ADJ	JJ	Degree=Pos	3	parataxis	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	3	punct	_	_
+20	but	but	CCONJ	CC	_	23	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	umble	umble	ADJ	JJ	Degree=Pos	3	conj	_	_
+24	still	still	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I hope I never shall be otherwise than umble.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+4	never	never	ADV	RB	_	9	advmod	_	_
+5	shall	shall	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+7	otherwise	otherwise	ADV	RB	_	9	advmod	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	umble	umble	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = You will not think the worse of my umbleness, if I make a little confidence to you, Master Copperfield?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	worse	worse	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	umbleness	umbleness	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	confidence	confidence	NOUN	NN	Number=Sing	13	obj	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	Master	master	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Copperfield	Copperfield	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+22	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Will you?’
+1	Will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	0	root	_	SpacesAfter=\n
+

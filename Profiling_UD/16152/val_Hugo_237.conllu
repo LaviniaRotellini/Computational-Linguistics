@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Never before had any creature without wings found a footing there.
+1	Never	never	ADV	RB	_	2	advmod	_	_
+2	before	before	ADV	RB	_	3	advmod	_	_
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	creature	creature	NOUN	NN	Number=Sing	3	obj	_	_
+6	without	without	ADP	IN	_	7	case	_	_
+7	wings	wing	NOUN	NNS	Number=Plur	3	obl	_	_
+8	found	find	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	footing	footing	NOUN	NN	Number=Sing	8	obj	_	_
+11	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The plateau was covered in parts with the dung of birds.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	plateau	plateau	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	parts	part	NOUN	NNS	Number=Plur	4	obl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	dung	dung	NOUN	NN	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	birds	bird	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It was an irregular trapezium, a mass struck off from the colossal granitic prism of the Great Douvre.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	irregular	irregular	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	trapezium	trapezium	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	mass	mass	ADJ	JJ	Degree=Pos	5	appos	_	_
+9	struck	struck	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	off	off	ADP	RP	_	9	compound:prt	_	_
+11	from	from	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	colossal	colossal	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	granitic	granitic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	prism	prism	NOUN	NN	Number=Sing	9	obl	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	Great	Great	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	Douvre	Douvre	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = This block was hollowed in the centre like a basin--a work of the rain.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	block	block	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	hollowed	hollow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	centre	centre	NOUN	NN	Number=Sing	4	obl	_	_
+8	like	like	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	basin	basin	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	-	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	work	work	NOUN	NN	Number=Sing	10	appos	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	rain	rain	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

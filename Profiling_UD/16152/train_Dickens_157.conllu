@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No,’ said Mr. Creakle.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	4	nsubj	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+6	Creakle	Creakle	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = ‘He knows better.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He knows me.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Let him keep away.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	keep	keep	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	away	away	ADV	RB	_	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = I say let him keep away,’ said Mr. Creakle, striking his hand upon the table, and looking at Mrs. Creakle, ‘for he knows me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	ccomp	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	keep	keep	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	away	away	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+11	Creakle	Creakle	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	striking	strike	VERB	VBG	VerbForm=Ger	29	ccomp	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hand	hand	NOUN	NN	Number=Sing	13	obj	_	_
+16	upon	upon	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	table	table	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	looking	look	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+22	at	at	ADP	IN	_	23	case	_	_
+23	Mrs.	Mrs.	PROPN	NNP	Number=Sing	21	obl	_	_
+24	Creakle	Creakle	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	‘	'	PUNCT	``	_	29	punct	_	SpaceAfter=No
+27	for	for	SCONJ	IN	_	29	mark	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+30	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	29	punct	_	_
+
+# sent_id = 6
+# text = Now you have begun to know me too, my young friend, and you may go.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	young	young	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	friend	friend	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	may	may	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	go	go	VERB	VB	VerbForm=Inf	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Take him away.’
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	away	away	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

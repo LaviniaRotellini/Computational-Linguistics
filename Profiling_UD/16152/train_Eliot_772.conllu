@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “For going into the Church under the circumstances?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	For	for	X	GW	_	0	root	_	_
+3	going	go	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Church	Church	PROPN	NNP	Number=Sing	3	obl	_	_
+7	under	under	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	circumstances	circumstance	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = That depends on your conscience, Fred—how far you have counted the cost, and seen what your position will require of you.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	conscience	conscience	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Fred	Fred	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+9	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+10	far	far	ADV	RB	Degree=Pos	13	advmod	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	counted	count	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	cost	cost	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+19	what	what	PRON	WP	PronType=Int	18	obj	_	_
+20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	position	position	NOUN	NN	Number=Sing	23	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	23	aux	_	_
+23	require	require	VERB	VB	VerbForm=Inf	19	acl:relcl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I can only tell you about myself, that I have always been too lax, and have been uneasy in consequence.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	that	that	SCONJ	IN	_	15	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+12	always	always	ADV	RB	_	15	advmod	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+14	too	too	ADV	RB	_	15	advmod	_	_
+15	lax	lax	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+20	uneasy	uneasy	ADJ	JJ	Degree=Pos	15	conj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	consequence	consequence	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

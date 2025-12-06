@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That is the nonsense you wise men talk!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	nonsense	nonsense	NOUN	NN	Number=Sing	0	root	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nmod:poss	_	_
+7	wise	wise	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	men	man	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	talk	talk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = How can she choose if she has no variety to choose from?
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	choose	choose	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	variety	variety	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	choose	choose	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	from	from	ADP	IN	_	11	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = A woman’s choice usually means taking the only man she can get.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	choice	choice	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	usually	usually	ADV	RB	_	6	advmod	_	_
+6	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	taking	take	VERB	VBG	VerbForm=Ger	6	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	only	only	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	man	man	NOUN	NN	Number=Sing	7	obj	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	get	get	VERB	VB	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Mark my words, Humphrey.
+1	Mark	Mark	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	words	word	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	Humphrey	Humphrey	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = If her friends don’t exert themselves, there will be a worse business than the Casaubon business yet.”
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	friends	friend	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	exert	exert	VERB	VB	VerbForm=Inf	11	advcl	_	_
+7	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	there	there	PRON	EX	_	11	expl	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	worse	worse	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	business	business	NOUN	NN	Number=Sing	11	nsubj	_	_
+15	than	than	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	Casaubon	Casaubon	PROPN	NNP	Number=Sing	18	compound	_	_
+18	business	business	NOUN	NN	Number=Sing	14	nmod	_	_
+19	yet	yet	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

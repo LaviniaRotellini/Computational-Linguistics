@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘That little man of a doctor, with his head on one side,’ said my aunt, ‘Jellips, or whatever his name was, what was he about?
+1	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	That	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	17	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	doctor	doctor	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	head	head	NOUN	NN	Number=Sing	4	nmod	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	one	one	NUM	CD	NumType=Card	14	nummod	_	_
+14	side	side	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	’	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	aunt	aunt	NOUN	NN	Number=Sing	30	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	‘	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
+22	Jellips	Jellips	PROPN	NNPS	Number=Plur	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	or	or	CCONJ	CC	_	28	cc	_	_
+25	whatever	whatever	DET	WDT	PronType=Int	27	det	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	name	name	NOUN	NN	Number=Sing	28	nsubj	_	_
+28	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	what	what	PRON	WP	PronType=Int	17	ccomp	_	_
+31	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	about	about	ADV	RB	_	30	case	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = All he could do, was to say to me, like a robin redbreast--as he is--“It’s a boy.”
+1	All	all	DET	DT	_	2	det	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	parataxis	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	say	say	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	like	like	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	robin	robin	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	redbreast	redbreast	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	SpaceAfter=No
+20	--	--	PUNCT	,	_	19	punct	_	SpaceAfter=No
+21	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+22	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+23	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	25	punct	_	_
+
+# sent_id = 3
+# text = A boy!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	boy	boy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Yah, the imbecility of the whole set of ‘em!’
+1	Yah	Yah	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	imbecility	imbecility	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	whole	whole	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	set	set	NOUN	NN	Number=Sing	4	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

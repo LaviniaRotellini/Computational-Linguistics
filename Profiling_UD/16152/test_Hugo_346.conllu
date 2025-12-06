@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Speak lower, master!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Speak	speak	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	lower	lower	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	master	master	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I have my suspicions of it,” said Jacques Charmolue.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	suspicions	suspicions	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Jacques	Jacques	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Charmolue	Charmolue	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = “But one must practise a bit of hermetic science when one is only procurator of the king in the ecclesiastical court, at thirty crowns tournois a year.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	one	one	PRON	PRP	_	5	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	practise	practise	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	bit	bit	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	hermetic	hermetic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	science	science	NOUN	NN	Number=Sing	7	nmod	_	_
+11	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+12	one	one	NUM	CD	NumType=Card	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	only	only	ADV	RB	_	15	advmod	_	_
+15	procurator	procurator	NOUN	NN	Number=Sing	29	nsubj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	king	king	NOUN	NN	Number=Sing	15	nmod	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	ecclesiastical	ecclesiastical	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	court	court	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	18	punct	_	_
+24	at	at	ADP	IN	_	26	case	_	_
+25	thirty	thirty	NUM	CD	NumType=Card	26	nummod	_	_
+26	crowns	crown	NOUN	NNS	Number=Plur	18	nmod	_	_
+27	tournois	tournois	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	year	year	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Only speak low.”
+1	Only	only	ADV	RB	_	2	advmod	_	_
+2	speak	speak	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	low	low	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In the daytime it would have been possible to recognize it as nothing more than a miner’s candlestick.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	daytime	daytime	NOUN	NN	Number=Sing	8	obl	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+5	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	cop	_	_
+8	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	recognize	recognize	VERB	VB	VerbForm=Inf	8	csubj	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	as	as	SCONJ	IN	_	13	mark	_	_
+13	nothing	nothing	PRON	NN	Number=Sing	10	advcl	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	13	amod	_	_
+15	than	than	ADP	IN	_	19	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	miner	miner	NOUN	NN	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+18	’s	's	PART	POS	_	17	case	_	_
+19	candlestick	candlestick	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Convicts were, at that period, sometimes employed in quarrying stone from the lofty hills which environ Toulon, and it was not rare for them to have miners’ tools at their command.
+1	Convicts	convict	NOUN	NNS	Number=Plur	9	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	period	period	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	sometimes	sometimes	ADV	RB	_	9	advmod	_	_
+9	employed	employ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	in	in	SCONJ	IN	_	11	mark	_	_
+11	quarrying	quarrying	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	stone	stone	NOUN	NN	Number=Sing	11	obj	_	_
+13	from	from	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	lofty	lofty	NOUN	NN	Number=Sing	16	compound	_	_
+16	hills	hill	NOUN	NNS	Number=Plur	11	obl	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	environ	environ	ADP	IN	_	19	case	_	_
+19	Toulon	Toulon	PROPN	NNP	Number=Sing	16	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	rare	rare	ADJ	JJ	Degree=Pos	9	conj	_	_
+26	for	for	SCONJ	IN	_	29	mark	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	have	have	VERB	VB	VerbForm=Inf	25	advcl	_	_
+30	miners	miner	NOUN	NNS	Number=Plur	29	obj	_	SpaceAfter=No
+31	’	's	PUNCT	''	_	30	punct	_	_
+32	tools	tool	NOUN	NNS	Number=Plur	30	appos	_	_
+33	at	at	ADP	IN	_	35	case	_	_
+34	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	command	command	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = These miners’ candlesticks are of massive iron, terminated at the lower extremity by a point, by means of which they are stuck into the rock.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	miners	miner	NOUN	NNS	Number=Plur	4	nmod:poss	_	SpaceAfter=No
+3	’	's	PART	POS	_	2	case	_	_
+4	candlesticks	candlestick	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	massive	massive	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	iron	iron	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	terminated	terminate	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+11	at	at	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	lower	lower	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	extremity	extremity	NOUN	NN	Number=Sing	10	obl	_	_
+15	by	by	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	point	point	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	8	punct	_	_
+19	by	by	ADP	IN	_	20	case	_	_
+20	means	means	NOUN	NNS	Number=Plur	8	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	which	which	PRON	WDT	PronType=Rel	25	obl	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	stuck	stick	ADJ	JJ	Degree=Pos	20	acl:relcl	_	_
+26	into	into	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	rock	rock	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

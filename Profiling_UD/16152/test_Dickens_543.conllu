@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “O, look at her, look at her!” cried Miss Havisham, bitterly; “Look at her so hard and thankless, on the hearth where she was reared!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	O	o	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+14	Miss	miss	PROPN	NNP	Number=Sing	13	obj	_	_
+15	Havisham	Havisham	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	14	punct	_	_
+17	bitterly	bitterly	ADV	RB	_	13	advmod	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	13	punct	_	_
+19	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+20	Look	look	INTJ	UH	_	4	discourse	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod	_	_
+23	so	so	ADV	RB	_	24	advmod	_	_
+24	hard	hard	ADV	RB	Degree=Pos	20	advmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	thankless	thankless	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	on	on	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	hearth	hearth	NOUN	NN	Number=Sing	20	conj	_	_
+31	where	where	ADV	WRB	PronType=Rel	34	advmod	_	_
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj:pass	_	_
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	aux:pass	_	_
+34	reared	rear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	acl:relcl	_	SpaceAfter=No
+35	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Where I took her into this wretched breast when it was first bleeding from its stabs, and where I have lavished years of tenderness upon her!”
+1	Where	where	ADV	WRB	PronType=Int	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	into	into	ADP	IN	_	8	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	wretched	wretch	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	breast	breast	NOUN	NN	Number=Sing	3	obl	_	_
+9	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	first	first	ADV	RB	_	13	advmod	_	_
+13	bleeding	bleed	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	stabs	stab	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	where	where	ADV	WRB	PronType=Int	22	advmod	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	lavished	lavish	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+23	years	year	NOUN	NNS	Number=Plur	22	obj	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	tenderness	tenderness	NOUN	NN	Number=Sing	23	nmod	_	_
+26	upon	upon	ADP	IN	_	27	case	_	_
+27	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

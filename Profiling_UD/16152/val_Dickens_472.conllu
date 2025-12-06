@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He wrote two more notes.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	5	amod	_	_
+5	notes	note	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = One, to Mr. Bounderby, announcing his retirement from that part of the country, and showing where he would be found for the next fortnight.
+1	One	one	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	1	nmod	_	_
+5	Bounderby	Bounderby	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	announcing	announce	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	retirement	retirement	NOUN	NN	Number=Sing	7	obj	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	part	part	NOUN	NN	Number=Sing	7	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	country	country	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	showing	show	VERB	VBG	VerbForm=Ger	7	conj	_	_
+19	where	where	ADV	WRB	PronType=Int	23	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
+21	would	would	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
+24	for	for	ADP	IN	_	28	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	next	next	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	fort	fort	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+28	night	night	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = The other, similar in effect, to Mr. Gradgrind.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	other	other	ADJ	JJ	Degree=Pos	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	similar	similar	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	effect	effect	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+10	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Almost as soon as the ink was dry upon their superscriptions, he had left the tall chimneys of Coketown behind, and was in a railway carriage, tearing and glaring over the dark landscape.
+1	Almost	almost	ADV	RB	_	3	advmod	_	_
+2	as	as	ADV	RB	_	3	advmod	_	_
+3	soon	soon	ADV	RB	Degree=Pos	15	advmod	_	_
+4	as	as	SCONJ	IN	_	8	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	ink	ink	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	dry	dry	ADJ	JJ	Degree=Pos	3	advcl	_	_
+9	upon	upon	ADP	IN	_	11	case	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	superscriptions	superscription	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	tall	tall	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	chimneys	chimney	NOUN	NNS	Number=Plur	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	Coketown	Coketown	PROPN	NNP	Number=Sing	18	nmod	_	_
+21	behind	behind	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	_	_
+23	and	and	CCONJ	CC	_	28	cc	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	railway	railway	NOUN	NN	Number=Sing	28	compound	_	_
+28	carriage	carriage	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	15	punct	_	_
+30	tearing	tear	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	glaring	glar	VERB	VBG	VerbForm=Ger	30	conj	_	_
+33	over	over	ADP	IN	_	36	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	dark	dark	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	landscape	landscape	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

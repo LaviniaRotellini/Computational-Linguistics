@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The weapon was new and bright.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	weapon	weapon	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	new	new	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	bright	bright	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The two strangers examined it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	strangers	stranger	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The one who seemed to know the house, and whom the man in the blouse had called "the gunsmith," tried the mechanism.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	24	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	house	house	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	18	punct	_	_
+10	and	and	CCONJ	CC	_	18	cc	_	_
+11	whom	whom	PRON	WP	PronType=Int	18	nsubj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	man	man	NOUN	NN	Number=Sing	11	nsubj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	blouse	blouse	NOUN	NN	Number=Sing	13	nmod	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	called	call	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+19	"	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	gunsmith	gunsmith	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	SpaceAfter=No
+23	"	"	PUNCT	''	_	24	punct	_	_
+24	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	mechanism	mechanism	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = 4
+# text = He passed the weapon to the other, who appeared less at home there, and kept his back turned to the light.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	weapon	weapon	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+11	less	less	ADV	RBR	Degree=Cmp	13	advmod	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	home	home	ADV	RB	_	14	obl	_	_
+14	there	there	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	back	back	ADV	RB	_	20	advmod	_	_
+20	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	light	light	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

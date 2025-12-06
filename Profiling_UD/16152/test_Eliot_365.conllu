@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Arthur had felt a sudden relief while Adam was speaking; he perceived that Adam had no positive knowledge of the past, and that there was no irrevocable damage done by this evening’s unfortunate rencontre.
+1	Arthur	Arthu	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	sudden	sudden	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	relief	relief	NOUN	NN	Number=Sing	3	obj	_	_
+7	while	while	SCONJ	IN	_	10	mark	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	3	advcl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+14	that	that	SCONJ	IN	_	16	mark	_	_
+15	Adam	Adam	PROPN	NNP	Number=Sing	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+17	no	no	DET	DT	_	19	det	_	_
+18	positive	positive	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	knowledge	knowledge	NOUN	NN	Number=Sing	16	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	past	past	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	that	that	SCONJ	IN	_	27	mark	_	_
+26	there	there	PRON	EX	_	27	expl	_	_
+27	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+28	no	no	DET	DT	_	30	det	_	_
+29	irrevocable	irrevocable	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	damage	damage	NOUN	NN	Number=Sing	27	nsubj	_	_
+31	done	do	VERB	VBN	Tense=Past|VerbForm=Part	30	acl	_	_
+32	by	by	ADP	IN	_	37	case	_	_
+33	this	this	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	evening	evening	NOUN	NN	Number=Sing	37	nmod:poss	_	SpaceAfter=No
+35	’s	's	PART	POS	_	34	case	_	_
+36	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	rencontre	rencontre	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Adam could still be deceived.
+1	Adam	Adam	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	still	still	ADV	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	deceived	deceiv	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The candid Arthur had brought himself into a position in which successful lying was his only hope.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	candid	candid	NOUN	NN	Number=Sing	18	nsubj	_	_
+3	Arthur	Arthu	PRON	PRP$	Abbr=Yes|Person=2|Poss=Yes|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	position	position	NOUN	NN	Number=Sing	5	obl	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	17	obl	_	_
+12	successful	successful	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	lying	lying	NOUN	NN	Number=Sing	17	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nsubj	_	_
+16	only	only	ADV	RB	_	17	advmod	_	_
+17	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 4
+# text = The hope allayed his anger a little.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	hope	hope	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	allayed	allay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	anger	anger	NOUN	NN	Number=Sing	3	obj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	little	little	NOUN	NN	Number=Sing	3	obl:npmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

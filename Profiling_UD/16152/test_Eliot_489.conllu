@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Seth was pale and trembling: he felt there was some terrible secret under all this.
+1	Seth	Seth	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	pale	pale	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	trembling	trembl	VERB	VBG	VerbForm=Ger	3	conj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11	some	some	DET	DT	_	13	det	_	_
+12	terrible	terrible	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	secret	secret	NOUN	NN	Number=Sing	10	nsubj	_	_
+14	under	under	ADP	IN	_	16	case	_	_
+15	all	all	DET	DT	_	16	det:predet	_	_
+16	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Brother,” he said, faintly—he never called Adam “Brother” except in solemn moments—“I don’t believe you’ll do anything as you can’t ask God’s blessing on.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Brother	brother	NOUN	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	faintly	faintly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+13	Adam	Adam	PROPN	NNP	Number=Sing	15	compound	_	_
+14	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	Brother	brother	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	12	punct	_	_
+17	except	except	ADP	IN	_	20	case	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	solemn	solemn	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	moments	moment	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+21	—	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+22	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	believe	believe	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	SpaceAfter=No
+28	’ll	’ll	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	do	do	VERB	VB	VerbForm=Inf	26	ccomp	_	_
+30	anything	anything	PRON	NN	Number=Sing	29	obj	_	_
+31	as	as	SCONJ	IN	_	35	mark	_	_
+32	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	_
+33	ca	can	AUX	MD	VerbForm=Fin	35	aux	_	SpaceAfter=No
+34	n’t	not	PART	RB	_	35	advmod	_	_
+35	ask	ask	VERB	VB	VerbForm=Inf	29	advcl	_	_
+36	God	God	PROPN	NNP	Number=Sing	38	nsubj	_	SpaceAfter=No
+37	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+38	blessing	bless	VERB	VBG	Tense=Pres|VerbForm=Part	35	acl:relcl	_	_
+39	on	on	ADV	RB	_	38	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

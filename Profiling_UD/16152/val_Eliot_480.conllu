@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What do you say, Mrs G.?” said Mr Glegg.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	say	say	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Mrs	Mrs	PROPN	NNP	Number=Sing	5	compound	_	_
+8	G	G	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.?	.?	PUNCT	,	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr	Mr	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	Glegg	Glegg	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “I’ve a notion, when I’ve made a bit more inquiry, as I shall perhaps start Tom here with a bit of a nest-egg,—he’ll pay me int’rest, you know,—an’ if you’ve got some little sums lyin’ idle twisted up in a stockin’ toe, or that——”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’ve	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	notion	notion	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	bit	bit	NOUN	NN	Number=Sing	13	obl:npmod	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	inquiry	inquiry	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	as	as	SCONJ	IN	_	20	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	shall	shall	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	perhaps	perhaps	ADV	RB	_	20	advmod	_	_
+20	start	start	VERB	VB	VerbForm=Inf	3	advcl	_	_
+21	Tom	Tom	PROPN	NNP	Number=Sing	20	obj	_	_
+22	here	here	ADV	RB	PronType=Dem	20	advmod	_	_
+23	with	with	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	bit	bit	NOUN	NN	Number=Sing	20	obl	_	_
+26	of	of	ADP	IN	_	30	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	nest	nest	NOUN	NN	Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	egg	egg	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	SpaceAfter=No
+32	—	-	PUNCT	,	_	35	punct	_	SpaceAfter=No
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	SpaceAfter=No
+34	’ll	’ll	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	pay	pay	VERB	VB	VerbForm=Inf	3	conj	_	_
+36	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	obj	_	_
+37	int	int	ADV	RB	_	38	advmod	_	SpaceAfter=No
+38	’rest	’rest	ADV	RB	_	35	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	41	nsubj	_	_
+41	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	parataxis	_	SpaceAfter=No
+42	,—	,—	PUNCT	.	_	41	punct	_	SpaceAfter=No
+43	an	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	SpaceAfter=No
+44	’	'	PUNCT	''	_	3	punct	_	_
+45	if	if	SCONJ	IN	_	48	mark	_	_
+46	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	48	nsubj	_	SpaceAfter=No
+47	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	48	aux	_	_
+48	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+49	some	some	DET	DT	_	52	det	_	_
+50	little	little	ADJ	JJ	Degree=Pos	52	amod	_	_
+51	sums	sums	NOUN	NNS	Number=Plur	52	compound	_	_
+52	lyin	lyin	NOUN	NN	Number=Sing	48	obj	_	SpaceAfter=No
+53	’	’	PUNCT	''	_	52	punct	_	_
+54	idle	idle	NOUN	NN	Number=Sing	52	appos	_	_
+55	twisted	twist	VERB	VBN	Tense=Past|VerbForm=Part	54	acl	_	_
+56	up	up	ADP	RP	_	55	compound:prt	_	_
+57	in	in	ADP	IN	_	59	case	_	_
+58	a	a	DET	DT	Definite=Ind|PronType=Art	59	det	_	_
+59	stockin	stockin	NOUN	NN	Number=Sing	61	compound	_	SpaceAfter=No
+60	’	's	PUNCT	''	_	61	punct	_	_
+61	toe	toe	NOUN	NN	Number=Sing	55	obl	_	SpaceAfter=No
+62	,	,	PUNCT	,	_	64	punct	_	_
+63	or	or	CCONJ	CC	_	64	cc	_	_
+64	that	that	PRON	DT	Number=Sing|PronType=Dem	61	conj	_	SpaceAfter=No
+65	——	——	PUNCT	.	_	64	punct	_	SpaceAfter=No
+66	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

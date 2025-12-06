@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He also noticed that Cosette had no longer the same taste for the back garden.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	Cosette	Cosette	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	no	no	ADV	RB	_	8	advmod	_	_
+8	longer	longer	ADV	RBR	Degree=Cmp	11	advmod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	taste	taste	NOUN	NN	Number=Sing	6	obj	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	back	back	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	garden	garden	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Now she preferred the garden, and did not dislike to promenade back and forth in front of the railed fence.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	preferred	prefer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	garden	garden	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	dislike	dislike	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	promenade	promenade	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	back	back	ADV	RB	_	12	advmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	forth	forth	ADV	RB	_	12	advmod	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	front	front	NOUN	NN	Number=Sing	12	obl	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	railed	railed	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+21	fence	fence	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Jean Valjean, who was shy, never set foot in the garden.
+1	Jean	Jean	PROPN	NNP	Number=Sing	9	nsubj	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	shy	shy	ADJ	JJ	Degree=Pos	1	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	never	never	ADV	RB	_	9	advmod	_	_
+9	set	set	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+10	foot	foot	NOUN	NN	Number=Sing	9	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	garden	garden	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = He kept to his back yard, like a dog.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	6	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	back	back	ADV	RB	_	6	advmod	_	_
+6	yard	yard	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	like	like	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	dog	dog	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

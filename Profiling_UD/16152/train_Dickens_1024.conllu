@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am bespoke myself,’ said Uriah, ‘on business; otherwise I should have been appy to have kept with my friends.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	bespoke	bespoke	ADP	IN	_	5	case	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Uriah	Uriah	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+12	on	on	ADP	IN	_	13	case	_	_
+13	business	business	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	8	punct	_	_
+15	otherwise	otherwise	ADV	RB	_	20	advmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+17	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+20	appy	appy	ADJ	JJ	Degree=Pos	8	parataxis	_	_
+21	to	to	PART	TO	_	23	mark	_	_
+22	have	have	AUX	VB	VerbForm=Inf	23	aux	_	_
+23	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	_	_
+24	with	with	ADP	IN	_	26	case	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	friends	friend	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But I leave my partner to represent the firm.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	partner	partner	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	represent	represent	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	firm	firm	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Miss Agnes, ever yours!
+1	Miss	miss	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Agnes	Agnes	PROPN	NNPS	Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	ever	ever	ADV	RB	_	5	advmod	_	_
+5	yours	yours	PRON	PRP	_	2	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I wish you good-day, Master Copperfield, and leave my umble respects for Miss Betsey Trotwood.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	good	good	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	day	day	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	Master	master	NOUN	NN	Number=Sing	9	compound	_	_
+9	Copperfield	Copperfield	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	umble	umble	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	respects	respects	NOUN	NNS	Number=Plur	12	obj	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	Miss	miss	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Betsey	Betsey	PROPN	NNP	Number=Sing	12	nmod	_	_
+19	Trotwood	Trotwood	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

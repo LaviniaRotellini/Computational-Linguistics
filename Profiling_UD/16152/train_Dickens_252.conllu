@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There are Mr. Murdstone, our neighbour Mr. Grayper, Mr. Chillip, and I.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	nsubj	_	_
+4	Murdstone	Murdstone	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	neighbour	neighbour	NOUN	NN	Number=Sing	8	compound	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	2	appos	_	_
+9	Grayper	Grayper	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	8	conj	_	_
+12	Chillip	Chillip	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = When we go out to the door, the Bearers and their load are in the garden; and they move before us down the path, and past the elms, and through the gate, and into the churchyard, where I have so often heard the birds sing on a summer morning.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	door	door	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Bearers	Bearer	NOUN	NNS	Number=Plur	0	root	_	_
+11	and	and	CCONJ	CC	_	17	cc	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	load	load	NOUN	NN	Number=Sing	17	nsubj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	garden	garden	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	10	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+21	move	move	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+22	before	before	ADP	IN	_	23	case	_	_
+23	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	obl	_	_
+24	down	down	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	path	path	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	_
+29	past	past	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	elms	elm	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	36	punct	_	_
+33	and	and	CCONJ	CC	_	36	cc	_	_
+34	through	through	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	gate	gate	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	41	punct	_	_
+38	and	and	CCONJ	CC	_	41	cc	_	_
+39	into	into	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	churchyard	churchyard	NOUN	NN	Number=Sing	36	conj	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	41	punct	_	_
+43	where	where	ADV	WRB	PronType=Rel	45	advmod	_	_
+44	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+45	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+46	so	so	ADV	RB	_	48	advmod	_	_
+47	often	often	ADV	RB	_	48	advmod	_	_
+48	heard	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	45	conj	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	_
+50	birds	bird	NOUN	NNS	Number=Plur	51	nsubj	_	_
+51	sing	s	VERB	VBG	VerbForm=Ger	48	advcl	_	_
+52	on	on	ADP	IN	_	55	case	_	_
+53	a	a	DET	DT	Definite=Ind|PronType=Art	55	det	_	_
+54	summer	summer	NOUN	NN	Number=Sing	55	compound	_	_
+55	morning	morning	NOUN	NN	Number=Sing	51	obl	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

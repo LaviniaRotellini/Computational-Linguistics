@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, sir,” said Adam, after some hesitation; “I’ll hear what it is.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	after	after	ADP	IN	_	12	case	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	hesitation	hesitation	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	7	punct	_	_
+14	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	’ll	’ll	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	hear	hear	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+18	what	what	PRON	WP	PronType=Int	17	ccomp	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = If I can help to mend anything, I will.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	help	help	VERB	VB	VerbForm=Inf	10	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	mend	mmend	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	anything	anything	PRON	NN	Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Anger ’ull mend nothing, I know.
+1	Anger	anger	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	’ull	’ull	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	mend	mmend	VERB	VB	VerbForm=Inf	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = We’ve had enough o’ that.”
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	o	of	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	5	punct	_	_
+7	that	that	PRON	WDT	PronType=Rel	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

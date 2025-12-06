@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Well!
+1	Well	well	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = I loved her, and I went on loving her, most absorbingly, entirely, and completely.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	on	on	SCONJ	IN	_	9	mark	_	_
+9	loving	love	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+10	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	most	most	ADV	RBS	_	13	advmod	_	_
+13	absorbingly	absorbingly	ADV	RB	_	7	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	entirely	entirely	ADV	RB	_	7	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	completely	completely	ADV	RB	_	7	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But going on, too, working pretty hard, and busily keeping red-hot all the irons I now had in the fire, I would sit sometimes of a night, opposite my aunt, thinking how I had frightened Dora that time, and how I could best make my way with a guitar-case through the forest of difficulty, until I used to fancy that my head was turning quite grey.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	going	go	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+3	on	on	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	too	too	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	working	work	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+8	pretty	pretty	ADV	RB	_	9	advmod	_	_
+9	hard	hard	ADV	RB	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	busily	busily	ADV	RB	_	13	advmod	_	_
+13	keeping	keep	VERB	VBG	VerbForm=Ger	7	conj	_	_
+14	red	red	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	hot	hot	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+17	all	all	DET	PDT	_	16	det	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	irons	iron	NOUN	NNS	Number=Plur	13	obj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	now	now	ADV	RB	_	22	advmod	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	fire	fire	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+28	would	would	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	sit	sit	VERB	VB	VerbForm=Inf	0	root	_	_
+30	sometimes	sometimes	ADV	RB	_	29	advmod	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	night	night	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	29	punct	_	_
+35	opposite	opposite	VERB	VB	VerbForm=Inf	29	list	_	_
+36	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+37	aunt	aunt	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	35	punct	_	_
+39	thinking	think	VERB	VBG	VerbForm=Ger	35	advcl	_	_
+40	how	how	ADV	WRB	PronType=Int	43	advmod	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+42	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	aux	_	_
+43	frightened	frighten	VERB	VBN	Tense=Past|VerbForm=Part	39	ccomp	_	_
+44	Dora	Dora	ADP	IN	_	46	case	_	_
+45	that	that	DET	DT	Number=Sing|PronType=Dem	46	det	_	_
+46	time	time	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	53	punct	_	_
+48	and	and	CCONJ	CC	_	53	cc	_	_
+49	how	how	ADV	WRB	PronType=Int	53	advmod	_	_
+50	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	53	nsubj	_	_
+51	could	could	AUX	MD	VerbForm=Fin	53	aux	_	_
+52	best	best	ADV	RBS	Degree=Sup	53	advmod	_	_
+53	make	make	VERB	VB	VerbForm=Inf	43	conj	_	_
+54	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+55	way	way	NOUN	NN	Number=Sing	53	obj	_	_
+56	with	with	ADP	IN	_	60	case	_	_
+57	a	a	DET	DT	Definite=Ind|PronType=Art	60	det	_	_
+58	guitar	guitar	NOUN	NN	Number=Sing	60	compound	_	SpaceAfter=No
+59	-	-	PUNCT	HYPH	_	60	punct	_	SpaceAfter=No
+60	case	case	NOUN	NN	Number=Sing	55	nmod	_	_
+61	through	through	ADP	IN	_	63	case	_	_
+62	the	the	DET	DT	Definite=Def|PronType=Art	63	det	_	_
+63	forest	forest	NOUN	NN	Number=Sing	60	nmod	_	_
+64	of	of	ADP	IN	_	65	case	_	_
+65	difficulty	difficulty	NOUN	NN	Number=Sing	63	nmod	_	SpaceAfter=No
+66	,	,	PUNCT	,	_	29	punct	_	_
+67	until	until	SCONJ	IN	_	69	mark	_	_
+68	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	69	nsubj	_	_
+69	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	advcl	_	_
+70	to	to	PART	TO	_	71	mark	_	_
+71	fancy	fancy	VERB	VB	VerbForm=Inf	69	xcomp	_	_
+72	that	that	SCONJ	IN	_	76	mark	_	_
+73	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	74	nmod:poss	_	_
+74	head	head	NOUN	NN	Number=Sing	76	nsubj	_	_
+75	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	76	aux	_	_
+76	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	71	ccomp	_	_
+77	quite	quite	DET	PDT	_	78	det	_	_
+78	grey	grey	NOUN	NN	Number=Sing	76	obj	_	SpaceAfter=No
+79	.	.	PUNCT	.	_	29	punct	_	SpacesAfter=\n
+

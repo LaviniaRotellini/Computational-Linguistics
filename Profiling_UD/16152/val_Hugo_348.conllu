@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He suffered from a burning thirst.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	suffered	suffer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	burning	burn	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	thirst	thirst	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Little pools of rain had formed in the rocks around him.
+1	Little	little	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	pools	pool	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	rain	rain	NOUN	NN	Number=Sing	2	nmod	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	formed	form	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	rocks	rock	NOUN	NNS	Number=Plur	6	obl	_	_
+10	around	around	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = From time to time he took some water in the hollow of his hand and drank.
+1	From	from	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	time	time	NOUN	NN	Number=Sing	2	nmod	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	water	water	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	hollow	hollow	NOUN	NN	Number=Sing	6	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	hand	hand	NOUN	NN	Number=Sing	11	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	drank	drank	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Then, without even looking upward to observe the storm, he applied himself anew to his task.
+1	Then	then	ADV	RB	PronType=Dem	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	13	punct	_	_
+3	without	without	SCONJ	IN	_	5	mark	_	_
+4	even	even	ADV	RB	_	5	advmod	_	_
+5	looking	look	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+6	upward	upward	ADV	RB	_	8	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	observe	observe	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	storm	storm	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	anew	any	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	task	task	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

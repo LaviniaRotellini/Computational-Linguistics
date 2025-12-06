@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The sea-birds, who knew that form, fluttered above it; not with their old wild astonishment, but with a sort of fraternal tenderness.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	sea	sea	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	birds	bird	NOUN	NNS	Number=Plur	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	form	form	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	fluttered	flutter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	above	above	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	11	punct	_	_
+15	not	not	ADV	RB	_	20	advmod	_	_
+16	with	with	ADP	IN	_	20	case	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+18	old	old	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	wild	wild	NOUN	NN	Number=Sing	20	compound	_	_
+20	astonishment	astonishment	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	but	but	CCONJ	CC	_	25	cc	_	_
+23	with	with	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	sort	sort	NOUN	NN	Number=Sing	20	conj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	fraternal	fraternal	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	tenderness	tenderness	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = They uttered plaintive cries:
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	uttered	utter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	plaintive	plaintive	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	cries	cry	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 3
+# text = they seemed to be calling to him.
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	2	xcomp	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = A sea-mew, who no doubt knew him, was tame enough to come near him.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	sea-mew	sea-mew	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	doubt	doubt	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	tame	tame	ADJ	JJ	Degree=Pos	0	root	_	_
+12	enough	enough	ADV	RB	_	11	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	come	come	VERB	VB	VerbForm=Inf	11	advcl	_	_
+15	near	near	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 5
+# text = It began to caw as if speaking to him.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	caw	cee	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	if	if	SCONJ	IN	_	7	mark	_	_
+7	speaking	speak	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = The sleeper seemed not to hear.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	sleeper	sleeper	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	not	not	ADV	RB	_	6	advmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = The bird hopped upon his shoulder, and pecked his lips softly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bird	bird	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	hopped	hopp	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	upon	upon	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	shoulder	shoulder	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	pecked	peck	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	lips	lip	NOUN	NNS	Number=Plur	9	obj	_	_
+12	softly	softly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

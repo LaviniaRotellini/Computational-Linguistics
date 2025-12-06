@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “All sorts, mum, all sorts,” said Bob,—thumping his bundle; “but let us say no more about that, if _you_ please.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	All	all	DET	DT	_	3	det	_	_
+3	sorts	sort	NOUN	NNS	Number=Plur	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	mum	mum	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	sorts	sort	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	parataxis	_	_
+12	Bob	Bob	PROPN	NNP	Number=Sing	14	nsubj	_	SpaceAfter=No
+13	,—	,—	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	thumping	thump	VERB	VBG	VerbForm=Ger	11	parataxis	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	bundle	bundle	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	18	punct	_	_
+18	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+19	but	but	CCONJ	CC	_	20	cc	_	_
+20	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+22	say	say	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	no	no	ADV	RB	_	24	advmod	_	_
+24	more	more	ADJ	JJR	Degree=Cmp	22	ccomp	_	_
+25	about	about	ADP	IN	_	26	case	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	24	punct	_	_
+28	if	if	SCONJ	IN	_	32	mark	_	_
+29	_	_	SYM	NFP	_	30	punct	_	SpaceAfter=No
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	SpaceAfter=No
+31	_	_	SYM	NFP	_	32	punct	_	_
+32	please	please	INTJ	UH	_	24	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = I’m here upo’ Mr Tom’s business, an’ I’m not the man to take up the time wi’ my own.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+4	upo	upo	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+5	’	’	PART	POS	_	4	case	_	_
+6	Mr	Mr	PROPN	NNP	Number=Sing	4	flat	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+8	’s	's	PART	POS	_	4	case	_	_
+9	business	business	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	17	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+14	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	not	not	PART	RB	_	17	advmod	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	9	appos	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	take	take	VERB	VB	VerbForm=Inf	2	advcl	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	time	time	NOUN	NN	Number=Sing	23	compound	_	_
+23	wi	wus	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	’	’	PUNCT	''	_	19	punct	_	_
+25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	own	own	ADJ	JJ	Degree=Pos	19	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

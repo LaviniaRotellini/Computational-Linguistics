@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fred blushed.
+1	Fred	Fred	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	blushed	blush	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He had not borrowed money in that way, for excellent reasons.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	borrowed	borrow	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	money	money	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	excellent	excellent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	reasons	reason	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But he was conscious of having spoken with some confidence (perhaps with more than he exactly remembered) about his prospect of getting Featherstone’s land as a future means of paying present debts.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	conscious	conscious	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	SCONJ	IN	_	7	mark	_	_
+6	having	have	AUX	VBG	VerbForm=Ger	7	aux	_	_
+7	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	confidence	confidence	NOUN	NN	Number=Sing	7	obl	_	_
+11	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+12	perhaps	perhaps	ADV	RB	_	14	advmod	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	7	parataxis	_	_
+15	than	than	SCONJ	IN	_	18	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	exactly	exactly	ADV	RB	_	18	advmod	_	_
+18	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	14	punct	_	_
+20	about	about	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	prospect	prospect	NOUN	NN	Number=Sing	7	obl	_	_
+23	of	of	SCONJ	IN	_	24	mark	_	_
+24	getting	get	VERB	VBG	VerbForm=Ger	22	acl	_	_
+25	Featherstone	Featherstone	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	land	land	NOUN	NN	Number=Sing	24	obj	_	_
+28	as	as	ADP	IN	_	31	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	future	future	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	means	means	NOUN	NNS	Number=Plur	24	obl	_	_
+32	of	of	SCONJ	IN	_	33	mark	_	_
+33	paying	pay	VERB	VBG	VerbForm=Ger	31	acl	_	_
+34	present	present	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	debts	debt	NOUN	NNS	Number=Plur	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

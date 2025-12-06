@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I believe that scoundrel’s been planning all along to ruin my father,” said Tom, leaping from the vaguest impressions to a definite conclusion.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	scoundrel	scoundrel	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux	_	_
+8	planning	plan	VERB	VBG	VerbForm=Ger	3	ccomp	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	along	along	ADV	RB	_	8	advmod	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	ruin	ruin	VERB	VB	VerbForm=Inf	8	advcl	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	father	father	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Tom	Tom	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	leaping	leap	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+21	from	from	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	vaguest	vaguest	ADJ	JJ	Degree=Pos|NumType=Ord	24	amod	_	_
+24	impressions	impressions	NOUN	NNS	Number=Plur	20	obl	_	_
+25	to	to	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	definite	definite	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	conclusion	conclusion	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “I’ll make him feel for it when I’m a man.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	feel	feel	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+11	’m	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	man	man	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mind you never speak to Philip again.”
+1	Mind	mind	INTJ	UH	_	4	discourse	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	speak	speak	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Philip	Philip	PROPN	NNP	Number=Sing	4	obl	_	_
+7	again	again	ADV	RB	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

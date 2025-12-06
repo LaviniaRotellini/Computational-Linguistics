@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Was never true love loved in vain, For truest love is highest gain.
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	never	never	ADV	RB	_	4	advmod	_	_
+3	true	true	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	love	love	NOUN	NN	Number=Sing	14	nsubj	_	_
+5	loved	love	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	vain	vain	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	For	for	ADP	IN	_	11	case	_	_
+10	truest	truest	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	love	love	NOUN	NN	Number=Sing	4	nmod	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	highest	highest	ADJ	JJS	Degree=Sup	14	amod	_	_
+14	gain	gain	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = No art can make it: it must spring
+1	No	no	DET	DT	_	2	det	_	_
+2	art	art	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	4	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	spring	spre	NOUN	NN	Number=Sing	4	parataxis	_	_
+
+# sent_id = 3
+# text = Where elements are fostering.
+1	Where	where	ADV	WRB	PronType=Int	4	advmod	_	_
+2	elements	element	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fostering	foster	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = So in heaven’s spot and hour Springs the little native flower, Downward root and upward eye, Shapen by the earth and sky.
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	in	in	ADP	IN	_	5	case	_	_
+3	heaven	heaven	PROPN	NNP	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	spot	spot	NOUN	NN	Number=Sing	26	obl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	hour	hour	NOUN	NN	Number=Sing	8	compound	_	_
+8	Springs	spring	PROPN	NNPS	Number=Plur	5	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	native	native	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	flower	flower	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	Downward	Downward	PROPN	NNP	Number=Sing	15	compound	_	_
+15	root	root	NOUN	NN	Number=Sing	12	conj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	upward	upward	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	eye	eye	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	12	punct	_	_
+20	Shapen	Shapen	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+21	by	by	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	earth	earth	NOUN	NN	Number=Sing	20	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	sky	sky	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+

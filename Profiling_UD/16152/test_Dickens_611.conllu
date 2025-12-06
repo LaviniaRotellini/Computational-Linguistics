@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = With this project formed, we went to bed.
+1	With	with	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	project	project	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	formed	for	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	bed	bed	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I had the wildest dreams concerning him, and woke unrefreshed; I woke, too, to recover the fear which I had lost in the night, of his being found out as a returned transport.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	wildest	wildest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	dreams	dream	NOUN	NNS	Number=Plur	2	obj	_	_
+6	concerning	concern	VERB	VBG	VerbForm=Ger	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	woke	wake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	unrefreshed	unrefreshed	ADJ	JJ	Degree=Pos	10	xcomp	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	woke	wake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	too	too	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	recover	recover	VERB	VB	VerbForm=Inf	14	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	fear	fear	NOUN	NN	Number=Sing	19	obj	_	_
+22	which	which	PRON	WDT	PronType=Rel	25	obj	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	night	night	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	14	punct	_	_
+30	of	of	SCONJ	IN	_	33	mark	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nsubj:pass	_	_
+32	being	be	AUX	VBG	VerbForm=Ger	33	aux:pass	_	_
+33	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+34	out	out	ADP	RP	_	33	compound:prt	_	_
+35	as	as	ADP	IN	_	38	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	38	amod	_	_
+38	transport	transport	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Waking, I never lost that fear.
+1	Waking	Wak	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	fear	fear	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

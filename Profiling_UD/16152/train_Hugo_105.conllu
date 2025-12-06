@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, the red coat, the ball on the ankle, a plank to sleep on, heat, cold, toil, the convicts, the thrashings, the double chain for nothing, the cell for one word; even sick and in bed, still the chain!
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	red	red	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	coat	coat	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	ball	ball	NOUN	NN	Number=Sing	6	appos	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	ankle	ankle	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	plank	plank	NOUN	NN	Number=Sing	6	appos	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	sleep	sleep	VERB	VB	VerbForm=Inf	15	acl	_	_
+18	on	on	ADP	IN	_	20	case	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	heat	heat	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	6	punct	_	_
+22	cold	cold	ADJ	JJ	Degree=Pos	24	amod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	toil	toil	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	convicts	convict	NOUN	NNS	Number=Plur	6	appos	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	6	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	thrashings	thrashing	NOUN	NNS	Number=Plur	6	appos	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	6	punct	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+33	double	double	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	chain	chain	NOUN	NN	Number=Sing	6	appos	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	nothing	nothing	PRON	NN	Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	6	punct	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	cell	cell	NOUN	NN	Number=Sing	6	appos	_	_
+40	for	for	ADP	IN	_	42	case	_	_
+41	one	one	NUM	CD	NumType=Card	42	nummod	_	_
+42	word	word	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+43	;	;	PUNCT	,	_	6	punct	_	_
+44	even	even	ADV	RB	_	45	advmod	_	_
+45	sick	sick	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+46	and	and	CCONJ	CC	_	48	cc	_	_
+47	in	in	ADP	IN	_	48	case	_	_
+48	bed	bed	NOUN	NN	Number=Sing	45	conj	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	6	punct	_	_
+50	still	still	ADV	RB	_	52	advmod	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	_
+52	chain	chain	NOUN	NN	Number=Sing	6	parataxis	_	SpaceAfter=No
+53	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Dogs, dogs are happier!
+1	Dogs	dog	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	dogs	dog	NOUN	NNS	Number=Plur	1	conj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	happier	happier	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Nineteen years!
+1	Nineteen	nineteen	NUM	CD	NumType=Card	2	nummod	_	_
+2	years	year	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I am forty-six.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	forty	forty	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+4	-	-	SYM	SYM	_	5	case	_	SpaceAfter=No
+5	six	six	NUM	CD	NumType=Card	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Now there is the yellow passport.
+1	Now	now	ADV	RB	_	3	advmod	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	yellow	yellow	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	passport	passport	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = That is what it is like.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	like	like	ADJ	JJ	Degree=Pos	3	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

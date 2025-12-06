@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, Mr Glegg!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Mr	Mr	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Glegg	Glegg	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = it’s a poor return
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	return	return	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = I get for making you the wife I’ve made you all these years.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	for	for	SCONJ	IN	_	4	mark	_	_
+4	making	make	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	wife	wife	NOUN	NN	Number=Sing	4	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	these	these	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	years	year	NOUN	NNS	Number=Plur	10	obl:tmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = If this is the way I’m to be treated, I’d better ha’ known it before my poor father died, and then, when I’d wanted a home, I should ha’ gone elsewhere, as the choice was offered me.”
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	way	way	NOUN	NN	Number=Sing	13	advcl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+7	’m	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+13	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	better	better	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	ha	ha	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	13	punct	_	_
+17	known	know	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	before	before	ADP	IN	_	22	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	poor	poor	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	father	father	NOUN	NN	Number=Sing	17	obl	_	_
+23	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	39	punct	_	_
+25	and	and	CCONJ	CC	_	39	cc	_	_
+26	then	then	ADV	RB	PronType=Dem	39	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	39	punct	_	_
+28	when	when	ADV	WRB	PronType=Int	31	mark	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	SpaceAfter=No
+30	’d	’d	ADV	RB	_	31	advmod	_	_
+31	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	advcl	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	home	home	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	39	punct	_	_
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+36	should	should	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	ha	ha	PROPN	NNP	Number=Sing	39	nsubj	_	SpaceAfter=No
+38	’	'	PART	POS	_	37	case	_	_
+39	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	23	conj	_	_
+40	elsewhere	elsewhere	ADV	RB	_	39	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	23	punct	_	_
+42	as	as	SCONJ	IN	_	46	mark	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	choice	choice	NOUN	NN	Number=Sing	46	nsubj:pass	_	_
+45	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	aux:pass	_	_
+46	offered	offer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	_
+47	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	46	obj	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+49	”	"	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay,” said Lisbeth, frightened at her own courage, yet feeling that she had broken the ice, and the waters must flow, whatever mischief they might do.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Nay	Nay	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Lisbeth	Lisbeth	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	frightened	frighten	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	courage	courage	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	yet	yet	CCONJ	CC	_	15	cc	_	_
+15	feeling	feel	VERB	VBG	VerbForm=Ger	8	conj	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+19	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	15	ccomp	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	ice	ice	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	27	punct	_	_
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	waters	water	NOUN	NNS	Number=Plur	27	nsubj	_	_
+26	must	must	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	flow	flow	VERB	VB	VerbForm=Inf	19	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	whatever	whatever	DET	WDT	PronType=Int	30	det	_	_
+30	mischief	mischief	NOUN	NN	Number=Sing	33	obj	_	_
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+32	might	might	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	do	do	VERB	VB	VerbForm=Inf	27	acl:relcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “What’s th’ use o’ settin’ store by things as are thirty mile off?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	th	th	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	4	punct	_	_
+6	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+7	o	of	ADP	IN	Abbr=Yes	9	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	settin	settin	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	store	store	NOUN	NN	Number=Sing	6	obj	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	things	thing	NOUN	NNS	Number=Plur	6	obl	_	_
+14	as	as	SCONJ	IN	_	17	mark	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	thirty	thirty	NUM	CD	NumType=Card	17	nummod	_	_
+17	mile	mile	NOUN	NN	Number=Sing	6	advcl	_	_
+18	off	off	ADP	RP	_	17	compound:prt	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = If thee wast fond enough on her, thee wouldstna let her go away.”
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	thee	thee	NUM	CD	NumType=Card	4	nummod	_	_
+3	wast	wast	NOUN	NN	Number=Sing	4	compound	_	_
+4	fond	fond	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	enough	enough	ADV	RB	_	9	advcl	_	_
+6	on	on	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	thee	thee	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+10	wouldstna	wouldstna	PART	TO	Abbr=Yes	11	mark	_	_
+11	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	9	advcl	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	go	go	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	away	away	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

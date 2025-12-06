@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “One—only one.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	One	one	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+3	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+4	only	only	ADV	RB	_	5	advmod	_	_
+5	one	one	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Fanny Hackbutt comes at half past eleven.
+1	Fanny	Fanny	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	1	flat	_	_
+3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	half	half	NOUN	NN	Number=Sing	3	obl	_	_
+6	past	past	ADP	IN	_	7	case	_	_
+7	eleven	eleven	NUM	CD	NumType=Card	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am not getting a great income now,” said Mrs. Garth, smiling.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	getting	get	VERB	VBG	VerbForm=Ger	11	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	income	income	NOUN	NN	Number=Sing	4	obj	_	_
+8	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Garth	Garth	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	smiling	smile	VERB	VBG	VerbForm=Ger	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = “I am at a low ebb with pupils.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	at	at	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	low	low	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	ebb	ebb	NOUN	NN	Number=Sing	0	root	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	pupils	pupil	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = But I have saved my little purse for Alfred’s premium: I have ninety-two pounds.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	saved	save	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	purse	purse	NOUN	NN	Number=Sing	4	obj	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	Alfred	Alfred	PROPN	NNP	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	premium	premium	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+12	:	:	PUNCT	:	_	4	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+15	ninety	ninety	NUM	CD	NumType=Card	18	nummod	_	SpaceAfter=No
+16	-	-	SYM	SYM	_	17	case	_	SpaceAfter=No
+17	two	two	NUM	CD	NumType=Card	15	nmod	_	_
+18	pounds	pound	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = He can go to Mr. Hanmer’s now; he is just at the right age.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obl	_	_
+6	Hanmer	Hanmer	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	’s	's	PART	POS	_	5	case	_	_
+8	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+12	just	just	ADV	RB	_	16	advmod	_	_
+13	at	at	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	right	right	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	age	age	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

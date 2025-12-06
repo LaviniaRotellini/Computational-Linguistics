@@ -1,0 +1,125 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!’ cried Bitzer.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Bitzer	Bitzer	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Oh!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = An’t you one of the rest!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
+2	n’t	n’t	NOUN	NN	Number=Sing	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	one	one	NUM	CD	NumType=Card	2	nummod	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	rest	rest	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = An’t you a horse-rider!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
+2	n’t	n’t	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+5	horse	horse	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	rider	rider	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I never looked at her, sir.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	sir	sir	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = I asked her if she would know how to define a horse to-morrow, and offered to tell her again, and she ran away, and I ran after her, sir, that she might know how to answer when she was asked.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	know	know	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	how	how	ADV	WRB	PronType=Int	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	define	define	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	horse	horse	NOUN	NN	Number=Sing	10	obj	_	_
+13	to	to	ADP	IN	_	15	case	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	morrow	morrow	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	tell	tell	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+27	away	away	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+31	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+32	after	after	ADP	IN	_	33	case	_	_
+33	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	31	punct	_	_
+35	sir	sir	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	2	punct	_	_
+37	that	that	SCONJ	IN	_	40	mark	_	_
+38	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+39	might	might	AUX	MD	VerbForm=Fin	40	aux	_	_
+40	know	know	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+41	how	how	ADV	WRB	PronType=Int	43	advmod	_	_
+42	to	to	PART	TO	_	43	mark	_	_
+43	answer	answer	VERB	VB	VerbForm=Inf	40	ccomp	_	_
+44	when	when	ADV	WRB	PronType=Int	47	mark	_	_
+45	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	nsubj:pass	_	_
+46	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	aux:pass	_	_
+47	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	43	advcl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = You wouldn’t have thought of saying such mischief if you hadn’t been a horse-rider?’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	thought	think	NOUN	NN	Number=Sing	4	obj	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	saying	say	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	mischief	mischief	NOUN	NN	Number=Sing	7	obj	_	_
+10	if	if	SCONJ	IN	_	18	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
+13	n’t	not	PART	RB	_	18	advmod	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	horse	horse	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	rider	rider	NOUN	NN	Number=Sing	9	acl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, yes, Sir,” said Joe, “me and Wopsle went off straight to look at the Blacking Ware’us.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	yes	yes	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	Sir	Sir	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Joe	Joe	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	appos	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	Wopsle	Wopsle	PROPN	NNP	Number=Sing	13	conj	_	_
+16	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+17	off	off	ADV	RB	_	16	advmod	_	_
+18	straight	straight	ADJ	JJ	Degree=Pos	16	advcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	look	look	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	at	at	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	Blacking	Blacking	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Ware	Ware	PROPN	NNP	Number=Sing	25	compound	_	SpaceAfter=No
+25	’us	’us	PROPN	NNP	Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = But we didn’t find that it come up to its likeness in the red bills at the shop doors; which I meantersay,” added Joe, in an explanatory manner, “as it is there drawd too architectooralooral.”
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	find	find	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	come	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	up	up	ADV	RB	_	8	advmod	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	likeness	likeness	NOUN	NNS	Number=Plur	8	obl	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	red	red	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	bills	bill	NOUN	NNS	Number=Plur	8	obl	_	_
+17	at	at	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	shop	shop	NOUN	NN	Number=Sing	20	compound	_	_
+20	doors	door	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	5	punct	_	_
+22	which	which	PRON	WDT	PronType=Int	24	obj	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+24	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	27	punct	_	_
+27	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+28	Joe	Joe	PROPN	NNP	Number=Sing	40	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	in	in	ADP	IN	_	33	case	_	_
+31	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	explanatory	explanatory	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	manner	manner	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	28	punct	_	_
+35	“	"	PUNCT	``	_	38	punct	_	SpaceAfter=No
+36	as	as	SCONJ	IN	_	38	mark	_	_
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	38	expl	_	_
+38	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+39	there	there	PRON	EX	_	40	expl	_	_
+40	drawd	draw	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	conj	_	_
+41	too	too	ADV	RB	_	42	advmod	_	_
+42	architectooralooral	architectooralooral	ADJ	JJ	Degree=Pos	40	advmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	27	punct	_	SpaceAfter=No
+44	”	"	PUNCT	''	_	27	punct	_	SpacesAfter=\n
+

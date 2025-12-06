@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = And then, Phœbus was alive; she was sure of it, she had seen him.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	Phœbus	Phœbus	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	alive	alive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	6	punct	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	sure	sure	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = To her the fact of Phœbus being alive was everything.
+1	To	to	ADP	IN	_	2	case	_	_
+2	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	fact	fact	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	Phœbus	Phœbus	PROPN	NNP	Number=Sing	4	nmod	_	_
+7	being	be	AUX	VBG	VerbForm=Ger	8	cop	_	_
+8	alive	alive	ADJ	JJ	Degree=Pos	4	acl	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	everything	everything	PRON	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = After the series of fatal shocks which had overturned everything within her, she had found but one thing intact in her soul, one sentiment,—her love for the captain.
+1	After	after	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	series	series	NOUN	NN	Number=Sing	16	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	fatal	fatal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	shocks	shocks	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	overturned	overturn	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	everything	everything	PRON	NN	Number=Sing	9	obj	_	_
+11	within	within	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	one	one	NUM	CD	NumType=Card	20	nummod	_	_
+19	thing	thing	NOUN	NN	Number=Sing	20	compound	_	_
+20	intact	intact	NOUN	NN	Number=Sing	26	conj	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	soul	soul	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	one	one	NUM	CD	NumType=Card	26	nummod	_	_
+26	sentiment	sentiment	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+28	—	-	PUNCT	,	_	16	punct	_	SpaceAfter=No
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	love	love	NOUN	NN	Number=Sing	16	obj	_	_
+31	for	for	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	captain	captain	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 4
+# text = Love is like a tree; it sprouts forth of itself, sends its roots out deeply through our whole being, and often continues to flourish greenly over a heart in ruins.
+1	Love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	tree	tree	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	sprouts	sprout	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	forth	forth	ADV	RB	_	8	advmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	sends	send	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	roots	root	NOUN	NNS	Number=Plur	13	ccomp	_	_
+17	out	out	ADV	RB	_	16	advmod	_	_
+18	deeply	deeply	ADV	RB	_	16	advmod	_	_
+19	through	through	ADP	IN	_	22	case	_	_
+20	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	whole	whole	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	being	being	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	often	often	ADV	RB	_	26	advmod	_	_
+26	continues	continue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	flourish	flourish	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	greenly	greenly	ADV	RB	_	28	advmod	_	_
+30	over	over	ADP	IN	_	32	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	heart	heart	NOUN	NN	Number=Sing	28	obl	_	_
+33	in	in	ADP	IN	_	34	case	_	_
+34	ruins	ruin	NOUN	NNS	Number=Plur	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

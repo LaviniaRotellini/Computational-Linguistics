@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Of great talent,’ repeated Mrs. Micawber.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Of	of	ADP	IN	_	4	case	_	_
+3	great	great	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	talent	talent	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Micawber	Micawber	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘My family are of opinion, that, with a little interest, something might be done for a man of his ability in the Custom House.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	family	family	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	18	punct	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	interest	interest	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	something	something	PRON	NN	Number=Sing	18	nsubj:pass	_	_
+16	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	done	do	VERB	VBN	Tense=Past|VerbForm=Part	6	parataxis	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	man	man	NOUN	NN	Number=Sing	18	obl	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	ability	ability	NOUN	NN	Number=Sing	21	nmod	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	Custom	custom	PROPN	NNP	Number=Sing	28	compound	_	_
+28	House	House	PROPN	NNP	Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = The influence of my family being local, it is their wish that Mr. Micawber should go down to Plymouth.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	influence	influence	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	family	family	NOUN	NN	Number=Sing	2	nmod	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	7	cop	_	_
+7	local	local	ADJ	JJ	Degree=Pos	12	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nsubj	_	_
+12	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+15	Micawber	Micawber	PROPN	NNP	Number=Sing	14	flat	_	_
+16	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	go	go	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+18	down	down	ADV	RB	_	17	advmod	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	Plymouth	Plymouth	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = They think it indispensable that he should be upon the spot.’
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	indispensable	indispensable	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+9	upon	upon	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	spot	spot	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

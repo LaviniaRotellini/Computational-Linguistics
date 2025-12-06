@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Wake him?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Wake	wake	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Who’s a-goin’ to wake him?
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	goin	goin	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	2	punct	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	wake	wake	VERB	VB	VerbForm=Inf	2	advcl	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I shanna wake him wi’ lookin’ at him.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	shan	shan	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	na	to	PART	TO	Abbr=Yes	4	mark	_	_
+4	wake	wake	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	wi	wi	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	6	punct	_	_
+8	lookin	lookin	NOUN	NN	Number=Sing	5	flat	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	4	punct	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I hanna seen the lad this two hour—I’d welly forgot as he’d e’er growed up from a babby when’s feyther carried him.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	han	han	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	na	to	PART	TO	Abbr=Yes	4	mark	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	lad	lad	NOUN	NN	Number=Sing	4	obj	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	two	two	NUM	CD	NumType=Card	9	nummod	_	_
+9	hour	hour	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	—I	—i	PROPN	NNP	Number=Sing	11	compound	_	SpaceAfter=No
+11	’d	’d	PROPN	NNP	Number=Sing	6	appos	_	_
+12	welly	welly	ADV	RB	_	13	advmod	_	_
+13	forgot	forgot	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+16	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+17	e’er	e’er	X	GW	_	18	advmod	_	_
+18	growed	grow	VERB	VBN	Tense=Past|VerbForm=Part	26	xcomp	_	_
+19	up	up	ADP	RP	_	18	compound:prt	_	_
+20	from	from	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	babby	babby	NOUN	NN	Number=Sing	18	obl	_	_
+23	when	when	ADV	WRB	PronType=Int	26	mark	_	SpaceAfter=No
+24	’s	be	PART	POS	_	23	case	_	_
+25	feyther	feyther	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

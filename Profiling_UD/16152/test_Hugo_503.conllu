@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Meanwhile, their conversation grew more and more animated.
+1	Meanwhile	meanwhile	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	conversation	conversation	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	more	more	ADV	RBR	_	5	advmod	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	animated	animated	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The young lady appeared to be entreating the officer to ask nothing more of her.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	lady	lady	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	entreating	entreat	VERB	VBG	Tense=Pres|VerbForm=Part	4	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	officer	officer	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	ask	ask	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	nothing	nothing	PRON	NN	Number=Sing	13	nsubj	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	11	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Of all this Quasimodo could distinguish only the beautiful clasped hands, the smiles mingled with tears, the young girl’s glances directed to the stars, the eyes of the captain lowered ardently upon her.
+1	Of	of	ADV	RB	_	6	advmod	_	_
+2	all	all	ADV	RB	_	6	advmod	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	Quasimodo	Quasimodo	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	distinguish	distinguish	VERB	VB	VerbForm=Inf	0	root	_	_
+7	only	only	ADV	RB	_	11	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	beautiful	beautiful	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	clasped	clasp	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	hands	hand	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	smiles	smile	NOUN	NNS	Number=Plur	11	conj	_	_
+15	mingled	mingl	VERB	VBN	Tense=Past|VerbForm=Part	14	acl	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	tears	tear	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	6	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	young	young	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	girl	girl	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	glances	glance	NOUN	NNS	Number=Plur	6	appos	_	_
+24	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	stars	star	NOUN	NNS	Number=Plur	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	eyes	eye	NOUN	NNS	Number=Plur	6	obj	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	captain	captain	NOUN	NN	Number=Sing	30	nmod	_	_
+34	lowered	lower	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+35	ardently	ardently	ADV	RB	_	34	advmod	_	_
+36	upon	upon	ADP	IN	_	37	case	_	_
+37	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

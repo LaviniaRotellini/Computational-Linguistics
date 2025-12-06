@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The funnel, which was rather more than three fathoms in height, was buried more than eight feet in the wreck.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	funnel	funnel	NOUN	NN	Number=Sing	15	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	rather	rather	ADV	RB	_	7	advmod	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	2	acl:relcl	_	_
+8	than	than	ADP	IN	_	10	case	_	_
+9	three	three	NUM	CD	NumType=Card	10	nummod	_	_
+10	fathoms	fathom	NOUN	NNS	Number=Plur	7	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	height	height	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	more	more	ADJ	JJR	Degree=Cmp	19	advmod	_	_
+17	than	than	ADP	IN	_	16	fixed	_	_
+18	eight	eight	NUM	CD	NumType=Card	19	nummod	_	_
+19	feet	foot	NOUN	NNS	Number=Plur	15	obl	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	wreck	wreck	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = The water-level would fall about twelve feet.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	water	water	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	level	level	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	fall	fall	VERB	VB	VerbForm=Inf	0	root	_	_
+7	about	about	ADV	RB	_	8	advmod	_	_
+8	twelve	twelve	NUM	CD	NumType=Card	9	nummod	_	_
+9	feet	foot	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Thus the funnel descending with the falling tide would have four feet of room to spare, and would clear itself easily.
+1	Thus	thus	ADV	RB	_	10	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	funnel	funnel	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	descending	descend	VERB	VBG	VerbForm=Ger	3	acl	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	falling	falling	NOUN	NN	Number=Sing	8	compound	_	_
+8	tide	tide	NOUN	NN	Number=Sing	4	obl	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+11	four	four	NUM	CD	NumType=Card	12	nummod	_	_
+12	feet	foot	NOUN	NNS	Number=Plur	10	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	room	room	NOUN	NN	Number=Sing	12	nmod	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	spare	spare	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	clear	clear	VERB	VB	VerbForm=Inf	10	conj	_	_
+21	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
+22	easily	easily	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I say, do, Mr Poulter!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Mr	Mr	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Poulter	Poulter	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I’d give you my five-shilling piece if you’d let me keep the sword a week.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’d	’d	ADV	RB	_	3	advmod	_	_
+3	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+6	five	five	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	shilling	shilling	NOUN	NN	Number=Sing	9	compound	_	_
+9	piece	piece	NOUN	NN	Number=Sing	3	obj	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+13	let	let	VERB	VB	VerbForm=Inf	3	conj	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	sword	sword	NOUN	NN	Number=Sing	15	obj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	week	week	NOUN	NN	Number=Sing	15	obl:tmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Look here!” said Tom, reaching out the attractively large round of silver.
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	_
+2	here	here	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	reaching	reach	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	attractively	attractively	ADV	RB	_	12	advmod	_	_
+12	large	large	ADJ	JJ	Degree=Pos	8	obj	_	_
+13	round	round	ADP	IN	_	15	case	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	silver	silver	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The young dog calculated the effect as well as if he had been a philosopher.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	dog	dog	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	calculated	calculate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	effect	effect	NOUN	NN	Number=Sing	4	obj	_	_
+7	as	as	ADV	RB	_	4	advmod	_	_
+8	well	well	ADV	RB	Degree=Pos	7	fixed	_	_
+9	as	as	SCONJ	IN	_	15	mark	_	_
+10	if	if	SCONJ	IN	_	15	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	philosopher	philosopher	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay, but,” said Tom, whose mind was prone to see an opposition between statements that were really accordant,—“but there was a big flood once, when the Round Pool was made.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	but	but	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	11	nmod:poss	_	_
+11	mind	mind	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	prone	prone	ADJ	JJ	Degree=Pos	7	ccomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	see	see	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	opposition	opposition	NOUN	NN	Number=Sing	15	obj	_	_
+18	between	between	ADP	IN	_	19	case	_	_
+19	statements	statement	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	that	that	PRON	WDT	PronType=Rel	23	nsubj	_	_
+21	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	cop	_	_
+22	really	really	ADV	RB	_	23	advmod	_	_
+23	accordant	accordant	ADJ	JJ	Degree=Pos|Typo=Yes	19	acl:relcl	_	SpaceAfter=No
+24	,—“	,—“	PUNCT	.	_	23	punct	_	SpaceAfter=No
+25	but	but	CCONJ	CC	_	27	cc	_	_
+26	there	there	PRON	EX	_	27	expl	_	_
+27	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	big	big	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	flood	flood	NOUN	NN	Number=Sing	31	nsubj	_	_
+31	once	once	ADV	RB	NumType=Mult	27	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	27	punct	_	_
+33	when	when	ADV	WRB	PronType=Int	38	mark	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	Round	Round	PROPN	NNP	Number=Sing	36	compound	_	_
+36	Pool	Pool	PROPN	NNP	Number=Sing	38	nsubj:pass	_	_
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux:pass	_	_
+38	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = _I_ know there was, ’cause father says so.
+1	_I	_I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	3	punct	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	’	'	PUNCT	''	_	10	punct	_	SpaceAfter=No
+8	cause	cause	SCONJ	IN	_	10	mark	_	_
+9	father	father	NOUN	NN	Number=Sing	10	nsubj	_	_
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	so	so	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = And the sheep and cows all drowned, and the boats went all over the fields ever such a way.”
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	sheep	sheep	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	cows	cow	NOUN	NNS	Number=Plur	3	conj	_	_
+6	all	all	DET	DT	_	7	nsubj	_	_
+7	drowned	drown	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	boats	boat	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	all	all	ADV	RB	_	16	advmod	_	_
+14	over	over	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	fields	field	NOUN	NNS	Number=Plur	12	obl	_	_
+17	ever	ever	ADV	WRB	PronType=Int	12	advmod	_	_
+18	such	such	DET	PDT	_	20	det:predet	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	way	way	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

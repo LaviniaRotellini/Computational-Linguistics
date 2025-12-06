@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, Trotwood!’ she remonstrated, with a smile.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Trotwood	Trotwood	PROPN	NNP	Number=Sing	8	vocative	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	remonstrated	remonstrate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	smile	smile	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘Just your old headlong way!
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Just	just	ADV	RB	_	6	advmod	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+4	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	headlong	headlong	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	way	way	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = You might have been in earnest in striving to get on in the world, without being so very sudden with a timid, loving, inexperienced girl.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	earnest	earnest	ADJ	JJS	Degree=Sup	0	root	_	_
+7	in	in	SCONJ	IN	_	8	mark	_	_
+8	striving	strive	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	get	get	VERB	VB	VerbForm=Inf	8	advcl	_	_
+11	on	on	ADP	IN	_	10	compound:prt	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	world	world	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	without	without	SCONJ	IN	_	20	mark	_	_
+17	being	be	AUX	VBG	VerbForm=Ger	20	cop	_	_
+18	so	so	ADV	RB	_	20	advmod	_	_
+19	very	very	ADV	RB	_	20	advmod	_	_
+20	sudden	sudden	ADV	RB	_	6	advcl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	timid	timid	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	loving	loving	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	inexperienced	inexperienced	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	girl	girl	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Poor Dora!’
+1	Poor	poor	PROPN	NNP	Number=Sing	0	root	_	_
+2	Dora	Dora	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

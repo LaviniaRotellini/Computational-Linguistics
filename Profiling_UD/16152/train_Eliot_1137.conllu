@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why on earth have you been sending out invitations without telling me, Rosamond?
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	1	advmod	_	_
+3	on	on	ADP	IN	_	4	case	_	_
+4	earth	earth	NOUN	NN	Number=Sing	2	obl	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux	_	_
+8	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+9	out	out	ADP	RP	_	8	compound:prt	_	_
+10	invitations	invitation	NOUN	NNS	Number=Plur	8	obj	_	_
+11	without	without	SCONJ	IN	_	12	mark	_	_
+12	telling	tell	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	Rosamond	Rosamond	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I beg, I insist that you will not invite any one to this house.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	beg	beg	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	insist	insist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	invite	invite	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	any	any	DET	DT	_	12	det	_	_
+12	one	one	NOUN	NN	Number=Sing	10	obj	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	house	house	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I suppose you have been inviting others, and they have refused too.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	_
+6	inviting	invite	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+7	others	other	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	refused	refuse	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+13	too	too	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = She said nothing.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

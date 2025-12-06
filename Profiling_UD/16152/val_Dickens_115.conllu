@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, Miss Louisa—they always remind me of stutterings, and that’s another of my mistakes—of accidents upon the sea.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Louisa	Louisa	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	always	always	ADV	RB	_	9	advmod	_	_
+9	remind	remind	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	stutterings	stuttering	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	SpaceAfter=No
+16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	another	another	DET	DT	_	9	conj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	mistakes	mistake	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+22	of	of	ADP	IN	_	23	case	_	_
+23	accidents	accidents	NOUN	NNS	Number=Plur	5	nmod	_	_
+24	upon	upon	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	sea	sea	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = And I find (Mr. M’Choakumchild said) that in a given time a hundred thousand persons went to sea on long voyages, and only five hundred of them were drowned or burnt to death.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+6	M’	M's	PART	POS	_	8	mark	_	SpaceAfter=No
+7	Choakumchild	Choakumchild	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	punct	_	_
+10	that	that	PRON	WDT	PronType=Rel	33	nsubj	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	given	give	VERB	VBN	Tense=Past|VerbForm=Part	14	case	_	_
+14	time	time	NOUN	NN	Number=Sing	33	obl	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	hundred	hundred	NUM	CD	NumType=Card	17	nummod	_	_
+17	thousand	thousand	NUM	CD	NumType=Card	18	nummod	_	_
+18	persons	person	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	sea	sea	NOUN	NN	Number=Sing	19	obl	_	_
+22	on	on	ADP	IN	_	24	case	_	_
+23	long	long	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	voyages	voyage	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	and	and	CCONJ	CC	_	29	cc	_	_
+27	only	only	ADV	RB	_	28	advmod	_	_
+28	five	five	NUM	CD	NumType=Card	29	nummod	_	_
+29	hundred	hundred	NUM	CD	NumType=Card	14	conj	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	nmod	_	_
+32	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	cop	_	_
+33	drowned	drown	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+34	or	or	CCONJ	CC	_	35	cc	_	_
+35	burnt	burn	ADJ	JJ	Degree=Pos	33	conj	_	_
+36	to	to	ADP	IN	_	37	case	_	_
+37	death	death	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = What is the percentage?
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	percentage	percentage	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = And I said, Miss;’ here Sissy fairly sobbed as confessing with extreme contrition to her greatest error; ‘I said it was nothing.’
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Miss	miss	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+6	;’	;’	PUNCT	.	_	5	punct	_	_
+7	here	here	ADV	RB	PronType=Dem	5	advmod	_	_
+8	Sissy	Sissy	PROPN	NNP	Number=Sing	5	flat	_	_
+9	fairly	fairly	ADV	RB	_	10	advmod	_	_
+10	sobbed	sobbed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	as	as	SCONJ	IN	_	12	mark	_	_
+12	confessing	confess	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	extreme	extreme	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	contrition	contrition	NOUN	NN	Number=Sing	19	obl	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
+18	greatest	greatest	ADJ	JJS	Degree=Sup	19	amod	_	_
+19	error	error	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	3	punct	_	_
+21	‘	'	PUNCT	``	_	23	punct	_	SpaceAfter=No
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	nothing	nothing	PRON	NN	Number=Sing	23	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I am not angry, except with the ways of the world.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	except	except	ADP	IN	_	12	case	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	ways	way	NOUN	NNS	Number=Plur	7	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	world	world	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I do like to be spoken to as if I had common-sense.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+7	to	to	ADP	IN	_	6	obl	_	_
+8	as	as	SCONJ	IN	_	6	mark	_	_
+9	if	if	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+12	common	common	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	sense	sense	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I really often feel as if I could understand a little more than I ever hear even from young gentlemen who have been to college.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	really	really	ADV	RB	_	3	advmod	_	_
+3	often	often	ADV	RB	_	4	advmod	_	_
+4	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	as	as	SCONJ	IN	_	9	mark	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	understand	understand	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	obl:npmod	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	9	obj	_	_
+13	than	than	SCONJ	IN	_	16	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	ever	ever	ADV	RB	_	16	advmod	_	_
+16	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+17	even	even	ADV	RB	_	20	advmod	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	young	young	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	gentlemen	gentleman	NOUN	NNS	Number=Plur	16	obl	_	_
+21	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+22	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	cop	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	college	college	NOUN	NN	Number=Sing	20	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mary had recovered, and she spoke with a suppressed rippling under-current of laughter pleasant to hear.
+1	Mary	Mary	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	recovered	recovere	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	suppressed	suppress	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	rippling	rippling	NOUN	NN	Number=Sing	7	obl	_	_
+12	under	under	ADP	IN	_	14	case	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	current	current	ADJ	JJ	Degree=Pos	7	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	laughter	laughter	NOUN	NN	Number=Sing	17	compound	_	_
+17	pleasant	pleasant	ADJ	JJ	Degree=Pos	14	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	hear	hear	VERB	VB	VerbForm=Inf	17	acl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Thee dostna know?
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Thee	Thee	X	GW	_	3	compound	_	_
+3	dostna	dostna	X	FW	Foreign=Yes	4	appos	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nay; how’s thee to know?
+1	Nay	Nay	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	;	;	PUNCT	,	_	5	punct	_	_
+3	how	how	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+4	’s	be	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	thee	thee	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	know	know	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Th’ men ne’er know whether the floor’s cleaned or cat-licked.
+1	Th	th	PROPN	NNP	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+2	’	's	PART	POS	_	1	case	_	_
+3	men	man	NOUN	NNS	Number=Plur	5	compound	_	_
+4	ne	ne	NUM	CD	NumType=Card	3	nummod	_	SpaceAfter=No
+5	’er	’er	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+7	whether	whether	SCONJ	IN	_	9	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	floor	floor	NOUN	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	cleaned	clean	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+12	or	or	CCONJ	CC	_	15	cc	_	_
+13	cat	cat	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	licked	lick	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = But thee’lt know when thee gets thy parridge burnt, as it’s like enough to be when I’n gi’en o’er makin’ it.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	thee	thee	NUM	CD	NumType=Card	4	nsubj	_	SpaceAfter=No
+3	’lt	’lt	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	thee	thee	NUM	CD	NumType=Card	7	nsubj	_	_
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	thy	thy	PRON	PRP$	_	9	nmod:poss	_	_
+9	parridge	parridge	NOUN	NN	Number=Sing	7	obj	_	_
+10	burnt	burnt	ADJ	JJ	Degree=Pos	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	SpaceAfter=No
+14	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+15	like	like	SCONJ	IN	_	16	mark	_	_
+16	enough	enough	ADV	RB	_	14	advmod	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+21	’n	’n	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+22	gi	gi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	25	nmod:poss	_	SpaceAfter=No
+23	’en	’en	NUM	CD	NumType=Card	25	nummod	_	_
+24	o’er	o’er	NOUN	NN	Number=Sing	25	compound	_	_
+25	makin	makin	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	25	punct	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Thee’lt think thy mother war good for summat then.”
+1	Thee	Thee	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	’lt	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	thy	thy	PRON	PRP$	_	6	nmod:poss	_	_
+5	mother	mother	NOUN	NN	Number=Sing	6	compound	_	_
+6	war	war	NOUN	NN	Number=Sing	3	obj	_	_
+7	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	summat	summat	NOUN	NN	Number=Sing	7	obl	_	_
+10	then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

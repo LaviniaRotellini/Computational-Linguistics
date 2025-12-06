@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Sir,’ whispered Mrs. Sparsit, ‘my nerves are at present too much shaken, and my health is at present too much impaired, in your service, to admit of my doing more than taking refuge in tears.’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Sir	Sir	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	4	punct	_	_
+4	whispered	whisper	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Sparsit	Sparsit	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	nerves	nerve	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	present	present	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+14	too	too	ADV	RB	_	15	advmod	_	_
+15	much	much	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	shaken	shaken	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	23	punct	_	_
+18	and	and	CCONJ	CC	_	23	cc	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	health	health	NOUN	NN	Number=Sing	23	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	at	at	ADP	IN	_	23	case	_	_
+23	present	present	ADJ	JJ	Degree=Pos	4	conj	_	_
+24	too	too	ADV	RB	_	25	advmod	_	_
+25	much	much	ADV	RB	_	26	advmod	_	_
+26	impaired	impaired	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	service	service	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	4	punct	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	admit	admit	VERB	VB	VerbForm=Inf	4	advcl	_	_
+34	of	of	ADP	IN	_	33	obl	_	_
+35	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nsubj	_	_
+36	doing	do	VERB	VBG	VerbForm=Ger	33	advcl	_	_
+37	more	more	ADJ	JJR	Degree=Cmp	36	obj	_	_
+38	than	than	SCONJ	IN	_	39	mark	_	_
+39	taking	take	VERB	VBG	VerbForm=Ger	37	advcl	_	_
+40	refuge	refuge	NOUN	NN	Number=Sing	39	obj	_	_
+41	in	in	ADP	IN	_	42	case	_	_
+42	tears	tear	NOUN	NNS	Number=Plur	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+44	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = (Which she did.)
+1	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+2	Which	which	PRON	WDT	PronType=Int	4	obj	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	4	punct	_	SpacesAfter=\n
+

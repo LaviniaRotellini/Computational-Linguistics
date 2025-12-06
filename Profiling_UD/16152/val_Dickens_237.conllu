@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Humph!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Humph	Humph	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = thought Mrs. Sparsit, as she made a stately bend.
+1	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Mrs.	Mrs.	PROPN	NNP	Number=Sing	1	obj	_	_
+3	Sparsit	Sparsit	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	stately	stately	ADV	RB	_	10	advmod	_	_
+10	bend	bend	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = ‘Five and thirty, good-looking, good figure, good teeth, good voice, good breeding, well-dressed, dark hair, bold eyes.’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Five	five	NUM	CD	NumType=Card	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	thirty	thirty	NUM	CD	NumType=Card	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	good	good	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	looking	look	VERB	VBG	VerbForm=Ger	2	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	figure	figure	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	teeth	tooth	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	good	good	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	voice	voice	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	breeding	breeding	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	27	punct	_	_
+22	well	well	ADV	RB	Degree=Pos	24	advmod	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	27	amod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	dark	dark	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	hair	hair	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	2	punct	_	_
+29	bold	bold	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	eyes	eye	NOUN	NNS	Number=Plur	2	appos	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = All which Mrs.
+1	All	all	DET	DT	_	3	det:predet	_	_
+2	which	which	DET	WDT	PronType=Int	3	det	_	_
+3	Mrs.	Mrs.	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 5
+# text = Sparsit observed in her womanly way—like the Sultan who put his head in the pail of water—merely in dipping down and coming up again.
+1	Sparsit	Sparsit	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	observed	observ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	womanly	womanly	ADV	RB	_	6	advmod	_	_
+6	way	way	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+8	like	like	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Sultan	Sultan	PROPN	NNP	Number=Sing	2	obl	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	head	head	NOUN	NN	Number=Sing	12	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	pail	pail	NOUN	NN	Number=Sing	12	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	water	water	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+21	merely	merely	ADV	RB	_	23	advmod	_	_
+22	in	in	SCONJ	IN	_	23	mark	_	_
+23	dipping	dipping	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+24	down	down	ADV	RB	_	23	advmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	coming	come	VERB	VBG	VerbForm=Ger	23	conj	_	_
+27	up	up	ADV	RB	_	26	advmod	_	_
+28	again	again	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tolerably, for I had gone up the staircase in the dark, many a time.
+1	Tolerably	Tolerably	ADV	RB	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	16	punct	_	_
+3	for	for	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+7	up	up	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	staircase	staircase	NOUN	NN	Number=Sing	6	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	dark	dark	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	many	many	DET	PDT	_	16	det:predet	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = I ascended it now, in lighter boots than of yore, and tapped in my old way at the door of Miss Havisham’s room.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ascended	ascend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	lighter	lighter	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	boots	boot	NOUN	NNS	Number=Plur	2	obl	_	_
+9	than	than	ADP	IN	_	11	case	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	yore	yore	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	tapped	tap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	old	old	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	way	way	NOUN	NN	Number=Sing	14	obl	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	door	door	NOUN	NN	Number=Sing	18	nmod	_	_
+22	of	of	ADP	IN	_	26	case	_	_
+23	Miss	miss	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Havisham	Havisham	PROPN	NNP	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	_
+26	room	room	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “Pip’s rap,” I heard her say, immediately; “come in, Pip.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Pip	Pip	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	rap	rap	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	parataxis	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	say	say	VERB	VB	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	immediately	immediately	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	8	punct	_	_
+14	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+16	in	in	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	Pip	Pip	PROPN	NNP	Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	15	punct	_	SpacesAfter=\n
+

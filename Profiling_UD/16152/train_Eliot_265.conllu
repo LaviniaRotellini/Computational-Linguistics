@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, suppose!” said Will Ladislaw, in a contemptuous undertone, intended to dismiss the subject.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	suppose	suppose	VERB	VB	Mood=Imp|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Will	will	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	contemptuous	contemptuous	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	undertone	undertone	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	dismiss	dismiss	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	subject	subject	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He was conscious of being irritated by ridiculously small causes, which were half of his own creation.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	conscious	conscious	ADJ	JJ	Degree=Pos	0	root	_	_
+4	of	of	SCONJ	IN	_	6	mark	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	6	aux:pass	_	_
+6	irritated	irritate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+7	by	by	ADP	IN	_	10	case	_	_
+8	ridiculously	ridiculously	ADV	RB	_	9	advmod	_	_
+9	small	small	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	causes	cause	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	half	half	NOUN	NN	Number=Sing	10	acl:relcl	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	creation	creation	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Why was he making any fuss about Mrs. Casaubon?
+1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	making	make	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	fuss	fuss	NOUN	NN	Number=Sing	4	obj	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Casaubon	Casaubon	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = And yet he felt as if something had happened to him with regard to her.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	yet	yet	ADV	RB	_	4	advmod	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	as	as	SCONJ	IN	_	9	mark	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	something	something	PRON	NN	Number=Sing	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	regard	regard	NOUN	NN	Number=Sing	9	obl	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = There are characters which are continually creating collisions and nodes for themselves in dramas which nobody is prepared to act with them.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	characters	character	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	continually	continually	ADV	RB	_	7	advmod	_	_
+7	creating	create	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+8	collisions	collision	NOUN	NNS	Number=Plur	7	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	nodes	node	NOUN	NNS	Number=Plur	8	conj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	dramas	drama	NOUN	NNS	Number=Plur	7	obl	_	_
+15	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+16	nobody	nobody	PRON	NN	Number=Sing	18	nsubj	_	_
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	prepared	prepared	ADJ	JJ	Degree=Pos	14	acl:relcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	act	act	VERB	VB	VerbForm=Inf	18	advcl	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Their susceptibilities will clash against objects that remain innocently quiet.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	susceptibilities	susceptibility	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	clash	clash	VERB	VB	VerbForm=Inf	0	root	_	_
+5	against	against	ADP	IN	_	6	case	_	_
+6	objects	object	NOUN	NNS	Number=Plur	4	obl	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	remain	remain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	innocently	innocently	ADV	RB	_	10	advmod	_	_
+10	quiet	quiet	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

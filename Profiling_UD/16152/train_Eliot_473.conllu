@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There’s nothing very surprising in the matter that I can see,” said Caleb Garth.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	surprising	surprising	ADJ	JJ	Degree=Pos	4	amod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	matter	matter	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	see	see	VERB	VB	VerbForm=Inf	9	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Caleb	Caleb	PROPN	NNP	Number=Sing	16	nsubj	_	_
+18	Garth	Garth	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “Anybody might have had more reason for wondering if the will had been what you might expect from an open-minded straightforward man.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Anybody	anybody	PRON	NN	Number=Sing	5	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	more	more	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	reason	reason	NOUN	NN	Number=Sing	5	obj	_	_
+8	for	for	SCONJ	IN	_	9	mark	_	_
+9	wondering	wonder	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+10	if	if	SCONJ	IN	_	15	mark	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	will	will	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+15	what	what	PRON	WP	PronType=Int	9	advcl	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	expect	expect	VERB	VB	VerbForm=Inf	15	acl:relcl	_	_
+19	from	from	ADP	IN	_	25	case	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+21	open	open	ADJ	JJ	Degree=Pos	23	amod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	minded	minded	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	straightforward	straightforward	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	man	man	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = For my part, I wish there was no such thing as a will.”
+1	For	for	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	part	part	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	there	there	PRON	EX	_	8	expl	_	_
+8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+9	no	no	DET	DT	_	11	det	_	_
+10	such	such	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	thing	thing	NOUN	NN	Number=Sing	8	nsubj	_	_
+12	as	as	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	will	will	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

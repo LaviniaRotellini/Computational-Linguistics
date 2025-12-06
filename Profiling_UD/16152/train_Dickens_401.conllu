@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Good day, sir,’ said my aunt, ‘and good-bye!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	day	day	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	sir	sir	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	aunt	aunt	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	good	good	ADJ	JJ	Degree=Pos	16	amod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	bye	bye	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Good day to you, too, ma’am,’ said my aunt, turning suddenly upon his sister.
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	day	day	NOUN	NN	Number=Sing	12	ccomp	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	too	too	ADV	RB	_	9	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	ma’	ma'	PUNCT	''	_	9	punct	_	SpaceAfter=No
+9	am	am	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	aunt	aunt	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	turning	turn	VERB	VBG	VerbForm=Ger	14	acl	_	_
+17	suddenly	suddenly	ADV	RB	_	16	advmod	_	_
+18	upon	upon	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	sister	sister	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = ‘Let me see you ride a donkey over my green again, and as sure as you have a head upon your shoulders, I’ll knock your bonnet off, and tread upon it!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	see	see	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nsubj	_	_
+6	ride	ride	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	donkey	donkey	NOUN	NN	Number=Sing	6	obj	_	_
+9	over	over	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	green	green	ADJ	JJ	Degree=Pos	6	obl	_	_
+12	again	again	ADV	RB	_	6	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	as	as	ADV	RB	_	16	advmod	_	_
+16	sure	sure	ADJ	JJ	Degree=Pos	2	conj	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	head	head	NOUN	NN	Number=Sing	19	obj	_	_
+22	upon	upon	ADP	IN	_	24	case	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	shoulders	shoulders	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	28	punct	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	SpaceAfter=No
+27	’ll	’ll	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	knock	knock	VERB	VB	VerbForm=Inf	2	conj	_	_
+29	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	bonnet	bonnet	NOUN	NN	Number=Sing	28	obj	_	_
+31	off	off	ADV	RB	_	28	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	tread	tread	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+35	upon	upon	ADP	IN	_	36	case	_	_
+36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obl	_	SpaceAfter=No
+37	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+38	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

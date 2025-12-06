@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Wednesday.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Wednesday	Wednesday	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = D. comparatively cheerful.
+1	D.	D.	ADV	RB	_	3	advmod	_	_
+2	comparatively	comparatively	ADV	RB	_	3	advmod	_	_
+3	cheerful	cheerful	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sang to her, as congenial melody, “Evening Bells”.
+1	Sang	Sang	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	as	as	SCONJ	IN	_	7	case	_	_
+6	congenial	congenial	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	melody	melody	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	Evening	even	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Bells	Bells	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Effect not soothing, but reverse.
+1	Effect	effect	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	soothing	soothing	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	but	but	CCONJ	CC	_	6	cc	_	_
+6	reverse	reverse	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = D. inexpressibly affected.
+1	D.	D.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	inexpressibly	inexpressibly	ADV	RB	_	3	advmod	_	_
+3	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Found sobbing afterwards, in own room.
+1	Found	found	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	sobbing	sobb	VERB	VBG	VerbForm=Ger	1	xcomp	_	_
+3	afterwards	afterwards	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	own	own	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	room	room	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Quoted verses respecting self and young Gazelle.
+1	Quoted	quote	VERB	VBN	Tense=Past|VerbForm=Part	2	amod	_	_
+2	verses	verse	NOUN	NNS	Number=Plur	0	root	_	_
+3	respecting	respect	VERB	VBG	VerbForm=Ger	2	acl	_	_
+4	self	self	NOUN	NN	Number=Sing	3	obj	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Gazelle	Gazelle	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ineffectually.
+1	Ineffectually	Ineffectually	ADV	RB	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Also referred to Patience on Monument.
+1	Also	also	ADV	RB	_	2	advmod	_	_
+2	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Patience	patience	NOUN	NN	Number=Sing	2	obl	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	Monument	Monument	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = (Qy.
+1	(	(	PUNCT	-LRB-	_	2	punct	_	SpaceAfter=No
+2	Qy	Qy	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Why on monument?
+1	Why	why	ADV	WRB	PronType=Int	0	root	_	_
+2	on	on	ADP	IN	_	3	case	_	_
+3	monument	monument	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 12
+# text = J. M.)
+1	J.	J.	PROPN	NNP	Number=Sing	0	root	_	_
+2	M.	M.	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	1	punct	_	SpacesAfter=\n
+

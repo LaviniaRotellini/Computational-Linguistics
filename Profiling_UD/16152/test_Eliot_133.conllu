@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, he was not at all angry; he was very friendly to me.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	not	not	PART	RB	_	9	advmod	_	_
+7	at	at	ADV	RB	_	9	case	_	_
+8	all	all	ADV	RB	_	9	advmod	_	_
+9	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	friendly	friendly	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = I was quite drawn out to speak to him; I hardly know how, for I had always thought of him as a worldly Sadducee.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	quite	quite	ADV	RB	_	4	advmod	_	_
+4	drawn	draw	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	out	out	ADV	RB	_	4	advmod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	speak	speak	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	hardly	hardly	ADV	RB	_	11	advmod	_	_
+13	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	how	how	ADV	WRB	PronType=Int	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	for	for	SCONJ	IN	_	20	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	always	always	ADV	RB	_	20	advmod	_	_
+20	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	as	as	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	worldly	worldly	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	Sadducee	Sadducee	PROPN	NNP	Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But his countenance is as pleasant as the morning sunshine.”
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	countenance	countenance	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	as	as	ADV	RB	_	6	advmod	_	_
+6	pleasant	pleasant	ADJ	JJ	Degree=Pos	0	root	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	morning	morning	NOUN	NN	Number=Sing	10	compound	_	_
+10	sunshine	sunshine	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

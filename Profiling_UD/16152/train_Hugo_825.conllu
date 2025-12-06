@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My heart says ‘yes,’ but my orders say ‘no.’
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+6	yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	4	punct	_	_
+9	but	but	CCONJ	CC	_	12	cc	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	orders	order	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+14	no	no	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = The matter is simple.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	matter	matter	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	simple	simple	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = They are changing our garrison; we have been at Melun, we are being transferred to Gaillon.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	changing	change	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	garrison	garrison	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	Melun	Melun	PROPN	NNP	Number=Sing	3	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj:pass	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	being	be	AUX	VBG	VerbForm=Ger	16	aux:pass	_	_
+16	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	Gaillon	Gaillon	PROPN	NNP	Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It is necessary to pass through Paris in order to get from the old post to the new one.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	pass	pass	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	through	through	ADP	IN	_	7	case	_	_
+7	Paris	Paris	PROPN	NNP	Number=Sing	5	obl	_	_
+8	in	in	ADP	IN	_	11	mark	_	_
+9	order	order	NOUN	NN	Number=Sing	8	fixed	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	get	get	VERB	VB	VerbForm=Inf	5	advcl	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	post	post	NOUN	NN	Number=Sing	11	obl	_	_
+16	to	to	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	new	new	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	one	one	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I said: ‘I am going to see my aunt.’”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	see	see	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

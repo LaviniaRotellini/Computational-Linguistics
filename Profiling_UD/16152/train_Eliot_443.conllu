@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Let me call some one else, sir,” said Mary, persuasively.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	12	ccomp	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	call	call	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	one	one	NUM	CD	NumType=Card	4	obj	_	_
+7	else	else	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	sir	sir	NOUN	NN	Number=Sing	4	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mary	Mary	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	persuasively	persuasively	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = She did not like her position—alone with the old man, who seemed to show a strange flaring of nervous energy which enabled him to speak again and again without falling into his usual cough; yet she desired not to push unnecessarily the contradiction which agitated him.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	position	position	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	alone	alone	ADV	RB	_	4	advmod	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	man	man	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+15	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	show	show	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	strange	strange	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	flaring	flaring	NOUN	NN	Number=Sing	17	obj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	nervous	nervous	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	energy	energy	NOUN	NN	Number=Sing	20	nmod	_	_
+24	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+25	enabled	enable	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	speak	speak	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+29	again	again	ADV	RB	_	28	advmod	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	again	again	ADV	RB	_	33	advmod	_	_
+32	without	without	SCONJ	IN	_	33	mark	_	_
+33	falling	falling	VERB	VBG	VerbForm=Ger	15	conj	_	_
+34	into	into	ADP	IN	_	37	case	_	_
+35	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+36	usual	usual	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	cough	cough	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+38	;	;	PUNCT	,	_	4	punct	_	_
+39	yet	yet	CCONJ	CC	_	41	cc	_	_
+40	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+41	desired	desire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+42	not	not	ADV	RB	_	44	advmod	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	push	push	VERB	VB	VerbForm=Inf	41	xcomp	_	_
+45	unnecessarily	unnecessarily	ADV	RB	_	44	advmod	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	47	det	_	_
+47	contradiction	contradiction	NOUN	NN	Number=Sing	44	obj	_	_
+48	which	which	PRON	WDT	PronType=Rel	49	nsubj	_	_
+49	agitated	agitate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	47	acl:relcl	_	_
+50	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = “Let me, pray, call some one else.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	pray	pray	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	one	one	NUM	CD	NumType=Card	7	obj	_	_
+10	else	else	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

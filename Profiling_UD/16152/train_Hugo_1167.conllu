@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius and Cosette were in the dark as to one another.
+1	Marius	Marius	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Cosette	Cosette	PROPN	NNP	Number=Sing	1	conj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	dark	dark	ADJ	JJ	Degree=Pos	0	root	_	_
+8	as	as	ADP	IN	_	10	case	_	_
+9	to	to	ADP	IN	_	8	fixed	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	another	another	DET	DT	_	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = They did not address each other, they did not salute each other, they did not know each other; they saw each other; and like stars of heaven which are separated by millions of leagues, they lived by gazing at each other.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	address	address	VERB	VB	VerbForm=Inf	0	root	_	_
+5	each	each	DET	DT	_	6	det	_	_
+6	other	other	ADJ	JJ	Degree=Pos	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	salute	salute	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+12	each	each	DET	DT	_	13	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+16	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	know	know	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+19	each	each	DET	DT	_	20	det	_	_
+20	other	other	ADJ	JJ	Degree=Pos	18	obj	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	4	punct	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+23	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+24	each	each	DET	DT	_	25	det	_	_
+25	other	other	ADJ	JJ	Degree=Pos	23	obj	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	4	punct	_	_
+27	and	and	CCONJ	CC	_	41	cc	_	_
+28	like	like	SCONJ	IN	_	41	mark	_	_
+29	stars	star	NOUN	NNS	Number=Plur	41	obl	_	_
+30	of	of	ADP	IN	_	31	case	_	_
+31	heaven	heaven	NOUN	NN	Number=Sing	29	nmod	_	_
+32	which	which	PRON	WDT	PronType=Rel	34	nsubj:pass	_	_
+33	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
+34	separated	separate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	acl:relcl	_	_
+35	by	by	ADP	IN	_	36	case	_	_
+36	millions	million	NOUN	NNS	Number=Plur	34	obl	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	leagues	leagu	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+41	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+42	by	by	SCONJ	IN	_	43	mark	_	_
+43	gazing	gaze	VERB	VBG	VerbForm=Ger	41	advcl	_	_
+44	at	at	ADP	IN	_	46	case	_	_
+45	each	each	DET	DT	_	46	det	_	_
+46	other	other	ADJ	JJ	Degree=Pos	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

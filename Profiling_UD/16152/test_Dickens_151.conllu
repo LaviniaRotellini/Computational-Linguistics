@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We went in at the door, which stood open, and into a gloomy room with a low ceiling, on the ground-floor at the back.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADV	RB	_	2	advmod	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	door	door	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+10	open	open	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	into	into	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	gloomy	gloomy	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	room	room	NOUN	NN	Number=Sing	9	conj	_	_
+17	with	with	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	low	low	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	ceiling	ceiling	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	9	punct	_	_
+22	on	on	ADP	IN	_	26	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+24	ground	ground	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	floor	floor	NOUN	NN	Number=Sing	9	obl	_	_
+27	at	at	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	back	back	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There was some company in the room, and Estella said to me as she joined it, “You are to go and stand there boy, till you are wanted.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	company	company	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	room	room	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	Estella	Estella	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	joined	join	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+20	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	go	go	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	stand	stand	VERB	VB	VerbForm=Inf	23	conj	_	_
+26	there	there	PRON	PRP$	_	27	nmod:poss	_	_
+27	boy	boy	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	till	till	SCONJ	IN	_	32	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj:pass	_	_
+31	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux:pass	_	_
+32	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = “There”, being the window, I crossed to it, and stood “there,” in a very uncomfortable state of mind, looking out.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	0	root	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	being	be	AUX	VBG	VerbForm=Ger	7	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	window	window	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	crossed	cross	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+16	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+17	there	there	ADV	RB	PronType=Dem	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	2	punct	_	_
+20	in	in	ADP	IN	_	24	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+22	very	very	ADV	RB	_	23	advmod	_	_
+23	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	state	state	NOUN	NN	Number=Sing	2	nmod	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	mind	mind	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	2	punct	_	_
+28	looking	look	VERB	VBG	VerbForm=Ger	2	acl	_	_
+29	out	out	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

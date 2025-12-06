@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The staircase led to a very vast edifice which resembled a shed which had been converted into a house.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	staircase	staircase	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	vast	vast	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	edifice	edifice	NOUN	NN	Number=Sing	3	obl	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	resembled	resemble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	shed	shed	NOUN	NN	Number=Sing	10	obj	_	_
+13	which	which	PRON	WDT	PronType=Rel	16	nsubj:pass	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	converted	convert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+17	into	into	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	house	house	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = This edifice had, for its intestinal tube, a long corridor, on which opened to right and left sorts of compartments of varied dimensions which were inhabitable under stress of circumstances, and rather more like stalls than cells.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	edifice	edifice	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	for	for	ADP	IN	_	8	case	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	intestinal	intestinal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	tube	tube	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	corridor	corridor	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+17	to	to	ADP	IN	_	21	case	_	_
+18	right	right	ADJ	JJ	Degree=Pos	21	amod	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	left	leave	ADJ	JJ	Degree=Pos	18	conj	_	_
+21	sorts	sort	NOUN	NNS	Number=Plur	16	obl	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	compartments	compartment	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	varied	varied	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	dimensions	dimension	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	which	which	PRON	WDT	PronType=Rel	29	nsubj	_	_
+28	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	cop	_	_
+29	inhabitable	inhabitable	ADJ	JJ	Degree=Pos	26	acl:relcl	_	_
+30	under	under	ADP	IN	_	31	case	_	_
+31	stress	stress	NOUN	NN	Number=Sing	29	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	circumstances	circumstance	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	41	punct	_	_
+35	and	and	CCONJ	CC	_	41	cc	_	_
+36	rather	rather	ADV	RB	_	41	cc	_	_
+37	more	more	ADV	RBR	_	39	advmod	_	_
+38	like	like	ADP	IN	_	39	case	_	_
+39	stalls	stall	NOUN	NNS	Number=Plur	36	obl	_	_
+40	than	than	ADP	IN	_	36	fixed	_	_
+41	cells	cell	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = These chambers received their light from the vague waste grounds in the neighborhood.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	chambers	chamber	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	light	light	NOUN	NN	Number=Sing	3	obj	_	_
+6	from	from	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	vague	vague	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	waste	waste	NOUN	NN	Number=Sing	10	compound	_	_
+10	grounds	grounds	NOUN	NNS	Number=Plur	3	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	neighborhood	neighborhood	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

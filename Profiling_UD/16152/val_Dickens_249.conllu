@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You are going to devote yourself, as I gather from what Mr. Bounderby has said, to the service of your country.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	devote	devote	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	as	as	SCONJ	IN	_	11	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	gather	gather	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	from	from	SCONJ	IN	_	13	case	_	_
+13	what	what	PRON	WP	PronType=Int	11	obl	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+15	Bounderby	Bounderby	PROPN	NNP	Number=Sing	14	flat	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	said	say	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	service	service	NOUN	NN	Number=Sing	17	obl	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	country	country	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = You have made up your mind,’ said Louisa, still standing before him where she had first stopped—in all the singular contrariety of her self-possession, and her being obviously very ill at ease—‘to show the nation the way out of all its difficulties.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mind	mind	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Louisa	Louisa	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	still	still	ADV	RB	_	13	advmod	_	_
+13	standing	stand	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+14	before	before	SCONJ	IN	_	15	case	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+16	where	where	ADV	WRB	PronType=Int	20	mark	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+19	first	first	ADV	RB	_	20	advmod	_	_
+20	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No
+21	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+22	in	in	ADP	IN	_	26	case	_	_
+23	all	all	DET	PDT	_	26	det:predet	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	singular	singular	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	contrariety	contrariety	NOUN	NN	Number=Sing	20	obl	_	_
+27	of	of	ADP	IN	_	31	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+29	self	self	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	possession	possession	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	38	punct	_	_
+33	and	and	CCONJ	CC	_	38	cc	_	_
+34	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nsubj	_	_
+35	being	be	AUX	VBG	VerbForm=Ger	38	cop	_	_
+36	obviously	obviously	ADV	RB	_	38	advmod	_	_
+37	very	very	ADV	RB	_	38	advmod	_	_
+38	ill	ill	ADJ	JJ	Degree=Pos	13	conj	_	_
+39	at	at	ADP	IN	_	40	case	_	_
+40	ease	ease	NOUN	NN	Number=Sing	38	obl	_	SpaceAfter=No
+41	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+42	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+43	to	to	PART	TO	_	44	mark	_	_
+44	show	show	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+46	nation	nation	NOUN	NN	Number=Sing	44	obj	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	way	way	NOUN	NN	Number=Sing	44	obj	_	_
+49	out	out	ADP	IN	_	53	case	_	_
+50	of	of	ADP	IN	_	53	case	_	_
+51	all	all	DET	DT	_	53	det:predet	_	_
+52	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
+53	difficulties	difficulty	NOUN	NNS	Number=Plur	48	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+55	’	'	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

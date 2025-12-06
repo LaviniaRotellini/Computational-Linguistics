@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He folded up the three bank-bills, thrust them into his pocket, and ran out in all haste; but he made a mistake and turned to the right first.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	folded	fold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	three	three	NUM	CD	NumType=Card	6	nummod	_	_
+6	bank	bank	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	bills	bill	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	thrust	thrust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	into	into	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	pocket	pocket	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	out	out	ADV	RB	_	17	advmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	all	all	DET	DT	_	21	det	_	_
+21	haste	haste	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	2	punct	_	_
+23	but	but	CCONJ	CC	_	25	cc	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	mistake	mistake	NOUN	NN	Number=Sing	25	obj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	conj	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	right	right	NOUN	NN	Number=Sing	33	obl	_	_
+33	first	first	ADV	RB	_	29	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Some neighbors, of whom he made inquiries, put him on the track again; the Lark and the man had been seen going in the direction of Livry.
+1	Some	some	DET	DT	_	2	det	_	_
+2	neighbors	neighbor	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	whom	whom	PRON	WP	PronType=Int	2	nmod	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+8	inquiries	inquiry	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	track	track	NOUN	NN	Number=Sing	10	obl	_	_
+15	again	again	ADV	RB	_	10	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	10	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Lark	Lark	NOUN	NN	Number=Sing	24	obj	_	_
+19	and	and	CCONJ	CC	_	24	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	man	man	NOUN	NN	Number=Sing	24	nsubj:pass	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+25	going	go	VERB	VBG	VerbForm=Ger	24	xcomp	_	_
+26	in	in	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	direction	direction	NOUN	NN	Number=Sing	25	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	Livry	Livry	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = He followed these hints, walking with great strides, and talking to himself the while:—
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	hints	hint	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	walking	walk	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	great	great	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	strides	stride	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	talking	talk	VERB	VBG	VerbForm=Ger	2	conj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	while	while	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+17	:—	:—	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

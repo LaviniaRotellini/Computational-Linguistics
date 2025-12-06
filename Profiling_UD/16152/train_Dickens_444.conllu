@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Jack Maldon was there, before us.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Jack	Jack	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Maldon	Maldon	PROPN	NNP	Number=Sing	1	flat	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	there	there	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	before	before	ADP	IN	_	8	case	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mrs. Strong, dressed in white, with cherry-coloured ribbons, was playing the piano, when we went in; and he was leaning over her to turn the leaves.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Strong	strong	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	dressed	dress	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	white	white	ADJ	JJ	Degree=Pos	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	with	with	ADP	IN	_	12	case	_	_
+9	cherry	cherry	NOUN	NN	Number=Sing	11	obl:npmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	coloured	colou	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	ribbons	ribbon	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	piano	piano	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+22	in	in	ADP	IN	_	21	compound:prt	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	4	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	leaning	lean	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+28	over	over	ADP	IN	_	29	case	_	_
+29	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	turn	turn	VERB	VB	VerbForm=Inf	27	advcl	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	leaves	leave	NOUN	NNS	Number=Plur	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The clear red and white of her complexion was not so blooming and flower-like as usual, I thought, when she turned round; but she looked very pretty, Wonderfully pretty.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	clear	clear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	red	red	ADJ	JJ	Degree=Pos	12	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	white	white	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	complexion	complexion	NOUN	NN	Number=Sing	3	nmod	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+10	not	not	PART	RB	_	12	advmod	_	_
+11	so	so	ADV	RB	_	12	advmod	_	_
+12	blooming	blooming	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	flower	flower	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+16	like	like	INTJ	UH	_	18	discourse	_	_
+17	as	as	ADP	IN	_	18	case	_	_
+18	usual	usual	ADJ	JJ	Degree=Pos	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	_
+26	round	round	ADP	RP	_	25	compound:prt	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	12	punct	_	_
+28	but	but	CCONJ	CC	_	30	cc	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+31	very	very	ADV	RB	_	32	advmod	_	_
+32	pretty	pretty	ADV	RB	_	30	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	30	punct	_	_
+34	Wonderfully	wonderfully	ADV	RB	_	35	advmod	_	_
+35	pretty	pretty	ADV	RB	_	30	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

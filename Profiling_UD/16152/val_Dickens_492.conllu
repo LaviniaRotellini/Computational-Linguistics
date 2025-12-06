@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mrs.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mrs	Mrs	PROPN	NNPS	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Bounderby,’ said her husband, entering with a cool nod, ‘I don’t disturb you, I hope.
+1	Bounderby	Bounderby	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	husband	husband	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	entering	enter	VERB	VBG	VerbForm=Ger	4	ccomp	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	cool	cool	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	nod	nod	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	18	advmod	_	_
+18	disturb	disturb	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = This is an unseasonable hour, but here is a young woman who has been making statements which render my visit necessary.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	unseasonable	unseasonable	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	hour	hour	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	here	here	ADV	RB	PronType=Dem	5	conj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	young	young	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	woman	woman	NOUN	NN	Number=Sing	8	nsubj	_	_
+13	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux	_	_
+16	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	_	_
+17	statements	statement	NOUN	NNS	Number=Plur	16	obj	_	_
+18	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	render	render	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	visit	visit	NOUN	NN	Number=Sing	19	obj	_	_
+22	necessary	necessary	ADJ	JJ	Degree=Pos	19	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Tom Gradgrind, as your son, young Tom, refuses for some obstinate reason or other to say anything at all about those statements, good or bad, I am obliged to confront her with your daughter.’
+1	Tom	Tom	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	as	as	SCONJ	IN	_	11	mark	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	son	son	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	young	young	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Tom	Tom	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	refuses	refuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	some	some	DET	DT	_	15	det	_	_
+14	obstinate	obstinate	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	reason	reason	NOUN	NN	Number=Sing	19	obl	_	_
+16	or	or	CCONJ	CC	_	19	cc	_	_
+17	other	other	ADJ	JJ	Degree=Pos	19	nsubj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	say	say	VERB	VB	VerbForm=Inf	11	conj	_	_
+20	anything	anything	PRON	NN	Number=Sing	19	obj	_	_
+21	at	at	ADV	RB	_	22	case	_	_
+22	all	all	ADV	RB	_	20	nmod	_	_
+23	about	about	ADP	IN	_	25	case	_	_
+24	those	those	DET	DT	Number=Plur|PronType=Dem	25	det	_	_
+25	statements	statement	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	20	punct	_	_
+27	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+28	or	or	CCONJ	CC	_	29	cc	_	_
+29	bad	bad	ADJ	JJ	Degree=Pos	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	11	punct	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj:pass	_	_
+32	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
+33	obliged	obliged	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	confro	confro	VERB	VB	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	nt	not	PART	RB	_	35	advmod	_	_
+37	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+38	with	with	ADP	IN	_	40	case	_	_
+39	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+40	daughter	daughter	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+42	’	'	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

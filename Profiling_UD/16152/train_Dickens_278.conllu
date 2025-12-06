@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Little Em’ly didn’t care a bit.
+1	Little	little	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Em	they	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+3	’ly	’ly	ADV	RB	_	6	advmod	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	bit	bit	NOUN	NN	Number=Sing	6	obl:npmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = She saw me well enough; but instead of turning round and calling after me, ran away laughing.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	enough	enough	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	2	punct	_	_
+7	but	but	CCONJ	CC	_	17	cc	_	_
+8	instead	instead	ADV	RB	_	10	mark	_	_
+9	of	of	SCONJ	IN	_	10	mark	_	_
+10	turning	turning	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+11	round	round	ADV	RB	_	10	advmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	calling	call	VERB	VBG	VerbForm=Ger	10	conj	_	_
+14	after	after	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	away	away	ADV	RB	_	19	advmod	_	_
+19	laughing	laugh	VERB	VBG	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = This obliged me to run after her, and she ran so fast that we were very near the cottage before I caught her.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	obliged	oblige	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	run	run	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	after	after	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	fast	fast	ADV	RB	Degree=Pos	11	advmod	_	_
+14	that	that	SCONJ	IN	_	20	mark	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	_
+17	very	very	ADV	RB	_	20	advmod	_	_
+18	near	near	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	cottage	cottage	NOUN	NN	Number=Sing	11	ccomp	_	_
+21	before	before	SCONJ	IN	_	23	mark	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

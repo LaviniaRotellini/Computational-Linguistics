@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This passage, zigzag in form as the forked lightning, was of about the same width in all parts.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	passage	passage	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	zigzag	zigzag	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	form	form	NOUN	NN	Number=Sing	4	obl	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	forked	fork	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	lightning	lightning	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+13	of	of	ADP	IN	_	17	case	_	_
+14	about	about	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	same	same	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	width	width	NOUN	NN	Number=Sing	4	conj	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	all	all	DET	DT	_	20	det	_	_
+20	parts	part	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The ocean had so fashioned it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	ocean	ocean	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	fashioned	fashion	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Its eternal commotion produces sometimes those singular regularities.
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+2	eternal	eternal	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	commotion	commotion	NOUN	NN	Number=Sing	4	compound	_	_
+4	produces	produces	NOUN	NNS	Number=Plur	0	root	_	_
+5	sometimes	sometimes	ADV	RB	_	8	advmod	_	_
+6	those	those	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+7	singular	singular	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	regularities	regularity	NOUN	NNS	Number=Plur	4	appos	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = There is a sort of geometry in the action of the sea.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	sort	sort	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	geometry	geometry	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	action	action	NOUN	NN	Number=Sing	6	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	sea	sea	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

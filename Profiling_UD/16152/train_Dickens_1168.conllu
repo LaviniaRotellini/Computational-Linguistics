@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘They would often put their children--particular their little girls,’ said Mr. Peggotty, ‘upon my knee; and many a time you might have seen me sitting at their doors, when night was coming in, a’most as if they’d been my Darling’s children.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	often	often	ADV	RB	_	5	advmod	_	_
+5	put	put	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	children	child	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	particular	particular	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	girls	girl	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	Peggotty	Peggotty	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+20	upon	upon	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	knee	knee	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	15	punct	_	_
+24	and	and	CCONJ	CC	_	31	cc	_	_
+25	many	many	DET	PDT	_	27	det:predet	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	time	time	NOUN	NN	Number=Sing	31	obl	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+29	might	might	AUX	MD	VerbForm=Fin	31	aux	_	_
+30	have	have	AUX	VB	VerbForm=Inf	31	aux	_	_
+31	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	15	conj	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+33	sitting	sit	VERB	VBG	VerbForm=Ger	31	ccomp	_	_
+34	at	at	ADP	IN	_	36	case	_	_
+35	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	doors	door	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	33	punct	_	_
+38	when	when	ADV	WRB	PronType=Int	41	mark	_	_
+39	night	night	NOUN	NN	Number=Sing	41	nsubj	_	_
+40	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	aux	_	_
+41	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	33	advcl	_	_
+42	in	in	ADV	RB	_	41	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	41	punct	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	SpaceAfter=No
+45	’	'	PUNCT	''	_	46	punct	_	SpaceAfter=No
+46	most	most	ADV	RBS	_	41	advmod	_	_
+47	as	as	SCONJ	IN	_	50	mark	_	_
+48	if	if	SCONJ	IN	_	50	mark	_	_
+49	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	SpaceAfter=No
+50	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	55	advcl	_	_
+51	been	be	AUX	VBN	Tense=Past|VerbForm=Part	55	cop	_	_
+52	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
+53	Darling	Darling	NOUN	NN	Number=Sing	55	nmod:poss	_	SpaceAfter=No
+54	’s	's	PART	POS	_	53	case	_	_
+55	children	child	NOUN	NNS	Number=Plur	33	conj	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = Oh, my Darling!’
+1	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	Darling	Darling	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

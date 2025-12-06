@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Éponine and Azelma did not look at Cosette.
+1	Éponine	Éponine	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Azelma	Azelma	PROPN	NNP	Number=Sing	1	conj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	Cosette	Cosette	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = She was the same as a dog to them.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	same	same	ADJ	JJ	Degree=Pos	0	root	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	dog	dog	NOUN	NN	Number=Sing	4	obl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = These three little girls did not yet reckon up four and twenty years between them, but they already represented the whole society of man; envy on the one side, disdain on the other.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+2	three	three	NUM	CD	NumType=Card	4	nummod	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	girls	girl	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	not	not	PART	RB	_	8	advmod	_	_
+7	yet	yet	ADV	RB	_	8	advmod	_	_
+8	reckon	reckon	VERB	VB	VerbForm=Inf	0	root	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	four	four	NUM	CD	NumType=Card	13	nummod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	twenty	twenty	NUM	CD	NumType=Card	13	nummod	_	_
+13	years	year	NOUN	NNS	Number=Plur	8	obl	_	_
+14	between	between	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19	already	already	ADV	RB	_	20	advmod	_	_
+20	represented	represent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	whole	whole	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	society	society	NOUN	NN	Number=Sing	20	obj	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	man	man	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	8	punct	_	_
+27	envy	envy	NOUN	NN	Number=Sing	8	conj	_	_
+28	on	on	ADP	IN	_	31	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	one	one	NUM	CD	NumType=Card	31	nummod	_	_
+31	side	side	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	27	punct	_	_
+33	disdain	disdain	NOUN	NN	Number=Sing	27	appos	_	_
+34	on	on	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	other	other	ADJ	JJ	Degree=Pos	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

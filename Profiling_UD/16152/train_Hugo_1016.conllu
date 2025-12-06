@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He shuddered.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	shuddered	shudder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Everything depended on him.
+1	Everything	everything	PRON	NN	Number=Sing	2	nsubj	_	_
+2	depended	depend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Unknown to themselves, he held in his hand all those beings who were moving about there before his eyes.
+1	Unknown	unkny	ADV	RB	_	6	advmod	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	hand	hand	NOUN	NN	Number=Sing	6	obl	_	_
+10	all	all	DET	PDT	_	12	det:predet	_	_
+11	those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+12	beings	being	NOUN	NNS	Number=Plur	9	appos	_	_
+13	who	who	PRON	WP	PronType=Rel	15	nsubj	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	12	acl:relcl	_	_
+16	about	about	ADV	RB	_	17	advmod	_	_
+17	there	there	ADV	RB	PronType=Dem	15	advmod	_	_
+18	before	before	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	eyes	eye	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = If he fired his pistol, M. Leblanc was saved, and Thénardier lost; if he did not fire, M. Leblanc would be sacrificed, and, who knows?
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	fired	fire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	pistol	pistol	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	M.	M.	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Leblanc	Leblanc	PROPN	NNP	Number=Sing	10	nsubj:pass	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	saved	save	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	31	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	Thénardier	Thénardier	ADV	RBR	Degree=Cmp	14	advmod	_	_
+14	lost	lose	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	10	punct	_	_
+16	if	if	SCONJ	IN	_	20	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	fire	fire	VERB	VB	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	M.	M.	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Leblanc	Leblanc	PROPN	NNP	Number=Sing	26	nsubj:pass	_	_
+24	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	26	aux:pass	_	_
+26	sacrificed	sacrifice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	and	and	CCONJ	CC	_	31	cc	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+31	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+32	?	?	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 5
+# text = Thénardier would escape.
+1	Thénardier	Thénardier	ADV	RBR	Degree=Cmp	3	advmod	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	escape	escape	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Should he dash down the one or allow the other to fall?
+1	Should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	dash	dash	VERB	VB	VerbForm=Inf	0	root	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	one	one	NOUN	NN	Number=Sing	3	obj	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	allow	allow	VERB	VB	VerbForm=Inf	3	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	8	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	fall	fall	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Remorse awaited him in either case.
+1	Remorse	Remorse	PRON	DT	Number=Plur|PronType=Dem	2	nsubj	_	_
+2	awaited	await	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	either	either	DET	DT	_	6	det	_	_
+6	case	case	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “She never will say so; and a good while ago she made me promise not to speak to her about it again.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	never	never	ADV	RB	_	5	advmod	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+6	so	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	5	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	good	good	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	while	while	NOUN	NN	Number=Sing	12	obl:npmod	_	_
+12	ago	ago	ADV	RB	_	14	advmod	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	promise	promise	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+17	not	not	ADV	RB	_	19	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	speak	speak	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	about	about	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+24	again	again	ADV	RB	_	19	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = And she has set her mind especially against my being a clergyman; I know that.
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	set	set	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mind	mind	NOUN	NN	Number=Sing	4	obj	_	_
+7	especially	especially	ADV	RB	_	4	advmod	_	_
+8	against	against	SCONJ	IN	_	12	mark	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nsubj	_	_
+10	being	be	AUX	VBG	VerbForm=Ger	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	clergyman	clergyman	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	4	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But I can’t give her up.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	up	up	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I do think she cares about me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I saw Mrs. Garth last night, and she said that Mary was staying at Lowick Rectory with Miss Farebrother.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Mrs.	Mrs.	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Garth	Garth	PROPN	NNP	Number=Sing	2	obj	_	_
+5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	night	night	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	Mary	Mary	PROPN	NNP	Number=Sing	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	staying	stay	VERB	VBG	Tense=Pres|VerbForm=Part	10	ccomp	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	Lowick	Lowick	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Rectory	Rectory	PROPN	NNP	Number=Sing	14	obl	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	Miss	miss	PROPN	NNP	Number=Sing	20	compound	_	_
+20	Farebrother	Farebrother	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

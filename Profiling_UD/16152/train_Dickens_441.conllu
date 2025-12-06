@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have been with him, going on four year, Master Copperfield,’ said Uriah; shutting up his book, after carefully marking the place where he had left off.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	going	go	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	four	four	NUM	CD	NumType=Card	11	nummod	_	_
+11	year	year	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	Master	master	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Copperfield	Copperfield	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Uriah	Uriah	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	17	punct	_	_
+20	shutting	shut	VERB	VBG	VerbForm=Ger	17	ccomp	_	_
+21	up	up	ADP	RP	_	20	compound:prt	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	book	book	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	20	punct	_	_
+25	after	after	SCONJ	IN	_	27	mark	_	_
+26	carefully	carefully	ADV	RB	_	27	advmod	_	_
+27	marking	mark	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	place	place	NOUN	NN	Number=Sing	27	obj	_	_
+30	where	where	ADV	WRB	PronType=Rel	33	advmod	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	_
+33	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+34	off	off	ADV	RB	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = ‘Since a year after my father’s death.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Since	since	ADP	IN	_	4	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	year	year	NOUN	NN	Number=Sing	0	root	_	_
+5	after	after	ADP	IN	_	9	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	father	father	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	death	death	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = How much have I to be thankful for, in that!
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	much	much	ADJ	JJ	Degree=Pos	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	thankful	thankful	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	7	case	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = How much have I to be thankful for, in Mr. Wickfield’s kind intention to give me my articles, which would otherwise not lay within the umble means of mother and self!’
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	much	much	ADJ	JJ	Degree=Pos	3	advmod	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	thankful	thankful	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	7	case	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	in	in	ADP	IN	_	15	case	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nmod:poss	_	_
+12	Wickfield	Wickfield	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	’s	's	PART	POS	_	11	case	_	_
+14	kind	kind	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	intention	intention	NOUN	NN	Number=Sing	7	obl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	give	give	VERB	VB	VerbForm=Inf	7	advcl	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	articles	article	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	which	which	PRON	WDT	PronType=Rel	26	nsubj	_	_
+23	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+24	otherwise	otherwise	ADV	RB	_	26	advmod	_	_
+25	not	not	PART	RB	_	26	advmod	_	_
+26	lay	lay	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+27	within	within	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	umble	umble	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	means	means	NOUN	NNS	Number=Plur	26	obl	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	mother	mother	NOUN	NN	Number=Sing	30	nmod	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	self	self	NOUN	NN	Number=Sing	32	conj	_	SpaceAfter=No
+35	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+36	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

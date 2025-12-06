@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He followed her with his eyes until she disappeared.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	eyes	eye	NOUN	NNS	Number=Plur	2	obl	_	_
+7	until	until	SCONJ	IN	_	9	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	disappeared	disappear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Then he started up and walked about the Luxembourg garden like a madman.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Luxembourg	Luxembourg	PROPN	NNP	Number=Sing	6	obl	_	_
+10	garden	garden	PROPN	NNP	Number=Sing	9	flat	_	_
+11	like	like	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	madman	madman	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It is possible that, at times, he laughed to himself and talked aloud.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	times	time	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	csubj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+15	aloud	aloud	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He was so dreamy when he came near the children’s nurses, that each one of them thought him in love with her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	dreamy	dreamy	NOUN	NN	Number=Sing	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+8	near	near	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	children	child	NOUN	NNS	Number=Plur	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	nurses	nurse	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	that	that	SCONJ	IN	_	19	mark	_	_
+15	each	each	DET	DT	_	16	det	_	_
+16	one	one	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	love	love	NOUN	NN	Number=Sing	19	obl	_	_
+23	with	with	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

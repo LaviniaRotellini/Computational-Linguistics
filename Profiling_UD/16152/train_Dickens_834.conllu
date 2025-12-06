@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, yes, you understand,’ said Mr. Omer, nodding his head.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Omer	Omer	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	nodding	nodd	VERB	VBG	VerbForm=Ger	10	xcomp	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	head	head	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = ‘We dursn’t do it.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	durs	durs	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	do	do	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Bless you, it would be a shock that the generality of parties mightn’t recover, to say “Omer and Joram’s compliments, and how do you find yourself this morning?”--or this afternoon--as it may be.’
+1	Bless	bless	SCONJ	IN	_	8	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	shock	shock	NOUN	NN	Number=Sing	0	root	_	_
+9	that	that	SCONJ	IN	_	16	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	generality	generality	NOUN	NN	Number=Sing	16	nsubj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	parties	party	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	might	might	AUX	MD	VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	recover	recover	VERB	VB	VerbForm=Inf	8	acl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	say	say	VERB	VB	VerbForm=Inf	16	conj	_	_
+20	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	Omer	Omer	PROPN	NNP	Number=Sing	25	compound	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	Joram	Joram	PROPN	NNP	Number=Sing	21	conj	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	compliments	compliment	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	how	how	ADV	WRB	PronType=Int	31	advmod	_	_
+29	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	find	find	VERB	VB	VerbForm=Inf	16	conj	_	_
+32	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	31	obj	_	_
+33	this	this	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	morning	morning	NOUN	NN	Number=Sing	31	obl:tmod	_	SpaceAfter=No
+35	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	8	punct	_	SpaceAfter=No
+37	--	--	PUNCT	,	_	8	punct	_	SpaceAfter=No
+38	or	or	CCONJ	CC	_	40	cc	_	_
+39	this	this	DET	DT	Number=Sing|PronType=Dem	40	det	_	_
+40	afternoon	afternoon	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+41	--	--	PUNCT	,	_	8	punct	_	SpaceAfter=No
+42	as	as	SCONJ	IN	_	45	mark	_	_
+43	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+44	may	may	AUX	MD	VerbForm=Fin	45	aux	_	_
+45	be	be	VERB	VB	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+47	’	'	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

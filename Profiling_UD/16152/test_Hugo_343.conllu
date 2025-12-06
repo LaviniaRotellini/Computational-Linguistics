@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Master Jacques,” he cried, “let fate take its course!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Master	master	NOUN	NN	Number=Sing	3	compound	_	_
+3	Jacques	Jacques	NOUN	NNS	Number=Plur	7	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	let	let	NOUN	NN	Number=Sing	11	compound	_	_
+11	fate	fate	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	take	take	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	course	course	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 2
+# text = The procurator wheeled round in affright; it seemed to him that pincers of iron had clutched his arm.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	procurator	procurator	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	wheeled	wheel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	round	round	ADV	RB	_	3	advmod	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	affright	affright	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	that	that	SCONJ	IN	_	17	mark	_	_
+13	pincers	pincer	NOUN	NNS	Number=Plur	17	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	iron	iron	NOUN	NN	Number=Sing	13	nmod	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	clutched	clutch	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	arm	arm	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The priest’s eye was staring, wild, flaming, and remained riveted on the horrible little group of the spider and the fly.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	priest	priest	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	eye	eye	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	wild	wild	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	flaming	flam	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	riveted	rivet	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	_
+15	on	on	ADP	IN	_	19	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+17	horrible	horrible	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	little	little	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	group	group	NOUN	NN	Number=Sing	14	obl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	spider	spider	NOUN	NN	Number=Sing	19	nmod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	fly	fly	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

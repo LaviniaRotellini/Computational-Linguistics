@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Fred has lost all his other expectations; he must keep this,” Mary said to herself, with a smile curling her lips.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Fred	Fred	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+5	all	all	DET	DT	_	8	det:predet	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	expectations	expectation	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	12	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	keep	keep	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	17	punct	_	_
+16	Mary	Mary	PROPN	NNP	Number=Sing	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	17	punct	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	smile	smile	NOUN	NN	Number=Sing	24	nsubj	_	_
+24	curling	curl	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	lips	lip	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = It was impossible to help fleeting visions of another kind—new dignities and an acknowledged value of which she had often felt the absence.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	help	help	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	fleeting	fleete	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	visions	vision	NOUN	NNS	Number=Plur	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	another	another	DET	DT	_	10	det	_	_
+10	kind	kind	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+12	new	new	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	dignities	dignity	NOUN	NNS	Number=Plur	3	appos	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	acknowledged	acknowledge	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	value	value	NOUN	NN	Number=Sing	13	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	which	which	PRON	WDT	PronType=Rel	23	obl	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	often	often	ADV	RB	_	23	advmod	_	_
+23	felt	feel	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	absence	absence	NOUN	NN	Number=Sing	23	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But these things with Fred outside them, Fred forsaken and looking sad for the want of her, could never tempt her deliberate thought.
+1	But	but	CCONJ	CC	_	22	cc	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	things	thing	NOUN	NNS	Number=Plur	22	nsubj	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	Fred	Fred	PROPN	NNP	Number=Sing	22	obl	_	_
+6	outside	outside	ADV	RB	_	7	advmod	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	Fred	Fred	PROPN	NNP	Number=Sing	10	compound	_	_
+10	forsaken	forsake	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	looking	look	VERB	VBG	VerbForm=Ger	5	conj	_	_
+13	sad	sad	NOUN	NN	Number=Sing	12	obj	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	want	want	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	never	never	ADV	RB	_	22	advmod	_	_
+22	tempt	tempt	VERB	VB	VerbForm=Inf	0	root	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	deliberate	deliberate	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	thought	thought	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+

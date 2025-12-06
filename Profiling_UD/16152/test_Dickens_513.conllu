@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I was beginning to express my gratitude to my benefactor for the great liberality with which I was treated, when Mr. Jaggers stopped me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	beginning	begin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	express	express	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	gratitude	gratitude	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	benefactor	benefactor	NOUN	NN	Number=Sing	5	obl	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	great	great	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	liberality	liberality	NOUN	NN	Number=Sing	10	nmod	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	which	which	PRON	WDT	PronType=Rel	19	obl	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	3	punct	_	_
+21	when	when	ADV	WRB	PronType=Int	24	mark	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	24	nsubj	_	_
+23	Jaggers	Jaggers	PROPN	NNP	Number=Sing	22	flat	_	_
+24	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “I am not paid, Pip,” said he, coolly, “to carry your words to any one;” and then gathered up his coat-tails, as he had gathered up the subject, and stood frowning at his boots as if he suspected them of designs against him.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Pip	Pip	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	coolly	coolly	ADV	RB	_	17	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+16	to	to	PART	TO	_	17	mark	_	_
+17	carry	carry	VERB	VB	VerbForm=Inf	10	parataxis	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	words	word	NOUN	NNS	Number=Plur	17	obj	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	any	any	DET	DT	_	22	det	_	_
+22	one	one	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	17	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	then	then	ADV	RB	PronType=Dem	27	advmod	_	_
+27	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+28	up	up	ADP	RP	_	27	compound:prt	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+30	coat	coat	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+31	-tails	-tail	NOUN	NNS	Number=Plur	27	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	10	punct	_	_
+33	as	as	SCONJ	IN	_	36	mark	_	_
+34	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+35	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
+36	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+37	up	up	ADP	RP	_	36	compound:prt	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	subject	subject	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	42	punct	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+43	frowning	frowning	VERB	VBG	VerbForm=Ger	42	advcl	_	_
+44	at	at	ADP	IN	_	46	case	_	_
+45	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+46	boots	boot	NOUN	NNS	Number=Plur	43	obl	_	_
+47	as	as	SCONJ	IN	_	50	mark	_	_
+48	if	if	SCONJ	IN	_	50	mark	_	_
+49	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nsubj	_	_
+50	suspected	suspect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	advcl	_	_
+51	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	50	obj	_	_
+52	of	of	ADP	IN	_	53	case	_	_
+53	designs	design	NOUN	NNS	Number=Plur	50	obl	_	_
+54	against	against	ADP	IN	_	55	case	_	_
+55	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

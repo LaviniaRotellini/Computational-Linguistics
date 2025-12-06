@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The clerk introduced him into the commissary’s office.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	clerk	clerk	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	introduced	introduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	into	into	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	commissary	commissary	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	office	office	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = There stood a tall man behind a grating, leaning against a stove, and holding up with both hands the tails of a vast topcoat, with three collars.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	tall	tall	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	man	man	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	behind	behind	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	grating	grating	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	leaning	lean	VERB	VBG	VerbForm=Ger	2	conj	_	_
+11	against	against	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	stove	stove	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	holding	hold	VERB	VBG	VerbForm=Ger	2	conj	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	both	both	DET	DT	_	20	det	_	_
+20	hands	hand	NOUN	NNS	Number=Plur	22	obl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	tails	tail	NOUN	NNS	Number=Plur	16	obj	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	vast	vast	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	topcoat	topcoat	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	2	punct	_	_
+28	with	with	ADP	IN	_	30	case	_	_
+29	three	three	NUM	CD	NumType=Card	30	nummod	_	_
+30	collars	collar	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = His face was square, with a thin, firm mouth, thick, gray, and very ferocious whiskers, and a look that was enough to turn your pockets inside out.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	square	square	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	with	with	ADP	IN	_	11	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	thin	thing	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	firm	firm	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	mouth	mouth	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	thick	thick	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	gray	gray	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	very	very	ADV	RB	_	19	advmod	_	_
+19	ferocious	ferocious	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	whiskers	whisker	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	look	look	NOUN	NN	Number=Sing	4	conj	_	_
+25	that	that	PRON	WDT	PronType=Rel	27	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+27	enough	enough	ADJ	JJ	Degree=Pos	24	acl:relcl	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	turn	turn	VERB	VB	VerbForm=Inf	27	advcl	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	pockets	pocket	NOUN	NNS	Number=Plur	29	obj	_	_
+32	inside	inside	ADV	RB	_	33	advmod	_	_
+33	out	out	ADV	RB	_	29	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Of that glance it might have been well said, not that it penetrated, but that it searched.
+1	Of	of	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	glance	glance	NOUN	NN	Number=Sing	9	obl	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+5	might	might	AUX	MD	VerbForm=Fin	9	aux	_	_
+6	have	have	AUX	VB	VerbForm=Inf	9	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	well	well	ADV	RB	Degree=Pos	9	advmod	_	_
+9	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	not	not	PART	RB	_	14	advmod	_	_
+12	that	that	SCONJ	IN	_	14	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	penetrated	penetrate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	that	that	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	searched	search	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

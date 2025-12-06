@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Glegg walked across the room to the small book-case, and took down Baxter’s “Saints’ Everlasting Rest,” which she carried with her up-stairs.
+1	Glegg	Glegg	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	across	across	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	room	room	NOUN	NN	Number=Sing	2	obl	_	_
+6	to	to	ADP	IN	_	11	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+8	small	small	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	book	book	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	case	case	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	down	down	ADP	RP	_	14	compound:prt	_	_
+16	Baxter	Baxter	PROPN	NNP	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	Saints	Saints	PROPN	NNPS	Number=Plur	14	obj	_	SpaceAfter=No
+20	’	's	PUNCT	''	_	19	punct	_	_
+21	Everlasting	Everlasting	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Rest	rest	PROPN	NNP	Number=Sing	19	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	2	punct	_	_
+25	which	which	PRON	WDT	PronType=Rel	27	obj	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+28	with	with	ADP	IN	_	32	case	_	_
+29	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	up	up	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+32	stairs	stair	NOUN	NNS	Number=Plur	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It was the book she was accustomed to lay open before her on special occasions,—on wet Sunday mornings, or when she heard of a death in the family, or when, as in this case, her quarrel with Mr Glegg had been set an octave higher than usual.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	book	book	NOUN	NN	Number=Sing	0	root	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	accustomed	accustom	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	lay	lay	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	open	open	ADJ	JJ	Degree=Pos	9	obj	_	_
+11	before	before	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	obl	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	special	special	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	occasions	occasion	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+16	,—	,—	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	on	on	ADP	IN	_	20	case	_	_
+18	wet	wet	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	Sunday	Sunday	PROPN	NNP	Number=Sing	20	compound	_	_
+20	mornings	morning	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	or	or	CCONJ	CC	_	25	cc	_	_
+23	when	when	ADV	WRB	PronType=Int	25	mark	_	_
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	death	death	NOUN	NN	Number=Sing	25	obl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	family	family	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	or	or	CCONJ	CC	_	34	cc	_	_
+34	when	when	ADV	WRB	PronType=Int	48	mark	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	_
+36	as	as	SCONJ	IN	_	48	mark	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	this	this	DET	DT	Number=Sing|PronType=Dem	39	det	_	_
+39	case	case	NOUN	NN	Number=Sing	36	fixed	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	48	punct	_	_
+41	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	quarrel	quarrel	NOUN	NN	Number=Sing	48	nsubj:pass	_	_
+43	with	with	ADP	IN	_	44	case	_	_
+44	Mr	Mr	PROPN	NNP	Number=Sing	42	nmod	_	_
+45	Glegg	Glegg	PROPN	NNP	Number=Sing	44	flat	_	_
+46	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	48	aux	_	_
+47	been	be	AUX	VBN	Tense=Past|VerbForm=Part	48	aux:pass	_	_
+48	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	_
+49	an	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+50	octave	octave	AUX	VB	VerbForm=Inf	51	cop	_	_
+51	higher	higher	ADJ	JJR	Degree=Cmp	48	xcomp	_	_
+52	than	than	ADP	IN	_	53	case	_	_
+53	usual	usual	ADJ	JJ	Degree=Pos	51	obl	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	51	punct	_	SpacesAfter=\n
+

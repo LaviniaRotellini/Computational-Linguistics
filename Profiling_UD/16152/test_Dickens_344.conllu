@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Pocket got his hands in his hair again, and this time really did lift himself some inches out of his chair.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Pocket	pocket	PROPN	NNP	Number=Sing	1	flat	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	hands	hand	NOUN	NNS	Number=Plur	3	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hair	hair	NOUN	NN	Number=Sing	3	obl	_	_
+9	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	time	time	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	really	really	ADV	RB	_	16	advmod	_	_
+15	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	lift	lift	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	inches	inch	NOUN	NNS	Number=Plur	16	obj	_	_
+20	out	out	ADP	IN	_	23	case	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	chair	chair	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Hear this!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hear	hear	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = he helplessly exclaimed to the elements.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	helplessly	helplessly	ADV	RB	_	3	advmod	_	_
+3	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	elements	element	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = “Babies are to be nut-crackered dead, for people’s poor grandpapa’s positions!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Babies	baby	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	nut	nut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	SpaceAfter=No
+7	-	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+8	crackered	cracker	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	_	_
+9	dead	dead	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	for	for	ADP	IN	_	17	case	_	_
+12	people	people	NOUN	NNS	Number=Plur	17	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	poor	poor	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	grandpapa	grandpapa	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	positions	position	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 5
+# text = Then he let himself down again, and became silent.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	let	let	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	down	down	ADP	RP	_	3	compound:prt	_	_
+6	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	silent	silent	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

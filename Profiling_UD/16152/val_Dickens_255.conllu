@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He could do no less than ask Tom up; and Tom could do no less than go up.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	less	less	ADV	RBR	Degree=Cmp	7	advmod	_	_
+6	than	than	SCONJ	IN	_	7	mark	_	_
+7	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	3	advcl	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	7	obj	_	_
+9	up	up	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	18	punct	_	_
+11	and	and	CCONJ	CC	_	18	cc	_	_
+12	Tom	Tom	PROPN	NNP	Number=Sing	18	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	18	aux	_	_
+14	do	do	AUX	VB	VerbForm=Inf	18	aux	_	_
+15	no	no	ADV	RB	_	16	advmod	_	_
+16	less	less	ADJ	JJR	Degree=Cmp	18	advmod	_	_
+17	than	than	SCONJ	IN	_	16	fixed	_	_
+18	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	3	conj	_	_
+19	up	up	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = What with a cooling drink adapted to the weather, but not so weak as cool; and what with a rarer tobacco than was to be bought in those parts; Tom was soon in a highly free and easy state at his end of the sofa, and more than ever disposed to admire his new friend at the other end.
+1	What	what	PRON	WP	PronType=Int	25	nsubj	_	_
+2	with	with	ADP	IN	_	5	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	cooling	cooling	NOUN	NN	Number=Sing	5	compound	_	_
+5	drink	drink	NOUN	NN	Number=Sing	1	nmod	_	_
+6	adapted	adapt	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	weather	weather	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	not	not	ADV	RB	_	14	advmod	_	_
+13	so	so	ADV	RB	_	14	advmod	_	_
+14	weak	weak	ADJ	JJ	Degree=Pos	1	conj	_	_
+15	as	as	ADP	IN	_	16	case	_	_
+16	cool	cool	ADJ	JJ	Degree=Pos	14	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	1	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	what	what	PRON	WP	PronType=Int	25	nsubj	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	rarer	rarer	NOUN	NN	Number=Sing	23	compound	_	_
+23	tobacco	tobacco	NOUN	NN	Number=Sing	19	obl	_	_
+24	than	than	ADP	IN	_	25	case	_	_
+25	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+26	to	to	PART	TO	_	28	mark	_	_
+27	be	be	AUX	VB	VerbForm=Inf	28	aux:pass	_	_
+28	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	those	those	DET	DT	Number=Plur|PronType=Dem	31	det	_	_
+31	parts	part	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+32	;	;	PUNCT	,	_	25	punct	_	_
+33	Tom	Tom	PROPN	NNP	Number=Sing	35	nsubj	_	_
+34	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	_
+35	soon	soon	ADV	RB	Degree=Pos	25	advmod	_	_
+36	in	in	ADP	IN	_	42	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+38	highly	highly	ADV	RB	_	39	advmod	_	_
+39	free	free	ADJ	JJ	Degree=Pos	42	amod	_	_
+40	and	and	CCONJ	CC	_	42	cc	_	_
+41	easy	easy	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	state	state	NOUN	NN	Number=Sing	35	obl	_	_
+43	at	at	ADP	IN	_	45	case	_	_
+44	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	end	end	NOUN	NN	Number=Sing	35	obl	_	_
+46	of	of	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	sofa	sofa	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	51	punct	_	_
+50	and	and	CCONJ	CC	_	51	cc	_	_
+51	more	more	ADJ	JJR	Degree=Cmp	25	conj	_	_
+52	than	than	SCONJ	IN	_	54	mark	_	_
+53	ever	ever	ADV	WRB	PronType=Int	54	advmod	_	_
+54	disposed	dispose	VERB	VBN	Tense=Past|VerbForm=Part	51	advcl	_	_
+55	to	to	PART	TO	_	56	mark	_	_
+56	admire	admire	VERB	VB	VerbForm=Inf	54	advcl	_	_
+57	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	59	nmod:poss	_	_
+58	new	new	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	friend	friend	NOUN	NN	Number=Sing	56	obj	_	_
+60	at	at	ADP	IN	_	63	case	_	_
+61	the	the	DET	DT	Definite=Def|PronType=Art	63	det	_	_
+62	other	other	ADJ	JJ	Degree=Pos	63	amod	_	_
+63	end	end	NOUN	NN	Number=Sing	56	obl	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n
+

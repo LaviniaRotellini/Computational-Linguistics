@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He accepted, from his sister’s stock of ready money, a small sum on account of his legacy; barely enough, I should have thought, to keep him for a month.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	from	from	ADP	IN	_	8	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	sister	sister	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	stock	stock	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	ready	ready	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	money	money	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	small	small	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	sum	sum	NOUN	NN	Number=Sing	2	obj	_	_
+16	on	on	ADP	IN	_	17	case	_	_
+17	account	account	NOUN	NN	Number=Sing	15	nmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	legacy	legacy	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	2	punct	_	_
+22	barely	barely	ADV	RB	_	23	advmod	_	_
+23	enough	enough	ADV	RB	_	2	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+26	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	have	have	AUX	VB	VerbForm=Inf	28	aux	_	_
+28	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	keep	keep	VERB	VB	VerbForm=Inf	28	advcl	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	for	for	ADP	IN	_	35	case	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	month	month	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He promised to communicate with me, when anything befell him; and he slung his bag about him, took his hat and stick, and bade us both ‘Good-bye!’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	promised	promise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	communicate	communicate	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+9	anything	anything	PRON	NN	Number=Sing	11	nsubj	_	_
+10	befell	befell	AUX	MD	VerbForm=Fin	11	cop	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	advcl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	slung	sling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	bag	bag	NOUN	NN	Number=Sing	15	obj	_	_
+18	about	about	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	hat	hat	NOUN	NN	Number=Sing	21	obj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	stick	stick	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	bade	bade	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	conj	_	_
+29	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	obj	_	_
+30	both	both	CCONJ	CC	_	34	cc:preconj	_	_
+31	‘	'	PUNCT	``	_	34	punct	_	SpaceAfter=No
+32	Good	good	ADJ	JJ	Degree=Pos	34	amod	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+34	bye	bye	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+35	!	!	PUNCT	.	_	34	punct	_	SpaceAfter=No
+36	’	'	PUNCT	''	_	34	punct	_	SpacesAfter=\n
+

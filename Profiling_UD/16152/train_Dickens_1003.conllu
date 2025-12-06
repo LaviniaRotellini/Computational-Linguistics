@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I want to talk to you so much!’ said I.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	talk	talk	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	much	much	ADV	RB	_	5	advmod	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = ‘It’s such a lightening of my heart, only to look at you!
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	such	such	DET	PDT	_	6	det:predet	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	lightening	lightening	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	heart	heart	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	only	only	ADV	RB	_	13	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	look	look	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = If I had had a conjuror’s cap, there is no one I should have wished for but you!’
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	conjuror	conjuror	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	cap	cap	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	there	there	PRON	EX	_	11	expl	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	no	no	DET	DT	_	13	det	_	_
+13	one	one	NOUN	NN	Number=Sing	11	nsubj	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+17	wished	wishe	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	for	for	ADP	IN	_	17	case	_	_
+19	but	but	CCONJ	CC	_	20	cc	_	_
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

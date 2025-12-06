@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Slowly she rose from amongst her scattered locks, and slowly she made her way downstairs.
+1	Slowly	slowly	ADV	RB	_	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	from	from	ADP	IN	_	8	case	_	_
+5	amongst	amongst	ADP	IN	_	8	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	scattered	scatter	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	locks	lock	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	slowly	slowly	ADV	RB	_	13	advmod	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	way	way	NOUN	NN	Number=Sing	13	obj	_	_
+16	downstairs	downstairs	ADV	RB	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Then she stood leaning with one shoulder against the frame of the dining-parlour door, peeping in when it was ajar.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	leaning	lean	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	one	one	NUM	CD	NumType=Card	7	nummod	_	_
+7	shoulder	shoulder	NOUN	NN	Number=Sing	4	obl	_	_
+8	against	against	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	frame	frame	NOUN	NN	Number=Sing	4	obl	_	_
+11	of	of	ADP	IN	_	16	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+13	dining	dining	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	parlour	parlour	NOUN	NN	Number=Sing	16	compound	_	_
+16	door	door	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	peeping	pee	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+19	in	in	ADP	IN	_	18	compound:prt	_	_
+20	when	when	ADV	WRB	PronType=Int	23	mark	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+23	ajar	ajar	ADJ	JJ	Degree=Pos	18	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = She saw Tom and Lucy with an empty chair between them, and there were the custards on a side-table; it was too much.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Tom	Tom	PROPN	NNP	Number=Sing	2	obj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Lucy	Lucy	PROPN	NNP	Number=Sing	3	conj	_	_
+6	with	with	ADP	IN	_	9	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	empty	empty	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	chair	chair	NOUN	NN	Number=Sing	2	obl	_	_
+10	between	between	ADP	IN	_	11	case	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	there	there	PRON	EX	_	15	expl	_	_
+15	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	custards	custard	NOUN	NNS	Number=Plur	15	nsubj	_	_
+18	on	on	ADP	IN	_	22	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+20	side	side	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	table	table	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	2	punct	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+26	too	too	ADV	RB	_	27	advmod	_	_
+27	much	much	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = She slipped in and went toward the empty chair.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	slipped	slip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	toward	toward	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	empty	empty	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	chair	chair	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = But she had no sooner sat down than she repented and wished herself back again.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	sooner	sooner	ADV	RBR	Degree=Cmp	6	advmod	_	_
+6	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	down	down	ADV	RB	_	6	advmod	_	_
+8	than	than	SCONJ	IN	_	10	mark	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	repented	repent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	wished	wishe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	back	back	ADV	RB	_	12	advmod	_	_
+15	again	again	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

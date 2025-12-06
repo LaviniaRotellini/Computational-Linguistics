@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You remember our last conversation about papa?
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	conversation	conversation	NOUN	NN	Number=Sing	3	obj	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	papa	papa	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It was not long after that--not more than two or three days--when he gave me the first intimation of what I tell you.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	long	long	ADJ	JJ	Degree=Pos	0	root	_	_
+5	after	after	ADP	IN	_	6	case	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+7	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	not	not	ADV	RB	_	9	advmod	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	11	advmod	_	_
+10	than	than	ADP	IN	_	9	fixed	_	_
+11	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	three	three	NUM	CD	NumType=Card	14	nummod	_	_
+14	days	day	NOUN	NNS	Number=Plur	4	obl:tmod	_	SpaceAfter=No
+15	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+16	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	22	amod	_	_
+22	intimation	intimation	NOUN	NN	Number=Sing	18	obj	_	_
+23	of	of	SCONJ	IN	_	24	case	_	_
+24	what	what	PRON	WP	PronType=Int	22	nmod	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = It was sad to see him struggling between his desire to represent it to me as a matter of choice on his part, and his inability to conceal that it was forced upon him.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	sad	sad	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	struggling	struggling	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+8	between	between	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	desire	desire	NOUN	NN	Number=Sing	7	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	represent	represent	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	matter	matter	NOUN	NN	Number=Sing	12	obl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	choice	choice	NOUN	NN	Number=Sing	18	nmod	_	_
+21	on	on	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	part	part	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	inability	inability	NOUN	NN	Number=Sing	20	conj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	conceal	conceal	VERB	VB	VerbForm=Inf	27	acl	_	_
+30	that	that	SCONJ	IN	_	33	mark	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj:pass	_	_
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	aux:pass	_	_
+33	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	ccomp	_	_
+34	upon	upon	ADP	IN	_	35	case	_	_
+35	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I felt very sorry.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	sorry	sorry	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

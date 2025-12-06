@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes,’ he said.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s right.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	right	right	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Quite right.
+1	Quite	quite	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	right	right	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I should have been extremely happy, Copperfield, to have limited these charges to the actual expenditure out of pocket, but it is an irksome incident in my professional life, that I am not at liberty to consult my own wishes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	extremely	extremely	ADV	RB	_	6	advmod	_	_
+6	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	Copperfield	Copperfield	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	limited	limit	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+13	these	these	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	charges	charge	NOUN	NNS	Number=Plur	12	obj	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	actual	actual	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	expenditure	expenditure	NOUN	NN	Number=Sing	12	obl	_	_
+19	out	out	ADP	IN	_	21	case	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	pocket	pocket	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	_	_
+23	but	but	CCONJ	CC	_	28	cc	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	irksome	irksome	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	incident	incident	NOUN	NN	Number=Sing	6	conj	_	_
+29	in	in	ADP	IN	_	32	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	professional	professional	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	life	life	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	6	punct	_	_
+34	that	that	SCONJ	IN	_	39	mark	_	_
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+36	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	cop	_	_
+37	not	not	PART	RB	_	39	advmod	_	_
+38	at	at	ADP	IN	_	39	case	_	_
+39	liberty	liberty	NOUN	NN	Number=Sing	6	parataxis	_	_
+40	to	to	PART	TO	_	41	mark	_	_
+41	consult	consult	VERB	VB	VerbForm=Inf	39	acl	_	_
+42	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+43	own	own	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	wishes	wish	NOUN	NNS	Number=Plur	41	obj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = I have a partner--Mr. Jorkins.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	partner	partner	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	4	appos	_	_
+7	Jorkins	Jorkins	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

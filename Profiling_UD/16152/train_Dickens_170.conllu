@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Silence!’ cried
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Silence	Silence	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+5	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = 2
+# text = Mr. Mell, suddenly rising up, and striking his desk with the book.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Mell	Mell	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	suddenly	suddenly	ADV	RB	_	5	advmod	_	_
+5	rising	rise	VERB	VBG	VerbForm=Ger	0	root	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	striking	strike	VERB	VBG	VerbForm=Ger	5	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	desk	desk	NOUN	NN	Number=Sing	9	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	book	book	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = ‘What does this mean!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+5	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = It’s impossible to bear it.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	bear	bear	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = It’s maddening.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	maddening	madden	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = How can you do it to me, boys?’
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	boys	boy	NOUN	NNS	Number=Plur	7	appos	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

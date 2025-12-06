@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, goodness me,” said Mrs. Poyser, who had looked back while her husband was speaking, “look where Molly is with them lads!
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	goodness	goodness	VERB	VB	Mood=Imp|VerbForm=Fin	8	ccomp	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	appos	_	_
+10	Poyser	Poyser	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+15	back	back	ADV	RB	_	14	advmod	_	_
+16	while	while	SCONJ	IN	_	20	mark	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	husband	husband	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	14	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	14	punct	_	_
+22	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	look	look	NOUN	NN	Number=Sing	14	obj	_	_
+24	where	where	ADV	WRB	PronType=Rel	29	advmod	_	_
+25	Molly	Molly	PROPN	NNP	Number=Sing	29	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	with	with	ADP	IN	_	29	case	_	_
+28	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+29	lads	lad	NOUN	NNS	Number=Plur	23	acl:relcl	_	SpaceAfter=No
+30	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = They’re the field’s length behind us.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	field	field	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	length	length	NOUN	NN	Number=Sing	2	obj	_	_
+7	behind	behind	ADP	IN	_	8	case	_	_
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = How _could_
+1	How	how	ADV	WRB	PronType=Int	2	advmod	_	_
+2	_could	_could	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	2	punct	_	_
+
+# sent_id = 4
+# text = you let ’em do so, Hetty?
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	let	let	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	do	do	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	so	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	Hetty	Hetty	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Anybody might as well set a pictur’ to watch the children as you.
+1	Anybody	anybody	PRON	NN	Number=Sing	5	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	as	as	ADV	RB	_	5	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	_
+5	set	set	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	pictur	pictur	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	5	punct	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	watch	watch	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	children	child	NOUN	NNS	Number=Plur	10	obj	_	_
+13	as	as	ADP	IN	_	14	case	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Run back and tell ’em to come on.”
+1	Run	run	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	back	back	ADV	RB	_	1	advmod	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+5	’em	’em	NOUN	NN	Number=Sing	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	come	come	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	on	on	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

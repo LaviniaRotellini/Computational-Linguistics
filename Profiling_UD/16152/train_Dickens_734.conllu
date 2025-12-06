@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She was more than human to me.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+4	than	than	ADP	IN	_	5	case	_	_
+5	human	human	ADJ	JJ	Degree=Pos	3	obl	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = She was a Fairy, a Sylph, I don’t know what she was--anything that no one ever saw, and everything that everybody ever wanted.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	Fairy	Fairy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	Sylph	Sylph	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	know	know	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+13	what	what	PRON	WP	PronType=Int	12	obj	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+17	anything	anything	PRON	NN	Number=Sing	4	appos	_	_
+18	that	that	PRON	WDT	PronType=Rel	22	obj	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	one	one	NOUN	NN	Number=Sing	22	nsubj	_	_
+21	ever	ever	ADV	RB	_	22	advmod	_	_
+22	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	everything	everything	PRON	NN	Number=Sing	17	conj	_	_
+26	that	that	SCONJ	IN	_	29	mark	_	_
+27	everybody	everybody	PRON	NN	Number=Sing	29	nsubj	_	_
+28	ever	ever	ADV	RB	_	29	advmod	_	_
+29	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I was swallowed up in an abyss of love in an instant.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	swallowed	swallow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	abyss	abyss	NOUN	NN	Number=Sing	3	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	love	love	NOUN	NN	Number=Sing	7	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	instant	instant	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = There was no pausing on the brink; no looking down, or looking back; I was gone, headlong, before I had sense to say a word to her.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	pausing	pausing	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	brink	brink	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	no	no	DET	DT	_	10	advmod	_	_
+10	looking	look	VERB	VBG	VerbForm=Ger	2	parataxis	_	_
+11	down	down	ADP	RP	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	looking	look	VERB	VBG	VerbForm=Ger	10	conj	_	_
+15	back	back	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	gone	gone	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	headlong	headlong	NOUN	NN	Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	before	before	SCONJ	IN	_	25	mark	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+26	sense	sense	NOUN	NN	Number=Sing	28	nsubj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	say	say	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	word	word	NOUN	NN	Number=Sing	28	obj	_	_
+31	to	to	ADP	IN	_	32	case	_	_
+32	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

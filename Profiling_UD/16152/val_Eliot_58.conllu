@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Tchuh!” said Mr Tulliver.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Tchuh	Tchuh	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr	Mr	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Tulliver	Tulliver	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “It takes a big loaf when there’s many to breakfast.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	loaf	loaf	NOUN	NN	Number=Sing	3	obj	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	there	there	PRON	EX	_	9	expl	_	SpaceAfter=No
+9	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	many	many	ADJ	JJ	Degree=Pos	12	nsubj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	breakfast	breakfast	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = What signifies your sisters’ bits o’ money when they’ve got half-a-dozen nevvies and nieces to divide it among?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	signifies	signify	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	sisters	sister	NOUN	NNS	Number=Plur	6	nmod:poss	_	SpaceAfter=No
+5	’	's	PART	POS	_	4	case	_	_
+6	bits	bit	NOUN	NNS	Number=Plur	2	obj	_	_
+7	o	of	ADP	IN	Abbr=Yes	9	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	money	money	NOUN	NN	Number=Sing	2	obl	_	_
+10	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	got	get	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+14	half	half	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	dozen	dozen	NOUN	NN	Number=Sing	19	compound	_	_
+19	nevvies	nevvie	NOUN	NNS	Number=Plur	13	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	nieces	niece	NOUN	NNS	Number=Plur	19	conj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	divide	divide	VERB	VB	VerbForm=Inf	2	advcl	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	among	among	ADP	IN	_	23	obl	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And your sister Deane won’t get ’em to leave all to one, I reckon, and make the country cry shame on ’em when they are dead?”
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	sister	sister	NOUN	NN	Number=Sing	4	compound	_	_
+4	Deane	Deane	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	wo	will	AUX	MD	VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	7	advmod	_	_
+7	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+8	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	leave	leave	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	all	all	ADV	RB	_	13	advmod	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	one	one	NUM	CD	NumType=Card	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	reckon	reckon	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	make	make	VERB	VB	VerbForm=Inf	7	conj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	country	country	NOUN	NN	Number=Sing	19	obj	_	_
+22	cry	cry	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+23	shame	shame	NOUN	NN	Number=Sing	22	obj	_	_
+24	on	on	ADP	IN	_	25	case	_	_
+25	’em	’em	NOUN	NN	Number=Sing	23	nmod	_	_
+26	when	when	ADV	WRB	PronType=Int	29	mark	_	_
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+28	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	dead	dead	ADJ	JJ	Degree=Pos	22	advcl	_	SpaceAfter=No
+30	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

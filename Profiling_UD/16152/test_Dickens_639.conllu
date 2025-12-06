@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am not so cunning, you see,” I said, in answer, conscious that I reddened a little, “as that I could hide from you, even if I desired, that I do want something.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	cunning	cunn	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	13	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	answer	answer	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	conscious	conscious	ADJ	JJ	Degree=Pos	13	parataxis	_	_
+19	that	that	SCONJ	IN	_	21	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	reddened	redden	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	42	obl:npmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	42	punct	_	_
+25	“	"	PUNCT	``	_	42	punct	_	SpaceAfter=No
+26	as	as	SCONJ	IN	_	30	mark	_	_
+27	that	that	SCONJ	IN	_	26	fixed	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+29	could	could	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	hide	hide	VERB	VB	VerbForm=Inf	42	advcl	_	_
+31	from	from	ADP	IN	_	32	case	_	_
+32	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	42	punct	_	_
+34	even	even	ADV	RB	_	37	advmod	_	_
+35	if	if	SCONJ	IN	_	37	mark	_	_
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	_	_
+37	desired	desire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	42	advcl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	42	punct	_	_
+39	that	that	SCONJ	IN	_	42	mark	_	_
+40	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+41	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	42	aux	_	_
+42	want	want	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+43	something	something	PRON	NN	Number=Sing	42	obj	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = Miss Havisham, if you would spare the money to do my friend Herbert a lasting service in life, but which from the nature of the case must be done without his knowledge, I could show you how.”
+1	Miss	miss	PROPN	NNP	Number=Sing	31	nsubj:pass	_	_
+2	Havisham	Havisham	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	if	if	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	spare	spare	VERB	VB	VerbForm=Inf	31	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	money	money	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	do	do	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	friend	friend	NOUN	NN	Number=Sing	11	obj	_	_
+14	Herbert	Herbert	ADP	IN	Typo=Yes	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	lasting	last	VERB	VBG	VerbForm=Ger	17	amod	_	_
+17	service	service	NOUN	NN	Number=Sing	11	obl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	life	life	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	31	punct	_	_
+21	but	but	CCONJ	CC	_	31	cc	_	_
+22	which	which	PRON	WDT	PronType=Int	31	nsubj:pass	_	_
+23	from	from	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	nature	nature	NOUN	NN	Number=Sing	22	nmod	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	case	case	NOUN	NN	Number=Sing	25	nmod	_	_
+29	must	must	AUX	MD	VerbForm=Fin	31	aux	_	_
+30	be	be	AUX	VB	VerbForm=Inf	31	aux:pass	_	_
+31	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+32	without	without	ADP	IN	_	34	case	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	knowledge	knowledge	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	31	punct	_	_
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+37	could	could	AUX	MD	VerbForm=Fin	38	aux	_	_
+38	show	show	VERB	VB	VerbForm=Inf	31	ccomp	_	_
+39	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	38	obj	_	_
+40	how	how	ADV	WRB	PronType=Int	38	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	31	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	31	punct	_	SpacesAfter=\n
+

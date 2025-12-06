@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I did.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Why, they would have it so!
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	so	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = So would you.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = What has been my history, that I should be at the pains of entreating either them or you not to have it so!
+1	What	what	PRON	WP	PronType=Int	5	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	history	history	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	that	that	SCONJ	IN	_	13	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+11	at	at	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	pains	pains	NOUN	NNS	Number=Plur	5	parataxis	_	_
+14	of	of	SCONJ	IN	_	15	mark	_	_
+15	entreating	entreating	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	either	either	CCONJ	CC	_	17	cc:preconj	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+18	or	or	CCONJ	CC	_	22	cc	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+20	not	not	ADV	RB	_	22	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	have	have	VERB	VB	VerbForm=Inf	13	conj	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	so	so	ADV	RB	_	22	advmod	_	SpaceAfter=No
+25	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = You made your own snares.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	own	own	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	snares	snare	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = _I_ never made them.”
+1	_I	_I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	4	punct	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, Adam, I’m glad to get sight on y’ again,” said Mr. Poyser, who was carrying Totty on his arm.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Adam	Adam	PROPN	NNP	Number=Sing	8	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	glad	glad	ADJ	JJ	Degree=Pos	18	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	get	get	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	sight	sight	NOUN	NN	Number=Sing	10	obj	_	_
+12	on	on	ADP	IN	_	13	case	_	_
+13	y	y	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+14	’	's	PUNCT	''	_	10	punct	_	_
+15	again	again	ADV	RB	_	10	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	18	punct	_	_
+18	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	Mr.	Mr.	PROPN	NNP	Number=Sing	18	nsubj	_	_
+20	Poyser	Poyser	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	19	punct	_	_
+22	who	who	PRON	WP	PronType=Rel	24	nsubj	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	carrying	carry	VERB	VBG	Tense=Pres|VerbForm=Part	19	acl:relcl	_	_
+25	Totty	Totty	NOUN	NN	Number=Sing	24	obj	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	arm	arm	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = “You’re going t’ have a bit o’ fun, I hope, now your work’s all done.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	going	go	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	t	t	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	4	punct	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	bit	bit	NOUN	NN	Number=Sing	10	compound	_	_
+10	o	of	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	fun	fun	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	now	now	ADV	RB	_	22	advmod	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	work	work	NOUN	NN	Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+20	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+21	all	all	ADV	RB	_	22	advmod	_	_
+22	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And here’s Hetty has promised no end o’ partners, an’ I’ve just been askin’ her if she’d agreed to dance wi’ you, an’ she says no.”
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	here	here	ADV	RB	PronType=Dem	35	advmod	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	Hetty	Hetty	PROPN	NNP	Number=Sing	2	nsubj	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	35	ccomp	_	_
+7	no	no	DET	DT	_	11	det	_	_
+8	end	end	NOUN	NN	Number=Sing	11	compound	_	_
+9	o	of	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	partners	partner	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	19	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+16	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	just	just	ADV	RB	_	19	advmod	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	aux	_	_
+19	askin	askin	VERB	VBG	Tense=Pres|VerbForm=Part	35	ccomp	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	19	punct	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+22	if	if	SCONJ	IN	_	25	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	’d	’d	ADV	RB	_	25	advmod	_	_
+25	agreed	agree	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	dance	dance	NOUN	NN	Number=Sing	28	compound	_	_
+28	wi	wi	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	28	punct	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	35	punct	_	_
+34	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+36	no	no	INTJ	UH	_	35	ccomp	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	35	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	35	punct	_	SpacesAfter=\n
+

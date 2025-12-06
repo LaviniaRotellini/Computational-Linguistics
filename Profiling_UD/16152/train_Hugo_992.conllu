@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “50-52.
+1	“50	“50	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+2	-	-	SYM	SYM	_	3	case	_	SpaceAfter=No
+3	52	52	NUM	CD	NumType=Card	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = I know that barrack.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	barrack	barrack	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Impossible to conceal ourselves inside it without the artists seeing us, and then they will get off simply by countermanding the vaudeville.
+1	Impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	conceal	conceal	VERB	VB	VerbForm=Inf	1	csubj	_	_
+4	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	inside	inside	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+7	without	without	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	artists	artist	NOUN	NNS	Number=Plur	3	obl	_	_
+10	seeing	see	VERB	VBG	VerbForm=Ger	9	acl	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	then	then	ADV	RB	PronType=Dem	17	advmod	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	get	get	VERB	VB	VerbForm=Inf	1	conj	_	_
+18	off	off	ADV	RB	_	17	advmod	_	_
+19	simply	simply	ADV	RB	_	21	advmod	_	_
+20	by	by	SCONJ	IN	_	21	mark	_	_
+21	countermanding	countermand	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	vaudeville	vaudeville	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = They are so modest!
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	modest	modest	ADJ	JJS	Degree=Sup	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = An audience embarrasses them.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	audience	audience	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	embarrasses	embarrass	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = None of that, none of that.
+1	None	none	NOUN	NN	Number=Sing	0	root	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	none	none	NOUN	NN	Number=Sing	1	appos	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = I want to hear them sing and make them dance.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hear	hear	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	sing	s	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	make	make	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+10	dance	dance	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

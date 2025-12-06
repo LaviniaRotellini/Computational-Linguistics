@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mr. Ladislaw!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+3	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = What can he have to say to me?”
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	say	say	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = she exclaimed, in a tone of pleased surprise.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	tone	tone	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	pleased	pleased	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	surprise	surprise	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = “But,” she added, looking at Mr. Casaubon, “I can imagine what he has written to you about.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	6	ccomp	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	8	obl	_	_
+11	Casaubon	Casaubon	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	imagine	imagine	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+17	what	what	PRON	WP	PronType=Int	16	obj	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	written	write	VERB	VBN	Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	obl	_	_
+23	about	about	ADV	RB	_	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

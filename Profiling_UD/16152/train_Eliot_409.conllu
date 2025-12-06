@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poor Rosamond’s feelings were very unpleasant.
+1	Poor	poor	PROPN	NNP	Number=Sing	4	nmod:poss	_	_
+2	Rosamond	Rosamond	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	’s	's	PART	POS	_	1	case	_	_
+4	feelings	feeling	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = She had been quite easy as to Lydgate’s feeling and intention, but now when her aunt put this question she did not like being unable to say Yes.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+4	quite	quite	ADV	RB	_	5	advmod	_	_
+5	easy	easy	ADJ	JJ	Degree=Pos	0	root	_	_
+6	as	as	ADP	IN	_	10	case	_	_
+7	to	to	ADP	IN	_	6	fixed	_	_
+8	Lydgate	Lydgate	PROPN	NNP	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	feeling	feeling	NOUN	NN	Number=Sing	5	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	intention	intention	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	23	punct	_	_
+14	but	but	CCONJ	CC	_	23	cc	_	_
+15	now	now	ADV	RB	_	23	advmod	_	_
+16	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	aunt	aunt	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	question	question	NOUN	NN	Number=Sing	19	obj	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+24	not	not	PART	RB	_	27	advmod	_	_
+25	like	like	SCONJ	IN	_	27	mark	_	_
+26	being	be	AUX	VBG	VerbForm=Ger	27	cop	_	_
+27	unable	unable	ADJ	JJ	Degree=Pos	23	advcl	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	say	say	VERB	VB	VerbForm=Inf	27	xcomp	_	_
+30	Yes	yes	INTJ	UH	_	29	discourse	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Her pride was hurt, but her habitual control of manner helped her.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	pride	pride	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	hurt	hurt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	12	punct	_	_
+6	but	but	CCONJ	CC	_	12	cc	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	habitual	habitual	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	control	control	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	manner	manner	NOUN	NN	Number=Sing	9	nmod	_	_
+12	helped	help	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Who wants to quarrel with you?”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	3	nsubj	_	_
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	quarrel	quarrel	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = he said.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “It’s you as can’t let people alone, but must be gnawing at ’em forever.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	as	as	ADV	RB	_	8	advmod	_	_
+6	ca	can	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	let	let	VERB	VB	VerbForm=Inf	3	csubj	_	_
+9	people	people	NOUN	NNS	Number=Plur	8	obj	_	_
+10	alone	alone	ADV	RB	_	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux	_	_
+15	gnawing	gnaw	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	’em	’em	NOUN	NN	Number=Sing	15	obl	_	_
+18	forever	forever	ADV	RB	_	15	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = _I_ should never want to quarrel with any woman if she kept her place.”
+1	_I	_I	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	_	_	SYM	NFP	_	5	punct	_	_
+3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	quarrel	quarrel	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	woman	woman	NOUN	NN	Number=Sing	7	obl	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	place	place	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

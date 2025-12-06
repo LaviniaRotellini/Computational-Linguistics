@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I opened the door to the company,—making believe that it was a habit of ours to open that door,—and I opened it first to Mr. Wopsle, next to Mr. and Mrs. Hubble, and last of all to Uncle Pumblechook.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	door	door	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	company	company	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+10	making	make	VERB	VBG	VerbForm=Ger	2	conj	_	_
+11	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	xcomp	_	_
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	habit	habit	NOUN	NN	Number=Sing	11	ccomp	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	ours	ours	PRON	PRP	_	16	nmod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	open	open	VERB	VB	VerbForm=Inf	16	acl	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	door	door	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	,—	,—	PUNCT	.	_	11	punct	_	SpaceAfter=No
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	first	first	ADV	RB	_	26	advmod	_	_
+29	to	to	ADP	IN	_	30	case	_	_
+30	Mr.	Mr.	PROPN	NNP	Number=Sing	26	obl	_	_
+31	Wopsle	Wopsle	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	30	punct	_	_
+33	next	next	ADP	IN	_	35	case	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	Mr.	Mr.	PROPN	NNP	Number=Sing	26	obl	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	Mrs.	Mrs.	PROPN	NNP	Number=Sing	35	conj	_	_
+38	Hubble	Hubble	PROPN	NNP	Number=Sing	37	flat	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	last	last	ADJ	JJ	Degree=Pos	2	conj	_	_
+42	of	of	ADP	IN	_	46	case	_	_
+43	all	all	DET	DT	_	46	det	_	_
+44	to	to	ADP	IN	_	45	case	_	_
+45	Uncle	uncle	NOUN	NN	Number=Sing	46	compound	_	_
+46	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	41	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = N.B. _I_ was not allowed to call him uncle, under the severest penalties.
+1	N.B.	N.B.	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+2	_I	_I	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	1	punct	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	call	call	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+10	uncle	uncle	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	under	under	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	severest	severest	ADJ	JJS	Degree=Sup	15	amod	_	_
+15	penalties	penaltie	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

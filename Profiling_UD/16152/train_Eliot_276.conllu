@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You are very good,” said Ladislaw, beginning to lose his diffidence in the interest with which he was observing the signs of weeping which had altered her face.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	good	good	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Ladislaw	Ladislaw	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	beginning	begin	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	lose	lose	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	diffidence	diffidence	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	interest	interest	NOUN	NN	Number=Sing	13	obl	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	which	which	PRON	WDT	PronType=Rel	23	obl	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	observing	observe	VERB	VBG	Tense=Pres|VerbForm=Part	18	acl:relcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	signs	sign	NOUN	NNS	Number=Plur	23	obj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	weeping	weeping	NOUN	NN	Number=Sing	25	nmod	_	_
+28	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+29	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	altered	alte	VERB	VBN	Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+31	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	face	face	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “My address is on my card.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	address	address	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	card	card	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = But if you will allow me I will call again to-morrow at an hour when Mr. Casaubon is likely to be at home.”
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	if	if	SCONJ	IN	_	5	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	allow	allow	VERB	VB	VerbForm=Inf	9	advcl	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	call	call	VERB	VB	VerbForm=Inf	0	root	_	_
+10	again	again	ADV	RB	_	9	advmod	_	_
+11	to	to	ADP	IN	_	13	case	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	morrow	morrow	NOUN	NN	Number=Sing	9	obl	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	hour	hour	NOUN	NN	Number=Sing	9	obl	_	_
+17	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	21	nsubj	_	_
+19	Casaubon	Casaubon	PROPN	NNP	Number=Sing	18	flat	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	likely	likely	ADJ	JJ	Degree=Pos	9	advcl	_	_
+22	to	to	PART	TO	_	25	mark	_	_
+23	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+24	at	at	ADP	IN	_	25	case	_	_
+25	home	home	NOUN	NN	Number=Sing	21	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

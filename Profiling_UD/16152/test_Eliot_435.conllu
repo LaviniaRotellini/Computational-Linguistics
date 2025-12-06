@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Indeed, sir, I can’t speak to that,” said Mrs. Poyser in a hard voice, rolling and unrolling her knitting and looking icily out of the window, as she continued to stand opposite the squire.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Indeed	indeed	ADV	RB	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	9	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	ca	can	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	speak	speak	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	14	obj	_	_
+16	Poyser	Poyser	PROPN	NNP	Number=Sing	15	flat	_	_
+17	in	in	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	hard	hard	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	voice	voice	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	14	punct	_	_
+22	rolling	roll	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	unrolling	unroll	VERB	VBG	VerbForm=Ger	22	conj	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nsubj	_	_
+26	knitting	knitt	VERB	VBG	VerbForm=Ger	24	xcomp	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	looking	look	VERB	VBG	VerbForm=Ger	26	conj	_	_
+29	icily	icily	ADV	RB	_	28	advmod	_	_
+30	out	out	ADP	IN	_	33	case	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	window	window	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	14	punct	_	_
+35	as	as	SCONJ	IN	_	37	mark	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+38	to	to	PART	TO	_	39	mark	_	_
+39	stand	stand	VERB	VB	VerbForm=Inf	37	xcomp	_	_
+40	opposite	opposite	SCONJ	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	squire	squire	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = Poyser might sit down if he liked, she thought; _she_ wasn’t going to sit down, as if she’d give in to any such smooth-tongued palaver.
+1	Poyser	Poyser	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	sit	sit	VERB	VB	VerbForm=Inf	0	root	_	_
+4	down	down	ADP	RP	_	3	compound:prt	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	_she	_she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	12	punct	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	sit	sit	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	down	down	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	16	punct	_	_
+21	as	as	SCONJ	IN	_	25	mark	_	_
+22	if	if	SCONJ	IN	_	25	mark	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	’d	’d	ADV	RB	_	25	advmod	_	_
+25	give	give	VERB	VB	VerbForm=Inf	3	advcl	_	_
+26	in	in	ADP	IN	_	33	case	_	_
+27	to	to	ADP	IN	_	26	fixed	_	_
+28	any	any	DET	DT	_	33	det	_	_
+29	such	such	ADJ	JJ	Degree=Pos	33	amod	_	_
+30	smooth	smooth	ADJ	JJ	Degree=Pos	32	amod	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	tongued	tongue	NOUN	NN	Number=Sing	33	compound	_	_
+33	palaver	palaver	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mr. Poyser, who looked and felt the reverse of icy, did sit down in his three-cornered chair.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Poyser	Poyser	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	reverse	reverse	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	icy	icy	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	sit	sit	VERB	VB	VerbForm=Inf	5	conj	_	_
+15	down	down	ADP	RP	_	14	compound:prt	_	_
+16	in	in	ADP	IN	_	21	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+18	three	three	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	cornered	corner	NOUN	NN	Number=Sing	21	compound	_	_
+21	chair	chair	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

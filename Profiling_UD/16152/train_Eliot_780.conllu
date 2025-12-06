@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then I have fulfilled my commission thoroughly,” said Mr. Farebrother, putting out his hand to Mary, “and I shall ride back to Middlemarch forthwith.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fulfilled	fulfil	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	commission	commission	NOUN	NN	Number=Sing	5	obj	_	_
+8	thoroughly	thoroughly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	Farebrother	Farebrother	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	putting	put	VERB	VBG	VerbForm=Ger	11	ccomp	_	_
+16	out	out	ADP	RP	_	15	compound:prt	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hand	hand	NOUN	NN	Number=Sing	15	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	Mary	Mary	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	shall	shall	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	ride	ride	VERB	VB	VerbForm=Inf	15	conj	_	_
+27	back	back	ADV	RB	_	26	advmod	_	_
+28	to	to	ADP	IN	_	29	case	_	_
+29	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	26	obl	_	_
+30	forthwith	forthwith	ADV	RB	_	26	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = With this prospect before him, we shall get
+1	With	with	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	prospect	prospect	NOUN	NN	Number=Sing	9	obl	_	_
+4	before	before	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	shall	shall	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+
+# sent_id = 3
+# text = Fred into the right niche somehow, and I hope I shall live to join your hands.
+1	Fred	F	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	into	into	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	right	right	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	niche	niche	NOUN	NN	Number=Sing	1	obl	_	_
+6	somehow	somehow	ADV	RB	_	1	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	shall	shall	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	live	live	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	join	join	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	hands	hand	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = God bless you!”
+1	God	God	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	bless	bless	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

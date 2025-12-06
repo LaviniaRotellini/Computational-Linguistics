@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As birds make nests out of everything, so children make a doll out of anything which comes to hand.
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	birds	bird	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4	nests	nest	NOUN	NNS	Number=Plur	3	obj	_	_
+5	out	out	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	everything	everything	PRON	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	so	so	ADV	RB	_	11	advmod	_	_
+10	children	child	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	doll	doll	NOUN	NN	Number=Sing	11	obj	_	_
+14	out	out	ADP	IN	_	16	case	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	anything	anything	PRON	NN	Number=Sing	11	obl	_	_
+17	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	hand	hand	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = While Éponine and Azelma were bundling up the cat, Cosette, on her side, had dressed up her sword.
+1	While	while	SCONJ	IN	_	6	mark	_	_
+2	Éponine	Éponine	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	Azelma	Azelma	PROPN	NNP	Number=Sing	2	conj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	bundling	bundle	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	_
+7	up	up	ADP	IN	_	6	compound:prt	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	cat	cat	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	Cosette	Cosette	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	side	side	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+19	up	up	ADP	RP	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	sword	sword	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = That done, she laid it in her arms, and sang to it softly, to lull it to sleep.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	arms	arms	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	sang	sang	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	softly	softly	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	lull	lull	VERB	VB	VerbForm=Inf	12	advcl	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	sleep	sleep	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

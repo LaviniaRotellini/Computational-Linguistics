@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s true, lad, that’s true,” said Mr. Poyser; “and it’s wrong on us to give way to grief, Mrs. Bede; for it’s like the children cryin’ when the fathers and mothers take things from ’em.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	true	true	ADJ	JJ	Degree=Pos	13	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	lad	lad	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	true	true	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	Poyser	Poyser	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	13	punct	_	_
+17	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+20	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	wrong	wrong	ADJ	JJ	Degree=Pos	13	conj	_	_
+22	on	on	SCONJ	IN	_	25	mark	_	_
+23	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	give	give	VERB	VB	VerbForm=Inf	21	csubj	_	_
+26	way	way	NOUN	NN	Number=Sing	25	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	grief	grief	VERB	VB	VerbForm=Inf	26	acl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	21	punct	_	_
+30	Mrs	Mrs	PROPN	NNPS	Number=Plur	21	appos	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	21	punct	_	_
+32	Bede	Bede	ADJ	JJ	Degree=Pos	21	appos	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	32	punct	_	_
+34	for	for	SCONJ	IN	_	40	mark	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	SpaceAfter=No
+36	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+37	like	like	ADP	IN	_	40	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+39	children	child	NOUN	NNS	Number=Plur	40	compound	_	_
+40	cryin	cryin	NOUN	NN	Number=Sing	32	advcl	_	SpaceAfter=No
+41	’	'	PUNCT	''	_	21	punct	_	_
+42	when	when	ADV	WRB	PronType=Int	47	mark	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	fathers	fathers	NOUN	NNS	Number=Plur	47	nsubj	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	mothers	mother	NOUN	NNS	Number=Plur	44	conj	_	_
+47	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+48	things	thing	NOUN	NNS	Number=Plur	47	obj	_	_
+49	from	from	ADP	IN	_	51	case	_	_
+50	’	'	PUNCT	''	_	51	punct	_	SpaceAfter=No
+51	em	em	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	47	obl	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = There’s
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = 3
+# text = One above knows better nor us.”
+1	One	one	NUM	CD	NumType=Card	3	nsubj	_	_
+2	above	above	ADP	IN	_	3	case	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	3	xcomp	_	_
+5	nor	nor	CCONJ	CC	_	6	cc	_	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

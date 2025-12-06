@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “With all my heart.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	With	with	SCONJ	IN	_	5	case	_	_
+3	all	all	DET	PDT	_	5	det:predet	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	heart	heart	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But then you must be sure of having the value, and you must keep yourself independent.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	having	have	VERB	VBG	VerbForm=Ger	6	ccomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	value	value	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	8	conj	_	_
+16	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	15	obj	_	_
+17	independent	independent	ADJ	JJ	Degree=Pos	15	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Very few men can do that.
+1	Very	very	ADV	RB	_	2	advmod	_	_
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	men	man	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Either you slip out of service altogether, and become good for nothing, or you wear the harness and draw a good deal where your yoke-fellows pull you.
+1	Either	either	CCONJ	CC	_	3	cc:preconj	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	slip	slip	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	out	out	ADP	IN	_	6	case	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	service	service	NOUN	NN	Number=Sing	3	obl	_	_
+7	altogether	altogether	ADV	RB	_	3	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	become	become	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	good	good	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	nothing	nothing	PRON	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	or	or	CCONJ	CC	_	17	cc	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	wear	wear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	harness	harness	NOUN	NN	Number=Sing	17	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	draw	draw	VERB	VB	VerbForm=Inf	13	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	good	good	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	deal	deal	NOUN	NN	Number=Sing	21	obj	_	_
+25	where	where	ADV	WRB	PronType=Rel	30	advmod	_	_
+26	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	yoke	yoke	NOUN	NN	Number=Sing	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	fellows	fellow	NOUN	NNS	Number=Plur	30	nsubj	_	_
+30	pull	pull	VERB	VB	VerbForm=Inf	24	acl:relcl	_	_
+31	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = But do look at these delicate orthoptera!”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+4	at	at	ADP	IN	_	7	case	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	delicate	delicate	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	orthoptera	orthoptera	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

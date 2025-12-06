@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I’m precious glad I’m not one of the Directors now.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	precious	precious	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	one	one	NUM	CD	NumType=Card	7	appos	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Directors	director	NOUN	NNS	Number=Plur	11	nmod	_	_
+15	now	now	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I shall vote for referring the matter to the Directors and the Medical Board together.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	vote	vote	VERB	VB	VerbForm=Inf	0	root	_	_
+4	for	for	SCONJ	IN	_	5	mark	_	_
+5	referring	refer	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	matter	matter	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Directors	director	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	Medical	Medical	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Board	board	PROPN	NNP	Number=Sing	10	conj	_	_
+15	together	together	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I shall roll some of my responsibility on your shoulders, Doctor,” said Mr. Vincy, glancing first at Dr. Sprague, the senior physician of the town, and then at Lydgate who sat opposite.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	roll	roll	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+4	some	some	DET	DT	_	3	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	responsibility	responsibility	NOUN	NN	Number=Sing	4	nmod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	shoulders	shoulders	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	Doctor	doctor	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	Vincy	Vincy	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	glancing	glance	VERB	VBG	VerbForm=Ger	15	ccomp	_	_
+20	first	first	ADV	RB	_	19	advmod	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	Dr.	Dr.	PROPN	NNP	Number=Sing	19	obl	_	_
+23	Sprague	Sprague	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	15	punct	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	senior	senior	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	physician	physician	NOUN	NN	Number=Sing	15	nsubj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	town	town	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	and	and	CCONJ	CC	_	35	cc	_	_
+33	then	then	ADV	RB	PronType=Dem	35	advmod	_	_
+34	at	at	ADP	IN	_	35	case	_	_
+35	Lydgate	Lydgate	PROPN	NNP	Number=Sing	15	conj	_	_
+36	who	who	PRON	WP	PronType=Rel	37	nsubj	_	_
+37	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	acl:relcl	_	_
+38	opposite	opposite	NOUN	NN	Number=Sing	37	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = “You medical gentlemen must consult which sort of black draught you will prescribe, eh, Mr. Lydgate?”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	medical	medical	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	gentlemen	gentleman	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	consult	consult	VERB	VB	VerbForm=Inf	0	root	_	_
+7	which	which	DET	WDT	PronType=Int	8	det	_	_
+8	sort	sort	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	black	black	ADJ	JJ	Degree=Pos	8	nmod	_	_
+11	draught	dratch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	prescribe	prescribe	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	eh	eh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	6	conj	_	_
+19	Lydgate	Lydgate	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

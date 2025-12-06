@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “‘I don’t know how she’s there,’ says Arthur, shivering dreadful with the horrors, ‘but she’s standing in the corner at the foot of the bed, awful mad.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	know	know	VERB	VB	VerbForm=Inf	22	parataxis	_	_
+7	how	how	ADV	WRB	PronType=Int	9	advmod	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+9	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	there	there	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+14	Arthur	Arthur	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	shivering	shiver	VERB	VBG	VerbForm=Ger	13	conj	_	_
+17	dreadful	dreadful	ADJ	JJ	Degree=Pos	16	amod	_	_
+18	with	with	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	horrors	horror	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	13	punct	_	_
+22	‘	'	PUNCT	``	_	26	punct	_	SpaceAfter=No
+23	but	but	CCONJ	CC	_	26	cc	_	_
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No
+25	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	36	conj	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	corner	corner	NOUN	NN	Number=Sing	26	obl	_	_
+30	at	at	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	foot	foot	NOUN	NN	Number=Sing	26	obl	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	bed	bed	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	38	punct	_	_
+37	awful	awful	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	mad	mad	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	38	punct	_	_
+
+# sent_id = 2
+# text = And over where her heart’s broke—_you_ broke it!—there’s drops of blood.’
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	over	over	X	GW	_	3	goeswith	_	_
+3	where	where	ADV	WRB	PronType=Int	7	advmod	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	heart	heart	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+6	’s	's	PART	POS	_	7	case	_	_
+7	broke	break	ADJ	JJ	Degree=Pos	17	advcl	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	_	_	SYM	NFP	_	10	punct	_	SpaceAfter=No
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	_	_	SYM	NFP	_	12	punct	_	_
+12	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	17	punct	_	SpaceAfter=No
+16	there	there	PRON	EX	_	17	expl	_	SpaceAfter=No
+17	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	drops	drop	NOUN	NNS	Number=Plur	17	nsubj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	blood	blood	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+

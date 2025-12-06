@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What identity?” replied the lawyer.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	3	det	_	_
+3	identity	identity	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	lawyer	lawyer	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “There was no identity to be established.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	identity	identity	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	established	establish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The matter was very simple.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	matter	matter	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	simple	simple	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The woman had murdered her child; the infanticide was proved; the jury threw out the question of premeditation, and she was condemned for life.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	child	child	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	infanticide	infanticide	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	jury	jury	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	threw	throw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	out	out	ADP	RP	_	15	compound:prt	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	question	question	NOUN	NN	Number=Sing	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	premeditation	premeditation	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj:pass	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	condemned	condemn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	life	life	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

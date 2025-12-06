@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, no,” said Herbert, “that’s my name for him.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	no	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Herbert	Herbert	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	name	name	NOUN	NN	Number=Sing	7	parataxis	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = His name is Mr. Barley.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	name	name	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+5	Barley	Barley	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = But what a blessing it is for the son of my father and mother to love a girl who has no relations, and who can never bother herself or anybody else about her family!”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	what	what	DET	WDT	PronType=Int	4	det	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	blessing	bless	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	son	son	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	father	father	NOUN	NN	Number=Sing	9	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	mother	mother	NOUN	NN	Number=Sing	12	conj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	love	love	VERB	VB	VerbForm=Inf	9	acl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	girl	girl	NOUN	NN	Number=Sing	16	obj	_	_
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+20	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	no	no	DET	DT	_	22	det	_	_
+22	relations	relation	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	who	who	PRON	WP	PronType=Int	28	nsubj	_	_
+26	can	can	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	never	never	ADV	RB	_	28	advmod	_	_
+28	bother	bother	VERB	VB	VerbForm=Inf	22	conj	_	_
+29	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
+30	or	or	CCONJ	CC	_	31	cc	_	_
+31	anybody	anybody	PRON	NN	Number=Sing	29	conj	_	_
+32	else	else	ADJ	JJ	Degree=Pos	31	amod	_	_
+33	about	about	ADP	IN	_	35	case	_	_
+34	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	family	family	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+36	!	!	PUNCT	.	_	9	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

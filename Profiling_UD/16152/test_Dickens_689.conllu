@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I dare say you wonder at me, Mr. Pip; indeed, I see you do.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	say	say	INTJ	UH	_	6	discourse	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	16	nsubj	_	_
+11	Pip	Pip	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	10	punct	_	_
+13	indeed	indeed	ADV	RB	_	16	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = But it is so very strange!
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	so	so	ADV	RB	_	6	advmod	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	strange	strange	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = You’ll hardly believe what I am going to tell you.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	hardly	hardly	ADV	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	8	obj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	tell	tell	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I could hardly believe it myself, if you told me.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	hardly	hardly	ADV	RB	_	4	advmod	_	_
+4	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	4	obl:npmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

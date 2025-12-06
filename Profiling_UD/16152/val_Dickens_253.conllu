@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A beautiful smile.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	beautiful	beautiful	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	smile	smile	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mr. James Harthouse might not have thought so much of it, but that he had wondered so long at her impassive face.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	James	James	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Harthouse	Harthouse	PROPN	NNP	Number=Sing	1	flat	_	_
+4	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	have	have	AUX	VB	VerbForm=Inf	7	aux	_	_
+7	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	so	so	ADV	RB	_	9	advmod	_	_
+9	much	much	ADJ	JJ	Degree=Pos	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	wondered	wonder	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	long	long	ADV	RB	Degree=Pos	17	advmod	_	_
+20	at	at	ADP	IN	_	23	case	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	impassive	impassive	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	face	face	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = She put out her hand—a pretty little soft hand; and her fingers closed upon her brother’s, as if she would have carried them to her lips.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADP	RP	_	2	compound:prt	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	hand	hand	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	pretty	pretty	ADV	RB	_	9	advmod	_	_
+9	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	soft	soft	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	hand	hand	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	finger	finger	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	s	's	PART	POS	_	15	case	_	_
+17	closed	close	ADJ	JJ	Degree=Pos	2	conj	_	_
+18	upon	upon	ADP	IN	_	20	case	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	brother	brother	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	’s	’	PART	POS	_	20	case	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	as	as	SCONJ	IN	_	28	mark	_	_
+24	if	if	SCONJ	IN	_	28	mark	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	would	would	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	have	have	AUX	VB	VerbForm=Inf	28	aux	_	_
+28	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	lips	lip	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

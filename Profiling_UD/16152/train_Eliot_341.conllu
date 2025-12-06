@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, ultimately,” said Mrs. Garth, who having a special dislike to fine words on ugly occasions, could not now repress an epigram.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	ultimately	ultimitely	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Garth	Garth	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	having	have	VERB	VBG	VerbForm=Ger	8	acl:relcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	special	special	NOUN	NN	Number=Sing	12	obj	_	_
+15	dislike	dislike	SCONJ	IN	_	17	mark	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	fine	fine	VERB	VB	VerbForm=Inf	12	advcl	_	_
+18	words	word	NOUN	NNS	Number=Plur	17	obj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	ugly	ugly	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	occasions	occasion	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	could	could	AUX	MD	VerbForm=Fin	26	aux	_	_
+24	not	not	PART	RB	_	26	advmod	_	_
+25	now	now	ADV	RB	_	26	advmod	_	_
+26	repress	repress	VERB	VB	VerbForm=Inf	17	conj	_	_
+27	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	epigram	epigram	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “But boys cannot well be apprenticed ultimately: they should be apprenticed at fifteen.”
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	8	cc	_	_
+3	boys	boy	NOUN	NNS	Number=Plur	8	nsubj:pass	_	_
+4	can	can	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+5	not	not	PART	RB	_	8	advmod	_	_
+6	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	apprenticed	apprentice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	ultimately	ultimately	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	8	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj:pass	_	_
+12	should	should	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	apprenticed	apprentice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	fifteen	fifteen	NUM	CD	NumType=Card	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 3
+# text = She had never been so little inclined to make excuses for Fred.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	never	never	ADV	RB	_	7	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	so	so	ADV	RB	_	7	advmod	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	obl:npmod	_	_
+7	inclined	incline	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	make	make	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	excuses	excuse	NOUN	NNS	Number=Plur	9	obj	_	_
+11	for	for	ADP	IN	_	12	case	_	_
+12	Fred	Fred	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

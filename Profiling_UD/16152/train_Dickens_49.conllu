@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, bless you!’ said Peggotty, looking at me again at last.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	bless	bless	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Peggotty	Peggotty	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	looking	look	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	again	again	ADV	RB	_	11	advmod	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	last	last	ADJ	JJ	Degree=Pos	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘Don’t you know?
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She’s going to stay for a fortnight with Mrs. Grayper.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	stay	stay	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	fortnight	fortnight	NOUN	NN	Number=Sing	5	obl	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Grayper	Grayper	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Mrs. Grayper’s going to have a lot of company.’
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Grayper	Grayper	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	lot	lot	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	company	company	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

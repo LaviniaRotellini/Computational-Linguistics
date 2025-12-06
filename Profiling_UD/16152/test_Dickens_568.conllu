@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He came faithfully, and he brought me the two one-pound notes.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	faithfully	faithfully	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+11	two	two	NUM	CD	NumType=Card	15	nummod	_	_
+12	one	one	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	pound	pound	NOUN	NN	Number=Sing	15	compound	_	_
+15	notes	not	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I was a poor boy then, as you know, and to a poor boy they were a little fortune.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	0	root	_	_
+6	then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	as	as	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	and	and	CCONJ	CC	_	18	cc	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	poor	poor	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	boy	boy	NOUN	NN	Number=Sing	18	obl	_	_
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	fortune	fortune	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = But, like you, I have done well since, and you must let me pay them back.
+1	But	but	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	8	punct	_	_
+3	like	like	ADP	IN	_	4	case	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+10	since	since	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	let	let	VERB	VB	VerbForm=Inf	8	conj	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	pay	pay	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	back	back	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = You can put them to some other poor boy’s use.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	put	put	VERB	VB	VerbForm=Inf	11	csubj	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	ADP	IN	_	9	case	_	_
+6	some	some	DET	DT	_	9	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	poor	poor	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	boy	boy	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	use	use	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	11	punct	_	_
+
+# sent_id = 5
+# text = I took out my purse.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADP	RP	_	2	compound:prt	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	purse	purse	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

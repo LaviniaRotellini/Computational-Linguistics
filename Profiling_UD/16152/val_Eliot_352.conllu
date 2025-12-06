@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, Tom,” said Mr Deane, when they were alone, turning his substantial person a little in his chair, and taking out his snuff-box; “what’s the business, my boy; what’s the business?”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr	Mr	PROPN	NNP	Number=Sing	7	appos	_	_
+9	Deane	Deane	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	alone	alone	ADV	RB	_	7	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	turning	turn	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	substantial	substantial	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	person	person	NOUN	NN	Number=Sing	16	obj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	little	little	NOUN	NN	Number=Sing	16	obj	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	chair	chair	NOUN	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	taking	take	VERB	VBG	VerbForm=Ger	16	conj	_	_
+28	out	out	ADP	RP	_	27	compound:prt	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+30	snuff	snuff	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	box	box	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	7	punct	_	_
+34	“	"	PUNCT	``	_	35	punct	_	SpaceAfter=No
+35	what	what	PRON	WP	PronType=Int	7	parataxis	_	SpaceAfter=No
+36	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	business	business	NOUN	NN	Number=Sing	35	nsubj	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	35	punct	_	_
+40	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	boy	boy	NOUN	NN	Number=Sing	35	appos	_	SpaceAfter=No
+42	;	;	PUNCT	,	_	7	punct	_	_
+43	what	what	PRON	WP	PronType=Int	7	ccomp	_	SpaceAfter=No
+44	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+46	business	business	NOUN	NN	Number=Sing	43	nsubj	_	SpaceAfter=No
+47	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+48	”	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 2
+# text = Mr Deane, who had heard from his wife what had passed the day before, thought Tom was come to appeal to him for some means of averting the sale.
+1	Mr	Mr	PROPN	NNP	Number=Sing	17	nsubj	_	_
+2	Deane	Deane	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	wife	wife	NOUN	NN	Number=Sing	6	obl	_	_
+10	what	what	PRON	WP	PronType=Int	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	day	day	NOUN	NN	Number=Sing	12	obj	_	_
+15	before	before	ADV	RB	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Tom	Tom	PROPN	NNP	Number=Sing	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	come	come	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	appeal	appeal	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	some	some	DET	DT	_	27	det	_	_
+27	means	means	NOUN	NNS	Number=Plur	22	obl	_	_
+28	of	of	SCONJ	IN	_	29	mark	_	_
+29	averting	avert	VERB	VBG	VerbForm=Ger	27	acl	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	sale	sale	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “We have no time to waste now on unnecessary words, dear,” said Lydgate, trying to be gentle again.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	time	time	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	waste	waste	VERB	VB	VerbForm=Inf	5	acl	_	_
+8	now	now	ADV	RB	_	7	advmod	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	unnecessary	unnecessary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	words	word	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	dear	dear	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Lydgate	Lydgate	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	trying	try	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	gentle	gentle	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+23	again	again	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “There are some details that I want to consider with you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	details	detail	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	that	that	PRON	WDT	PronType=Rel	8	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	consider	consider	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dover says he will take a good deal of the plate back again, and any of the jewellery we like.
+1	Dover	Dover	PRON	WP	PronType=Int	2	nsubj	_	_
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	take	take	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	deal	deal	NOUN	NN	Number=Sing	5	obj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	plate	plate	NOUN	NN	Number=Sing	8	nmod	_	_
+12	back	back	ADV	RB	_	13	advmod	_	_
+13	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	any	any	DET	DT	_	5	conj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	jewellery	jewellery	NOUN	NN	Number=Sing	16	nmod	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He really behaves very well.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	really	really	ADV	RB	_	3	advmod	_	_
+3	behaves	behave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	well	well	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

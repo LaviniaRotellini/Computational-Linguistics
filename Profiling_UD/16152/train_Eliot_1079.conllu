@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Early in the morning—about six—Mr.
+1	Early	Early	ADV	RB	_	7	advmod	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	morning	morning	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+6	about	about	ADP	IN	_	7	case	_	_
+7	six	six	NUM	CD	NumType=Card	9	nummod	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+9	Mr	Mr	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Bulstrode rose and spent some time in prayer.
+1	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	time	time	NOUN	NN	Number=Sing	4	obj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	prayer	prayer	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Does any one suppose that private prayer is necessarily candid—necessarily goes to the roots of action?
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	any	any	DET	DT	_	3	det	_	_
+3	one	one	NUM	CD	NumType=Card	4	nsubj	_	_
+4	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	private	private	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	prayer	prayer	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	necessarily	necessarily	ADV	RB	_	10	advmod	_	_
+10	candid	candid	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+12	necessarily	necessarily	ADV	RB	_	13	advmod	_	_
+13	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	roots	root	NOUN	NNS	Number=Plur	13	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	action	action	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Private prayer is inaudible speech, and speech is representative: who can represent himself just as he is, even in his own reflections?
+1	Private	private	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	prayer	prayer	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	inaudible	inaudible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	speech	speech	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	speech	speech	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	representative	representativing	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	_	_
+12	who	who	PRON	WP	PronType=Int	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	represent	represent	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+15	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	just	just	ADV	RB	_	25	advmod	_	_
+17	as	as	SCONJ	IN	_	25	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	even	even	ADV	RB	_	25	advmod	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	own	own	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	reflections	reflection	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Bulstrode had not yet unravelled in his thought the confused promptings of the last four-and-twenty hours.
+1	Bulstrode	Bulstrode	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	yet	yet	ADV	RB	_	5	advmod	_	_
+5	unravelled	unravell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	in	in	ADP	IN	_	8	mark	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nsubj	_	_
+8	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	confused	confused	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	promptings	prompting	NOUN	NNS	Number=Plur	8	obj	_	_
+12	of	of	ADP	IN	_	20	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+14	last	last	ADJ	JJ	Degree=Pos	20	amod	_	_
+15	four	four	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+17	and	and	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+19	twenty	twenty	NUM	CD	NumType=Card	20	nummod	_	_
+20	hours	hour	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, well, we shall see.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	well	well	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	shall	shall	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	see	see	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But I must run away now—I have no end of work now—it’s a crisis—a political crisis, you know.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	run	run	VERB	VB	VerbForm=Inf	0	root	_	_
+5	away	away	ADV	RB	_	4	advmod	_	_
+6	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	end	end	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	work	work	NOUN	NN	Number=Sing	11	nmod	_	_
+14	now	now	ADV	RB	_	19	advmod	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	crisis	crisis	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	political	political	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	crisis	crisis	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And here is Celia and her little man—you are an aunt, you know, now, and I am a sort of grandfather,” said Mr. Brooke, with placid hurry, anxious to get away and tell Chettam that it would not be his (Mr. Brooke’s) fault if Dorothea insisted on looking into everything.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	here	here	ADV	RB	PronType=Dem	29	ccomp	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	Celia	Celia	PROPN	NNP	Number=Sing	2	nsubj	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	man	man	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	aunt	aunt	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	now	now	ADV	RB	_	13	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	sort	sort	NOUN	NN	Number=Sing	13	conj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	grandfather	grandfather	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	29	punct	_	_
+29	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+30	Mr.	Mr.	PROPN	NNP	Number=Sing	39	nsubj	_	_
+31	Brooke	Brooke	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	30	punct	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	placid	placid	VERB	VBN	Tense=Past|VerbForm=Part	35	amod	_	_
+35	hurry	hurry	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	anxious	anxious	ADJ	JJ	Degree=Pos	30	amod	_	_
+38	to	to	PART	TO	_	39	mark	_	_
+39	get	get	VERB	VB	VerbForm=Inf	29	parataxis	_	_
+40	away	away	ADV	RB	_	39	advmod	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	tell	tell	VERB	VB	VerbForm=Inf	39	conj	_	_
+43	Chettam	Chettam	NOUN	NN	Number=Sing	42	obj	_	_
+44	that	that	SCONJ	IN	_	55	mark	_	_
+45	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	55	nsubj	_	_
+46	would	would	AUX	MD	VerbForm=Fin	55	aux	_	_
+47	not	not	PART	RB	_	55	advmod	_	_
+48	be	be	AUX	VB	VerbForm=Inf	55	cop	_	_
+49	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	_
+50	(	(	PUNCT	-LRB-	_	55	punct	_	SpaceAfter=No
+51	Mr.	Mr.	PROPN	NNP	Number=Sing	55	nmod:poss	_	_
+52	Brooke	Brooke	PROPN	NNP	Number=Sing	51	flat	_	SpaceAfter=No
+53	’s	's	PART	POS	_	51	case	_	SpaceAfter=No
+54	)	)	PUNCT	-RRB-	_	55	punct	_	_
+55	fault	fault	NOUN	NN	Number=Sing	42	ccomp	_	_
+56	if	if	SCONJ	IN	_	58	mark	_	_
+57	Dorothea	Dorothea	PROPN	NNP	Number=Sing	58	nsubj	_	_
+58	insisted	insist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	55	advcl	_	_
+59	on	on	SCONJ	IN	_	60	mark	_	_
+60	looking	look	VERB	VBG	VerbForm=Ger	58	advcl	_	_
+61	into	into	ADP	IN	_	62	case	_	_
+62	everything	everything	PRON	NN	Number=Sing	60	obl	_	SpaceAfter=No
+63	.	.	PUNCT	.	_	55	punct	_	SpacesAfter=\n
+

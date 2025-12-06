@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Stop a bit, stop a bit,” said Mr. Poyser.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	11	ccomp	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	bit	bit	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	bit	bit	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	Poyser	Poyser	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “There’s th’ waggin coming wi’ th’ old folks in’t; it’ll be such a sight as wonna come o’er again, to see ’em get down an’ walk along all together.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	th	th	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	’	's	PUNCT	''	_	4	punct	_	_
+6	waggin	waggin	NOUN	NNS	Number=Plur	3	nsubj	_	_
+7	coming	come	VERB	VBG	VerbForm=Ger	13	amod	_	_
+8	wi	wus	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	10	punct	_	_
+10	th	th	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	old	old	ADJ	JJ	Degree=Pos	10	amod	_	_
+13	folks	folk	NOUN	NNS	Number=Plur	3	obj	_	_
+14	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	n’t	n’t	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+18	’ll	’ll	AUX	MD	VerbForm=Fin	22	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+20	such	such	DET	PDT	_	22	det:predet	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	sight	sight	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	as	as	ADV	RB	_	24	advmod	_	_
+24	won	win	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+25	na	to	PART	TO	Abbr=Yes	26	mark	_	_
+26	come	come	VERB	VB	VerbForm=Inf	24	advcl	_	_
+27	o’er	o’er	ADV	RB	_	26	advmod	_	_
+28	again	again	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	24	punct	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	see	see	VERB	VB	VerbForm=Inf	24	advcl	_	_
+32	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
+33	get	get	VERB	VB	VerbForm=Inf	31	ccomp	_	_
+34	down	down	ADP	RP	_	33	compound:prt	_	_
+35	an	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	SpaceAfter=No
+36	’	'	PUNCT	''	_	37	punct	_	_
+37	walk	walk	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+38	along	along	ADV	RB	_	40	advmod	_	_
+39	all	all	ADV	RB	_	40	advmod	_	_
+40	together	together	ADV	RB	_	37	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You remember some on ’em i’ their prime, eh, Father?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	6	det	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	’em	th’ey	NOUN	NN	Number=Sing	6	compound	_	_
+6	i	I	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	9	punct	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	prime	prime	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	eh	eh	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	Father	Father	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You see how widely we differ, Sir James.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	how	how	ADV	WRB	PronType=Int	5	advmod	_	_
+5	widely	widely	ADV	RB	_	7	advmod	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	differ	differ	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	Sir	Sir	PROPN	NNP	Number=Sing	3	appos	_	_
+10	James	James	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I have made up my mind that I ought not to be a perfect horsewoman, and so I should never correspond to your pattern of a lady.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mind	mind	NOUN	NN	Number=Sing	3	obj	_	_
+7	that	that	SCONJ	IN	_	15	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+9	ought	ought	AUX	MD	VerbForm=Fin	15	aux	_	_
+10	not	not	PART	RB	_	15	advmod	_	_
+11	to	to	PART	TO	_	15	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	perfect	perfect	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	horsewoman	horsewoman	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	and	and	CCONJ	CC	_	22	cc	_	_
+18	so	so	ADV	RB	_	22	advmod	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	never	never	ADV	RB	_	22	advmod	_	_
+22	correspond	correspond	VERB	VB	VerbForm=Inf	15	conj	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	pattern	pattern	NOUN	NN	Number=Sing	22	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	lady	lady	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dorothea looked straight before her, and spoke with cold brusquerie, very much with the air of a handsome boy, in amusing contrast with the solicitous amiability of her admirer.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	straight	straight	ADV	RB	_	2	advmod	_	_
+4	before	before	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	cold	cold	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	brusquerie	brusquerie	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	much	much	ADV	RB	_	12	advmod	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	air	air	NOUN	NN	Number=Sing	2	obl	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	handsome	handsome	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	boy	boy	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	amusing	amusing	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	contrast	contrast	NOUN	NN	Number=Sing	2	obl	_	_
+26	with	with	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	solicitous	solicitous	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	amiability	amiability	NOUN	NN	Number=Sing	25	nmod	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	admirer	admirer	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

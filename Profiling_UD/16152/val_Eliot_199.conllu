@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’ll thank you for my cup o’ tea, now, Mrs G.,” said Mr Glegg, seeing that she did not proceed to give it him as usual, when he had finished his porridge.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	thank	thank	VERB	VB	VerbForm=Inf	19	ccomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	cup	cup	NOUN	NN	Number=Sing	4	obl	_	_
+9	o	of	ADP	IN	Abbr=Yes	11	case	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	tea	tea	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	Mrs	Mrs	PROPN	NNP	Number=Sing	4	obj	_	_
+16	G.	G.	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Mr	Mr	PROPN	NNP	Number=Sing	19	nsubj	_	_
+21	Glegg	Glegg	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	seeing	see	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+24	that	that	SCONJ	IN	_	28	mark	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+27	not	not	PART	RB	_	28	advmod	_	_
+28	proceed	proceed	VERB	VB	VerbForm=Inf	23	ccomp	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	give	give	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	iobj	_	_
+32	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+33	as	as	ADP	IN	_	34	case	_	_
+34	usual	usual	ADJ	JJ	Degree=Pos	30	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	19	punct	_	_
+36	when	when	ADV	WRB	PronType=Int	39	mark	_	_
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+38	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux	_	_
+39	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	19	advcl	_	_
+40	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	porridge	porridge	NOUN	NN	Number=Sing	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = She lifted the teapot with a slight toss of the head, and said,—
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lifted	lift	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	teapot	teapot	NOUN	NN	Number=Sing	2	obj	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	slight	slight	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	toss	toss	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	head	head	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+16	—	-	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

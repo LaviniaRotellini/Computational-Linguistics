@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = No more was said on the subject until the next day, when Mr. Bulstrode had returned from the town and was dressing for dinner.
+1	No	no	ADV	RB	_	2	advmod	_	_
+2	more	more	ADV	RBR	_	4	advmod	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	subject	subject	NOUN	NN	Number=Sing	4	obl	_	_
+8	until	until	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	next	next	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	day	day	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+14	Mr.	Mr.	PROPN	NNP	Number=Sing	17	nsubj	_	_
+15	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	14	flat	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+18	from	from	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	town	town	NOUN	NN	Number=Sing	17	obl	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	dressing	dress	VERB	VBG	Tense=Pres|VerbForm=Part	17	conj	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	dinner	dinner	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = His wife, not sure that he was come home, looked into his dressing-room and saw him with his coat and cravat off, leaning one arm on a chest of drawers and staring absently at the ground.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	come	come	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+10	home	home	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+13	into	into	ADP	IN	_	17	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+15	dressing	dressing	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	room	room	NOUN	NN	Number=Sing	12	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	coat	coat	NOUN	NN	Number=Sing	19	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	cravat	cravat	NOUN	NN	Number=Sing	23	conj	_	_
+26	off	off	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	leaning	lean	VERB	VBG	VerbForm=Ger	23	acl	_	_
+29	one	one	NUM	CD	NumType=Card	30	nummod	_	_
+30	arm	arm	NOUN	NN	Number=Sing	28	obj	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	chest	chest	NOUN	NN	Number=Sing	23	nmod	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	drawers	drawer	NOUN	NNS	Number=Plur	33	nmod	_	_
+36	and	and	CCONJ	CC	_	37	cc	_	_
+37	staring	stare	VERB	VBG	VerbForm=Ger	5	conj	_	_
+38	absently	absently	ADV	RB	_	37	advmod	_	_
+39	at	at	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	ground	ground	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He started nervously and looked up as she entered.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nervously	nervously	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

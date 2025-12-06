@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A few moments later, Marius made his appearance.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	few	few	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	moments	moment	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	later	later	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	appearance	appearance	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He entered.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Even before he had crossed the threshold, he saw his grandfather holding one of his own cards in his hand, and on catching sight of him, the latter exclaimed with his air of bourgeois and grinning superiority which was something crushing:—
+1	Even	even	ADV	RB	_	5	advmod	_	_
+2	before	before	SCONJ	IN	_	5	mark	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	threshold	threshold	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	grandfather	grandfather	NOUN	NN	Number=Sing	13	compound	_	_
+13	holding	hold	NOUN	NN	Number=Sing	10	obj	_	_
+14	one	one	NUM	CD	NumType=Card	10	obj	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	cards	card	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	hand	hand	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	32	punct	_	_
+23	and	and	CCONJ	CC	_	32	cc	_	_
+24	on	on	SCONJ	IN	_	25	mark	_	_
+25	catching	catching	VERB	VBG	VerbForm=Ger	32	advcl	_	_
+26	sight	sight	NOUN	NN	Number=Sing	25	obj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	latter	latter	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	exclaimed	exclaim	NOUN	NN	Number=Sing	10	conj	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	air	air	NOUN	NN	Number=Sing	32	nmod	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	bourgeois	bourgeois	NOUN	NNS	Number=Plur	35	nmod	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	grinning	grinn	VERB	VBG	VerbForm=Ger	35	conj	_	_
+40	superiority	superiority	NOUN	NN	Number=Sing	39	obj	_	_
+41	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	_
+42	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	_
+43	something	something	PRON	NN	Number=Sing	40	acl:relcl	_	_
+44	crushing	crush	VERB	VBG	VerbForm=Ger	43	amod	_	SpaceAfter=No
+45	:—	:—	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

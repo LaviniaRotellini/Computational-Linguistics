@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now then, my boy,” said Bartle, at last, when he had poured out his second mug of ale and lighted his pipe, “now then, we’ll have a little talk.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	3	advmod	_	_
+3	then	then	ADV	RB	PronType=Dem	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	boy	boy	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Bartle	Bartle	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	last	last	ADJ	JJ	Degree=Pos	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	poured	pour	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+19	out	out	ADP	RP	_	18	compound:prt	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	22	amod	_	_
+22	mug	mug	NOUN	NN	Number=Sing	18	obj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	ale	ale	NOUN	NN	Number=Sing	22	nmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	lighted	light	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	pipe	pipe	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	9	punct	_	_
+30	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+31	now	now	ADV	RB	_	32	advmod	_	_
+32	then	then	ADV	RB	PronType=Dem	36	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	nsubj	_	SpaceAfter=No
+35	’ll	’ll	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	have	have	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	little	little	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	talk	talk	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = But tell me first, have you heard any particular news to-day?”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	first	first	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	_
+9	any	any	DET	DT	_	11	det	_	_
+10	particular	particular	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	news	news	NOUN	NN	Number=Sing	8	obj	_	_
+12	to	to	ADP	IN	_	14	case	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	day	day	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

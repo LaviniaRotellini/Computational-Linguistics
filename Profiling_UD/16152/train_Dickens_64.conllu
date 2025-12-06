@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Good?’ said Em’ly.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	Em	em	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	’ly	’ly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = ‘If I was ever to be a lady, I’d give him a sky-blue coat with diamond buttons, nankeen trousers, a red velvet waistcoat, a cocked hat, a large gold watch, a silver pipe, and a box of money.’
+1	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	9	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+5	ever	ever	ADV	RB	_	9	advmod	_	_
+6	to	to	PART	TO	_	9	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lady	lady	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	give	give	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	sky	sky	NOUN	NN	Number=Sing	18	obl:npmod	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	blue	blue	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	coat	coat	NOUN	NN	Number=Sing	13	obj	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	diamond	diamond	NOUN	NN	Number=Sing	22	compound	_	_
+22	buttons	button	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	13	punct	_	_
+24	nankeen	nankeen	ADP	IN	_	25	case	_	_
+25	trousers	trousers	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	red	red	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	velvet	velvet	NOUN	NN	Number=Sing	30	compound	_	_
+30	waistcoat	waistcoat	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	13	punct	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+33	cocked	cocked	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	hat	hat	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	12	punct	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+37	large	large	ADJ	JJ	Degree=Pos	39	amod	_	_
+38	gold	gold	NOUN	NN	Number=Sing	39	compound	_	_
+39	watch	watch	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	39	punct	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	silver	silver	NOUN	NN	Number=Sing	43	compound	_	_
+43	pipe	pipe	NOUN	NN	Number=Sing	39	appos	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	47	punct	_	_
+45	and	and	CCONJ	CC	_	47	cc	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+47	box	box	NOUN	NN	Number=Sing	12	conj	_	_
+48	of	of	ADP	IN	_	49	case	_	_
+49	money	money	NOUN	NN	Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+51	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

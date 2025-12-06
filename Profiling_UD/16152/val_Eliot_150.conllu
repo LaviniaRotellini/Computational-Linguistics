@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That _would_
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	_would	_would	AUX	MD	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	_	_	SYM	NFP	_	3	punct	_	_
+
+# sent_id = 2
+# text = be unlucky,” said Mrs Tulliver, entering thoroughly into the possibility of an inopportune decease.
+1	be	be	AUX	VB	VerbForm=Inf	2	cop	_	_
+2	unlucky	unlucky	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mrs	Mrs	PROPN	NNP	Number=Sing	9	nsubj	_	_
+7	Tulliver	Tulliver	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	entering	enter	VERB	VBG	VerbForm=Ger	5	ccomp	_	_
+10	thoroughly	thoroughly	ADV	RB	_	9	advmod	_	_
+11	into	into	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	possibility	possibility	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	inopportune	inopportune	NUM	CD	NumType=Card	17	nummod	_	_
+17	decease	decease	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = “There’s never so much pleasure i’ wearing a bonnet the second year, especially when the crowns are so chancy,—never two summers alike.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	never	never	ADV	RB	_	3	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	pleasure	pleasure	NOUN	NN	Number=Sing	3	obj	_	_
+8	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	wearing	wear	VERB	VBG	VerbForm=Ger	7	acl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	bonnet	bonnet	NOUN	NN	Number=Sing	10	obj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	15	amod	_	_
+15	year	year	NOUN	NN	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	especially	especially	ADV	RB	_	23	advmod	_	_
+18	when	when	ADV	WRB	PronType=Int	23	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	crowns	crown	NOUN	NNS	Number=Plur	23	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	chancy	chancy	NOUN	NN	Number=Sing	3	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+25	—	-	PUNCT	,	_	23	punct	_	SpaceAfter=No
+26	never	never	ADV	RB	_	28	advmod	_	_
+27	two	two	NUM	CD	NumType=Card	28	nummod	_	_
+28	summers	summer	NOUN	NNS	Number=Plur	23	appos	_	_
+29	alike	alike	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

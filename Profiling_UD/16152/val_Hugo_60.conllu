@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The quay, the Bravées and its house, the garden, the alleys bordered with edges, and the greater part even of the surrounding houses, no longer exist.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	quay	quay	NOUN	NN	Number=Sing	32	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Bravées	Bravées	NOUN	NNS	Number=Plur	2	appos	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+8	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	house	house	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	garden	garden	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	alleys	alley	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	bordered	border	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	edges	edge	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	greater	greater	ADJ	JJR	Degree=Cmp	23	amod	_	_
+23	part	part	NOUN	NN	Number=Sing	2	conj	_	_
+24	even	even	ADV	RB	_	28	advmod	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	surrounding	surround	VERB	VBG	VerbForm=Ger	28	amod	_	_
+28	houses	house	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	no	no	ADV	RB	_	31	advmod	_	_
+31	longer	longer	ADV	RBR	Degree=Cmp	32	advmod	_	_
+32	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	32	punct	_	_
+
+# sent_id = 2
+# text = The demand for Guernsey granite has invaded these too.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	demand	demand	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	Guernsey	Guernsey	PROPN	NNP	Number=Sing	5	compound	_	_
+5	granite	granite	NOUN	NN	Number=Sing	2	nmod	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	invaded	invade	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	7	obj	_	_
+9	too	too	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = The whole of this part of the town is now occupied by stone-cutters' yards.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	whole	whole	ADJ	JJ	Degree=Pos	11	nsubj:pass	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	part	part	NOUN	NN	Number=Sing	2	nmod	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	town	town	NOUN	NN	Number=Sing	5	nmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	now	now	ADV	RB	_	11	advmod	_	_
+11	occupied	occupy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	by	by	ADP	IN	_	17	case	_	_
+13	stone	stone	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	,	_	15	punct	_	SpaceAfter=No
+15	cutters	cutter	NOUN	NNS	Number=Plur	17	compound	_	SpaceAfter=No
+16	'	'	PART	POS	_	15	case	_	_
+17	yards	yard	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

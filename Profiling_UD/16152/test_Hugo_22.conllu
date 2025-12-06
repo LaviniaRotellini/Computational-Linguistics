@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Begin instantly!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Begin	begin	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	instantly	instantly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The mystery!
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	mystery	mystery	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = the mystery immediately!” shrieked the people.
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	mystery	mystery	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	immediately	immediately	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	2	punct	_	_
+6	shrieked	shriek	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	people	people	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	above	above	ADV	RB	_	5	case	_	_
+3	all	all	DET	PDT	_	5	det:predet	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	voices	voice	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Johannes	Johannes	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	de	de	PROPN	NNP	Number=Sing	9	flat	_	_
+11	Molendino	Molendino	PROPN	NNP	Number=Sing	9	flat	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	audible	audible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	piercing	pierce	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	uproar	uproar	NOUN	NN	Number=Sing	15	obj	_	_
+18	like	like	ADP	IN	_	23	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	fife	fife	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+21	’s	's	PART	POS	_	20	case	_	_
+22	derisive	derisive	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	serenade	serenade	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	:	_	23	punct	_	_
+25	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+26	Commence	commence	NOUN	NN	Number=Sing	23	appos	_	_
+27	instantly	instantly	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	13	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	13	punct	_	_
+
+# sent_id = 5
+# text = yelped the scholar.
+1	yelped	yelp	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	scholar	scholar	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

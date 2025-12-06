@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well,” said Wemmick, “you’ll see a wild beast tamed.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Wemmick	Wemmick	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	see	see	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	wild	wild	NOUN	NN	Number=Sing	11	obj	_	_
+14	beast	beast	ADV	RBS	Degree=Sup	15	advmod	_	_
+15	tamed	tame	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Not so very uncommon, you’ll tell me.
+1	Not	not	PART	RB	_	4	advmod	_	_
+2	so	so	ADV	RB	_	4	advmod	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	uncommon	uncommon	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	’ll	’ll	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I reply, that depends on the original wildness of the beast, and the amount of taming.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	reply	reply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+5	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	original	original	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	wildness	wildness	NOUN	NNS	Number=Plur	5	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	beast	beast	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	amount	amount	NOUN	NN	Number=Sing	2	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	taming	taming	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It won’t lower your opinion of Mr. Jaggers’s powers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	lower	lower	VERB	VB	VerbForm=Inf	0	root	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	opinion	opinion	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nmod:poss	_	_
+9	Jaggers	Jaggers	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	’s	's	PART	POS	_	8	case	_	_
+11	powers	powr	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Keep your eye on it.”
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	eye	eye	NOUN	NN	Number=Sing	1	obj	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

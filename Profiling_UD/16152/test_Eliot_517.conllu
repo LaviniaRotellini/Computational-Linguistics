@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, Ralph was gone before the news was brought to us.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	Ralph	Ralph	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	11	nsubj:pass	_	_
+7	before	before	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	news	news	NOUN	NN	Number=Sing	6	obl	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Dear Arthur, I shall live now to see him master at the Chase, and making good times on the estate, like a generous-hearted fellow as he is.
+1	Dear	dear	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	Arthur	Arthur	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	shall	shall	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	live	live	VERB	VB	VerbForm=Inf	0	root	_	_
+7	now	now	ADV	RB	_	6	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	see	see	VERB	VB	VerbForm=Inf	6	advcl	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	master	master	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Chase	chase	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	making	make	VERB	VBG	VerbForm=Ger	6	conj	_	_
+18	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	times	time	NOUN	NNS	Number=Plur	17	obl:tmod	_	_
+20	on	on	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	estate	estate	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	17	punct	_	_
+24	like	like	ADP	IN	_	29	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+26	generous	generous	ADJ	JJ	Degree=Pos	28	obl:npmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	hearted	hear	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	_	_
+29	fellow	fellow	ADJ	JJ	Degree=Pos	17	obl	_	_
+30	as	as	SCONJ	IN	_	32	mark	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He’ll be as happy as a king now.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+6	as	as	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	king	king	NOUN	NN	Number=Sing	5	obl	_	_
+9	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

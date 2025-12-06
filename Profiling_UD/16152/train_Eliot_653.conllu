@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dorothea told him that she had seen Lydgate, and recited the gist of her conversation with him about the Hospital.
+1	Dorothea	Dorothea	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	Lydgate	Lydgate	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	recited	recite	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	gist	gist	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	conversation	conversation	NOUN	NN	Number=Sing	13	nmod	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+19	about	about	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Hospital	hospital	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mr. Casaubon did not question her further, but he felt sure that she had wished to know what had passed between Lydgate and himself.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Casaubon	Casaubon	PROPN	NNP	Number=Sing	1	flat	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	question	question	VERB	VB	VerbForm=Inf	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	further	further	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	sure	sure	ADJ	JJ	Degree=Pos	11	xcomp	_	_
+13	that	that	SCONJ	IN	_	16	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	wished	wish	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	know	know	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	what	what	PRON	WP	PronType=Int	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	18	ccomp	_	_
+22	between	between	ADP	IN	_	23	case	_	_
+23	Lydgate	Lydgate	PROPN	NNP	Number=Sing	21	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = “She knows that I know,” said the ever-restless voice within; but that increase of tacit knowledge only thrust further off any confidence between them.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+11	ever	ever	ADV	RB	_	13	advmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	restless	restless	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	voice	voice	NOUN	NN	Number=Sing	9	nsubj	_	_
+15	within	within	ADP	IN	_	14	case	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	9	punct	_	_
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	increase	increase	NOUN	NN	Number=Sing	9	conj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	tacit	tacit	NOUN	NN	Number=Sing	22	compound	_	_
+22	knowledge	knowledge	NOUN	NN	Number=Sing	19	nmod	_	_
+23	only	only	ADV	RB	_	25	advmod	_	_
+24	thrust	thrust	ADV	RBS	Degree=Sup	25	advmod	_	_
+25	further	further	ADV	RB	_	22	advmod	_	_
+26	off	off	ADP	IN	_	28	case	_	_
+27	any	any	DET	DT	_	28	det	_	_
+28	confidence	confidence	NOUN	NN	Number=Sing	25	obl	_	_
+29	between	between	ADP	IN	_	30	case	_	_
+30	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = He distrusted her affection; and what loneliness is more lonely than distrust?
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	distrusted	distrust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	affection	affection	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	and	and	CCONJ	CC	_	11	cc	_	_
+7	what	what	PRON	WP	PronType=Int	11	obl	_	_
+8	loneliness	loneliness	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	lonely	lonely	ADJ	JJ	Degree=Pos	2	conj	_	_
+12	than	than	ADP	IN	_	13	case	_	_
+13	distrust	distrust	ADJ	JJS	Degree=Sup	11	obl	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

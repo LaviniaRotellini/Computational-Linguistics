@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Reverend master,” he said in a grave tone, “your renown has reached my ears, and I wish to consult you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Reverend	Reverend	NOUN	NN	Number=Sing	3	compound	_	_
+3	master	master	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	grave	grave	NOUN	NN	Number=Sing	11	compound	_	_
+11	tone	tone	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	renown	renown	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	reached	reach	VERB	VBN	Tense=Past|VerbForm=Part	7	parataxis	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	ears	ear	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	consult	consult	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I am but a poor provincial gentleman, who removeth his shoes before entering the dwellings of the learned.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	but	but	CCONJ	CC	_	7	cc	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	poor	poor	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	provincial	provincial	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	gentleman	gentleman	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	_
+10	removeth	removeth	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	shoes	shoe	NOUN	NNS	Number=Plur	10	obj	_	_
+13	before	before	SCONJ	IN	_	14	mark	_	_
+14	entering	enter	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dwellings	dwelling	NOUN	NNS	Number=Plur	14	obj	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = You must know my name.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	name	name	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I am called Gossip Tourangeau.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	Gossip	Gossip	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Tourangeau	Tourangeau	PROPN	NNP	Number=Sing	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

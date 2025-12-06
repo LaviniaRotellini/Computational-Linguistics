@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From her infancy she had been remarkable for beauty.
+1	From	from	ADP	IN	_	3	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	infancy	infancy	NOUN	NN	Number=Sing	7	obl	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+7	remarkable	remarkable	ADJ	JJ	Degree=Pos	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	beauty	beauty	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The learned in such matters had grave doubts about her nose, but the little one having probably determined to be pretty, had finally satisfied their requirements.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	6	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	such	such	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	matters	mattr	NOUN	NNS	Number=Plur	2	obl	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	grave	grave	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	doubts	doubts	NOUN	NNS	Number=Plur	6	obj	_	_
+9	about	about	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	nose	nose	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	one	one	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	having	have	VERB	VBG	VerbForm=Ger	6	conj	_	_
+18	probably	probably	ADV	RB	_	19	advmod	_	_
+19	determined	determine	ADJ	JJ	Degree=Pos	17	obj	_	_
+20	to	to	PART	TO	_	24	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+22	pretty	pretty	ADV	RB	_	24	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	xcomp	_	_
+25	finally	finally	ADV	RB	_	26	advmod	_	_
+26	satisfied	satisfy	ADJ	JJ	Degree=Pos	24	xcomp	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	requirements	requirement	NOUN	NNS	Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = She grew to girlhood without any serious loss of beauty; her nose became neither too long nor too short; and when grown up, her critics admitted her to be charming.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	girlhood	girlhood	NOUN	NN	Number=Sing	2	obl	_	_
+5	without	without	ADP	IN	_	8	case	_	_
+6	any	any	DET	DT	_	8	det	_	_
+7	serious	serious	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	loss	loss	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	beauty	beauty	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	nose	nose	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+15	neither	neither	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	too	too	ADV	RB	_	17	advmod	_	_
+17	long	long	ADV	RB	Degree=Pos	15	advmod	_	_
+18	nor	nor	CCONJ	CC	_	20	cc	_	_
+19	too	too	ADV	RB	_	20	advmod	_	_
+20	short	short	ADJ	JJ	Degree=Pos	14	conj	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	2	punct	_	_
+22	and	and	CCONJ	CC	_	29	cc	_	_
+23	when	when	ADV	WRB	PronType=Int	29	mark	_	_
+24	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	29	advcl	_	_
+25	up	up	ADP	RP	_	24	compound:prt	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	critics	critic	NOUN	NNS	Number=Plur	29	nsubj	_	_
+29	admitted	admit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+30	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	to	to	PART	TO	_	33	mark	_	_
+32	be	be	AUX	VB	VerbForm=Inf	33	aux	_	_
+33	charming	charm	VERB	VBG	Tense=Pres|VerbForm=Part	29	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

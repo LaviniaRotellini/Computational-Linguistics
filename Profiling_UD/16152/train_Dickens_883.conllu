@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Ay, Mas’r Davy.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Mas’r	Mas’r	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Davy	Davy	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I doen’t rightly know how ‘tis, but from over yon there seemed to me to come--the end of it like,’ looking at me as if he were waking, but with the same determined face.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	doe	doe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	2	advmod	_	_
+4	rightly	rightly	ADV	RB	_	2	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+6	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+7	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+8	tis	ti	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	but	but	CCONJ	CC	_	15	cc	_	_
+11	from	from	ADP	IN	_	13	case	_	_
+12	over	over	ADP	IN	_	13	case	_	_
+13	yon	yon	PROPN	NNP	Number=Sing	15	obl	_	_
+14	there	there	ADV	RB	PronType=Dem	13	advmod	_	_
+15	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	come	come	VERB	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+20	--	--	PUNCT	,	_	19	punct	_	SpaceAfter=No
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	end	end	NOUN	NN	Number=Sing	19	obj	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
+25	like	like	INTJ	UH	_	28	discourse	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	28	punct	_	_
+28	looking	look	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+29	at	at	ADP	IN	_	30	case	_	_
+30	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obl	_	_
+31	as	as	SCONJ	IN	_	35	mark	_	_
+32	if	if	SCONJ	IN	_	35	mark	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	waking	wake	VERB	VBG	Tense=Pres|VerbForm=Part	28	advcl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	42	punct	_	_
+37	but	but	CCONJ	CC	_	42	cc	_	_
+38	with	with	ADP	IN	_	42	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+40	same	same	ADJ	JJ	Degree=Pos	42	amod	_	_
+41	determined	determined	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	face	face	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

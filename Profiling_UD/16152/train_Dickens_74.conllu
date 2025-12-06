@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, yes, it is,’ cried Mrs. Gummidge.
+1	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	yes	yes	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	10	punct	_	_
+10	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mrs.	Mrs.	PROPN	NNP	Number=Sing	10	appos	_	_
+12	Gummidge	Gummidge	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = ‘I know what I am.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	3	ccomp	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I know that I am a lone lorn creetur’, and not only that everythink goes contrary with me, but that I go contrary with everybody.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	9	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+7	lone	lone	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	lorn	lorn	NOUN	NN	Number=Sing	9	compound	_	_
+9	creetur	creetur	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	not	not	ADV	RB	_	14	advmod	_	_
+14	only	only	ADV	RB	_	17	cc	_	_
+15	that	that	SCONJ	IN	_	17	mark	_	_
+16	everythink	everythink	ADV	RB	_	17	advmod	_	_
+17	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+18	contrary	contrary	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	but	but	CCONJ	CC	_	25	cc	_	_
+23	that	that	SCONJ	IN	_	25	mark	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	contrary	contrary	ADJ	JJ	Degree=Pos	25	xcomp	_	_
+27	with	with	ADP	IN	_	28	case	_	_
+28	everybody	everybody	PRON	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Yes, yes.
+1	Yes	yes	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I feel more than other people do, and I show it more.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	2	obj	_	_
+4	than	than	ADP	IN	_	3	fixed	_	_
+5	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	more	more	ADJ	JJR	Degree=Cmp	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = It’s my misfortun’.’
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	misfortun	misfortun	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	’.	’.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

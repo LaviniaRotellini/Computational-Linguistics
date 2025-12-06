@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The state itself perceived that some one had been crushed somewhere.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	state	state	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod:npmod	_	_
+4	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	some	some	DET	DT	_	7	det	_	_
+7	one	one	NOUN	NN	Number=Sing	10	nsubj:pass	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	crushed	crush	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+11	somewhere	somewhere	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Less than four years after the judgment of the Court of Assizes establishing the identity of Jean Valjean and M. Madeleine, for the benefit of the galleys, the cost of collecting taxes had doubled in the arrondissement of M. sur M.; and M. de Villèle called attention to the fact in the rostrum, in the month of February, 1827.
+1	Less	less	ADJ	JJR	Degree=Cmp	4	advmod	_	_
+2	than	than	ADP	IN	_	1	fixed	_	_
+3	four	four	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	49	nsubj	_	_
+5	after	after	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	judgment	judgament	NOUN	NN	Number=Sing	36	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Court	court	PROPN	NNP	Number=Sing	7	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Assizes	Assizes	PROPN	NNPS	Number=Plur	10	nmod	_	_
+13	establishing	establish	VERB	VBG	VerbForm=Ger	7	acl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	identity	identity	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Jean	Jean	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	Valjean	Valjean	PROPN	NNP	Number=Sing	17	flat	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	M.	M.	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Madeleine	Madeleine	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	36	punct	_	_
+23	for	for	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	benefit	benefit	NOUN	NN	Number=Sing	36	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	galleys	galley	NOUN	NNS	Number=Plur	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	36	punct	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	cost	cost	NOUN	NN	Number=Sing	36	nsubj	_	_
+32	of	of	SCONJ	IN	_	33	mark	_	_
+33	collecting	collecting	VERB	VBG	VerbForm=Ger	31	acl	_	_
+34	taxes	tax	NOUN	NNS	Number=Plur	33	obj	_	_
+35	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	36	aux	_	_
+36	doubled	double	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	arrondissement	arrondissement	NOUN	NN	Number=Sing	36	obl	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	M.	M.	PROPN	NNP	Number=Sing	42	compound	_	_
+42	sur	sur	PROPN	NNP	Number=Sing	39	nmod	_	_
+43	M.	M.	PROPN	NNP	Number=Sing	42	flat	_	SpaceAfter=No
+44	;	;	PUNCT	,	_	4	punct	_	_
+45	and	and	CCONJ	CC	_	48	cc	_	_
+46	M.	M.	PROPN	NNP	Number=Sing	48	compound	_	_
+47	de	de	PROPN	NNP	Number=Sing	48	compound	_	_
+48	Villèle	Villèle	PROPN	NNP	Number=Sing	4	conj	_	_
+49	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+50	attention	attention	NOUN	NN	Number=Sing	49	obj	_	_
+51	to	to	ADP	IN	_	53	case	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	fact	fact	NOUN	NN	Number=Sing	49	obl	_	_
+54	in	in	ADP	IN	_	56	case	_	_
+55	the	the	DET	DT	Definite=Def|PronType=Art	56	det	_	_
+56	rostrum	rostrum	NOUN	NN	Number=Sing	53	nmod	_	SpaceAfter=No
+57	,	,	PUNCT	,	_	49	punct	_	_
+58	in	in	ADP	IN	_	60	case	_	_
+59	the	the	DET	DT	Definite=Def|PronType=Art	60	det	_	_
+60	month	month	NOUN	NN	Number=Sing	49	obl	_	_
+61	of	of	ADP	IN	_	62	case	_	_
+62	February	February	PROPN	NNP	Number=Sing	60	nmod	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	62	punct	_	_
+64	1827	1827	NUM	CD	NumType=Card	62	nummod	_	SpaceAfter=No
+65	.	.	PUNCT	.	_	49	punct	_	SpacesAfter=\n
+

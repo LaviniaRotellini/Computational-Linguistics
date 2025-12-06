@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You don’t like being called Nick?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	7	aux:pass	_	_
+7	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+8	Nick	Nick	PROPN	NNP	Number=Sing	7	xcomp	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Why, I always called you Nick in my heart, and though lost to sight, to memory dear.
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+7	Nick	Nick	PROPN	NNP	Number=Sing	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	heart	heart	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	though	though	ADV	RB	_	14	advmod	_	_
+14	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	sight	sight	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	memory	memory	VERB	VB	VerbForm=Inf	14	advcl	_	_
+20	dear	dear	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = By Jove!
+1	By	by	ADP	IN	_	2	case	_	_
+2	Jove	Jove	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = my feelings have ripened for you like fine old cognac.
+1	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	feelings	feeling	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ripened	ripen	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	like	like	ADP	IN	_	10	case	_	_
+8	fine	fine	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	old	old	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	cognac	cognac	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I hope you’ve got some in the house now.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	got	get	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	some	some	DET	DT	_	5	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	house	house	NOUN	NN	Number=Sing	5	obl	_	_
+10	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Josh filled my flask well the last time.”
+1	Josh	Josh	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	filled	fill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	flask	flask	NOUN	NN	Number=Sing	2	obj	_	_
+5	well	well	ADV	RB	Degree=Pos	2	advmod	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	time	time	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

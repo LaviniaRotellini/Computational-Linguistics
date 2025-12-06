@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "I have written to Brême for the timber.
+1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	written	write	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Brême	Brême	PROPN	NNP	Number=Sing	4	obl	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	timber	timber	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I have appointments all the morning with carpenters for the estimate.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	appointments	appointment	NOUN	NNS	Number=Plur	2	obj	_	_
+4	all	all	DET	PDT	_	3	det	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	morning	morning	NOUN	NN	Number=Sing	2	obl:tmod	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	carpenters	carpenter	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	estimate	estimate	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The rebuilding will go on fast.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rebuilding	rebuilding	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	fast	fast	ADJ	JJ	Degree=Pos	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = You must go yourself to the Deanery for a licence.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Deanery	Deanery	NOUN	NN	Number=Sing	3	obl	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	licence	licence	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = It is my wish that the marriage should take place as soon as possible; immediately would be better.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nsubj	_	_
+4	wish	wish	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	marriage	marriage	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	take	take	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+10	place	place	NOUN	NN	Number=Sing	9	obj	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	soon	soon	ADV	RB	Degree=Pos	9	advmod	_	_
+13	as	as	SCONJ	IN	_	14	mark	_	_
+14	possible	possible	ADJ	JJ	Degree=Pos	12	advcl	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	4	punct	_	_
+16	immediately	immediately	ADV	RB	_	19	advmod	_	_
+17	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	better	better	ADJ	JJR	Degree=Cmp	4	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I am busy about the Durande.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Durande	Durande	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Do you be busy about Déruchette."
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	Déruchette	Déruchette	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

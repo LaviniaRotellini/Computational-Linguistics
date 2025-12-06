@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = His bedroom was tolerably large, and rather difficult to warm in bad weather.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	bedroom	bedroom	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	tolerably	tolerably	ADV	RB	_	5	advmod	_	_
+5	large	large	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	rather	rather	ADV	RB	_	9	advmod	_	_
+9	difficult	difficult	ADJ	JJ	Degree=Pos	5	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	warm	warm	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	bad	bad	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	weather	weather	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = As wood is extremely dear at D——, he hit upon the idea of having a compartment of boards constructed in the cow-shed.
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	wood	wood	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	extremely	extremely	ADV	RB	_	5	advmod	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	11	advcl	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	D	D	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	——	——	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	hit	hit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	upon	upon	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	idea	idea	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	SCONJ	IN	_	16	mark	_	_
+16	having	have	VERB	VBG	VerbForm=Ger	14	acl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	compartment	compartment	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	boards	board	NOUN	NNS	Number=Plur	18	nmod	_	_
+21	constructed	construct	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	cow	cow	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	-shed	-sh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = Here he passed his evenings during seasons of severe cold:
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	evenings	evening	NOUN	NNS	Number=Plur	3	obj	_	_
+6	during	during	ADP	IN	_	7	case	_	_
+7	seasons	seasons	NOUN	NNS	Number=Plur	3	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	severe	severe	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	cold	cold	ADJ	JJ	Degree=Pos	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 4
+# text = he called it his _winter salon_.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	_winter	_winter	NOUN	NN	Number=Sing	6	compound	_	_
+6	salon	salon	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No
+7	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

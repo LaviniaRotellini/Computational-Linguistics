@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Henceforth, let the storm do what it might, there was nothing to fear for the sloop or the machinery.
+1	Henceforth	Henceforth	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	storm	storm	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	do	do	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+7	what	what	PRON	WP	PronType=Int	9	obj	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	might	might	AUX	MD	VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	there	there	PRON	EX	_	12	expl	_	_
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+13	nothing	nothing	PRON	NN	Number=Sing	12	nsubj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	fear	fear	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	sloop	sloop	NOUN	NN	Number=Sing	15	obl	_	_
+19	or	or	CCONJ	CC	_	21	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	machinery	machinery	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The water around them could not become agitated again.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	water	water	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	around	around	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	become	become	VERB	VB	VerbForm=Inf	0	root	_	_
+8	agitated	agitated	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+9	again	again	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Between the barrier of the Douvres, which covered them on the west, and the barricade which protected them from the east, no heavy sea or wind could reach them.
+1	Between	between	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	barrier	barrier	NOUN	NN	Number=Sing	31	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Douvres	Douvre	PROPN	NNPS	Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	covered	cover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	west	west	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	barricade	barricade	NOUN	NN	Number=Sing	3	conj	_	_
+18	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	protected	protect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	east	east	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	no	no	DET	DT	_	27	det	_	_
+26	heavy	heavy	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sea	sea	NOUN	NN	Number=Sing	31	nsubj	_	_
+28	or	or	CCONJ	CC	_	29	cc	_	_
+29	wind	wind	NOUN	NN	Number=Sing	27	conj	_	_
+30	could	could	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	reach	reach	VERB	VB	VerbForm=Inf	0	root	_	_
+32	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	31	punct	_	SpacesAfter=\n
+

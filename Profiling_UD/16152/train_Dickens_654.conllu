@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No,’ returned Steerforth, ‘the advocates are civilians--men who have taken a doctor’s degree at college--which is the first reason of my knowing anything about it.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	4	nsubj	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	4	punct	_	_
+4	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Steerforth	Steerforth	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	advocates	advocate	NOUN	NNS	Number=Plur	11	nsubj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	civilians	civilian	NOUN	NNS	Number=Plur	4	parataxis	_	SpaceAfter=No
+12	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+13	men	man	NOUN	NNS	Number=Plur	4	obj	_	_
+14	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	doctor	doctor	NOUN	NN	Number=Sing	20	nmod:poss	_	SpaceAfter=No
+19	’s	's	PART	POS	_	18	case	_	_
+20	degree	degree	NOUN	NN	Number=Sing	16	obj	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	college	college	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+23	--	--	PUNCT	,	_	13	punct	_	SpaceAfter=No
+24	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	28	amod	_	_
+28	reason	reason	NOUN	NN	Number=Sing	13	acl:relcl	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	knowing	know	VERB	VBG	VerbForm=Ger	28	acl	_	_
+32	anything	anything	PRON	NN	Number=Sing	31	obj	_	_
+33	about	about	ADP	IN	_	34	case	_	_
+34	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The proctors employ the advocates.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	proctors	proctor	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	employ	employ	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	advocates	advocate	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Both get very comfortable fees, and altogether they make a mighty snug little party.
+1	Both	both	DET	DT	_	2	nsubj	_	_
+2	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	comfortable	comfortable	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fees	fee	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	altogether	altogether	ADV	RB	_	10	advmod	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	mighty	mighty	NOUN	NN	Number=Sing	13	compound	_	_
+13	snug	snug	NOUN	NN	Number=Sing	15	compound	_	_
+14	little	little	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	party	party	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = On the whole, I would recommend you to take to Doctors’ Commons kindly, David.
+1	On	on	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	whole	whole	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	take	take	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	Doctors	doctors	NOUN	NNS	Number=Plur	14	nmod:poss	_	SpaceAfter=No
+13	’	's	PART	POS	_	12	case	_	_
+14	Commons	Common	NOUN	NNS	Number=Plur	10	obl	_	_
+15	kindly	kindly	ADV	RB	_	10	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	David	David	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = They plume themselves on their gentility there, I can tell you, if that’s any satisfaction.’
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	plume	plume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	gentility	gentility	NOUN	NN	Number=Sing	2	obl	_	_
+7	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	tell	tell	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	if	if	SCONJ	IN	_	18	mark	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	SpaceAfter=No
+16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	any	any	DET	DT	_	18	det	_	_
+18	satisfaction	satisfaction	NOUN	NN	Number=Sing	11	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, Tom, _you_ don’t wear such gentlemanly trousers—you haven’t got half such fine long legs,” said Jonah to his nephew, winking at the same time, to imply that there was something more in these statements than their undeniableness.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	_	_	SYM	NFP	_	7	punct	_	SpaceAfter=No
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	appos	_	SpaceAfter=No
+8	_	_	SYM	NFP	_	7	punct	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	wear	wear	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+12	such	such	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	gentlemanly	gentlemanly	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	trousers	trousers	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	19	advmod	_	_
+19	got	get	VERB	VBN	Tense=Past|VerbForm=Part	11	parataxis	_	_
+20	half	half	DET	PDT	_	24	det	_	_
+21	such	such	ADJ	JJ	Degree=Pos	20	amod	_	_
+22	fine	fine	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	long	long	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	legs	leg	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	27	punct	_	_
+27	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+28	Jonah	Jonah	PROPN	NNP	Number=Sing	27	nsubj	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	nephew	nephew	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	27	punct	_	_
+33	winking	win	VERB	VBG	VerbForm=Ger	27	advcl	_	_
+34	at	at	ADP	IN	_	37	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	same	same	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	time	time	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	27	punct	_	_
+39	to	to	ADP	IN	_	40	case	_	_
+40	imply	imply	ADV	RB	Degree=Pos	27	obl	_	_
+41	that	that	SCONJ	IN	_	43	mark	_	_
+42	there	there	PRON	EX	_	43	expl	_	_
+43	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	ccomp	_	_
+44	something	something	PRON	NN	Number=Sing	43	nsubj	_	_
+45	more	more	ADJ	JJR	Degree=Cmp	44	amod	_	_
+46	in	in	ADP	IN	_	48	case	_	_
+47	these	these	DET	DT	Number=Plur|PronType=Dem	48	det	_	_
+48	statements	statement	NOUN	NNS	Number=Plur	44	nmod	_	_
+49	than	than	ADP	IN	_	51	case	_	_
+50	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	51	nmod:poss	_	_
+51	undeniableness	undeniableness	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 2
+# text = Tom looked at his legs, but left it uncertain whether he preferred his moral advantages to a more vicious length of limb and reprehensible gentility of trouser.
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	legs	leg	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	uncertain	uncertain	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+11	whether	whether	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	preferred	prefer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	moral	moral	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	advantages	advantage	NOUN	NNS	Number=Plur	13	obj	_	_
+17	to	to	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	more	more	ADV	RBR	_	20	advmod	_	_
+20	vicious	vicious	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	length	length	NOUN	NN	Number=Sing	13	obl	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	limb	limb	NOUN	NN	Number=Sing	21	nmod	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	reprehensible	reprehensible	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	gentility	gentility	NOUN	NN	Number=Sing	23	conj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	trouser	trouser	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

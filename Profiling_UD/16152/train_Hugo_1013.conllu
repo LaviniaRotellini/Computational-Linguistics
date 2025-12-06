@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This old man, who was so firm and so brave in the presence of such a danger, seemed to possess one of those natures which are as courageous as they are kind, both easily and simply.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	man	man	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	firm	firm	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	brave	brave	ADJ	JJ	Degree=Pos	8	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	presence	presence	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	such	such	DET	PDT	_	18	det:predet	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	danger	danger	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	possess	possess	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	one	one	NUM	CD	NumType=Card	22	obj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	those	those	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	natures	nature	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+28	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	as	as	ADV	RB	_	30	advmod	_	_
+30	courageous	courageous	ADJ	JJ	Degree=Pos	23	acl:relcl	_	_
+31	as	as	SCONJ	IN	_	34	mark	_	_
+32	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+33	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	cop	_	_
+34	kind	kind	ADJ	JJ	Degree=Pos	30	advcl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	34	punct	_	_
+36	both	both	CCONJ	CC	_	37	cc:preconj	_	_
+37	easily	easily	ADV	RB	_	34	advmod	_	_
+38	and	and	CCONJ	CC	_	39	cc	_	_
+39	simply	simply	ADV	RB	_	37	conj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = The father of a woman whom we love is never a stranger to us.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	father	father	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	2	nmod	_	_
+6	whom	whom	PRON	WP	PronType=Rel	8	obj	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	never	never	ADV	RB	_	12	advmod	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	stranger	stranger	NOUN	NN	Number=Sing	0	root	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Marius felt proud of that unknown man.
+1	Marius	Marius	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	proud	proud	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	unknown	unknown	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

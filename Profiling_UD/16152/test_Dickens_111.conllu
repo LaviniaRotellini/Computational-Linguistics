@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Havisham beckoned her to come close, and took up a jewel from the table, and tried its effect upon her fair young bosom and against her pretty brown hair.
+1	Miss	miss	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Havisham	Havisham	PROPN	NNP	Number=Sing	1	flat	_	_
+3	beckoned	beckon	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	come	come	VERB	VB	VerbForm=Inf	3	advcl	_	_
+7	close	close	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	jewel	jewel	NOUN	NN	Number=Sing	10	obj	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	table	table	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	effect	effect	NOUN	NN	Number=Sing	19	obj	_	_
+22	upon	upon	ADP	IN	_	26	case	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+24	fair	fair	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	young	young	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	bosom	bosom	NOUN	NN	Number=Sing	19	obl	_	_
+27	and	and	CCONJ	CC	_	32	cc	_	_
+28	against	against	ADP	IN	_	29	case	_	_
+29	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nmod	_	_
+30	pretty	pretty	ADV	RB	_	31	advmod	_	_
+31	brown	brown	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	hair	hair	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Your own, one day, my dear, and you will use it well.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nsubj	_	_
+3	own	own	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	day	day	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	dear	dear	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	use	use	VERB	VB	VerbForm=Inf	3	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	well	well	ADV	RB	Degree=Pos	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Let me see you play cards with this boy.”
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	see	see	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	play	play	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+6	cards	card	NOUN	NNS	Number=Plur	5	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	boy	boy	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

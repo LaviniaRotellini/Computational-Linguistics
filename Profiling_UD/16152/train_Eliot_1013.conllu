@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah?”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = he said, not taking off his hat, but just turning her round within his arm to walk towards the spot where the letter lay.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	taking	take	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+6	off	off	ADP	RP	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hat	hat	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	but	but	CCONJ	CC	_	12	cc	_	_
+11	just	just	ADV	RB	_	12	advmod	_	_
+12	turning	turn	VERB	VBG	VerbForm=Ger	5	conj	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obj	_	_
+14	round	round	ADP	RP	_	17	case	_	_
+15	within	within	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	arm	arm	NOUN	NN	Number=Sing	12	obl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	walk	walk	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+20	towards	towards	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	spot	spot	NOUN	NN	Number=Sing	19	obl	_	_
+23	where	where	ADV	WRB	PronType=Rel	26	advmod	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	letter	letter	NOUN	NN	Number=Sing	26	nsubj	_	_
+26	lay	lay	VERB	VB	VerbForm=Inf	22	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “My uncle Godwin!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	uncle	uncle	NOUN	NN	Number=Sing	4	compound	_	_
+4	Godwin	Godwin	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 4
+# text = he exclaimed, while Rosamond reseated herself, and watched him as he opened the letter.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	while	while	SCONJ	IN	_	6	mark	_	_
+5	Rosamond	Rosamond	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	reseated	reseate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	letter	letter	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = She had expected him to be surprised.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	surprised	surprised	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It were but lonesome then,” said Joe, “living here alone, and I got acquainted with your sister.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+4	but	but	CCONJ	CC	_	5	cc	_	_
+5	lonesome	lonesome	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Joe	Joe	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+13	living	live	VERB	VBG	VerbForm=Ger	9	parataxis	_	_
+14	here	here	ADV	RB	PronType=Dem	13	advmod	_	_
+15	alone	alone	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+20	acquainted	acquaint	ADJ	JJ	Degree=Pos	19	xcomp	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	sister	sister	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Now, Pip,”—Joe looked firmly at me as if he knew I was not going to agree with him;—“your sister is a fine figure of a woman.”
+1	Now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Pip	Pip	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+7	Joe	Joe	PROPN	NNP	Number=Sing	3	flat	_	_
+8	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+9	firmly	firmly	ADV	RB	_	8	advmod	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	agree	agree	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	with	with	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	19	punct	_	SpaceAfter=No
+25	—“	—“	PUNCT	.	_	31	punct	_	SpaceAfter=No
+26	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	sister	sister	NOUN	NN	Number=Sing	31	nsubj	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	fine	fine	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	figure	figure	NOUN	NN	Number=Sing	19	parataxis	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	woman	woman	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	31	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

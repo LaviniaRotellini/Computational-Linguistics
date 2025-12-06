@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Betsey thanked him, and we went into his room, which was furnished as an office, with books, papers, tin boxes, and so forth.
+1	Miss	miss	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Betsey	Betsey	PROPN	NNP	Number=Sing	1	flat	_	_
+3	thanked	thank	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	into	into	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	room	room	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	8	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	furnished	furnish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+16	as	as	ADP	IN	_	18	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	office	office	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	with	with	ADP	IN	_	21	case	_	_
+21	books	book	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	papers	papers	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	tin	tin	NOUN	NN	Number=Sing	26	compound	_	_
+26	boxes	box	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	so	so	ADV	RB	_	30	advmod	_	_
+30	forth	forth	ADV	RB	_	3	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It looked into a garden, and had an iron safe let into the wall; so immediately over the mantelshelf, that I wondered, as I sat down, how the sweeps got round it when they swept the chimney.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	into	into	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	garden	garden	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	iron	iron	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	safe	safe	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	let	let	NOUN	NN	Number=Sing	8	obj	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	wall	wall	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	so	so	ADV	RB	_	18	advmod	_	_
+18	immediately	immediately	ADV	RB	_	2	advmod	_	_
+19	over	over	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	mantelshelf	mantelshelf	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	that	that	SCONJ	IN	_	25	mark	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	wondered	wonder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	_
+30	down	down	ADV	RB	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	2	punct	_	_
+32	how	how	ADV	WRB	PronType=Int	35	advmod	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	sweeps	sweep	NOUN	NNS	Number=Plur	35	nsubj	_	_
+35	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+36	round	round	ADV	RB	_	35	advmod	_	_
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+38	when	when	ADV	WRB	PronType=Int	40	mark	_	_
+39	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	_
+40	swept	sweep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	advcl	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	chimney	chimney	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

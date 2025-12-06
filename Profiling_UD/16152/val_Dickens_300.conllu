@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Once again, Stephen had to conquer an instinctive propensity to dislike this old woman, though her manner was as honest and simple as a manner possibly could be.
+1	Once	once	ADV	RB	NumType=Mult	2	advmod	_	_
+2	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Stephen	Stephen	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	conquer	conquer	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	instinctive	instinctive	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	propensity	propensity	NOUN	NN	Number=Sing	7	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	dislike	dislike	VERB	VB	VerbForm=Inf	7	advcl	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	woman	woman	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	though	though	SCONJ	IN	_	22	mark	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	manner	manner	NOUN	NN	Number=Sing	22	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	as	as	ADP	IN	_	22	case	_	_
+22	honest	honest	ADJ	JJ	Degree=Pos	30	advcl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	simple	simple	ADJ	JJ	Degree=Pos	22	conj	_	_
+25	as	as	ADP	IN	_	27	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	manner	manner	NOUN	NN	Number=Sing	30	nsubj	_	_
+28	possibly	possibly	ADV	RB	_	30	advmod	_	_
+29	could	could	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	be	be	AUX	VB	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = With a gentleness that was as natural to him as he knew it to be to Rachael, he pursued the subject that interested her in her old age.
+1	With	with	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	gentleness	gentleness	NOUN	NN	Number=Sing	20	obl	_	_
+4	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	natural	natural	ADJ	JJ	Degree=Pos	3	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	to	to	PART	TO	_	17	mark	_	_
+15	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	Rachael	Rachael	PROPN	NNP	Number=Sing	12	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	subject	subject	NOUN	NN	Number=Sing	20	obj	_	_
+23	that	that	PRON	WDT	PronType=Rel	24	nsubj	_	_
+24	interested	interest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	old	old	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	age	age	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\n
+

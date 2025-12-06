@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It’s money, sir,’ said Mr. Peggotty, unfolding it a little way.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	money	money	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	4	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Peggotty	Peggotty	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	unfolding	unfold	VERB	VBG	VerbForm=Ger	9	parataxis	_	_
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	way	way	NOUN	NN	Number=Sing	13	obl:npmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Ten pound, you see.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Ten	ten	NUM	CD	NumType=Card	3	nummod	_	_
+3	pound	pound	NOUN	NN	Number=Sing	6	obl:npmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = And wrote inside, “From a true friend,” like the fust.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	inside	inside	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+6	From	from	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	true	true	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	friend	friend	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	2	punct	_	_
+12	like	like	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	fust	fust	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But the fust was put underneath the door, and this come by the post, day afore yesterday.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	fust	fust	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	underneath	underneath	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	door	door	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+12	come	come	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+13	by	by	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	post	post	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	day	day	NOUN	NN	Number=Sing	12	obl:tmod	_	_
+18	afore	afore	ADP	IN	_	19	case	_	_
+19	yesterday	yesterday	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = I’m a-going to seek her at the post-mark.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	going	go	VERB	VBG	VerbForm=Ger	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	seek	seek	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	post-mark	post-mark	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

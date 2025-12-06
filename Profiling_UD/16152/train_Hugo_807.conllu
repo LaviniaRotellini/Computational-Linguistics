@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius Pontmercy pursued some studies, as all children do.
+1	Marius	Marius	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Pontmercy	Pontmercy	PROPN	NNP	Number=Sing	1	flat	_	_
+3	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	studies	study	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	as	as	SCONJ	IN	_	10	mark	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	children	child	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = When he emerged from the hands of Aunt Gillenormand, his grandfather confided him to a worthy professor of the most purely classic innocence.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	emerged	emerge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	hands	hand	NOUN	NNS	Number=Plur	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	Aunt	aunt	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	Gillenormand	Gillenormand	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	grandfather	grandfather	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	confided	confide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	worthy	worthy	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	professor	professor	NOUN	NN	Number=Sing	13	obl	_	_
+19	of	of	ADP	IN	_	24	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+21	most	most	ADV	RBS	_	22	advmod	_	_
+22	purely	purely	ADV	RB	_	23	advmod	_	_
+23	classic	classic	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	innocence	innocence	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = This young soul which was expanding passed from a prude to a vulgar pedant.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	young	young	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	soul	soul	NOUN	NN	Number=Sing	0	root	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	expanding	expand	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	prude	prude	NOUN	NN	Number=Sing	7	obl	_	_
+11	to	to	ADP	IN	_	14	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	vulgar	vulgar	NOUN	NN	Number=Sing	14	compound	_	_
+14	pedant	pedant	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

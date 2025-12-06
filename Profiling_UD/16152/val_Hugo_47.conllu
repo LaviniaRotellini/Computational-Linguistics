@@ -1,0 +1,116 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "If names of country towns are in fashion," said he, "why not Lons le Saulnier?"
+1	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	9	mark	_	_
+3	names	name	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	country	country	NOUN	NN	Number=Sing	6	compound	_	_
+6	towns	town	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	fashion	fashion	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	"	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+16	why	why	ADV	WRB	PronType=Int	19	advmod	_	_
+17	not	not	PART	RB	_	19	advmod	_	_
+18	Lons	Lons	PROPN	NNPS	Number=Plur	19	nsubj	_	_
+19	le	le	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+20	Saulnier	Saulnier	PROPN	NNP	Number=Sing	19	obj	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	12	punct	_	SpaceAfter=No
+22	"	"	PUNCT	''	_	12	punct	_	_
+
+# sent_id = 2
+# text = The fine lady did not yield her point, and on the morrow said, "We are determined not to have it Déruchette; I have found for your daughter a pretty name--_Marianne_."
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	fine	fine	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	lady	lady	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	yield	yield	VERB	VB	VerbForm=Inf	0	root	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	point	point	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	morrow	morrow	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+17	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj:pass	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	determined	determine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+20	not	not	ADV	RB	_	22	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	have	have	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	Déruchette	Déruchette	PROPN	NNP	Number=Sing	22	xcomp	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	6	punct	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	found	find	VERB	VBN	Tense=Past|VerbForm=Part	6	parataxis	_	_
+29	for	for	ADP	IN	_	31	case	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	daughter	daughter	NOUN	NN	Number=Sing	28	obl	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+33	pretty	pretty	ADJ	JJ	Degree=Pos	35	amod	_	_
+34	name	name	NOUN	NN	Number=Sing	35	compound	_	SpaceAfter=No
+35	--_Marianne_.	--_Marianne_.	NOUN	NN	Number=Sing	28	obj	_	SpaceAfter=No
+36	"	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 3
+# text = "A very pretty name, indeed," replied Mess Lethierry, "composed of two words which signify--a husband and an ass.
+1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	pretty	pretty	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	name	name	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	indeed	indeed	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	"	"	PUNCT	''	_	5	punct	_	_
+10	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mess	mess	PROPN	NNP	Number=Sing	10	obj	_	_
+12	Lethierry	Lethierry	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	"	"	PUNCT	''	_	15	punct	_	SpaceAfter=No
+15	composed	compose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	two	two	NUM	CD	NumType=Card	18	nummod	_	_
+18	words	word	NOUN	NNS	Number=Plur	15	obl	_	_
+19	which	which	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	signify	signify	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	-	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+22	-	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	husband	husband	NOUN	NN	Number=Sing	20	obj	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	ass	ass	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = "
+1	"	"	PUNCT	``	_	0	root	_	SpaceAfter=No
+
+# sent_id = 5
+# text = [4]
+1	[	[	PUNCT	-LRB-	_	2	punct	_	SpaceAfter=No
+2	4	4	X	LS	_	0	root	_	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	_	_
+
+# sent_id = 6
+# text = He held fast to Déruchette.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	fast	fast	ADV	RB	Degree=Pos	2	advmod	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Déruchette	Déruchette	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

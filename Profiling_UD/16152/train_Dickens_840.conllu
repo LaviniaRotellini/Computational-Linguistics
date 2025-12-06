@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why that, you know,’ he returned, rubbing his double chin again, ‘can’t naturally be expected.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	3	advmod	_	_
+3	that	that	ADV	WRB	PronType=Dem	6	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+7	,’	,’	PUNCT	.	_	6	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	rubbing	rub	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	double	double	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	chin	ching	NOUN	NN	Number=Sing	11	obj	_	_
+15	again	again	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	_	_
+17	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	ca	can	AUX	MD	VerbForm=Fin	22	aux	_	SpaceAfter=No
+19	n’t	not	PART	RB	_	22	advmod	_	_
+20	naturally	naturally	ADV	RB	_	22	advmod	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = The prospect of the change and separation, and all that, is, as one may say, close to her and far away from her, both at once.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	prospect	prospect	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	change	change	NOUN	NN	Number=Sing	2	nmod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	separation	separation	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	20	punct	_	_
+9	and	and	CCONJ	CC	_	20	cc	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	20	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	as	as	SCONJ	IN	_	18	mark	_	_
+16	one	one	PRON	PRP	_	18	nsubj	_	_
+17	may	may	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	say	say	VERB	VB	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	close	close	ADJ	JJ	Degree=Pos	2	conj	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	far	far	ADV	RB	Degree=Pos	25	advmod	_	_
+25	away	away	ADV	RB	_	20	conj	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	25	punct	_	_
+29	both	both	CCONJ	CC	_	31	advmod	_	_
+30	at	at	ADV	RB	_	31	advmod	_	_
+31	once	once	ADV	RB	NumType=Mult	20	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Barkis’s death needn’t put it off much, but his lingering might.
+1	Barkis	Barkis	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	death	death	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	mark	_	_
+6	put	put	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	off	off	ADV	RB	_	6	advmod	_	_
+9	much	much	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	lingering	linger	VERB	VBG	VerbForm=Ger	14	amod	_	_
+14	might	might	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Anyway, it’s an uncertain state of matters, you see.’
+1	Anyway	anyway	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	uncertain	uncertain	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	state	state	NOUN	NN	Number=Sing	12	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	matters	matter	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

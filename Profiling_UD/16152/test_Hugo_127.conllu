@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Gringoire colored, and took the hint.
+1	Gringoire	Gringoire	ADV	WRB	PronType=Int	2	advmod	_	_
+2	colored	colo	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	hint	hint	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It was evident that the young girl was alluding to the slight assistance which he had rendered her in the critical situation in which she had found herself two hours previously.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	evident	evident	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	girl	girl	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	alluding	allud	VERB	VBG	Tense=Pres|VerbForm=Part	3	csubj	_	_
+10	to	to	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	slight	slight	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	assistance	assistance	NOUN	NN	Number=Sing	9	obl	_	_
+14	which	which	PRON	WDT	PronType=Rel	17	obj	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	rendered	render	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	critical	critical	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	situation	situation	NOUN	NN	Number=Sing	17	obl	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	which	which	PRON	WDT	PronType=Rel	27	obl	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+26	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	found	find	VERB	VBN	Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+28	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	27	iobj	_	_
+29	two	two	NUM	CD	NumType=Card	30	nummod	_	_
+30	hours	hour	NOUN	NNS	Number=Plur	31	obl:npmod	_	_
+31	previously	previously	ADV	RB	_	27	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = This memory, effaced by his own adventures of the evening, now recurred to him.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	memory	memory	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	effaced	efface	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+5	by	by	ADP	IN	_	8	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	adventures	adventure	NOUN	NNS	Number=Plur	4	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	evening	evening	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	now	now	ADV	RB	_	14	advmod	_	_
+14	recurred	recur	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = He smote his brow.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	smote	smote	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	brow	brow	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

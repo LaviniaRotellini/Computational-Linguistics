@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh my dear Sir James,” said the Rector, “don’t let us make too much of all this.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Sir	Sir	PROPN	NNP	Number=Sing	6	compound	_	_
+6	James	James	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Rector	rector	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	let	let	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obj	_	_
+18	make	make	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	too	too	ADV	RB	_	20	advmod	_	_
+20	much	much	ADJ	JJ	Degree=Pos	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	all	all	DET	PDT	_	20	obl	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	18	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = It is likely enough to end in mere smoke.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	likely	likely	ADV	RB	_	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	end	end	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	mere	mere	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	smoke	smoke	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = After a month or two Brooke and this Master Ladislaw will get tired of each other; Ladislaw will take wing; Brooke will sell the ‘Pioneer,’ and everything will settle down again as usual.”
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	month	month	NOUN	NN	Number=Sing	12	obl	_	_
+4	or	or	CCONJ	CC	_	6	cc	_	_
+5	two	two	NUM	CD	NumType=Card	6	nummod	_	_
+6	Brooke	Brooke	PROPN	NNP	Number=Sing	3	conj	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	Master	master	NOUN	NN	Number=Sing	10	compound	_	_
+10	Ladislaw	Ladislaw	NOUN	NN	Number=Sing	3	conj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+13	tired	tired	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	each	each	DET	DT	_	16	det	_	_
+16	other	other	ADJ	JJ	Degree=Pos	13	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	12	punct	_	_
+18	Ladislaw	Ladislaw	ADV	RB	_	20	advmod	_	_
+19	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	take	take	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+21	wing	wing	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	12	punct	_	_
+23	Brooke	Brooke	NOUN	NN	Number=Sing	25	nsubj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	sell	sell	VERB	VB	VerbForm=Inf	12	parataxis	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	‘	'	PUNCT	``	_	28	punct	_	SpaceAfter=No
+28	Pioneer	pioneer	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	25	conj	_	_
+31	and	and	CCONJ	CC	_	34	cc	_	_
+32	everything	everything	PRON	NN	Number=Sing	34	nsubj	_	_
+33	will	will	AUX	MD	VerbForm=Fin	34	aux	_	_
+34	settle	settle	VERB	VB	VerbForm=Inf	12	conj	_	_
+35	down	down	ADP	RP	_	34	compound:prt	_	_
+36	again	again	ADV	RB	_	34	advmod	_	_
+37	as	as	ADP	IN	_	38	case	_	_
+38	usual	usual	ADJ	JJ	Degree=Pos	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

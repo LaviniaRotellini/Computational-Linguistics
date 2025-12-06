@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In less than three years the inventor of this process had become rich, which is good, and had made every one about him rich, which is better.
+1	In	in	ADP	IN	_	5	case	_	_
+2	less	less	ADJ	JJR	Degree=Cmp	4	advmod	_	_
+3	than	than	ADP	IN	_	2	fixed	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	12	obl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	inventor	inventor	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	process	process	NOUN	NN	Number=Sing	7	nmod	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	rich	rich	ADJ	JJ	Degree=Pos	12	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	good	good	ADJ	JJ	Degree=Pos	13	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	made	make	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+22	every	every	DET	DT	_	23	det	_	_
+23	one	one	NOUN	NN	Number=Sing	21	obj	_	_
+24	about	about	ADP	IN	_	25	case	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+26	rich	rich	ADJ	JJ	Degree=Pos	21	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	21	punct	_	_
+28	which	which	PRON	WDT	PronType=Rel	30	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	better	better	ADJ	JJR	Degree=Cmp	21	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He was a stranger in the Department.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	stranger	stranger	NOUN	NN	Number=Sing	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Department	department	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Of his origin, nothing was known; of the beginning of his career, very little.
+1	Of	of	ADP	IN	_	3	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	origin	origin	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	beginning	beginning	NOUN	NN	Number=Sing	7	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	career	career	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	little	little	ADJ	JJ	Degree=Pos	11	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = It was rumored that he had come to town with very little money, a few hundred francs at the most.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	rumored	rumor	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	come	come	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	town	town	NOUN	NN	Number=Sing	7	obl	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	money	money	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	few	few	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	hundred	hundred	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	francs	franc	NOUN	NNS	Number=Plur	3	appos	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	most	most	ADJ	JJS	Degree=Sup	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Last year (1861), on a beautiful May morning, a traveller, the person who is telling this story, was coming from Nivelles, and directing his course towards La Hulpe.
+1	Last	last	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	year	year	NOUN	NN	Number=Sing	25	obl:tmod	_	_
+3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+4	1861	1861	NUM	CD	NumType=Card	2	nummod	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	25	punct	_	_
+7	on	on	ADP	IN	_	11	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+9	beautiful	beautiful	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	May	May	PROPN	NNP	Number=Sing	11	compound	_	_
+11	morning	morning	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	traveller	traveller	NOUN	NN	Number=Sing	11	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	25	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	person	person	NOUN	NN	Number=Sing	25	nsubj	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	17	acl:relcl	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	story	story	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	Nivelles	Nivelles	PROPN	NNP	Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	directing	direct	VERB	VBG	Tense=Pres|VerbForm=Part	25	conj	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	course	course	NOUN	NN	Number=Sing	30	obj	_	_
+33	towards	towards	ADP	IN	_	35	case	_	_
+34	La	La	PROPN	NNP	Number=Sing	35	compound	_	_
+35	Hulpe	Hulpe	PROPN	NNP	Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 2
+# text = He was on foot.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	on	on	ADP	IN	_	4	case	_	_
+4	foot	foot	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He was pursuing a broad paved road, which undulated between two rows of trees, over the hills which succeed each other, raise the road and let it fall again, and produce something in the nature of enormous waves.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	pursuing	pursue	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	broad	broad	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	paved	pave	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	road	road	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	undulated	undulate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+11	between	between	ADP	IN	_	13	case	_	_
+12	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+13	rows	row	NOUN	NNS	Number=Plur	10	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	trees	tree	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	over	over	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	hills	hill	NOUN	NNS	Number=Plur	3	obl	_	_
+20	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	succeed	succeed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	each	each	DET	DT	_	23	det	_	_
+23	other	other	ADJ	JJ	Degree=Pos	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	_
+25	raise	raise	VERB	VB	VerbForm=Inf	3	advcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	road	road	NOUN	NN	Number=Sing	25	obj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	let	let	VERB	VB	VerbForm=Inf	25	conj	_	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	fall	fall	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+32	again	again	ADV	RB	_	31	advmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	produce	produce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	conj	_	_
+36	something	something	PRON	NN	Number=Sing	35	obj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	nature	nature	NOUN	NN	Number=Sing	35	obl	_	_
+40	of	of	ADP	IN	_	42	case	_	_
+41	enormous	enormous	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	waves	wave	NOUN	NNS	Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

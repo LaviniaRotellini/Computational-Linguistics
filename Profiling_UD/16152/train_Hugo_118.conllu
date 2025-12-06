@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In pruning season he earned eighteen sous a day; then he hired out as a hay-maker, as laborer, as neat-herd on a farm, as a drudge.
+1	In	in	ADP	IN	_	3	case	_	_
+2	pruning	pruning	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	season	season	NOUN	NN	Number=Sing	5	obl	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	earned	earn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eighteen	eighteen	NUM	CD	NumType=Card	5	obj	_	_
+7	sous	sous	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	day	day	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	then	then	ADV	RB	PronType=Dem	13	advmod	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	hired	hire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	as	as	ADP	IN	_	19	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+17	hay	hay	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	maker	maker	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	13	punct	_	_
+21	as	as	ADV	RB	_	22	advmod	_	_
+22	laborer	laborer	ADV	RBR	Degree=Cmp	13	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	13	punct	_	_
+24	as	as	SCONJ	IN	_	34	mark	_	_
+25	neat	neat	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	herd	herd	NOUN	NN	Number=Sing	34	nsubj	_	_
+28	on	on	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	farm	farm	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	as	as	ADP	IN	_	34	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	drudge	drudge	NOUN	NN	Number=Sing	13	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He did whatever he could.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	whatever	whatever	PRON	WP	PronType=Int	2	obj	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = His sister worked also but what could she do with seven little children?
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	sister	sister	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	also	also	ADV	RB	_	3	advmod	_	_
+5	but	but	CCONJ	CC	_	9	cc	_	_
+6	what	what	PRON	WP	PronType=Int	9	obj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	do	do	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	seven	seven	NUM	CD	NumType=Card	12	nummod	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	children	child	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It was a sad group enveloped in misery, which was being gradually annihilated.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	sad	sad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	group	group	NOUN	NN	Number=Sing	0	root	_	_
+6	enveloped	envelo	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	misery	misery	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	14	nsubj:pass	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+12	being	be	AUX	VBG	VerbForm=Ger	14	aux:pass	_	_
+13	gradually	gradually	ADV	RB	_	14	advmod	_	_
+14	annihilated	annihilate	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = A very hard winter came.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	very	very	ADV	RB	_	3	advmod	_	_
+3	hard	hard	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	winter	winter	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Jean had no work.
+1	Jean	Jean	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	work	work	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = The family had no bread.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	family	family	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	bread	bread	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = No bread literally.
+1	No	no	DET	DT	_	2	det	_	_
+2	bread	bread	NOUN	NN	Number=Sing	0	root	_	_
+3	literally	literabably	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Seven children!
+1	Seven	seven	PROPN	NNP	Number=Sing	2	compound	_	_
+2	children	child	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

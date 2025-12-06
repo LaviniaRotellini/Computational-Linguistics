@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, I’m sure he wouldn’t like it.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n’t	not	PART	RB	_	10	advmod	_	_
+10	like	like	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Don’t ask me why, or anything about it,” said Maggie, in a distressed tone.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	13	ccomp	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	why	why	ADV	WRB	PronType=Int	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	anything	anything	PRON	NN	Number=Sing	5	conj	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Maggie	Maggie	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	distressed	distressed	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	tone	tone	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = “My father feels so strongly about some things.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	father	father	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	strongly	strongly	ADV	RB	_	4	advmod	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	some	some	DET	DT	_	9	det	_	_
+9	things	thing	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He is not at all happy.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	at	at	ADV	RB	_	6	advmod	_	_
+5	all	all	ADV	RB	_	6	advmod	_	_
+6	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

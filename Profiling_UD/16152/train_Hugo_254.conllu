@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The matter to which you refer is one connected with the municipal police.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	matter	matter	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	which	which	PRON	WDT	PronType=Rel	7	obl	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	refer	refer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	one	one	NUM	CD	NumType=Card	0	root	_	_
+10	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	municipal	municipal	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	police	police	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = According to the terms of articles nine, eleven, fifteen, and sixty-six of the code of criminal examination, I am the judge.
+1	According	accord	VERB	VBG	VerbForm=Ger	4	case	_	_
+2	to	to	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	terms	term	NOUN	NNS	Number=Plur	27	obl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	articles	article	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	nine	nine	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	eleven	eleven	ADV	RB	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	fifteen	fifteen	NUM	CD	NumType=Card	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	sixty	sixty	NUM	CD	NumType=Card	6	conj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	six	six	NUM	CD	NumType=Card	14	compound	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	code	code	NOUN	NN	Number=Sing	16	nmod	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	criminal	criminal	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	examination	examination	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	judge	judge	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 3
+# text = I order that this woman shall be set at liberty.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	order	order	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	shall	shall	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	liberty	liberty	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

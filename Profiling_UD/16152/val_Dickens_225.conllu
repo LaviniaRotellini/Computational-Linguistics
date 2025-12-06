@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I do not pretend to understand these things,’ said Mrs. Sparsit, with dignity, ‘my lot having been signally cast in a widely different sphere; and Mr. Sparsit, as a Powler, being also quite out of the pale of any such dissensions.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	pretend	pretend	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	understand	understand	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	things	thing	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	25	nsubj	_	_
+14	Sparsit	Sparsit	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	dignity	dignity	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	25	punct	_	_
+19	‘	'	PUNCT	``	_	25	punct	_	SpaceAfter=No
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	lot	lot	NOUN	NN	Number=Sing	25	nsubj	_	_
+22	having	have	AUX	VBG	VerbForm=Ger	25	aux	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	25	cop	_	_
+24	signally	signally	ADV	RB	_	25	advmod	_	_
+25	cast	cast	ADV	RB	Degree=Pos	12	advmod	_	_
+26	in	in	ADP	IN	_	30	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	widely	widly	ADV	RB	_	30	advmod	_	_
+29	different	different	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	sphere	sphere	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	12	punct	_	_
+32	and	and	CCONJ	CC	_	46	cc	_	_
+33	Mr.	Mr.	PROPN	NNP	Number=Sing	46	nsubj	_	_
+34	Sparsit	Sparsit	PROPN	NNP	Number=Sing	33	flat	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	46	punct	_	_
+36	as	as	ADP	IN	_	38	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	Powler	Powler	NOUN	NN	Number=Sing	46	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	46	punct	_	_
+40	being	be	AUX	VBG	VerbForm=Ger	46	cop	_	_
+41	also	also	ADV	RB	_	46	advmod	_	_
+42	quite	quite	ADV	RB	_	46	advmod	_	_
+43	out	out	ADP	IN	_	46	case	_	_
+44	of	of	ADP	IN	_	46	case	_	_
+45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
+46	pale	pale	NOUN	NN	Number=Sing	12	conj	_	_
+47	of	of	ADP	IN	_	50	case	_	_
+48	any	any	DET	DT	_	50	det	_	_
+49	such	such	ADJ	JJ	Degree=Pos	50	amod	_	_
+50	dissensions	dissension	NOUN	NNS	Number=Plur	46	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = I only know that these people must be conquered, and that it’s high time it was done, once for all.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	RB	_	3	advmod	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	people	people	NOUN	NNS	Number=Plur	9	nsubj:pass	_	_
+7	must	must	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	conquered	conquer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	high	high	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	time	time	NOUN	NN	Number=Sing	3	conj	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	3	punct	_	_
+21	once	once	ADV	RB	NumType=Mult	3	advmod	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	all	all	DET	DT	_	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

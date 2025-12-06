@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “You’d far better hold your tongue, Dagley,” said the wife, “and not kick your own trough over.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+4	far	far	ADV	RB	Degree=Pos	5	advmod	_	_
+5	better	better	ADV	RBR	Degree=Cmp	3	advmod	_	_
+6	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	3	conj	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	tongue	tongue	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	Dagley	Dagley	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	wife	wife	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	kick	kick	VERB	VB	VerbForm=Inf	13	conj	_	_
+21	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	own	own	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	trough	trough	NOUN	NN	Number=Sing	20	obj	_	_
+24	over	over	ADV	RB	_	20	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = When a man as is father of a family has been an’ spent money at market and made himself the worse for liquor, he’s done enough mischief for one day.
+1	When	when	ADV	WRB	PronType=Int	14	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	father	father	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	family	family	NOUN	NN	Number=Sing	6	nmod	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	SpaceAfter=No
+13	’	’	PART	POS	_	14	mark	_	_
+14	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	money	money	NOUN	NN	Number=Sing	14	obj	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	market	market	NOUN	NN	Number=Sing	14	obl	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	worse	worse	NOUN	NN	Number=Sing	19	xcomp	_	_
+23	for	for	ADP	IN	_	24	case	_	_
+24	liquor	liquor	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	30	punct	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	SpaceAfter=No
+27	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	done	do	VERB	VBN	Tense=Past|VerbForm=Part	30	amod	_	_
+29	enough	enough	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	mischief	mischief	NOUN	NN	Number=Sing	14	conj	_	_
+31	for	for	ADP	IN	_	33	case	_	_
+32	one	one	NUM	CD	NumType=Card	33	nummod	_	_
+33	day	day	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 3
+# text = But I should like to know what my boy’s done, sir.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	know	know	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	what	what	PRON	WP	PronType=Int	9	obj	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	boy	boy	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	done	do	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	sir	sir	ADJ	JJ	Degree=Pos	9	amod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

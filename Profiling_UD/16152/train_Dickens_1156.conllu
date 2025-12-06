@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, to be sure!’ said Uriah.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	sure	sure	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Uriah	Uriah	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘When a person’s umble, you know, what’s an apology?
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	person	person	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	umble	umble	ADJ	JJ	Degree=Pos	9	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	what	what	PRON	WP	PronType=Int	14	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	apology	apology	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = So easy!
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	easy	easy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I say!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I suppose,’ with a jerk, ‘you have sometimes plucked a pear before it was ripe, Master Copperfield?’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	jerk	jerk	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	sometimes	sometimes	ADV	RB	_	13	advmod	_	_
+13	plucked	pluck	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	pear	pear	NOUN	NN	Number=Sing	13	obj	_	_
+16	before	before	SCONJ	IN	_	19	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	ripe	ripe	ADJ	JJ	Degree=Pos	13	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	13	punct	_	_
+21	Master	master	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Copperfield	Copperfield	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well!
+1	“	"	PUNCT	``	_	0	root	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = comrades!”
+1	comrades	comrade	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = exclaimed the merchant, “to Notre-Dame!
+1	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	merchant	merchant	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	to	to	ADP	IN	_	7	case	_	_
+7	Notre	Notre	PROPN	NNP	Number=Sing	1	obl	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+9	Dame	Dame	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = So much the better, since there are in the chapel of Saints Féréol and Ferrution two statues, the one of John the Baptist, the other of Saint-Antoine, of solid gold, weighing together seven marks of gold and fifteen estellins; and the pedestals are of silver-gilt, of seventeen marks, five ounces.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	much	much	ADV	RB	_	4	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	mark	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	26	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	since	since	SCONJ	IN	_	8	mark	_	_
+7	there	there	PRON	EX	_	8	expl	_	_
+8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	chapel	chapel	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	Saints	Saints	PROPN	NNPS	Number=Plur	11	nmod	_	_
+14	Féréol	Féréol	PROPN	NNP	Number=Sing	13	flat	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	Ferrution	Ferrution	PROPN	NNP	Number=Sing	18	conj	_	_
+17	two	two	NUM	CD	NumType=Card	18	nummod	_	_
+18	statues	statue	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	one	one	NOUN	NN	Number=Sing	4	parataxis	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	John	John	PROPN	NNP	Number=Sing	21	nmod	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	Baptist	Baptist	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	38	punct	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	other	other	ADJ	JJ	Degree=Pos	38	nsubj	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	Saint	Saint	PROPN	NNP	Number=Sing	28	nmod	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	Antoine	Antoine	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	30	punct	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	solid	solid	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	gold	gold	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	_	_
+38	weighing	weigh	VERB	VBG	VerbForm=Ger	47	conj	_	_
+39	together	together	ADV	RB	_	40	advmod	_	_
+40	seven	seven	NUM	CD	NumType=Card	41	nummod	_	_
+41	marks	mark	NOUN	NNS	Number=Plur	38	obj	_	_
+42	of	of	ADP	IN	_	43	case	_	_
+43	gold	gold	NOUN	NN	Number=Sing	41	nmod	_	_
+44	and	and	CCONJ	CC	_	46	cc	_	_
+45	fifteen	fifteen	NUM	CD	NumType=Card	46	nummod	_	_
+46	estellins	estellin	NOUN	NNS	Number=Plur	43	conj	_	SpaceAfter=No
+47	;	;	PUNCT	,	_	53	punct	_	_
+48	and	and	CCONJ	CC	_	53	cc	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	_
+50	pedestals	pedestal	NOUN	NNS	Number=Plur	53	nsubj	_	_
+51	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	53	cop	_	_
+52	of	of	ADP	IN	_	53	case	_	_
+53	silver	silver	NOUN	NN	Number=Sing	55	conj	_	SpaceAfter=No
+54	-	-	PUNCT	HYPH	_	53	punct	_	SpaceAfter=No
+55	gilt	gilt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	55	punct	_	_
+57	of	of	ADP	IN	_	59	case	_	_
+58	seventeen	seventeen	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	marks	mark	NOUN	NNS	Number=Plur	55	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	,	_	55	punct	_	_
+61	five	five	NUM	CD	NumType=Card	62	nummod	_	_
+62	ounces	ounce	NOUN	NNS	Number=Plur	55	parataxis	_	SpaceAfter=No
+63	.	.	PUNCT	.	_	55	punct	_	_
+
+# sent_id = 5
+# text = I know that; I am a goldsmith.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+3	that	that	SCONJ	IN	_	2	obj	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	2	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	goldsmith	goldsmith	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

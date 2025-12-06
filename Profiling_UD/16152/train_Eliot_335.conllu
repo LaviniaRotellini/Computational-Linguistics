@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Fred, my boy!”
+1	Fred	Fred	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	boy	boy	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = he said, in a tone of mild surprise, holding his pen still undipped; “you are here betimes.”
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	tone	tone	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	mild	mild	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	surprise	surprise	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	holding	hold	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	pen	pen	NOUN	NN	Number=Sing	11	obj	_	_
+14	still	still	ADV	RB	_	15	advmod	_	_
+15	undipped	undip	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	here	here	ADV	RB	PronType=Dem	21	advmod	_	_
+21	betimes	betimes	NOUN	NNS	Number=Plur	2	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 4
+# text = But missing the usual expression of cheerful greeting in Fred’s face, he immediately added, “Is there anything up at home?—anything the matter?”
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part	16	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	usual	usual	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	expression	expression	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	cheerful	cheerful	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	greeting	greeting	NOUN	NN	Number=Sing	5	nmod	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	Fred	Fred	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	face	face	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	immediately	immediately	ADV	RB	_	16	advmod	_	_
+16	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+20	there	there	PRON	EX	_	19	expl	_	_
+21	anything	anything	PRON	NN	Number=Sing	22	nsubj	_	_
+22	up	up	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	nsubj	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	home	home	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	19	punct	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+27	anything	anything	PRON	NN	Number=Sing	29	nsubj	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	matter	matter	NOUN	NN	Number=Sing	19	nsubj	_	SpaceAfter=No
+30	?	?	PUNCT	.	_	16	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

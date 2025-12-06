@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I shall be happy to be taught,” said Rosamond.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	shall	shall	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	happy	happy	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Rosamond	Rosamond	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “But I am sure you admit that the interruption was a very beautiful one.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	admit	admit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	that	that	SCONJ	IN	_	15	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	interruption	interruption	NOUN	NN	Number=Sing	15	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+13	very	very	ADV	RB	_	14	advmod	_	_
+14	beautiful	beautiful	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	one	one	NUM	CD	NumType=Card	7	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I quite envy your acquaintance with Mrs. Casaubon.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	quite	quite	ADV	RB	_	3	advmod	_	_
+3	envy	envy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	acquaintance	acquaintance	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	3	obl	_	_
+8	Casaubon	Casaubon	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Is she very clever?
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	clever	clever	ADV	RB	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = She looks as if she were.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I felt uncomfortable about going down to breakfast in the morning, as I had never set eyes on Mr. Murdstone since the day when I committed my memorable offence.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	about	about	SCONJ	IN	_	5	mark	_	_
+5	going	go	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	down	down	ADV	RB	_	5	advmod	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	breakfast	breakfast	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	morning	morning	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	as	as	SCONJ	IN	_	17	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	set	set	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	17	obj	_	_
+19	on	on	ADP	IN	_	20	case	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	17	obl	_	_
+21	Murdstone	Murdstone	PROPN	NNP	Number=Sing	20	flat	_	_
+22	since	since	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	day	day	NOUN	NN	Number=Sing	2	obl	_	_
+25	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	committed	commit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+29	memorable	memorable	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	offence	offence	NOUN	NN	Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = However, as it must be done, I went down, after two or three false starts half-way, and as many runs back on tiptoe to my own room, and presented myself in the parlour.
+1	However	however	ADV	RB	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	10	punct	_	_
+3	as	as	SCONJ	IN	_	7	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	down	down	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	after	after	ADP	IN	_	14	case	_	_
+14	two	two	NUM	CD	NumType=Card	19	nummod	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	three	three	NUM	CD	NumType=Card	14	conj	_	_
+17	false	false	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	starts	start	NOUN	NNS	Number=Plur	19	compound	_	_
+19	half	half	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	way	way	NOUN	NN	Number=Sing	10	obl:npmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	as	as	ADP	IN	_	26	case	_	_
+25	many	many	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	runs	run	NOUN	NNS	Number=Plur	21	conj	_	_
+27	back	back	ADV	RB	_	29	advmod	_	_
+28	on	on	ADP	IN	_	29	case	_	_
+29	tiptoe	tiptoe	NOUN	NN	Number=Sing	26	nmod	_	_
+30	to	to	ADP	IN	_	33	case	_	_
+31	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+32	own	own	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	room	room	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+37	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	36	obj	_	_
+38	in	in	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	parlour	parlour	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

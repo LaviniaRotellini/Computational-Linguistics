@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The triangle included in the top of the A, between the two limbs and the tie, is the plateau of Mont-Saint-Jean.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	triangle	triangle	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	included	include	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	top	top	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	A	a	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	between	between	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+14	limbs	limb	NOUN	NNS	Number=Plur	9	nmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	tie	tie	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	plateau	plateau	NOUN	NN	Number=Sing	27	compound	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	Mont	Mont	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	Saint	Saint	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	Jean	Jean	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The dispute over this plateau constituted the whole battle.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	dispute	dispute	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	over	over	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	plateau	plateau	NOUN	NN	Number=Sing	2	nmod	_	_
+6	constituted	constitute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	whole	whole	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	battle	battle	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = The wings of the two armies extended to the right and left of the two roads to Genappe and Nivelles; d’Erlon facing Picton, Reille facing Hill.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	wings	wing	NOUN	NNS	Number=Plur	0	root	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	two	two	NUM	CD	NumType=Card	6	nummod	_	_
+6	armies	armies	NOUN	NNS	Number=Plur	2	nmod	_	_
+7	extended	extend	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	right	right	NOUN	NN	Number=Sing	7	obl	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	left	leave	NOUN	NN	Number=Sing	10	conj	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	two	two	NUM	CD	NumType=Card	16	nummod	_	_
+16	roads	roads	NOUN	NNS	Number=Plur	12	nmod	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	Genappe	Genappe	PROPN	NNP	Number=Sing	16	nmod	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	Nivelles	Nivelles	PROPN	NNP	Number=Sing	18	conj	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	2	punct	_	_
+22	d	d	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+23	’	's	PART	POS	_	22	case	_	SpaceAfter=No
+24	Erlon	Erlon	PROPN	NNP	Number=Sing	22	flat	_	_
+25	facing	face	VERB	VBG	VerbForm=Ger	22	acl	_	_
+26	Picton	Picton	PROPN	NNP	Number=Sing	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	Reille	Reille	PROPN	NNP	Number=Sing	26	conj	_	_
+29	facing	face	VERB	VBG	VerbForm=Ger	26	acl	_	_
+30	Hill	Hill	PROPN	NNP	Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

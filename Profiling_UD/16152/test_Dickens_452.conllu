@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When he had once more laughed heartily, he became meek again, and told me that the moment he began to realise Capital, it was his intention to marry this young lady.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+4	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	laughed	laughed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+7	heartily	heartily	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	meek	meek	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	again	again	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	that	that	SCONJ	IN	_	29	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	moment	moment	NOUN	NN	Number=Sing	29	nsubj	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	realise	realise	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	Capital	Capital	PROPN	NNP	Number=Sing	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	29	punct	_	_
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	intention	intention	NOUN	NN	Number=Sing	15	ccomp	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	marry	marry	VERB	VB	VerbForm=Inf	29	acl	_	_
+32	this	this	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+33	young	young	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	lady	lady	NOUN	NN	Number=Sing	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = He added as a self-evident proposition, engendering low spirits, “But you _can’t_ marry, you know, while you’re looking about you.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	ADP	IN	_	8	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+5	self	self	NOUN	NN	Number=Sing	7	obl:npmod	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	evident	evident	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	proposition	proposition	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	engendering	engender	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+11	low	low	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	spirits	spirit	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	_	_
+14	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+15	But	but	CCONJ	CC	_	19	cc	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	_ca	_can	AUX	MD	VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n’t_	n’t_	SYM	NFP	_	19	punct	_	_
+19	marry	marry	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	while	while	SCONJ	IN	_	26	mark	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	SpaceAfter=No
+26	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+27	looking	look	VERB	VBG	VerbForm=Ger	26	xcomp	_	_
+28	about	about	ADP	IN	_	29	case	_	_
+29	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

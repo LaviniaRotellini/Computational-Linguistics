@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pardieu!” exclaimed Courfeyrac (“Parbleu” was falling into disuse at this period), “that number 18 is strange and strikes me.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pardieu!	pardieu!	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	2	punct	_	_
+4	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	8	compound	_	_
+6	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+7	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+8	Parbleu	Parbleu	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	falling	falling	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	_
+12	into	into	ADP	IN	_	13	case	_	_
+13	disuse	disuse	NOUN	NN	Number=Sing	11	obl	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	period	period	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	11	punct	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	“	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
+20	that	that	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	number	number	NOUN	NN	Number=Sing	24	nsubj	_	_
+22	18	18	NUM	CD	NumType=Card	21	nummod	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	strange	strange	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	strikes	strike	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It is Bonaparte’s fatal number.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	Bonaparte	Bonaparte	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	fatal	fatal	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	number	number	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Place Louis in front and Brumaire behind, you have the whole destiny of the man, with this significant peculiarity, that the end treads close on the heels of the commencement.”
+1	Place	place	NOUN	NN	Number=Sing	2	compound	_	_
+2	Louis	Louis	NOUN	NNS	Number=Plur	10	nsubj	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	front	front	NOUN	NN	Number=Sing	2	nmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	Brumaire	Brumaire	PROPN	NNP	Number=Sing	2	conj	_	_
+7	behind	behind	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	whole	whole	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	destiny	destiny	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	man	man	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	10	punct	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+20	significant	significant	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	peculiarity	peculiarity	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	10	punct	_	_
+23	that	that	SCONJ	IN	_	27	mark	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	end	end	NOUN	NN	Number=Sing	26	compound	_	_
+26	treads	tread	NOUN	NNS	Number=Plur	27	nsubj	_	_
+27	close	close	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+28	on	on	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	heels	heel	NOUN	NNS	Number=Plur	27	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	commencement	commencement	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

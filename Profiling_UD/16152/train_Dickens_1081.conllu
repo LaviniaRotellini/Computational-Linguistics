@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘On my return to Norwood, after the period of absence occasioned by my brother’s marriage,’ pursued Miss Murdstone in a disdainful voice, ‘and on the return of Miss Spenlow from her visit to her friend
+1	‘	'	PUNCT	``	_	21	punct	_	SpaceAfter=No
+2	On	on	ADP	IN	_	4	case	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	return	return	NOUN	NN	Number=Sing	21	obl	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Norwood	Norwood	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	21	punct	_	_
+8	after	after	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	period	period	NOUN	NN	Number=Sing	21	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	absence	absence	NOUN	NN	Number=Sing	10	nmod	_	_
+13	occasioned	occasion	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	by	by	ADP	IN	_	18	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	brother	brother	NOUN	NN	Number=Sing	18	nmod:poss	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	marriage	marriage	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	21	punct	_	_
+21	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Miss	miss	PROPN	NNP	Number=Sing	21	obj	_	_
+23	Murdstone	Murdstone	PROPN	NNP	Number=Sing	22	flat	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	disdainful	disdainful	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	voice	voice	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	21	punct	_	_
+29	‘	'	PUNCT	``	_	33	punct	_	SpaceAfter=No
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	return	return	NOUN	NN	Number=Sing	21	conj	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	Miss	miss	PROPN	NNP	Number=Sing	36	compound	_	_
+36	Spenlow	Spenlow	PROPN	NNP	Number=Sing	33	nmod	_	_
+37	from	from	ADP	IN	_	39	case	_	_
+38	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	visit	visit	NOUN	NN	Number=Sing	33	nmod	_	_
+40	to	to	ADP	IN	_	42	case	_	_
+41	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	friend	friend	NOUN	NN	Number=Sing	39	nmod	_	_
+
+# sent_id = 2
+# text = Miss
+1	Miss	miss	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Mills, I imagined that the manner of Miss Spenlow gave me greater occasion for suspicion than before.
+1	Mills	Mills	PROPN	NNP	Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	imagined	imagine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	manner	manner	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Miss	miss	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	Spenlow	Spenlow	PROPN	NNP	Number=Sing	9	flat	_	_
+11	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+13	greater	greater	ADJ	JJR	Degree=Cmp	14	amod	_	_
+14	occasion	occasion	NOUN	NN	Number=Sing	11	obj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	suspicion	suspicion	NOUN	NN	Number=Sing	14	nmod	_	_
+17	than	than	ADP	IN	_	18	case	_	_
+18	before	before	ADV	RB	_	11	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Therefore I watched Miss Spenlow closely.’
+1	Therefore	therefore	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Spenlow	Spenlow	PROPN	NNP	Number=Sing	3	obj	_	_
+6	closely	closely	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “We live in a poor country.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	poor	poor	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	country	country	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = There is, in truth,” added the wheelwright, “an old calash under the shed yonder, which belongs to a bourgeois of the town, who gave it to me to take care of, and who only uses it on the thirty-sixth of the month—never, that is to say.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	truth	truth	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	wheelwright	wheelwright	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+13	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	calash	calash	NOUN	NN	Number=Sing	8	appos	_	_
+16	under	under	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	shed	shed	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	yonder	yonder	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	8	punct	_	_
+21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	bourgeois	bourgeois	NOUN	NN	Number=Sing	22	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	town	town	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	8	punct	_	_
+30	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+31	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obl	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	take	take	VERB	VB	VerbForm=Inf	31	advcl	_	_
+37	care	care	NOUN	NN	Number=Sing	36	obj	_	_
+38	of	of	ADP	IN	_	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	43	punct	_	_
+40	and	and	CCONJ	CC	_	43	cc	_	_
+41	who	who	PRON	WP	PronType=Int	43	nsubj	_	_
+42	only	only	ADV	RB	_	43	advmod	_	_
+43	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+44	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+45	on	on	ADP	IN	_	49	case	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+47	thirty	thirty	NUM	CD	NumType=Card	49	nummod	_	SpaceAfter=No
+48	-	-	PUNCT	HYPH	_	49	punct	_	SpaceAfter=No
+49	sixth	sixth	NOUN	NN	Number=Sing	43	obl	_	_
+50	of	of	ADP	IN	_	52	case	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	_
+52	month	month	NOUN	NN	Number=Sing	49	nmod	_	SpaceAfter=No
+53	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+54	never	never	ADV	RB	_	2	advmod	_	SpaceAfter=No
+55	,	,	PUNCT	,	_	2	punct	_	_
+56	that	that	PRON	DT	Number=Sing|PronType=Dem	57	nsubj	_	_
+57	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+58	to	to	PART	TO	_	59	mark	_	_
+59	say	say	VERB	VB	VerbForm=Inf	57	ccomp	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I might let that to you, for what matters it to me?
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	for	for	SCONJ	IN	_	9	case	_	_
+9	what	what	PRON	WP	PronType=Int	3	obj	_	_
+10	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = But the bourgeois must not see it pass—and then, it is a calash; it would require two horses.”
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	bourgeois	bourgeois	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	pass	pass	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	16	punct	_	SpaceAfter=No
+10	and	and	CCONJ	CC	_	16	cc	_	_
+11	then	then	ADV	RB	PronType=Dem	16	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	calash	calash	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	6	punct	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	require	require	VERB	VB	VerbForm=Inf	6	parataxis	_	_
+21	two	two	NUM	CD	NumType=Card	22	nummod	_	_
+22	horses	horse	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

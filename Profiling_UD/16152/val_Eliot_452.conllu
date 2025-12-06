@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, thank you,” said Maggie, putting it aside with her hand and walking on.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Maggie	Maggie	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	putting	put	VERB	VBG	VerbForm=Ger	8	ccomp	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	aside	aside	ADP	RP	_	11	compound:prt	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hand	hand	NOUN	NN	Number=Sing	11	obl	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	walking	walk	VERB	VBG	VerbForm=Ger	11	conj	_	_
+19	on	on	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “It would make me in love with this world again, as I used to be; it would make me long to see and know many things; it would make me long for a full life.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	love	love	NOUN	NN	Number=Sing	4	obl	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	world	world	NOUN	NN	Number=Sing	7	nmod	_	_
+11	again	again	ADV	RB	_	4	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	be	be	AUX	VB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	4	punct	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	make	make	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	long	long	ADJ	JJ	Degree=Pos	21	xcomp	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	see	see	VERB	VB	VerbForm=Inf	23	advcl	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	know	know	VERB	VB	VerbForm=Inf	25	conj	_	_
+28	many	many	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	things	thing	NOUN	NNS	Number=Plur	27	obj	_	SpaceAfter=No
+30	;	;	PUNCT	,	_	4	punct	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	would	would	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	make	make	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
+35	long	long	ADV	RB	Degree=Pos	33	advmod	_	_
+36	for	for	ADP	IN	_	39	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	full	full	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	life	life	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

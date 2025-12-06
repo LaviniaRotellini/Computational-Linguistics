@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Seth overheard this, and coming into the kitchen again, as his mother rose from her chair, he said, “Adam’s asleep in the workshop, mother.
+1	Seth	Seth	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	overheard	overhear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	coming	come	VERB	VBG	VerbForm=Ger	2	conj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	kitchen	kitchen	NOUN	NN	Number=Sing	6	obl	_	_
+10	again	again	ADV	RB	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	as	as	SCONJ	IN	_	15	mark	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	mother	mother	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	chair	chair	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+24	Adam	Adam	PROPN	NNP	Number=Sing	26	nmod:poss	_	SpaceAfter=No
+25	’s	's	PART	POS	_	24	case	_	_
+26	asleep	asleep	NOUN	NN	Number=Sing	21	obj	_	_
+27	in	in	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	workshop	workshop	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	26	punct	_	_
+31	mother	mother	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = Thee’dst better not wake him.
+1	Thee	Thee	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	’dst	’dst	ADV	RB	_	3	advmod	_	_
+3	better	better	ADV	RBR	Degree=Cmp	1	advmod	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	wake	wake	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = He was o’erwrought with work and trouble.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	o’erwrought	o’erwrotch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	work	work	NOUN	NN	Number=Sing	3	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	trouble	trouble	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

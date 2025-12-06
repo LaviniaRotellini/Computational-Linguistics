@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, but now,” said Mr Glegg, gently, “hasn’t your husband no way o’ raising this money?
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	but	but	CCONJ	CC	_	8	cc	_	_
+5	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr	Mr	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	Glegg	Glegg	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	gently	gently	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	8	punct	_	_
+14	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+16	n’t	not	PART	RB	_	20	advmod	_	_
+17	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	husband	husband	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	way	way	NOUN	NN	Number=Sing	15	obj	_	_
+21	o	of	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	21	punct	_	_
+23	raising	raise	VERB	VBG	VerbForm=Ger	21	acl	_	_
+24	this	this	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	money	money	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Because it ’ud be a little fortin, like, for these folks, if we can do without Tulliver’s being made a bankrupt.
+1	Because	because	SCONJ	IN	_	8	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	’	’	PUNCT	''	_	8	punct	_	SpaceAfter=No
+4	ud	uld	AUX	MD	Typo=Yes|VerbForm=Fin	8	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	fortin	fortin	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	like	like	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	these	these	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	folks	folk	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	_
+16	if	if	SCONJ	IN	_	19	mark	_	_
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	do	do	VERB	VB	VerbForm=Inf	8	advcl	_	_
+20	without	without	ADP	IN	_	21	case	_	_
+21	Tulliver	Tulliver	PROPN	NNP	Number=Sing	19	obl	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	being	be	AUX	VBG	VerbForm=Ger	24	aux:pass	_	_
+24	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	bankrupt	bankrupt	NOUN	NN	Number=Sing	24	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Your husband’s got stock; it is but right he should raise the money, as it seems to me,—not but what I’m sorry for you, Mrs Moss.”
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	husband	husband	NOUN	NN	Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+3	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	stock	stock	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	4	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	but	but	CCONJ	CC	_	10	cc	_	_
+10	right	right	ADJ	JJ	Degree=Pos	4	conj	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	raise	raise	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	money	money	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,—	,—	PUNCT	.	_	13	punct	_	SpaceAfter=No
+23	not	not	PART	RB	_	13	advmod	_	_
+24	but	but	CCONJ	CC	_	25	cc	_	_
+25	what	what	PRON	WP	PronType=Int	4	conj	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	SpaceAfter=No
+27	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	sorry	sorry	ADJ	JJ	Degree=Pos	25	acl:relcl	_	_
+29	for	for	ADP	IN	_	30	case	_	_
+30	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	Mrs	Mrs	PROPN	NNP	Number=Sing	25	conj	_	_
+33	Moss	Moss	PROPN	NNP	Number=Sing	32	flat	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

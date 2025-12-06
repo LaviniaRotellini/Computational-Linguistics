@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Business had taken Herbert on a journey to Marseilles.
+1	Business	business	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	Herbert	Herbert	PROPN	NNP	Number=Sing	3	obj	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	journey	journey	NOUN	NN	Number=Sing	3	obl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	Marseilles	Marseilles	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I was alone, and had a dull sense of being alone.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	alone	alone	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	dull	dull	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	sense	sense	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	SCONJ	IN	_	12	mark	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	12	cop	_	_
+12	alone	alone	ADJ	JJ	Degree=Pos	9	acl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dispirited and anxious, long hoping that to-morrow or next week would clear my way, and long disappointed, I sadly missed the cheerful face and ready response of my friend.
+1	Dispirited	Dispirited	PROPN	NNP	Number=Sing	15	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	anxious	anxious	ADJ	JJ	Degree=Pos	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	15	punct	_	_
+5	long	long	ADV	RB	Degree=Pos	15	advmod	_	_
+6	hoping	hope	VERB	VBG	VerbForm=Ger	15	csubj	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	morrow	morrow	NOUN	NN	Number=Sing	6	obl	_	_
+11	or	or	CCONJ	CC	_	10	cc	_	_
+12	next	next	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	week	week	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	clear	clear	VERB	VB	VerbForm=Inf	0	root	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	way	way	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	long	long	ADV	RB	Degree=Pos	21	advmod	_	_
+21	disappointed	disappoint	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	15	punct	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	sadly	sadly	ADV	RB	_	25	advmod	_	_
+25	missed	miss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	ccomp	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	cheerful	cheerful	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	face	face	NOUN	NN	Number=Sing	25	obj	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	ready	ready	ADJ	JJ	Degree=Pos	25	conj	_	_
+31	response	response	NOUN	NN	Number=Sing	30	obj	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	friend	friend	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, my dear, no,” said Dinah kindly, for Mrs. Poyser had passed on to the pantry without deigning more precise information.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dear	dear	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	no	no	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Dinah	Dinah	PROPN	NNP	Number=Sing	18	nsubj	_	_
+12	kindly	kindly	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	nmod	_	_
+16	Poyser	Poyser	PROPN	NNP	Number=Sing	15	flat	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	10	parataxis	_	_
+19	on	on	ADP	IN	_	18	compound:prt	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	pantry	pantry	NOUN	NN	Number=Sing	18	obl	_	_
+23	without	without	SCONJ	IN	_	24	mark	_	_
+24	deigning	deign	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+25	more	more	ADV	RBR	_	26	advmod	_	_
+26	precise	precise	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	information	information	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “Not Adam.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	3	advmod	_	_
+3	Adam	Adam	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Adam’s father, the old man, is drowned.
+1	Adam	Adam	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	father	father	NOUN	NN	Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	drowned	drown	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = He was drowned last night in the Willow Brook.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	drowned	drown	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	last	last	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	night	night	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	Willow	Willow	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Brook	Brook	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Mr. Irwine has just told me about it.”
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Irwine	Irwine	PROPN	NNP	Number=Sing	1	flat	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

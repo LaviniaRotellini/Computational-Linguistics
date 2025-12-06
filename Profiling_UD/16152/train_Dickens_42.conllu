@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We went to bed greatly dejected.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	bed	be	NOUN	NN	Number=Sing	2	obl	_	_
+5	greatly	greatly	ADV	RB	_	6	advmod	_	_
+6	dejected	deject	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My sobs kept waking me, for a long time; and when one very strong sob quite hoisted me up in bed, I found my mother sitting on the coverlet, and leaning over me.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	sobs	sob	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	waking	wake	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	for	for	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	long	long	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	and	and	CCONJ	CC	_	19	cc	_	_
+13	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+14	one	one	NUM	CD	NumType=Card	17	nummod	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	strong	strong	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	sob	sob	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	quite	quite	ADV	RB	_	19	advmod	_	_
+19	hoisted	hoist	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+21	up	up	ADP	RP	_	19	compound:prt	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	bed	bed	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	3	punct	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	mother	mother	NOUN	NN	Number=Sing	29	nsubj	_	_
+29	sitting	sit	VERB	VBG	VerbForm=Ger	26	ccomp	_	_
+30	on	on	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	coverlet	coverlet	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	leaning	lean	VERB	VBG	VerbForm=Ger	26	conj	_	_
+36	over	over	ADP	IN	_	37	case	_	_
+37	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I fell asleep in her arms, after that, and slept soundly.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	asleep	asleep	ADV	RB	_	2	advmod	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	arms	arms	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	after	after	ADP	IN	_	9	case	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	slept	sleep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	soundly	soundly	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

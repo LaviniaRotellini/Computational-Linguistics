@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Me leave you, my precious!’ cried Peggotty.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	precious	precious	ADJ	JJ	Degree=Pos	3	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	3	punct	_	_
+10	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	Peggotty	Peggotty	PROPN	NNP	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = ‘Not for all the world and his wife.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Not	not	ADV	RB	_	6	advmod	_	_
+3	for	for	ADP	IN	_	6	case	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	world	world	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	wife	wife	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Why, what’s put that in your silly little head?
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	5	nsubj:pass	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+9	silly	silly	ADV	RB	_	10	advmod	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	head	head	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 4
+# text = ’--For Peggotty had been used of old to talk to my mother sometimes like a child.
+1	’--For	’--For	ADP	IN	_	2	case	_	_
+2	Peggotty	Peggotty	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	old	old	ADJ	JJ	Degree=Pos	5	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	talk	talk	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mother	mother	NOUN	NN	Number=Sing	9	obl	_	_
+13	sometimes	sometimes	ADV	RB	_	16	advmod	_	_
+14	like	like	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	child	child	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I’m th’ one single Hand in Bounderby’s mill, o’ a’ the men theer, as don’t coom in wi’ th’ proposed reg’lations.
+1	‘I	‘I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+3	th	th	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	3	punct	_	_
+5	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+6	single	single	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Hand	hand	PROPN	NNP	Number=Sing	11	nsubj	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	Bounderby	Bounderby	PROPN	NNP	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	mill	mill	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	o	of	ADP	IN	Abbr=Yes	19	case	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	19	punct	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	19	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	men	man	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	theer	theer	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	_
+21	as	as	SCONJ	IN	_	24	mark	_	_
+22	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+23	n’t	not	PART	RB	_	24	advmod	_	_
+24	coom	coom	VERB	VB	VerbForm=Inf	11	advcl	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	wi	wi	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	’	's	PUNCT	''	_	28	punct	_	_
+28	th	th	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+29	’	’	PUNCT	''	_	28	punct	_	_
+30	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	28	acl	_	_
+31	reg’	reg's	PART	POS	_	32	case	_	SpaceAfter=No
+32	lations	lation	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = I canna coom in wi’ ’em.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	canna	canto	PART	TO	Abbr=Yes	3	mark	_	_
+3	coom	coom	NOUN	NN	Number=Sing	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	wi	wi	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’	's	PART	POS	_	5	case	_	_
+7	’em	’em	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = My friends, I doubt their doin’ yo onny good.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friends	friend	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	doin	doin	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	5	punct	_	_
+9	yo	yo	INTJ	UH	_	11	discourse	_	_
+10	onny	onny	ADV	RB	_	11	advmod	_	_
+11	good	good	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Licker they’ll do yo hurt.’
+1	Licker	Licker	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+5	yo	yo	PRON	PRP$	_	6	nmod:poss	_	_
+6	hurt	hurt	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

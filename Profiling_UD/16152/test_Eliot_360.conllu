@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, Your Honour, it’s all right and proper for gentlefolks to stay up by candlelight—they’ve got no cheese on their minds.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	Honour	Honour	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	all	all	ADV	RB	_	10	advmod	_	_
+10	right	right	ADJ	JJ	Degree=Pos	0	root	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	proper	proper	ADJ	JJ	Degree=Pos	10	conj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	gentlefolks	gentlefolk	NOUN	NNS	Number=Plur	12	obl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	stay	stay	VERB	VB	VerbForm=Inf	12	advcl	_	_
+17	up	up	ADP	RP	_	16	compound:prt	_	_
+18	by	by	ADP	IN	_	19	case	_	_
+19	candlelight	candlelight	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No
+22	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	got	get	VERB	VBN	Tense=Past|VerbForm=Part	10	parataxis	_	_
+24	no	no	DET	DT	_	25	det	_	_
+25	cheese	cheese	NOUN	NN	Number=Sing	23	obj	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	minds	minds	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = We’re late enough as it is, an’ there’s no lettin’ the cows know as they mustn’t want to be milked so early to-morrow mornin’.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	late	late	ADV	RB	Degree=Pos	2	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	2	obj	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	12	punct	_	_
+11	there	there	PRON	EX	_	12	expl	_	SpaceAfter=No
+12	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	no	no	DET	DT	_	14	det	_	_
+14	lettin	lettin	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+15	’	’	PUNCT	''	_	2	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	cows	cow	NOUN	NNS	Number=Plur	18	nsubj	_	_
+18	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+19	as	as	SCONJ	IN	_	23	mark	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+21	must	must	AUX	MD	VerbForm=Fin	23	aux	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	23	advmod	_	_
+23	want	want	VERB	VB	VerbForm=Inf	18	advcl	_	_
+24	to	to	PART	TO	_	26	mark	_	_
+25	be	be	AUX	VB	VerbForm=Inf	26	aux:pass	_	_
+26	milked	milk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	xcomp	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	early	early	ADV	RB	Degree=Pos	32	amod	_	_
+29	to	to	ADP	IN	_	31	case	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	morrow	morrow	NOUN	NN	Number=Sing	32	compound	_	_
+32	mornin	mornin	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = So, if you’ll please t’ excuse us, we’ll take our leave.”
+1	So	so	ADV	RB	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	’ll	’ll	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+6	please	please	INTJ	UH	_	7	discourse	_	_
+7	t	t	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	excuse	excuse	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	’ll	’ll	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	take	take	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+15	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	leave	leave	VERB	VB	VerbForm=Inf	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs. Garth was not given to tears, but there was a large one rolling down her face before her husband had finished.
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	Garth	Garth	PROPN	NNP	Number=Sing	1	flat	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	tears	tear	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	but	but	CCONJ	CC	_	12	cc	_	_
+11	there	there	PRON	EX	_	12	expl	_	_
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	large	large	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	one	one	NOUN	NN	Number=Sing	24	nsubj	_	_
+16	rolling	roll	VERB	VBG	VerbForm=Ger	15	acl	_	_
+17	down	down	ADP	RP	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	face	face	NOUN	NN	Number=Sing	16	obl	_	_
+20	before	before	ADP	IN	_	22	case	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	husband	husband	NOUN	NN	Number=Sing	16	obl	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It came from the pressure of various feelings, in which there was much affection and some vexation.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	pressure	pressure	NOUN	NN	Number=Sing	2	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	various	various	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	feelings	feeling	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	obl	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+14	much	much	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	affection	affection	NOUN	NN	Number=Sing	13	nsubj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	some	some	DET	DT	_	18	det	_	_
+18	vexation	vexation	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She wiped it away quickly, saying—
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wiped	wip	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	away	away	ADV	RB	_	2	advmod	_	_
+5	quickly	quickly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	saying	say	VERB	VBG	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	2	punct	_	SpacesAfter=\n
+

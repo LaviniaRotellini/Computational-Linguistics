@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Two very severe duchesses, Mesdames de Choiseul and de Sérent, often visited the community, whither they penetrated, no doubt, in virtue of the privilege _Magnates mulieres_, and caused great consternation in the boarding-school.
+1	Two	two	NUM	CD	NumType=Card	4	nummod	_	_
+2	very	very	ADV	RB	_	3	advmod	_	_
+3	severe	severe	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	duchesses	duchess	NOUN	NNS	Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	Mesdames	Mesdames	PROPN	NNP	Number=Sing	8	compound	_	_
+7	de	de	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Choiseul	Choiseul	PROPN	NNP	Number=Sing	4	conj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	de	de	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Sérent	Sérent	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	often	often	ADV	RB	_	14	advmod	_	_
+14	visited	visit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	community	community	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	whither	whhither	CCONJ	CC	_	20	cc	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	penetrated	penetrate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	no	no	ADV	RB	_	23	advmod	_	_
+23	doubt	doubt	ADV	RB	_	20	advmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	20	punct	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	virtue	virtue	NOUN	NN	Number=Sing	20	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	privilege	privilege	NOUN	NN	Number=Sing	26	nmod	_	_
+30	_Magnates	_Magnates	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+31	mulieres	muliere	NOUN	NNS	Number=Plur	30	obj	_	SpaceAfter=No
+32	_	_	SYM	NFP	_	14	punct	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+36	great	great	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	consternation	consternation	NOUN	NN	Number=Sing	35	obj	_	_
+38	in	in	ADP	IN	_	42	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+40	boarding	boarding	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No
+41	-	-	PUNCT	HYPH	_	42	punct	_	SpaceAfter=No
+42	school	school	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = When these two old ladies passed by, all the poor young girls trembled and dropped their eyes.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+3	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+4	old	old	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	ladies	lady	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	_
+7	by	by	ADP	IN	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	all	all	DET	PDT	_	13	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+11	poor	poor	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	girls	girl	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	trembled	tremble	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	dropped	drop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

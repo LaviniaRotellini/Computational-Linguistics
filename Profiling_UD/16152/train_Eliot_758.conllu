@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Do you wish me to give it up?” said
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	wish	wish	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	give	give	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	up	up	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	4	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = 2
+# text = Will, the quick color coming in his face, as he rose from the writing-table, and took a turn of three steps with his hands in his pockets.
+1	Will	will	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	quick	quick	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	color	color	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	coming	come	VERB	VBG	VerbForm=Ger	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	face	face	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+14	from	from	ADP	IN	_	18	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	writing	writing	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+18	table	table	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	turn	turn	NOUN	NN	Number=Sing	21	obj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	three	three	NUM	CD	NumType=Card	26	nummod	_	_
+26	steps	step	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	with	with	ADP	IN	_	29	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	hands	hand	NOUN	NNS	Number=Plur	26	nmod	_	_
+30	in	in	ADP	IN	_	32	case	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	pockets	pocket	NOUN	NNS	Number=Plur	26	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = “I am ready to do so whenever you wish it.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	whenever	whenever	ADV	WRB	PronType=Int	10	advmod	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

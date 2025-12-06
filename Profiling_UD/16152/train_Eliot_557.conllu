@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, no,” said Sir James; “I feel a delicacy in appearing to dictate.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	no	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Sir	Sir	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	James	James	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	7	punct	_	_
+11	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	delicacy	delicacy	NOUN	NN	Number=Sing	13	obj	_	_
+16	in	in	SCONJ	IN	_	17	mark	_	_
+17	appearing	appear	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	dictate	dictate	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = But I have been talking to this young Ladislaw that Brooke is making a factotum of.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	_
+5	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+8	young	young	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	Ladislaw	Ladislaw	NOUN	NN	Number=Sing	5	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+11	Brooke	Brooke	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	factotum	factotum	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ladislaw seems clever enough for anything.
+1	Ladislaw	Ladislaw	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	clever	clever	ADV	WRB	PronType=Int	4	advmod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	anything	anything	PRON	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I thought it as well to hear what he had to say; and he is against Brooke’s standing this time.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	ADV	RB	_	7	cc	_	_
+5	well	well	ADV	RB	Degree=Pos	4	fixed	_	_
+6	to	to	PART	TO	_	4	fixed	_	_
+7	hear	hear	VERB	VB	VerbForm=Inf	2	conj	_	_
+8	what	what	PRON	WP	PronType=Int	7	obj	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	say	say	VERB	VB	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	against	against	ADP	IN	_	18	case	_	_
+18	Brooke	Brooke	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+19	’s	's	PART	POS	_	18	case	_	_
+20	standing	stand	VERB	VBG	VerbForm=Ger	18	acl	_	_
+21	this	this	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	time	time	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I think he’ll turn him round:
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	turn	turn	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	round	round	ADP	RP	_	5	compound:prt	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 6
+# text = I think the nomination may be staved off.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	nomination	nomination	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	staved	stave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	off	off	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

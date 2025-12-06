@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Sarvant, Master Tom,” said he of the red locks, with a smile which seemed to break through a self-imposed air of melancholy.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Sarvant	Sarvant	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Master	master	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Tom	Tom	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	red	red	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	locks	lock	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	smile	smile	NOUN	NN	Number=Sing	9	nmod	_	_
+18	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	break	break	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	through	through	ADP	IN	_	27	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+24	self	self	NOUN	NN	Number=Sing	26	obl:npmod	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	imposed	impose	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	air	air	NOUN	NN	Number=Sing	21	obl	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	melancholy	melancholy	ADV	RB	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “You don’t know me again, I doubt,” he went on, as Tom continued to look at him inquiringly; “but I’d like to talk to you by yourself a bit, please.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	doubt	doubt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	10	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+15	on	on	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	14	punct	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	Tom	Tom	PROPN	NNP	Number=Sing	19	nsubj	_	_
+19	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	look	look	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	at	at	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+24	inquiringly	inquiringly	ADV	RB	_	21	advmod	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	10	punct	_	_
+26	“	"	PUNCT	``	_	29	punct	_	SpaceAfter=No
+27	but	but	CCONJ	CC	_	29	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	SpaceAfter=No
+29	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+30	like	like	SCONJ	IN	_	32	mark	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	talk	talk	VERB	VB	VerbForm=Inf	29	advcl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	32	obl	_	_
+35	by	by	ADP	IN	_	36	case	_	_
+36	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	32	obl	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+38	bit	bit	NOUN	NN	Number=Sing	32	obl:npmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	10	punct	_	_
+40	please	please	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

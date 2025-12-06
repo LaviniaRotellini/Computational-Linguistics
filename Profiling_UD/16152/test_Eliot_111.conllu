@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, the Scantlands would go much better with Choyce’s farm, especially as he wants dairyland and you’ve got plenty.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Scantlands	Scantland	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+8	much	much	ADV	RB	_	9	advmod	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	7	xcomp	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	Choyce	Choyce	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	farm	farm	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	7	punct	_	_
+15	especially	especially	ADV	RB	_	18	advmod	_	_
+16	as	as	SCONJ	IN	_	18	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+19	dairyland	dairyland	NOUN	NN	Number=Sing	18	obj	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	SpaceAfter=No
+22	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	got	get	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	_	_
+24	plenty	plenty	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I think yours is the prettiest farm on the estate, though; and do you know, Mrs. Poyser, if I were going to marry and settle, I should be tempted to turn you out, and do up this fine old house, and turn farmer myself.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	yours	yours	PRON	PRP	_	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	prettiest	prettiest	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	farm	farm	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	estate	estate	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	though	though	ADV	RB	_	2	advmod	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	2	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	know	know	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	Mrs.	Mrs.	PROPN	NNP	Number=Sing	20	compound	_	_
+20	Poyser	Poyser	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	17	punct	_	_
+22	if	if	SCONJ	IN	_	25	mark	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	marry	marry	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	settle	settle	VERB	VB	VerbForm=Inf	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	2	punct	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj:pass	_	_
+32	should	should	AUX	MD	VerbForm=Fin	34	aux	_	_
+33	be	be	AUX	VB	VerbForm=Inf	34	aux:pass	_	_
+34	tempted	temp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	turn	turn	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+37	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	36	obj	_	_
+38	out	out	ADP	RP	_	36	compound:prt	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	41	punct	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	do	do	VERB	VB	VerbForm=Inf	2	conj	_	_
+42	up	up	ADP	RP	_	41	compound:prt	_	_
+43	this	this	DET	DT	Number=Sing|PronType=Dem	46	det	_	_
+44	fine	fine	ADJ	JJ	Degree=Pos	46	amod	_	_
+45	old	old	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	house	house	NOUN	NN	Number=Sing	41	obj	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	49	punct	_	_
+48	and	and	CCONJ	CC	_	49	cc	_	_
+49	turn	turn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+50	farmer	farmer	ADJ	JJR	Degree=Cmp	51	amod	_	_
+51	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	49	obj	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+53	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

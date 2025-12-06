@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I cannot say that,” said Mrs. Farebrother, decisively.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	not	not	PART	RB	_	5	advmod	_	_
+5	say	say	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Farebrother	Farebrother	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	decisively	decisively	ADV	RB	_	9	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “I like her countenance.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	countenance	countenance	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = We must not always ask for beauty, when a good God has seen fit to make an excellent young woman without it.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	beauty	beauty	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	God	God	PROPN	NNP	Number=Sing	14	nsubj	_	_
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+15	fit	fit	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	make	make	VERB	VB	VerbForm=Inf	14	ccomp	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	excellent	excellent	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	young	young	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	woman	woman	NOUN	NN	Number=Sing	17	obj	_	_
+22	without	without	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = I put good manners first, and Miss Garth will know how to conduct herself in any station.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	manners	manners	NOUN	NNS	Number=Plur	2	obj	_	_
+5	first	first	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	Miss	miss	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Garth	Garth	PROPN	NNP	Number=Sing	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	know	know	VERB	VB	VerbForm=Inf	2	conj	_	_
+12	how	how	ADV	WRB	PronType=Int	14	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	conduct	conduct	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+15	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	any	any	DET	DT	_	18	det	_	_
+18	station	station	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

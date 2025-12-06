@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, nay, I wonna ha’ thee do that—the young squire ’ull be angered.
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	nay	nay	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	wonna	wonna	ADP	IN	_	8	case	_	_
+8	ha	ha	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	’	's	PART	POS	_	8	case	_	_
+10	thee	thee	NUM	CD	NumType=Card	6	nummod	_	_
+11	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	obj	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	young	young	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	squire	squire	NOUN	NN	Number=Sing	19	nsubj:pass	_	_
+17	’ull	’ull	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	angered	angered	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = Go an’ do what thee’t ordered to do, an’ me and Seth ’ull go whome.
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	SpaceAfter=No
+3	’	'	PUNCT	''	_	1	punct	_	_
+4	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+5	what	what	PRON	WP	PronType=Int	7	obj	_	_
+6	thee’t	theeot	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	13	punct	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	Seth	Seth	PROPN	NNP	Number=Sing	17	nsubj	_	_
+16	’ull	’ull	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	go	go	VERB	VB	VerbForm=Inf	7	conj	_	_
+18	whome	whome	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = I know it’s a grit honour for thee to be so looked on—an’ who’s to be prouder on it nor thy mother?
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	grit	grit	NOUN	NN	Number=Sing	7	compound	_	_
+7	honour	honour	NOUN	NN	Number=Sing	2	ccomp	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	thee	thee	NUM	CD	NumType=Card	7	nmod	_	_
+10	to	to	PART	TO	_	7	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+12	so	so	ADV	RB	_	13	advmod	_	_
+13	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	ccomp	_	_
+14	on	on	ADP	IN	_	19	obl	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+16	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	19	punct	_	_
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	SpaceAfter=No
+19	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	to	to	PART	TO	_	22	mark	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+22	prouder	prouder	NOUN	NN	Number=Sing	19	nsubj	_	_
+23	on	on	ADP	IN	_	24	case	_	_
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	_	_
+25	nor	nor	CCONJ	CC	_	27	cc	_	_
+26	thy	thy	PRON	PRP$	_	27	nmod:poss	_	_
+27	mother	mother	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+28	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Hadna she the cumber o’ rearin’ thee an’ doin’ for thee all these ’ears?”
+1	Hadna	Hadna	PROPN	NNP	Number=Sing	0	root	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	cumber	cumber	NOUN	NN	Number=Sing	1	flat	_	_
+5	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	rearin	rearin	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	thee	thee	ADP	IN	_	12	case	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	12	punct	_	_
+12	doin	doin	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	12	punct	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	thee	thee	NUM	CD	NumType=Card	19	nmod	_	_
+16	all	all	DET	PDT	_	19	det:predet	_	_
+17	these	these	DET	DT	Number=Plur|PronType=Dem	19	det	_	_
+18	’	’	PUNCT	''	_	19	punct	_	SpaceAfter=No
+19	ears	ears	NOUN	NNS	Number=Plur	12	appos	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

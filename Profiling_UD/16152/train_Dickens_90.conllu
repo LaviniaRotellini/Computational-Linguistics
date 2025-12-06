@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Go you below, my love,’ said Mr. Murdstone.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	10	ccomp	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	obj	_	_
+4	below	below	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	love	love	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Murdstone	Murdstone	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = ‘David and I will come down, together.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	David	David	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+7	down	down	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	together	together	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = My friend,’ turning a darkening face on Peggotty, when he had watched my mother out, and dismissed her with a nod and a smile; ‘do you know your mistress’s name?’
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friend	friend	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,’	,’	PUNCT	.	_	2	punct	_	_
+4	turning	turn	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	darkening	darkening	NOUN	NN	Number=Sing	7	compound	_	_
+7	face	face	NOUN	NN	Number=Sing	4	obj	_	_
+8	on	on	ADP	IN	_	9	case	_	_
+9	Peggotty	Peggotty	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	mother	mother	NOUN	NN	Number=Sing	14	obj	_	_
+17	out	out	ADP	RP	_	14	compound:prt	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	dismissed	dismiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	nod	nod	NOUN	NN	Number=Sing	20	obl	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	smile	smile	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	4	punct	_	_
+29	‘	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
+30	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	_
+32	know	know	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+33	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	mistress	mistress	NOUN	NN	Number=Sing	36	nmod:poss	_	SpaceAfter=No
+35	’s	's	PART	POS	_	34	case	_	_
+36	name	name	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+37	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+38	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

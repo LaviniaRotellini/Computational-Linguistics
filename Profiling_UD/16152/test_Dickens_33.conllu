@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am afraid you won’t leave any of it for him,” said I, timidly; after a silence during which I had hesitated as to the politeness of making the remark.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	afraid	afraid	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+6	wo	will	AUX	MD	VerbForm=Fin	8	aux	_	SpaceAfter=No
+7	n’t	not	PART	RB	_	8	advmod	_	_
+8	leave	leave	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	any	any	DET	DT	_	8	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	timidly	timidly	ADV	RB	_	20	parataxis	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	16	punct	_	_
+21	after	after	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	silence	silence	NOUN	NN	Number=Sing	16	obl	_	_
+24	during	during	ADP	IN	_	25	case	_	_
+25	which	which	PRON	WDT	PronType=Rel	28	obl	_	_
+26	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	hesitated	hesitate	VERB	VBN	Tense=Past|VerbForm=Part	29	acl:relcl	_	_
+29	as	as	ADV	RB	_	23	advmod	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	politeness	politeness	NOUN	NN	Number=Sing	29	obl	_	_
+33	of	of	SCONJ	IN	_	34	mark	_	_
+34	making	make	VERB	VBG	VerbForm=Ger	32	acl	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	remark	remark	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “There’s no more to be got where that came from.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	3	nsubj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	got	get	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	advcl	_	_
+9	where	where	ADV	WRB	PronType=Int	8	advmod	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12	from	from	ADP	IN	_	11	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = It was the certainty of this fact that impelled me to offer the hint.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	certainty	certainty	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	fact	fact	NOUN	NN	Number=Sing	4	nmod	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	impelled	impell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	offer	offer	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	hint	hint	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

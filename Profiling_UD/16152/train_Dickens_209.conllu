@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I wonder,’ said Peggotty, who was sometimes seized with a fit of wondering on some most unexpected topic, ‘what’s become of Davy’s great-aunt?’
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Peggotty	Peggotty	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	who	who	PRON	WP	PronType=Rel	12	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+11	sometimes	sometimes	ADV	RB	_	12	advmod	_	_
+12	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	fit	fit	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	SCONJ	IN	_	17	mark	_	_
+17	wondering	wondere	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	on	on	ADP	RP	_	22	case	_	_
+19	some	some	DET	DT	_	22	det	_	_
+20	most	most	ADV	RBS	_	21	advmod	_	_
+21	unexpected	unexpected	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	topic	topic	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	6	punct	_	_
+24	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+25	what	what	PRON	WP	PronType=Int	27	nsubj:pass	_	SpaceAfter=No
+26	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	become	become	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+28	of	of	ADP	IN	_	33	case	_	_
+29	Davy	Davy	PROPN	NNP	Number=Sing	33	nmod:poss	_	SpaceAfter=No
+30	’s	's	PART	POS	_	29	case	_	_
+31	great	great	ADJ	JJ	Degree=Pos	33	amod	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	aunt	aunt	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+35	’	'	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘Lor, Peggotty!’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Lor	Lor	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Peggotty	Peggotty	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = observed my mother, rousing herself from a reverie, ‘what nonsense you talk!’
+1	observed	observ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	mother	mother	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	rousing	rouse	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+6	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	reverie	reverie	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	‘	'	PUNCT	``	_	1	punct	_	SpaceAfter=No
+12	what	what	DET	WDT	PronType=Int	13	det	_	_
+13	nonsense	nonsense	NOUN	NN	Number=Sing	1	obj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	talk	talk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

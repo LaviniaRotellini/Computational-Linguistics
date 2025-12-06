@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He encountered Courfeyrac under the arcades of the Odéon, and said to him: “Come and dine with me.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	encountered	encounter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	2	obj	_	_
+4	under	under	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	arcades	arcade	NOUN	NNS	Number=Plur	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Odéon	Odéon	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	:	:	PUNCT	:	_	12	punct	_	_
+16	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+17	Come	come	INTJ	UH	_	12	ccomp	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	dine	dine	VERB	VB	VerbForm=Inf	17	conj	_	_
+20	with	with	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = They went off to Rousseau’s and spent six francs.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	off	off	ADP	RP	_	2	compound:prt	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Rousseau	Rousseau	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	six	six	NUM	CD	NumType=Card	10	nummod	_	_
+10	francs	franc	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Marius ate like an ogre.
+1	Marius	Marius	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	ogre	ogre	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He gave the waiter six sous.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	waiter	waiter	NOUN	NN	Number=Sing	6	compound	_	_
+5	six	six	NUM	CD	NumType=Card	6	nummod	_	_
+6	sous	sous	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = At dessert, he said to Courfeyrac.
+1	At	at	ADP	IN	_	2	case	_	_
+2	dessert	dessert	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = “Have you read the paper?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	read	read	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	paper	paper	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = What a fine discourse Audry de Puyraveau delivered!”
+1	What	what	DET	WDT	PronType=Int	7	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+3	fine	fine	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	discourse	discourse	NOUN	NN	Number=Sing	7	compound	_	_
+5	Audry	Audry	PROPN	NNP	Number=Sing	7	compound	_	_
+6	de	de	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Puyraveau	Puyraveau	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	delivered	deliver	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

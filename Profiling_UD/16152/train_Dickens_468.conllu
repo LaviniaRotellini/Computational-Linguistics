@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I said I would mention it to Mr. Wickfield, and if he approved, as I had no doubt he would, I would come with pleasure.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	mention	mention	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	5	obl	_	_
+9	Wickfield	Wickfield	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	26	punct	_	_
+11	and	and	CCONJ	CC	_	26	cc	_	_
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	approved	approve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	26	punct	_	_
+16	as	as	SCONJ	IN	_	18	mark	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	doubt	doubt	NOUN	NN	Number=Sing	18	obj	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	come	come	VERB	VB	VerbForm=Inf	2	conj	_	_
+27	with	with	ADP	IN	_	28	case	_	_
+28	pleasure	pleasure	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = So, at six o’clock that evening, which was one of the early office evenings, I announced myself as ready, to Uriah.
+1	So	so	ADV	RB	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	19	punct	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	six	six	NUM	CD	NumType=Card	5	nummod	_	_
+5	o’clock	o’clock	NOUN	NN	Number=Sing	19	obl	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	evening	evene	NOUN	NN	Number=Sing	5	nmod:tmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	one	one	NUM	CD	NumType=Card	5	acl:relcl	_	_
+12	of	of	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	early	early	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	office	office	NOUN	NN	Number=Sing	16	compound	_	_
+16	evenings	evening	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	announced	announce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	19	obj	_	_
+21	as	as	ADP	IN	_	22	case	_	_
+22	ready	ready	ADJ	JJ	Degree=Pos	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	to	to	ADP	IN	_	25	case	_	_
+25	Uriah	Uriah	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘How I fought through it, _I_ don’t know,’ said Bounderby.
+1	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	fought	fight	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+5	through	through	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	_I	_I	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+9	_	_	SYM	NFP	_	12	punct	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	know	know	VERB	VB	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Bounderby	Bounderby	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = ‘I was determined, I suppose.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	determined	determine	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I have been a determined character in later life, and I suppose I was then.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	determined	determined	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	character	character	NOUN	NN	Number=Sing	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	later	later	ADJ	JJR	Degree=Cmp	9	amod	_	_
+9	life	life	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	suppose	suppose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	then	then	ADV	RB	PronType=Dem	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Here I am, Mrs. Gradgrind, anyhow, and nobody to thank for my being here, but myself.’
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	anyhow	anyhow	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	nobody	nobody	PRON	NN	Number=Sing	13	nsubj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	thank	thank	VERB	VB	VerbForm=Inf	1	acl	_	_
+14	for	for	SCONJ	IN	_	17	mark	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nsubj	_	_
+16	being	be	AUX	VBG	VerbForm=Ger	17	cop	_	_
+17	here	here	ADV	RB	PronType=Dem	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	but	but	CCONJ	CC	_	20	cc	_	_
+20	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

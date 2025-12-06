@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I know what you mean about music; _I_ feel so,” said Maggie, clasping her hands with her old impetuosity.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+3	what	what	PRON	WP	PronType=Int	5	obj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	about	about	ADP	IN	_	7	case	_	_
+7	music	music	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	_I	_I	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	_	_	SYM	NFP	_	9	punct	_	_
+11	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	so	so	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Maggie	Maggie	PROPN	NNP	Number=Sing	18	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	clasping	clasp	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	hands	hand	NOUN	NNS	Number=Plur	18	obj	_	_
+21	with	with	ADP	IN	_	24	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	old	old	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	impetuosity	impetuosity	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = “At least,” she added, in a saddened tone, “I used to feel so when I had any music; I never have any now except the organ at church.”
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	At	at	ADV	RB	_	1	advmod	_	_
+3	least	least	ADV	RBS	Degree=Sup	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	saddened	saddened	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	tone	tone	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	feel	feel	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	so	so	ADV	RB	_	22	advmod	_	_
+20	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+23	any	any	DET	DT	_	24	det	_	_
+24	music	music	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	7	punct	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	never	never	ADV	RB	_	28	advmod	_	_
+28	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+29	any	any	DET	DT	_	33	det	_	_
+30	now	now	ADV	RB	_	33	advmod	_	_
+31	except	except	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	organ	organ	NOUN	NN	Number=Sing	28	obj	_	_
+34	at	at	ADP	IN	_	35	case	_	_
+35	church	church	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

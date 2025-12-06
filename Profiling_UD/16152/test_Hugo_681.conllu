@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When he reached the summit of the tower, before emerging from the shadow of the staircase and stepping upon the platform, he cautiously examined the position of the priest.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	summit	summit	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	tower	tower	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	before	before	SCONJ	IN	_	11	mark	_	_
+11	emerging	emerge	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	shadow	shadow	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	staircase	staircase	NOUN	NN	Number=Sing	14	nmod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	stepping	step	VERB	VBG	VerbForm=Ger	11	conj	_	_
+20	upon	upon	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	platform	platform	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	26	punct	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	cautiously	cautiously	ADV	RB	_	26	advmod	_	_
+26	examined	examine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	position	position	NOUN	NN	Number=Sing	26	obj	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	priest	priest	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 2
+# text = The priest’s back was turned to him.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	priest	priest	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	back	back	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = There is an openwork balustrade which surrounds the platform of the bell tower.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	openwork	openwork	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	balustrade	balustrade	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	surrounds	surround	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	platform	platform	NOUN	NN	Number=Sing	7	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	bell	bell	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	tower	tower	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The priest, whose eyes looked down upon the town, was resting his breast on that one of the four sides of the balustrades which looks upon the Pont Notre-Dame.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	priest	priest	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+5	eyes	eye	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	down	down	ADV	RB	_	6	advmod	_	_
+8	upon	upon	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	town	town	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	resting	rest	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	breast	breast	NOUN	NN	Number=Sing	13	obj	_	_
+16	on	on	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	one	one	NOUN	NN	Number=Sing	13	obl	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	four	four	NUM	CD	NumType=Card	22	nummod	_	_
+22	sides	side	NOUN	NNS	Number=Plur	18	nmod	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	balustrades	balustrade	NOUN	NNS	Number=Plur	22	nmod	_	_
+26	which	which	PRON	WDT	PronType=Rel	27	nsubj	_	_
+27	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+28	upon	upon	ADP	IN	_	33	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+30	Pont	Pont	PROPN	NNP	Number=Sing	33	compound	_	_
+31	Notre	Notre	PROPN	NNP	Number=Sing	33	compound	_	SpaceAfter=No
+32	-	-	PUNCT	HYPH	_	33	punct	_	SpaceAfter=No
+33	Dame	Dame	PROPN	NNP	Number=Sing	27	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

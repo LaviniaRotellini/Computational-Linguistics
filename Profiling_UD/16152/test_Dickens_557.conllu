@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What nervous folly made me start, and awfully connect it with the footstep of my dead sister, matters not.
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	nervous	nervous	ADJ	JJ	Degree=Pos	4	nsubj	_	_
+3	folly	folly	ADV	RB	_	2	advmod	_	_
+4	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	start	start	VERB	VB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	awfully	awfully	ADV	RB	_	10	advmod	_	_
+10	connect	connect	VERB	VB	VerbForm=Inf	4	conj	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	footstep	footstep	NOUN	NN	Number=Sing	10	obl	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	dead	dead	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	sister	sister	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+21	not	not	PART	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It was past in a moment, and I listened again, and heard the footstep stumble in coming on.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	past	past	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	moment	moment	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	again	again	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	footstep	footstep	NOUN	NN	Number=Sing	17	compound	_	_
+17	stumble	stumble	NOUN	NN	Number=Sing	14	obj	_	_
+18	in	in	SCONJ	IN	_	19	mark	_	_
+19	coming	come	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+20	on	on	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Remembering then, that the staircase-lights were blown out, I took up my reading-lamp and went out to the stair-head.
+1	Remembering	Remembere	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	then	then	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	that	that	SCONJ	IN	_	10	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	staircase	staircase	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	lights	light	NOUN	NNS	Number=Plur	10	nsubj:pass	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+10	blown	blow	VERB	VBN	Tense=Past|VerbForm=Part	1	ccomp	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+15	up	up	ADP	RP	_	14	compound:prt	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+17	reading	reading	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	lamp	lamp	NOUN	NN	Number=Sing	14	obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+22	out	out	ADV	RB	_	21	advmod	_	_
+23	to	to	ADP	IN	_	27	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	stair	stair	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	head	head	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Whoever was below had stopped on seeing my lamp, for all was quiet.
+1	Whoever	whoever	PRON	WP	PronType=Int	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	below	below	ADV	RB	_	2	advmod	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	on	on	SCONJ	IN	_	7	mark	_	_
+7	seeing	see	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	lamp	lamp	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	for	for	SCONJ	IN	_	14	mark	_	_
+12	all	all	DET	DT	_	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	quiet	quiet	ADJ	JJ	Degree=Pos	5	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

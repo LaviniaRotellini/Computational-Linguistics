@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Adam did not ask Dinah to take his arm when they got out into the lane.
+1	Adam	Adam	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+5	Dinah	Dinah	PROPN	NNP	Number=Sing	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	take	take	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	arm	arm	NOUN	NN	Number=Sing	7	obj	_	_
+10	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+13	out	out	ADV	RB	_	12	advmod	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	lane	lane	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = He had never yet done so, often as they had walked together, for he had observed that she never walked arm-in-arm with Seth, and he thought, perhaps, that kind of support was not agreeable to her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	yet	yet	ADV	RB	_	5	advmod	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	often	often	ADV	RB	_	12	advmod	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	walked	walk	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+13	together	together	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	for	for	SCONJ	IN	_	18	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+18	observed	observe	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	never	never	ADV	RB	_	22	advmod	_	_
+22	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+23	arm	arm	VERB	VB	VerbForm=Inf	22	ccomp	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+25	in	in	ADP	IN	_	27	case	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	arm	arm	NOUN	NN	Number=Sing	23	obl	_	_
+28	with	with	ADP	IN	_	29	case	_	_
+29	Seth	Seth	PROPN	NNP	Number=Sing	23	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	perhaps	perhaps	ADV	RB	_	33	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	33	punct	_	_
+37	that	that	DET	DT	Number=Sing|PronType=Dem	38	det	_	_
+38	kind	kind	NOUN	NN	Number=Sing	43	nsubj	_	_
+39	of	of	ADP	IN	_	40	case	_	_
+40	support	support	NOUN	NN	Number=Sing	38	nmod	_	_
+41	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	cop	_	_
+42	not	not	PART	RB	_	43	advmod	_	_
+43	agreeable	agreeable	ADJ	JJ	Degree=Pos	33	ccomp	_	_
+44	to	to	ADP	IN	_	45	case	_	_
+45	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = So they walked apart, though side by side, and the close poke of her little black bonnet hid her face from him.
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	apart	apart	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	though	though	SCONJ	IN	_	7	mark	_	_
+7	side	side	NOUN	NN	Number=Sing	3	advcl	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	side	side	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	20	punct	_	_
+11	and	and	CCONJ	CC	_	20	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	close	close	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	poke	poke	NOUN	NN	Number=Sing	20	nsubj	_	_
+15	of	of	ADP	IN	_	19	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+17	little	little	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	black	black	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	bonnet	bonnet	NOUN	NN	Number=Sing	14	nmod	_	_
+20	hid	hide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	face	face	NOUN	NN	Number=Sing	20	obj	_	_
+23	from	from	ADP	IN	_	24	case	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

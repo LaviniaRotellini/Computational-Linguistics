@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All this while, the strange man looked at nobody but me, and looked at me as if he were determined to have a shot at me at last, and bring me down.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	while	while	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	strange	strange	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	nobody	nobody	PRON	NN	Number=Sing	8	obl	_	_
+11	but	but	CCONJ	CC	_	12	cc	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+18	as	as	SCONJ	IN	_	22	mark	_	_
+19	if	if	SCONJ	IN	_	22	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	determined	determined	ADJ	JJ	Degree=Pos	15	advcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	have	have	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	shot	shot	NOUN	NN	Number=Sing	24	obj	_	_
+27	at	at	ADP	IN	_	28	case	_	_
+28	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	nmod	_	_
+29	at	at	ADP	IN	_	30	case	_	_
+30	last	last	ADJ	JJ	Degree=Pos	24	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	bring	bring	VERB	VB	VerbForm=Inf	8	conj	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
+35	down	down	ADP	RP	_	33	compound:prt	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But he said nothing after offering his Blue Blazes observation, until the glasses of rum and water were brought; and then he made his shot, and a most extraordinary shot it was.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	3	obj	_	_
+5	after	after	SCONJ	IN	_	6	mark	_	_
+6	offering	offer	VERB	VBG	VerbForm=Ger	4	acl	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+8	Blue	Blue	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Blazes	Blazes	PROPN	NNP	Number=Sing	10	compound	_	_
+10	observation	observation	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	until	until	SCONJ	IN	_	20	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	glasses	glass	NOUN	NNS	Number=Plur	20	nsubj:pass	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	rum	rum	NOUN	NN	Number=Sing	14	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	water	water	NOUN	NN	Number=Sing	16	conj	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	3	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	then	then	ADV	RB	PronType=Dem	25	advmod	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	shot	shot	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+31	most	most	ADV	RBS	_	32	advmod	_	_
+32	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	shot	shot	NOUN	NN	Number=Sing	25	conj	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

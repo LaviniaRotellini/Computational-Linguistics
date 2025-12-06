@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It ain’t that I complain of my line of business,’ said Mr. Omer.
+1	‘	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	3	advmod	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	complain	complain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	line	line	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	business	business	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	Omer	Omer	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = ‘It ain’t that.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	that	that	ADV	RB	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Some good and some bad goes, no doubt, to all callings.
+1	Some	some	DET	DT	_	2	det	_	_
+2	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+3	and	and	CCONJ	CC	_	6	cc	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+6	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	no	no	INTJ	UH	_	13	discourse	_	_
+9	doubt	doubt	ADV	RB	_	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	all	all	DET	DT	_	13	det	_	_
+13	callings	callings	NOUN	NNS	Number=Plur	2	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = What I wish is, that parties was brought up stronger-minded.’
+1	What	what	PRON	WP	PronType=Int	3	obj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	is	be	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	parties	party	NOUN	NNS	Number=Plur	9	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	stronger	stronger	ADJ	JJR	Degree=Cmp	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	minded	minded	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

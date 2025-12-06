@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t be anxious, Kitty; I have quite other thoughts about my life.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	5	cop	_	_
+5	anxious	anxious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Kitty	Kitty	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	5	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	quite	quite	DET	PDT	_	13	det	_	_
+12	other	other	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	thoughts	thought	NOUN	NNS	Number=Plur	10	obj	_	_
+14	about	about	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	life	life	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I shall never marry again,” said Dorothea, touching her sister’s chin, and looking at her with indulgent affection.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	marry	marry	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+5	again	again	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Dorothea	Dorothea	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	touching	touch	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	sister	sister	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+14	’s	's	PART	POS	_	13	case	_	_
+15	chin	ching	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	looking	look	VERB	VBG	VerbForm=Ger	11	conj	_	_
+19	at	at	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	obl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	indulgent	indulgent	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	affection	affection	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Celia was nursing her baby, and Dorothea had come to say good-night to her.
+1	Celia	Celia	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	nursing	nurse	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	baby	baby	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	Dorothea	Dorothea	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	come	come	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	say	say	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	good	good	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	night	night	NOUN	NN	Number=Sing	12	obj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

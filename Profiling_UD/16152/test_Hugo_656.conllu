@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Monseigneur!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = she cried, still pressed against the opening, and trembling lest suspicion should lead them to thrust their heads through and look into her cell; “monseigneur, I swear to you that ’twas a cart which broke this grating.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	still	still	ADV	RB	_	2	advmod	_	_
+5	pressed	press	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	against	against	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	opening	opening	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	trembling	trembl	VERB	VB	VerbForm=Inf	2	conj	_	_
+12	lest	lest	ADJ	JJS	Degree=Sup	13	amod	_	_
+13	suspicion	suspicion	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	should	should	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	lead	lead	VERB	VB	VerbForm=Inf	11	conj	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	thrust	thrust	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+19	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	heads	head	NOUN	NNS	Number=Plur	18	obj	_	_
+21	through	through	ADV	RB	_	18	advmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+24	into	into	ADP	IN	_	26	case	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	cell	cell	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	2	punct	_	_
+28	“	"	PUNCT	``	_	29	punct	_	SpaceAfter=No
+29	monseigneur	monseigneur	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+32	swear	swear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	to	to	ADP	IN	_	34	case	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	32	obl	_	_
+35	that	that	SCONJ	IN	_	39	mark	_	_
+36	’	'	PUNCT	''	_	39	punct	_	SpaceAfter=No
+37	twas	tbe	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	cart	cart	NOUN	NN	Number=Sing	32	ccomp	_	_
+40	which	which	PRON	WDT	PronType=Rel	41	nsubj	_	_
+41	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	acl:relcl	_	_
+42	this	this	DET	DT	Number=Sing|PronType=Dem	43	det	_	_
+43	grating	grating	NOUN	NN	Number=Sing	41	obj	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I swear it to you by the angels of paradise.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	swear	swear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	_
+6	by	by	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	angels	angel	NOUN	NNS	Number=Plur	2	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	paradise	paradise	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = If it was not a cart, may I be eternally damned, and I reject God!”
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	cart	cart	NOUN	NN	Number=Sing	12	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	may	may	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+11	eternally	eternally	ADV	RB	_	12	advmod	_	_
+12	damned	damned	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	reject	reject	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	_
+17	God	God	PROPN	NNP	Number=Sing	16	obj	_	SpaceAfter=No
+18	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

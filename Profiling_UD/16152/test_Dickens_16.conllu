@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hah!” said Mrs. Joe, restoring Tickler to his station.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hah	Hah	INTJ	UH	_	5	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Joe	Joe	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	restoring	restore	VERB	VBG	VerbForm=Ger	6	acl	_	_
+10	Tickler	Tickler	PROPN	NNP	Number=Sing	9	obj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	station	station	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Churchyard, indeed!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Churchyard	Churchyard	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	indeed	indeed	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You may well say churchyard, you two.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	well	well	ADV	RB	Degree=Pos	4	advmod	_	_
+4	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+5	churchyard	churchyard	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+8	two	two	NUM	CD	NumType=Card	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 4
+# text = One of us, by the by, had not said it at all.
+1	One	one	NUM	CD	NumType=Card	11	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	by	by	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	at	at	ADV	RB	_	14	case	_	_
+14	all	all	ADV	RB	_	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 5
+# text = “You’ll drive _me_ to the churchyard betwixt you, one of these days, and O, a pr-r-recious pair you’d be without me!”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	drive	drive	VERB	VB	VerbForm=Inf	0	root	_	_
+5	_me_	_me_	SYM	NFP	_	8	case	_	_
+6	to	to	ADP	IN	_	5	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	churchyard	churchyard	NOUN	NN	Number=Sing	4	obl	_	_
+9	betwixt	betwixt	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	one	one	NUM	CD	NumType=Card	4	obj	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	these	these	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+15	days	day	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	and	and	CCONJ	CC	_	22	cc	_	_
+18	O	o	INTJ	UH	_	22	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	pr-r-recious	pr-r-recious	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	pair	pair	NOUN	NN	Number=Sing	4	conj	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	SpaceAfter=No
+24	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	be	be	AUX	VB	VerbForm=Inf	27	cop	_	_
+26	without	without	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

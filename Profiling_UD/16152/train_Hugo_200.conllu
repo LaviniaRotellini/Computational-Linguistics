@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When they saw him making money, they said, “He is a man of business.”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	making	make	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+6	money	money	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+12	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	man	man	NOUN	NN	Number=Sing	9	ccomp	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	business	business	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 2
+# text = When they saw him scattering his money about, they said, “He is an ambitious man.”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	scattering	scatter	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	money	money	NOUN	NN	Number=Sing	5	obj	_	_
+8	about	about	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+14	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	ambitious	ambitious	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	man	man	NOUN	NN	Number=Sing	11	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	11	punct	_	_
+
+# sent_id = 3
+# text = When he was seen to decline honors, they said, “He is an adventurer.”
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	decline	decline	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	honors	honor	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	adventurer	adventurer	NOUN	NN	Number=Sing	10	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 4
+# text = When they saw him repulse society, they said, “He is a brute.”
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	repulse	repulse	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	society	society	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+12	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	brute	brute	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

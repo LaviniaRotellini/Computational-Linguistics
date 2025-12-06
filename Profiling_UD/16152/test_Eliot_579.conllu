@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, my lad,” said Bartle tenderly, “it’s heavy—it’s heavy.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lad	lad	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Bartle	Bartle	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	tenderly	tenderly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	heavy	heavy	ADJ	JJ	Degree=Pos	19	amod	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	heavy	heavy	ADJ	JJ	Degree=Pos	8	appos	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = But you must remember this: when you thought of marrying her, you’d a notion she’d got another sort of a nature inside her.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	4	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+10	of	of	SCONJ	IN	_	11	mark	_	_
+11	marrying	marry	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	notion	notion	NOUN	NN	Number=Sing	15	obj	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	’d	’d	ADV	RB	_	20	advmod	_	_
+20	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+21	another	another	DET	DT	_	22	det	_	_
+22	sort	sort	NOUN	NN	Number=Sing	20	obj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	nature	nature	NOUN	NN	Number=Sing	22	nmod	_	_
+26	inside	inside	ADP	IN	_	27	case	_	_
+27	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = You didn’t think she could have got hardened in that little while to do what she’s done.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+9	hardened	hardened	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	while	while	NOUN	NN	Number=Sing	9	obl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	do	do	VERB	VB	VerbForm=Inf	9	advcl	_	_
+16	what	what	PRON	WP	PronType=Int	19	obj	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	done	done	ADJ	JJ	Degree=Pos	15	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

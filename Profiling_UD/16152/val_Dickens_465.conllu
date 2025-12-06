@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have only the commission of my love for her, and her love for me.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	only	only	ADV	RB	_	6	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	commission	commission	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	love	love	NOUN	NN	Number=Sing	6	nmod	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	love	love	NOUN	NN	Number=Sing	3	conj	_	_
+16	for	for	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I have no other trust, than that I have been with her since she came home, and that she has given me her confidence.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	trust	trust	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	than	than	SCONJ	IN	_	11	mark	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	since	since	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+17	home	home	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	given	give	VERB	VBN	Tense=Past|VerbForm=Part	16	conj	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	confidence	confidence	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I have no further trust, than that I know something of her character and her marriage.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	5	det	_	_
+4	further	further	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	trust	trust	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	than	than	SCONJ	IN	_	10	mark	_	_
+8	that	that	SCONJ	IN	_	10	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	something	something	PRON	NN	Number=Sing	10	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	character	character	NOUN	NN	Number=Sing	11	nmod	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	marriage	marriage	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = O Mr. Harthouse, I think you had that trust too!’
+1	O	of	INTJ	UH	_	6	discourse	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	6	vocative	_	_
+3	Harthouse	Harthouse	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	trust	trust	NOUN	NN	Number=Sing	8	obj	_	_
+11	too	too	ADV	RB	_	8	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

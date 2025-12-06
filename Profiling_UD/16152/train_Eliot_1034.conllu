@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hardly,” returned Bulstrode, in the same deliberate, silvery tone; “except by some changes of plan.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hardly	hardly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	deliberate	deliberate	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	silvery	silvery	NOUN	NN	Number=Sing	11	appos	_	_
+14	tone	tone	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	5	punct	_	_
+16	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+17	except	except	ADP	IN	_	20	case	_	_
+18	by	by	ADP	IN	_	20	case	_	_
+19	some	some	DET	DT	_	20	det	_	_
+20	changes	change	NOUN	NNS	Number=Plur	5	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	plan	plan	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The only person who may be certainly counted on as willing to increase her contributions is Mrs. Casaubon.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	only	only	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	person	person	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	who	who	PRON	WP	PronType=Rel	8	nsubj:pass	_	_
+5	may	may	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	certainly	certainly	ADV	RB	_	8	advmod	_	_
+8	counted	count	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+9	on	on	ADP	RP	_	8	obl	_	_
+10	as	as	SCONJ	IN	_	11	mark	_	_
+11	willing	willing	VERB	VBG	VerbForm=Ger	17	csubj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	increase	increase	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+15	contributions	contribution	NOUN	NNS	Number=Plur	13	obj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	Mrs.	Mrs.	PROPN	NNP	Number=Sing	0	root	_	_
+18	Casaubon	Casaubon	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 3
+# text = I have had an interview with her on the subject, and I have pointed out to her, as I am about to do to you, that it will be desirable to win a more general support to the New Hospital by a change of system.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	interview	interview	NOUN	NN	Number=Sing	3	obj	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	subject	subject	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	pointed	point	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+16	out	out	ADP	RP	_	15	compound:prt	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	3	punct	_	_
+20	as	as	SCONJ	IN	_	25	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+23	about	about	ADV	RB	_	25	advmod	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	do	do	VERB	VB	VerbForm=Inf	33	advcl	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	25	punct	_	_
+29	that	that	SCONJ	IN	_	33	mark	_	_
+30	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+31	will	will	AUX	MD	VerbForm=Fin	33	aux	_	_
+32	be	be	AUX	VB	VerbForm=Inf	33	cop	_	_
+33	desirable	desirable	ADJ	JJ	Degree=Pos	3	advcl	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	win	win	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+37	more	more	ADV	RBR	_	38	advmod	_	_
+38	general	general	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	support	support	NOUN	NN	Number=Sing	35	obj	_	_
+40	to	to	ADP	IN	_	43	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+42	New	New	PROPN	NNP	Number=Sing	43	compound	_	_
+43	Hospital	Hospital	PROPN	NNP	Number=Sing	35	obl	_	_
+44	by	by	ADP	IN	_	46	case	_	_
+45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+46	change	change	NOUN	NN	Number=Sing	35	obl	_	_
+47	of	of	ADP	IN	_	48	case	_	_
+48	system	system	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+50	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = Another pause, but Lydgate did not speak.
+1	Another	another	DET	DT	_	2	det	_	_
+2	pause	pause	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	but	but	CCONJ	CC	_	8	cc	_	_
+5	Lydgate	Lydgate	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	speak	speak	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

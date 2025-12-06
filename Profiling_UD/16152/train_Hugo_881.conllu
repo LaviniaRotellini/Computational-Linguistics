@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = M. Mabeuf had his innocent pleasures.
+1	M.	M.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Mabeuf	Mabeuf	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	innocent	innocent	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	pleasures	pleasur	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = These pleasures were inexpensive and unexpected; the merest chance furnished them.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	pleasures	pleasure	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	inexpensive	inexpensive	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	unexpected	unexpected	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	merest	merest	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+10	chance	chance	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	furnished	furnish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = One day, Mother Plutarque was reading a romance in one corner of the room.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	7	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	Mother	mother	PROPN	NNP	Number=Sing	7	nsubj	_	_
+5	Plutarque	Plutarque	PROPN	NNP	Number=Sing	4	flat	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	romance	romance	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	corner	corner	NOUN	NN	Number=Sing	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	room	room	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = She was reading aloud, finding that she understood better thus.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	aloud	aloud	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	finding	find	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+7	that	that	SCONJ	IN	_	9	mark	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	understood	understand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+10	better	better	ADJ	JJR	Degree=Cmp	9	xcomp	_	_
+11	thus	thus	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = To read aloud is to assure one’s self of what one is reading.
+1	To	to	PART	TO	_	2	mark	_	_
+2	read	read	VERB	VB	VerbForm=Inf	4	csubj	_	_
+3	aloud	aloud	NOUN	NN	Number=Sing	2	obj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	assure	assure	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	one	one	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+8	’s	's	NOUN	NNS	Number=Plur	9	compound	_	_
+9	self	self	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	SCONJ	IN	_	11	case	_	_
+11	what	what	PRON	WP	PronType=Int	9	nmod	_	_
+12	one	one	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = There are people who read very loud, and who have the appearance of giving themselves their word of honor as to what they are perusing.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	loud	loud	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	who	who	PRON	WP	PronType=Int	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	appearance	appearance	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	SCONJ	IN	_	15	mark	_	_
+15	giving	give	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	iobj	_	_
+17	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	word	word	NOUN	NN	Number=Sing	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	honor	honor	NOUN	NN	Number=Sing	18	nmod	_	_
+21	as	as	ADP	IN	_	23	case	_	_
+22	to	to	SCONJ	IN	_	21	fixed	_	_
+23	what	what	PRON	WP	PronType=Int	11	obl	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+25	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	perusing	peruse	VERB	VBG	Tense=Pres|VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

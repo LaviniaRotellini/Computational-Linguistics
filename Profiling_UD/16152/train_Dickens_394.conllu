@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Your late wife, sir, was a most unworldly, most unhappy, most unfortunate baby,’ returned my aunt, shaking her head at him.
+1	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	late	late	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	wife	wife	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	sir	sir	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	18	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+10	most	most	ADV	RBS	_	11	advmod	_	_
+11	unworldly	unworldly	ADV	RB	_	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	most	most	ADJ	JJS	Degree=Sup	14	nsubj	_	_
+14	unhappy	unhappy	ADJ	JJ	Degree=Pos	18	amod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	most	most	ADV	RBS	_	17	advmod	_	_
+17	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	baby	baby	NOUN	NN	Number=Sing	21	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	SpaceAfter=No
+20	’	’	PUNCT	''	_	18	punct	_	_
+21	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	aunt	aunt	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	21	punct	_	_
+25	shaking	shake	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	head	head	NOUN	NN	Number=Sing	25	obj	_	_
+28	at	at	ADP	IN	_	29	case	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s what she was.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	6	obj	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And now, what have you got to say next?’
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	now	now	ADV	RB	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	what	what	PRON	WP	PronType=Int	7	obj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	say	say	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	next	next	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

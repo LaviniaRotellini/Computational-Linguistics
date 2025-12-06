@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I knew that Peggotty would come to me in my room.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	Peggotty	Peggotty	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	room	room	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The Sabbath stillness of the time (the day was so like Sunday!
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Sabbath	Sabbath	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	stillness	stillness	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	time	time	NOUN	NN	Number=Sing	3	nmod	_	_
+7	(	(	PUNCT	-LRB-	_	13	punct	_	SpaceAfter=No
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	day	day	NOUN	NN	Number=Sing	13	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	so	so	ADV	RB	_	13	advmod	_	_
+12	like	like	ADP	IN	_	13	case	_	_
+13	Sunday	sunday	PROPN	NNP	Number=Sing	6	parataxis	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I have forgotten that) was suited to us both.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	7	nsubj:pass	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
+5	)	)	PUNCT	-RRB-	_	3	punct	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	suited	suite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+10	both	both	DET	DT	_	7	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = She sat down by my side upon my little bed; and holding my hand, and sometimes putting it to her lips, and sometimes smoothing it with hers, as she might have comforted my little brother, told me, in her way, all that she had to tell concerning what had happened.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	down	down	ADV	RB	_	2	advmod	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	side	side	NOUN	NN	Number=Sing	2	obl	_	_
+7	upon	upon	ADP	IN	_	10	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	bed	bed	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	holding	hold	VERB	VBG	VerbForm=Ger	2	conj	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hand	hand	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	sometimes	sometimes	ADV	RB	_	19	advmod	_	_
+19	putting	put	VERB	VBG	VerbForm=Ger	2	conj	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	lips	lip	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	sometimes	sometimes	ADV	RB	_	27	advmod	_	_
+27	smoothing	smooth	VERB	VBG	VerbForm=Ger	2	conj	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	with	with	ADP	IN	_	30	case	_	_
+30	hers	hers	NOUN	NNS	Number=Plur	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	2	punct	_	_
+32	as	as	SCONJ	IN	_	36	mark	_	_
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+34	might	might	AUX	MD	VerbForm=Fin	36	aux	_	_
+35	have	have	AUX	VB	VerbForm=Inf	36	aux	_	_
+36	comforted	comforte	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+37	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+38	little	little	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	brother	brother	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	41	punct	_	_
+41	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+42	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	41	obj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	41	punct	_	_
+44	in	in	ADP	IN	_	46	case	_	_
+45	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+46	way	way	NOUN	NN	Number=Sing	41	obl	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	41	punct	_	_
+48	all	all	ADV	RB	_	41	advmod	_	_
+49	that	that	SCONJ	IN	_	51	mark	_	_
+50	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
+51	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	ccomp	_	_
+52	to	to	PART	TO	_	53	mark	_	_
+53	tell	tell	VERB	VB	VerbForm=Inf	51	xcomp	_	_
+54	concerning	concern	VERB	VBG	VerbForm=Ger	55	case	_	_
+55	what	what	PRON	WP	PronType=Int	57	nsubj	_	_
+56	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	57	aux	_	_
+57	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	53	ccomp	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

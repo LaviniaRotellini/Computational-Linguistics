@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, as for that, they must put up with what they can get.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	as	as	ADP	IN	_	6	case	_	_
+5	for	for	ADP	IN	_	4	fixed	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	put	put	VERB	VB	VerbForm=Inf	0	root	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	_
+12	with	with	SCONJ	IN	_	13	case	_	_
+13	what	what	PRON	WP	PronType=Int	10	obl	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	get	get	VERB	VB	VerbForm=Inf	13	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = They have been looking at the house in St. Peter’s Place, next to Mr. Hackbutt’s; it belongs to him, and he is putting it nicely in repair.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	house	house	NOUN	NN	Number=Sing	4	obl	_	_
+8	in	in	ADP	IN	_	12	case	_	_
+9	St.	St.	PROPN	NNP	Number=Sing	12	nmod:poss	_	_
+10	Peter	Peter	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	’s	's	PART	POS	_	9	case	_	_
+12	Place	place	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	_
+14	next	next	ADV	RB	_	16	case	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+17	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	’s	's	PART	POS	_	16	case	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	4	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	nicely	nicely	ADV	RB	_	32	advmod	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	repair	repair	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I suppose they are not likely to hear of a better.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	likely	likely	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	hear	hear	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Indeed, I think Ned will decide the matter to-day.”
+1	Indeed	indeed	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Ned	Ned	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	decide	decide	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	matter	matter	NOUN	NN	Number=Sing	7	obj	_	_
+10	to	to	ADP	IN	_	12	case	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	day	day	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

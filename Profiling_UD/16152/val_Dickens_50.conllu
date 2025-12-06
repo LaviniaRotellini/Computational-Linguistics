@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Gradgrind, though hard enough, was by no means so rough a man as Mr. Bounderby.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	though	though	ADV	RB	_	5	advmod	_	_
+5	hard	hard	ADV	RB	Degree=Pos	11	advmod	_	_
+6	enough	enough	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	by	by	ADP	IN	_	11	case	_	_
+10	no	no	DET	DT	_	11	det	_	_
+11	means	means	NOUN	NNS	Number=Plur	0	root	_	_
+12	so	so	ADV	RB	_	15	advmod	_	_
+13	rough	rough	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	man	man	NOUN	NN	Number=Sing	11	nmod	_	_
+16	as	as	ADP	IN	_	17	case	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nmod	_	_
+18	Bounderby	Bounderby	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = His character was not unkind, all things considered; it might have been a very kind one indeed, if he had only made some round mistake in the arithmetic that balanced it, years ago.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	character	character	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	unkind	unkind	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	all	all	DET	DT	_	8	det	_	_
+8	things	thing	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	considered	consider	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	18	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	kind	kind	ADJ	JJ	Degree=Pos	18	advmod	_	_
+18	one	one	NUM	CD	NumType=Card	36	nummod	_	_
+19	indeed	indeed	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	18	punct	_	_
+21	if	if	SCONJ	IN	_	25	mark	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+24	only	only	ADV	RB	_	25	advmod	_	_
+25	made	make	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+26	some	some	DET	DT	_	28	det	_	_
+27	round	round	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	mistake	mistake	NOUN	NN	Number=Sing	25	obj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	arithmetic	arithmetic	NOUN	NN	Number=Sing	25	obl	_	_
+32	that	that	PRON	WDT	PronType=Rel	33	nsubj	_	_
+33	balanced	balance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	acl:relcl	_	_
+34	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	obj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	18	punct	_	_
+36	years	year	NOUN	NNS	Number=Plur	37	obl:npmod	_	_
+37	ago	ago	ADV	RB	_	5	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He said, in what he meant for a reassuring tone, as they turned down a narrow road, ‘And this is Pod’s End; is it, Jupe?’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	SCONJ	IN	_	5	case	_	_
+5	what	what	PRON	WP	PronType=Int	2	obl	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	reassuring	reassuring	NOUN	NN	Number=Sing	11	compound	_	_
+11	tone	tone	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+15	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+16	down	down	ADP	RP	_	15	compound:prt	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	narrow	narrow	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	road	road	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+22	And	and	CCONJ	CC	_	27	cc	_	_
+23	this	this	PRON	DT	Number=Sing|PronType=Dem	27	nsubj	_	_
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	Pod	Pod	PROPN	NNP	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	End	end	PROPN	NNP	Number=Sing	2	conj	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	2	punct	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	ccomp	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	Jupe	Jupe	PROPN	NNP	Number=Sing	30	nsubj	_	SpaceAfter=No
+33	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

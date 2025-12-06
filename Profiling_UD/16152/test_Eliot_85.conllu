@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, sir, but it turns a man’s stomach t’ hear the Scripture misused i’ that way.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	stomach	stomach	NOUN	NN	Number=Sing	13	compound	_	_
+13	t	t	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+14	’	’	PUNCT	''	_	15	punct	_	_
+15	hear	hear	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Scripture	Scripture	NOUN	NN	Number=Sing	15	obj	_	_
+18	misused	misuse	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	_
+19	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	18	punct	_	_
+21	that	that	DET	DT	Number=Sing|PronType=Dem	22	det	_	_
+22	way	way	NOUN	NN	Number=Sing	20	obl:npmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I know as much o’ the words o’ the Bible as he does, an’ could say the Psalms right through i’ my sleep if you was to pinch me; but I know better nor to take ’em to say my own say wi’.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	as	as	ADV	RB	_	4	advmod	_	_
+4	much	much	ADJ	JJ	Degree=Pos	2	obj	_	_
+5	o	of	ADP	IN	Abbr=Yes	8	case	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	8	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	words	word	NOUN	NNS	Number=Plur	4	obl	_	_
+9	o	of	ADP	IN	Abbr=Yes	12	case	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	12	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Bible	Bible	PROPN	NNP	Number=Sing	8	nmod	_	_
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	20	punct	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	say	say	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	Psalms	Psalms	NOUN	NNS	Number=Plur	28	nsubj	_	_
+23	right	right	ADV	RB	_	28	advmod	_	_
+24	through	through	ADP	IN	_	28	case	_	_
+25	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	28	punct	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nsubj	_	_
+28	sleep	sleep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+29	if	if	SCONJ	IN	_	31	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	advcl	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	pinch	pinch	VERB	VB	VerbForm=Inf	31	xcomp	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	SpaceAfter=No
+35	;	;	PUNCT	,	_	28	punct	_	_
+36	but	but	CCONJ	CC	_	38	cc	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+38	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	conj	_	_
+39	better	better	ADJ	JJR	Degree=Cmp	40	amod	_	_
+40	nor	nor	NOUN	NN	Number=Sing	38	obj	_	_
+41	to	to	PART	TO	_	42	mark	_	_
+42	take	take	VERB	VB	VerbForm=Inf	38	advcl	_	_
+43	’em	th’ey	NOUN	NN	Number=Sing	42	obj	_	_
+44	to	to	PART	TO	_	45	mark	_	_
+45	say	say	VERB	VB	VerbForm=Inf	42	advcl	_	_
+46	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	own	own	ADJ	JJ	Degree=Pos	48	nsubj	_	_
+48	say	say	VERB	VB	VerbForm=Inf	45	ccomp	_	_
+49	wi	wus	NOUN	NN	Number=Sing	48	obj	_	SpaceAfter=No
+50	’	'	PUNCT	''	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	28	punct	_	_
+
+# sent_id = 3
+# text = I might as well take the Sacriment-cup home and use it at meals.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	as	as	ADV	RB	_	5	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	_
+5	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+7	Sacriment	Sacriment	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	cup	cup	NOUN	NN	Number=Sing	10	compound	_	_
+10	home	home	NOUN	NN	Number=Sing	5	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	use	use	VERB	VB	VerbForm=Inf	5	conj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	meals	meal	NOUN	NNS	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I see they are beginning to attack our friend Brooke in the ‘Trumpet,’” said the Rector, lounging back and smiling easily, as he would have done if he had been attacked himself.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	beginning	begin	VERB	VBG	VerbForm=Ger	3	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	attack	attack	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	friend	friend	NOUN	NN	Number=Sing	11	compound	_	_
+11	Brooke	Brooke	NOUN	NN	Number=Sing	8	obj	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	‘	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	Trumpet	Trumpet	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Rector	rector	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	lounging	lounge	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+24	back	back	ADV	RB	_	23	advmod	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	smiling	smile	VERB	VBG	VerbForm=Ger	23	conj	_	_
+27	easily	easily	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	19	punct	_	_
+29	as	as	SCONJ	IN	_	33	mark	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+31	would	would	AUX	MD	VerbForm=Fin	33	aux	_	_
+32	have	have	AUX	VB	VerbForm=Inf	33	aux	_	_
+33	done	do	VERB	VBN	Tense=Past|VerbForm=Part	19	advcl	_	_
+34	if	if	SCONJ	IN	_	38	mark	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	_	_
+36	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	38	aux	_	_
+37	been	be	AUX	VBN	Tense=Past|VerbForm=Part	38	aux:pass	_	_
+38	attacked	attack	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	33	advcl	_	_
+39	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	38	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = “There are tremendous sarcasms against a landlord not a hundred miles from Middlemarch, who receives his own rents, and makes no returns.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tremendous	tremendous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	sarcasms	sarcasm	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	against	against	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	landlord	landlord	NOUN	NN	Number=Sing	5	nmod	_	_
+9	not	not	ADV	RB	_	12	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	hundred	hundred	NUM	CD	NumType=Card	12	nummod	_	_
+12	miles	mile	NOUN	NNS	Number=Plur	3	nsubj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	receives	receive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	own	own	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	rents	rent	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+24	no	no	DET	DT	_	25	det	_	_
+25	returns	return	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Don’t you take on too much about it, sir,” said Luke.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	take	take	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+6	on	on	ADP	RP	_	5	compound:prt	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	5	obj	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	sir	sir	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Luke	Luke	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “You’d ha’ paid iverybody if you could,—that’s what I said to Master Tom,—I said you’d ha’ paid iverybody if you could.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ha	ha	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+5	’	'	PART	POS	_	4	case	_	_
+6	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	iverybody	iverybody	NOUN	NN	Number=Sing	3	obj	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	3	advcl	_	SpaceAfter=No
+11	,—	,—	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	SpaceAfter=No
+13	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+14	what	what	PRON	WP	PronType=Int	16	obj	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	Master	master	PROPN	NNP	Number=Sing	19	compound	_	_
+19	Tom	Tom	PROPN	NNP	Number=Sing	16	obl	_	SpaceAfter=No
+20	,—	,—	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	SpaceAfter=No
+24	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	ccomp	_	_
+25	ha	ha	PROPN	NNP	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+26	’	'	PART	POS	_	25	case	_	_
+27	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+28	iverybody	iverybody	NOUN	NN	Number=Sing	24	obj	_	_
+29	if	if	SCONJ	IN	_	31	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	could	could	AUX	MD	VerbForm=Fin	24	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

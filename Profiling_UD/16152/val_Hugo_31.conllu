@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mess Lethierry was a Guernsey man--that peculiar amalgamation of Frenchman and Norman, or rather English.
+1	Mess	mess	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	Lethierry	Lethierry	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	Guernsey	Guernsey	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	man	man	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	peculiar	peculiar	VERB	VBP	Abbr=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	amalgamation	amalgamation	ADP	IN	_	12	case	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Frenchman	Frenchman	PROPN	NNP	Number=Sing	9	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	Norman	Norman	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	or	or	CCONJ	CC	_	18	cc	_	_
+17	rather	rather	ADP	IN	_	18	case	_	_
+18	English	English	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He had within himself this quadruple extraction, merged and almost lost in that far wider country, the ocean.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	within	within	ADP	IN	_	4	case	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	quadruple	quadruple	NOUN	NN	Number=Sing	7	compound	_	_
+7	extraction	extraction	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	merged	merge	ADJ	JJ	Degree=Pos	7	conj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	almost	almost	ADV	RB	_	12	advmod	_	_
+12	lost	lose	ADJ	JJ	Degree=Pos	2	conj	_	_
+13	in	in	ADP	IN	_	17	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+15	far	far	ADV	RB	Degree=Pos	16	advmod	_	_
+16	wider	wider	ADJ	JJR	Degree=Cmp	17	amod	_	_
+17	country	country	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	ocean	ocean	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Throughout his life and wheresoever he went, he had preserved the habits of a Norman fisherman.
+1	Throughout	throughout	ADP	IN	_	3	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	life	life	NOUN	NN	Number=Sing	11	obl	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	wheresoever	wheresoever	ADV	WRB	PronType=Int	7	advmod	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	preserved	preserve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	habits	habit	NOUN	NNS	Number=Plur	11	obj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	Norman	Norman	PROPN	NNP	Number=Sing	17	compound	_	_
+17	fisherman	fisherman	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

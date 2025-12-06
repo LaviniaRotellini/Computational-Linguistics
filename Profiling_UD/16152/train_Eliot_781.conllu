@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, please stay, and let me give you some tea,” said Mary.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	please	please	INTJ	UH	_	5	discourse	_	_
+5	stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	5	conj	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+10	give	give	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	iobj	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	tea	tea	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Mary	Mary	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = Her eyes filled with tears, for something indefinable, something like the resolute suppression of a pain in Mr. Farebrother’s manner, made her feel suddenly miserable, as she had once felt when she saw her father’s hands trembling in a moment of trouble.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	tears	tear	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	something	something	PRON	NN	Number=Sing	3	obl	_	_
+9	indefinable	indefinable	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	something	something	PRON	NN	Number=Sing	3	list	_	_
+12	like	like	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	resolute	resolute	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	suppression	suppression	NOUN	NN	Number=Sing	11	nmod	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	pain	pain	NOUN	NN	Number=Sing	15	nmod	_	_
+19	in	in	ADP	IN	_	23	case	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	23	nmod:poss	_	_
+21	Farebrother	Farebrother	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	’s	's	PART	POS	_	20	case	_	_
+23	manner	manner	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	feel	feel	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	suddenly	suddenly	ADV	RB	_	29	advmod	_	_
+29	miserable	miserable	ADJ	JJ	Degree=Pos	27	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	3	punct	_	_
+31	as	as	SCONJ	IN	_	35	mark	_	_
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+33	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+34	once	once	ADV	RB	NumType=Mult	35	advmod	_	_
+35	felt	feel	VERB	VB	VerbForm=Inf	3	advcl	_	_
+36	when	when	ADV	WRB	PronType=Int	38	mark	_	_
+37	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	advcl	_	_
+39	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+40	father	father	NOUN	NN	Number=Sing	42	nmod:poss	_	SpaceAfter=No
+41	’s	's	PART	POS	_	40	case	_	_
+42	hands	hand	NOUN	NNS	Number=Plur	38	obj	_	_
+43	trembling	trembl	VERB	VBG	VerbForm=Ger	38	xcomp	_	_
+44	in	in	ADP	IN	_	46	case	_	_
+45	a	a	DET	DT	Definite=Ind|PronType=Art	46	det	_	_
+46	moment	moment	NOUN	NN	Number=Sing	43	obl	_	_
+47	of	of	ADP	IN	_	48	case	_	_
+48	trouble	trouble	NOUN	NN	Number=Sing	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

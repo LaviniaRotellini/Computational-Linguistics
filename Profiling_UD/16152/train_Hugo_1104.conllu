@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ma’am Bougon was convinced that Marius was to some extent an accomplice of the robbers who had been seized the night before.
+1	Ma	ma	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+2	’	’	PUNCT	''	_	1	punct	_	SpaceAfter=No
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Bougon	Bougon	PROPN	NNP	Number=Sing	1	flat	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	convinced	convinc	ADJ	JJ	Degree=Pos	0	root	_	_
+7	that	that	SCONJ	IN	_	14	mark	_	_
+8	Marius	Marius	PROPN	NNP	Number=Sing	14	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	some	some	DET	DT	_	12	det	_	_
+12	extent	extent	NOUN	NN	Number=Sing	14	nmod	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	accomplice	accomplice	NOUN	NN	Number=Sing	6	ccomp	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	robbers	robber	NOUN	NNS	Number=Plur	14	nmod	_	_
+18	who	who	PRON	WP	PronType=Rel	21	nsubj:pass	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	night	night	NOUN	NN	Number=Sing	21	obl:tmod	_	_
+24	before	before	ADV	RB	_	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “Who would ever have said it?”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	6	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	ever	ever	ADV	RB	_	6	advmod	_	_
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 3
+# text = she exclaimed to the portresses of the quarter, “a young man like that, who had the air of a girl!”
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	portresses	portress	NOUN	NNS	Number=Plur	2	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	quarter	quarter	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	man	man	NOUN	NN	Number=Sing	2	obj	_	_
+14	like	like	ADP	IN	_	15	case	_	_
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	air	air	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	girl	girl	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

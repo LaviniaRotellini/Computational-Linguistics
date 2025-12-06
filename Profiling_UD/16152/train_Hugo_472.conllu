@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Let us behold in Waterloo only that which is in Waterloo.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	behold	behold	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	Waterloo	Waterloo	PROPN	NNP	Number=Sing	3	obl	_	_
+6	only	only	ADV	RB	_	3	advmod	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	which	which	PRON	WDT	PronType=Int	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	Waterloo	Waterloo	PROPN	NNP	Number=Sing	3	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Of intentional liberty there is none.
+1	Of	of	ADP	IN	_	3	case	_	_
+2	intentional	intentional	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	liberty	liberty	NOUN	NN	Number=Sing	5	obl	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	none	none	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The counter-revolution was involuntarily liberal, in the same manner as, by a corresponding phenomenon, Napoleon was involuntarily revolutionary.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	counter-revolution	counter-revolution	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	involuntarily	involuntarily	ADV	RB	_	5	advmod	_	_
+5	liberal	liberal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	same	same	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	manner	manner	NOUN	NN	Number=Sing	5	obl	_	_
+11	as	as	ADV	RB	_	21	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	21	punct	_	_
+13	by	by	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	corresponding	corresponding	NOUN	NN	Number=Sing	16	compound	_	_
+16	phenomenon	phenomenon	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	Napoleon	Napoleon	PROPN	NNP	Number=Sing	21	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+20	involuntarily	involuntarily	ADV	RB	_	21	advmod	_	_
+21	revolutionary	revolutionary	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = On the 18th of June, 1815, the mounted Robespierre was hurled from his saddle.
+1	On	on	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	18th	18th	NOUN	NN	Number=Sing	10	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	June	June	PROPN	NNP	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	1815	1815	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	mark	_	_
+10	mounted	mounted	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Robespierre	Robespierre	PROPN	NNP	Number=Sing	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	hurled	hurl	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	saddle	saddle	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

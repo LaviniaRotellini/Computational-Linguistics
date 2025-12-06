@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lisbeth noticed that he was moved.
+1	Lisbeth	Lisbeth	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	moved	move	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She went on, “An’ thee’t find out as thee’t poorly aff when she’s gone.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	An	a	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	6	punct	_	_
+8	thee’t	theeot	PART	RB	_	9	mark	_	_
+9	find	find	VERB	VB	VerbForm=Inf	6	acl	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	as	as	ADV	RB	_	14	advmod	_	_
+12	thee’t	thee’t	PART	RB	_	14	mark	_	_
+13	poorly	poorly	ADV	RB	_	14	advmod	_	_
+14	aff	aff	ADV	RB	_	9	advmod	_	_
+15	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	gone	gone	ADJ	JJ	Degree=Pos	14	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Thee’t fonder on her nor thee know’st.
+1	Thee’t	Theeot	PART	RB	_	2	mark	_	_
+2	fonder	fonder	VERB	VB	VerbForm=Inf	0	root	_	_
+3	on	on	ADP	IN	_	6	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	nor	nor	NOUN	NN	Number=Sing	6	compound	_	_
+6	thee	thee	NOUN	NN	Number=Sing	2	obl	_	_
+7	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	’st	’st	ADV	RBS	Degree=Sup	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Thy eyes follow her about, welly as Gyp’s follow thee.”
+1	Thy	thy	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	follow	follow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	about	about	ADV	RB	_	11	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	welly	welly	ADV	RB	_	11	advmod	_	_
+8	as	as	ADP	IN	_	9	case	_	_
+9	Gyp	Gyp	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	follow	follow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+12	thee	thee	NUM	CD	NumType=Card	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

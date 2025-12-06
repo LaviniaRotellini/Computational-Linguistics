@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He suggested it very doubtfully, as if he were half unwilling to admit it even now.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	suggested	suggest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	doubtfully	doubtfully	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	as	as	SCONJ	IN	_	12	mark	_	_
+8	if	if	SCONJ	IN	_	12	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	half	half	ADV	RB	_	12	advmod	_	_
+12	unwilling	unwilling	ADJ	JJ	Degree=Pos	2	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	admit	admit	VERB	VB	VerbForm=Inf	12	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	even	even	ADV	RB	_	17	advmod	_	_
+17	now	now	ADV	RB	_	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She made him no answer, lying before him on her bed, still half-dressed, much as he had seen her lying on the floor of his room last night.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	answer	answer	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	lying	lie	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	before	before	SCONJ	IN	_	17	mark	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	bed	bed	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	still	still	ADV	RB	_	15	advmod	_	_
+15	half	half	ADV	RB	_	17	obl:npmod	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	much	much	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+20	as	as	SCONJ	IN	_	23	mark	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+24	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nsubj	_	_
+25	lying	lie	VERB	VBG	VerbForm=Ger	23	xcomp	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	floor	floor	NOUN	NN	Number=Sing	25	obl	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	room	room	NOUN	NN	Number=Sing	28	nmod	_	_
+32	last	last	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	night	night	NOUN	NN	Number=Sing	25	obl:tmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

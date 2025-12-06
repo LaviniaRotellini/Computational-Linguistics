@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “P.S. He wishes me most particular to write _what larks_.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	P.S.	p.s.	NOUN	NN	Number=Sing	0	root	_	_
+3	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	most	most	ADV	RBS	_	7	advmod	_	_
+7	particular	particular	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	write	write	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	_	_	SYM	NFP	_	11	case	_	SpaceAfter=No
+11	what	what	PRON	WP	PronType=Int	12	nsubj	_	_
+12	larks	lark	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+13	_	_	SYM	NFP	_	12	discourse	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He says you will understand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	understand	understand	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I hope and do not doubt it will be agreeable to see him, even though a gentleman, for you had ever a good heart, and he is a worthy, worthy man.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	6	cc	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	doubt	doubt	VERB	VB	VerbForm=Inf	2	conj	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	agreeable	agreeable	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	see	see	VERB	VB	VerbForm=Inf	10	advcl	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	even	even	ADV	RB	_	22	advmod	_	_
+16	though	though	SCONJ	IN	_	22	mark	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	gentleman	gentleman	NOUN	NN	Number=Sing	22	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	for	for	SCONJ	IN	_	22	mark	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+23	ever	ever	ADV	RB	_	22	advmod	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	good	good	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	heart	heart	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	35	punct	_	_
+28	and	and	CCONJ	CC	_	35	cc	_	_
+29	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+32	worthy	worthy	ADJ	JJ	Degree=Pos	35	amod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	worthy	worthy	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	man	man	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I have read him all, excepting only the last little sentence, and he wishes me most particular to write again _what larks_.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	read	read	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	all	all	DET	DT	_	4	det	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	excepting	except	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	only	only	ADV	RB	_	12	advmod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	last	last	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	sentence	sentence	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18	most	most	ADV	RBS	_	19	advmod	_	_
+19	particular	particular	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	write	write	VERB	VB	VerbForm=Inf	19	advcl	_	_
+22	again	again	ADV	RB	_	21	advmod	_	_
+23	_	_	SYM	NFP	_	25	punct	_	SpaceAfter=No
+24	what	what	DET	WDT	PronType=Int	25	det	_	_
+25	larks_.	larks_.	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

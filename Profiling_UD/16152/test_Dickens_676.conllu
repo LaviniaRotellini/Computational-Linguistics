@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In his two cabin rooms at the top of the house, which were fresh and airy, and in which Mr. Barley was less audible than below, I found Provis comfortably settled.
+1	In	in	ADP	IN	_	5	case	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+3	two	two	NUM	CD	NumType=Card	5	nummod	_	_
+4	cabin	cabin	NOUN	NN	Number=Sing	5	compound	_	_
+5	rooms	room	NOUN	NNS	Number=Plur	31	obl	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	top	top	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	house	house	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	fresh	fresh	ADJ	JJ	Degree=Pos	11	acl:relcl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	airy	airy	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	26	punct	_	_
+19	and	and	CCONJ	CC	_	26	cc	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	which	which	PRON	WDT	PronType=Rel	26	obl	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	26	nsubj	_	_
+23	Barley	Barley	PROPN	NNP	Number=Sing	22	flat	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+25	less	less	ADV	RBR	Degree=Cmp	26	advmod	_	_
+26	audible	audible	ADJ	JJ	Degree=Pos	15	conj	_	_
+27	than	than	ADP	IN	_	28	case	_	_
+28	below	below	ADV	RB	_	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+31	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+32	Provis	Provis	PROPN	NNPS	Number=Plur	31	obj	_	_
+33	comfortably	comfortably	ADV	RB	_	34	advmod	_	_
+34	settled	settle	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = 2
+# text = He expressed no alarm, and seemed to feel none that was worth mentioning; but it struck me that he was softened,—indefinably, for I could not have said how, and could never afterwards recall how when I tried, but certainly.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	expressed	express	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	alarm	alarm	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	feel	feel	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	none	none	NOUN	NN	Number=Sing	9	obj	_	_
+11	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	worth	worth	ADJ	JJ	Degree=Pos	10	acl:relcl	_	_
+14	mentioning	mention	VERB	VBG	VerbForm=Ger	13	xcomp	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	2	punct	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	struck	strike	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	softened	soften	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	SpaceAfter=No
+24	,—	,—	PUNCT	.	_	23	punct	_	SpaceAfter=No
+25	indefinably	indefinably	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	23	punct	_	_
+27	for	for	SCONJ	IN	_	32	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+29	could	could	AUX	MD	VerbForm=Fin	32	aux	_	_
+30	not	not	PART	RB	_	32	advmod	_	_
+31	have	have	AUX	VB	VerbForm=Inf	32	aux	_	_
+32	said	say	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	_
+33	how	how	ADV	WRB	PronType=Int	39	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	39	punct	_	_
+35	and	and	CCONJ	CC	_	39	cc	_	_
+36	could	could	AUX	MD	VerbForm=Fin	39	aux	_	_
+37	never	never	ADV	RB	_	39	advmod	_	_
+38	afterwards	afterwards	NOUN	NNS	Number=Plur	39	nsubj	_	_
+39	recall	recall	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	ccomp	_	_
+40	how	how	ADV	WRB	PronType=Int	43	advmod	_	_
+41	when	when	ADV	WRB	PronType=Int	43	mark	_	_
+42	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+43	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	advcl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	_
+45	but	but	CCONJ	CC	_	46	cc	_	_
+46	certainly	certainly	ADV	RB	_	43	conj	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

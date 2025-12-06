@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It is impossible for me now to do anything—to take any step without considering my wife’s happiness.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	impossible	impossible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	now	now	ADV	RB	_	4	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	do	do	VERB	VB	VerbForm=Inf	4	csubj	_	_
+10	anything	anything	PRON	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+12	to	to	PART	TO	_	13	mark	_	_
+13	take	take	VERB	VB	VerbForm=Inf	4	csubj	_	_
+14	any	any	DET	DT	_	15	det	_	_
+15	step	step	NOUN	NN	Number=Sing	13	obj	_	_
+16	without	without	SCONJ	IN	_	17	mark	_	_
+17	considering	consider	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	wife	wife	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	happiness	happiness	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The thing that I might like to do if I were alone, is become impossible to me.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	thing	thing	NOUN	NN	Number=Sing	15	nsubj:pass	_	_
+3	that	that	PRON	WDT	PronType=Rel	6	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	might	might	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	like	like	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	if	if	SCONJ	IN	_	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	alone	alone	ADV	RB	_	8	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	become	become	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	impossible	impossible	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = I can’t see her miserable.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	miserable	miserable	ADJ	JJ	Degree=Pos	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = She married me without knowing what she was going into, and it might have been better for her if she had not married me.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	without	without	SCONJ	IN	_	5	mark	_	_
+5	knowing	know	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	what	what	PRON	WP	PronType=Int	5	obj	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+10	into	into	ADP	IN	_	9	case	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+14	might	might	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	have	have	AUX	VB	VerbForm=Inf	17	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	cop	_	_
+17	better	better	ADJ	JJR	Degree=Cmp	2	conj	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	if	if	SCONJ	IN	_	24	mark	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	advcl	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

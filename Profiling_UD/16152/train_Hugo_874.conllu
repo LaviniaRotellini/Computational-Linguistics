@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In spite of all this, he got admitted to practice as a lawyer.
+1	In	in	ADP	IN	_	2	case	_	_
+2	spite	spite	NOUN	NN	Number=Sing	8	obl	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	all	all	DET	PDT	_	5	det:predet	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	admitted	admit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	practice	practice	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	as	as	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	lawyer	lawyer	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = He was supposed to live in Courfeyrac’s room, which was decent, and where a certain number of law-books backed up and completed by several dilapidated volumes of romance, passed as the library required by the regulations.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	live	live	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	room	room	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	decent	decent	ADJ	JJ	Degree=Pos	3	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	35	punct	_	_
+15	and	and	CCONJ	CC	_	35	cc	_	_
+16	where	where	ADV	WRB	PronType=Int	35	mark	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	certain	certain	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	number	number	NOUN	NN	Number=Sing	23	compound	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	law	law	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+23	books	book	NOUN	NNS	Number=Plur	35	nsubj	_	_
+24	backed	back	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	_
+25	up	up	ADP	RP	_	24	compound:prt	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part	24	conj	_	_
+28	by	by	ADP	IN	_	31	case	_	_
+29	several	several	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	dilapidated	dilapidate	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	volumes	volume	NOUN	NNS	Number=Plur	27	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	romance	romance	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	_	_
+35	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	_
+36	as	as	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	library	library	NOUN	NN	Number=Sing	35	obl	_	_
+39	required	require	VERB	VBN	Tense=Past|VerbForm=Part	38	acl	_	_
+40	by	by	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	regulations	regulation	NOUN	NNS	Number=Plur	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He had his letters addressed to Courfeyrac’s quarters.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	letters	letter	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	addressed	address	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	quarters	quarter	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

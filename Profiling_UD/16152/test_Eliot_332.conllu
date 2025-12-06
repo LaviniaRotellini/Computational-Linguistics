@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What’s this, what’s this?” said old Mr. Donnithorne.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	what	what	PRON	WP	PronType=Int	7	nsubj	_	SpaceAfter=No
+7	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+14	Donnithorne	Donnithorne	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “Is it something you’ve arranged, Arthur?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	something	something	PRON	NN	Number=Sing	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+6	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arranged	arrange	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	Arthur	Arthur	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Here’s the clerk coming with his fiddle, and a smart fellow with a nosegay in his button-hole.”
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	clerk	clerk	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	coming	come	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	fiddle	fiddle	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	smart	smart	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	fellow	fellow	NOUN	NN	Number=Sing	1	conj	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	nosegay	nosegay	NOUN	NN	Number=Sing	13	nmod	_	_
+17	in	in	ADP	IN	_	21	case	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+19	button	button	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	hole	hole	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

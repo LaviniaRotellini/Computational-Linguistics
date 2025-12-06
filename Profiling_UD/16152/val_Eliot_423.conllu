@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There he is, then,” said Mr Tulliver, in an excited way, when the knock came at last.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	4	expl	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	then	then	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr	Mr	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Tulliver	Tulliver	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	excited	excited	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	way	way	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	9	punct	_	_
+18	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	knock	knock	NOUN	NN	Number=Sing	21	nsubj	_	_
+21	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+22	at	at	ADV	RB	_	23	case	_	_
+23	last	last	ADJ	JJ	Degree=Pos	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Maggie went to open the door, but her mother came out of the kitchen hurriedly, saying, “Stop a bit, Maggie; I’ll open it.”
+1	Maggie	Maggie	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	open	open	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	door	door	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mother	mother	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	out	out	ADV	RB	_	11	advmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	kitchen	kitchen	NOUN	NN	Number=Sing	11	obl	_	_
+16	hurriedly	hurriedly	ADV	RB	_	11	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	11	punct	_	_
+18	saying	say	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	18	ccomp	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	bit	bit	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	Maggie	Maggie	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	2	punct	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	SpaceAfter=No
+28	’ll	’ll	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	open	open	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

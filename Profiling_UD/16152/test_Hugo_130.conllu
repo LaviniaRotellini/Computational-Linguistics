@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He made the tour of his cell.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	tour	tour	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	cell	cell	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There was no piece of furniture adapted to sleeping purposes, except a tolerably long wooden coffer; and its cover was carved, to boot; which afforded Gringoire, when he stretched himself out upon it, a sensation somewhat similar to that which Micromégas would feel if he were to lie down on the Alps.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	piece	piece	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	furniture	furniture	NOUN	NN	Number=Sing	4	nmod	_	_
+7	adapted	adapt	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	sleeping	sleep	NOUN	NN	Number=Sing	10	compound	_	_
+10	purposes	purpose	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	except	except	ADP	IN	_	17	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+14	tolerably	tolerably	ADV	RB	_	15	advmod	_	_
+15	long	long	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	wooden	wooden	NOUN	NN	Number=Sing	17	compound	_	_
+17	coffer	coffer	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	2	punct	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	cover	cover	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	carved	carve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	boot	boot	VERB	VB	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+27	;	;	PUNCT	,	_	2	punct	_	_
+28	which	which	PRON	WDT	PronType=Rel	29	nsubj	_	_
+29	afforded	afford	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+30	Gringoire	Gringoire	ADV	RB	PronType=Dem	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	29	punct	_	_
+32	when	when	ADV	WRB	PronType=Int	34	mark	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	stretched	stretch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	advcl	_	_
+35	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	obj	_	_
+36	out	out	ADP	RP	_	34	compound:prt	_	_
+37	upon	upon	ADP	IN	_	38	case	_	_
+38	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	2	punct	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+41	sensation	sensation	NOUN	NN	Number=Sing	49	nsubj	_	_
+42	somewhat	somewhat	ADV	RB	_	41	advmod	_	_
+43	similar	similar	ADJ	JJ	Degree=Pos	41	amod	_	_
+44	to	to	ADP	IN	_	45	case	_	_
+45	that	that	PRON	DT	Number=Sing|PronType=Dem	43	obl	_	_
+46	which	which	PRON	WDT	PronType=Int	41	nsubj	_	_
+47	Micromégas	Micromégas	PROPN	NNPS	Number=Plur	46	flat	_	_
+48	would	would	AUX	MD	VerbForm=Fin	49	aux	_	_
+49	feel	feel	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+50	if	if	SCONJ	IN	_	52	mark	_	_
+51	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+52	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	49	advcl	_	_
+53	to	to	PART	TO	_	54	mark	_	_
+54	lie	lie	VERB	VB	VerbForm=Inf	52	xcomp	_	_
+55	down	down	ADP	RP	_	54	compound:prt	_	_
+56	on	on	ADP	IN	_	58	case	_	_
+57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	_
+58	Alps	Alps	PROPN	NNPS	Number=Plur	54	obl	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

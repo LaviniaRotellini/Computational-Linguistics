@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I could certainly hasten the work,” said Rosamond.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	certainly	certainly	ADV	RB	_	5	advmod	_	_
+5	hasten	hasten	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	work	work	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Rosamond	Rosamond	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “Will you, then, mention it to papa?
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	then	then	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	mention	mention	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	papa	papa	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = —I think it would be better to write to him.”
+1	—	-	PUNCT	:	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	better	better	ADJ	JJR	Degree=Cmp	3	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	write	write	VERB	VB	VerbForm=Inf	7	csubj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = She blushed and looked at him as the garden flowers look at us when we walk forth happily among them in the transcendent evening light: is there not a soul beyond utterance, half nymph, half child, in those delicate petals which glow and breathe about the centres of deep color?
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	blushed	blush	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	garden	garden	NOUN	NN	Number=Sing	10	compound	_	_
+10	flowers	flower	NOUN	NNS	Number=Plur	4	obl	_	_
+11	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+14	when	when	ADV	WRB	PronType=Int	16	mark	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	walk	walk	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+17	forth	forth	ADV	RB	_	18	advmod	_	_
+18	happily	happily	ADV	RB	_	16	advmod	_	_
+19	among	among	ADP	IN	_	20	case	_	_
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	transcendent	transcendent	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	evening	evening	NOUN	NN	Number=Sing	25	compound	_	_
+25	light	light	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+26	:	:	PUNCT	:	_	2	punct	_	_
+27	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	ccomp	_	_
+28	there	there	PRON	EX	_	27	expl	_	_
+29	not	not	PART	RB	_	27	advmod	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	soul	soul	NOUN	NN	Number=Sing	27	nsubj	_	_
+32	beyond	beyond	ADP	IN	_	33	case	_	_
+33	utterance	utterance	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	27	punct	_	_
+35	half	half	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+36	nymph	nymph	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	36	punct	_	_
+38	half	half	X	GW	_	39	goeswith	_	_
+39	child	child	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+40	,	,	PUNCT	,	_	2	punct	_	_
+41	in	in	ADP	IN	_	44	case	_	_
+42	those	those	DET	DT	Number=Plur|PronType=Dem	44	det	_	_
+43	delicate	edelicat	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	petals	petal	NOUN	NNS	Number=Plur	2	obl	_	_
+45	which	which	PRON	WDT	PronType=Rel	46	nsubj	_	_
+46	glow	glow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	_
+47	and	and	CCONJ	CC	_	48	cc	_	_
+48	breathe	breathe	VERB	VB	VerbForm=Inf	46	conj	_	_
+49	about	about	ADP	IN	_	51	case	_	_
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+51	centres	centres	NOUN	NNS	Number=Plur	48	obl	_	_
+52	of	of	ADP	IN	_	54	case	_	_
+53	deep	deep	ADJ	JJ	Degree=Pos	54	amod	_	_
+54	color	color	NOUN	NN	Number=Sing	51	nmod	_	SpaceAfter=No
+55	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

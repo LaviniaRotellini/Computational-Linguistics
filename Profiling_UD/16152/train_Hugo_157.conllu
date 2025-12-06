@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When Jean Valjean left the Bishop’s house, he was, as we have seen, quite thrown out of everything that had been his thought hitherto.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	Jean	Jean	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Valjean	Valjean	PROPN	NNP	Number=Sing	2	flat	_	_
+4	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Bishop	Bishop	PROPN	NNP	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	house	house	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	quite	quite	ADV	RB	_	19	advmod	_	_
+19	thrown	throw	ADV	RB	_	22	advmod	_	_
+20	out	out	ADP	IN	_	22	case	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	everything	everything	PRON	NN	Number=Sing	16	obj	_	_
+23	that	that	PRON	WDT	PronType=Rel	28	nsubj	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	28	cop	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+28	hitherto	hitherto	NOUN	NN	Number=Sing	22	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = He could not yield to the evidence of what was going on within him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	yield	yield	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	evidence	evidence	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	SCONJ	IN	_	9	case	_	_
+9	what	what	PRON	WP	PronType=Int	7	nmod	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	_
+12	on	on	ADP	RP	_	11	compound:prt	_	_
+13	within	within	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He hardened himself against the angelic action and the gentle words of the old man.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	hardened	harden	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	against	against	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	angelic	angelic	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	action	action	NOUN	NN	Number=Sing	2	obl	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	gentle	gentle	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	words	word	NOUN	NNS	Number=Plur	2	conj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	man	man	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = “You have promised me to become an honest man.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	become	become	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	honest	honest	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	man	man	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I buy your soul.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	buy	buy	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	soul	soul	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = I take it away from the spirit of perversity; I give it to the good God.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	away	away	ADV	RB	_	2	advmod	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	spirit	spirit	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	perversity	perversity	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	to	to	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	good	good	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	God	God	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

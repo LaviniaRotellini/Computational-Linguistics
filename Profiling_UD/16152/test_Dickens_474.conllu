@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I leaned down, and her calm face was like a statue’s.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	leaned	lean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	down	down	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	13	punct	_	_
+5	and	and	CCONJ	CC	_	13	cc	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	calm	calm	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	face	face	NOUN	NN	Number=Sing	13	nsubj	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+10	like	like	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	statue	statue	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+13	’s	's	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = “Now,” said Estella, gliding away the instant I touched her cheek, “you are to take care that I have some tea, and you are to take me to Richmond.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Estella	Estella	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	gliding	glid	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+9	away	away	ADV	RB	_	8	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	instant	instant	NOUN	NN	Number=Sing	8	obj	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	cheek	cheek	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	take	take	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+22	care	care	NOUN	NN	Number=Sing	21	obj	_	_
+23	that	that	PRON	WDT	PronType=Rel	25	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+26	some	some	DET	DT	_	27	det	_	_
+27	tea	tea	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	nsubj	_	_
+31	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	cop	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	take	take	VERB	VB	VerbForm=Inf	27	conj	_	_
+34	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obj	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	Richmond	Richmond	PROPN	NNP	Number=Sing	33	obl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+38	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

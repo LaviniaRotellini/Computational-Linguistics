@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And he will not like having things raked up against him,” said Sir James.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	like	like	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+7	having	have	VERB	VBG	VerbForm=Ger	6	xcomp	_	_
+8	things	thing	NOUN	NNS	Number=Plur	7	obj	_	_
+9	raked	rak	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	against	against	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Sir	Sir	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	James	James	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “There is the management of his estate.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	management	management	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	estate	estate	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = They have begun upon that already.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	upon	upon	ADP	IN	_	5	case	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	_
+6	already	already	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = And it really is painful for me to see.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	really	really	ADV	RB	_	5	advmod	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	painful	painful	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	see	see	VERB	VB	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = It is a nuisance under one’s very nose.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	nuisance	nuisance	NOUN	NN	Number=Sing	0	root	_	_
+5	under	under	ADP	IN	_	6	case	_	_
+6	one	one	NUM	CD	NumType=Card	9	nsubj	_	SpaceAfter=No
+7	’s	’	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	nose	nose	ADJ	JJ	Degree=Pos	4	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I do think one is bound to do the best for one’s land and tenants, especially in these hard times.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	bound	bound	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	do	do	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	best	best	ADJ	JJS	Degree=Sup	8	obj	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	one	one	NUM	CD	NumType=Card	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	land	land	NOUN	NN	Number=Sing	8	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	tenants	tenant	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	6	punct	_	_
+18	especially	especially	ADV	RB	_	22	advmod	_	_
+19	in	in	ADP	IN	_	22	case	_	_
+20	these	these	DET	DT	Number=Plur|PronType=Dem	22	det	_	_
+21	hard	hard	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	times	time	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

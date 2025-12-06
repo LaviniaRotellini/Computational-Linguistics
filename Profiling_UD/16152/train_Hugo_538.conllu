@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Wealthy travellers are not so polite.
+1	Wealthy	wealthy	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	travellers	traveller	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	polite	polite	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = This gesture, and an inspection of the stranger’s costume and baggage, which the Thénardier passed in review with one glance, caused the amiable grimace to vanish, and the gruff mien to reappear.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	gesture	gesture	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	inspection	inspection	NOUN	NN	Number=Sing	2	conj	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	stranger	stranger	NOUN	NN	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	costume	costume	NOUN	NN	Number=Sing	6	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	baggage	baggage	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Thénardier	Thénardier	PROPN	NNP	Number=Sing	18	nsubj	_	_
+18	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	review	review	NOUN	NN	Number=Sing	18	obl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	one	one	NUM	CD	NumType=Card	23	nummod	_	_
+23	glance	glance	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	caused	cause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	amiable	amiable	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	grimace	grimace	NOUN	NN	Number=Sing	25	obj	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	vanish	vanish	VERB	VB	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	and	and	CCONJ	CC	_	35	cc	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	gruff	gruff	NOUN	NN	Number=Sing	35	compound	_	_
+35	mien	mien	NOUN	NNS	Number=Plur	25	conj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	reappear	reappear	VERB	VB	VerbForm=Inf	35	acl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 3
+# text = She resumed dryly:—
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dryly	dryly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	:—	:—	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The first thing that Cosette felt was a confused and profound melancholy.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	Cosette	Cosette	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	confused	confused	ADJ	JJ	Degree=Pos	0	root	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	profound	profound	ADJ	JJ	Degree=Pos	9	conj	_	_
+12	melancholy	melancholy	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = It seemed to her that her soul had become black since the day before.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	soul	soul	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	become	become	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+10	black	black	ADJ	JJ	Degree=Pos	9	xcomp	_	_
+11	since	since	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	day	day	NOUN	NN	Number=Sing	10	obl	_	_
+14	before	before	ADV	RB	_	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = She no longer recognized it.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	no	no	ADV	RB	_	3	advmod	_	_
+3	longer	longer	ADV	RBR	Degree=Cmp	4	advmod	_	_
+4	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = The whiteness of soul in young girls, which is composed of coldness and gayety, resembles snow.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	whiteness	whiteness	NOUN	NNS	Number=Plur	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	soul	soul	NOUN	NN	Number=Sing	2	nmod	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	girls	girl	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	composed	compose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	coldness	coldness	NOUN	NN	Number=Sing	11	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	gayety	gayety	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	resembles	resemble	NOUN	NNS	Number=Plur	18	compound	_	_
+18	snow	snow	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = It melts in love, which is its sun.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	melts	melt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	love	love	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	sun	sun	NOUN	NN	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

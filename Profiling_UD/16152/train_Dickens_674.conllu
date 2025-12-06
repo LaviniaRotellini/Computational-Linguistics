@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Away we went.
+1	Away	away	ADV	RB	_	3	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The advertisement directed us to apply to Mrs. Crupp on the premises, and we rung the area bell, which we supposed to communicate with Mrs. Crupp.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	advertisement	advertisement	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	directed	direct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	apply	apply	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	obl	_	_
+9	Crupp	Crupp	PROPN	NNP	Number=Sing	8	flat	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	premises	premise	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	rung	ring	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	area	area	NOUN	NN	Number=Sing	19	compound	_	_
+19	bell	bell	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	16	punct	_	_
+21	which	which	PRON	WDT	PronType=Rel	23	obj	_	_
+22	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+23	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	communicate	communicate	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	Mrs.	Mrs.	PROPN	NNP	Number=Sing	25	obl	_	_
+28	Crupp	Crupp	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It was not until we had rung three or four times that we could prevail on Mrs. Crupp to communicate with us, but at last she appeared, being a stout lady with a flounce of flannel petticoat below a nankeen gown.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	until	until	SCONJ	IN	_	7	mark	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	rung	ring	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+8	three	three	NUM	CD	NumType=Card	11	nummod	_	_
+9	or	or	CCONJ	CC	_	11	cc	_	_
+10	four	four	NUM	CD	NumType=Card	11	nummod	_	_
+11	times	time	NOUN	NNS	Number=Plur	7	obl:tmod	_	_
+12	that	that	PRON	WDT	PronType=Rel	15	obj	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	prevail	prevail	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+16	on	on	ADP	IN	_	17	case	_	_
+17	Mrs.	Mrs.	PROPN	NNP	Number=Sing	15	obl	_	_
+18	Crupp	Crupp	PROPN	NNP	Number=Sing	17	flat	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	communicate	communicate	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	33	punct	_	_
+24	but	but	CCONJ	CC	_	33	cc	_	_
+25	at	at	ADP	IN	_	26	case	_	_
+26	last	last	ADJ	JJ	Degree=Pos	28	obl	_	_
+27	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	33	punct	_	_
+30	being	be	AUX	VBG	VerbForm=Ger	33	cop	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	stout	stout	NOUN	NN	Number=Sing	33	compound	_	_
+33	lady	lady	NOUN	NN	Number=Sing	2	conj	_	_
+34	with	with	ADP	IN	_	36	case	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	flounce	flounce	NOUN	NN	Number=Sing	33	nmod	_	_
+37	of	of	ADP	IN	_	39	case	_	_
+38	flannel	flannel	NOUN	NN	Number=Sing	39	compound	_	_
+39	petticoat	petticoat	NOUN	NN	Number=Sing	36	nmod	_	_
+40	below	below	ADP	IN	_	43	case	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	nankeen	nankeen	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	gown	gown	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I understand,” he replied.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “You ask me why I saved you.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	saved	save	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You have forgotten a wretch who tried to abduct you one night, a wretch to whom you rendered succor on the following day on their infamous pillory.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	wretch	wretch	NOUN	NN	Number=Sing	3	obj	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	abduct	abduct	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	_
+11	one	one	NUM	CD	NumType=Card	12	nummod	_	_
+12	night	night	NOUN	NN	Number=Sing	9	obl:tmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	wretch	wretch	NOUN	NN	Number=Sing	3	appos	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	whom	whom	PRON	WP	PronType=Rel	19	obl	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	rendered	render	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+20	succor	succor	NOUN	NN	Number=Sing	19	obj	_	_
+21	on	on	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	following	follow	VERB	VBG	VerbForm=Ger	24	amod	_	_
+24	day	day	NOUN	NN	Number=Sing	19	obl	_	_
+25	on	on	ADP	IN	_	28	case	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	infamous	infamous	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	pillory	pillory	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = A drop of water and a little pity,—that is more than I can repay with my life.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	drop	drop	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	water	water	NOUN	NN	Number=Sing	2	nmod	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	pity	pity	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+9	,—	,—	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	2	acl:relcl	_	_
+13	than	than	SCONJ	IN	_	16	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	repay	repay	VERB	VB	VerbForm=Inf	12	advcl	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	life	life	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = You have forgotten that wretch; but he remembers it.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	wretch	wretch	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	remembers	remember	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

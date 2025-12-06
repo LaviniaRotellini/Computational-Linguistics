@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mr.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Dick,’ said my aunt, ‘don’t be a fool, because nobody can be more discreet than you can, when you choose.
+1	Dick	Dick	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	aunt	aunt	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	‘	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+9	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	13	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	13	advmod	_	_
+11	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	13	cop	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	fool	fool	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	because	because	SCONJ	IN	_	20	mark	_	_
+16	nobody	nobody	PRON	NN	Number=Sing	20	nsubj	_	_
+17	can	can	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	more	more	ADV	RBR	_	20	advmod	_	_
+20	discreet	discreet	ADJ	JJ	Degree=Pos	4	advcl	_	_
+21	than	than	SCONJ	IN	_	23	mark	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+23	can	can	AUX	MD	VerbForm=Fin	20	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	20	punct	_	_
+25	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	_
+27	choose	choose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = We all know that.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = So don’t be a fool, whatever you are.’
+1	So	so	ADV	RB	_	6	advmod	_	_
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	6	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	6	advmod	_	_
+4	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fool	fool	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	whatever	whatever	DET	WDT	PronType=Int	9	det	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

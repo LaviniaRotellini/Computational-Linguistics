@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Spare her?” said Mrs. Poyser, placing a seed-cake on the table and then seating herself to pour out the tea.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Spare	spare	VERB	VB	Mood=Imp|VerbForm=Fin	6	ccomp	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mrs.	Mrs.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	Poyser	Poyser	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	placing	place	VERB	VBG	VerbForm=Ger	6	ccomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	seed	seed	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	cake	cake	NOUN	NN	Number=Sing	10	obj	_	_
+15	on	on	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	table	table	NOUN	NN	Number=Sing	10	obl	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	then	then	ADV	RB	PronType=Dem	20	advmod	_	_
+20	seating	seat	VERB	VBG	VerbForm=Ger	10	conj	_	_
+21	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	pour	pour	VERB	VB	VerbForm=Inf	20	advcl	_	_
+24	out	out	ADP	RP	_	23	compound:prt	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	tea	tea	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “But we must spare her, it seems, and not for a husband neither, but for her own megrims.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	spare	spare	VERB	VB	VerbForm=Inf	0	root	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	16	punct	_	_
+11	and	and	CCONJ	CC	_	16	cc	_	_
+12	not	not	ADV	RB	_	15	advmod	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	husband	husband	NOUN	NN	Number=Sing	16	obl	_	_
+16	neither	neither	ADJ	JJR	Degree=Cmp	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	_
+18	but	but	CCONJ	CC	_	22	cc	_	_
+19	for	for	ADP	IN	_	22	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	megrims	megrim	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tommy, what are you doing to your little sister’s doll?
+1	Tommy	Tommy	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	what	what	PRON	WP	PronType=Int	6	obj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	to	to	ADP	IN	_	12	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	little	little	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	sister	sister	NOUN	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	doll	doll	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Making the child naughty, when she’d be good if you’d let her.
+1	Making	make	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	child	child	NOUN	NN	Number=Sing	4	compound	_	_
+4	naughty	naughty	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	good	good	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+11	if	if	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+13	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	let	let	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+15	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = You shanna have a morsel o’ cake if you behave so.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	shan	shan	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	na	to	PART	TO	Abbr=Yes	4	mark	_	_
+4	have	have	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	morsel	morsel	NOUN	NN	Number=Sing	7	compound	_	_
+7	o	of	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	7	punct	_	_
+9	cake	cake	NOUN	NN	Number=Sing	4	obj	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	behave	behave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+13	so	so	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He’s at home,” said Maggie, finding it easier to reply to that question.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	home	home	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	Maggie	Maggie	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	finding	find	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+13	easier	easier	ADJ	JJR	Degree=Cmp	11	ccomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	reply	reply	VERB	VB	VerbForm=Inf	13	csubj	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	question	question	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “But,” she added, after a pause, “not himself—he fell off his horse.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	after	after	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	pause	pause	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+13	not	not	ADV	RB	_	14	advmod	_	_
+14	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+18	off	off	ADP	RP	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	horse	horse	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He has known nobody but me ever since—he seems to have lost his senses.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	nobody	nobody	NOUN	NN	Number=Sing	3	obj	_	_
+5	but	but	CCONJ	CC	_	6	cc	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+7	ever	ever	ADV	RB	_	6	advmod	_	_
+8	since	since	SCONJ	IN	_	11	mark	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	have	have	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	11	xcomp	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	senses	sense	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = O father, father——”
+1	O	of	INTJ	UH	_	4	discourse	_	_
+2	father	father	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	father	father	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	——	——	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

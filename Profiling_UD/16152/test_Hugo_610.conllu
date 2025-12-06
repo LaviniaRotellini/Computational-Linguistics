@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = yes!”
+1	yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = he exclaimed, clapping his hands, “yonder is a redness in the sky over the City.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	clapping	clapp	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	hands	hand	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+9	yonder	yonder	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	redness	redness	NOUN	NN	Number=Sing	2	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	sky	sky	NOUN	NN	Number=Sing	12	nmod	_	_
+16	over	over	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	City	City	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = ’Tis the bailiff burning.
+1	’	'	PUNCT	''	_	5	punct	_	SpaceAfter=No
+2	Tis	Tis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bailiff	bailiff	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	burning	burn	VERB	VBG	VerbForm=Ger	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = It can be nothing else but that.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+5	else	else	ADJ	JJ	Degree=Pos	4	amod	_	_
+6	but	but	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ah! my good people!
+1	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	5	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 7
+# text = here you are aiding me at last in tearing down the rights of lordship!”
+1	here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aiding	aide	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	last	last	ADJ	JJ	Degree=Pos	4	obl	_	_
+8	in	in	SCONJ	IN	_	9	mark	_	_
+9	tearing	tearing	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+10	down	down	ADP	RP	_	9	compound:prt	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	rights	rights	NOUN	NNS	Number=Plur	9	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	lordship	lordship	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

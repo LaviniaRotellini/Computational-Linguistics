@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The coffee-room at the Blue Boar was empty, and I had not only ordered my dinner there, but had sat down to it, before the waiter knew me.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	coffee	coffee	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	room	room	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	at	at	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Blue	Blue	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Boar	Boar	PROPN	NNP	Number=Sing	4	nmod	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	empty	empty	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+15	not	not	ADV	RB	_	16	advmod	_	_
+16	only	only	ADV	RB	_	14	advmod	_	_
+17	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	dinner	dinner	NOUN	NN	Number=Sing	17	obj	_	_
+20	there	there	ADV	RB	PronType=Dem	17	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	but	but	CCONJ	CC	_	24	cc	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+24	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	_
+25	down	down	ADV	RB	_	24	advmod	_	_
+26	to	to	ADP	IN	_	27	case	_	_
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	24	punct	_	_
+29	before	before	SCONJ	IN	_	32	mark	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	waiter	waiter	NOUN	NN	Number=Sing	32	nsubj	_	_
+32	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
+33	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = As soon as he had apologised for the remissness of his memory, he asked me if he should send Boots for Mr. Pumblechook?
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	soon	soon	ADV	RB	Degree=Pos	15	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	apologised	apologise	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	remissness	remissness	NOUN	NN	Number=Sing	2	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	memory	memory	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	if	if	SCONJ	IN	_	20	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	send	send	VERB	VB	VerbForm=Inf	15	advcl	_	_
+21	Boots	boots	PROPN	NNP	Number=Sing	20	obj	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	Mr.	Mr.	PROPN	NNP	Number=Sing	20	obl	_	_
+24	Pumblechook	Pumblechook	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

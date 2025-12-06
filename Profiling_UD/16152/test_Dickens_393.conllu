@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Were it yesterday afternoon?” said Joe, after coughing behind his hand, as if he had had time to catch the whooping-cough since he came.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	yesterday	yesterday	NOUN	NN	Number=Sing	5	compound	_	_
+5	afternoon	afternoon	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Joe	Joe	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	after	after	SCONJ	IN	_	12	mark	_	_
+12	coughing	cough	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+13	behind	behind	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	hand	hand	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	as	as	SCONJ	IN	_	21	mark	_	_
+18	if	if	SCONJ	IN	_	21	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	had	have	VERB	VBN	Tense=Past|VerbForm=Part	16	advcl	_	_
+22	time	time	NOUN	NN	Number=Sing	21	obj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	catch	catch	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	whooping	whooping	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	-	-	PUNCT	,	_	24	punct	_	SpaceAfter=No
+28	cough	cough	SCONJ	IN	_	31	mark	_	_
+29	since	since	SCONJ	IN	_	31	mark	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “No it were not.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	DET	DT	_	3	det	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	not	not	PART	RB	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Yes it were.
+1	Yes	yes	INTJ	UH	_	3	discourse	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Yes.
+1	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = It were yesterday afternoon” (with an appearance of mingled wisdom, relief, and strict impartiality).
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	yesterday	yesterday	NOUN	NN	Number=Sing	4	compound	_	_
+4	afternoon	afternoon	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	4	punct	_	_
+6	(	(	PUNCT	-LRB-	_	9	punct	_	SpaceAfter=No
+7	with	with	ADP	IN	_	9	case	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	appearance	appearance	NOUN	NN	Number=Sing	4	parataxis	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	mingled	mingled	VERB	VBN	Tense=Past|VerbForm=Part	12	amod	_	_
+12	wisdom	wisdom	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	relief	relief	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	strict	strict	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	impartiality	impartiality	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	9	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

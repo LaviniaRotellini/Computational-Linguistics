@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s true; but people don’t get much money at anything, my boy, when they’re only sixteen.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	but	but	CCONJ	CC	_	10	cc	_	_
+7	people	people	NOUN	NNS	Number=Plur	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n’t	not	PART	RB	_	10	advmod	_	_
+10	get	get	VERB	VB	VerbForm=Inf	4	conj	_	_
+11	much	much	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	money	money	NOUN	NN	Number=Sing	10	obj	_	_
+13	at	at	ADP	IN	_	14	case	_	_
+14	anything	anything	PRON	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	boy	boy	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	10	punct	_	_
+19	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No
+21	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+22	only	only	ADV	RB	_	23	advmod	_	_
+23	sixteen	sixteen	NUM	CD	NumType=Card	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = You’ve had a good deal of schooling, however; I suppose you’re pretty well up in accounts, eh?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	deal	deal	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	schooling	schooling	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	however	however	ADV	RB	_	3	advmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+16	pretty	pretty	ADV	RB	_	17	advmod	_	_
+17	well	well	ADV	RB	Degree=Pos	15	advmod	_	_
+18	up	up	ADP	IN	_	15	compound:prt	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	accounts	account	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	3	punct	_	_
+22	eh	eh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+23	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You understand book keeping?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	book	book	NOUN	NN	Number=Sing	4	compound	_	_
+4	keeping	keep	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

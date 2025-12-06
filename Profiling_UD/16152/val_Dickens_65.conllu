@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Her father always had it in his head,’ resumed Childers, feigning unconsciousness of Mr. Bounderby’s existence, ‘that she was to be taught the deuce-and-all of education.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	father	father	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	always	always	ADV	RB	_	5	advmod	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	head	head	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	5	punct	_	_
+12	resumed	resume	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	Childers	Childer	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	feigning	feign	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	unconsciousness	unconsciousness	NOUN	NNS	Number=Plur	15	obj	_	_
+17	of	of	ADP	IN	_	21	case	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	21	nmod:poss	_	_
+19	Bounderby	Bounderby	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+20	’s	's	PART	POS	_	18	case	_	_
+21	existence	existence	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	5	punct	_	_
+23	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+27	to	to	PART	TO	_	29	mark	_	_
+28	be	be	AUX	VB	VerbForm=Inf	29	aux:pass	_	_
+29	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	xcomp	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	deuce	deuce	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	-	-	PUNCT	,	_	31	punct	_	SpaceAfter=No
+33	and	and	CCONJ	CC	_	35	cc	_	SpaceAfter=No
+34	-	-	PUNCT	,	_	35	punct	_	SpaceAfter=No
+35	all	all	DET	DT	_	31	conj	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	education	education	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = How it got into his head, I can’t say; I can only say that it never got out.
+1	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	head	head	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	ca	can	AUX	MD	VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	11	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	only	only	ADV	RB	_	16	advmod	_	_
+16	say	say	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+17	that	that	SCONJ	IN	_	20	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	never	never	ADV	RB	_	20	advmod	_	_
+20	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+21	out	out	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = He has been picking up a bit of reading for her, here—and a bit of writing for her, there—and a bit of ciphering for her, somewhere else—these seven years.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	bit	bit	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	reading	reading	NOUN	NN	Number=Sing	7	nmod	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	here	here	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+14	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	bit	bit	NOUN	NN	Number=Sing	4	conj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	writing	writing	NOUN	NN	Number=Sing	17	nmod	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	_	_
+23	there	there	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	bit	bit	NOUN	NN	Number=Sing	33	obl:npmod	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	ciphering	ciphering	NOUN	NN	Number=Sing	27	nmod	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	27	punct	_	_
+33	somewhere	somewhere	ADV	RB	_	4	advmod	_	_
+34	else	else	ADV	RB	_	33	advmod	_	SpaceAfter=No
+35	—	-	PUNCT	,	_	38	punct	_	SpaceAfter=No
+36	these	these	DET	DT	Number=Plur|PronType=Dem	38	det	_	_
+37	seven	seven	NUM	CD	NumType=Card	38	nummod	_	_
+38	years	year	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+40	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

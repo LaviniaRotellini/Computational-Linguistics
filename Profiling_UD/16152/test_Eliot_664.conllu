@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was about three o’clock when Adam entered the farmyard and roused Alick and the dogs from their Sunday dozing.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	about	about	ADV	RB	_	4	advmod	_	_
+4	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+5	o’clock	o’clock	NOUN	NN	Number=Sing	0	root	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	Adam	Adam	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	farmyard	farmyard	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	roused	rouse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	Alick	Alick	PROPN	NNP	Number=Sing	12	obj	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dogs	dog	NOUN	NNS	Number=Plur	13	conj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	Sunday	Sunday	PROPN	NNP	Number=Sing	12	obl	_	_
+20	dozing	do	VERB	VBG	VerbForm=Ger	5	acl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Alick said everybody was gone to church “but th’ young missis”—so he called Dinah—but this did not disappoint Adam, although the “everybody” was so liberal as to include Nancy the dairymaid, whose works of necessity were not unfrequently incompatible with church-going.
+1	Alick	Alick	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	everybody	everybody	PRON	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	church	church	NOUN	NN	Number=Sing	5	obl	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	but	but	CCONJ	CC	_	10	cc	_	_
+10	th	th	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	missis	missis	NOUN	NNS	Number=Plur	10	appos	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	13	punct	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+16	so	so	ADV	RB	_	18	advmod	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+19	Dinah	Dinah	PROPN	NNP	Number=Sing	18	obj	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+21	but	but	CCONJ	CC	_	25	cc	_	_
+22	this	this	PRON	DT	Number=Sing|PronType=Dem	25	nsubj	_	_
+23	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	disappoint	disappoind	VERB	VB	VerbForm=Inf	18	conj	_	_
+26	Adam	Adam	PROPN	NNP	Number=Sing	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	25	punct	_	_
+28	although	although	SCONJ	IN	_	35	mark	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+31	everybody	everybody	PRON	NN	Number=Sing	35	nsubj	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	31	punct	_	_
+33	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	cop	_	_
+34	so	so	ADV	RB	_	35	advmod	_	_
+35	liberal	liberal	ADJ	JJ	Degree=Pos	25	advcl	_	_
+36	as	as	SCONJ	IN	_	38	mark	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	include	include	VERB	VB	VerbForm=Inf	35	advcl	_	_
+39	Nancy	Nancy	PROPN	NNP	Number=Sing	41	compound	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	dairymaid	dairymaid	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	18	punct	_	_
+43	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	44	nsubj	_	_
+44	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+45	of	of	ADP	IN	_	46	case	_	_
+46	necessity	necessity	NOUN	NN	Number=Sing	44	obl	_	_
+47	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	50	cop	_	_
+48	not	not	PART	RB	_	50	advmod	_	_
+49	unfrequently	unfrequently	ADV	RB	_	50	advmod	_	_
+50	incompatible	incompatible	ADJ	JJ	Degree=Pos	44	ccomp	_	_
+51	with	with	ADP	IN	_	52	case	_	_
+52	church	church	NOUN	NN	Number=Sing	50	obl	_	SpaceAfter=No
+53	-	-	PUNCT	HYPH	_	50	punct	_	SpaceAfter=No
+54	going	go	VERB	VBG	VerbForm=Ger	18	xcomp	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

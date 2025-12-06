@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Let us say it plainly, Mademoiselle Gillenormand had gained rather than lost as she grew older.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	say	say	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	plainly	plainly	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	Mademoiselle	Mademoiselle	PROPN	NNP	Number=Sing	10	nsubj	_	_
+8	Gillenormand	Gillenormand	PROPN	NNP	Number=Sing	7	flat	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	gained	gain	VERB	VBN	Tense=Past|VerbForm=Part	1	parataxis	_	_
+11	rather	rather	ADV	RB	_	13	cc	_	_
+12	than	than	ADP	IN	_	11	fixed	_	_
+13	lost	lose	NOUN	NN	Number=Sing	10	conj	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+17	older	older	ADJ	JJR	Degree=Cmp	13	amod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = This is the case with passive natures.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	case	case	NOUN	NN	Number=Sing	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	passive	passive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	natures	nature	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She had never been malicious, which is relative kindness; and then, years wear away the angles, and the softening which comes with time had come to her.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	never	never	ADV	RB	_	5	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	_
+5	malicious	malicious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	relative	relative	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	kindness	kindness	NOUN	NN	Number=Sing	5	acl:relcl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	and	and	CCONJ	CC	_	16	cc	_	_
+13	then	then	ADV	RB	PronType=Dem	16	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	years	years	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	wear	wear	VERB	VB	VerbForm=Inf	5	conj	_	_
+17	away	away	ADP	RP	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	angles	angles	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	29	punct	_	_
+21	and	and	CCONJ	CC	_	29	cc	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	softening	softening	NOUN	NN	Number=Sing	29	nsubj	_	_
+24	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+25	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	time	time	NOUN	NN	Number=Sing	25	obl	_	_
+28	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux	_	_
+29	come	come	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = She was melancholy with an obscure sadness of which she did not herself know the secret.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	melancholy	melancholy	ADV	RB	_	2	advmod	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	obscure	obscure	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	sadness	sadness	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	obl	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+12	not	not	PART	RB	_	13	advmod	_	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	nsubj	_	_
+14	know	know	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	secret	secret	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = There breathed from her whole person the stupor of a life that was finished, and which had never had a beginning.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	breathed	breath	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	6	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	whole	whole	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	person	person	NOUN	NN	Number=Sing	2	obl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	stupor	stupor	NOUN	NN	Number=Sing	6	appos	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	life	life	NOUN	NN	Number=Sing	8	nmod	_	_
+12	that	that	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	finished	finish	ADJ	JJ	Degree=Pos	8	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	which	which	PRON	WDT	PronType=Int	20	nsubj	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	never	never	ADV	RB	_	20	advmod	_	_
+20	had	have	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	beginning	beginning	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

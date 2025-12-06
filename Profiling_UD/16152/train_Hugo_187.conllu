@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That will serve to pay my note for one hundred and ten francs which falls due to-morrow; I lacked fifty francs.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	serve	serve	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	pay	pay	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	note	note	NOUN	NN	Number=Sing	6	obj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	hundred	hundred	NUM	CD	NumType=Card	6	obl	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	ten	ten	NUM	CD	NumType=Card	14	nummod	_	_
+14	francs	franc	NOUN	NNS	Number=Plur	6	conj	_	_
+15	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	due	due	ADP	IN	_	20	case	_	_
+18	to	to	ADP	IN	_	17	fixed	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	morrow	morrow	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	4	punct	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	lacked	lack	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+24	fifty	fifty	NUM	CD	NumType=Card	25	nummod	_	_
+25	francs	franc	NOUN	NNS	Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Do you know that I should have had a bailiff and a protest after me?
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	_
+8	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	bailiff	bailiff	NOUN	NN	Number=Sing	8	obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	protest	protest	NOUN	NN	Number=Sing	10	conj	_	_
+14	after	after	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nmod	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You played the mouse-trap nicely with your young ones.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	mouse	mouse	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+6	trap	trap	NOUN	NN	Number=Sing	2	obj	_	_
+7	nicely	nicely	ADV	RB	_	6	advmod	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	young	young	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	ones	one	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye,” said Adam, “I’ll come if I can.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Adam	Adam	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’ll	’ll	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	come	come	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	11	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But I can’t often say what I’ll do beforehand, for the work often holds me longer than I expect.
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	ca	can	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	often	often	ADV	RB	_	6	advmod	_	_
+6	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+7	what	what	PRON	WP	PronType=Int	10	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	do	do	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	beforehand	beforehas	ADP	IN	Typo=Yes	10	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	work	work	NOUN	NN	Number=Sing	17	obl	_	_
+16	often	often	ADV	RB	_	17	advmod	_	_
+17	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	longer	longer	ADJ	JJR	Degree=Cmp	17	xcomp	_	_
+20	than	than	SCONJ	IN	_	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	expect	expect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = You’ll stay till the end o’ the week, Dinah?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	stay	stay	VERB	VB	VerbForm=Inf	0	root	_	_
+4	till	till	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	end	end	NOUN	NN	Number=Sing	3	obl	_	_
+7	o	of	ADP	IN	Abbr=Yes	8	case	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	3	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	week	week	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	Dinah	Dinah	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

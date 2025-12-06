@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Excuse me there.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Excuse	excuse	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = If you go upon arguments, they are never wanting, when a man has no constancy of mind.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+4	upon	upon	ADP	IN	_	5	case	_	_
+5	arguments	argument	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	never	never	ADV	RB	_	10	advmod	_	_
+10	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	man	man	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+16	no	no	DET	DT	_	17	det	_	_
+17	constancy	constancy	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	mind	mind	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = My father never changed, and he preached plain moral sermons without arguments, and was a good man—few better.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	changed	change	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	preached	preach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	plain	plain	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	moral	moral	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sermons	sermon	NOUN	NNS	Number=Plur	8	obj	_	_
+12	without	without	ADP	IN	_	13	case	_	_
+13	arguments	argument	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	man	man	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+21	few	few	ADJ	JJ	Degree=Pos	19	amod	_	_
+22	better	better	ADV	RBR	Degree=Cmp	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = When you get me a good man made out of arguments, I will get you a good dinner with reading you the cookery-book.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	3	obj	_	_
+8	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	out	out	ADP	IN	_	11	case	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	arguments	argument	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	iobj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	dinner	dinner	NOUN	NN	Number=Sing	15	obj	_	_
+20	with	with	SCONJ	IN	_	21	mark	_	_
+21	reading	read	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	iobj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+24	cookery	cookery	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	book	book	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 5
+# text = That’s my opinion, and I think anybody’s stomach will bear me out.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	opinion	opinion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	anybody	anybody	PRON	NN	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	stomach	stomach	NOUN	NN	Number=Sing	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	bear	bear	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	out	out	ADP	RP	_	13	compound:prt	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

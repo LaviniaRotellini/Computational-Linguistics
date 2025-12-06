@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I had my thowts o’ coming to make inquiration for you, sir, tonight,’ he said, ‘but knowing as your aunt was living along wi’ you--fur I’ve been down yonder--Yarmouth way--I was afeerd it was too late.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	thowts	thowt	NOUN	NNS	Number=Plur	3	obj	_	_
+6	o	of	ADP	IN	Abbr=Yes	7	case	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	5	punct	_	_
+8	coming	come	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	make	make	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	inquiration	inquiration	NOUN	NN	Number=Sing	10	obj	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	sir	sir	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	tonight	tonight	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	21	punct	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+24	but	but	CCONJ	CC	_	25	cc	_	_
+25	knowing	know	VERB	VBG	VerbForm=Ger	3	conj	_	_
+26	as	as	SCONJ	IN	_	30	mark	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	aunt	aunt	NOUN	NN	Number=Sing	30	nsubj	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	25	ccomp	_	_
+31	along	along	ADP	IN	_	32	case	_	_
+32	wi	wus	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	32	punct	_	_
+34	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	36	nsubj	_	SpaceAfter=No
+35	--	--	PUNCT	,	_	36	punct	_	SpaceAfter=No
+36	fur	fur	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	30	acl:relcl	_	_
+37	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	SpaceAfter=No
+38	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	aux	_	_
+39	been	be	AUX	VBN	Tense=Past|VerbForm=Part	44	cop	_	_
+40	down	down	ADV	RB	_	41	advmod	_	_
+41	yonder	yonder	ADV	RBR	_	44	advmod	_	SpaceAfter=No
+42	--	--	PUNCT	,	_	44	punct	_	SpaceAfter=No
+43	Yarmouth	Yarmouth	PROPN	NNP	Number=Sing	44	compound	_	_
+44	way	way	NOUN	NN	Number=Sing	36	parataxis	_	SpaceAfter=No
+45	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+46	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
+47	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	48	cop	_	_
+48	afeerd	afeered	VERB	VBD	Mood=Ind|Tense=Past|Typo=Yes|VerbForm=Fin	3	parataxis	_	_
+49	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	52	nsubj	_	_
+50	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	cop	_	_
+51	too	too	ADV	RB	_	52	advmod	_	_
+52	late	late	ADJ	JJ	Degree=Pos	48	ccomp	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I should have come early in the morning, sir, afore going away.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	early	early	ADV	RB	Degree=Pos	4	advmod	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	morning	morning	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	sir	sir	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	afore	afore	SCONJ	IN	_	13	mark	_	_
+13	going	go	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+14	away	away	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

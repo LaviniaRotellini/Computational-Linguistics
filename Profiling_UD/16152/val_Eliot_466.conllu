@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I don’t think that’s necessary, uncle,” said Tom.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	think	think	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	necessary	necessary	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	uncle	uncle	NOUN	NN	Number=Sing	13	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Tom	Tom	PROPN	NNP	Number=Sing	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “At least, I mean it would not be necessary for me, because I know Bob well; but perhaps it would be right for you to have some security.”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	At	at	ADV	RB	_	6	advmod	_	_
+3	least	least	ADV	RBS	Degree=Sup	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	because	because	SCONJ	IN	_	17	mark	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	Bob	Bob	PROPN	NNP	Number=Sing	17	obj	_	_
+19	well	well	ADV	RB	Degree=Pos	18	advmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	11	punct	_	_
+21	but	but	CCONJ	CC	_	26	cc	_	_
+22	perhaps	perhaps	ADV	RB	_	26	advmod	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	expl	_	_
+24	would	would	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	26	cop	_	_
+26	right	right	ADJ	JJ	Degree=Pos	11	conj	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	26	obl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	have	have	VERB	VB	VerbForm=Inf	26	csubj	_	_
+31	some	some	DET	DT	_	32	det	_	_
+32	security	security	NOUN	NN	Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

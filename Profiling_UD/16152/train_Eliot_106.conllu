@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, uncle,” said Dorothea, eagerly.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	uncle	uncle	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Dorothea	Dorothea	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	eagerly	eagerly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “Pray do not speak of altering anything.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Pray	pray	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	speak	speak	VERB	VB	VerbForm=Inf	0	root	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	altering	alte	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	anything	anything	PRON	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There are so many other things in the world that want altering—I like to take these things as they are.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	many	many	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	other	other	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	things	thing	NOUN	NNS	Number=Plur	2	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	6	nmod	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	altering	altering	VERB	VBG	VerbForm=Ger	11	xcomp	_	SpaceAfter=No
+13	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	take	take	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	these	these	DET	DT	Number=Plur|PronType=Dem	19	det	_	_
+19	things	thing	NOUN	NNS	Number=Plur	17	obj	_	_
+20	as	as	SCONJ	IN	_	22	mark	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And you like them as they are, don’t you?”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n’t	not	PART	RB	_	11	advmod	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 5
+# text = she added, looking at Mr. Casaubon.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	looking	look	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+7	Casaubon	Casaubon	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = “Perhaps this was your mother’s room when she was young.”
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Perhaps	perhaps	ADV	RB	_	8	advmod	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+6	mother	mother	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	room	room	NOUN	NN	Number=Sing	0	root	_	_
+9	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	young	young	ADJ	JJ	Degree=Pos	8	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

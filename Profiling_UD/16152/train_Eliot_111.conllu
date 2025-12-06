@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And you would like to see the church, you know,” said Mr. Brooke.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	like	like	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	see	see	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	church	church	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+17	Brooke	Brooke	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “It is a droll little church.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	droll	droll	NOUN	NN	Number=Sing	7	compound	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	church	church	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = And the village.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	village	village	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It all lies in a nut-shell.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	lies	lie	NOUN	NNS	Number=Plur	0	root	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	nut	nut	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	shell	shell	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = By the way, it will suit you, Dorothea; for the cottages are like a row of alms-houses—little gardens, gilly-flowers, that sort of thing.”
+1	By	by	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	way	way	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	suit	suit	VERB	VB	VerbForm=Inf	0	root	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	7	punct	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	cottages	cottage	NOUN	NNS	Number=Plur	18	nsubj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	like	like	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	row	row	NOUN	NN	Number=Sing	7	parataxis	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	alms	alm	NOUN	NNS	Number=Plur	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+22	houses	house	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+23	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	gardens	garden	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	gilly	gilly	ADV	RB	_	29	advmod	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	flowers	flower	NOUN	NNS	Number=Plur	25	list	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	sort	sort	NOUN	NN	Number=Sing	25	appos	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	thing	thing	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

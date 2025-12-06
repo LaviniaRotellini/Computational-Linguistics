@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I don’t know, Selina,” said Mrs. Bulstrode, with a little emphasis in her turn.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Selina	Selina	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mrs.	Mrs.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	11	punct	_	_
+14	with	with	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	emphasis	emphasis	NOUN	NNS	Number=Plur	11	nmod	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	turn	turn	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “Mr. Bulstrode was a stranger here at one time.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr	Mr	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+4	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	2	flat	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	stranger	stranger	NOUN	NN	Number=Sing	0	root	_	_
+8	here	here	ADV	RB	PronType=Dem	7	advmod	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	one	one	NUM	CD	NumType=Card	11	nummod	_	_
+11	time	time	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Abraham and Moses were strangers in the land, and we are told to entertain strangers.
+1	Abraham	Abraham	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	Moses	Mose	PROPN	NNPS	Number=Plur	1	conj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	strangers	strangers	NOUN	NNS	Number=Plur	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	land	land	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj:pass	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	entertain	entertain	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	strangers	stranger	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And especially,” she added, after a slight pause, “when they are unexceptionable.”
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	especially	especially	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	after	after	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	slight	slight	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	pause	pause	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+14	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	unexceptionable	unexceptionable	ADJ	JJ	Degree=Pos	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

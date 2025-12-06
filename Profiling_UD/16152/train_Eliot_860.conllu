@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The deuce!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	deuce	deuce	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = he exclaimed, snarlingly.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	snarlingly	snarlingly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “To think that this is a country where a man’s education may cost hundreds and hundreds, and it turns you out this!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	To	to	PART	TO	_	3	mark	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	country	country	NOUN	NN	Number=Sing	3	ccomp	_	_
+9	where	where	ADV	WRB	PronType=Rel	15	advmod	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	man	man	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	education	education	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	may	may	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	cost	cost	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+16	hundreds	hundred	NOUN	NNS	Number=Plur	15	obj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	hundreds	hundred	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	obj	_	_
+24	out	out	ADP	RP	_	25	case	_	_
+25	this	this	PRON	DT	Number=Sing|PronType=Dem	22	obl	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = Then in a more pathetic tone, pushing up his spectacles and looking at the unfortunate scribe, “The Lord have mercy on us, Fred, I can’t put up with this!”
+1	Then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+2	in	in	ADP	IN	_	6	case	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	pathetic	pathetic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	tone	tone	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	pushing	push	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	spectacles	spectacle	NOUN	NNS	Number=Plur	8	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	8	conj	_	_
+14	at	at	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	scribe	scribe	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	“	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
+20	The	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Lord	Lord	PROPN	NNP	Number=Sing	22	nsubj	_	_
+22	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	mercy	mercy	NOUN	NN	Number=Sing	22	xcomp	_	_
+24	on	on	ADP	IN	_	25	case	_	_
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	23	punct	_	_
+27	Fred	Fred	PROPN	NNP	Number=Sing	22	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	22	punct	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+30	ca	can	AUX	MD	VerbForm=Fin	32	aux	_	SpaceAfter=No
+31	n’t	not	PART	RB	_	32	advmod	_	_
+32	put	put	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+33	up	up	ADP	RP	_	32	compound:prt	_	_
+34	with	with	ADP	IN	_	35	case	_	_
+35	this	this	PRON	DT	Number=Sing|PronType=Dem	32	obl	_	SpaceAfter=No
+36	!	!	PUNCT	.	_	22	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

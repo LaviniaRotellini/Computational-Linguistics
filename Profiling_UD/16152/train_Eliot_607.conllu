@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I congratulate you heartily, Garth,” said the Vicar.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	congratulate	congratulate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	heartily	heartily	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Garth	Garth	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Vicar	Vicar	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “This is the best sort of news I could have had to carry to Fred Vincy, for he dwelt a good deal on the injury he had done you in causing you to part with money—robbing you of it, he said—which you wanted for other purposes.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	best	best	ADJ	JJS	Degree=Sup	6	amod	_	_
+6	sort	sort	NOUN	NN	Number=Sing	46	ccomp	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	news	news	NOUN	NN	Number=Sing	6	nmod	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	have	have	AUX	VB	VerbForm=Inf	12	aux	_	_
+12	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	carry	carry	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	Fred	Fred	PROPN	NNP	Number=Sing	14	obl	_	_
+17	Vincy	Vincy	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	6	punct	_	_
+19	for	for	SCONJ	IN	_	21	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	dwelt	dwelt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	good	good	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	deal	deal	NOUN	NN	Number=Sing	21	obj	_	_
+25	on	on	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	injury	injury	NOUN	NN	Number=Sing	21	obl	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux	_	_
+30	done	do	VERB	VBN	Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+31	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	30	obj	_	_
+32	in	in	SCONJ	IN	_	33	mark	_	_
+33	causing	cause	VERB	VBG	VerbForm=Ger	30	advcl	_	_
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	33	obj	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	part	part	NOUN	NN	Number=Sing	33	obl	_	_
+37	with	with	ADP	IN	_	38	case	_	_
+38	money	money	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+39	—	-	PUNCT	,	_	21	punct	_	SpaceAfter=No
+40	robbing	robb	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+41	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	40	obj	_	_
+42	of	of	ADP	IN	_	43	case	_	_
+43	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	obl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	_
+45	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	_
+46	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+47	—	-	PUNCT	,	_	46	punct	_	SpaceAfter=No
+48	which	which	PRON	WDT	PronType=Rel	50	obj	_	_
+49	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	50	nsubj	_	_
+50	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	46	acl:relcl	_	_
+51	for	for	ADP	IN	_	53	case	_	_
+52	other	other	ADJ	JJ	Degree=Pos	53	amod	_	_
+53	purposes	purpose	NOUN	NNS	Number=Plur	50	obl	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	46	punct	_	_
+
+# sent_id = 3
+# text = I wish Fred were not such an idle dog; he has some very good points, and his father is a little hard upon him.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Fred	Fred	PROPN	NNP	Number=Sing	9	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	_
+5	not	not	PART	RB	_	9	advmod	_	_
+6	such	such	DET	PDT	_	9	det:predet	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	idle	idle	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	dog	dog	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	2	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	some	some	DET	DT	_	16	det	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	good	good	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	points	point	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	24	punct	_	_
+18	and	and	CCONJ	CC	_	24	cc	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	father	father	NOUN	NN	Number=Sing	24	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	24	obl:npmod	_	_
+24	hard	hard	ADJ	JJ	Degree=Pos	12	conj	_	_
+25	upon	upon	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Listen, sire!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Listen	listen	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	sire	sire	ADV	WRB	PronType=Rel	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = There is here a donjon keep, a belfry, cannons, _bourgeois_, soldiers; when the belfry shall hum, when the cannons shall roar, when the donjon shall fall in ruins amid great noise, when _bourgeois_ and soldiers shall howl and slay each other, the hour will strike.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	here	here	ADV	RB	PronType=Dem	2	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	donjon	donjon	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	keep	keep	VERB	VB	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	belfry	belfry	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	cannons	cannon	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	_bourgeois_	_bourgeois_	SYM	NFP	_	6	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	soldiers	soldier	NOUN	NNS	Number=Plur	6	conj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	when	when	ADV	WRB	PronType=Int	21	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	belfry	belfry	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	shall	shall	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	hum	hum	VERB	VB	VerbForm=Inf	33	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	33	punct	_	_
+23	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	cannons	cannon	NOUN	NNS	Number=Plur	27	nsubj	_	_
+26	shall	shall	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	roar	roar	VERB	VB	VerbForm=Inf	33	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	when	when	ADV	WRB	PronType=Int	33	mark	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	donjon	donjon	NOUN	NN	Number=Sing	33	nsubj	_	_
+32	shall	shall	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	fall	fall	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+34	in	in	ADP	IN	_	35	case	_	_
+35	ruins	ruin	NOUN	NNS	Number=Plur	33	obl	_	_
+36	amid	amid	ADP	IN	_	38	case	_	_
+37	great	great	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	noise	noise	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	2	punct	_	_
+40	when	when	ADV	WRB	PronType=Int	46	mark	_	_
+41	_bourgeois	_bourgeois	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	46	nsubj	_	SpaceAfter=No
+42	_	_	SYM	NFP	_	46	punct	_	_
+43	and	and	CCONJ	CC	_	46	cc	_	_
+44	soldiers	soldier	NOUN	NNS	Number=Plur	46	nsubj	_	_
+45	shall	shall	AUX	MD	VerbForm=Fin	46	aux	_	_
+46	howl	howl	VERB	VB	VerbForm=Inf	55	advcl	_	_
+47	and	and	CCONJ	CC	_	48	cc	_	_
+48	slay	slay	VERB	VB	VerbForm=Inf	46	conj	_	_
+49	each	each	DET	DT	_	50	det	_	_
+50	other	other	ADJ	JJ	Degree=Pos	48	obj	_	SpaceAfter=No
+51	,	,	PUNCT	,	_	55	punct	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	hour	hour	NOUN	NN	Number=Sing	55	nsubj	_	_
+54	will	will	AUX	MD	VerbForm=Fin	55	aux	_	_
+55	strike	strike	VERB	VB	VerbForm=Inf	2	parataxis	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+57	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

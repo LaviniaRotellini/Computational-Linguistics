@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I tried to collect my thoughts, but I was stunned.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	collect	collect	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	thoughts	thought	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	but	but	CCONJ	CC	_	11	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	stunned	stun	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Throughout, I had seemed to myself to attend more to the wind and the rain than to him; even now, I could not separate his voice from those voices, though those were loud and his was silent.
+1	Throughout	throughout	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	seemed	seem	VERB	VBN	Tense=Past|VerbForm=Part	27	advcl	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	attend	attend	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	9	obj	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	wind	wind	NOUN	NN	Number=Sing	9	obl	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	rain	rain	NOUN	NN	Number=Sing	5	conj	_	_
+17	than	than	ADP	IN	_	19	case	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	5	punct	_	_
+21	even	even	ADV	RB	_	22	advmod	_	_
+22	now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	could	could	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	not	not	PART	RB	_	27	advmod	_	_
+27	separate	separate	VERB	VB	VerbForm=Inf	0	root	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	voice	voice	NOUN	NN	Number=Sing	27	obj	_	_
+30	from	from	ADP	IN	_	32	case	_	_
+31	those	those	DET	DT	Number=Plur|PronType=Dem	32	det	_	_
+32	voices	voice	NOUN	NNS	Number=Plur	27	obl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	27	punct	_	_
+34	though	though	SCONJ	IN	_	37	mark	_	_
+35	those	those	PRON	DT	Number=Plur|PronType=Dem	37	nsubj	_	_
+36	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	cop	_	_
+37	loud	loud	ADV	RB	_	27	advcl	_	_
+38	and	and	CCONJ	CC	_	41	cc	_	_
+39	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nsubj	_	_
+40	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	cop	_	_
+41	silent	silent	ADJ	JJ	Degree=Pos	37	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	27	punct	_	SpacesAfter=\n
+

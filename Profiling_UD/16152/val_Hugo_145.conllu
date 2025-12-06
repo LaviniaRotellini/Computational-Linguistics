@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = "Then you would be out of the fashion.
+1	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	9	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+4	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+6	out	out	ADP	IN	_	9	case	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	fashion	fashion	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = We call Corwin, who is the Secretary of the Treasury, 'The Waggoner-boy;' Daniel Webster, 'Black Dan.'
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Corwin	Corwin	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	Secretary	Secretary	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	Treasury	Treasury	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	'	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+14	The	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	Waggoner	Waggoner	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	boy	boy	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+18	;'	;'	PUNCT	.	_	2	punct	_	_
+19	Daniel	Daniel	PROPN	NNP	Number=Sing	2	appos	_	_
+20	Webster	Webster	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	2	punct	_	_
+22	'	'	PUNCT	''	_	2	punct	_	SpaceAfter=No
+23	Black	Black	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Dan	Dan	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+26	'	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = As to Winfield Scott, as his first thought after beating the English at Chippeway, was to sit down to dine, we call him 'Quick--a basin of soup.'"
+1	As	as	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	Winfield	Winfield	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Scott	Scott	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	17	punct	_	_
+6	as	as	SCONJ	IN	_	9	mark	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nsubj	_	_
+8	first	first	ADV	RB	_	9	advmod	_	_
+9	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+10	after	after	SCONJ	IN	_	11	mark	_	_
+11	beating	beat	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	English	English	PROPN	NNP	Number=Sing	11	obj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	Chippeway	Chippeway	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	sit	sit	VERB	VB	VerbForm=Inf	17	advcl	_	_
+20	down	down	ADV	RB	_	19	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	dine	dine	VERB	VB	VerbForm=Inf	19	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	19	punct	_	_
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
+25	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	'	'	PUNCT	``	_	28	punct	_	SpaceAfter=No
+28	Quick	quick	PROPN	NNP	Number=Sing	25	xcomp	_	SpaceAfter=No
+29	--	--	PUNCT	,	_	17	punct	_	SpaceAfter=No
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	basin	basin	NOUN	NN	Number=Sing	17	appos	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	soup	soup	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
+35	'	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+36	"	"	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+

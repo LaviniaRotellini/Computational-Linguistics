@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tom, in his turn, wished to make the balance dip in his favour.
+1	Tom	Tom	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	turn	turn	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	wished	wish	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	make	make	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	balance	balance	NOUN	NN	Number=Sing	12	compound	_	_
+12	dip	dip	NOUN	NN	Number=Sing	9	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	favour	favour	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = This hunchback must not suppose that his acquaintance with fighting stories put him on a par with an actual fighting hero, like Tom Tulliver.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	hunchback	hunchback	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	suppose	suppose	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	acquaintance	acquaintance	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	with	with	SCONJ	IN	_	10	mark	_	_
+10	fighting	fight	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	stories	story	NOUN	NNS	Number=Plur	10	obj	_	_
+12	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	par	par	NOUN	NN	Number=Sing	12	obl	_	_
+17	with	with	ADP	IN	_	21	case	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	actual	actual	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	fighting	fighting	NOUN	NN	Number=Sing	21	compound	_	_
+21	hero	hero	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	12	punct	_	_
+23	like	like	ADP	IN	_	24	case	_	_
+24	Tom	Tom	PROPN	NNP	Number=Sing	12	obl	_	_
+25	Tulliver	Tulliver	PROPN	NNP	Number=Sing	24	flat	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Philip winced under this allusion to his unfitness for active sports, and he answered almost peevishly,—
+1	Philip	Philip	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	winced	wince	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	under	under	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	allusion	allusion	NOUN	NN	Number=Sing	2	obl	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	unfitness	unfitness	NOUN	NN	Number=Sing	2	obl	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	active	active	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sports	sport	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	almost	almost	ADV	RB	_	17	advmod	_	_
+17	peevishly	peevishly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+19	—	-	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mrs.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mrs	Mrs	PROPN	NNPS	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Bounderby,’ he resumed, in a lighter manner, and yet with a show of effort in assuming it, which was even more expressive than the manner he dismissed; ‘it is no irrevocable offence in a young fellow of your brother’s years, if he is heedless, inconsiderate, and expensive—a little dissipated, in the common phrase.
+1	Bounderby	Bounderby	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+3	’	’	PUNCT	''	_	5	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	lighter	lighter	ADJ	JJR	Degree=Cmp	10	amod	_	_
+10	manner	manner	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	yet	yet	ADV	RB	_	5	advmod	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	show	show	NOUN	NN	Number=Sing	13	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	effort	effort	NOUN	NN	Number=Sing	16	nmod	_	_
+19	in	in	SCONJ	IN	_	20	mark	_	_
+20	assuming	assume	VERB	VBG	VerbForm=Ger	16	acl	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	which	which	PRON	WDT	PronType=Rel	27	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+25	even	even	ADV	RB	_	27	advmod	_	_
+26	more	more	ADV	RBR	_	27	advmod	_	_
+27	expressive	expressive	ADJ	JJ	Degree=Pos	21	acl:relcl	_	_
+28	than	than	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	manner	manner	NOUN	NN	Number=Sing	27	obl	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	dismissed	dismiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+33	;	;	PUNCT	,	_	5	punct	_	_
+34	‘	'	PUNCT	``	_	39	punct	_	SpaceAfter=No
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+36	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+37	no	no	ADV	RB	_	39	advmod	_	_
+38	irrevocable	irrevocable	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	offence	offence	NOUN	NN	Number=Sing	5	parataxis	_	_
+40	in	in	ADP	IN	_	43	case	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	young	young	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	fellow	fellow	NOUN	NN	Number=Sing	39	nmod	_	_
+44	of	of	ADP	IN	_	48	case	_	_
+45	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	46	nmod:poss	_	_
+46	brother	brother	NOUN	NN	Number=Sing	48	nmod:poss	_	SpaceAfter=No
+47	’s	's	PART	POS	_	46	case	_	_
+48	years	year	NOUN	NNS	Number=Plur	43	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	,	_	39	punct	_	_
+50	if	if	SCONJ	IN	_	53	mark	_	_
+51	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	53	nsubj	_	_
+52	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+53	heedless	heedless	ADJ	JJ	Degree=Pos	39	advcl	_	SpaceAfter=No
+54	,	,	PUNCT	,	_	55	punct	_	_
+55	inconsiderate	inconsiderate	ADJ	JJ	Degree=Pos	53	conj	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	58	punct	_	_
+57	and	and	CCONJ	CC	_	58	cc	_	_
+58	expensive	expensive	ADJ	JJ	Degree=Pos	53	conj	_	SpaceAfter=No
+59	—	-	PUNCT	,	_	39	punct	_	SpaceAfter=No
+60	a	a	DET	DT	Definite=Ind|PronType=Art	61	det	_	_
+61	little	little	ADJ	JJ	Degree=Pos	62	obl:npmod	_	_
+62	dissipated	dissipated	ADJ	JJ	Degree=Pos	39	amod	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	39	punct	_	_
+64	in	in	ADP	IN	_	67	case	_	_
+65	the	the	DET	DT	Definite=Def|PronType=Art	67	det	_	_
+66	common	common	ADJ	JJ	Degree=Pos	67	amod	_	_
+67	phrase	phrase	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Is he?’
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	0	root	_	SpacesAfter=\n
+

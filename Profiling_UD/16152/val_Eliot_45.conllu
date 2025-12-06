@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Maggie.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Maggie	Maggie	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “How stodgy they look, Tom!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+3	stodgy	stodgy	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Is it marls (marbles) or cobnuts?”
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	marls	marl	NOUN	NNS	Number=Plur	0	root	_	_
+4	(	(	PUNCT	-LRB-	_	5	punct	_	SpaceAfter=No
+5	marbles	marble	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	5	punct	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	cobnuts	cobnut	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = Maggie’s heart sank a little, because Tom always said it was “no good” playing with _her_ at those games, she played so badly.
+1	Maggie	Maggie	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	sank	sank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	4	obl:npmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	because	because	SCONJ	IN	_	11	mark	_	_
+9	Tom	Tom	PROPN	NNP	Number=Sing	11	nsubj	_	_
+10	always	always	ADV	RB	_	11	advmod	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+14	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	no	no	DET	DT	_	16	det	_	_
+16	good	good	ADJ	JJ	Degree=Pos	11	ccomp	_	SpaceAfter=No
+17	”	"	PUNCT	``	_	16	punct	_	_
+18	playing	play	VERB	VBG	VerbForm=Ger	16	conj	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	_her_	_her_	SYM	NFP	_	18	obl	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	those	those	DET	DT	Number=Plur|PronType=Dem	23	det	_	_
+23	games	game	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	badly	badly	ADV	RB	Degree=Pos	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

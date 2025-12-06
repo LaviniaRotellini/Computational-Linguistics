@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now, then, come with me into the study, Maggie,” said Tom, as their father drove away.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	come	come	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	into	into	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	study	study	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	Maggie	Maggie	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	Tom	Tom	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	16	punct	_	_
+19	as	as	ADP	IN	_	22	mark	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	father	father	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	drove	drive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+23	away	away	ADV	RB	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 2
+# text = “What do you shake and toss your head now for, you silly?”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	shake	shake	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	toss	toss	VERB	VB	VerbForm=Inf	5	conj	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	head	head	NOUN	NN	Number=Sing	7	obj	_	_
+10	now	now	ADV	RB	_	5	advmod	_	_
+11	for	for	ADP	IN	_	13	case	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	obl	_	_
+14	silly	silly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 3
+# text = he continued; for though her hair was now under a new dispensation, and was brushed smoothly behind her ears, she seemed still in imagination to be tossing it out of her eyes.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	2	punct	_	_
+4	for	for	ADP	IN	_	13	case	_	_
+5	though	though	SCONJ	IN	_	13	mark	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hair	hair	NOUN	NN	Number=Sing	13	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+9	now	now	ADV	RB	_	13	advmod	_	_
+10	under	under	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	new	new	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	dispensation	dispensation	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	brushed	brush	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+18	smoothly	smoothly	ADV	RB	_	17	advmod	_	_
+19	behind	behind	ADP	IN	_	21	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	ears	ear	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+25	still	still	ADV	RB	_	24	advmod	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	imagination	imagination	NOUN	NN	Number=Sing	24	obl	_	_
+28	to	to	PART	TO	_	30	mark	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	aux	_	_
+30	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part	27	acl	_	_
+31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	out	out	ADP	IN	_	35	case	_	_
+33	of	of	ADP	IN	_	35	case	_	_
+34	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+35	eyes	eye	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = “It makes you look as if you were crazy.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	as	as	SCONJ	IN	_	10	mark	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	crazy	crazy	ADJ	JJ	Degree=Pos	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

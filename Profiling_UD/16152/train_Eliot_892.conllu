@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My dear Rosy, you don’t expect me to talk much to such a conceited ass as that, I hope,” said Lydgate, brusquely.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	Rosy	rosy	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+8	n’t	not	PART	RB	_	9	advmod	_	_
+9	expect	expect	VERB	VB	Mood=Imp|VerbForm=Fin	23	parataxis	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	talk	talk	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+13	much	much	ADV	RB	_	12	advmod	_	_
+14	to	to	ADP	IN	_	18	case	_	_
+15	such	such	DET	PDT	_	18	det:predet	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	conceited	conceit	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+18	ass	ass	NOUN	NN	Number=Sing	12	obl	_	_
+19	as	as	ADP	IN	_	20	case	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	12	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	9	punct	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	26	punct	_	_
+26	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	conj	_	_
+27	Lydgate	Lydgate	PROPN	NNP	Number=Sing	30	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	27	punct	_	_
+29	brusquely	brusquly	ADV	RB	_	27	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	0	root	_	_
+
+# sent_id = 2
+# text = “If he got his head broken, I might look at it with interest, not before.”
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	head	head	NOUN	NN	Number=Sing	4	obj	_	_
+7	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	might	might	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	with	with	ADP	IN	_	15	case	_	_
+15	interest	interest	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	not	not	ADV	RB	_	18	advmod	_	_
+18	before	before	ADV	RB	_	11	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

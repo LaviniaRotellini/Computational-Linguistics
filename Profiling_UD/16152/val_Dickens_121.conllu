@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Always, always!’ returned Sissy, clasping her hands.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Always	always	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	always	always	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Sissy	Sissy	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	clasping	clasp	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hands	hand	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘Kinder and kinder than I can tell.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Kinder	Kinder	NOUN	NN	Number=Sing	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	kinder	kinder	NOUN	NN	Number=Sing	2	conj	_	_
+5	than	than	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	tell	tell	VERB	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He was angry only one night, and that was not to me, but Merrylegs.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+4	only	only	ADV	RB	_	6	advmod	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	night	night	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	not	not	PART	RB	_	13	advmod	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	but	but	CCONJ	CC	_	16	cc	_	_
+16	Merrylegs	Merrylegs	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Merrylegs;’ she whispered the awful fact; ‘is his performing dog.’
+1	Merrylegs	Merrylegs	NOUN	NNS	Number=Plur	4	vocative	_	SpaceAfter=No
+2	;’	;’	PUNCT	.	_	4	punct	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	whispered	whisper	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	awful	awful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	fact	fact	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	4	punct	_	_
+9	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nsubj	_	_
+12	performing	perform	VERB	VBG	VerbForm=Ger	4	parataxis	_	_
+13	dog	dog	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

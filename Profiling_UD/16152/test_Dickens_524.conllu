@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My son, sir,” said the old man, after securing the drawbridge, “rather had it in his mind that you might happen to drop in, and he left word that he would soon be home from his afternoon’s walk.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	son	son	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	sir	sir	NOUN	NN	Number=Sing	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	man	man	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	20	punct	_	_
+13	after	after	SCONJ	IN	_	14	mark	_	_
+14	securing	secure	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	drawbridge	drawbridge	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+19	rather	rather	ADV	RB	_	20	advmod	_	_
+20	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	mind	mind	NOUN	NN	Number=Sing	20	obl	_	_
+25	that	that	PRON	WDT	PronType=Rel	28	obj	_	_
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+27	might	might	AUX	MD	VerbForm=Fin	28	aux	_	_
+28	happen	happen	VERB	VB	VerbForm=Inf	20	acl:relcl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	drop	drop	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	in	in	ADP	RP	_	30	compound:prt	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+36	word	word	NOUN	NN	Number=Sing	35	obj	_	_
+37	that	that	SCONJ	IN	_	42	mark	_	_
+38	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+39	would	would	AUX	MD	VerbForm=Fin	42	aux	_	_
+40	soon	soon	ADV	RB	Degree=Pos	42	advmod	_	_
+41	be	be	AUX	VB	VerbForm=Inf	42	cop	_	_
+42	home	home	ADV	RB	_	35	advmod	_	_
+43	from	from	ADP	IN	_	45	case	_	_
+44	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	afternoon	afternoon	NOUN	NN	Number=Sing	42	obl	_	SpaceAfter=No
+46	’s	's	PART	POS	_	45	case	_	_
+47	walk	walk	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = He is very regular in his walks, is my son.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	regular	regular	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	walks	walk	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	son	son	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Very regular in everything, is my son.”
+1	Very	very	ADV	RB	_	2	advmod	_	_
+2	regular	regular	ADJ	JJ	Degree=Pos	0	root	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	everything	everything	PRON	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	son	son	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

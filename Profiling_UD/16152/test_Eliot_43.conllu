@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Let us leave that, Seth.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	leave	leave	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Seth	Seth	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = It’s good to live only a moment at a time, as I’ve read in one of Mr. Wesley’s books.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	live	live	VERB	VB	VerbForm=Inf	3	csubj	_	_
+6	only	only	ADV	RB	_	8	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	moment	moment	NOUN	NN	Number=Sing	5	obj	_	_
+9	at	at	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	time	time	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	read	read	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	one	one	NUM	CD	NumType=Card	16	obl	_	_
+19	of	of	ADP	IN	_	23	case	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	23	nmod:poss	_	_
+21	Wesley	Wesley	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	’s	's	PART	POS	_	20	case	_	_
+23	books	book	NOUN	NNS	Number=Plur	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It isn’t for you and me to lay plans; we’ve nothing to do but to obey and to trust.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	lay	lay	VERB	VB	VerbForm=Inf	5	acl	_	_
+10	plans	plan	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	5	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+13	’ve	’ve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+14	nothing	nothing	PRON	NN	Number=Sing	13	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	do	do	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	obey	obey	VERB	VB	VerbForm=Inf	5	conj	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	trust	trust	VERB	VB	VerbForm=Inf	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Farewell.”
+1	Farewell	farewell	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

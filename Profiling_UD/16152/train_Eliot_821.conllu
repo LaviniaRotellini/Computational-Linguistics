@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My dear Mrs. Casaubon,” said Lady Chettam, in her stateliest way, “you do not, I hope, think there was any allusion to you in my mentioning Mrs. Beevor.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	Mrs.	Mrs.	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Casaubon	Casaubon	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	parataxis	_	_
+9	Lady	Lady	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	Chettam	Chettam	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	stateliest	stateliest	ADJ	JJS	Degree=Sup	15	amod	_	_
+15	way	way	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+19	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+20	not	not	PART	RB	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+26	there	there	PRON	EX	_	27	expl	_	_
+27	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	ccomp	_	_
+28	any	any	DET	DT	_	29	det	_	_
+29	allusion	allusion	NOUN	NN	Number=Sing	27	nsubj	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	29	nmod	_	_
+32	in	in	ADP	IN	_	36	case	_	_
+33	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+34	mentioning	mention	VERB	VBG	VerbForm=Ger	36	amod	_	_
+35	Mrs.	Mrs.	PROPN	NNP	Number=Sing	36	compound	_	_
+36	Beevor	Beevor	PROPN	NNP	Number=Sing	29	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 2
+# text = It was only an instance that occurred to me.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	only	only	ADV	RB	_	5	advmod	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	instance	instance	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	occurred	occur	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She was step-daughter to Lord Grinsell: he married Mrs. Teveroy for his second wife.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	step	step	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	daughter	daughter	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	Lord	Lord	PROPN	NNP	Number=Sing	5	nmod	_	_
+8	Grinsell	Grinsell	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	:	:	PUNCT	:	_	5	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	obj	_	_
+13	Teveroy	Teveroy	PROPN	NNP	Number=Sing	12	flat	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	wife	wife	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = There could be no possible allusion to you.”
+1	There	there	PRON	EX	_	6	expl	_	_
+2	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	possible	possible	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	allusion	allusion	NOUN	NN	Number=Sing	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

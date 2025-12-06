@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = yes,” said he, as though speaking to himself, “he certainly must be dead.
+1	yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	18	punct	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	though	though	SCONJ	IN	_	9	mark	_	_
+9	speaking	speak	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	certainly	certainly	ADV	RB	_	18	advmod	_	_
+16	must	must	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	dead	dead	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The blade pierced deeply.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	blade	blade	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	pierced	pierce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	deeply	deeply	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I believe I touched his heart with the point.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	touched	touch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	heart	heart	NOUN	NN	Number=Sing	4	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	point	point	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Oh!
+1	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = my very soul was at the end of the dagger!”
+1	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	very	very	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	soul	soul	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	end	end	NOUN	NN	Number=Sing	0	root	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	dagger	dagger	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

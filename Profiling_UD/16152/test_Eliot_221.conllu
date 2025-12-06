@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Very well, Adam,” said Arthur, remembering what Mr. Irwine had said about a probable hitch in the love-making between Adam and Mary Burge, “we’ll say no more about it at present.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Very	very	ADV	RB	_	3	advmod	_	_
+3	well	well	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	Adam	Adam	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Arthur	Arthur	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	remembering	remember	VERB	VBG	VerbForm=Ger	8	parataxis	_	_
+12	what	what	PRON	WP	PronType=Int	11	obj	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	16	nsubj	_	_
+14	Irwine	Irwine	PROPN	NNP	Number=Sing	13	flat	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	said	say	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+17	about	about	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	probable	probable	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	hitch	hitch	NOUN	NN	Number=Sing	16	obl	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	love	love	NOUN	NN	Number=Sing	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	making	make	NOUN	NN	Number=Sing	16	obl	_	_
+26	between	between	ADP	IN	_	27	case	_	_
+27	Adam	Adam	PROPN	NNP	Number=Sing	25	nmod	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	Mary	Mary	PROPN	NNP	Number=Sing	27	conj	_	_
+30	Burge	Burge	PROPN	NNP	Number=Sing	29	flat	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	“	"	PUNCT	``	_	35	punct	_	SpaceAfter=No
+33	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	35	nsubj	_	SpaceAfter=No
+34	’ll	’ll	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	say	say	VERB	VB	VerbForm=Inf	27	conj	_	_
+36	no	no	ADV	RB	_	37	advmod	_	_
+37	more	more	ADJ	JJR	Degree=Cmp	35	obj	_	_
+38	about	about	ADP	IN	_	39	case	_	_
+39	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obl	_	_
+40	at	at	ADP	IN	_	41	case	_	_
+41	present	present	ADJ	JJ	Degree=Pos	37	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = When is your father to be buried?”
+1	When	when	ADV	WRB	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	father	father	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Where is he?”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Where	where	ADV	WRB	PronType=Int	0	root	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = He crammed what little food was left, into the breast of his grey jacket.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	crammed	cramm	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	what	what	PRON	WP	PronType=Int	2	obj	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	food	food	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	into	into	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	breast	breast	NOUN	NN	Number=Sing	2	obl	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	grey	grey	NOUN	NN	Number=Sing	15	compound	_	_
+15	jacket	jacket	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “Show me the way he went.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Show	show	ADV	WRB	PronType=Int	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	way	way	NOUN	NN	Number=Sing	2	obj	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I’ll pull him down, like a bloodhound.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’ll	’ll	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	pull	pull	VERB	VB	VerbForm=Inf	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	down	down	ADP	RP	_	3	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	bloodhound	bloodhound	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Curse this iron on my sore leg!
+1	Curse	curse	ADJ	JJR	Degree=Cmp	0	root	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	iron	iron	NOUN	NN	Number=Sing	1	obj	_	_
+4	on	on	ADP	IN	_	7	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	sore	sore	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	leg	leg	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Give us hold of the file, boy.”
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	iobj	_	_
+3	hold	hold	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	file	file	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	boy	boy	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

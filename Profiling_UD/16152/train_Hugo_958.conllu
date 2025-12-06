@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This man had a long gray beard.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	long	long	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	gray	gray	NOUN	NN	Number=Sing	7	compound	_	_
+7	beard	beard	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He was clad in a woman’s chemise, which allowed his hairy breast and his bare arms, bristling with gray hair, to be seen.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	clad	clad	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	woman	woman	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	chemise	chemise	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	allowed	allow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	hairy	hairy	NOUN	NN	Number=Sing	14	compound	_	_
+14	breast	breast	NOUN	NN	Number=Sing	11	obj	_	_
+15	and	and	CCONJ	CC	_	18	cc	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	bare	bare	NOUN	NN	Number=Sing	18	compound	_	_
+18	arms	arm	NOUN	NNS	Number=Plur	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	11	punct	_	_
+20	bristling	bristl	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	gray	gray	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	hair	hair	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	11	punct	_	_
+25	to	to	PART	TO	_	27	mark	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	_	_
+27	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Beneath this chemise, muddy trousers and boots through which his toes projected were visible.
+1	Beneath	beneath	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	chemise	chemise	NOUN	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	muddy	muddy	NUM	CD	NumType=Card	6	nummod	_	_
+6	trousers	trousers	NOUN	NNS	Number=Plur	3	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	boots	boot	NOUN	NNS	Number=Plur	3	conj	_	_
+9	through	through	ADP	IN	_	10	case	_	_
+10	which	which	PRON	WDT	PronType=Rel	13	obl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nsubj	_	_
+12	toes	to	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	projected	project	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+

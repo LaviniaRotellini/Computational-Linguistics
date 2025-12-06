@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was not it, for it was a twenty-sou piece; but the Thénardier found it to her advantage.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	it	ight	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	for	for	SCONJ	IN	_	13	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	twenty	twenty	NUM	CD	NumType=Card	12	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	sou	sou	NOUN	NN	Number=Sing	13	compound	_	_
+13	piece	piece	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	4	punct	_	_
+15	but	but	CCONJ	CC	_	18	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Thénardier	Thénardier	PROPN	NNP	Number=Sing	18	nsubj	_	_
+18	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	advantage	advantage	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She put the coin in her pocket, and confined herself to casting a fierce glance at the child, accompanied with the remark, “Don’t let this ever happen again!”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	coin	coin	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	pocket	pocket	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	confined	confin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	to	to	SCONJ	IN	_	13	mark	_	_
+13	casting	cast	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	fierce	fierce	NOUN	NN	Number=Sing	16	compound	_	_
+16	glance	glance	NOUN	NN	Number=Sing	13	obj	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	child	child	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	2	punct	_	_
+21	accompanied	accompany	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	remark	remark	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	2	punct	_	_
+26	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+27	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	29	aux	_	SpaceAfter=No
+28	n’t	not	PART	RB	_	29	advmod	_	_
+29	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+30	this	this	PRON	DT	Number=Sing|PronType=Dem	29	obj	_	_
+31	ever	ever	ADV	RB	_	32	advmod	_	_
+32	happen	happen	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+33	again	again	ADV	RB	_	32	advmod	_	SpaceAfter=No
+34	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “So be it,” said the poet.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	So	so	ADV	RB	_	4	advmod	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	poet	poet	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “I agree.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I am a vagabond, a thief, a sharper, a man of the knife, anything you please; and I am all that already, monsieur, King of Thunes, for I am a philosopher; _et omnia in philosophia, omnes in philosopho continentur_,—all things are contained in philosophy, all men in the philosopher, as you know.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	vagabond	vagabond	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	thief	thief	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	sharper	sharper	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	man	man	NOUN	NN	Number=Sing	7	appos	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	knife	knife	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	7	punct	_	_
+18	anything	anything	PRON	NN	Number=Sing	4	conj	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+20	please	please	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	4	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	all	all	ADV	RB	_	4	parataxis	_	_
+26	that	that	ADV	RB	_	27	advmod	_	_
+27	already	already	ADV	RB	_	29	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	monsieur	monsieur	NOUN	NN	Number=Sing	54	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	29	punct	_	_
+31	King	king	PROPN	NNP	Number=Sing	29	appos	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	Thunes	Thunes	PROPN	NNPS	Number=Plur	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	29	punct	_	_
+35	for	for	SCONJ	IN	_	42	mark	_	_
+36	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	_
+37	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	42	cop	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+39	philosopher	philosopher	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No
+40	;	;	PUNCT	,	_	39	punct	_	_
+41	_et	_et	NOUN	NN	Number=Sing	42	compound	_	_
+42	omnia	omnia	NOUN	NN	Number=Sing	29	advcl	_	_
+43	in	in	ADP	IN	_	44	case	_	_
+44	philosophia	philosophia	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	42	punct	_	_
+46	omnes	omne	NOUN	NNS	Number=Plur	42	conj	_	_
+47	in	in	ADP	IN	_	48	case	_	_
+48	philosopho	philosopho	NOUN	NN	Number=Sing	46	nmod	_	_
+49	continentur_	continentur_	SYM	NFP	_	46	punct	_	SpaceAfter=No
+50	,—	,—	PUNCT	.	_	54	punct	_	SpaceAfter=No
+51	all	all	DET	DT	_	52	det	_	_
+52	things	thing	NOUN	NNS	Number=Plur	54	nsubj:pass	_	_
+53	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	54	aux:pass	_	_
+54	contained	contain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
+55	in	in	ADP	IN	_	56	case	_	_
+56	philosophy	philosophy	NOUN	NN	Number=Sing	54	obl	_	SpaceAfter=No
+57	,	,	PUNCT	,	_	54	punct	_	_
+58	all	all	DET	DT	_	59	det	_	_
+59	men	man	NOUN	NNS	Number=Plur	54	obj	_	_
+60	in	in	ADP	IN	_	62	case	_	_
+61	the	the	DET	DT	Definite=Def|PronType=Art	62	det	_	_
+62	philosopher	philosopher	NOUN	NN	Number=Sing	59	nmod	_	SpaceAfter=No
+63	,	,	PUNCT	,	_	54	punct	_	_
+64	as	as	SCONJ	IN	_	66	mark	_	_
+65	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	66	nsubj	_	_
+66	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	54	advcl	_	SpaceAfter=No
+67	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+68	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

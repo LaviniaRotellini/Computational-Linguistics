@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Dan’l, my good man,’ said she, ‘you must eat and drink, and keep up your strength, for without it you’ll do nowt.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Dan	Dan	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	’l	’l	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	’	’	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	must	must	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	eat	eat	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	drink	drink	VERB	VB	VerbForm=Inf	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	keep	keep	VERB	VB	VerbForm=Inf	16	conj	_	_
+22	up	up	ADP	RP	_	21	compound:prt	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	strength	strength	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	10	punct	_	_
+26	for	for	ADP	IN	_	28	case	_	_
+27	without	without	ADP	IN	_	28	case	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	SpaceAfter=No
+30	’ll	’ll	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	do	do	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+32	nowt	nowt	ADV	RB	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Try, that’s a dear soul!
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	dear	dear	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	soul	soul	NOUN	NN	Number=Sing	1	parataxis	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = An if I disturb you with my clicketten,’ she meant her chattering, ‘tell me so, Dan’l, and I won’t.’
+1	An	and	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	disturb	disturb	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	clicketten	clicketten	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	chattering	chattering	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	‘	'	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	so	so	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	17	punct	_	_
+21	Dan	Dan	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+22	’l	’l	NOUN	NN	Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	wo	will	AUX	MD	VerbForm=Fin	27	aux	_	SpaceAfter=No
+27	n’t	n’t	PART	RB	_	17	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	27	punct	_	SpacesAfter=\n
+

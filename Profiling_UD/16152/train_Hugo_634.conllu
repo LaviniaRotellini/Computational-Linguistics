@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The large building of the Rue Droit-Mur, which had a wing on the Rue Petit-Picpus, turned two façades, at right angles, towards this garden.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	large	large	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	building	building	NOUN	NN	Number=Sing	22	nsubj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	Rue	Rue	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Droit	Droit	PROPN	NNP	Number=Sing	3	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	Mur	Mur	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	wing	wing	NOUN	NN	Number=Sing	12	obj	_	_
+15	on	on	ADP	IN	_	20	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+17	Rue	Rue	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Petit	petit	PROPN	NNP	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	punct	_	SpaceAfter=No
+20	Picpus	Picpus	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+23	two	two	NUM	CD	NumType=Card	24	nummod	_	_
+24	façades	façade	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	22	punct	_	_
+26	at	at	ADP	IN	_	28	case	_	_
+27	right	right	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	angles	angles	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	22	punct	_	_
+30	towards	towards	ADP	IN	_	32	case	_	_
+31	this	this	DET	DT	Number=Sing|PronType=Dem	32	det	_	_
+32	garden	garden	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = 2
+# text = These interior façades were even more tragic than the exterior.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	interior	interior	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	façades	façade	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+5	even	even	ADV	RB	_	7	advmod	_	_
+6	more	more	ADV	RBR	_	7	advmod	_	_
+7	tragic	tragic	ADJ	JJ	Degree=Pos	0	root	_	_
+8	than	than	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	exterior	exterior	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = All the windows were grated.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	windows	window	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	grated	grate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Not a gleam of light was visible at any one of them.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	gleam	gleam	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	light	light	NOUN	NN	Number=Sing	3	nmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	one	one	NUM	CD	NumType=Card	7	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 5
+# text = The upper story had scuttles like prisons.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	upper	upper	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	story	story	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	scuttles	scuttle	NOUN	NNS	Number=Plur	4	obj	_	_
+6	like	like	ADP	IN	_	7	case	_	_
+7	prisons	prison	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = One of those façades cast its shadow on the other, which fell over the garden like an immense black pall.
+1	One	one	NUM	CD	NumType=Card	5	nsubj	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	those	those	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	façades	façade	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	cast	cast	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	shadow	shadow	NOUN	NN	Number=Sing	5	obj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+14	over	over	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	garden	garden	NOUN	NN	Number=Sing	13	obl	_	_
+17	like	like	ADP	IN	_	21	case	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	immense	immense	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	black	black	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	pall	pall	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

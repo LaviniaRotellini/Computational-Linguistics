@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But not all of it?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	not	not	ADV	RB	_	4	advmod	_	_
+4	all	all	DET	DT	_	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Why sure you don’t mean to say, Pip, that there was no black welwet co—eh?”
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	_
+2	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	mean	mean	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	say	say	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Pip	Pip	PROPN	NNP	Number=Sing	8	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	that	that	SCONJ	IN	_	14	mark	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+15	no	no	DET	DT	_	17	det	_	_
+16	black	black	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	welwet	welwet	NOUN	NN	Number=Sing	14	nsubj	_	_
+18	co	co	X	AFX	_	17	parataxis	_	SpaceAfter=No
+19	—	-	PUNCT	,	_	18	punct	_	SpaceAfter=No
+20	eh	eh	INTJ	UH	_	18	discourse	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = For, I stood shaking my head.
+1	For	for	ADP	IN	_	2	case	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	shaking	shake	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	head	head	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = “But at least there was dogs, Pip?
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	6	cc	_	_
+3	at	at	ADV	RB	_	6	advmod	_	_
+4	least	least	ADV	RBS	Degree=Sup	3	fixed	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	dogs	dog	NOUN	NNS	Number=Plur	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	Pip	Pip	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Come, Pip,” said Joe, persuasively, “if there warn’t no weal-cutlets, at least there was dogs?”
+1	Come	come	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	Pip	Pip	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Joe	Joe	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	persuasively	persuasively	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+12	if	if	SCONJ	IN	_	14	mark	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	war	war	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	19	advmod	_	_
+16	no	no	DET	DT	_	19	det	_	_
+17	weal	weal	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	cutlets	cutlet	NOUN	NNS	Number=Plur	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	at	at	ADV	RB	_	22	case	_	_
+22	least	least	ADV	RBS	Degree=Sup	19	nmod	_	_
+23	there	there	PRON	EX	_	24	expl	_	_
+24	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+25	dogs	dog	NOUN	NNS	Number=Plur	24	nsubj	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

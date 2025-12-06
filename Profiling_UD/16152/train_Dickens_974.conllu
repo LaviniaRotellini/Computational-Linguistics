@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘For the love of goodness, child,’ exclaimed my aunt, ‘don’t call the woman by that South Sea Island name!
+1	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	For	for	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	love	love	NOUN	NN	Number=Sing	11	obl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	goodness	goodness	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	child	child	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	11	punct	_	_
+11	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	aunt	aunt	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	‘	'	PUNCT	``	_	18	punct	_	SpaceAfter=No
+16	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	18	advmod	_	_
+18	call	call	VERB	VB	VerbForm=Inf	11	conj	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	woman	woman	NOUN	NN	Number=Sing	18	obj	_	_
+21	by	by	ADP	IN	_	26	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+23	South	South	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Sea	Sea	PROPN	NNP	Number=Sing	26	compound	_	_
+25	Island	Island	PROPN	NNP	Number=Sing	26	compound	_	_
+26	name	name	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+27	!	!	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = If she married and got rid of it, which was the best thing she could do, why don’t you give her the benefit of the change?
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	rid	rid	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	best	best	ADJ	JJS	Degree=Sup	14	amod	_	_
+14	thing	thing	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	do	do	VERB	VB	VerbForm=Inf	14	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	why	why	ADV	WRB	PronType=Int	23	advmod	_	_
+20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+21	n’t	not	PART	RB	_	23	advmod	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	_
+23	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	iobj	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	benefit	benefit	NOUN	NN	Number=Sing	23	obj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	change	change	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	?	?	PUNCT	.	_	23	punct	_	_
+
+# sent_id = 3
+# text = What’s your name now,--P?’ said my aunt, as a compromise for the obnoxious appellation.
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	name	name	NOUN	NN	Number=Sing	2	obj	_	_
+5	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,--	,--	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	P?	P?	SYM	SYM	_	2	discourse	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	2	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	aunt	aunt	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	as	as	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	compromise	compromise	NOUN	NN	Number=Sing	9	obl	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	obnoxious	obnoxious	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	appellation	appellation	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

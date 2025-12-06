@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Gentlemen,” said Mr. Wopsle, “I am proud to see you.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Gentlemen	gentleman	NOUN	NNS	Number=Plur	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+7	Wopsle	Wopsle	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	proud	proud	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	see	see	VERB	VB	VerbForm=Inf	12	advcl	_	_
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I hope, Mr. Pip, you will excuse my sending round.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	2	obj	_	_
+5	Pip	Pip	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	excuse	excuse	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nsubj	_	_
+11	sending	send	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+12	round	round	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I had the happiness to know you in former times, and the Drama has ever had a claim which has ever been acknowledged, on the noble and the affluent.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	happiness	happiness	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	know	know	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	former	former	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	times	time	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Drama	drama	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	ever	ever	ADV	RB	_	17	advmod	_	_
+17	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	claim	claim	NOUN	NN	Number=Sing	17	obj	_	_
+20	which	which	PRON	WDT	PronType=Rel	24	nsubj:pass	_	_
+21	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	ever	ever	ADV	RB	_	24	advmod	_	_
+23	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	acknowledged	acknowledge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	24	punct	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	noble	noble	ADJ	JJ	Degree=Pos	24	obl	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	affluent	affluent	ADJ	JJ	Degree=Pos	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

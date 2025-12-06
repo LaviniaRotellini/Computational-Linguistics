@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Two necessities, as we have said, compelled him to undertake these explorations.
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	necessities	necessity	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	as	as	SCONJ	IN	_	7	mark	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	said	say	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	compelled	compelle	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	undertake	undertake	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+13	these	these	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
+14	explorations	exploration	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He had to gather fragments of wreck and other things to aid him in his labour, and to search for crabs and crayfish for his food.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	gather	gather	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	fragments	fragment	NOUN	NNS	Number=Plur	4	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	wreck	wreck	NOUN	NN	Number=Sing	5	nmod	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	things	thing	NOUN	NNS	Number=Plur	2	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	aid	aid	VERB	VB	VerbForm=Inf	10	acl	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	labour	labour	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	search	search	VERB	VB	VerbForm=Inf	2	conj	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	crabs	crab	NOUN	NNS	Number=Plur	20	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	crayfish	crayfish	NOUN	NNS	Number=Plur	22	conj	_	_
+25	for	for	ADP	IN	_	27	case	_	_
+26	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	food	food	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Shell-fish had begun to fail him on the rocks.
+1	Shell	Shell	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	fish	fish	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	fail	fail	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	rocks	rock	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

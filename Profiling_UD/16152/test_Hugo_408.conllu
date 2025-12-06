@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = They proceeded to take a vote without leaving the room.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	proceeded	proceed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	take	take	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	vote	vote	NOUN	NN	Number=Sing	4	obj	_	_
+7	without	without	SCONJ	IN	_	8	mark	_	_
+8	leaving	leave	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	room	room	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The judges signified their assent without giving their reasons, they were in a hurry.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	judges	judge	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	signified	signify	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	assent	assent	NOUN	NN	Number=Sing	3	obj	_	_
+6	without	without	SCONJ	IN	_	7	mark	_	_
+7	giving	give	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	reasons	reason	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	hurry	hurry	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Their capped heads were seen uncovering one after the other, in the gloom, at the lugubrious question addressed to them by the president in a low voice.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	capped	cap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	nsubj:pass	_	_
+3	heads	head	NOUN	NNS	Number=Plur	2	obj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	uncovering	uncover	VERB	VBG	VerbForm=Ger	5	xcomp	_	_
+7	one	one	NUM	CD	NumType=Card	6	obj	_	_
+8	after	after	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	gloom	gloom	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	at	at	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	lugubrious	lugubrious	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	question	question	NOUN	NN	Number=Sing	6	obl	_	_
+20	addressed	address	VERB	VBN	Tense=Past|VerbForm=Part	19	acl	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	_
+23	by	by	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	president	president	NOUN	NN	Number=Sing	20	obl	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+28	low	low	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	voice	voice	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The poor accused had the appearance of looking at them, but her troubled eye no longer saw.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	poor	poor	ADJ	JJ	Degree=Pos	4	nsubj	_	_
+3	accused	accused	X	GW	_	4	advmod	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	appearance	appearance	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	looking	look	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	but	but	CCONJ	CC	_	18	cc	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	troubled	trouble	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	eye	eye	NOUN	NN	Number=Sing	18	nsubj	_	_
+16	no	no	ADV	RB	_	17	advmod	_	_
+17	longer	longer	ADV	RBR	Degree=Cmp	15	advmod	_	_
+18	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

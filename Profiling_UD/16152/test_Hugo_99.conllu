@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At last he reached the end of the street.
+1	At	at	ADP	IN	_	2	case	_	_
+2	last	last	ADJ	JJ	Degree=Pos	4	obl	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	end	end	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	street	street	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It opened upon an immense place, where a thousand scattered lights flickered in the confused mists of night.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	upon	upon	ADP	IN	_	6	case	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	immense	immense	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	place	place	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	where	where	ADV	WRB	PronType=Rel	13	advmod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	thousand	thousand	NUM	CD	NumType=Card	12	nummod	_	_
+11	scattered	scattered	NOUN	NN	Number=Sing	12	compound	_	_
+12	lights	light	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	flickered	flicker	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	confused	confused	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	mists	mist	NOUN	NNS	Number=Plur	13	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	night	night	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Gringoire flew thither, hoping to escape, by the swiftness of his legs, from the three infirm spectres who had clutched him.
+1	Gringoire	Gringoire	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	flew	fly	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	thither	thither	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	hoping	hope	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	escape	escape	VERB	VB	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	by	by	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	swiftness	swiftness	NOUN	NN	Number=Sing	2	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	legs	leg	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	from	from	ADP	IN	_	20	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	three	three	NUM	CD	NumType=Card	20	nummod	_	_
+19	infirm	infirm	NOUN	NN	Number=Sing	20	compound	_	_
+20	spectres	spectre	NOUN	NNS	Number=Plur	2	obl	_	_
+21	who	who	PRON	WP	PronType=Rel	23	nsubj	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+23	clutched	clutch	VERB	VBN	Tense=Past|VerbForm=Part	20	acl:relcl	_	_
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

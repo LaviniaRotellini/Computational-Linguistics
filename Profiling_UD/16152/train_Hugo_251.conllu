@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Fantine trembled at the sound of Javert’s voice, and let go of the latch as a thief relinquishes the article which he has stolen.
+1	Fantine	Fantine	NOUN	NN	Number=Sing	20	nsubj	_	_
+2	trembled	tremble	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sound	sound	NOUN	NN	Number=Sing	2	obl	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	Javert	Javert	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	voice	voice	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	let	let	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	go	go	NOUN	NN	Number=Sing	1	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	latch	latch	NOUN	NN	Number=Sing	13	nmod	_	_
+17	as	as	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	thief	thief	NOUN	NN	Number=Sing	13	nmod	_	_
+20	relinquishes	relinquish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	article	article	NOUN	NN	Number=Sing	20	obj	_	_
+23	which	which	PRON	WDT	PronType=Rel	26	obj	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	stolen	steal	VERB	VBN	Tense=Past|VerbForm=Part	22	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = At the sound of Madeleine’s voice she turned around, and from that moment forth she uttered no word, nor dared so much as to breathe freely, but her glance strayed from Madeleine to Javert, and from Javert to Madeleine in turn, according to which was speaking.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	sound	sound	NOUN	NN	Number=Sing	9	obl	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	Madeleine	Madeleine	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	voice	voice	NOUN	NN	Number=Sing	3	nmod	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	around	around	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	_	_
+12	and	and	CCONJ	CC	_	18	cc	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	that	that	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	moment	moment	NOUN	NN	Number=Sing	18	obl	_	_
+16	forth	forth	ADV	RB	_	18	advmod	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	uttered	utter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+19	no	no	DET	DT	_	20	det	_	_
+20	word	word	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	nor	nor	CCONJ	CC	_	23	cc	_	_
+23	dared	dared	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	_	_
+24	so	so	ADV	RB	_	25	advmod	_	_
+25	much	much	ADJ	JJ	Degree=Pos	23	obj	_	_
+26	as	as	SCONJ	IN	_	28	mark	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	breathe	breathe	VERB	VB	VerbForm=Inf	25	advcl	_	_
+29	freely	freely	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	34	punct	_	_
+31	but	but	CCONJ	CC	_	34	cc	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	glance	glance	NOUN	NN	Number=Sing	34	nsubj	_	_
+34	strayed	stray	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+35	from	from	ADP	IN	_	36	case	_	_
+36	Madeleine	Madeleine	PROPN	NNP	Number=Sing	34	obl	_	_
+37	to	to	ADP	IN	_	38	case	_	_
+38	Javert	Javert	PROPN	NNP	Number=Sing	34	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	42	punct	_	_
+40	and	and	CCONJ	CC	_	42	cc	_	_
+41	from	from	ADP	IN	_	42	case	_	_
+42	Javert	Javert	PROPN	NNP	Number=Sing	9	conj	_	_
+43	to	to	ADP	IN	_	44	case	_	_
+44	Madeleine	Madeleine	PROPN	NNP	Number=Sing	42	nmod	_	_
+45	in	in	ADP	IN	_	46	case	_	_
+46	turn	turn	NOUN	NN	Number=Sing	42	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	,	_	9	punct	_	_
+48	according	accord	VERB	VBG	VerbForm=Ger	50	case	_	_
+49	to	to	ADP	IN	_	48	fixed	_	_
+50	which	which	PRON	WDT	PronType=Rel	52	nsubj	_	_
+51	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	aux	_	_
+52	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

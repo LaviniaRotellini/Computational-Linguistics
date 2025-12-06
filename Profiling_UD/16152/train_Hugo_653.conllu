@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “As you please.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	As	as	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	please	please	INTJ	UH	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I know that you can do nothing that is not honest, that you have always been a man after the good God’s heart.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	do	do	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	nothing	nothing	PRON	NN	Number=Sing	6	obj	_	_
+8	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	honest	honest	ADJ	JJ	Degree=Pos	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	always	always	ADV	RB	_	17	advmod	_	_
+17	been	be	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	man	man	NOUN	NN	Number=Sing	17	nsubj	_	_
+20	after	after	ADP	IN	_	25	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+22	good	good	ADJ	JJ	Degree=Pos	25	amod	_	_
+23	God	God	PROPN	NNP	Number=Sing	25	nmod:poss	_	SpaceAfter=No
+24	’s	's	PART	POS	_	23	case	_	_
+25	heart	heart	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = And then, moreover, you it was who placed me here.
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	moreover	moreover	ADV	RB	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	who	who	PRON	WP	PronType=Int	10	nsubj	_	_
+10	placed	place	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	here	here	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = That concerns you.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	concerns	concern	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I am at your service.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	service	service	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

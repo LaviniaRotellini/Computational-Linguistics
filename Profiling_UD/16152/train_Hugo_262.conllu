@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This dazzled Thénardier.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	dazzled	dazzl	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Thénardier	Thénardier	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = “The devil!” said the man to his wife; “don’t let’s allow the child to go.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	devil	devil	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	man	man	NOUN	NN	Number=Sing	6	obj	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	wife	wife	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	6	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+15	n’t	not	PART	RB	_	16	advmod	_	_
+16	let	let	VERB	VB	VerbForm=Inf	6	parataxis	_	SpaceAfter=No
+17	’s	us	PRON	PRP	_	16	obj	_	_
+18	allow	allow	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	child	child	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	go	go	VERB	VB	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = This lark is going to turn into a milch cow.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	lark	lark	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	turn	turn	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	into	into	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	milch	milch	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	cow	cow	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I see through it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	through	through	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Some ninny has taken a fancy to the mother.”
+1	Some	some	DET	DT	_	2	det	_	_
+2	ninny	ninny	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fancy	fancy	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	mother	mother	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

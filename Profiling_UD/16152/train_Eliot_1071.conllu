@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, thank you,” said Lydgate, with some hauteur.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Lydgate	Lydgate	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	some	some	DET	DT	_	13	det	_	_
+13	hauteur	hauteur	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “I mentioned to you yesterday what was the state of my affairs.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mentioned	mention	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	_
+6	yesterday	yesterday	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+7	what	what	PRON	WP	PronType=Int	3	ccomp	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	state	state	NOUN	NN	Number=Sing	7	nsubj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	affairs	affair	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = There is nothing to add, except that the execution has since then been actually put into my house.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	add	add	VERB	VB	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	except	except	SCONJ	IN	_	11	mark	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	execution	execution	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+12	since	since	ADP	IN	_	13	case	_	_
+13	then	then	ADV	RB	PronType=Dem	11	obl	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	actually	actually	ADV	RB	_	16	advmod	_	_
+16	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+17	into	into	ADP	IN	_	19	case	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	house	house	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = One can tell a good deal of trouble in a short sentence.
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	deal	deal	NOUN	NN	Number=Sing	3	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	trouble	trouble	NOUN	NN	Number=Sing	6	nmod	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	short	short	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	sentence	sentence	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I will say good morning.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	morning	morning	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

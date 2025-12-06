@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Certainly, sir; you see, the prefecture of to-day was the bishop’s palace before the Revolution.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Certainly	certainly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	prefecture	prefecture	NOUN	NN	Number=Sing	19	nsubj	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	to	to	ADP	IN	_	14	case	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	day	day	NOUN	NN	Number=Sing	10	nmod	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	bishop	bishop	NOUN	NN	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+18	’s	's	PART	POS	_	17	case	_	_
+19	palace	palace	NOUN	NN	Number=Sing	4	parataxis	_	_
+20	before	before	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	Revolution	Revolution	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = M. de Conzié, who was bishop in ’82, built a grand hall there.
+1	M.	M.	PROPN	NNP	Number=Sing	3	compound	_	_
+2	de	de	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Conzié	Conzié	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	bishop	bishop	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	’82	’82	NUM	CD	NumType=Card	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	built	build	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	grand	grand	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hall	hall	NOUN	NN	Number=Sing	11	obj	_	_
+15	there	there	ADV	RB	PronType=Dem	11	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = It is in this grand hall that the court is held.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	grand	grand	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	hall	hall	NOUN	NN	Number=Sing	0	root	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	court	court	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

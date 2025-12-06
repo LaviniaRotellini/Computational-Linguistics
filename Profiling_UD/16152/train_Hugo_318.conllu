@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He breathed again.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	breathed	breathe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	again	again	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He breathed freely and to the full extent of his lungs for the first time since Javert’s visit.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	breathed	breathe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	freely	freely	ADV	RB	_	2	advmod	_	_
+4	and	and	CCONJ	CC	_	8	cc	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	full	full	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	extent	extent	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	lungs	lung	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	for	for	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	15	amod	_	_
+15	time	time	NOUN	NN	Number=Sing	11	obl	_	_
+16	since	since	ADP	IN	_	19	case	_	_
+17	Javert	Javert	PROPN	NNP	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+18	’s	's	PART	POS	_	17	case	_	_
+19	visit	visit	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It seemed to him that the hand of iron which had held his heart in its grasp for the last twenty hours had just released him.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	that	that	SCONJ	IN	_	26	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	hand	hand	NOUN	NN	Number=Sing	26	nsubj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	iron	iron	NOUN	NN	Number=Sing	7	nmod	_	_
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	held	hold	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	heart	heart	NOUN	NN	Number=Sing	12	obj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nmod:poss	_	SpaceAfter=No
+17	s	's	PART	POS	_	16	case	_	_
+18	grasp	grasp	NOUN	NNS	Number=Plur	12	obl	_	_
+19	for	for	ADP	IN	_	23	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+21	last	last	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	twenty	twenty	NUM	CD	NumType=Card	23	nummod	_	_
+23	hours	hour	NOUN	NNS	Number=Plur	18	nmod	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+25	just	just	ADV	RB	_	26	advmod	_	_
+26	released	release	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

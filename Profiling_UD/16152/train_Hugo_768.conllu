@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = As far as sayings are concerned, this child has as many of them as Talleyrand.
+1	As	as	ADV	RB	_	2	advmod	_	_
+2	far	far	ADV	RB	Degree=Pos	12	advmod	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	sayings	sayings	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	concerned	concerned	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	child	child	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	many	many	ADJ	JJ	Degree=Pos	0	root	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15	as	as	ADP	IN	_	16	case	_	_
+16	Talleyrand	Talleyrand	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He is no less cynical, but he is more honest.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	no	no	ADV	RB	_	5	advmod	_	_
+4	less	less	ADV	RBR	Degree=Cmp	5	advmod	_	_
+5	cynical	cynical	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	more	more	ADV	RBR	_	11	advmod	_	_
+11	honest	honest	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = He is endowed with a certain indescribable, unexpected joviality; he upsets the composure of the shopkeeper with his wild laughter.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	endowed	endow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	10	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+6	certain	certain	ADJ	JJ	Degree=Pos	10	amod	_	_
+7	indescribable	indescribable	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	unexpected	unexpected	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	joviality	joviality	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	upsets	upset	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	composure	composure	NOUN	NN	Number=Sing	3	appos	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	shopkeeper	shopkeeper	NOUN	NN	Number=Sing	15	nmod	_	_
+19	with	with	ADP	IN	_	22	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	wild	wild	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	laughter	laughter	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He ranges boldly from high comedy to farce.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ranges	ranges	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	boldly	boldly	ADV	RB	_	2	advmod	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	high	high	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	comedy	comedy	NOUN	NN	Number=Sing	2	obl	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	farce	farce	VERB	VB	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

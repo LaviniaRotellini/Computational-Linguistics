@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He drew her to him, whispered in her ear, and kissed her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	whispered	whisper	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	ear	ear	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I knew as well, when I saw my mother’s head lean down upon his shoulder, and her arm touch his neck--I knew as well that he could mould her pliant nature into any form he chose, as I know, now, that he did it.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	ADV	RB	_	2	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	when	when	ADV	WRB	PronType=Int	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mother	mother	NOUN	NN	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	head	head	NOUN	NN	Number=Sing	13	compound	_	_
+13	lean	lean	NOUN	NN	Number=Sing	8	obj	_	_
+14	down	down	ADV	RB	_	8	advmod	_	_
+15	upon	upon	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	shoulder	shoulder	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	arm	arm	NOUN	NN	Number=Sing	22	compound	_	_
+22	touch	touch	NOUN	NN	Number=Sing	2	conj	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	neck	neck	NOUN	NN	Number=Sing	22	appos	_	SpaceAfter=No
+25	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+28	as	as	ADV	RB	_	27	advmod	_	_
+29	well	well	ADV	RB	Degree=Pos	28	fixed	_	_
+30	that	that	SCONJ	IN	_	33	mark	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	could	could	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	mould	mould	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+34	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	pliant	pliant	ADJ	JJ	Degree=Pos|Typo=Yes	36	amod	_	_
+36	nature	nature	NOUN	NN	Number=Sing	33	obj	_	_
+37	into	into	ADP	IN	_	39	case	_	_
+38	any	any	DET	DT	_	39	det	_	_
+39	form	form	NOUN	NN	Number=Sing	33	obl	_	_
+40	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+41	chose	choose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	27	punct	_	_
+43	as	as	SCONJ	IN	_	45	mark	_	_
+44	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+45	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	27	punct	_	_
+47	now	now	ADV	RB	_	27	advmod	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	27	punct	_	_
+49	that	that	SCONJ	IN	_	51	mark	_	_
+50	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
+51	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	ccomp	_	_
+52	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	51	obj	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

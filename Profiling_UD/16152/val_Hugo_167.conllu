@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At two hundred fathoms further was a massive block of granite.
+1	At	at	ADP	IN	_	4	case	_	_
+2	two	two	NUM	CD	NumType=Card	4	nummod	_	_
+3	hundred	hundred	NUM	CD	NumType=Card	4	nummod	_	_
+4	fathoms	fathom	NOUN	NNS	Number=Plur	9	nsubj	_	_
+5	further	further	ADV	RB	_	4	advmod	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	massive	massive	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	block	block	NOUN	NN	Number=Sing	0	root	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	granite	granite	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Upon the steep sides of this rock were some hollows and small projections, which might help a man to climb.
+1	Upon	upon	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	steep	steep	NOUN	NN	Number=Sing	4	compound	_	_
+4	sides	side	NOUN	NNS	Number=Plur	10	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	rock	rock	NOUN	NN	Number=Sing	4	nmod	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	some	some	DET	DT	_	10	det	_	_
+10	hollows	hollow	NOUN	NNS	Number=Plur	0	root	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	small	small	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	projections	projection	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+16	might	might	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	help	help	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	man	man	NOUN	NN	Number=Sing	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	climb	climb	VERB	VB	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = The square corners of those rude walls at right angles indicated the existence of a plateau on the summit.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	square	square	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	corners	corner	NOUN	NNS	Number=Plur	11	nsubj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	rude	rude	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	walls	wall	NOUN	NNS	Number=Plur	3	nmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	right	right	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	angles	angles	NOUN	NNS	Number=Plur	3	nmod	_	_
+11	indicated	indicate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	existence	existence	NOUN	NN	Number=Sing	11	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	plateau	plateau	NOUN	NN	Number=Sing	13	nmod	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	summit	summit	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

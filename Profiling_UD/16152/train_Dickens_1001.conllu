@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Copperfield,’ returned Mr. Spenlow, with a gracious smile, ‘you have not known my partner, Mr. Jorkins, as long as I have.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Copperfield	Copperfield	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Spenlow	Spenlow	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	gracious	gracious	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	smile	smile	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	5	punct	_	_
+14	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	not	not	PART	RB	_	18	advmod	_	_
+18	known	know	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	partner	partner	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	Mr.	Mr.	PROPN	NNP	Number=Sing	18	conj	_	_
+23	Jorkins	Jorkins	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	22	punct	_	_
+25	as	as	ADV	RB	_	26	advmod	_	_
+26	long	long	ADV	RB	Degree=Pos	18	advmod	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Nothing is farther from my thoughts than to attribute any degree of artifice to Mr. Jorkins.
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	farther	farther	ADJ	JJ	Degree=Pos	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	thoughts	thought	NOUN	NNS	Number=Plur	3	obl	_	_
+7	than	than	SCONJ	IN	_	9	mark	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	attribute	attribute	VERB	VB	VerbForm=Inf	3	advcl	_	_
+10	any	any	DET	DT	_	11	det	_	_
+11	degree	degree	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	artifice	artifice	NOUN	NN	Number=Sing	11	nmod	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obl	_	_
+16	Jorkins	Jorkins	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But Mr. Jorkins has a way of stating his objections which often deceives people.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	4	nsubj	_	_
+3	Jorkins	Jorkins	PROPN	NNP	Number=Sing	2	flat	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	way	way	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	stating	stating	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	objections	objection	NOUN	NNS	Number=Plur	8	obj	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	often	often	ADV	RB	_	13	advmod	_	_
+13	deceives	deceive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	people	people	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = No, Copperfield!’ shaking his head.
+1	No	no	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Copperfield	Copperfield	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	3	punct	_	_
+6	shaking	shake	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	head	head	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = ‘Mr.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr	Mr	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Jorkins is not to be moved, believe me!’
+1	Jorkins	Jorkins	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	moved	move	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	believe	believe	VERB	VB	Mood=Imp|VerbForm=Fin	6	conj	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, my love, I am defending you!”
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	love	love	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	defending	defend	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obj	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	9	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 2
+# text = replied the mother, in a dying voice; and clasping her closely in her arms, she covered her with kisses.
+1	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	mother	mother	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	dying	die	VERB	VBG	VerbForm=Ger	8	amod	_	_
+8	voice	voice	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	1	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	clasping	clasp	VERB	VBG	VerbForm=Ger	1	conj	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	obj	_	_
+13	closely	closely	ADV	RB	_	11	advmod	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	arms	arms	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	1	punct	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	covered	cover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	with	with	ADP	IN	_	22	case	_	_
+22	kisses	kiss	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = The two lying thus on the earth, the mother upon the daughter, presented a spectacle worthy of pity.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nsubj	_	_
+3	lying	lie	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	thus	thus	ADV	RB	_	3	advmod	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	earth	earth	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	mother	mother	NOUN	NN	Number=Sing	3	appos	_	_
+11	upon	upon	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	daughter	daughter	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	spectacle	spectacle	NOUN	NN	Number=Sing	18	compound	_	_
+18	worthy	worthy	NOUN	NN	Number=Sing	15	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	pity	pity	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

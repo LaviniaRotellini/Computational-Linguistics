@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then I think the commonest minds must be rather useful.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	commonest	commonest	ADJ	JJS	Degree=Sup	7	amod	_	_
+7	minds	mind	NOUN	NNS	Number=Plur	11	nsubj	_	_
+8	must	must	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	rather	rather	ADV	RB	_	11	advmod	_	_
+11	useful	useful	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I think it is a pity Mr. Casaubon’s mother had not a commoner mind: she might have taught him better.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	pity	pity	NOUN	NN	Number=Sing	2	ccomp	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+8	Casaubon	Casaubon	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	’s	's	PART	POS	_	7	case	_	_
+10	mother	mother	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+12	not	not	PART	RB	_	15	advmod	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	commoner	commoner	NOUN	NN	Number=Sing	15	compound	_	_
+15	mind	mind	NOUN	NN	Number=Sing	11	xcomp	_	SpaceAfter=No
+16	:	:	PUNCT	:	_	2	punct	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	might	might	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	have	have	AUX	VB	VerbForm=Inf	20	aux	_	_
+20	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	better	better	ADJ	JJR	Degree=Cmp	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 3
+# text = Celia was inwardly frightened, and ready to run away, now she had hurled this light javelin.
+1	Celia	Celia	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	inwardly	inwardly	ADV	RB	_	4	advmod	_	_
+4	frightened	frightened	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	ready	ready	ADJ	JJ	Degree=Pos	4	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	run	run	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	away	away	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	now	now	ADV	RB	_	15	advmod	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	hurled	hurl	VERB	VBN	Tense=Past|VerbForm=Part	4	parataxis	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+17	light	light	NOUN	NN	Number=Sing	18	compound	_	_
+18	javelin	javelin	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

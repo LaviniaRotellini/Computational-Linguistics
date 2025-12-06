@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She went, with a heavy, hardened kind of sorrow upon her, into the house and into her mother’s room.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	heavy	heavy	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	hardened	harden	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	kind	kind	NOUN	NN	Number=Sing	8	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	sorrow	sorrow	NOUN	NN	Number=Sing	9	nmod	_	_
+12	upon	upon	ADP	IN	_	13	case	_	_
+13	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	into	into	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	house	house	NOUN	NN	Number=Sing	2	obl	_	_
+18	and	and	CCONJ	CC	_	23	cc	_	_
+19	into	into	ADP	IN	_	23	case	_	_
+20	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	mother	mother	NOUN	NN	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	room	room	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Since the time of her leaving home, Sissy had lived with the rest of the family on equal terms.
+1	Since	since	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6	leaving	leave	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+7	home	home	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	Sissy	Sissy	PROPN	NNP	Number=Sing	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	rest	rest	NOUN	NN	Number=Sing	11	obl	_	_
+15	of	of	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	family	family	NOUN	NN	Number=Sing	14	nmod	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	equal	equal	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	terms	term	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 3
+# text = Sissy was at her mother’s side; and Jane, her sister, now ten or twelve years old, was in the room.
+1	Sissy	Sissy	PROPN	NNP	Number=Sing	7	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	at	at	ADP	IN	_	7	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	mother	mother	NOUN	NN	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	side	side	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	Jane	Jane	PROPN	NNP	Number=Sing	13	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	sister	sister	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	now	now	ADV	RB	_	19	advmod	_	_
+16	ten	ten	NUM	CD	NumType=Card	19	nummod	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	twelve	twelve	NUM	CD	NumType=Card	16	conj	_	_
+19	years	year	NOUN	NNS	Number=Plur	20	obl:npmod	_	_
+20	old	old	ADJ	JJ	Degree=Pos	13	appos	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	13	punct	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	room	room	NOUN	NN	Number=Sing	7	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

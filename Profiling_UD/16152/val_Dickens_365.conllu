@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Very well.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Very	very	ADV	RB	_	3	advmod	_	_
+3	well	well	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = They live at the Bank.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Bank	Bank	PROPN	NNP	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You know they live at the Bank, perhaps?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Bank	Bank	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	perhaps	perhaps	ADV	RB	_	4	advmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Very well.
+1	Very	very	ADV	RB	_	2	advmod	_	_
+2	well	well	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Yesterday afternoon, at the close of business hours, everything was put away as usual.
+1	Yesterday	yesterday	NOUN	NN	Number=Sing	2	compound	_	_
+2	afternoon	afternoon	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	close	close	NOUN	NN	Number=Sing	2	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	business	business	NOUN	NN	Number=Sing	9	compound	_	_
+9	hours	hour	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	everything	everything	PRON	NN	Number=Sing	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+14	away	away	ADV	RB	_	13	advmod	_	_
+15	as	as	ADP	IN	_	16	case	_	_
+16	usual	usual	ADJ	JJ	Degree=Pos	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 6
+# text = In the iron room that this young fellow sleeps outside of, there was never mind how much.
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	iron	iron	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	room	room	NOUN	NN	Number=Sing	14	obl	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	fellow	fellow	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	sleeps	sleep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+10	outside	outside	ADP	IN	_	11	case	_	_
+11	of	of	ADP	IN	_	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	there	there	PRON	EX	_	14	expl	_	_
+14	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	never	never	ADV	RB	_	14	advmod	_	_
+16	mind	mind	NOUN	NN	Number=Sing	18	compound	_	_
+17	how	how	ADV	WRB	PronType=Int	18	advmod	_	_
+18	much	much	ADJ	JJ	Degree=Pos	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 7
+# text = In the little safe in young Tom’s closet, the safe used for petty purposes, there was a hundred and fifty odd pound.’
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	obl	_	_
+4	safe	safe	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	closet	closet	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	safe	safe	ADJ	JJ	Degree=Pos	4	conj	_	_
+13	used	use	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	petty	petty	NOUN	NN	Number=Sing	16	compound	_	_
+16	purposes	purpose	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	there	there	PRON	EX	_	19	expl	_	_
+19	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	hundred	hundred	NUM	CD	NumType=Card	19	nsubj	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	fifty	fifty	NUM	CD	NumType=Card	25	nummod	_	_
+24	odd	odd	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	pound	pound	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

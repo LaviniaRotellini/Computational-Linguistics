@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nevertheless, athwart this reverie into which he had fallen he had heard for some time a peculiar noise.
+1	Nevertheless	nevertheless	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	athwart	athwart	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	reverie	reverie	NOUN	NN	Number=Sing	3	obj	_	_
+6	into	into	ADP	IN	_	7	case	_	_
+7	which	which	PRON	WDT	PronType=Rel	10	obl	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	some	some	DET	DT	_	16	det	_	_
+16	time	time	NOUN	NN	Number=Sing	13	obl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	peculiar	peculiar	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	noise	noise	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = It was like the tinkling of a bell.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	like	like	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	tinkling	tinkling	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	bell	bell	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = This sound proceeded from the garden.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	sound	sound	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	proceeded	proceed	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	garden	garden	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It could be heard distinctly though faintly.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	distinctly	distinctly	ADV	RB	_	7	advmod	_	_
+6	though	though	ADV	RB	_	7	advmod	_	_
+7	faintly	faintly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = It resembled the faint, vague music produced by the bells of cattle at night in the pastures.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	resembled	resemble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	faint	faint	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	vague	vague	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	music	music	NOUN	NN	Number=Sing	4	appos	_	_
+8	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+9	by	by	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	bells	bell	NOUN	NNS	Number=Plur	8	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	cattle	cattle	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	night	night	NOUN	NN	Number=Sing	8	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	pastures	pasture	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = That same night, Javert wrote a letter.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	same	same	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	night	night	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	Javert	Javert	PROPN	NNP	Number=Sing	6	nsubj	_	_
+6	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	letter	letter	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = The next morning be posted it himself at the office of M. sur M. It was addressed to Paris, and the superscription ran: _To Monsieur Chabouillet, Secretary of Monsieur le Préfet of Police_.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	next	next	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	morning	morning	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	posted	post	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	nmod:npmod	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	office	office	NOUN	NN	Number=Sing	5	obl	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	M.	M.	PROPN	NNP	Number=Sing	14	compound	_	_
+13	sur	yosu	NUM	CD	NumType=Card	12	nummod	_	_
+14	M	be	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+16	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	addressed	address	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	Paris	Paris	PROPN	NNP	Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	superscription	superscription	NOUN	NN	Number=Sing	25	nsubj	_	_
+25	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	SpaceAfter=No
+26	:	:	PUNCT	:	_	25	punct	_	_
+27	_	_	SYM	NFP	_	30	punct	_	SpaceAfter=No
+28	To	to	ADP	IN	_	30	case	_	_
+29	Monsieur	Monsieur	PROPN	NNP	Number=Sing	30	compound	_	_
+30	Chabouillet	Chabouillet	PROPN	NNP	Number=Sing	25	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	30	punct	_	_
+32	Secretary	Secretary	PROPN	NNP	Number=Sing	30	appos	_	_
+33	of	of	ADP	IN	_	36	case	_	_
+34	Monsieur	Monsieur	PROPN	NNP	Number=Sing	36	compound	_	_
+35	le	le	NOUN	NN	Number=Sing	36	compound	_	_
+36	Préfet	Préfet	NOUN	NN	Number=Sing	32	nmod	_	_
+37	of	of	ADP	IN	_	38	case	_	_
+38	Police_	police_	NOUN	NN	Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = As the affair in the station-house had been bruited about, the post-mistress and some other persons who saw the letter before it was sent off, and who recognized Javert’s handwriting on the cover, thought that he was sending in his resignation.
+1	As	as	SCONJ	IN	_	11	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	affair	affair	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+4	in	in	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	station	station	NOUN	NN	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	house	house	NOUN	NN	Number=Sing	3	nmod	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+11	bruited	bruit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	_
+12	about	about	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	post-mistress	post-mistress	NOUN	NNS	Number=Plur	40	nsubj	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	some	some	DET	DT	_	19	det	_	_
+18	other	other	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	persons	person	NOUN	NNS	Number=Plur	15	conj	_	_
+20	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+21	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	letter	letter	NOUN	NN	Number=Sing	21	obj	_	_
+24	before	before	SCONJ	IN	_	27	mark	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	advcl	_	_
+28	off	off	ADP	RP	_	27	compound:prt	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	who	who	PRON	WP	PronType=Int	32	nsubj	_	_
+32	recognized	recognize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+33	Javert	Javert	PROPN	NNP	Number=Sing	35	nmod:poss	_	SpaceAfter=No
+34	’s	's	PART	POS	_	33	case	_	_
+35	handwriting	handwriting	NOUN	NN	Number=Sing	32	obj	_	_
+36	on	on	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	cover	cover	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	40	punct	_	_
+40	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+41	that	that	SCONJ	IN	_	44	mark	_	_
+42	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+43	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	aux	_	_
+44	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	40	ccomp	_	_
+45	in	in	ADP	IN	_	47	case	_	_
+46	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	resignation	resignation	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	40	punct	_	SpacesAfter=\n
+

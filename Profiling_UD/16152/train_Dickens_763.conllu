@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh dear, yes, Copperfield!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Oh	oh	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	dear	dear	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	yes	yes	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Copperfield	Copperfield	PROPN	NNP	Number=Sing	3	parataxis	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I mean it,’ replied Traddles.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	2	punct	_	_
+6	replied	reply	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	Traddles	Traddles	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = ‘It was an unfortunate thing, but he didn’t like me at all.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	like	like	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	at	at	ADV	RB	_	15	case	_	_
+15	all	all	ADV	RB	_	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = He said I wasn’t at all what he expected, and so he married his housekeeper.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	7	advmod	_	_
+6	at	at	ADV	RB	_	7	case	_	_
+7	all	all	ADV	RB	_	8	advmod	_	_
+8	what	what	PRON	WP	PronType=Int	2	obj	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	expected	expect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	so	so	ADV	RB	_	15	advmod	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	housekeeper	housekeeper	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

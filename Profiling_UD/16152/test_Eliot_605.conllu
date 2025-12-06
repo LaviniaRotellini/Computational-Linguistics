@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Haven’t _I_ loved her too?
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	_I	_i	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+5	_	_	SYM	NFP	_	6	punct	_	_
+6	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Didn’t I see her yesterday?
+1	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	4	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	obj	_	_
+6	yesterday	yesterday	NOUN	NN	Number=Sing	4	obl:tmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Shan’t I carry the thought of her about with me as much as you will?
+1	Sha	Sha	PROPN	NNP	Number=Sing	2	compound	_	SpaceAfter=No
+2	n’t	n’t	NOUN	NN	Number=Sing	13	nsubj	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	carry	carry	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	thought	thought	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
+9	about	about	ADV	RB	_	11	advmod	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+12	as	as	ADV	RB	_	13	advmod	_	_
+13	much	much	ADV	RB	_	0	root	_	_
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	will	will	AUX	MD	VerbForm=Fin	13	advcl	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = And don’t you think you would suffer more if you’d been in fault?”
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	suffer	suffer	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	8	obj	_	_
+10	if	if	SCONJ	IN	_	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+12	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	cop	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	fault	fault	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

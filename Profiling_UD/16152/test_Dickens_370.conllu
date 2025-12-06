@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Here’s Mr. Pip, aged parent,” said Wemmick, “and I wish you could hear his name.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	2	nsubj	_	_
+5	Pip	Pip	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	aged	a	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	parent	parent	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	Wemmick	Wemmick	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	hear	hear	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	name	name	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nod away at him, Mr. Pip; that’s what he likes.
+1	Nod	Nod	ADV	RB	_	2	advmod	_	_
+2	away	away	ADV	RB	_	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	2	appos	_	_
+7	Pip	Pip	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	SpaceAfter=No
+10	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	what	what	PRON	WP	PronType=Int	2	parataxis	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Nod away at him, if you please, like winking!”
+1	Nod	Nod	ADV	RB	_	2	advmod	_	_
+2	away	away	ADV	RB	_	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	if	if	SCONJ	IN	_	8	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	please	please	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	like	like	SCONJ	IN	_	11	mark	_	_
+11	winking	win	VERB	VBG	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

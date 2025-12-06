@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, what’s that sticking against the willow?” continued Seth, beginning to walk faster.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	what	what	PRON	WP	PronType=Int	5	nsubj	_	SpaceAfter=No
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	7	mark	_	_
+7	sticking	stick	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	against	against	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	willow	willow	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	5	punct	_	_
+13	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+14	Seth	Seth	PROPN	NNP	Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	beginning	begin	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	walk	walk	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	faster	faster	ADV	RBR	Degree=Cmp	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Adam’s heart rose to his mouth: the vague anxiety about his father was changed into a great dread.
+1	Adam	Adam	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	heart	heart	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	mouth	mouth	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	:	_	4	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	vague	vague	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	anxiety	anxiety	NOUN	NN	Number=Sing	16	nsubj:pass	_	_
+12	about	about	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	father	father	NOUN	NN	Number=Sing	11	nmod	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+17	into	into	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	dread	dread	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He made no answer to Seth, but ran forward preceded by Gyp, who began to bark uneasily; and in two moments he was at the bridge.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	answer	answer	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Seth	Seth	PROPN	NNP	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	but	but	CCONJ	CC	_	9	cc	_	_
+9	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	forward	forward	ADV	RB	_	9	advmod	_	_
+11	preceded	proceed	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	Gyp	Gyp	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	who	who	PRON	WP	PronType=Rel	16	nsubj	_	_
+16	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	bark	bark	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	uneasily	uneasily	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	2	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	two	two	NUM	CD	NumType=Card	24	nummod	_	_
+24	moments	moment	NOUN	NNS	Number=Plur	2	conj	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+27	at	at	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	bridge	bridge	NOUN	NN	Number=Sing	24	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

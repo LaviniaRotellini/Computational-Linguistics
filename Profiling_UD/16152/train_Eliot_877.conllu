@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, young people are usually blind to everything but their own wishes, and seldom imagine how much those wishes cost others,” said Mrs. Garth.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	usually	usually	ADV	RB	_	8	advmod	_	_
+8	blind	blind	ADJ	JJ	Degree=Pos	27	ccomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	everything	everything	PRON	NN	Number=Sing	8	obl	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	own	own	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	wishes	wish	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	seldom	seldom	ADV	RB	_	18	advmod	_	_
+18	imagine	imagine	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+19	how	how	ADV	WRB	PronType=Int	20	advmod	_	_
+20	much	much	ADJ	JJ	Degree=Pos	23	amod	_	_
+21	those	those	DET	DT	Number=Plur|PronType=Dem	23	det	_	_
+22	wishes	wish	NOUN	NNS	Number=Plur	23	compound	_	_
+23	cost	cost	NOUN	NN	Number=Sing	24	compound	_	_
+24	others	other	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	27	punct	_	_
+27	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+28	Mrs.	Mrs.	PROPN	NNP	Number=Sing	27	nsubj	_	_
+29	Garth	Garth	PROPN	NNP	Number=Sing	28	flat	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = 2
+# text = She did not mean to go beyond this salutary general doctrine, and threw her indignation into a needless unwinding of her worsted, knitting her brow at it with a grand air.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	go	go	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	beyond	beyond	ADP	IN	_	11	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+9	salutary	salutary	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	general	general	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	doctrine	doctrine	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	threw	throw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	indignation	indignation	NOUN	NN	Number=Sing	14	obj	_	_
+17	into	into	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	needless	needless	NOUN	NN	Number=Sing	20	compound	_	_
+20	unwinding	unwinding	NOUN	NN	Number=Sing	14	obl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod	_	_
+23	worsted	worst	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	knitting	knitt	VERB	VBG	VerbForm=Ger	23	advcl	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	brow	brow	NOUN	NN	Number=Sing	25	obj	_	_
+28	at	at	ADP	IN	_	29	case	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+30	with	with	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	grand	grand	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	air	air	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That would suit _her_ well enough, I dare say,” said Mrs. Plymdale; “there is that kind of lightness about her.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	suit	suit	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+5	_her	_her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	_	_	SYM	NFP	_	11	punct	_	_
+7	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+8	enough	enough	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+12	say	say	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mrs	Mr	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	_	_
+18	Plymdale	Plymdale	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	16	punct	_	_
+20	“	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
+21	there	there	PRON	EX	_	22	expl	_	_
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+23	that	that	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	kind	kind	NOUN	NN	Number=Sing	22	nsubj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	lightness	lightness	NOUN	NNS	Number=Plur	24	nmod	_	_
+27	about	about	ADP	IN	_	28	case	_	_
+28	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = But she got that from her mother; she never got it from her aunt Bulstrode, who always gave her good advice, and to my knowledge would rather have had her marry elsewhere.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	obj	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	mother	mother	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	never	never	ADV	RB	_	11	advmod	_	_
+11	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	aunt	aunt	NOUN	NN	Number=Sing	11	obl	_	_
+16	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	15	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+19	always	always	ADV	RB	_	20	advmod	_	_
+20	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+22	good	good	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	advice	advice	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	32	punct	_	_
+25	and	and	CCONJ	CC	_	32	cc	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	knowledge	knowledge	NOUN	NN	Number=Sing	32	nsubj	_	_
+29	would	would	AUX	MD	VerbForm=Fin	32	aux	_	_
+30	rather	rather	ADV	RB	_	32	advmod	_	_
+31	have	have	AUX	VB	VerbForm=Inf	32	aux	_	_
+32	had	have	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	marry	marry	NOUN	NN	Number=Sing	32	obj	_	_
+35	elsewhere	elsewhere	ADV	RB	_	32	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

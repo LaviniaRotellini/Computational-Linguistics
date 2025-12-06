@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Bless you, my cherub!” said mamma; “you shall tell me all about it to-morrow.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Bless	bless	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	cherub	cherub	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	mamma	mamma	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	9	punct	_	_
+12	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	shall	shall	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	tell	tell	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+17	all	all	DET	DT	_	15	obj	_	_
+18	about	about	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
+20	to	to	ADP	IN	_	22	case	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	morrow	morrow	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Go and listen!” and then, as her eyes followed Louisa back towards the attractive corner, she thought that if Fred wished her to invite Mary again she would make no objection, the children being so pleased with her.
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	listen	listen	VERB	VB	VerbForm=Inf	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	_
+6	and	and	CCONJ	CC	_	12	cc	_	_
+7	then	then	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	as	as	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	eyes	eye	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
+13	Louisa	Louisa	PROPN	NNP	Number=Sing	12	obj	_	_
+14	back	back	ADV	RB	_	12	advmod	_	_
+15	towards	towards	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	attractive	attractive	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	corner	corner	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	1	punct	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+22	that	that	SCONJ	IN	_	33	mark	_	_
+23	if	if	SCONJ	IN	_	25	mark	_	_
+24	Fred	Fred	PROPN	NNP	Number=Sing	25	nsubj	_	_
+25	wished	wishe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	advcl	_	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	invite	invite	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+29	Mary	Mary	PROPN	NNP	Number=Sing	28	obj	_	_
+30	again	again	ADV	RB	_	28	advmod	_	_
+31	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	would	would	AUX	MD	VerbForm=Fin	33	aux	_	_
+33	make	make	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+34	no	no	DET	DT	_	35	det	_	_
+35	objection	objection	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	1	punct	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	children	child	NOUN	NNS	Number=Plur	1	obj	_	_
+39	being	be	AUX	VBG	VerbForm=Ger	41	cop	_	_
+40	so	so	ADV	RB	_	41	advmod	_	_
+41	pleased	pleased	ADJ	JJ	Degree=Pos	1	xcomp	_	_
+42	with	with	ADP	IN	_	43	case	_	_
+43	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obl	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

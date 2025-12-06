@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, you greedy thing!” said Tom, when she had swallowed the last morsel.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	det	_	_
+5	greedy	greedy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Tom	Tom	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	swallowed	swallow	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	last	last	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	morsel	morsel	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = He was conscious of having acted very fairly, and thought she ought to have considered this, and made up to him for it.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	conscious	conscious	ADJ	JJ	Degree=Pos	0	root	_	_
+4	of	of	SCONJ	IN	_	6	mark	_	_
+5	having	have	AUX	VBG	VerbForm=Ger	6	aux	_	_
+6	acted	act	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	fairly	fairly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	ought	ought	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	have	have	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part	15	xcomp	_	_
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+21	up	up	ADP	RP	_	20	compound:prt	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He would have refused a bit of hers beforehand, but one is naturally at a different point of view before and after one’s own share of puff is swallowed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	refused	refuse	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	bit	bit	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	hers	hers	PRON	PRP	_	9	nmod:poss	_	_
+9	beforehand	beforehand	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	18	punct	_	_
+11	but	but	CCONJ	CC	_	18	cc	_	_
+12	one	one	NUM	CD	NumType=Card	18	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+14	naturally	naturally	ADV	RB	_	18	advmod	_	_
+15	at	at	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	different	different	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	point	point	NOUN	NN	Number=Sing	4	conj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	view	view	NOUN	NN	Number=Sing	18	nmod	_	_
+21	before	before	ADP	IN	_	18	case	_	_
+22	and	and	CCONJ	CC	_	31	cc	_	_
+23	after	after	ADP	IN	_	27	case	_	_
+24	one	one	NOUN	NN	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+25	’s	be	PART	POS	_	24	case	_	_
+26	own	own	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	share	share	NOUN	NN	Number=Sing	31	nsubj:pass	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	puff	puff	NOUN	NN	Number=Sing	27	nmod	_	_
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
+31	swallowed	swallow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

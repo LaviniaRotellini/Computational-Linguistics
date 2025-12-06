@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “’Tis a terrible child!” said the mother, smiling and scolding at one and the same time.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	’	’	PUNCT	''	_	6	punct	_	SpaceAfter=No
+3	Tis	Ti	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	terrible	terrible	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	child	child	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	mother	mother	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	smiling	smile	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	scolding	scold	VERB	VBG	VerbForm=Ger	13	conj	_	_
+16	at	at	ADP	IN	_	17	case	_	_
+17	one	one	NUM	CD	NumType=Card	15	obl	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	same	same	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	time	time	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = “Do you see, Oudarde?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	see	see	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Oudarde	Oudarde	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He already eats all the fruit from the cherry-tree in our orchard of Charlerange.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	already	already	ADV	RB	_	3	advmod	_	_
+3	eats	eat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fruit	fruit	NOUN	NN	Number=Sing	3	obj	_	_
+7	from	from	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	cherry	cherry	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	tree	tree	NOUN	NN	Number=Sing	6	nmod	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	orchard	orchard	NOUN	NN	Number=Sing	3	obl	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	Charlerange	Charlerange	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = So his grandfather says that he will be a captain.
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	grandfather	grandfather	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	captain	captain	NOUN	NN	Number=Sing	4	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Just let me catch you at it again, Master Eustache.
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	catch	catch	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+8	again	again	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	Master	master	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Eustache	Eustache	PROPN	NNP	Number=Sing	2	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Come along, you greedy fellow!”
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	along	along	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	det	_	_
+5	greedy	greedy	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellow	fellow	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

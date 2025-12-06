@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Begone, monster!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Begone	Begone	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	monster	monster	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Begone, assassin!
+1	Begone	Begone	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	assassin	assassin	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Leave me to die!
+1	Leave	leave	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	die	die	VERB	VB	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = May the blood of both of us make an eternal stain upon your brow!
+1	May	may	AUX	MD	VerbForm=Fin	8	aux	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	blood	blood	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	both	both	DET	DT	_	3	nmod	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+8	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	eternal	eternal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	stain	stain	NOUN	NN	Number=Sing	8	obj	_	_
+12	upon	upon	ADP	IN	_	14	case	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	brow	brow	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Be thine, priest!
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	cop	_	_
+2	thine	thine	NUM	CD	NumType=Card	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	priest	priest	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Never!
+1	Never	never	ADV	RB	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = never!
+1	never	never	ADV	RB	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Nothing shall unite us!
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	unite	unite	VERB	VB	VerbForm=Inf	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 9
+# text = not hell itself!
+1	not	not	PART	RB	_	2	advmod	_	_
+2	hell	hell	NOUN	NN	Number=Sing	0	root	_	_
+3	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod:npmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Go, accursed man!
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	accursed	accurse	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Never!”
+1	Never	never	ADV	RB	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

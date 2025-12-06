@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I’m not afraid in this way,’ said little Em’ly.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	afraid	afraid	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Em	em	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+14	’ly	’ly	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = ‘But I wake when it blows, and tremble to think of Uncle Dan and Ham and believe I hear ‘em crying out for help.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	wake	wake	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	tremble	tremble	ADJ	JJ	Degree=Pos	4	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	think	think	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	Uncle	uncle	NOUN	NN	Number=Sing	15	compound	_	_
+15	Dan	Dan	PROPN	NNP	Number=Sing	12	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	Ham	Ham	PROPN	NNP	Number=Sing	15	conj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	believe	believe	VERB	VB	VerbForm=Inf	12	conj	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	hear	hear	VERB	VB	VerbForm=Inf	19	ccomp	_	_
+22	‘	'	PUNCT	``	_	23	punct	_	SpaceAfter=No
+23	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	crying	cry	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+25	out	out	ADP	RP	_	24	compound:prt	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	help	help	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = That’s why I should like so much to be a lady.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	like	like	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	6	obj	_	_
+9	to	to	PART	TO	_	12	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	lady	lady	NOUN	NN	Number=Sing	6	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But I’m not afraid in this way.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Not a bit.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	bit	bit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Look here!’
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	here	here	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

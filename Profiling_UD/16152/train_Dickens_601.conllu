@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Like enough,’ he returned; ‘though there’s a sarcastic meaning in that observation for an amiable piece of innocence like my young friend.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Like	like	ADP	IN	_	3	case	_	_
+3	enough	enough	ADJ	JJ	Degree=Pos	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+10	though	though	SCONJ	IN	_	12	mark	_	_
+11	there	there	PRON	EX	_	12	expl	_	SpaceAfter=No
+12	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	sarcastic	sarcastic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	meaning	meaning	NOUN	NN	Number=Sing	12	nsubj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	observation	observation	NOUN	NN	Number=Sing	15	nmod	_	_
+19	for	for	ADP	IN	_	22	case	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	amiable	amiable	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	piece	piece	NOUN	NN	Number=Sing	15	nmod	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	innocence	innocence	NOUN	NN	Number=Sing	22	nmod	_	_
+25	like	like	ADP	IN	_	28	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	young	young	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	friend	friend	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Well!
+1	Well	well	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = I dare say I am a capricious fellow, David.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dare	dare	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	say	say	INTJ	UH	_	8	discourse	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	capricious	capricious	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	fellow	fellow	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	David	David	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I know I am; but while the iron is hot, I can strike it vigorously too.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	but	but	CCONJ	CC	_	15	cc	_	_
+7	while	while	SCONJ	IN	_	11	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	iron	iron	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	hot	hot	ADJ	JJ	Degree=Pos	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	strike	strike	VERB	VB	VerbForm=Inf	4	conj	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	vigorously	vigorously	ADV	RB	_	18	advmod	_	_
+18	too	too	ADV	RB	_	15	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I could pass a reasonably good examination already, as a pilot in these waters, I think.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	pass	pass	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	reasonably	reasonably	ADV	RB	_	6	advmod	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	examination	examination	NOUN	NN	Number=Sing	3	obj	_	_
+8	already	already	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	pilot	pilot	NOUN	NN	Number=Sing	3	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	these	these	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+15	waters	water	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+20	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’ll do him no good where he’s gone, that’s my belief,” said Solomon, with a bitterness which was remarkably genuine, though his tone could not help being sly.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	VB	VerbForm=Inf	19	ccomp	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	good	good	NOUN	NN	Number=Sing	4	obj	_	_
+8	where	where	ADV	WRB	PronType=Rel	11	advmod	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	gone	gone	ADJ	JJ	Degree=Pos	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	belief	belief	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	Solomon	Solomon	PROPN	NNP	Number=Sing	19	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	bitterness	bitterness	NOUN	NN	Number=Sing	20	nmod	_	_
+25	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+27	remarkably	remarkably	ADV	RB	_	28	advmod	_	_
+28	genuine	genuine	ADJ	JJ	Degree=Pos	24	acl:relcl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	though	though	SCONJ	IN	_	35	mark	_	_
+31	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	tone	tone	PRON	PRP	_	35	nsubj	_	_
+33	could	could	AUX	MD	VerbForm=Fin	35	aux	_	_
+34	not	not	PART	RB	_	35	advmod	_	_
+35	help	help	VERB	VB	VerbForm=Inf	28	advcl	_	_
+36	being	be	AUX	VBG	VerbForm=Ger	37	cop	_	_
+37	sly	sly	ADV	RB	_	35	ccomp	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = “Peter was a bad liver, and almshouses won’t cover it, when he’s had the impudence to show it at the last.”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Peter	Peter	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	bad	bad	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	liver	liver	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	almshouses	almshouse	NOUN	NNS	Number=Plur	12	nsubj	_	_
+10	wo	will	AUX	MD	VerbForm=Fin	12	aux	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	cover	cover	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	6	punct	_	_
+15	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	had	have	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	impudence	impudence	NOUN	NN	Number=Sing	22	nsubj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	show	show	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	at	at	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	last	last	ADJ	JJ	Degree=Pos	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

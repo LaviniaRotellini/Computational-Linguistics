@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I have found out who my patron is.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	out	out	ADP	RP	_	4	compound:prt	_	_
+6	who	who	PRON	WP	PronType=Int	9	nsubj	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	patron	patron	NOUN	NN	Number=Sing	6	nsubj	_	_
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = It is not a fortunate discovery, and is not likely ever to enrich me in reputation, station, fortune, anything.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	fortunate	fortunate	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	discovery	discovery	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	likely	likely	ADJ	JJ	Degree=Pos	6	conj	_	_
+12	ever	ever	ADV	RB	_	14	advmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	enrich	enrich	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	reputation	reputation	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	station	station	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	fortune	fortune	NUM	CD	NumType=Card	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	anything	anything	PRON	NN	Number=Sing	17	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = There are reasons why I must say no more of that.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	reasons	reason	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	why	why	ADV	WRB	PronType=Int	7	advmod	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	say	say	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	no	no	ADV	RB	_	9	advmod	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	7	ccomp	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It is not my secret, but another’s.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	secret	secret	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	another	another	DET	DT	_	9	det	_	SpaceAfter=No
+9	’s	’	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

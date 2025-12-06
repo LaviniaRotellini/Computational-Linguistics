@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But that’s what you just couldn’t, Miss Wisdom,” said Tom.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	what	what	PRON	WP	PronType=Int	15	nsubj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	just	just	ADV	RB	_	8	advmod	_	_
+8	could	could	AUX	MD	VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	n’t	n’t	PART	RB	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	Miss	miss	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Wisdom	wisdom	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Tom	Tom	PROPN	NNP	Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “For it’s all the harder when you know what goes before; for then you’ve got to say what definition 3 is, and what axiom V. is.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	For	for	X	GW	_	7	cc	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	all	all	DET	PDT	_	7	det:predet	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	harder	harder	NOUN	NN	Number=Sing	0	root	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	what	what	PRON	WP	PronType=Int	12	nsubj	_	_
+12	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+13	before	before	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	7	punct	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	then	then	ADV	RB	PronType=Dem	19	obl	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	got	get	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	say	say	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	what	what	DET	WDT	PronType=Int	23	det	_	_
+23	definition	definition	NOUN	NN	Number=Sing	21	obj	_	_
+24	3	3	NUM	CD	NumType=Card	23	nummod	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	what	what	DET	WDT	PronType=Int	30	det	_	_
+29	axiom	axiom	NOUN	NN	Number=Sing	30	compound	_	_
+30	V.	V.	PROPN	NNP	Number=Sing	31	compound	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = But get along with you now; I must go on with this.
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	along	along	ADV	RB	_	2	advmod	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obl	_	_
+6	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	go	go	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+11	on	on	ADP	IN	_	10	obl	_	_
+12	with	with	ADP	IN	_	13	case	_	_
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Here’s the Latin Grammar.
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	Latin	Latin	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Grammar	Grammar	PROPN	NNP	Number=Sing	1	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = See what you can make of that.”
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	what	what	PRON	WP	PronType=Int	5	obj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	make	make	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

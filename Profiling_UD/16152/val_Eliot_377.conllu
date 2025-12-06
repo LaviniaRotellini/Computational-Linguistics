@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, no; not me, Mr Tom,” said Bob, with an air of cheerful confidence.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	no	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	7	punct	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	Mr	Mr	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Tom	Tom	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Bob	Bob	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	air	air	NOUN	NN	Number=Sing	14	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	cheerful	cheerful	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	confidence	confidence	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “There’s no law again’ flea-bites.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	law	law	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	flea	flea	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	bites	bite	NOUN	NNS	Number=Plur	3	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = If I wasn’t to take a fool in now and then, he’d niver get any wiser.
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
+4	n’t	not	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	take	take	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	fool	fool	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	now	now	ADV	RB	_	6	obl	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	then	then	ADV	RB	PronType=Dem	15	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+15	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+16	niver	niver	PRON	WP	PronType=Int	15	obj	_	_
+17	get	get	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+18	any	any	DET	DT	_	19	det	_	_
+19	wiser	wiser	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = But, lors!
+1	But	but	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	lors	lor	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = hev a suvreign to buy you and Miss summat, on’y for a token—just to match my pocket-knife.”
+1	hev	heve	VERB	VBP	Abbr=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	suvreign	suvreign	NOUN	NN	Number=Sing	1	obj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	buy	buy	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	Miss	miss	PROPN	NNP	Number=Sing	9	compound	_	_
+9	summat	summat	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	o	of	ADV	RB	_	12	advmod	_	SpaceAfter=No
+12	n’y	n’y	ADV	RB	_	1	advmod	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	token	token	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+17	just	just	ADV	RB	_	19	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	match	match	VERB	VB	VerbForm=Inf	1	advcl	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+21	pocket	pocket	NOUN	NN	Number=Sing	23	compound	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	knife	knife	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

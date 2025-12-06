@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On this occasion, wounded pride exasperated her wrath still further.
+1	On	on	ADP	IN	_	3	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	occasion	occasion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	wounded	wounded	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	pride	pride	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	exasperated	exasperate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	wrath	wrath	NOUN	NN	Number=Sing	7	obj	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	further	further	ADV	RB	_	7	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Cosette had overstepped all bounds; Cosette had laid violent hands on the doll belonging to “these young ladies.”
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	overstepped	overstep	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	bounds	bounds	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	3	punct	_	_
+7	Cosette	Cosette	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	laid	laid	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	violent	violent	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	hands	hand	NOUN	NNS	Number=Plur	8	obj	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	doll	doll	NOUN	NN	Number=Sing	8	obl	_	_
+15	belonging	belong	VERB	VBG	VerbForm=Ger	14	acl	_	_
+16	to	to	ADP	IN	_	20	case	_	_
+17	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+18	these	these	DET	DT	Number=Plur|PronType=Dem	20	det	_	_
+19	young	young	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	ladies	lady	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = A czarina who should see a muzhik trying on her imperial son’s blue ribbon would wear no other face.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	czarina	czarina	NOUN	NN	Number=Sing	0	root	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	see	see	VERB	VB	VerbForm=Inf	2	acl:relcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	muzhik	muzhik	NOUN	NN	Number=Sing	5	obj	_	_
+8	trying	try	VERB	VBG	VerbForm=Ger	17	csubj	_	_
+9	on	on	ADP	IN	_	15	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	imperial	imperial	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	son	son	NOUN	NN	Number=Sing	15	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	blue	blue	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	ribbon	ribbon	NOUN	NN	Number=Sing	8	obl	_	_
+16	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	wear	wear	VERB	VB	VerbForm=Inf	5	advcl	_	_
+18	no	no	DET	DT	_	20	det	_	_
+19	other	other	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	face	face	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

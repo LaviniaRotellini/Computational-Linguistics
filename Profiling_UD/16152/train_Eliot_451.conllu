@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, my dear, when you have a clergyman in your family you must accommodate your tastes:
+1	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	17	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	17	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dear	dear	NOUN	NN	Number=Sing	17	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	17	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	clergyman	clergyman	NOUN	NN	Number=Sing	9	obj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	family	family	NOUN	NN	Number=Sing	11	nmod	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	must	must	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	accommodate	accommodate	VERB	VB	VerbForm=Inf	0	root	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	tastes	taste	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+20	:	:	PUNCT	:	_	17	punct	_	_
+
+# sent_id = 2
+# text = I did that very early.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	early	early	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = When I married Humphrey I made up my mind to like sermons, and I set out by liking the end very much.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+4	Humphrey	Humphrey	PROPN	NNP	Number=Sing	3	obj	_	_
+5	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	mind	mind	NOUN	NN	Number=Sing	6	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	like	like	VERB	VB	VerbForm=Inf	6	advcl	_	_
+12	sermons	sermon	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+17	out	out	ADP	RP	_	16	compound:prt	_	_
+18	by	by	SCONJ	IN	_	19	mark	_	_
+19	liking	like	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	end	end	NOUN	NN	Number=Sing	19	obj	_	_
+22	very	very	ADV	RB	_	23	advmod	_	_
+23	much	much	ADV	RB	_	19	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = That soon spread to the middle and the beginning, because I couldn’t have the end without them.”
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	soon	soon	ADV	RB	Degree=Pos	3	advmod	_	_
+3	spread	spread	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	middle	middle	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	beginning	beginning	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	because	because	SCONJ	IN	_	15	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	15	aux	_	SpaceAfter=No
+14	n’t	not	PART	RB	_	15	advmod	_	_
+15	have	have	VERB	VB	VerbForm=Inf	3	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	end	end	NOUN	NN	Number=Sing	15	obj	_	_
+18	without	without	ADP	IN	_	19	case	_	_
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “If I’d had _my_ way,” said Mrs
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	5	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’d	’d	ADV	RB	_	5	advmod	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+6	_my	_my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	SpaceAfter=No
+7	_	_	SYM	NFP	_	8	punct	_	_
+8	way	way	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Mrs	Mrs	PROPN	NNP	Number=Sing	11	nsubj	_	_
+
+# sent_id = 2
+# text = Glegg, “the children ’ud ha’ been in the room from the first.
+1	Glegg	Glegg	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	children	child	NOUN	NNS	Number=Plur	1	appos	_	_
+6	’ud	’uld	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	ha	ha	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	1	punct	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	12	cop	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	room	room	NOUN	NN	Number=Sing	0	root	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = It’s time they knew who they’ve to look to, and it’s right as _somebody_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	time	time	NOUN	NN	Number=Sing	0	root	_	_
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	who	who	PRON	WP	PronType=Int	8	obj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’ve	’ve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	look	look	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	to	to	ADP	IN	_	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	right	right	ADJ	JJ	Degree=Pos	3	conj	_	_
+17	as	as	ADP	IN	_	18	case	_	_
+18	_somebody	_somebody	PRON	NN	Number=Sing	16	obl	_	SpaceAfter=No
+19	_	_	SYM	NFP	_	3	punct	_	_
+
+# sent_id = 4
+# text = should talk to ’em, and let ’em know their condition i’ life, and what they’re come down to, and make ’em feel as they’ve got to suffer for their father’s faults.”
+1	should	should	AUX	MD	VerbForm=Fin	2	aux	_	_
+2	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	’em	’em	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	let	let	VERB	VB	VerbForm=Inf	2	conj	_	_
+8	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	know	know	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	condition	condition	NOUN	NN	Number=Sing	12	compound	_	_
+12	i	I	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	life	life	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	what	what	PRON	WP	PronType=Int	20	obj	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	’re	’re	PRON	PRP$	_	20	nsubj	_	_
+20	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+21	down	down	ADV	RB	_	20	advmod	_	_
+22	to	to	ADP	IN	_	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	make	make	VERB	VB	VerbForm=Inf	2	conj	_	_
+26	’em	’em	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+27	feel	feel	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	as	as	SCONJ	IN	_	31	mark	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	SpaceAfter=No
+30	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	got	get	VERB	VBN	Tense=Past|VerbForm=Part	27	advcl	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	suffer	suffer	VERB	VB	VerbForm=Inf	31	xcomp	_	_
+34	for	for	ADP	IN	_	38	case	_	_
+35	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	father	father	NOUN	NN	Number=Sing	38	nmod:poss	_	SpaceAfter=No
+37	’s	's	PART	POS	_	36	case	_	_
+38	faults	fault	NOUN	NNS	Number=Plur	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

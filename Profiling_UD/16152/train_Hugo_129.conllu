@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He spoke but little.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	but	but	CCONJ	CC	_	4	cc	_	_
+4	little	little	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He laughed not at all.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	2	advmod	_	_
+4	at	at	ADV	RB	_	5	case	_	_
+5	all	all	ADV	RB	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = An excessive emotion was required to wring from him, once or twice a year, that lugubrious laugh of the convict, which is like the echo of the laugh of a demon.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	excessive	excessive	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	emotion	emotion	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	wring	wr	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	from	from	ADP	IN	_	9	case	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+12	or	or	CCONJ	CC	_	13	cc	_	_
+13	twice	twice	ADV	RB	NumType=Mult	11	conj	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	year	year	NOUN	NN	Number=Sing	13	obl:npmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+18	lugubrious	lugubrious	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	laugh	laugh	NOUN	NN	Number=Sing	5	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	convict	convict	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	like	like	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	echo	echo	NOUN	NN	Number=Sing	19	acl:relcl	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	laugh	laugh	NOUN	NN	Number=Sing	28	nmod	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	demon	demon	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = To all appearance, he seemed to be occupied in the constant contemplation of something terrible.
+1	To	to	ADP	IN	_	3	case	_	_
+2	all	all	DET	DT	_	3	det	_	_
+3	appearance	appearance	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	occupied	occupy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+10	in	in	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	constant	constant	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	contemplation	contemplation	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	something	something	PRON	NN	Number=Sing	13	nmod	_	_
+16	terrible	terrible	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

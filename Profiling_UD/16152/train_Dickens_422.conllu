@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Next morning, after breakfast, I entered on school life again.
+1	Next	next	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	morning	morning	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	after	after	ADP	IN	_	5	case	_	_
+5	breakfast	breakfast	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	school	school	NOUN	NN	Number=Sing	11	compound	_	_
+11	life	life	NOUN	NN	Number=Sing	8	obl	_	_
+12	again	again	ADV	RB	_	8	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I went, accompanied by Mr. Wickfield, to the scene of my future studies--a grave building in a courtyard, with a learned air about it that seemed very well suited to the stray rooks and jackdaws who came down from the Cathedral towers to walk with a clerkly bearing on the grass-plot--and was introduced to my new master, Doctor Strong.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	accompanied	accompany	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	Mr.	Mr.	PROPN	NNP	Number=Sing	4	obl	_	_
+7	Wickfield	Wickfield	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	scene	scene	NOUN	NN	Number=Sing	2	obl	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	future	future	NOUN	NN	Number=Sing	15	compound	_	_
+15	studies	study	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+17	-	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	grave	grave	NOUN	NN	Number=Sing	20	compound	_	_
+20	building	building	NOUN	NN	Number=Sing	2	appos	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	courtyard	courtyard	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	with	with	ADP	IN	_	28	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+28	air	air	NOUN	NN	Number=Sing	2	obl	_	_
+29	about	about	ADP	IN	_	30	case	_	_
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nmod	_	_
+31	that	that	PRON	WDT	PronType=Rel	32	nsubj	_	_
+32	seemed	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+33	very	very	ADV	RB	_	35	advmod	_	_
+34	well	well	ADV	RB	Degree=Pos	35	advmod	_	_
+35	suited	suite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	xcomp	_	_
+36	to	to	ADP	IN	_	39	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+38	stray	stray	NOUN	NN	Number=Sing	39	compound	_	_
+39	rooks	rook	NOUN	NNS	Number=Plur	35	obl	_	_
+40	and	and	CCONJ	CC	_	41	cc	_	_
+41	jackdaws	jackdaw	NOUN	NNS	Number=Plur	39	conj	_	_
+42	who	who	PRON	WP	PronType=Rel	43	nsubj	_	_
+43	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
+44	down	down	ADV	RB	_	43	advmod	_	_
+45	from	from	ADP	IN	_	48	case	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+47	Cathedral	Cathedral	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	towers	towers	NOUN	NNS	Number=Plur	43	obl	_	_
+49	to	to	PART	TO	_	50	mark	_	_
+50	walk	walk	VERB	VB	VerbForm=Inf	43	advcl	_	_
+51	with	with	ADP	IN	_	53	case	_	_
+52	a	a	DET	DT	Definite=Ind|PronType=Art	53	det	_	_
+53	clerkly	clerkly	NOUN	NN	Number=Sing	50	obl	_	_
+54	bearing	bear	VERB	VBG	VerbForm=Ger	50	advcl	_	_
+55	on	on	ADP	IN	_	59	case	_	_
+56	the	the	DET	DT	Definite=Def|PronType=Art	59	det	_	_
+57	grass	grass	NOUN	NN	Number=Sing	59	compound	_	SpaceAfter=No
+58	-	-	PUNCT	HYPH	_	59	punct	_	SpaceAfter=No
+59	plot	plot	NOUN	NN	Number=Sing	54	obl	_	SpaceAfter=No
+60	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+61	and	and	CCONJ	CC	_	63	cc	_	_
+62	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	63	aux:pass	_	_
+63	introduced	introduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+64	to	to	ADP	IN	_	67	case	_	_
+65	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	67	nmod:poss	_	_
+66	new	new	ADJ	JJ	Degree=Pos	67	amod	_	_
+67	master	master	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No
+68	,	,	PUNCT	,	_	67	punct	_	_
+69	Doctor	doctor	PROPN	NNP	Number=Sing	67	appos	_	_
+70	Strong	Strong	PROPN	NNP	Number=Sing	69	flat	_	SpaceAfter=No
+71	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

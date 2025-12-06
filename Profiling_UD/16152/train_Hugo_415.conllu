@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then,” resumed Javert, “you will excuse me if I persist; it is my duty; you have not seen a certain person—a man—this evening?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Javert	Javert	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	excuse	excuse	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	if	if	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	persist	persist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	5	punct	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	duty	duty	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	5	punct	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	_
+23	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	certain	certain	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	person	person	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+29	—	-	PUNCT	,	_	28	punct	_	SpaceAfter=No
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	man	man	NOUN	NN	Number=Sing	28	appos	_	SpaceAfter=No
+32	—	-	PUNCT	,	_	31	punct	_	SpaceAfter=No
+33	this	this	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	evening	evening	NOUN	NN	Number=Sing	25	obl:tmod	_	SpaceAfter=No
+35	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He has escaped; we are in search of him—that Jean Valjean; you have not seen him?”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	escaped	escap	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	search	search	NOUN	NN	Number=Sing	3	ccomp	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+12	that	that	SCONJ	IN	_	13	case	_	_
+13	Jean	Jean	PROPN	NNP	Number=Sing	8	nmod	_	_
+14	Valjean	Valjean	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	3	punct	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+17	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All was harmonious; nothing was too much alive; speech hardly amounted to a breath; the newspapers, agreeing with the salons, seemed a papyrus.
+1	All	all	DET	DT	_	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	harmonious	harmonious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	nothing	nothing	PRON	NN	Number=Sing	9	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	too	too	ADV	RB	_	8	advmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	alive	alive	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	speech	speech	NOUN	NN	Number=Sing	9	nsubj	_	_
+12	hardly	hardly	ADV	RB	_	11	advmod	_	_
+13	amounted	amount	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	breath	breath	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	3	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	newspapers	newspaper	NOUN	NNS	Number=Plur	26	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	agreeing	agree	VERB	VBG	VerbForm=Ger	19	acl	_	_
+22	with	with	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	salons	salon	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	seemed	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	papyrus	papyrus	NOUN	NN	Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = There were some young people, but they were rather dead.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	some	some	DET	DT	_	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	but	but	CCONJ	CC	_	11	cc	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	rather	rather	ADV	RB	_	11	advmod	_	_
+11	dead	dead	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The liveries in the antechamber were antiquated.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	liveries	livery	NOUN	NNS	Number=Plur	7	nsubj:pass	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	antechamber	antechamber	NOUN	NN	Number=Sing	2	nmod	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	antiquated	antiquate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = These utterly obsolete personages were served by domestics of the same stamp.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+2	utterly	utterly	ADV	RB	_	4	advmod	_	_
+3	obsolete	obsolete	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	personages	personage	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	served	serve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	by	by	ADP	IN	_	8	case	_	_
+8	domestics	domestic	NOUN	NNS	Number=Plur	6	obl	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	same	same	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	stamp	stamp	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No, I wasn’t, sir!’ cried Bitzer.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No
+6	n’t	not	PART	RB	_	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	sir	sir	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Bitzer	Bitzer	PROPN	NNP	Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = ‘Not till she run away from me.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	3	advmod	_	_
+3	till	till	VERB	VB	VerbForm=Inf	0	root	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	run	run	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	away	away	ADV	RB	_	5	advmod	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But the horse-riders never mind what they say, sir; they’re famous for it.
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	horse	horse	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	rider	rider	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	s	's	PART	POS	_	5	case	_	_
+7	never	never	ADV	RB	_	8	advmod	_	_
+8	mind	mind	VERB	VB	VerbForm=Inf	0	root	_	_
+9	what	what	PRON	WP	PronType=Int	8	obj	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	sir	sre	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	8	punct	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+16	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+17	famous	famous	ADJ	JJ	Degree=Pos	16	xcomp	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 4
+# text = You know the horse-riders are famous for never minding what they say,’ addressing Sissy.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	horse	horse	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+6	riders	rider	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	famous	famous	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+9	for	for	SCONJ	IN	_	11	mark	_	_
+10	never	never	ADV	RB	_	11	advmod	_	_
+11	minding	mind	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	what	what	PRON	WP	PronType=Int	11	obj	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	2	punct	_	_
+17	addressing	address	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+18	Sissy	Sissy	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = ‘It’s as well known in the town as—please, sir, as the multiplication table isn’t known to the horse-riders.’
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+4	as	as	ADV	RB	_	6	advmod	_	_
+5	well	well	ADV	RB	Degree=Pos	4	fixed	_	_
+6	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	town	town	NOUN	NN	Number=Sing	6	obl	_	_
+10	as	as	ADP	IN	_	14	case	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+12	please	please	INTJ	UH	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	sir	sir	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	as	as	SCONJ	IN	_	22	mark	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	multiplication	multiplication	NOUN	NN	Number=Sing	19	compound	_	_
+19	table	table	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	SpaceAfter=No
+21	n’t	not	PART	RB	_	22	advmod	_	_
+22	known	know	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+23	to	to	ADP	IN	_	27	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	horse	horse	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	riders	rider	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 6
+# text = Bitzer tried Mr. Bounderby with this.
+1	Bitzer	Bitzer	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Bounderby	Bounderby	PROPN	NNP	Number=Sing	3	flat	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

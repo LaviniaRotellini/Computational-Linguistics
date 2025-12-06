@@ -1,0 +1,118 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Matthew will come and see me at last,” said Miss Havisham, sternly, “when I am laid on that table.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Matthew	Matthew	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	come	come	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	conj	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	last	last	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Miss	miss	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Havisham	Havisham	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	sternly	sternly	ADV	RB	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+19	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	laid	laid	ADJ	JJ	Degree=Pos	12	advcl	_	_
+23	on	on	ADP	IN	_	25	case	_	_
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	table	table	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = That will be his place,—there,” striking the table with her stick, “at my head!
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	place	place	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,—	,—	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	5	punct	_	_
+10	striking	strike	VERB	VBG	VerbForm=Ger	5	acl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	table	table	NOUN	NN	Number=Sing	10	obj	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	stick	stick	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	5	punct	_	_
+17	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+18	at	at	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	head	head	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = And yours will be there!
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	yours	yours	PRON	PRP	_	5	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	there	there	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And your husband’s there!
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	husband	husband	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = And Sarah Pocket’s there!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	Sarah	Sarah	PROPN	NNP	Number=Sing	0	root	_	_
+3	Pocket	pocket	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	’s	's	PART	POS	_	2	case	_	_
+5	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = And Georgiana’s there!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	Georgiana	Georgiana	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	’s	be	PART	POS	_	2	case	_	_
+4	there	there	ADV	RB	PronType=Dem	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Now you all know where to take your stations when you come to feast upon me.
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	all	all	DET	DT	_	2	det	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	where	where	ADV	WRB	PronType=Int	7	mark	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	take	take	VERB	VB	VerbForm=Inf	4	advcl	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	stations	stations	NOUN	NNS	Number=Plur	7	obj	_	_
+10	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	feast	feast	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	upon	upon	ADP	IN	_	16	case	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 8
+# text = And now go!”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	now	now	ADV	RB	_	3	advmod	_	_
+3	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

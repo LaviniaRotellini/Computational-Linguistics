@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poor Traddles!
+1	Poor	poor	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	Traddles	Traddle	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I knew enough of Mr. Micawber by this time, to foresee that he might be expected to recover the blow; but my night’s rest was sorely distressed by thoughts of Traddles, and of the curate’s daughter, who was one of ten, down in Devonshire, and who was such a dear girl, and who would wait for Traddles (ominous praise!) until she was sixty, or any age that could be mentioned.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	enough	enough	ADV	RB	_	2	advmod	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	Mr.	Mr.	PROPN	NNP	Number=Sing	2	obl	_	_
+6	Micawber	Micawber	PROPN	NNP	Number=Sing	5	flat	_	_
+7	by	by	ADP	IN	_	9	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	time	time	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	foresee	foresee	VERB	VB	VerbForm=Inf	2	advcl	_	_
+13	that	that	SCONJ	IN	_	17	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+15	might	might	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	recover	recover	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	blow	blow	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	;	;	PUNCT	,	_	2	punct	_	_
+23	but	but	CCONJ	CC	_	30	cc	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	night	night	NOUN	NN	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+26	’s	's	PART	POS	_	25	case	_	_
+27	rest	rest	NOUN	NN	Number=Sing	30	nsubj:pass	_	_
+28	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:pass	_	_
+29	sorely	sorely	ADV	RB	_	30	advmod	_	_
+30	distressed	distress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+31	by	by	ADP	IN	_	32	case	_	_
+32	thoughts	thought	NOUN	NNS	Number=Plur	30	obl	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	Traddles	Traddles	NOUN	NNS	Number=Plur	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	41	punct	_	_
+36	and	and	CCONJ	CC	_	41	cc	_	_
+37	of	of	ADP	IN	_	41	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	curate	curate	NOUN	NN	Number=Sing	41	nmod:poss	_	SpaceAfter=No
+40	’s	's	PART	POS	_	39	case	_	_
+41	daughter	daughter	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	2	punct	_	_
+43	who	who	PRON	WP	PronType=Rel	45	nsubj	_	_
+44	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	cop	_	_
+45	one	one	NUM	CD	NumType=Card	2	acl:relcl	_	_
+46	of	of	ADP	IN	_	47	case	_	_
+47	ten	ten	NUM	CD	NumType=Card	45	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	45	punct	_	_
+49	down	down	ADV	RB	_	45	advmod	_	_
+50	in	in	ADP	IN	_	51	case	_	_
+51	Devonshire	Devonshire	PROPN	NNP	Number=Sing	49	obl	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	59	punct	_	_
+53	and	and	CCONJ	CC	_	59	cc	_	_
+54	who	who	PRON	WP	PronType=Int	59	nsubj	_	_
+55	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	cop	_	_
+56	such	such	DET	PDT	_	59	det:predet	_	_
+57	a	a	DET	DT	Definite=Ind|PronType=Art	59	det	_	_
+58	dear	dear	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	girl	girl	NOUN	NN	Number=Sing	45	conj	_	SpaceAfter=No
+60	,	,	PUNCT	,	_	64	punct	_	_
+61	and	and	CCONJ	CC	_	64	cc	_	_
+62	who	who	PRON	WP	PronType=Int	64	nsubj	_	_
+63	would	would	AUX	MD	VerbForm=Fin	64	aux	_	_
+64	wait	wait	VERB	VB	VerbForm=Inf	45	conj	_	_
+65	for	for	ADP	IN	_	66	case	_	_
+66	Traddles	Traddles	NOUN	NNS	Number=Plur	64	obl	_	_
+67	(	(	PUNCT	-LRB-	_	68	punct	_	SpaceAfter=No
+68	ominous	ominous	ADJ	JJ	Degree=Pos	69	amod	_	_
+69	praise	praise	NOUN	NN	Number=Sing	45	nmod	_	SpaceAfter=No
+70	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+71	)	)	PUNCT	-RRB-	_	2	punct	_	_
+72	until	until	SCONJ	IN	_	75	mark	_	_
+73	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	75	nsubj	_	_
+74	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	75	cop	_	_
+75	sixty	sixty	ADJ	JJ	Degree=Pos	2	advcl	_	SpaceAfter=No
+76	,	,	PUNCT	,	_	79	punct	_	_
+77	or	or	CCONJ	CC	_	79	cc	_	_
+78	any	any	DET	DT	_	79	det	_	_
+79	age	age	NOUN	NN	Number=Sing	75	conj	_	_
+80	that	that	PRON	WDT	PronType=Rel	83	nsubj:pass	_	_
+81	could	could	AUX	MD	VerbForm=Fin	83	aux	_	_
+82	be	be	AUX	VB	VerbForm=Inf	83	aux:pass	_	_
+83	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	79	acl:relcl	_	SpaceAfter=No
+84	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

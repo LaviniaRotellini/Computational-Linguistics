@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All this fermentation was public, one might almost say tranquil.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	fermentation	fermentation	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	public	public	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	one	one	NUM	CD	NumType=Card	10	nsubj	_	_
+8	might	might	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	almost	almost	ADV	RB	_	10	advmod	_	_
+10	say	say	VERB	VB	VerbForm=Inf	5	parataxis	_	_
+11	tranquil	tranquil	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The approaching insurrection was preparing its storm calmly in the face of the government.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	approaching	approaching	NOUN	NN	Number=Sing	3	compound	_	_
+3	insurrection	insurrection	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	storm	storm	NOUN	NN	Number=Sing	5	obj	_	_
+8	calmly	calmly	ADV	RB	_	5	advmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	face	face	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	government	government	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = No singularity was lacking to this still subterranean crisis, which was already perceptible.
+1	No	no	DET	DT	_	2	det	_	_
+2	singularity	singularity	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	lacking	lack	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obl	_	_
+7	still	still	ADV	RB	_	8	advmod	_	_
+8	subterranean	subterranean	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	crisis	crisis	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	already	already	ADV	RB	_	14	advmod	_	_
+14	perceptible	perceptible	ADJ	JJ	Degree=Pos	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = The bourgeois talked peaceably to the working-classes of what was in preparation.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bourgeois	bourgeois	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	talked	talked	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	peaceably	peaceably	ADV	RB	_	3	advmod	_	_
+5	to	to	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	working	work	NOUN	NN	Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	_	SpaceAfter=No
+9	classes	class	NOUN	NNS	Number=Plur	3	obl	_	_
+10	of	of	SCONJ	IN	_	11	case	_	_
+11	what	what	PRON	WP	PronType=Int	9	nmod	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	preparation	preparation	NOUN	NN	Number=Sing	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = They said: “How is the rising coming along?” in the same tone in which they would have said: “How is your wife?”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	How	how	ADV	WRB	PronType=Int	9	advmod	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rising	rising	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	coming	come	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+10	along	along	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	_
+13	in	in	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	same	same	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	tone	tone	NOUN	NN	Number=Sing	2	obl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	which	which	PRON	WDT	PronType=Rel	22	obl	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	said	say	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+23	:	:	PUNCT	:	_	2	punct	_	_
+24	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+25	How	how	ADV	WRB	PronType=Int	2	ccomp	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+27	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	wife	wife	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+29	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

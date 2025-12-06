@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Why, madam, you’ve never been in bed this blessed night,” burst out Tantripp, looking first at the bed and then at Dorothea’s face, which in spite of bathing had the pale cheeks and pink eyelids of a mater dolorosa.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	madam	madam	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	SpaceAfter=No
+7	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	never	never	ADV	RB	_	11	advmod	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	bed	be	NOUN	NN	Number=Sing	0	root	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+13	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	14	amod	_	_
+14	night	night	NOUN	NN	Number=Sing	11	obl:tmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	11	punct	_	_
+17	burst	burst	NOUN	NN	Number=Sing	19	compound	_	_
+18	out	out	ADP	IN	_	17	case	_	_
+19	Tantripp	Tantripp	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	_
+21	looking	look	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+22	first	first	ADV	RB	_	21	advmod	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	bed	bed	NOUN	NN	Number=Sing	21	obl	_	_
+26	and	and	CCONJ	CC	_	31	cc	_	_
+27	then	then	ADV	RB	PronType=Dem	31	cc	_	_
+28	at	at	ADP	IN	_	31	case	_	_
+29	Dorothea	Dorothea	PROPN	NNP	Number=Sing	31	nmod:poss	_	SpaceAfter=No
+30	’s	's	PART	POS	_	29	case	_	_
+31	face	face	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	11	punct	_	_
+33	which	which	PRON	WDT	PronType=Rel	38	nsubj	_	_
+34	in	in	ADP	IN	_	35	case	_	_
+35	spite	spite	NOUN	NN	Number=Sing	38	obl	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	bathing	bathing	PRON	NN	Number=Sing	35	nmod	_	_
+38	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+40	pale	pale	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	cheeks	cheeks	NOUN	NNS	Number=Plur	38	obj	_	_
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	pink	pink	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	eyelids	eyelids	NOUN	NNS	Number=Plur	41	conj	_	_
+45	of	of	ADP	IN	_	48	case	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	48	det	_	_
+47	mater	mater	NOUN	NN	Number=Sing	48	compound	_	_
+48	dolorosa	dolorosa	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “You’ll kill yourself, you _will_.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	kill	kill	VERB	VB	VerbForm=Inf	0	root	_	_
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	_will	_will	AUX	MD	VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+9	_	_	SYM	NFP	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Anybody might think now you had a right to give yourself a little comfort.”
+1	Anybody	anybody	PRON	NN	Number=Sing	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	now	now	ADV	RB	_	3	advmod	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	right	right	NOUN	NN	Number=Sing	10	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	give	give	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+11	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	10	iobj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	little	little	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	comfort	comfort	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

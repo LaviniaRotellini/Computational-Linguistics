@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Now, good people all,’ said he, ‘this is wanton waste of time.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	people	people	NOUN	NNS	Number=Plur	9	nsubj	_	_
+6	all	all	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	wanton	wanton	ADP	IN	_	16	case	_	_
+16	waste	waste	NOUN	NN	Number=Sing	9	ccomp	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	time	time	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Let the girl understand the fact.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	girl	girl	NOUN	NN	Number=Sing	1	obj	_	_
+4	understand	understand	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fact	fact	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Let her take it from me, if you like, who have been run away from, myself.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	take	take	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	who	who	PRON	WP	PronType=Rel	15	nsubj:pass	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+15	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
+16	away	away	ADV	RB	_	15	advmod	_	_
+17	from	from	ADP	IN	_	19	case	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Here, what’s your name!
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	4	nsubj	_	SpaceAfter=No
+4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	name	name	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Your father has absconded—deserted you—and you mustn’t expect to see him again as long as you live.’
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	absconded	abscond	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	deserted	desert	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+11	must	must	AUX	MD	VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	expect	expect	VERB	VB	VerbForm=Inf	4	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	see	see	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	again	again	ADV	RB	_	15	advmod	_	_
+18	as	as	ADV	RB	_	19	advmod	_	_
+19	long	long	ADV	RB	Degree=Pos	15	advmod	_	_
+20	as	as	SCONJ	IN	_	22	mark	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	_
+22	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

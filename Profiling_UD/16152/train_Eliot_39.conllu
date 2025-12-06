@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Your power of forming an opinion.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	power	power	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	SCONJ	IN	_	5	mark	_	_
+5	forming	form	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	opinion	opinion	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I can form an opinion of persons.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	form	form	VERB	VB	VerbForm=Inf	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	opinion	opinion	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	persons	person	NOUN	NNS	Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I know when I like people.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	when	when	ADV	WRB	PronType=Int	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	people	people	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But about other matters, do you know, I have often a difficulty in deciding.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	about	about	ADP	IN	_	4	case	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	matters	matter	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	often	often	ADV	RB	_	14	advmod	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	difficulty	difficulty	NOUN	NN	Number=Sing	11	obj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	deciding	deciding	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = One hears very sensible things said on opposite sides.”
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	hears	hear	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	sensible	sensible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	things	thing	NOUN	NNS	Number=Plur	2	appos	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	opposite	opposite	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	sides	side	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Janet looked a little surprised to see me lying stiffly on the sofa (I was afraid to move lest it should be displeasing to my aunt), but went on her errand.
+1	Janet	Janet	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	obl:npmod	_	_
+5	surprised	surprised	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	see	see	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	lying	lie	VERB	VBG	VerbForm=Ger	7	xcomp	_	_
+10	stiffly	stifinitely	ADV	RB	_	9	advmod	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sofa	sofa	NOUN	NN	Number=Sing	9	obl	_	_
+14	(	(	PUNCT	-LRB-	_	17	punct	_	SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	afraid	afraid	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	move	move	VERB	VB	VerbForm=Inf	24	advcl	_	_
+20	lest	lest	ADV	RBS	Degree=Sup	24	advmod	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	should	should	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	aux	_	_
+24	displeasing	displease	VERB	VBG	Tense=Pres|VerbForm=Part	17	parataxis	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	aunt	aunt	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	17	punct	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	but	but	CCONJ	CC	_	31	cc	_	_
+31	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+32	on	on	ADP	IN	_	34	case	_	_
+33	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	errand	errand	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = My aunt, with her hands behind her, walked up and down the room, until the gentleman who had squinted at me from the upper window came in laughing.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	hands	hand	NOUN	NNS	Number=Plur	2	nmod	_	_
+7	behind	behind	ADP	IN	_	8	case	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	walked	walk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	up	up	ADP	RP	_	10	compound:prt	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	down	down	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	room	room	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	until	until	SCONJ	IN	_	29	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	gentleman	gentleman	NOUN	NN	Number=Sing	29	nsubj	_	_
+20	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	squinted	squint	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obl	_	_
+25	from	from	ADP	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	upper	upper	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	window	window	NOUN	NN	Number=Sing	22	obl	_	_
+29	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+30	in	in	ADV	RB	_	29	advmod	_	_
+31	laughing	laughing	VERB	VBG	VerbForm=Ger	29	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

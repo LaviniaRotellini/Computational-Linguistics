@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am sure you are right,’ she returned; ‘and so it is that bad habits grow upon one!
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	right	right	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	4	punct	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	so	so	ADV	RB	_	17	advmod	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	that	that	SCONJ	IN	_	21	mark	_	_
+19	bad	bad	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	habits	habit	NOUN	NNS	Number=Plur	21	nsubj	_	_
+21	grow	grow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	upon	upon	ADP	IN	_	23	case	_	_
+23	one	one	NUM	CD	NumType=Card	21	obl	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Really?
+1	Really	really	ADV	RB	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Less guarded and more trustful?
+1	Less	less	PROPN	NNP	Number=Sing	2	compound	_	_
+2	guarded	guard	VERB	VBD	Mood=Ind|Tense=Past|Typo=Yes|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	trustful	trustful	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = How can I, imperceptibly, have changed, I wonder!
+1	How	how	ADV	WRB	PronType=Int	8	advmod	_	_
+2	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	imperceptibly	imperceptibly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 5
+# text = Well, that’s very odd!
+1	Well	well	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	odd	odd	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = I must study to regain my former self.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	study	study	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	regain	regain	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	former	former	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	self	self	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

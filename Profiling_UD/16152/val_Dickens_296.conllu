@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Just stop a moment,’ said Mr. Bounderby, excessively red in the face.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Just	just	ADV	RB	_	3	advmod	_	_
+3	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	8	ccomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	moment	moment	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	Bounderby	Bounderby	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	excessively	excessively	ADV	RB	_	13	advmod	_	_
+13	red	red	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	face	face	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘I told you, the last time you were here with a grievance, that you had better turn about and come out of that.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	time	time	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	here	here	ADV	RB	PronType=Dem	8	acl:relcl	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	grievance	grievance	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	_
+16	that	that	SCONJ	IN	_	18	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+19	better	better	ADJ	JJR	Degree=Cmp	20	amod	_	_
+20	turn	turn	NOUN	NN	Number=Sing	18	obj	_	_
+21	about	about	ADV	RB	_	18	advmod	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	come	come	VERB	VB	VerbForm=Inf	18	conj	_	_
+24	out	out	ADV	RB	_	23	advmod	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And I also told you, if you remember, that I was up to the gold spoon look-out.’
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	that	that	SCONJ	IN	_	19	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+14	up	up	ADP	IN	_	19	case	_	_
+15	to	to	ADP	IN	_	14	fixed	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+17	gold	gold	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	spoon	spoon	NOUN	NN	Number=Sing	19	compound	_	_
+19	look	look	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	out	out	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+23	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

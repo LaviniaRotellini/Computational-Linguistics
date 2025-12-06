@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The first act of business
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	act	act	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	business	business	NOUN	NN	Number=Sing	3	nmod	_	_
+
+# sent_id = 2
+# text = Miss Murdstone performed when the day of the solemnity was over, and light was freely admitted into the house, was to give Peggotty a month’s warning.
+1	Miss	miss	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Murdstone	Murdstone	PROPN	NNP	Number=Sing	1	flat	_	_
+3	performed	perform	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	day	day	NOUN	NN	Number=Sing	11	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	solemnity	solemnity	NOUN	NN	Number=Sing	6	nmod	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	over	over	ADV	RB	_	3	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	light	light	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	freely	freely	ADV	RB	_	17	advmod	_	_
+17	admitted	admit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+18	into	into	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	house	house	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	give	give	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	Peggotty	Peggotty	PROPN	NNP	Number=Sing	24	iobj	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	month	month	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	’s	's	PART	POS	_	27	case	_	_
+29	warning	warning	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Much as Peggotty would have disliked such a service, I believe she would have retained it, for my sake, in preference to the best upon earth.
+1	Much	much	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+2	as	as	ADP	IN	_	3	case	_	_
+3	Peggotty	Peggotty	PROPN	NNP	Number=Sing	1	obl	_	_
+4	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	disliked	dislike	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	_
+7	such	such	DET	PDT	_	9	det:predet	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	service	service	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	have	have	AUX	VB	VerbForm=Inf	16	aux	_	_
+16	retained	retain	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	sake	sake	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	12	punct	_	_
+23	in	in	ADP	IN	_	24	case	_	_
+24	preference	preference	NOUN	NN	Number=Sing	12	obl	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	best	best	ADJ	JJS	Degree=Sup	24	nmod	_	_
+28	upon	upon	ADP	IN	_	29	case	_	_
+29	earth	earth	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = She told me we must part, and told me why; and we condoled with one another, in all sincerity.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	part	part	NOUN	NN	Number=Sing	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	why	why	ADV	WRB	PronType=Int	9	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	condoled	condol	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	one	one	NUM	CD	NumType=Card	18	nummod	_	_
+18	another	another	DET	DT	_	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	all	all	DET	DT	_	22	det	_	_
+22	sincerity	sincerity	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

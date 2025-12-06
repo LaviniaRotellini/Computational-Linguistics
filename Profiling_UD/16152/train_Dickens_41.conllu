@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And my dear boy,’ cried my mother, coming to the elbow-chair in which I was, and caressing me, ‘my own little Davy!
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	8	cc	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	boy	boy	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	mother	mother	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	coming	come	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	to	to	ADP	IN	_	17	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	elbow	elbow	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	chair	chair	NOUN	NN	Number=Sing	12	obl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	which	which	PRON	WDT	PronType=Rel	21	obl	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	caressing	caresse	VERB	VBG	VerbForm=Ger	8	conj	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	_	_
+27	‘	'	PUNCT	``	_	31	punct	_	SpaceAfter=No
+28	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+29	own	own	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	little	little	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	Davy	Davy	PROPN	NNP	Number=Sing	8	conj	_	SpaceAfter=No
+32	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Is it to be hinted to me that I am wanting in affection for my precious treasure, the dearest little fellow that ever was!’
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	hinted	hint	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	wanting	want	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	affection	affection	NOUN	NN	Number=Sing	11	obl	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	precious	precious	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	treasure	treasure	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+20	dearest	dearest	ADJ	JJS	Degree=Sup	22	amod	_	_
+21	little	little	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	fellow	fellow	NOUN	NN	Number=Sing	11	obj	_	_
+23	that	that	PRON	WDT	PronType=Rel	25	nsubj	_	_
+24	ever	ever	ADV	RB	_	25	advmod	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

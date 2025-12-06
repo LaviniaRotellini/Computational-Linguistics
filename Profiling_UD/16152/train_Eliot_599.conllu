@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Two letters of the nine had been for Mary.
+1	Two	two	NUM	CD	NumType=Card	2	nummod	_	_
+2	letters	letter	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	nine	nine	NUM	CD	NumType=Card	2	nmod	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	cop	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	Mary	Mary	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = After reading them, she had passed them to her mother, and sat playing with her tea-spoon absently, till with a sudden recollection she returned to her sewing, which she had kept on her lap during breakfast.
+1	After	after	SCONJ	IN	_	2	mark	_	_
+2	reading	read	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	mother	mother	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+15	playing	play	VERB	VBG	VerbForm=Ger	14	xcomp	_	_
+16	with	with	ADP	IN	_	20	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+18	tea	tea	NOUN	NN	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	spoon	spoon	NOUN	NN	Number=Sing	15	obl	_	_
+21	absently	absently	ADV	RB	_	15	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	14	punct	_	_
+23	till	till	SCONJ	IN	_	29	mark	_	_
+24	with	with	ADP	IN	_	27	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	sudden	sudden	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	recollection	recollection	NOUN	NN	Number=Sing	29	obl	_	_
+28	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+32	sewing	sew	VERB	VBG	VerbForm=Ger	29	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	7	punct	_	_
+34	which	which	PRON	WDT	PronType=Int	37	obj	_	_
+35	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+36	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	aux	_	_
+37	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	_
+38	on	on	ADP	IN	_	40	case	_	_
+39	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+40	lap	lap	NOUN	NN	Number=Sing	37	obl	_	_
+41	during	during	ADP	IN	_	42	case	_	_
+42	breakfast	breakfast	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

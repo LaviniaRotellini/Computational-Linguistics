@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Littimer was there, and had his usual effect upon me.
+1	Littimer	Littimer	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	there	there	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	usual	usual	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	effect	effect	NOUN	NN	Number=Sing	6	obj	_	_
+10	upon	upon	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = When I said to him that I hoped Mrs. Steerforth and Miss Dartle were well, he answered respectfully (and of course respectably), that they were tolerably well, he thanked me, and had sent their compliments.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	hoped	hope	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	obj	_	_
+10	Steerforth	Steerforth	PROPN	NNP	Number=Sing	9	flat	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	Miss	miss	PROPN	NNP	Number=Sing	9	conj	_	_
+13	Dartle	Dartle	PROPN	NNP	Number=Sing	12	flat	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	well	well	ADV	RB	Degree=Pos	3	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	respectfully	respectfully	ADV	RB	_	18	advmod	_	_
+20	(	(	PUNCT	-LRB-	_	24	punct	_	SpaceAfter=No
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	of	of	ADV	RB	_	24	advmod	_	_
+23	course	course	ADV	RB	_	22	fixed	_	_
+24	respectably	respectably	ADV	RB	_	18	advmod	_	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	18	punct	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	18	punct	_	_
+27	that	that	SCONJ	IN	_	31	mark	_	_
+28	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
+29	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	cop	_	_
+30	tolerably	tolerably	ADV	RB	_	31	advmod	_	_
+31	well	well	ADV	RB	Degree=Pos	34	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	thanked	thank	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	_
+35	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obj	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	and	and	CCONJ	CC	_	39	cc	_	_
+38	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux	_	_
+39	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	34	conj	_	_
+40	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+41	compliments	compliment	NOUN	NNS	Number=Plur	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = This was all, and yet he seemed to me to say as plainly as a man could say: ‘You are very young, sir; you are exceedingly young.’
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	all	all	ADV	RB	_	8	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	yet	yet	ADV	RB	_	8	advmod	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	ccomp	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	say	say	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+13	as	as	ADV	RB	_	14	advmod	_	_
+14	plainly	plainly	ADV	RB	_	12	advmod	_	_
+15	as	as	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	14	obl	_	_
+18	could	could	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	:	:	PUNCT	:	_	19	punct	_	_
+21	‘	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+22	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	_
+23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	very	very	ADV	RB	_	25	advmod	_	_
+25	young	young	ADJ	JJ	Degree=Pos	27	amod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	sir	sir	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	19	punct	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	_
+30	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	exceedingly	exceedingly	ADV	RB	_	32	advmod	_	_
+32	young	young	ADJ	JJ	Degree=Pos	19	ccomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	19	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	19	punct	_	SpacesAfter=\n
+

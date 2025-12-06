@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “An accomplished woman almost always knows more than we men, though her knowledge is of a different sort.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	An	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	accomplished	accomplish	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+4	woman	woman	NOUN	NN	Number=Sing	7	nsubj	_	_
+5	almost	almost	ADV	RB	_	6	advmod	_	_
+6	always	always	ADV	RB	_	7	advmod	_	_
+7	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	more	more	ADJ	JJR	Degree=Cmp	7	obj	_	_
+9	than	than	SCONJ	IN	_	11	mark	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+11	men	man	NOUN	NNS	Number=Plur	8	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	though	though	SCONJ	IN	_	20	mark	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	knowledge	knowledge	NOUN	NN	Number=Sing	20	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	different	different	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	sort	sort	NOUN	NN	Number=Sing	7	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I am sure you could teach me a thousand things—as an exquisite bird could teach a bear if there were any common language between them.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	teach	teach	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	thousand	thousand	NUM	CD	NumType=Card	10	nummod	_	_
+10	things	thing	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+12	as	as	ADP	IN	_	15	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	exquisite	exquisite	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	bird	bird	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	teach	teach	VERB	VB	VerbForm=Inf	3	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	bear	bear	NOUN	NN	Number=Sing	17	obj	_	_
+20	if	if	SCONJ	IN	_	22	mark	_	_
+21	there	there	PRON	EX	_	22	expl	_	_
+22	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+23	any	any	DET	DT	_	25	det	_	_
+24	common	common	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	language	language	NOUN	NN	Number=Sing	22	nsubj	_	_
+26	between	between	ADP	IN	_	27	case	_	_
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Happily, there is a common language between women and men, and so the bears can get taught.”
+1	Happily	happily	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	common	common	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	language	language	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	between	between	ADP	IN	_	9	case	_	_
+9	women	woman	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	men	man	NOUN	NNS	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	so	so	ADV	RB	_	19	advmod	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	bears	bear	NOUN	NNS	Number=Plur	19	nsubj:pass	_	_
+17	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	get	get	AUX	VB	VerbForm=Inf	19	aux:pass	_	_
+19	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

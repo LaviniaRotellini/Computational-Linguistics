@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, good heavens!” exclaimed Agnès; “those poor nurses yonder in the foundling asylum, which forms the lower end of the lane as you go to the river, just beside Monseigneur the bishop!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	heavens	heaven	NOUN	NNS	Number=Plur	8	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	_
+8	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Agnès	Agnès	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	8	punct	_	_
+11	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+12	those	those	DET	DT	Number=Plur|PronType=Dem	15	det	_	_
+13	poor	poor	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	nurses	nurse	NOUN	NNS	Number=Plur	15	compound	_	_
+15	yonder	yonder	NOUN	NN	Number=Sing	19	obj	_	_
+16	in	in	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	foundling	foundling	VERB	VBG	VerbForm=Ger	19	amod	_	_
+19	asylum	asylum	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+22	forms	form	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	lower	lower	ADJ	JJR	Degree=Cmp	25	amod	_	_
+25	end	end	NOUN	NN	Number=Sing	22	obj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	lane	lane	NOUN	NN	Number=Sing	25	nmod	_	_
+29	as	as	SCONJ	IN	_	31	mark	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+32	to	to	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	river	river	NOUN	NN	Number=Sing	31	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	8	punct	_	_
+36	just	just	ADV	RB	_	38	advmod	_	_
+37	beside	beside	ADV	RB	_	38	advmod	_	_
+38	Monseigneur	Monseigneur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	bishop	bishop	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+41	!	!	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = what if this little monster were to be carried to them to suckle?
+1	what	what	PRON	WP	PronType=Int	14	nsubj	_	_
+2	if	if	SCONJ	IN	_	6	mark	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	monster	monster	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+10	to	to	SCONJ	IN	_	13	mark	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	suckle	suckle	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	0	root	_	_
+
+# sent_id = 3
+# text = I’d rather give suck to a vampire.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	rather	rather	ADV	RB	_	4	case	_	_
+4	give	give	NOUN	NN	Number=Sing	2	obl	_	_
+5	suck	suck	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	vampire	vampire	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

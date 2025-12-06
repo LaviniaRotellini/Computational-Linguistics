@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’s all right, dear boy!” said Provis coming forward, with his little clasped black book, and then addressing himself to Herbert.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	all	all	ADV	RB	_	5	advmod	_	_
+5	right	right	ADJ	JJ	Degree=Pos	8	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	dear	dear	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	boy	boy	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Provis	Provis	PROPN	NNPS	Number=Plur	13	nsubj	_	_
+13	coming	come	VERB	VBG	VerbForm=Ger	11	ccomp	_	_
+14	forward	forward	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	little	little	ADV	RB	Degree=Pos	19	obl	_	_
+19	clasped	clasped	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	_
+20	black	black	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	book	book	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	25	punct	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	then	then	ADV	RB	PronType=Dem	25	advmod	_	_
+25	addressing	address	VERB	VBG	VerbForm=Ger	11	conj	_	_
+26	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	Herbert	Herbert	PROPN	NNP	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “Take it in your right hand.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	right	right	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hand	hand	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lord strike you dead on the spot, if ever you split in any way sumever!
+1	Lord	Lord	PROPN	NNP	Number=Sing	2	compound	_	_
+2	strike	strike	NOUN	NN	Number=Sing	0	root	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	dead	dead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	spot	spot	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	if	if	SCONJ	IN	_	12	mark	_	_
+10	ever	ever	ADV	WRB	PronType=Int	12	advmod	_	_
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	split	split	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	any	any	DET	DT	_	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	16	obl	_	_
+16	sumever	sumever	ADV	RB	_	12	advmod	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Kiss it!”
+1	Kiss	kiss	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

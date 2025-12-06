@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The President transmitted the order to an usher, and, a moment later, the door of the witnesses’ room opened.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	President	President	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	transmitted	transmit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	order	order	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	usher	usher	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	23	punct	_	_
+10	and	and	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	23	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	moment	moment	NOUN	NN	Number=Sing	14	obl:npmod	_	_
+14	later	later	ADV	RBR	Degree=Cmp	23	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	23	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	door	door	NOUN	NN	Number=Sing	23	nsubj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	witnesses	witness	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+21	’	's	PART	POS	_	22	case	_	_
+22	room	room	NOUN	NN	Number=Sing	20	nmod	_	_
+23	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The usher, accompanied by a gendarme ready to lend him armed assistance, introduced the convict Brevet.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	usher	usher	NOUN	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	accompanied	accompany	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	gendarme	gendarme	NOUN	NN	Number=Sing	4	obl	_	_
+8	ready	ready	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	lend	lend	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+12	armed	armed	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	assistance	assistance	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	introduced	introduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	convict	convict	NOUN	NN	Number=Sing	18	compound	_	_
+18	Brevet	Brevet	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = The audience was in suspense; and all breasts heaved as though they had contained but one soul.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	audience	audience	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	suspense	suspense	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	5	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	all	all	DET	DT	_	9	det	_	_
+9	breasts	breast	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	heaved	heav	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	as	as	SCONJ	IN	_	15	mark	_	_
+12	though	though	SCONJ	IN	_	15	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	contained	contain	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	_
+16	but	but	CCONJ	CC	_	18	cc	_	_
+17	one	one	NUM	CD	NumType=Card	18	nummod	_	_
+18	soul	soul	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

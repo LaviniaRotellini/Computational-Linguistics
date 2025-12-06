@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Micawber closed this handsome tribute by saying, ‘Mr.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Micawber	Micawber	PROPN	NNP	Number=Sing	1	flat	_	_
+3	closed	close	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	handsome	handsome	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	tribute	tribute	NOUN	NN	Number=Sing	3	obj	_	_
+7	by	by	SCONJ	IN	_	8	mark	_	_
+8	saying	say	VERB	VBG	VerbForm=Ger	3	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	Mr	Mr	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Heep!
+1	Heep	Heep	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Good evening.
+1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	evening	evening	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mrs. Heep!
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Heep	Heep	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Your servant,’ and then walking out with me in his most fashionable manner, making a good deal of noise on the pavement with his shoes, and humming a tune as we went.
+1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	servant	servant	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	then	then	ADV	RB	PronType=Dem	7	advmod	_	_
+7	walking	walk	VERB	VBG	VerbForm=Ger	2	conj	_	_
+8	out	out	ADV	RB	_	7	advmod	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+11	in	in	ADP	IN	_	15	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+13	most	most	ADJ	JJS	Degree=Sup	15	amod	_	_
+14	fashionable	fashionable	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	manner	manner	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	making	make	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	deal	deal	NOUN	NN	Number=Sing	17	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	noise	noise	NOUN	NN	Number=Sing	20	nmod	_	_
+23	on	on	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	pavement	pavement	NOUN	NN	Number=Sing	22	nmod	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	shoes	shoe	NOUN	NNS	Number=Plur	17	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	31	punct	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	humming	hum	VERB	VBG	Tense=Pres|VerbForm=Part	17	conj	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	tune	tune	NOUN	NN	Number=Sing	31	obj	_	_
+34	as	as	SCONJ	IN	_	36	mark	_	_
+35	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	36	nsubj	_	_
+36	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	advcl	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

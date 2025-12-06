@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I know you do,” said the stranger; “I knew you would.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	stranger	stranger	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	8	punct	_	_
+12	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	14	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I told you so.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	_
+4	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But now I’ll ask you a question.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	now	now	ADV	RB	_	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	question	question	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Do you know, or do you not know, that the law of England supposes every man to be innocent, until he is proved—proved—to be guilty?”
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	or	or	CCONJ	CC	_	9	cc	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	know	know	VERB	VB	VerbForm=Inf	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	that	that	SCONJ	IN	_	16	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	law	law	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	England	England	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	supposes	suppose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+17	every	every	DET	DT	_	18	det	_	_
+18	man	man	NOUN	NN	Number=Sing	16	obj	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+21	innocent	innocent	ADJ	JJ	Degree=Pos	16	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	16	punct	_	_
+23	until	until	SCONJ	IN	_	26	mark	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	SpaceAfter=No
+27	—	-	PUNCT	,	_	28	punct	_	SpaceAfter=No
+28	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part	26	xcomp	_	SpaceAfter=No
+29	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+30	to	to	PART	TO	_	32	mark	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+32	guilty	guilty	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+33	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

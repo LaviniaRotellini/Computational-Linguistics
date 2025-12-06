@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘A proud fool!’ said my aunt.
+1	‘A	‘a	ADP	IN	_	3	case	_	_
+2	proud	proud	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	fool	fool	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	aunt	aunt	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘Because his brother was a little eccentric--though he is not half so eccentric as a good many people--he didn’t like to have him visible about his house, and sent him away to some private asylum-place: though he had been left to his particular care by their deceased father, who thought him almost a natural.
+1	‘	'	PUNCT	``	_	26	punct	_	SpaceAfter=No
+2	Because	because	SCONJ	IN	_	8	mark	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	brother	brother	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	obl:npmod	_	_
+8	eccentric	eccentric	ADJ	JJ	Degree=Pos	22	amod	_	SpaceAfter=No
+9	--	--	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	though	though	SCONJ	IN	_	14	mark	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	half	half	ADJ	JJ	Degree=Pos	8	advcl	_	_
+15	so	so	ADV	RB	_	16	advmod	_	_
+16	eccentric	eccentric	ADJ	JJ	Degree=Pos	14	amod	_	_
+17	as	as	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	good	good	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	many	many	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	people	people	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+22	--	--	PUNCT	,	_	26	punct	_	SpaceAfter=No
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+24	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	have	have	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	visible	visible	ADJ	JJ	Degree=Pos	28	xcomp	_	_
+31	about	about	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	house	house	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	26	conj	_	_
+37	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+38	away	away	ADV	RB	_	36	advmod	_	_
+39	to	to	ADP	IN	_	44	case	_	_
+40	some	some	DET	DT	_	44	det	_	_
+41	private	private	ADJ	JJ	Degree=Pos	44	amod	_	_
+42	asylum	asylum	NOUN	NN	Number=Sing	44	compound	_	SpaceAfter=No
+43	-	-	PUNCT	HYPH	_	44	punct	_	SpaceAfter=No
+44	place	place	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+45	:	:	PUNCT	:	_	26	punct	_	_
+46	though	though	SCONJ	IN	_	50	mark	_	_
+47	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nsubj:pass	_	_
+48	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	50	aux	_	_
+49	been	be	AUX	VBN	Tense=Past|VerbForm=Part	50	aux:pass	_	_
+50	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	advcl	_	_
+51	to	to	ADP	IN	_	53	case	_	_
+52	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
+53	particular	particular	ADJ	JJ	Degree=Pos	50	obl	_	_
+54	care	care	NOUN	NN	Number=Sing	53	obj	_	_
+55	by	by	ADP	IN	_	58	case	_	_
+56	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	58	nmod:poss	_	_
+57	deceased	decease	ADJ	JJ	Degree=Pos	58	amod	_	_
+58	father	father	NOUN	NN	Number=Sing	50	obl	_	SpaceAfter=No
+59	,	,	PUNCT	,	_	58	punct	_	_
+60	who	who	PRON	WP	PronType=Rel	61	nsubj	_	_
+61	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	58	acl:relcl	_	_
+62	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	61	obj	_	_
+63	almost	almost	ADV	RB	_	65	advmod	_	_
+64	a	a	DET	DT	Definite=Ind|PronType=Art	65	det	_	_
+65	natural	natural	ADJ	JJ	Degree=Pos	61	xcomp	_	SpaceAfter=No
+66	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = 3
+# text = And a wise man he must have been to think so!
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	wise	wise	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	man	man	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+6	must	must	AUX	MD	VerbForm=Fin	10	aux	_	_
+7	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+11	so	so	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = Mad himself, no doubt.’
+1	Mad	mad	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	doubt	doubt	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear,’ said Mr. Micawber, ‘if you will mention to Copperfield what our present position is, which I have no doubt he will like to know, I will go and look at the paper the while, and see whether anything turns up among the advertisements.’
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	dear	dear	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	Micawber	Micawber	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+11	if	if	SCONJ	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	mention	mention	VERB	VB	VerbForm=Inf	6	advcl	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	Copperfield	Copperfield	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	what	what	PRON	WP	PronType=Int	21	obj	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	present	present	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	position	position	NOUN	NN	Number=Sing	21	nsubj	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	16	punct	_	_
+23	which	which	PRON	WDT	PronType=Int	25	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+26	no	no	DET	DT	_	27	det	_	_
+27	doubt	doubt	NOUN	NN	Number=Sing	25	obj	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+29	will	will	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	like	like	VERB	VB	VerbForm=Inf	27	acl:relcl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	know	know	VERB	VB	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	36	punct	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+35	will	will	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	go	go	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	look	look	VERB	VB	VerbForm=Inf	36	conj	_	_
+39	at	at	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	paper	paper	NOUN	NN	Number=Sing	38	obl	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	while	while	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	38	conj	_	_
+47	whether	whether	SCONJ	IN	_	49	mark	_	_
+48	anything	anything	PRON	NN	Number=Sing	49	nsubj	_	_
+49	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	ccomp	_	_
+50	up	up	ADP	RP	_	49	compound:prt	_	_
+51	among	among	ADP	IN	_	53	case	_	_
+52	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+53	advertisements	advertisement	NOUN	NNS	Number=Plur	49	obl	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+55	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

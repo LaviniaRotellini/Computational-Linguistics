@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He extended his arm toward the City.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	arm	arm	NOUN	NN	Number=Sing	2	obj	_	_
+5	toward	toward	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	City	City	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The search seemed, in fact, to be still in progress there.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	search	search	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	fact	fact	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	to	to	PART	TO	_	12	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	still	still	ADV	RB	_	12	advmod	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	progress	progress	NOUN	NN	Number=Sing	3	xcomp	_	_
+13	there	there	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The uproar drew nearer; the tower of the lieutenant’s house, situated opposite the Grève, was full of clamors and light, and soldiers could be seen running on the opposite quay with torches and these cries,
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	uproar	uproar	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	drew	drew	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	nearer	nearer	ADV	RBR	Degree=Cmp	14	advmod	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	tower	tower	NOUN	NN	Number=Sing	4	appos	_	_
+8	of	of	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	lieutenant	lieutenant	NOUN	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	house	house	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	situated	situate	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+15	opposite	opposite	SCONJ	IN	_	20	mark	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Grève	Grève	PROPN	NNP	Number=Sing	20	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	full	full	ADJ	JJ	Degree=Pos	14	advcl	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	clamors	clamor	NOUN	NNS	Number=Plur	20	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	light	light	NOUN	NN	Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	30	punct	_	_
+26	and	and	CCONJ	CC	_	30	cc	_	_
+27	soldiers	soldier	NOUN	NNS	Number=Plur	30	nsubj:pass	_	_
+28	could	could	AUX	MD	VerbForm=Fin	30	aux	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	aux:pass	_	_
+30	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+31	running	run	VERB	VBG	VerbForm=Ger	30	xcomp	_	_
+32	on	on	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	opposite	opposite	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	quay	quay	NOUN	NN	Number=Sing	31	obl	_	_
+36	with	with	ADP	IN	_	37	case	_	_
+37	torches	torch	NOUN	NNS	Number=Plur	31	obl	_	_
+38	and	and	CCONJ	CC	_	40	cc	_	_
+39	these	these	DET	DT	Number=Plur|PronType=Dem	40	det	_	_
+40	cries	cry	NOUN	NNS	Number=Plur	37	conj	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	14	punct	_	_
+
+# sent_id = 4
+# text = “The gypsy!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	gypsy	gypsy	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Where is the gypsy!
+1	Where	where	ADV	WRB	PronType=Int	0	root	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	gypsy	gypsy	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Death!
+1	Death	death	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Death!”
+1	Death	death	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

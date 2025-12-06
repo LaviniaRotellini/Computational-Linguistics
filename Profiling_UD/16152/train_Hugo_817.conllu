@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius remained only forty-eight hours at Vernon.
+1	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	forty	forty	NUM	CD	NumType=Card	7	nummod	_	SpaceAfter=No
+5	-	-	SYM	SYM	_	6	case	_	SpaceAfter=No
+6	eight	eight	NUM	CD	NumType=Card	4	nmod	_	_
+7	hours	hour	NOUN	NNS	Number=Plur	2	obj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	Vernon	Vernon	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = After the interment he returned to Paris, and applied himself again to his law studies, with no more thought of his father than if the latter had never lived.
+1	After	after	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	interment	interment	NOUN	NN	Number=Sing	5	obl	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	Paris	Paris	PROPN	NNP	Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	again	again	ADV	RB	_	10	advmod	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	law	law	NOUN	NN	Number=Sing	16	compound	_	_
+16	studies	study	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	10	punct	_	_
+18	with	with	ADP	IN	_	21	case	_	_
+19	no	no	DET	DT	_	21	det	_	_
+20	more	more	ADJ	JJR	Degree=Cmp	21	amod	_	_
+21	thought	thought	NOUN	NN	Number=Sing	10	obl	_	_
+22	of	of	ADP	IN	_	24	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	father	father	NOUN	NN	Number=Sing	21	nmod	_	_
+25	than	than	SCONJ	IN	_	31	mark	_	_
+26	if	if	SCONJ	IN	_	31	mark	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	latter	latter	ADJ	JJ	Degree=Pos	31	nsubj	_	_
+29	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	31	aux	_	_
+30	never	never	ADV	RB	_	31	advmod	_	_
+31	lived	liv	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = In two days the colonel was buried, and in three forgotten.
+1	In	in	ADP	IN	_	3	case	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	days	day	NOUN	NNS	Number=Plur	7	obl	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	colonel	colonel	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	three	three	NUM	CD	NumType=Card	12	nummod	_	_
+12	forgotten	forgotten	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

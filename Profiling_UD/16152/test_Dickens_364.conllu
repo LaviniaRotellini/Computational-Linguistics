@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Massive?” repeated Wemmick.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Massive	massive	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	Wemmick	Wemmick	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = “I think so.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = And his watch is a gold repeater, and worth a hundred pound if it’s worth a penny.
+1	And	and	CCONJ	CC	_	7	cc	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	watch	watch	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	gold	gold	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	repeater	repeater	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	worth	worth	ADJ	JJ	Degree=Pos	7	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	hundred	hundr	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	pound	pound	NOUN	NN	Number=Sing	10	obj	_	_
+14	if	if	SCONJ	IN	_	17	mark	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	worth	worth	ADJ	JJ	Degree=Pos	10	advcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	penny	penny	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Mr. Pip, there are about seven hundred thieves in this town who know all about that watch; there’s not a man, a woman, or a child, among them, who wouldn’t identify the smallest link in that chain, and drop it as if it was red hot, if inveigled into touching it.”
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Pip	Pip	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	about	about	ADV	RB	_	7	advmod	_	_
+7	seven	seven	NUM	CD	NumType=Card	8	nummod	_	_
+8	hundred	hundred	NUM	CD	NumType=Card	9	nummod	_	_
+9	thieves	thief	NOUN	NNS	Number=Plur	5	nsubj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	town	town	NOUN	NN	Number=Sing	9	nmod	_	_
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15	all	all	ADV	RB	_	18	advmod	_	_
+16	about	about	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	watch	watch	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	5	punct	_	_
+20	there	there	PRON	EX	_	21	expl	_	SpaceAfter=No
+21	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+22	not	not	PART	RB	_	24	advmod	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	man	man	NOUN	NN	Number=Sing	21	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+27	woman	woman	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	or	or	CCONJ	CC	_	31	cc	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	child	child	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	21	punct	_	_
+33	among	among	ADP	IN	_	34	case	_	_
+34	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	21	punct	_	_
+36	who	who	PRON	WP	PronType=Rel	39	nsubj	_	_
+37	would	would	AUX	MD	VerbForm=Fin	39	aux	_	SpaceAfter=No
+38	n’t	not	PART	RB	_	39	advmod	_	_
+39	identify	identify	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+41	smallest	smallest	ADJ	JJS	Degree=Sup	42	amod	_	_
+42	link	link	NOUN	NN	Number=Sing	39	obj	_	_
+43	in	in	ADP	IN	_	45	case	_	_
+44	that	that	DET	DT	Number=Sing|PronType=Dem	45	det	_	_
+45	chain	chain	NOUN	NN	Number=Sing	39	obl	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	48	punct	_	_
+47	and	and	CCONJ	CC	_	48	cc	_	_
+48	drop	drop	VERB	VB	VerbForm=Inf	39	conj	_	_
+49	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	48	obj	_	_
+50	as	as	SCONJ	IN	_	54	mark	_	_
+51	if	if	SCONJ	IN	_	54	mark	_	_
+52	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	54	nsubj:pass	_	_
+53	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	54	aux:pass	_	_
+54	red	red	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	48	advcl	_	_
+55	hot	hot	ADJ	JJ	Degree=Pos	54	xcomp	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	39	punct	_	_
+57	if	if	SCONJ	IN	_	58	mark	_	_
+58	inveigled	inveigle	VERB	VBN	Tense=Past|VerbForm=Part	39	advcl	_	_
+59	into	into	SCONJ	IN	_	60	mark	_	_
+60	touching	touch	VERB	VBG	VerbForm=Ger	58	advcl	_	_
+61	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	60	obj	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+63	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Bounderby!’
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Bounderby	Bounderby	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = she cried, in a suppressed voice, starting up from the table.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	cried	cry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	suppressed	suppress	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	voice	voice	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	starting	start	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	from	from	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	table	table	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘Oh hide me!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	3	discourse	_	_
+3	hide	hide	VERB	VB	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Don’t let me be seen for the world.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	world	world	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Don’t let him come up till I’ve got away.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	come	come	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	up	up	ADV	RB	_	5	advmod	_	_
+7	till	till	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	got	get	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	_
+11	away	away	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Pray, pray!’
+1	Pray	pray	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	pray	pray	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 7
+# text = She trembled, and was excessively agitated; getting behind Rachael, when Rachael tried to reassure her; and not seeming to know what she was about.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	trembled	tremble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+6	excessively	excessively	ADV	RB	_	7	advmod	_	_
+7	agitated	agitate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	getting	get	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	behind	behind	ADP	IN	_	11	case	_	_
+11	Rachael	Rachael	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	Rachael	Rachael	PROPN	NNP	Number=Sing	15	nsubj	_	_
+15	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	reassure	reassure	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	2	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	not	not	ADV	RB	_	22	advmod	_	_
+22	seeming	seem	VERB	VBG	VerbForm=Ger	2	conj	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	know	know	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	what	what	PRON	WP	PronType=Int	28	obj	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	about	about	ADV	RB	_	24	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

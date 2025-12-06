@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The street was full of shadows.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	street	street	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	full	full	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	shadows	shadow	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Nevertheless, a twist of tow soaked in oil, which burned in a cage at the feet of the Holy Virgin at the street corner, permitted Gringoire to make out the gypsy struggling in the arms of two men, who were endeavoring to stifle her cries.
+1	Nevertheless	nevertheless	ADV	RB	_	28	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	28	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	twist	twist	NOUN	NN	Number=Sing	28	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	tow	tow	NOUN	NN	Number=Sing	4	nmod	_	_
+7	soaked	soak	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	oil	oil	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	12	nsubj	_	_
+12	burned	burn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	cage	cage	NOUN	NN	Number=Sing	12	obl	_	_
+16	at	at	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	feet	foot	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	Holy	holy	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Virgin	Virgin	PROPN	NNP	Number=Sing	18	nmod	_	_
+23	at	at	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	street	street	NOUN	NN	Number=Sing	26	compound	_	_
+26	corner	corner	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	permitted	permit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	49	nsubj	_	_
+29	Gringoire	Gringoire	PROPN	NNP	Number=Sing	28	obj	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	make	make	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+32	out	out	ADP	RP	_	31	compound:prt	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	gypsy	gypsy	NOUN	NN	Number=Sing	31	obj	_	_
+35	struggling	struggle	VERB	VBG	VerbForm=Ger	34	acl	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	arms	arm	NOUN	NNS	Number=Plur	35	obl	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	two	two	NUM	CD	NumType=Card	41	nummod	_	_
+41	men	man	NOUN	NNS	Number=Plur	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	,	_	41	punct	_	_
+43	who	who	PRON	WP	PronType=Rel	45	nsubj	_	_
+44	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	aux	_	_
+45	endeavoring	endeavor	VERB	VBG	Tense=Pres|VerbForm=Part	41	acl:relcl	_	_
+46	to	to	PART	TO	_	47	mark	_	_
+47	stifle	stifle	VERB	VB	VerbForm=Inf	45	xcomp	_	_
+48	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
+49	cries	cry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	49	punct	_	_
+
+# sent_id = 3
+# text = The poor little goat, in great alarm, lowered his horns and bleated.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	poor	poor	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	goat	goat	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	great	great	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	alarm	alarm	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	lowered	lowere	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	horns	horn	NOUN	NNS	Number=Plur	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	bleated	bleate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m not sure where she’d be i’ that big town,” said Seth.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	sure	sure	ADJ	JJ	Degree=Pos	17	ccomp	_	_
+6	where	where	ADV	WRB	PronType=Int	8	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+9	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	10	punct	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+13	big	big	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	town	town	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Seth	Seth	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “If I’d gone myself, I could ha’ found out by asking the members o’ the Society.
+1	“	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	gone	go	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	ha	ha	INTJ	UH	_	12	discourse	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	out	out	ADP	RP	_	12	compound:prt	_	_
+14	by	by	SCONJ	IN	_	15	mark	_	_
+15	asking	ask	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	members	member	NOUN	NNS	Number=Plur	15	obj	_	_
+18	o	of	ADP	IN	Abbr=Yes	21	case	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	21	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	Society	Society	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = But perhaps if I put Sarah Williamson, Methodist preacher, Leeds, o’ th’ outside, it might get to her; for most like she’d be wi’ Sarah Williamson.”
+1	But	but	CCONJ	CC	_	10	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+3	if	if	SCONJ	IN	_	5	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+6	Sarah	Sarah	PROPN	NNP	Number=Sing	5	obj	_	_
+7	Williamson	Williamson	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	Methodist	Methodist	PROPN	NNP	Number=Sing	10	compound	_	_
+10	preacher	preacher	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	Leeds	Leeds	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	o	of	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	16	punct	_	_
+16	th	th	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+17	’	'	PUNCT	''	_	10	punct	_	_
+18	outside	outside	ADV	RB	_	10	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	might	might	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	;	;	PUNCT	,	_	22	punct	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	most	most	ADJ	JJS	Degree=Sup	30	obl	_	_
+28	like	like	ADP	IN	_	30	case	_	_
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	SpaceAfter=No
+30	’d	’d	NOUN	NN	Number=Sing	32	obl	_	_
+31	be	be	AUX	VB	VerbForm=Inf	32	cop	_	_
+32	wi	wi	ADJ	JJ	Degree=Pos	22	parataxis	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	22	punct	_	_
+34	Sarah	Sarah	PROPN	NNP	Number=Sing	22	obj	_	_
+35	Williamson	Williamson	PROPN	NNP	Number=Sing	34	flat	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	22	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	22	punct	_	SpacesAfter=\n
+

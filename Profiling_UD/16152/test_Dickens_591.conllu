@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Dear boy,” he returned, “there’s disguising wigs can be bought for money, and there’s hair powder, and spectacles, and black clothes,—shorts and what not.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Dear	dear	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	boy	boy	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+10	there	there	PRON	EX	_	11	expl	_	SpaceAfter=No
+11	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+12	disguising	disguising	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	wigs	wig	NOUN	NNS	Number=Plur	11	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	money	money	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	there	there	PRON	EX	_	22	expl	_	SpaceAfter=No
+22	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+23	hair	hair	NOUN	NN	Number=Sing	24	compound	_	_
+24	powder	powder	NOUN	NN	Number=Sing	22	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	27	punct	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	spectacles	spectacle	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	black	black	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	clothes	clothes	NOUN	NNS	Number=Plur	32	conj	_	SpaceAfter=No
+32	,—	,—	PUNCT	.	_	33	punct	_	SpaceAfter=No
+33	shorts	shorts	NOUN	NNS	Number=Plur	7	conj	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	what	what	PRON	WP	PronType=Int	7	conj	_	_
+36	not	not	PART	RB	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Others has done it safe afore, and what others has done afore, others can do agen.
+1	Others	other	PRON	PRP	_	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	safe	safe	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	afore	afore	ADJ	JJ	Degree=Pos	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	what	what	PRON	WP	PronType=Int	12	obj	_	_
+10	others	other	NOUN	NNS	Number=Plur	12	nsubj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+13	afore	afore	ADJ	JJ	Degree=Pos	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	others	other	NOUN	NNS	Number=Plur	17	nsubj	_	_
+16	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	do	do	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+18	agen	age	ADV	RB	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = As to the where and how of living, dear boy, give me your own opinions on it.”
+1	As	as	ADP	IN	_	4	case	_	_
+2	to	to	ADP	IN	_	1	fixed	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	where	where	NOUN	NN	Number=Sing	13	obl	_	_
+5	and	and	CCONJ	CC	_	11	cc	_	_
+6	how	how	ADV	WRB	PronType=Int	11	advmod	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	living	living	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	dear	dear	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	boy	boy	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	opinions	opinion	NOUN	NNS	Number=Plur	13	obj	_	_
+18	on	on	ADP	IN	_	19	case	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+21	”	"	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

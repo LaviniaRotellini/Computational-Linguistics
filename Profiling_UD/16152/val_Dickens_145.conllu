@@ -1,0 +1,114 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I ha’ coom,’ Stephen began, raising his eyes from the floor, after a moment’s consideration, ‘to ask yo yor advice.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	ha	ha	PROPN	NNP	Number=Sing	2	nmod	_	SpaceAfter=No
+4	’	’	PART	POS	_	3	case	_	_
+5	coom	coom	NOUN	NN	Number=Sing	3	flat	_	SpaceAfter=No
+6	,’	,’	PUNCT	.	_	3	punct	_	_
+7	Stephen	Stephen	PROPN	NNP	Number=Sing	3	flat	_	_
+8	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	raising	raise	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	eyes	eye	NOUN	NNS	Number=Plur	10	obj	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	floor	floor	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	after	after	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	moment	moment	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+20	’s	's	PART	POS	_	19	case	_	_
+21	consideration	consideration	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	8	punct	_	_
+23	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+24	to	to	PART	TO	_	25	mark	_	_
+25	ask	ask	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+26	yo	yo	ADP	IN	_	28	case	_	_
+27	yor	yor	PRON	PRP$	_	28	nmod:poss	_	_
+28	advice	advice	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I need ’t overmuch.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	’t	ot	PART	RB	_	4	mark	_	_
+4	overmuch	overmuch	ADJ	JJ	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I were married on Eas’r Monday nineteen year sin, long and dree.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	Eas’r	Eas’r	PROPN	NNP	Number=Sing	3	obl	_	_
+6	Monday	Monday	PROPN	NNP	Number=Sing	8	compound	_	_
+7	nineteen	nineteen	NUM	CD	NumType=Card	6	nummod	_	_
+8	year	year	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+9	sin	sin	ADV	RB	_	3	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	long	long	ADJ	JJ	Degree=Pos	3	conj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	dree	dree	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = She were a young lass—pretty enow—wi’ good accounts of herseln.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	lass	lass	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	pretty	pretty	ADV	RB	_	8	advmod	_	_
+8	enow	enow	ADV	RB	_	10	advmod	_	SpaceAfter=No
+9	—	-	PUNCT	,	_	10	punct	_	SpaceAfter=No
+10	wi	wi	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+11	’	'	PART	POS	_	13	case	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	accounts	account	NOUN	NNS	Number=Plur	5	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	herseln	herseln	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Well!
+1	Well	well	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = She went bad—soon.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bad	bad	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+5	soon	soon	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Not along of me.
+1	Not	not	PART	RB	_	0	root	_	_
+2	along	along	ADP	IN	_	4	case	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Gonnows I were not a unkind husband to her.’
+1	Gonnows	Gonnow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	unkind	unkind	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+7	husband	husband	NOUN	NN	Number=Sing	1	ccomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+11	’	’	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

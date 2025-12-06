@@ -1,0 +1,104 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I am not too proud to believe it, Louisa.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	too	too	ADV	RB	_	6	advmod	_	_
+6	proud	proud	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	believe	believe	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	Louisa	Louisa	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = How could I be arrogant, and you before me!
+1	How	how	ADV	WRB	PronType=Int	5	advmod	_	_
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	arrogant	arrogant	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	conj	_	_
+9	before	before	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Can it be so?
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	be	be	AUX	VB	VerbForm=Inf	0	root	_	_
+4	so	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Is it so, my dear?’
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	so	so	ADV	RB	_	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	dear	dear	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 5
+# text = He looked upon her once more, lying cast away there; and without another word went out of the room.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	upon	upon	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	once	once	ADV	RB	NumType=Mult	6	advmod	_	_
+6	more	more	ADV	RBR	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	lying	lie	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+9	cast	cast	ADV	RB	Degree=Pos	11	advmod	_	_
+10	away	away	ADV	RB	_	11	advmod	_	_
+11	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	without	without	ADP	IN	_	16	case	_	_
+15	another	another	DET	DT	_	16	det	_	_
+16	word	word	NOUN	NN	Number=Sing	17	obl	_	_
+17	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	out	out	ADP	IN	_	21	case	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	room	room	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = He had not been long gone, when she heard a light tread near the door, and knew that some one stood beside her.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	long	long	ADV	RB	Degree=Pos	6	advmod	_	_
+6	gone	gone	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	when	when	ADV	WRB	PronType=Int	10	mark	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	light	light	NOUN	NN	Number=Sing	10	obj	_	_
+13	tread	tread	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	near	near	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	door	door	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+20	that	that	SCONJ	IN	_	23	mark	_	_
+21	some	some	DET	DT	_	23	det	_	_
+22	one	one	NUM	CD	NumType=Card	23	nummod	_	_
+23	stood	stand	NOUN	NN	Number=Sing	19	ccomp	_	_
+24	beside	beside	ADP	IN	_	25	case	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

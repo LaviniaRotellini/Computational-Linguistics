@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, sir, yes,” said Mrs Tulliver, beginning to feel alarmed at her own courage, now she was really in presence of the formidable man, and reflecting that she had not settled with herself how she should begin.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	yes	yes	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs	Mrs	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Tulliver	Tulliver	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	beginning	begin	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	feel	feel	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	alarmed	alarmed	VERB	VBN	Tense=Past|VerbForm=Part	15	xcomp	_	_
+17	at	at	ADP	IN	_	20	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	own	own	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	courage	courage	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	27	punct	_	_
+22	now	now	ADV	RB	_	27	advmod	_	_
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
+25	really	really	ADV	RB	_	27	advmod	_	_
+26	in	in	ADP	IN	_	27	case	_	_
+27	presence	presence	NOUN	NN	Number=Sing	9	conj	_	_
+28	of	of	ADP	IN	_	31	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	formidable	formidable	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	man	man	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	reflecting	reflect	VERB	VBG	VerbForm=Ger	9	conj	_	_
+35	that	that	SCONJ	IN	_	39	mark	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+37	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux	_	_
+38	not	not	PART	RB	_	39	advmod	_	_
+39	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part	34	ccomp	_	_
+40	with	with	ADP	IN	_	41	case	_	_
+41	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	39	obl	_	_
+42	how	how	ADV	WRB	PronType=Int	45	advmod	_	_
+43	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	_
+44	should	should	AUX	MD	VerbForm=Fin	45	aux	_	_
+45	begin	begin	VERB	VB	VerbForm=Inf	39	advcl	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Mr
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Wakem felt in his waistcoat pockets, and looked at her in silence.
+1	Wakem	thWakey	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	waistcoat	waistcoat	NOUN	NN	Number=Sing	6	compound	_	_
+6	pockets	pocket	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	silence	silence	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

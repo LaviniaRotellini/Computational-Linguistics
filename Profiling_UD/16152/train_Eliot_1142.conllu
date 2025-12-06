@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Surely now at last you have given up the idea of staying in Middlemarch.
+1	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Surely	surely	ADV	RB	_	3	advmod	_	_
+3	now	now	ADV	RB	_	8	advmod	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	last	last	ADJ	JJ	Degree=Pos	8	obl	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	idea	idea	NOUN	NN	Number=Sing	8	obj	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	staying	stay	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I cannot go on living here.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	not	not	PART	RB	_	4	advmod	_	_
+4	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+5	on	on	SCONJ	IN	_	6	mark	_	_
+6	living	living	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	here	here	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Let us go to London.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	go	go	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	London	London	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Papa, and every one else, says you had better go.
+1	Papa	Papa	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	one	one	NUM	CD	NumType=Card	1	conj	_	_
+6	else	else	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+11	better	better	ADJ	JJR	Degree=Cmp	12	amod	_	_
+12	go	go	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Whatever misery I have to put up with, it will be easier away from here.”
+1	Whatever	whatever	DET	WDT	PronType=Int	2	det	_	_
+2	misery	misery	NOUN	NN	Number=Sing	4	obj	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	put	put	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	with	with	ADP	IN	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	easier	easier	ADJ	JJR	Degree=Cmp	4	parataxis	_	_
+14	away	away	ADV	RB	_	13	advmod	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	here	here	ADV	RB	PronType=Dem	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

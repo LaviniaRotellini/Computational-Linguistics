@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘To the hangman,’ I returned.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	To	to	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	hangman	hangman	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘The most unlikely person I could think of,’--though his own face had suggested the allusion quite as a natural sequence.
+1	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	unlikely	unlikely	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	person	person	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	think	think	VERB	VB	VerbForm=Inf	5	acl:relcl	_	_
+9	of	of	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	,’--	,’--	PUNCT	.	_	16	punct	_	SpaceAfter=No
+11	though	though	ADV	RB	_	16	advmod	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	own	own	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	face	face	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	suggested	suggest	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	allusion	allusion	NOUN	NN	Number=Sing	16	obj	_	_
+19	quite	quite	ADV	RB	_	23	advmod	_	_
+20	as	as	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	natural	natural	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	sequence	sequence	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 3
+# text = ‘I am engaged to another young lady.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	another	another	DET	DT	_	8	det	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	lady	lady	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = I hope that contents you.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	contents	content	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes,” said Lydgate, feeling that here he had found room for the full meaning of his grief.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Lydgate	Lydgate	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	feeling	feel	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+9	that	that	SCONJ	IN	_	13	mark	_	_
+10	here	here	ADV	RB	PronType=Dem	13	advmod	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	found	find	VERB	VBN	Tense=Past|VerbForm=Part	8	ccomp	_	_
+14	room	room	NOUN	NN	Number=Sing	13	obj	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	full	full	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	meaning	meaning	NOUN	NN	Number=Sing	14	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	grief	grief	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “I had some ambition.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	ambition	ambition	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I meant everything to be different with me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	everything	everything	PRON	NN	Number=Sing	2	obj	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+6	different	different	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I thought I had more strength and mastery.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	strength	strength	NOUN	NN	Number=Sing	4	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	mastery	mastery	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = But the most terrible obstacles are such as nobody can see except oneself.”
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	terrible	terrible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	obstacles	obstacle	NOUN	NNS	Number=Plur	7	nsubj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	such	such	ADJ	JJ	Degree=Pos	0	root	_	_
+8	as	as	SCONJ	IN	_	11	mark	_	_
+9	nobody	nobody	PRON	NN	Number=Sing	11	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	see	see	VERB	VB	VerbForm=Inf	7	advcl	_	_
+12	except	except	ADP	IN	_	13	case	_	_
+13	oneself	oneself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

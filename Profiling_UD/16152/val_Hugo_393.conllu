@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = His eyes became more accustomed to the place.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	more	more	ADV	RBR	_	5	advmod	_	_
+5	accustomed	accustom	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	place	place	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = His vision became clearer and clearer.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	vision	vision	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	clearer	clearer	ADJ	JJR	Degree=Cmp	3	xcomp	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	clearer	clearer	ADJ	JJR	Degree=Cmp	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He was astonished.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	astonished	astonish	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He found himself again in that extraordinary palace of shadows; saw again before his eyes that vaulted roof, those columns, those purple and blood-like stains, that vegetation rich with gems, and at the farther end, that crypt or sanctuary, and that altar-like stone.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	again	again	ADV	RB	_	2	advmod	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	palace	palace	NOUN	NN	Number=Sing	2	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	shadows	shadows	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	2	punct	_	_
+12	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	again	again	ADV	RB	_	12	advmod	_	_
+14	before	before	ADP	IN	_	16	case	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	eyes	eye	NOUN	NNS	Number=Plur	12	obl	_	_
+17	that	that	PRON	WDT	PronType=Rel	18	nsubj	_	_
+18	vaulted	vault	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	roof	roof	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	12	punct	_	_
+21	those	those	DET	DT	Number=Plur|PronType=Dem	22	det	_	_
+22	columns	column	NOUN	NNS	Number=Plur	12	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	12	punct	_	_
+24	those	those	DET	DT	Number=Plur|PronType=Dem	25	det	_	_
+25	purple	purple	NOUN	NNS	Number=Plur	12	obj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	blood	blood	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+29	like	like	ADP	IN	_	30	case	_	_
+30	stains	stains	NOUN	NNS	Number=Plur	34	obl	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	_	_
+32	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+33	vegetation	vegetation	NOUN	NN	Number=Sing	34	nsubj	_	_
+34	rich	rich	ADJ	JJ	Degree=Pos	12	parataxis	_	_
+35	with	with	ADP	IN	_	36	case	_	_
+36	gems	gem	NOUN	NNS	Number=Plur	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	42	punct	_	_
+38	and	and	CCONJ	CC	_	42	cc	_	_
+39	at	at	ADP	IN	_	42	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+41	farther	farther	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	end	end	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	45	punct	_	_
+44	that	that	DET	DT	Number=Sing|PronType=Dem	45	det	_	_
+45	crypt	crypt	NOUN	NN	Number=Sing	42	appos	_	_
+46	or	or	CCONJ	CC	_	47	cc	_	_
+47	sanctuary	sanctuary	NOUN	NN	Number=Sing	45	conj	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	54	punct	_	_
+49	and	and	CCONJ	CC	_	54	cc	_	_
+50	that	that	SCONJ	IN	_	54	mark	_	_
+51	altar	altar	NOUN	NN	Number=Sing	53	obl:npmod	_	SpaceAfter=No
+52	-	-	PUNCT	HYPH	_	53	punct	_	SpaceAfter=No
+53	like	like	ADJ	JJ	Degree=Pos	54	amod	_	_
+54	stone	stone	NOUN	NN	Number=Sing	45	conj	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = He took little notice of these details, but their impression was in his mind, and he saw that the place was unchanged.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	little	little	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	notice	notice	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	these	these	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	details	detail	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	_	_
+9	but	but	CCONJ	CC	_	15	cc	_	_
+10	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	impression	impression	NOUN	NN	Number=Sing	15	nsubj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	mind	mind	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	that	that	SCONJ	IN	_	24	mark	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	place	place	NOUN	NN	Number=Sing	24	nsubj	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	unchanged	unchanged	ADJ	JJ	Degree=Pos	19	ccomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

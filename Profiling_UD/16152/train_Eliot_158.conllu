@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “The doctors can’t master that cough, brother.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	doctors	doctor	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	ca	can	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	master	master	VERB	VB	VerbForm=Inf	0	root	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	cough	cough	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	brother	brother	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = It’s just like what I have; for I’m your own sister, constitution and everything.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	just	just	ADV	RB	_	2	advmod	_	_
+4	like	like	SCONJ	IN	_	5	case	_	_
+5	what	what	PRON	WP	PronType=Int	2	obl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	for	for	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+11	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	own	own	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	sister	sister	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	constitution	constitution	NOUN	NN	Number=Sing	14	conj	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	everything	everything	PRON	NN	Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But, as I was saying, it’s a pity Mrs. Vincy’s family can’t be better conducted.”
+1	But	but	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	11	punct	_	_
+3	as	as	SCONJ	IN	_	6	mark	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	11	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	pity	pity	NOUN	NN	Number=Sing	0	root	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	15	nmod:poss	_	_
+13	Vincy	Vincy	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	’s	's	PART	POS	_	12	case	_	_
+15	family	family	NOUN	NN	Number=Sing	20	nsubj:pass	_	_
+16	ca	can	AUX	MD	VerbForm=Fin	20	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	20	advmod	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+19	better	better	ADV	RBR	Degree=Cmp	20	advmod	_	_
+20	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He was so obliging as to suggest my father for your tutor, and he called on my father to propose it.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	RB	_	5	advmod	_	_
+5	obliging	obliging	ADJ	JJ	Degree=Pos	0	root	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	suggest	suggest	VERB	VB	VerbForm=Inf	5	advcl	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	father	father	NOUN	NN	Number=Sing	8	obj	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	tutor	tutor	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	father	father	NOUN	NN	Number=Sing	17	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	propose	propose	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Of course he knew about my father from his connection with Miss Havisham.
+1	Of	of	ADV	RB	_	4	advmod	_	_
+2	course	course	ADV	RB	_	1	fixed	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	father	father	NOUN	NN	Number=Sing	4	obl	_	_
+8	from	from	ADP	IN	_	10	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	connection	connection	NOUN	NN	Number=Sing	7	nmod	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	Miss	miss	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Havisham	Havisham	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = My father is Miss Havisham’s cousin; not that that implies familiar intercourse between them, for he is a bad courtier and will not propitiate her.”
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Havisham	Havisham	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+6	’s	's	PART	POS	_	5	case	_	_
+7	cousin	cousin	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	not	not	PART	RB	_	12	advmod	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	_
+12	implies	imply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+13	familiar	familiar	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	intercourse	intercourse	NOUN	NN	Number=Sing	12	obj	_	_
+15	between	between	ADP	IN	_	16	case	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	for	for	SCONJ	IN	_	23	mark	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	bad	bad	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	courtier	courtier	NOUN	NN	Number=Sing	12	advcl	_	_
+24	and	and	CCONJ	CC	_	27	cc	_	_
+25	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	not	not	PART	RB	_	27	advmod	_	_
+27	propitiate	propitiate	VERB	VB	VerbForm=Inf	23	conj	_	_
+28	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

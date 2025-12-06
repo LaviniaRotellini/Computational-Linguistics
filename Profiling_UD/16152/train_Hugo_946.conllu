@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = There were five missives, five histories, five signatures, and a single signer.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	five	five	NUM	CD	NumType=Card	4	nummod	_	_
+4	missives	missive	NOUN	NNS	Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	five	five	NUM	CD	NumType=Card	7	nummod	_	_
+7	histories	histories	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	five	five	NUM	CD	NumType=Card	10	nummod	_	_
+10	signatures	signature	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	single	single	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	signer	signer	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The Spanish Captain Don Alvarès, the unhappy Mistress Balizard, the dramatic poet Genflot, the old comedian Fabantou, were all four named Jondrette, if, indeed, Jondrette himself were named Jondrette.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Spanish	spanish	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	Captain	captain	PROPN	NNP	Number=Sing	24	nsubj	_	_
+4	Don	Don	PROPN	NNP	Number=Sing	3	flat	_	_
+5	Alvarès	Alvarès	PROPN	NNPS	Number=Plur	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	unhappy	unhappy	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	Mistress	Mistress	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Balizard	Balizard	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	dramatic	dramatic	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	poet	poet	NOUN	NN	Number=Sing	15	compound	_	_
+15	Genflot	Genflot	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	old	old	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	comedian	comedian	NOUN	NN	Number=Sing	20	compound	_	_
+20	Fabantou	Fabantou	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	_
+23	all	all	ADV	RB	_	24	advmod	_	_
+24	four	four	NUM	CD	NumType=Card	0	root	_	_
+25	named	name	VERB	VBN	Tense=Past|VerbForm=Part	24	acl	_	_
+26	Jondrette	Jondrette	PROPN	NNP	Number=Sing	25	xcomp	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	35	punct	_	_
+28	if	if	SCONJ	IN	_	35	mark	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	35	punct	_	_
+30	indeed	indeed	ADV	RB	_	35	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	35	punct	_	_
+32	Jondrette	Jondrette	PROPN	NNP	Number=Sing	33	compound	_	_
+33	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	35	nsubj:pass	_	_
+34	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux:pass	_	_
+35	named	name	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	_	_
+36	Jondrette	Jondrette	PROPN	NNP	Number=Sing	35	xcomp	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	24	punct	_	SpacesAfter=\n
+

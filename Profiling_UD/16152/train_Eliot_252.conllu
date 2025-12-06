@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dr. Sprague said at once bluntly to the group assembled when he entered, “I go for Farebrother.
+1	Dr.	Dr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Sprague	Sprague	PROPN	NNP	Number=Sing	1	flat	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	once	once	ADV	RB	NumType=Mult	3	obl	_	_
+6	bluntly	bluntly	ADV	RB	_	5	advmod	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	group	group	NOUN	NN	Number=Sing	6	obl	_	_
+10	assembled	assemble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+11	when	when	ADV	WRB	PronType=Int	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	Farebrother	Farebrother	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = A salary, with all my heart.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	salary	salary	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	SCONJ	IN	_	7	mark	_	_
+5	all	all	DET	PDT	_	7	det:predet	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	heart	heart	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But why take it from the Vicar?
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	why	why	ADV	WRB	PronType=Int	3	advmod	_	_
+3	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Vicar	Vicar	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = He has none too much—has to insure his life, besides keeping house, and doing a vicar’s charities.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	none	none	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	3	obj	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	insure	insure	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	life	life	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	besides	besides	SCONJ	IN	_	14	mark	_	_
+14	keeping	keep	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+15	house	house	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	doing	do	VERB	VBG	VerbForm=Ger	14	conj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	vicar	vicar	NOUN	NN	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+21	’s	's	PART	POS	_	20	case	_	_
+22	charities	charity	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Put forty pounds in his pocket and you’ll do no harm.
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	forty	forty	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	pounds	pound	NOUN	NNS	Number=Plur	1	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	pocket	pocket	NOUN	NN	Number=Sing	1	obl	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	’ll	’ll	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	do	do	VERB	VB	VerbForm=Inf	1	conj	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	harm	harm	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = He’s a good fellow, is Farebrother, with as little of the parson about him as will serve to carry orders.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fellow	fellow	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	Farebrother	Farebrother	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	little	little	ADJ	JJ	Degree=Pos	8	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	parson	parson	NOUN	NN	Number=Sing	12	obl	_	_
+16	about	about	ADP	IN	_	17	case	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
+18	as	as	ADV	RB	_	20	advmod	_	_
+19	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	serve	serve	VERB	VB	VerbForm=Inf	15	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	carry	carry	VERB	VB	VerbForm=Inf	20	advcl	_	_
+23	orders	order	NOUN	NNS	Number=Plur	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

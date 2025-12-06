@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Spare me from ever again hearing such a cry, as that with which her father rose up from the table!
+1	Spare	spare	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	ever	ever	ADV	RB	_	1	obl	_	_
+5	again	again	ADV	RB	_	1	advmod	_	_
+6	hearing	hear	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+7	such	such	DET	PDT	_	9	det:predet	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	cry	cry	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	as	as	SCONJ	IN	_	17	mark	_	_
+12	that	that	SCONJ	IN	_	17	mark	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	which	which	PRON	WDT	PronType=Rel	17	obl	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	father	father	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+18	up	up	ADP	RP	_	17	compound:prt	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	table	table	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = ‘What’s the matter?’ said Uriah, turning of a deadly colour.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	matter	matter	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+9	Uriah	Uriah	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	turning	turn	VERB	VBG	VerbForm=Ger	8	conj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	deadly	deadly	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	colour	colour	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘You are not gone mad, after all, Mr. Wickfield, I hope?
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	15	ccomp	_	_
+6	mad	mad	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	after	after	ADV	RB	_	9	case	_	_
+9	all	all	ADV	RB	_	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	15	vocative	_	_
+12	Wickfield	Wickfield	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = If I say I’ve an ambition to make your Agnes my Agnes, I have as good a right to it as another man.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	’ve	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	ambition	ambition	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	make	make	VERB	VB	VerbForm=Inf	5	advcl	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	Agnes	Agnes	NOUN	NNS	Number=Plur	13	obj	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	Agnes	Agnes	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	as	as	ADV	RB	_	18	advmod	_	_
+18	good	good	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	right	right	NOUN	NN	Number=Sing	16	obj	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+23	as	as	ADP	IN	_	25	case	_	_
+24	another	another	DET	DT	_	25	det	_	_
+25	man	man	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = 5
+# text = I have a better right to it than any other man!’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	5	amod	_	_
+5	right	right	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+8	than	than	ADP	IN	_	11	case	_	_
+9	any	any	DET	DT	_	11	det	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	man	man	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,112 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There is something in what you say, my dear, something in what you say—but not everything—eh, Ladislaw?
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	something	something	PRON	NN	Number=Sing	3	nsubj	_	_
+5	in	in	SCONJ	IN	_	6	case	_	_
+6	what	what	PRON	WP	PronType=Int	11	obj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	dear	dear	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	something	something	PRON	NN	Number=Sing	11	appos	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	what	what	PRON	WP	PronType=Int	17	obl	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	17	punct	_	SpaceAfter=No
+19	but	but	CCONJ	CC	_	21	cc	_	_
+20	not	not	ADV	RB	_	21	advmod	_	_
+21	everything	everything	PRON	NN	Number=Sing	11	conj	_	SpaceAfter=No
+22	—	-	PUNCT	,	_	21	punct	_	SpaceAfter=No
+23	eh	eh	INTJ	UH	_	21	discourse	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	11	punct	_	_
+25	Ladislaw	Ladislaw	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = You and I don’t like our pictures and statues being found fault with.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	pictures	picture	NOUN	NNS	Number=Plur	6	obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	statues	statue	NOUN	NNS	Number=Plur	8	conj	_	_
+11	being	be	AUX	VBG	VerbForm=Ger	12	aux:pass	_	_
+12	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+13	fault	fault	NOUN	NN	Number=Sing	12	obl	_	_
+14	with	with	ADP	IN	_	13	case	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Young ladies are a little ardent, you know—a little one-sided, my dear.
+1	Young	young	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	ladies	lady	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	ardent	ardent	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	obl:npmod	_	_
+13	one	one	NUM	CD	NumType=Card	9	obl:npmod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	sided	sided	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	6	punct	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	dear	dear	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Fine art, poetry, that kind of thing, elevates a nation—_emollit mores_—you understand a little Latin now.
+1	Fine	fine	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	art	art	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	poetry	poetry	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	kind	kind	NOUN	NN	Number=Sing	2	parataxis	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	thing	thing	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	elevates	elevate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	nation	nation	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+15	_	_	SYM	NFP	_	16	punct	_	SpaceAfter=No
+16	emollit	emollit	NOUN	NN	Number=Sing	13	appos	_	_
+17	mores_	mores_	SYM	NFP	_	16	discourse	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+20	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	little	little	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	Latin	latin	PROPN	NNP	Number=Sing	20	obj	_	_
+24	now	now	ADV	RB	_	20	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 5
+# text = But—eh?
+1	But	but	CCONJ	CC	_	2	cc	_	SpaceAfter=No
+2	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+3	eh	eh	INTJ	UH	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = what?”
+1	what	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’s Ben Cranage—Wiry Ben, they call him,” said Mr. Irwine; “rather a loose fish, I think.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	Ben	Ben	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Cranage	Cranage	PROPN	NNP	Number=Sing	15	ccomp	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	Wiry	Wiry	PROPN	NNP	Number=Sing	5	flat	_	_
+8	Ben	Ben	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	23	nsubj	_	_
+17	Irwine	Irwine	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	16	punct	_	_
+19	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+20	rather	rather	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	loose	loose	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	fish	fish	NOUN	NN	Number=Sing	15	appos	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = Anne, my dear, I see that fiddle-scraping is too much for you: you’re getting tired.
+1	Anne	Anne	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	dear	dear	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	that	that	SCONJ	IN	_	14	mark	_	_
+9	fiddle	fiddle	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	scraping	scraping	NOUN	NN	Number=Sing	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	too	too	ADV	RB	_	14	advmod	_	_
+14	much	much	ADJ	JJ	Degree=Pos	7	ccomp	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	7	punct	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	SpaceAfter=No
+19	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+20	getting	get	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+21	tired	tired	ADJ	JJ	Degree=Pos	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Let me take you in now, that you may rest till dinner.”
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	take	take	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	in	in	ADV	RB	_	3	advmod	_	_
+6	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	may	may	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	rest	rest	VERB	VB	VerbForm=Inf	1	advcl	_	_
+12	till	till	ADP	IN	_	13	case	_	_
+13	dinner	dinner	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

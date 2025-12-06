@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The child retreated as it had come; the voice died away.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	child	child	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	retreated	retreate	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	as	as	SCONJ	IN	_	7	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	come	come	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	11	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	voice	voice	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	away	away	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Fantine listened for a while longer, then her face clouded over, and M. Madeleine heard her say, in a low voice: “How wicked that doctor is not to allow me to see my daughter!
+1	Fantine	Fantine	PRON	PRP	_	2	nsubj	_	_
+2	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	while	while	NOUN	NN	Number=Sing	2	obl	_	_
+6	longer	longer	ADV	RBR	Degree=Cmp	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	then	then	ADV	RB	PronType=Dem	11	advmod	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	face	face	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	clouded	cloud	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	over	over	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	M.	M.	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Madeleine	Madeleine	PROPN	NNP	Number=Sing	17	nsubj	_	_
+17	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	in	in	ADP	IN	_	24	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	low	low	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	voice	voice	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+25	:	:	PUNCT	:	_	2	punct	_	_
+26	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+27	How	how	ADV	WRB	PronType=Int	28	advmod	_	_
+28	wicked	wick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+29	that	that	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	doctor	doctor	NOUN	NN	Number=Sing	28	obj	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+32	not	not	PART	RB	_	34	advmod	_	_
+33	to	to	PART	TO	_	34	mark	_	_
+34	allow	allow	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+35	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	34	obj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	see	see	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+38	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	daughter	daughter	NOUN	NN	Number=Sing	37	obj	_	SpaceAfter=No
+40	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = That man has an evil countenance, that he has.”
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	evil	evil	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	countenance	countenance	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	that	that	SCONJ	IN	_	10	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

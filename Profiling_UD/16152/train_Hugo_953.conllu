@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When a man has reached his last extremity, he has reached his last resources at the same time.
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	reached	reach	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	extremity	extremity	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	reached	reach	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	last	last	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	resources	resource	NOUN	NNS	Number=Plur	12	obj	_	_
+16	at	at	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	same	same	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	time	time	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Woe to the defenceless beings who surround him!
+1	Woe	Woe	ADP	IN	_	5	case	_	_
+2	to	to	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	defenceless	defenceless	ADJ	JJR	Degree=Cmp	5	amod	_	_
+5	beings	being	NOUN	NNS	Number=Plur	9	obl	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	surround	surround	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	0	root	_	_
+
+# sent_id = 3
+# text = Work, wages, bread, fire, courage, good will, all fail him simultaneously.
+1	Work	work	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	wages	wage	NOUN	NNS	Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	bread	bread	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	fire	fire	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	courage	courage	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	1	punct	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	will	will	NOUN	NN	Number=Sing	1	list	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	1	punct	_	_
+14	all	all	DET	DT	_	15	nsubj	_	_
+15	fail	fail	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	simultaneously	simultaneously	ADV	RB	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = The light of day seems extinguished without, the moral light within; in these shadows man encounters the feebleness of the woman and the child, and bends them violently to ignominy.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	light	light	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	day	day	NOUN	NN	Number=Sing	2	nmod	_	_
+5	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	extinguished	extinguish	ADJ	JJ	Degree=Pos	5	nmod	_	_
+7	without	without	ADP	IN	_	6	case	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	moral	moral	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	light	light	NOUN	NN	Number=Sing	5	obj	_	_
+12	within	within	ADP	IN	_	13	case	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	5	punct	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	these	these	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+16	shadows	shadows	NOUN	NNS	Number=Plur	17	compound	_	_
+17	man	man	NOUN	NN	Number=Sing	18	obl	_	_
+18	encounters	encounter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	feebleness	feebleness	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	woman	woman	NOUN	NN	Number=Sing	20	nmod	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	child	child	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	bends	bend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+30	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obj	_	_
+31	violently	violently	ADV	RB	_	29	advmod	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	ignominy	ignominy	VERB	VB	VerbForm=Inf	29	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

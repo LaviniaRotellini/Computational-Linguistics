@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = When we came near the churchyard, we had to cross an embankment, and get over a stile near a sluice-gate.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	near	near	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	churchyard	churchyard	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	cross	cross	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	embankment	embankment	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	get	get	VERB	VB	VerbForm=Inf	9	conj	_	_
+17	over	over	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	stile	stile	NOUN	NN	Number=Sing	16	obl	_	_
+20	near	near	ADP	IN	_	24	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+22	sluice	sluice	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	gate	gate	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = There started up, from the gate, or from the rushes, or from the ooze (which was quite in his stagnant way), Old Orlick.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADP	RP	_	2	compound:prt	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	gate	gate	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	or	or	CCONJ	CC	_	12	cc	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	rushes	rush	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	or	or	CCONJ	CC	_	17	cc	_	_
+15	from	from	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	ooze	ooze	NOUN	NN	Number=Sing	2	conj	_	_
+18	(	(	PUNCT	-LRB-	_	17	punct	_	SpaceAfter=No
+19	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+21	quite	quite	ADV	RB	_	25	advmod	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+24	stagnant	stagnant	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	way	way	NOUN	NN	Number=Sing	17	acl:relcl	_	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	17	punct	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	Old	old	PROPN	NNP	Number=Sing	2	conj	_	_
+29	Orlick	Orlick	PROPN	NNP	Number=Sing	28	appos	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

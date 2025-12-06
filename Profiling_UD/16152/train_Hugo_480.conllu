@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nevertheless, on the night from the 18th to the 19th of June, the dead were robbed.
+1	Nevertheless	nevertheless	ADV	RB	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	18	punct	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	night	night	NOUN	NN	Number=Sing	18	obl	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	18th	18th	NOUN	NN	Number=Sing	5	nmod	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	19th	19th	NOUN	NN	Number=Sing	5	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	June	June	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	dead	dead	ADJ	JJ	Degree=Pos	18	nsubj:pass	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	robbed	robb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 2
+# text = Wellington was rigid; he gave orders that any one caught in the act should be shot; but rapine is tenacious.
+1	Wellington	Wellington	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	rigid	rigid	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+7	orders	order	NOUN	NNS	Number=Plur	6	obj	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	one	one	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	act	act	NOUN	NN	Number=Sing	11	obl	_	_
+15	should	should	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	shot	shoot	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	17	punct	_	_
+19	but	but	CCONJ	CC	_	22	cc	_	_
+20	rapine	rapine	PRON	PRP	_	22	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	tenacious	tenacious	ADJ	JJ	Degree=Pos	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The marauders stole in one corner of the battlefield while others were being shot in another.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	marauders	marauder	NOUN	NNS	Number=Plur	3	compound	_	_
+3	stole	stole	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	corner	corner	NOUN	NN	Number=Sing	3	nmod	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	battlefield	battlefield	NOUN	NN	Number=Sing	6	nmod	_	_
+10	while	while	SCONJ	IN	_	14	mark	_	_
+11	others	other	NOUN	NNS	Number=Plur	14	nsubj:pass	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	being	be	AUX	VBG	VerbForm=Ger	14	aux:pass	_	_
+14	shot	shoot	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	another	another	DET	DT	_	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+

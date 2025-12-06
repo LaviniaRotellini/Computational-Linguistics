@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It _can’t be!_”
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+4	ca	can	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	be	be	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	!_	!_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 2
+# text = Adam almost shouted, starting up from his chair and making a stride towards the door; but he turned round again, setting his back against the bookcase, and looking fiercely at Mr. Irwine.
+1	Adam	Adam	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	almost	almost	ADV	RB	_	3	advmod	_	_
+3	shouted	shoute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	starting	start	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	chair	chair	NOUN	NN	Number=Sing	5	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	making	make	VERB	VBG	VerbForm=Ger	5	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	stride	stride	NOUN	NN	Number=Sing	11	obj	_	_
+14	towards	towards	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	door	door	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	3	punct	_	_
+18	but	but	CCONJ	CC	_	20	cc	_	_
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	round	round	ADP	RP	_	20	compound:prt	_	_
+22	again	again	ADV	RB	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	_	_
+24	setting	set	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	back	back	ADV	RB	_	24	advmod	_	_
+27	against	against	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	bookcase	bookcase	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	looking	look	VERB	VBG	VerbForm=Ger	20	conj	_	_
+33	fiercely	fiercely	ADV	RB	_	32	advmod	_	_
+34	at	at	ADP	IN	_	35	case	_	_
+35	Mr.	Mr.	PROPN	NNP	Number=Sing	32	obl	_	_
+36	Irwine	Irwine	PROPN	NNP	Number=Sing	35	flat	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = “It isn’t possible.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	possible	possible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = She never had a child.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	child	child	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = She can’t be guilty.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	guilty	guilty	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = _Who_ says it?”
+1	_	_	SYM	NFP	_	2	punct	_	SpaceAfter=No
+2	Who	who	PRON	WP	PronType=Int	4	nsubj	_	SpaceAfter=No
+3	_	_	SYM	NFP	_	4	punct	_	_
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

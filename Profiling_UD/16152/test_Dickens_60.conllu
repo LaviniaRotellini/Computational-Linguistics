@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ay!” returned the sergeant, “two.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ay	ay	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sergeant	sergeant	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	two	two	NUM	CD	NumType=Card	5	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = They’re pretty well known to be out on the marshes still, and they won’t try to get clear of ’em before dusk.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pretty	pretty	ADV	RB	_	5	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	out	out	ADV	RB	_	5	xcomp	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	marshes	marsh	NOUN	NNS	Number=Plur	8	obl	_	_
+12	still	still	ADV	RB	_	5	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	and	and	CCONJ	CC	_	18	cc	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+16	wo	will	AUX	MD	VerbForm=Fin	18	aux	_	SpaceAfter=No
+17	n’t	not	PART	RB	_	18	advmod	_	_
+18	try	try	VERB	VB	VerbForm=Inf	2	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	get	get	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	clear	clear	ADJ	JJ	Degree=Pos	20	xcomp	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	’em	’em	NOUN	NN	Number=Sing	21	obl	_	_
+24	before	before	ADP	IN	_	25	case	_	_
+25	dusk	dusk	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Anybody here seen anything of any such game?”
+1	Anybody	anybody	PRON	NN	Number=Sing	0	root	_	_
+2	here	here	ADV	RB	PronType=Dem	1	advmod	_	_
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+4	anything	anything	PRON	NN	Number=Sing	3	obj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	any	any	DET	DT	_	8	det	_	_
+7	such	such	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	game	game	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

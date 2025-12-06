@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘No--no,’ growled Mr. Barkis, reflecting about it.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	--	--	PUNCT	,	_	7	punct	_	SpaceAfter=No
+4	no	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	7	punct	_	_
+6	growled	grow	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+8	Barkis	Barkis	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	reflecting	reflect	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+11	about	about	ADP	IN	_	12	case	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘I ain’t got no call to go and tell her so.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ai	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	call	call	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	go	go	VERB	VB	VerbForm=Inf	7	acl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	tell	tell	VERB	VB	VerbForm=Inf	5	conj	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	so	so	ADV	RB	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I never said six words to her myself, I ain’t a-goin’ to tell her so.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	six	six	NUM	CD	NumType=Card	5	nummod	_	_
+5	words	word	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+11	ai	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	15	advmod	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	goin	goin	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	15	punct	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	tell	tell	VERB	VB	VerbForm=Inf	15	acl	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	so	so	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	15	punct	_	SpacesAfter=\n
+

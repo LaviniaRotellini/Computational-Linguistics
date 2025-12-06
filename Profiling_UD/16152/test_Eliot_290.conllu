@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, Mr. Massey,” said Adam, who took his old friend’s whim more seriously than usual to-night, “don’t be so hard on the creaturs God has made to be companions for us.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Nay	Nay	PROPN	NNP	Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	2	appos	_	_
+5	Massey	Massey	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Adam	Adam	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	old	old	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	friend	friend	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	whim	whim	NOUN	NN	Number=Sing	12	obj	_	_
+18	more	more	ADV	RBR	_	19	advmod	_	_
+19	seriously	seriously	ADV	RB	_	12	advmod	_	_
+20	than	than	ADP	IN	_	21	case	_	_
+21	usual	usual	ADJ	JJ	Degree=Pos	8	obl	_	_
+22	to	to	ADP	IN	_	24	case	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	night	night	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	8	punct	_	_
+26	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+27	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
+28	n’t	not	PART	RB	_	31	advmod	_	_
+29	be	be	AUX	VB	VerbForm=Inf	31	cop	_	_
+30	so	so	ADV	RB	_	31	advmod	_	_
+31	hard	hard	ADJ	JJ	Degree=Pos	8	parataxis	_	_
+32	on	on	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	creaturs	creaturs	PROPN	NNPS	Number=Plur	31	obl	_	_
+35	God	God	PROPN	NNP	Number=Sing	37	nsubj	_	_
+36	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	made	make	VERB	VBN	Tense=Past|VerbForm=Part	31	ccomp	_	_
+38	to	to	PART	TO	_	40	mark	_	_
+39	be	be	AUX	VB	VerbForm=Inf	40	cop	_	_
+40	companions	companion	NOUN	NNS	Number=Plur	37	xcomp	_	_
+41	for	for	ADP	IN	_	42	case	_	_
+42	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = A working-man ’ud be badly off without a wife to see to th’ house and the victual, and make things clean and comfortable.”
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	working	work	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	man	man	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	’	'	PUNCT	''	_	4	punct	_	SpaceAfter=No
+6	ud	uld	AUX	MD	Typo=Yes|VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	badly	badly	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	off	off	ADP	RP	_	12	case	_	_
+10	without	without	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	wife	wife	NOUN	NN	Number=Sing	8	obl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	see	see	VERB	VB	VerbForm=Inf	8	advcl	_	_
+15	to	to	ADP	IN	_	18	case	_	_
+16	th	th	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	’	's	PUNCT	''	_	18	punct	_	_
+18	house	house	NOUN	NN	Number=Sing	14	obl	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	victual	victual	ADJ	JJ	Degree=Pos	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	make	make	VERB	VB	VerbForm=Inf	8	conj	_	_
+25	things	thing	NOUN	NNS	Number=Plur	24	obj	_	_
+26	clean	clean	ADJ	JJ	Degree=Pos	24	xcomp	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	comfortable	comfortable	ADJ	JJ	Degree=Pos	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

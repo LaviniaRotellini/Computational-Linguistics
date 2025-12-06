@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘First, Sissy, do you know what I am?
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	First	first	ADV	RB	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	Sissy	Sissy	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+9	what	what	PRON	WP	PronType=Int	8	ccomp	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I am so proud and so hardened, so confused and troubled, so resentful and unjust to every one and to myself, that everything is stormy, dark, and wicked to me.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	proud	proud	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	hardened	hardened	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	so	so	ADV	RB	_	10	advmod	_	_
+10	confused	confused	ADJ	JJ	Degree=Pos	4	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	troubled	troubled	ADJ	JJ	Degree=Pos	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	so	so	ADV	RB	_	15	advmod	_	_
+15	resentful	resentful	ADJ	JJ	Degree=Pos	10	conj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	unjust	unjust	ADJ	JJ	Degree=Pos	10	conj	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	every	every	DET	DT	_	20	det	_	_
+20	one	one	NUM	CD	NumType=Card	17	obl	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	that	that	SCONJ	IN	_	28	mark	_	_
+26	everything	everything	PRON	NN	Number=Sing	28	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	stormy	stormy	ADJ	JJ	Degree=Pos	4	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	dark	dark	ADJ	JJ	Degree=Pos	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	wicked	wick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	conj	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Does not that repel you?’
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	not	not	PART	RB	_	4	advmod	_	_
+3	that	that	ADV	RB	_	4	advmod	_	_
+4	repel	repel	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

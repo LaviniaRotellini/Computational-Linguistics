@@ -1,0 +1,132 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Come, let me kiss you!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	kiss	kiss	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = You say that prettily.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	_
+4	prettily	prettily	ADV	RB	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = When we are in the country, we will place these little shoes on an infant Jesus in the church.
+1	When	when	ADV	WRB	PronType=Int	6	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	country	country	NOUN	NN	Number=Sing	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	place	place	VERB	VB	VerbForm=Inf	0	root	_	_
+11	these	these	DET	DT	Number=Plur|PronType=Dem	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	shoes	shoe	NOUN	NNS	Number=Plur	10	obj	_	_
+14	on	on	ADP	IN	_	17	case	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	infant	infant	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	Jesus	Jesus	NOUN	NN	Number=Sing	10	obl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	church	church	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = We certainly owe that to the good, holy Virgin.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	certainly	certainly	ADV	RB	_	3	advmod	_	_
+3	owe	owe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	to	to	ADP	IN	_	10	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+7	good	good	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	holy	holly	ADV	RB	_	10	advmod	_	_
+10	Virgin	Virgin	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = What a pretty voice you have!
+1	What	what	DET	WDT	PronType=Int	4	det	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	pretty	pretty	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	voice	voice	NOUN	NN	Number=Sing	0	root	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = When you spoke to me just now, it was music!
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	just	just	ADV	RB	_	7	advmod	_	_
+7	now	now	ADV	RB	_	3	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	music	music	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 7
+# text = Ah!
+1	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = my Lord God!
+1	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	Lord	Lord	PROPN	NNP	Number=Sing	0	root	_	_
+3	God	God	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 9
+# text = I have found my child again!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	child	child	NOUN	NN	Number=Sing	3	obj	_	_
+6	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 10
+# text = But is this story credible?
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	story	story	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	credible	credible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Nothing will kill one—or I should have died of joy.”
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	kill	kill	VERB	VB	VerbForm=Inf	0	root	_	_
+4	one	one	NUM	CD	NumType=Card	3	obj	_	SpaceAfter=No
+5	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	or	or	CCONJ	CC	_	10	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	have	have	AUX	VB	VerbForm=Inf	10	aux	_	_
+10	died	die	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	joy	joy	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, you see, Miss, they were in that far tool-house, an’ it was nobody’s business to see to ’em.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Miss	miss	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
+11	in	in	ADP	IN	_	16	case	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+13	far	far	ADJ	JJ	Degree=Pos	16	amod	_	_
+14	tool	tool	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	house	house	NOUN	NN	Number=Sing	5	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	24	punct	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+22	nobody	nobody	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	’s	be	PART	POS	_	22	case	_	_
+24	business	business	NOUN	NN	Number=Sing	16	appos	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	see	see	VERB	VB	VerbForm=Inf	24	acl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	’em	’em	VERB	VB	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I reckon Master Tom told Harry to feed ’em, but there’s no countin’ on Harry; _he’s_ a offal creatur as iver come about the primises, he is.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	reckon	reckon	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Master	master	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	Harry	Harry	PROPN	NNP	Number=Sing	5	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	feed	feed	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+9	’	'	PUNCT	''	_	10	punct	_	SpaceAfter=No
+10	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	there	there	PRON	EX	_	14	expl	_	SpaceAfter=No
+14	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	countin	countin	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+17	’	's	PUNCT	''	_	16	punct	_	_
+18	on	on	ADP	IN	_	19	case	_	_
+19	Harry	Harry	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	2	punct	_	_
+21	_	_	SYM	NFP	_	27	punct	_	SpaceAfter=No
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	SpaceAfter=No
+23	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	SpaceAfter=No
+24	_	_	SYM	NFP	_	27	punct	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	offal	offal	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	creatur	creatur	NOUN	NN	Number=Sing	36	ccomp	_	_
+28	as	as	SCONJ	IN	_	30	mark	_	_
+29	iver	iver	PRON	WP	PronType=Int	30	nsubj	_	_
+30	come	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+31	about	about	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	primises	primise	NOUN	NNS	Number=Plur	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	27	punct	_	_
+35	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He remembers nothing but his own inside—an’ I wish it ’ud gripe him.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	remembers	remember	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	NN	Number=Sing	2	obj	_	_
+4	but	but	CCONJ	CC	_	6	cc	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	own	own	ADJ	JJ	Degree=Pos	3	conj	_	_
+7	inside	inside	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	2	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	’ud	’uld	AUX	MD	Typo=Yes|VerbForm=Fin	15	aux	_	_
+15	gripe	gripe	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

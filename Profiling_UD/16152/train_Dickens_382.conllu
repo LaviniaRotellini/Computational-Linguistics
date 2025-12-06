@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Ah!’ said my aunt, rubbing her nose as if she were a little vexed.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	aunt	aunt	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	rubbing	rub	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	nose	nose	NOUN	NN	Number=Sing	9	obj	_	_
+12	as	as	SCONJ	IN	_	18	mark	_	_
+13	if	if	SCONJ	IN	_	18	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	vexed	vexed	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘That’s his allegorical way of expressing it.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	allegorical	allegorical	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	way	way	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	expressing	express	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = He connects his illness with great disturbance and agitation, naturally, and that’s the figure, or the simile, or whatever it’s called, which he chooses to use.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	connects	connect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	illness	illness	NOUN	NN	Number=Sing	2	obj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	disturbance	disturbance	NOUN	NN	Number=Sing	2	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	agitation	agitation	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	naturally	naturally	ADV	RB	_	2	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	SpaceAfter=No
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	figure	figure	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	or	or	CCONJ	CC	_	21	cc	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	simile	simile	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	27	punct	_	_
+23	or	or	CCONJ	CC	_	27	cc	_	_
+24	whatever	whatever	DET	WDT	PronType=Int	25	det	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	SpaceAfter=No
+26	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	conj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	which	which	PRON	WDT	PronType=Rel	31	obj	_	_
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	chooses	choose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	use	use	VERB	VB	VerbForm=Inf	31	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And why shouldn’t he, if he thinks proper!’
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	why	why	ADV	WRB	PronType=Int	9	advmod	_	_
+3	should	should	AUX	MD	VerbForm=Fin	9	aux	_	SpaceAfter=No
+4	n’t	n’t	PART	RB	_	9	advmod	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	proper	proper	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	9	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

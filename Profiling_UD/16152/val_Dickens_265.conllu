@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Upon my soul!’ said the whelp.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Upon	upon	ADP	IN	_	4	case	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	soul	soul	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	whelp	whelp	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = ‘I am serious; I am indeed!’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	serious	serious	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	indeed	indeed	ADV	RB	_	4	parataxis	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 3
+# text = He smoked with great gravity and dignity for a little while, and then added, in a highly complacent tone, ‘Oh!
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	smoked	smoked	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	with	with	ADP	IN	_	5	case	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	gravity	gravity	NOUN	NN	Number=Sing	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	dignity	dignity	NOUN	NN	Number=Sing	5	conj	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	while	while	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+15	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	in	in	ADP	IN	_	21	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+19	highly	highly	ADV	RB	_	20	advmod	_	_
+20	complacent	complacent	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	tone	tone	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+24	Oh	oh	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+25	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I have picked up a little since.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	picked	pick	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	little	little	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	since	since	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I don’t deny that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	deny	deny	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = But I have done it myself; no thanks to the governor.’
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	parataxis	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	myself	myself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	4	obl:npmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	thanks	thanks	NOUN	NN	Number=Sing	0	root	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	governor	governor	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+14	’	'	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

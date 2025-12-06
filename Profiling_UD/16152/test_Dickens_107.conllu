@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I sometimes have sick fancies,” she went on, “and I have a sick fancy that I want to see some play.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	sometimes	sometimes	ADV	RB	_	4	advmod	_	_
+4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sick	sick	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fancies	fancy	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	10	punct	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	on	on	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	sick	sick	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	fancy	fancy	NOUN	NN	Number=Sing	16	obj	_	_
+20	that	that	PRON	WDT	PronType=Rel	22	obj	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	see	see	VERB	VB	VerbForm=Inf	16	acl	_	_
+25	some	some	DET	DT	_	26	det	_	_
+26	play	play	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = There, there!”
+1	There	there	PRON	EX	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	there	there	ADV	RB	PronType=Dem	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = with an impatient movement of the fingers of her right hand; “play, play, play!”
+1	with	with	ADP	IN	_	4	case	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	impatient	impatient	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	movement	movement	NOUN	NN	Number=Sing	16	obl	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	fingers	fingers	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	right	right	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	hand	hand	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	16	punct	_	_
+13	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+14	play	play	INTJ	UH	_	16	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	play	play	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	play	play	VERB	VB	Mood=Imp|VerbForm=Fin	16	parataxis	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	16	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

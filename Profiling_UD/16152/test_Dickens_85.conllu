@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But I did mind you, Pip,” he returned with tender simplicity.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	3	cc	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	mind	mind	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	Pip	Pip	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	tender	tender	NOUN	NN	Number=Sing	15	compound	_	_
+15	simplicity	simplicity	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “When I offered to your sister to keep company, and to be asked in church at such times as she was willing and ready to come to the forge, I said to her, ‘And bring the poor little child.
+1	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	sister	sister	NOUN	NN	Number=Sing	4	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	keep	keep	VERB	VB	VerbForm=Inf	15	advcl	_	_
+10	company	company	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	aux:pass	_	_
+15	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	church	church	NOUN	NN	Number=Sing	15	obl	_	_
+18	at	at	ADP	IN	_	20	case	_	_
+19	such	such	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	times	time	NOUN	NNS	Number=Plur	15	obl	_	_
+21	as	as	SCONJ	IN	_	24	mark	_	_
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+24	willing	willing	ADJ	JJ	Degree=Pos	15	advcl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	ready	ready	ADJ	JJ	Degree=Pos	24	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	come	come	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	forge	forge	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+34	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	34	punct	_	_
+38	‘	'	PUNCT	``	_	34	punct	_	SpaceAfter=No
+39	And	and	CCONJ	CC	_	40	cc	_	_
+40	bring	bring	VERB	VB	VerbForm=Inf	34	conj	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+42	poor	poor	ADJ	JJ	Degree=Pos	44	amod	_	_
+43	little	little	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	child	child	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 3
+# text = God bless the poor little child,’ I said to your sister, ‘there’s room for _him_ at the forge!’”
+1	God	God	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	bless	bless	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	poor	poor	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	child	child	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	,’	,’	PUNCT	.	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	sister	sister	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	_	_
+14	‘	'	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	there	there	PRON	EX	_	16	expl	_	SpaceAfter=No
+16	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+17	room	room	NOUN	NN	Number=Sing	16	nsubj	_	_
+18	for	for	ADP	IN	_	19	case	_	_
+19	_him	_him	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+20	_	_	SYM	NFP	_	0	root	_	_
+21	at	at	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	forge	forge	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	20	punct	_	SpaceAfter=No
+25	’	'	PUNCT	''	_	20	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	20	punct	_	SpacesAfter=\n
+

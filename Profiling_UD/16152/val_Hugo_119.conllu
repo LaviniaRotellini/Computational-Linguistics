@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A breeze was sweeping the sea.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	breeze	breeze	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	sweeping	sweep	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	sea	sea	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The man wrapped in his cape and standing firm, with his left hand grasping his right shoulder, closed one eye, and applied the other to a telescope.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	wrapped	wrap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	cape	cape	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	standing	stand	VERB	VBG	VerbForm=Ger	3	conj	_	_
+9	firm	firm	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	8	punct	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	left	left	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	hand	hand	NOUN	NN	Number=Sing	8	obl	_	_
+15	grasping	gras	VERB	VBG	VerbForm=Ger	14	acl	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	right	right	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	shoulder	shoulder	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	closed	close	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+21	one	one	NUM	CD	NumType=Card	22	nummod	_	_
+22	eye	eye	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	other	other	ADJ	JJ	Degree=Pos	25	obj	_	_
+28	to	to	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	telescope	telescope	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He seemed absorbed in anxious scrutiny.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	absorbed	absorb	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	anxious	anxious	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	scrutiny	scrutiny	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He had approached the edge of the escarpment, and stood there motionless, his gaze immovably fixed on the horizon.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	approached	approach	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	edge	edge	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	escarpment	escarpment	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	there	there	ADV	RB	PronType=Dem	11	advmod	_	_
+13	motionless	motionless	ADV	RBS	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	gaze	gaze	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	immovably	immovably	ADV	RB	_	18	advmod	_	_
+18	fixed	fix	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	horizon	horizon	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = The tide was high; the waves were beating below against the foot of the cliffs.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	tide	tide	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	high	high	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	waves	wafe	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	_
+10	below	below	ADV	RB	_	9	advmod	_	_
+11	against	against	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	foot	foot	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	cliffs	cliff	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

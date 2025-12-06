@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It’s a true word as I say, sir,” rejoined Mr. Rann, compressing his mouth into a semicircular form and pausing long enough to indicate three notes of exclamation.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	true	true	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	word	word	NOUN	NN	Number=Sing	14	nsubj	_	_
+7	as	as	SCONJ	IN	_	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	sir	sir	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	6	punct	_	_
+14	rejoined	rejoin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	obj	_	_
+16	Rann	Rann	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	compressing	compresse	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	mouth	mouth	NOUN	NN	Number=Sing	18	obj	_	_
+21	into	into	ADP	IN	_	24	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	semicircular	semicircular	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	form	form	NOUN	NN	Number=Sing	18	obl	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	pausing	pause	VERB	VBG	VerbForm=Ger	18	conj	_	_
+27	long	long	ADV	RB	Degree=Pos	28	advmod	_	_
+28	enough	enough	ADV	RB	_	26	advmod	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	indicate	indicate	VERB	VB	VerbForm=Inf	26	advcl	_	_
+31	three	three	NUM	CD	NumType=Card	32	nummod	_	_
+32	notes	note	NOUN	NNS	Number=Plur	30	obj	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	exclamation	exclamation	NOUN	NN	Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “She preached on the Green last night; an’ she’s laid hold of Chad’s Bess, as the girl’s been i’ fits welly iver sin’.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	preached	preach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Green	Green	NOUN	NN	Number=Sing	3	obl	_	_
+7	last	last	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	night	night	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	3	punct	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	15	punct	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	laid	laid	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	hold	hold	NOUN	NN	Number=Sing	31	obj	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	Chad	Chad	PROPN	NNP	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+18	’s	's	PART	POS	_	17	case	_	_
+19	Bess	Bess	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	as	as	SCONJ	IN	_	31	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	girl	girl	NOUN	NN	Number=Sing	31	nsubj	_	SpaceAfter=No
+24	’s	be	PART	POS	_	23	case	_	_
+25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	cop	_	_
+26	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	SpaceAfter=No
+27	’	'	PUNCT	''	_	28	punct	_	_
+28	fits	fit	NOUN	NNS	Number=Plur	31	nsubj	_	_
+29	welly	welly	ADV	RB	_	31	advmod	_	_
+30	iver	iver	X	AFX	_	31	advmod	_	_
+31	sin	sin	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+32	’.	’.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

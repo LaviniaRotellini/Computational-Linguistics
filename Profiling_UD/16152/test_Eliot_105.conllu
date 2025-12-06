@@ -1,0 +1,106 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Direction!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Direction	direction	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I know very well what you mean by direction,” said Mrs. Poyser, knitting in a rapid and agitated manner.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	2	advmod	_	_
+5	what	what	PRON	WP	PronType=Int	7	obj	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	direction	direction	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Poyser	Poyser	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	knitting	knitt	VERB	VBG	VerbForm=Ger	13	acl	_	_
+17	in	in	ADP	IN	_	22	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+19	rapid	rapid	ADJ	JJ	Degree=Pos	22	amod	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	agitated	agitate	ADJ	JJ	Degree=Pos	19	conj	_	_
+22	manner	manner	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 3
+# text = “When there’s a bigger maggot than usual in your head you call it ‘direction’; and then nothing can stir you—you look like the statty o’ the outside o’ Treddles’on church, a-starin’ and a-smilin’ whether it’s fair weather or foul.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	there	there	PRON	EX	_	4	expl	_	SpaceAfter=No
+4	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	bigger	bigger	ADJ	JJR	Degree=Cmp	7	amod	_	_
+7	maggot	maggot	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	than	than	ADP	IN	_	9	case	_	_
+9	usual	usual	ADJ	JJ	Degree=Pos	7	nmod	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	head	head	NOUN	NN	Number=Sing	9	obl	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+17	direction	direction	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+18	’	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	14	punct	_	_
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	then	then	ADV	RB	PronType=Dem	24	advmod	_	_
+22	nothing	nothing	PRON	NN	Number=Sing	24	nsubj	_	_
+23	can	can	AUX	MD	VerbForm=Fin	24	aux	_	_
+24	stir	stir	VERB	VB	VerbForm=Inf	14	conj	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	obj	_	SpaceAfter=No
+26	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+29	like	like	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	statty	statty	NOUN	NN	Number=Sing	28	obl	_	_
+32	o	of	ADP	IN	Abbr=Yes	36	case	_	SpaceAfter=No
+33	’	'	PUNCT	''	_	36	punct	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	outside	outside	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	o	of	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+37	’	'	PUNCT	''	_	36	punct	_	_
+38	Treddles	Treddles	NOUN	NNS	Number=Plur	36	nmod	_	SpaceAfter=No
+39	’on	’on	ADP	IN	_	40	case	_	_
+40	church	church	NOUN	NN	Number=Sing	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	38	punct	_	_
+42	a	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	SpaceAfter=No
+43	-	-	PUNCT	HYPH	_	44	punct	_	SpaceAfter=No
+44	starin	starin	NOUN	NN	Number=Sing	38	appos	_	SpaceAfter=No
+45	’	'	PUNCT	''	_	44	punct	_	_
+46	and	and	CCONJ	CC	_	49	cc	_	_
+47	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	SpaceAfter=No
+48	-	-	PUNCT	HYPH	_	49	punct	_	SpaceAfter=No
+49	smilin	smilin	NOUN	NN	Number=Sing	44	conj	_	SpaceAfter=No
+50	’	'	PUNCT	''	_	49	punct	_	_
+51	whether	whether	SCONJ	IN	_	55	mark	_	_
+52	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	55	nsubj	_	SpaceAfter=No
+53	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	cop	_	_
+54	fair	fair	ADJ	JJ	Degree=Pos	55	amod	_	_
+55	weather	weather	NOUN	NN	Number=Sing	28	obl	_	_
+56	or	or	CCONJ	CC	_	57	cc	_	_
+57	foul	foul	NOUN	NN	Number=Sing	55	conj	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 4
+# text = I hanna common patience with you.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	hanna	hanna	X	AFX	_	3	goeswith	_	_
+3	common	common	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	patience	patience	NOUN	NN	Number=Sing	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I said he might, and he shook hands with me again, and emptied his glass and turned it upside down.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	might	might	AUX	MD	VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	shook	shake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	hands	hand	NOUN	NNS	Number=Plur	8	obj	_	_
+10	with	with	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+12	again	again	ADV	RB	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	emptied	empty	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	glass	glass	NOUN	NN	Number=Sing	15	obj	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	upside	upside	ADP	RP	_	22	advmod	_	_
+22	down	down	ADV	RB	_	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I did the same; and if I had turned myself upside down before drinking, the wine could not have gone more direct to my head.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	same	same	ADJ	JJ	Degree=Pos	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	2	punct	_	_
+6	and	and	CCONJ	CC	_	22	cc	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	22	advcl	_	_
+11	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	upside	upside	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+13	down	down	ADP	RP	_	12	compound:prt	_	_
+14	before	before	SCONJ	IN	_	15	mark	_	_
+15	drinking	drinking	VERB	VBG	VerbForm=Ger	10	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	wine	wine	NOUN	NN	Number=Sing	22	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	not	not	PART	RB	_	22	advmod	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+23	more	more	ADV	RBR	_	24	advmod	_	_
+24	direct	direct	ADJ	JJ	Degree=Pos	22	xcomp	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	head	head	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

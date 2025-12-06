@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = And yet, could she deny him?
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	yet	yet	ADV	RB	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	deny	deny	VERB	VB	VerbForm=Inf	0	root	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Could she say, “I refuse to content this pining hunger?”
+1	Could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	refuse	refuse	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	content	content	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	pining	pining	NOUN	NN	Number=Sing	12	compound	_	_
+12	hunger	hunger	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = It would be refusing to do for him dead, what she was almost sure to do for him living.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	refusing	refuse	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	dead	dead	ADJ	JJ	Degree=Pos	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	what	what	PRON	WP	PronType=Int	15	obj	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+14	almost	almost	ADV	RB	_	15	advmod	_	_
+15	sure	sure	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	do	do	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
+20	living	living	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = If he lived as Lydgate had said he might, for fifteen years or more, her life would certainly be spent in helping him and obeying him.
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+4	as	as	SCONJ	IN	_	7	mark	_	_
+5	Lydgate	Lydgate	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	said	say	VERB	VBN	Tense=Past|VerbForm=Part	22	advcl	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	might	might	AUX	MD	VerbForm=Fin	22	aux	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	22	punct	_	_
+11	for	for	ADP	IN	_	13	case	_	_
+12	fifteen	fifteen	NUM	CD	NumType=Card	13	nummod	_	_
+13	years	year	NOUN	NNS	Number=Plur	22	obl	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	more	more	ADJ	JJR	Degree=Cmp	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	life	life	NOUN	NN	Number=Sing	22	nsubj:pass	_	_
+19	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	certainly	certainly	ADV	RB	_	22	advmod	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+23	in	in	SCONJ	IN	_	24	mark	_	_
+24	helping	help	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	obeying	obey	VERB	VBG	VerbForm=Ger	24	conj	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+

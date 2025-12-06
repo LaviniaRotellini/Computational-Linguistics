@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Sir James saw all the plans, and took one away to consult upon with Lovegood.
+1	Sir	Sir	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	James	James	PROPN	NNP	Number=Sing	1	flat	_	_
+3	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	all	all	DET	PDT	_	6	det:predet	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	plans	plan	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	one	one	NUM	CD	NumType=Card	11	obj	_	_
+11	away	away	ADV	RB	_	9	advmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	consult	consult	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	upon	upon	ADP	IN	_	16	case	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	Lovegood	Lovegood	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He also took away a complacent sense that he was making great progress in Miss Brooke’s good opinion.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	away	away	ADV	RB	_	3	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	complacent	complacent	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	sense	sense	NOUN	NN	Number=Sing	3	obj	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	progress	progress	NOUN	NN	Number=Sing	11	obj	_	_
+14	in	in	ADP	IN	_	19	case	_	_
+15	Miss	miss	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Brooke	Brooke	PROPN	NNP	Number=Sing	19	nmod:poss	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	good	good	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	opinion	opinion	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = The Maltese puppy was not offered to Celia; an omission which Dorothea afterwards thought of with surprise; but she blamed herself for it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Maltese	Maltese	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	puppy	puppy	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	offered	offer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	Celia	Celia	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	6	punct	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	omission	omission	NOUN	NN	Number=Sing	6	appos	_	_
+12	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+13	Dorothea	Dorothea	PROPN	NNP	Number=Sing	15	nsubj	_	_
+14	afterwards	afterwards	ADV	RB	_	15	advmod	_	_
+15	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	surprise	surprise	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	6	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	blamed	blame	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+23	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = She had been engrossing Sir James.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux	_	_
+4	engrossing	engrosse	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	Sir	Sir	PROPN	NNP	Number=Sing	4	obj	_	_
+6	James	James	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = After all, it was a relief that there was no puppy to tread upon.
+1	After	after	ADV	RB	_	2	advmod	_	_
+2	all	all	ADV	RB	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	relief	relief	NOUN	NN	Number=Sing	0	root	_	_
+8	that	that	SCONJ	IN	_	10	mark	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	puppy	puppy	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	tread	tread	VERB	VB	VerbForm=Inf	12	acl	_	_
+15	upon	upon	ADP	IN	_	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pelting is nothing to their finding holes in one’s coat,” said the Rector.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Pelting	Pelting	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	nothing	nothing	PRON	NN	Number=Sing	15	nsubj	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	finding	find	NOUN	NN	Number=Sing	8	compound	_	_
+8	holes	hole	NOUN	NNS	Number=Plur	4	nmod	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	one	one	NUM	CD	NumType=Card	12	nmod:poss	_	SpaceAfter=No
+11	’s	’	PART	POS	_	10	case	_	_
+12	coat	coat	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	15	punct	_	_
+15	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	Rector	rector	NOUN	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 2
+# text = “I confess that’s what I should be afraid of, if we parsons had to stand at the hustings for preferment.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	confess	confess	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	what	what	PRON	WP	PronType=Int	3	ccomp	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	afraid	afraid	ADJ	JJ	Degree=Pos	6	acl:relcl	_	_
+11	of	of	ADP	IN	_	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	3	punct	_	_
+13	if	if	SCONJ	IN	_	16	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nmod:poss	_	_
+15	parsons	parson	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	stand	stand	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	at	at	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	hustings	husting	NOUN	NNS	Number=Plur	18	obl	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	preferment	preferment	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I should be afraid of their reckoning up all my fishing days.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	_
+4	afraid	afraid	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	7	mark	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	reckoning	reckon	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	all	all	DET	PDT	_	12	det	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	fishing	fishing	NOUN	NN	Number=Sing	12	compound	_	_
+12	days	day	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Upon my word, I think the truth is the hardest missile one can be pelted with.”
+1	Upon	upon	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	word	word	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	truth	truth	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	hardest	hardest	ADJ	JJS	Degree=Sup	12	amod	_	_
+12	missile	missile	NOUN	NN	Number=Sing	6	ccomp	_	_
+13	one	one	NUM	CD	NumType=Card	16	nsubj:pass	_	_
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	pelted	pelt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+17	with	with	ADP	IN	_	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

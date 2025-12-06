@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Why, I have the fourth of a room and a passage, and the fourth of a clerk,’ returned Traddles.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	fourth	fourth	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	room	room	NOUN	NN	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	passage	passage	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fourth	fourth	NOUN	NN	Number=Sing	5	conj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	clerk	clerk	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	23	punct	_	_
+23	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	_	_
+24	Traddles	Traddles	NOUN	NNS	Number=Plur	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = ‘Three others and myself unite to have a set of chambers--to look business-like--and we quarter the clerk too.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Three	three	NUM	CD	NumType=Card	3	nummod	_	_
+3	others	other	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	conj	_	_
+6	unite	unite	ADJ	JJ	Degree=Pos	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	set	set	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	chambers	chamber	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+14	to	to	PART	TO	_	15	mark	_	_
+15	look	look	VERB	VB	VerbForm=Inf	6	advcl	_	_
+16	business	business	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+18	like	like	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+19	--	--	PUNCT	,	_	6	punct	_	SpaceAfter=No
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	quarter	quarter	VERB	VB	VerbForm=Inf	6	conj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	clerk	clerk	NOUN	NN	Number=Sing	22	obj	_	_
+25	too	too	ADV	RB	_	22	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Half-a-crown a week he costs me.’
+1	Half	half	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No
+3	a	a	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	1	punct	_	SpaceAfter=No
+5	crown	cry	VERB	VB	VerbForm=Inf	0	root	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	week	week	NOUN	NN	Number=Sing	5	obj	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

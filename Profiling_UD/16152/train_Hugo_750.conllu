@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Moreover, Fauchelevent was perfectly composed.
+1	Moreover	moreover	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	Fauchelevent	Fauchelevent	PROPN	NNP	Number=Sing	6	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+5	perfectly	perfectly	ADV	RB	_	6	advmod	_	_
+6	composed	compose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = He took his time.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	time	time	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The cemetery was closed.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	cemetery	cemetery	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	closed	close	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = The arrival of the grave-digger Gribier was not to be apprehended.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	arrival	arrival	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+3	of	of	ADP	IN	_	8	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+5	grave	grave	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	digger	digger	NOUN	NN	Number=Sing	8	compound	_	_
+8	Gribier	Gribier	PROPN	NNP	Number=Sing	2	nmod	_	_
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+10	not	not	PART	RB	_	13	advmod	_	_
+11	to	to	PART	TO	_	13	mark	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	apprehended	apprehend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 5
+# text = That “conscript” was at home busily engaged in looking for his card, and at some difficulty in finding it in his lodgings, since it was in Fauchelevent’s pocket.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+3	conscript	conscript	NOUN	NN	Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	3	punct	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	home	home	ADV	RB	_	9	advmod	_	_
+8	busily	busily	ADV	RB	Degree=Pos	9	advmod	_	_
+9	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	in	in	SCONJ	IN	_	11	mark	_	_
+11	looking	look	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	card	card	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	33	punct	_	_
+16	and	and	CCONJ	CC	_	33	cc	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	difficulty	difficulty	NOUN	NN	Number=Sing	33	obl	_	_
+20	in	in	SCONJ	IN	_	21	mark	_	_
+21	finding	find	VERB	VBG	VerbForm=Ger	19	acl	_	_
+22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	lodgings	lodging	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	33	punct	_	_
+27	since	since	SCONJ	IN	_	33	mark	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	cop	_	_
+30	in	in	ADP	IN	_	33	case	_	_
+31	Fauchelevent	Fauchelevent	PROPN	NNP	Number=Sing	33	nmod:poss	_	SpaceAfter=No
+32	’s	's	PART	POS	_	31	case	_	_
+33	pocket	pocket	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Without a card, he could not get back into the cemetery.
+1	Without	without	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	card	card	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+9	back	back	ADV	RB	_	8	advmod	_	_
+10	into	into	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	cemetery	cemetery	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

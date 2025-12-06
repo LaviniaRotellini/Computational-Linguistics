@@ -1,0 +1,111 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No,” said Caleb, gravely; “I am thinking that I could do a great turn for Fred Vincy.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Caleb	Caleb	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	gravely	gravely	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	5	punct	_	_
+10	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	thinking	think	VERB	VBG	VerbForm=Ger	5	parataxis	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	do	do	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	great	great	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	turn	turn	NOUN	NN	Number=Sing	17	obj	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	Fred	Fred	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Vincy	Vincy	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Christy’s gone, Alfred will be gone soon, and it will be five years before Jim is ready to take to business.
+1	Christy	Christy	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	be	PART	POS	_	1	case	_	_
+3	gone	gone	ADJ	JJ	Degree=Pos	8	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	Alfred	Alfred	PROPN	NNP	Number=Sing	8	nsubj:pass	_	_
+6	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	soon	soon	ADV	RB	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	20	punct	_	_
+11	and	and	CCONJ	CC	_	20	cc	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+13	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+14	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+15	five	five	NUM	CD	NumType=Card	16	nummod	_	_
+16	years	year	NOUN	NNS	Number=Plur	18	nmod:npmod	_	_
+17	before	before	ADP	IN	_	18	case	_	_
+18	Jim	Jim	PROPN	NNP	Number=Sing	20	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	ready	ready	ADJ	JJ	Degree=Pos	8	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	take	take	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	to	to	ADP	IN	_	24	case	_	_
+24	business	business	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = I shall want help, and Fred might come in and learn the nature of things and act under me, and it might be the making of him into a useful man, if he gives up being a parson.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+4	help	help	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	Fred	Fred	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	might	might	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	come	come	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	in	in	ADV	RB	_	9	advmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	learn	learn	VERB	VB	VerbForm=Inf	9	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	nature	nature	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	things	thing	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	act	act	NOUN	NN	Number=Sing	16	conj	_	_
+19	under	under	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	27	punct	_	_
+22	and	and	CCONJ	CC	_	27	cc	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+24	might	might	AUX	MD	VerbForm=Fin	27	aux	_	_
+25	be	be	AUX	VB	VerbForm=Inf	27	cop	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	making	making	NOUN	NN	Number=Sing	3	conj	_	_
+28	of	of	ADP	IN	_	29	case	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nmod	_	_
+30	into	into	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	useful	useful	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	man	man	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	3	punct	_	_
+35	if	if	SCONJ	IN	_	37	mark	_	_
+36	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+38	up	up	ADP	RP	_	37	compound:prt	_	_
+39	being	be	AUX	VBG	VerbForm=Ger	41	cop	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+41	parson	parson	NOUN	NN	Number=Sing	37	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = What do you think?”
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

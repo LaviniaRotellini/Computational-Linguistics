@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She took a lover, the first who offered, a man whom she did not love, out of bravado and with rage in her heart.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	lover	lover	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	2	appos	_	_
+8	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+9	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	man	man	NOUN	NN	Number=Sing	9	obj	_	_
+13	whom	whom	PRON	WP	PronType=Rel	17	obj	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	not	not	PART	RB	_	17	advmod	_	_
+17	love	love	VERB	VB	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	out	out	ADP	IN	_	21	case	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	bravado	bravado	NOUN	NN	Number=Sing	17	obl	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	with	with	ADP	IN	_	24	case	_	_
+24	rage	rage	NOUN	NN	Number=Sing	21	conj	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	heart	heart	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was a miserable scamp, a sort of mendicant musician, a lazy beggar, who beat her, and who abandoned her as she had taken him, in disgust.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	miserable	miserable	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	scamp	scamp	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	sort	sort	NOUN	NN	Number=Sing	5	conj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	mendicant	mendicant	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	musician	musician	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	lazy	lazy	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	beggar	beggar	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	beat	beat	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	who	who	PRON	WP	PronType=Int	23	nsubj	_	_
+23	abandoned	abandon	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+24	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	as	as	SCONJ	IN	_	28	mark	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	disgust	disgust	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

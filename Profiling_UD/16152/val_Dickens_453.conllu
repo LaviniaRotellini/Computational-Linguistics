@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Where was I last night!’ said Tom.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Where	where	ADV	WRB	PronType=Int	9	ccomp	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	night	night	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Tom	Tom	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘Come!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I like that.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I was waiting for you, Mr. Harthouse, till it came down as _I_
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	3	obj	_	_
+8	Harthouse	Harthouse	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	till	till	SCONJ	IN	_	12	mark	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+13	down	down	ADV	RB	_	12	advmod	_	_
+14	as	as	ADP	IN	_	15	case	_	_
+15	_I	_I	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+16	_	_	SYM	NFP	_	3	punct	_	_
+
+# sent_id = 5
+# text = never saw it come down before.
+1	never	never	ADV	RB	_	2	advmod	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	come	come	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	down	down	ADV	RB	_	4	advmod	_	_
+6	before	before	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Where was I too!
+1	Where	where	ADV	WRB	PronType=Int	0	root	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+4	too	too	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Where were you, you mean.’
+1	Where	where	ADV	WRB	PronType=Int	6	advmod	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	0	root	_	SpacesAfter=\n
+

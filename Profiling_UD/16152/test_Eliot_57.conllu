@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Aye, lad, th’ old tale; but I shall get it done,” said Adam, looking up and casting one of his bright keen glances at his brother.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Aye	aye	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	lad	lad	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	th	th	NOUN	NN	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+7	’	’	PART	POS	_	6	case	_	_
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	tale	tale	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	4	punct	_	_
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	shall	shall	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	get	get	VERB	VB	VerbForm=Inf	4	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	done	do	VERB	VBN	Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	19	punct	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	Adam	Adam	PROPN	NNP	Number=Sing	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	19	punct	_	_
+22	looking	look	VERB	VBG	VerbForm=Ger	19	ccomp	_	_
+23	up	up	ADP	RP	_	22	compound:prt	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	casting	cast	VERB	VBG	VerbForm=Ger	22	conj	_	_
+26	one	one	NUM	CD	NumType=Card	25	obj	_	_
+27	of	of	ADP	IN	_	31	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+29	bright	bright	ADJ	JJ	Degree=Pos	31	amod	_	_
+30	keen	keen	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	glances	glance	NOUN	NNS	Number=Plur	26	nmod	_	_
+32	at	at	ADP	IN	_	34	case	_	_
+33	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+34	brother	brother	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = “Why, what’s the matter with thee?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Why	why	ADV	WRB	PronType=Int	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	what	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	matter	matter	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	thee	thee	NUM	CD	NumType=Card	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Thee’t in trouble.”
+1	Thee’t	Theeot	PART	RB	_	0	root	_	_
+2	in	in	ADP	IN	_	3	case	_	_
+3	trouble	trouble	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

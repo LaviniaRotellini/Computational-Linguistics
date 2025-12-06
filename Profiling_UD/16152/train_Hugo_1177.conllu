@@ -1,0 +1,119 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = For those who love solitude, a walk in the early morning is equivalent to a stroll by night, with the cheerfulness of nature added.
+1	For	for	ADP	IN	_	2	case	_	_
+2	those	those	PRON	DT	Number=Plur|PronType=Dem	14	obl	_	_
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	_
+4	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	solitude	solitude	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	walk	walk	NOUN	NN	Number=Sing	14	nsubj	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	early	early	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	morning	morning	NOUN	NN	Number=Sing	8	nmod	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	equivalent	equivalent	ADJ	JJ	Degree=Pos	0	root	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	stroll	stroll	NOUN	NN	Number=Sing	14	obl	_	_
+18	by	by	ADP	IN	_	19	case	_	_
+19	night	night	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	14	punct	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	cheerfulness	cheerfulness	NOUN	NN	Number=Sing	14	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	nature	nature	NOUN	NN	Number=Sing	23	nmod	_	_
+26	added	add	VERB	VBN	Tense=Past|VerbForm=Part	23	acl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = The streets are deserted and the birds are singing.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	streets	street	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	deserted	desert	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	birds	bird	NOUN	NNS	Number=Plur	9	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	singing	singe	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Cosette, a bird herself, liked to rise early.
+1	Cosette	Cosette	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bird	bird	NOUN	NN	Number=Sing	5	compound	_	_
+5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	rise	rise	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	early	early	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = These matutinal excursions were planned on the preceding evening.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	matutinal	matutinal	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	excursions	excursion	NOUN	NNS	Number=Plur	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	planned	plan	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	preceding	preceding	NOUN	NN	Number=Sing	9	compound	_	_
+9	evening	evening	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = He proposed, and she agreed.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	agreed	agree	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = It was arranged like a plot, they set out before daybreak, and these trips were so many small delights for Cosette.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	arranged	arrange	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	plot	plot	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	out	out	ADP	RP	_	9	compound:prt	_	_
+11	before	before	ADP	IN	_	12	case	_	_
+12	daybreak	daybreak	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	21	punct	_	_
+14	and	and	CCONJ	CC	_	21	cc	_	_
+15	these	these	DET	DT	Number=Plur|PronType=Dem	16	det	_	_
+16	trips	trip	NOUN	NNS	Number=Plur	21	nsubj	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	cop	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	many	many	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	small	small	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	delights	delights	NOUN	NNS	Number=Plur	3	conj	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	Cosette	Cosette	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = These innocent eccentricities please young people.
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	innocent	innocent	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	eccentricities	eccentricity	NOUN	NNS	Number=Plur	0	root	_	_
+4	please	please	INTJ	UH	_	6	discourse	_	_
+5	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	people	people	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

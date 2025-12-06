@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Wellington, oddly ungrateful, declares in a letter to Lord Bathurst, that his army, the army which fought on the 18th of June, 1815, was a “detestable army.”
+1	Wellington	Wellington	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	oddly	oddly	ADV	RB	_	4	advmod	_	_
+4	ungrateful	ungrateful	ADJ	JJ	Degree=Pos	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	declares	declare	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	letter	letter	NOUN	NN	Number=Sing	6	obl	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	Lord	Lord	PROPN	NNP	Number=Sing	9	nmod	_	_
+12	Bathurst	Bathurst	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	6	punct	_	_
+14	that	that	SCONJ	IN	_	34	mark	_	_
+15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	army	army	NOUN	NN	Number=Sing	34	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	army	army	NOUN	NN	Number=Sing	16	appos	_	_
+20	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	fought	fight	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+22	on	on	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	18th	18th	NOUN	NN	Number=Sing	21	obl	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	June	June	PROPN	NNP	Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	24	punct	_	_
+28	1815	1815	NUM	CD	NumType=Card	24	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	34	punct	_	_
+30	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	cop	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+32	“	"	PUNCT	``	_	34	punct	_	SpaceAfter=No
+33	detestable	detestable	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	army	army	NOUN	NN	Number=Sing	6	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 2
+# text = What does that sombre intermingling of bones buried beneath the furrows of Waterloo think of that?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	sombre	sombre	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	intermingling	intermingl	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	bones	bone	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	buried	bury	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	_
+9	beneath	beneath	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	furrows	furrow	NOUN	NNS	Number=Plur	8	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	Waterloo	Waterloo	PROPN	NNP	Number=Sing	14	compound	_	_
+14	think	think	NOUN	NN	Number=Sing	11	nmod	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

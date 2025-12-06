@@ -1,0 +1,86 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The former representative of the people made no reply.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	former	former	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	representative	representative	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	people	people	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	no	no	DET	DT	_	9	det	_	_
+9	reply	reply	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He was seized with a fit of trembling.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	seized	seize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	fit	fit	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	trembling	trembling	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He looked towards heaven, and in his glance a tear gathered slowly.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	towards	towards	ADP	IN	_	4	case	_	_
+4	heaven	heaven	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	glance	glance	NOUN	NN	Number=Sing	2	conj	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	tear	tear	NOUN	NN	Number=Sing	9	appos	_	_
+12	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	slowly	slowly	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = When the eyelid was full, the tear trickled down his livid cheek, and he said, almost in a stammer, quite low, and to himself, while his eyes were plunged in the depths:—
+1	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	eyelid	eyelid	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	full	full	ADJ	JJ	Degree=Pos	17	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	17	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	tear	tear	NOUN	NN	Number=Sing	17	nsubj	_	_
+9	trickled	trickle	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+10	down	down	ADP	RP	_	13	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	livid	livid	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	cheek	cheek	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	almost	almost	ADV	RB	_	22	advmod	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	stammer	stammer	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	17	punct	_	_
+24	quite	quite	ADV	RB	_	25	advmod	_	_
+25	low	low	ADJ	JJ	Degree=Pos	17	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	to	to	ADP	IN	_	29	case	_	_
+29	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	25	punct	_	_
+31	while	while	SCONJ	IN	_	35	mark	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	eyes	eye	NOUN	NNS	Number=Plur	35	nsubj:pass	_	_
+34	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux:pass	_	_
+35	plunged	plunge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	advcl	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	depths	depth	NOUN	NNS	Number=Plur	35	obl	_	SpaceAfter=No
+39	:—	:—	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = His wife, standing beside him, and half bent over him, was following him with her eyes.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	standing	stand	VERB	VBG	VerbForm=Ger	0	root	_	_
+5	beside	beside	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	half	half	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	bent	bend	NOUN	NN	Number=Sing	4	conj	_	_
+11	over	over	ADP	IN	_	12	case	_	_
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	following	follow	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	eyes	eye	NOUN	NNS	Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = They exchanged not a word.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	exchanged	exchange	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	word	word	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = On the one hand, there was profound meditation, on the other, the religious admiration with which one watches the birth and development of a marvel of the human mind.
+1	On	on	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	profound	profound	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	meditation	meditation	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	other	other	ADJ	JJ	Degree=Pos	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	religious	religious	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	admiration	admiration	NOUN	NN	Number=Sing	7	nsubj	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	which	which	PRON	WDT	PronType=Rel	21	obl	_	_
+20	one	one	PRON	PRP	_	21	nsubj	_	_
+21	watches	watch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	birth	birth	NOUN	NN	Number=Sing	21	obj	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	development	development	NOUN	NN	Number=Sing	23	conj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	marvel	marvel	NOUN	NN	Number=Sing	23	nmod	_	_
+29	of	of	ADP	IN	_	32	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	human	human	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	mind	mind	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = A noise was audible in the house; it was the Lark sweeping the stairs.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	noise	noise	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	audible	audible	ADJ	JJ	Degree=Pos	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	house	house	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	4	punct	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Lark	Lark	NOUN	NN	Number=Sing	4	parataxis	_	_
+13	sweeping	sweep	VERB	VBG	VerbForm=Ger	12	acl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	stairs	stair	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

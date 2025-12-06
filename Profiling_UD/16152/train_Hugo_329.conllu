@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Three o’clock struck.
+1	Three	three	NUM	CD	NumType=Card	3	nummod	_	_
+2	o’clock	o’clock	NOUN	NN	Number=Sing	3	compound	_	_
+3	struck	struck	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = At the third stroke, Fantine sat up in bed; she who could, in general, hardly turn over, joined her yellow, fleshless hands in a sort of convulsive clasp, and the nun heard her utter one of those profound sighs which seem to throw off dejection.
+1	At	at	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	_
+4	stroke	stroke	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Fantine	Fantine	PRON	NN	Number=Sing	7	nsubj	_	_
+7	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	bed	bed	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	7	punct	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	23	aux	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	23	punct	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	general	general	ADJ	JJ	Degree=Pos	23	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	23	punct	_	_
+19	hardly	hardly	ADV	RB	_	23	advmod	_	_
+20	turn	turn	NOUN	NN	Number=Sing	23	nsubj	_	_
+21	over	over	ADV	RB	_	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	joined	join	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+24	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+25	yellow	yellow	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	fleshless	fleshless	NOUN	NN	Number=Sing	28	compound	_	_
+28	hands	hand	NOUN	NNS	Number=Plur	23	obj	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	sort	sort	NOUN	NN	Number=Sing	23	obl	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	convulsive	convulsive	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	clasp	clasp	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	39	punct	_	_
+36	and	and	CCONJ	CC	_	39	cc	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	nun	nun	NOUN	NN	Number=Sing	39	nsubj	_	_
+39	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	_
+40	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
+41	utter	utter	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	one	one	NUM	CD	NumType=Card	39	obj	_	_
+43	of	of	ADP	IN	_	46	case	_	_
+44	those	those	DET	DT	Number=Plur|PronType=Dem	46	det	_	_
+45	profound	profound	ADJ	JJ	Degree=Pos	46	amod	_	_
+46	sighs	sigh	NOUN	NNS	Number=Plur	42	nmod	_	_
+47	which	which	PRON	WDT	PronType=Rel	48	nsubj	_	_
+48	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	46	acl:relcl	_	_
+49	to	to	PART	TO	_	50	mark	_	_
+50	throw	throw	VERB	VB	VerbForm=Inf	48	xcomp	_	_
+51	off	off	ADP	RP	_	50	compound:prt	_	_
+52	dejection	dejection	NOUN	NN	Number=Sing	50	obj	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Then Fantine turned and looked at the door.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	Fantine	Fantine	PRON	PRP	_	3	nsubj	_	_
+3	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	door	door	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

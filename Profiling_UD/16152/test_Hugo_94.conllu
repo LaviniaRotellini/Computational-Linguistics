@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well, now,” said Gringoire, “here’s one at last who speaks a Christian tongue.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	now	now	ADV	RB	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Gringoire	Gringoire	PROPN	NNP	Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	here	here	ADV	RB	PronType=Dem	7	advmod	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	one	one	NUM	CD	NumType=Card	11	nsubj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	last	last	ADJ	JJ	Degree=Pos	13	nmod	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	Christian	christian	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	tongue	tongue	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I must have a very charitable aspect, since they ask alms of me in the present lean condition of my purse.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	charitable	charitable	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	aspect	aspect	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	_	_
+9	since	since	SCONJ	IN	_	11	mark	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	alms	alm	NOUN	NNS	Number=Plur	11	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	nmod	_	_
+15	in	in	ADP	IN	_	19	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+17	present	present	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	lean	lean	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	condition	condition	NOUN	NN	Number=Sing	11	obl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	purse	purse	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = My friend,” and he turned towards the blind man, “I sold my last shirt last week; that is to say, since you understand only the language of Cicero: _Vendidi hebdomade nuper transita meam ultimam chemisam_.”
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friend	friend	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	7	punct	_	_
+5	and	and	CCONJ	CC	_	7	cc	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	towards	towards	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	blind	blind	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	man	man	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	_	_
+13	“	"	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	sold	sell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	last	last	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	shirt	shirt	NOUN	NN	Number=Sing	15	obj	_	_
+19	last	last	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	week	week	NOUN	NN	Number=Sing	15	obl:tmod	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	7	punct	_	_
+22	that	that	PRON	DT	Number=Sing|PronType=Dem	23	nsubj	_	_
+23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	say	say	VERB	VB	VerbForm=Inf	23	ccomp	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	since	since	SCONJ	IN	_	29	mark	_	_
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	_
+29	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+30	only	only	ADV	RB	_	32	advmod	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	language	language	NOUN	NN	Number=Sing	29	obj	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	Cicero	Cicero	PROPN	NNP	Number=Sing	32	nmod	_	SpaceAfter=No
+35	:	:	PUNCT	:	_	7	punct	_	_
+36	_Vendidi	_Vendidi	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Typo=Yes	37	nsubj	_	_
+37	hebdomade	hebdomake	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+38	nuper	nuper	ADP	IN	_	42	case	_	_
+39	transita	transita	NOUN	NN	Number=Sing	40	compound	_	_
+40	meam	meam	NOUN	NN	Number=Sing	41	compound	_	_
+41	ultimam	ultimam	NOUN	NN	Number=Sing	42	compound	_	_
+42	chemisam_.	chemisam_.	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

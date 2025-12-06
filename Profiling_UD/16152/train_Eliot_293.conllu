@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nous câusames longtemps; elle était simple et bonne.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Nous	Nous	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	câusames	câusame	NOUN	NNS	Number=Plur	4	compound	_	_
+4	longtemps	longtemps	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	4	punct	_	_
+6	elle	elle	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	était	était	NOUN	NN	Number=Sing	4	appos	_	_
+8	simple	simple	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	et	et	X	FW	_	10	goeswith	_	_
+10	bonne	bonne	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ne sachant pas le mal, elle faisait le bien; Des richesses du coeur elle me fit l’aumône, Et tout en écoutant comme le coeur se donne, Sans oser y penser je lui donnai le mien; Elle emporta ma vie, et n’en sut jamais rien.”
+1	Ne	Ne	ADP	IN	_	4	case	_	_
+2	sachant	sachant	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	pas	pas	NOUN	NN	Number=Sing	4	compound	_	_
+4	le	le	NOUN	NN	Number=Sing	10	compound	_	_
+5	mal	mal	ADJ	JJ	Degree=Pos	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	elle	elle	ADJ	JJ	Degree=Pos	10	amod	_	_
+8	faisait	faisait	NOUN	NN	Number=Sing	9	compound	_	_
+9	le	le	NOUN	NN	Number=Sing	10	compound	_	_
+10	bien	bien	NOUN	NNS	Number=Plur	15	nsubj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	10	punct	_	_
+12	Des	Des	NOUN	NNS	Number=Plur	13	compound	_	_
+13	richesses	richess	NOUN	NNS	Number=Plur	10	appos	_	_
+14	du	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	coeur	coeur	VERB	VB	VerbForm=Inf	0	root	_	_
+16	elle	elle	NOUN	NN	Number=Sing|Typo=Yes	17	compound	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	_
+18	fit	fit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+19	l’aumône	l’aumône	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	Et	et	PROPN	NNP	Number=Sing	18	obj	_	_
+22	tout	tout	ADP	IN	_	29	case	_	_
+23	en	en	NUM	CD	NumType=Card	29	nummod	_	_
+24	écoutant	écoutant	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	comme	comme	NOUN	NN	Number=Sing	26	compound	_	_
+26	le	le	NOUN	NN	Number=Sing	27	compound	_	_
+27	coeur	coeur	NOUN	NN	Number=Sing	28	compound	_	_
+28	se	se	NOUN	NN	Number=Sing	29	compound	_	_
+29	donne	donne	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	18	punct	_	_
+31	Sans	Sans	NOUN	NNS	Number=Plur	18	appos	_	_
+32	oser	oser	ADP	IN	_	34	case	_	_
+33	y	y	NOUN	NN	Number=Sing	34	compound	_	_
+34	penser	penser	NOUN	NN	Number=Sing	31	nmod	_	_
+35	je	je	ADP	IN	_	39	case	_	_
+36	lui	lui	ADJ	JJ	Degree=Pos	39	amod	_	_
+37	donnai	donnai	NOUN	NN	Number=Sing	38	compound	_	_
+38	le	le	NOUN	NN	Number=Sing	39	compound	_	_
+39	mien	mien	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+40	;	;	PUNCT	,	_	15	punct	_	_
+41	Elle	Elle	ADJ	JJ	Degree=Pos	44	amod	_	_
+42	emporta	emporta	NOUN	NN	Number=Sing	43	compound	_	_
+43	ma	ma	NOUN	NN	Number=Sing	44	compound	_	_
+44	vie	vie	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+45	,	,	PUNCT	,	_	44	punct	_	_
+46	et	et	X	FW	_	48	goeswith	_	_
+47	n	n	X	GW	_	48	goeswith	_	SpaceAfter=No
+48	’en	’en	ADV	RB	_	51	advmod	_	_
+49	sut	sut	ADP	IN	_	51	case	_	_
+50	jamais	tjamais	DET	DT	_	51	det	_	_
+51	rien	rien	NOUN	NNS	Number=Plur	44	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+53	”	"	PUNCT	''	_	15	punct	_	_
+
+# sent_id = 3
+# text = —ALFRED DE MUSSET.
+1	—	-	PUNCT	:	_	2	punct	_	SpaceAfter=No
+2	ALFRED	Alfr	PROPN	NNP	Number=Sing	0	root	_	_
+3	DE	de	PROPN	NNP	Number=Sing	2	flat	_	_
+4	MUSSET	MUSSET	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

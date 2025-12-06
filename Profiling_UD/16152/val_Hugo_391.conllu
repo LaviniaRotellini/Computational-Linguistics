@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He made his way through the porch, and found himself in a blind passage, with a roof in the form of a rude arch over his head.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	way	way	NOUN	NN	Number=Sing	2	obj	_	_
+5	through	through	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	porch	porch	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	blind	blind	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	passage	passage	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	roof	roof	NOUN	NN	Number=Sing	10	obl	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	form	form	NOUN	NN	Number=Sing	19	nmod	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+25	rude	rude	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	arch	arch	NOUN	NN	Number=Sing	22	nmod	_	_
+27	over	over	ADP	IN	_	29	case	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	head	head	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The walls were polished and slippery.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	walls	wall	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	polished	polished	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	slippery	slippery	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = The crab was nowhere visible.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	crab	crab	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	nowhere	nowhere	ADV	RB	_	5	advmod	_	_
+5	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = He gained his feet and advanced in daylight growing fainter, so that he began to lose the power to distinguish objects.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gained	gain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	feet	foot	NOUN	NNS	Number=Plur	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	advanced	advance	ADJ	JJ	Degree=Pos	2	conj	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	daylight	daylight	NOUN	NN	Number=Sing	9	compound	_	_
+9	growing	grow	VERB	VBG	VerbForm=Ger	10	amod	_	_
+10	fainter	fainter	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	so	so	SCONJ	IN	_	15	mark	_	_
+13	that	that	SCONJ	IN	_	12	fixed	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	lose	lose	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	power	power	NOUN	NN	Number=Sing	17	obj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	distinguish	distinguish	VERB	VB	VerbForm=Inf	17	advcl	_	_
+22	objects	object	NOUN	NNS	Number=Plur	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

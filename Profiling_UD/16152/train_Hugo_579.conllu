@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Madame Thénardier had allowed her husband to have his own way, as was her wont.
+1	Madame	Madame	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Thénardier	Thénardier	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	husband	husband	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	have	have	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	own	own	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	way	way	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	as	as	SCONJ	IN	_	16	mark	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	wont	wont	NOUN	NN	Number=Sing	4	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She had expected great results.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	results	result	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = When the man and Cosette had taken their departure, Thénardier allowed a full quarter of an hour to elapse; then he took her aside and showed her the fifteen hundred francs.
+1	When	when	ADV	WRB	PronType=Int	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	man	man	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	Cosette	Cosette	PROPN	NNP	Number=Sing	3	conj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	12	advcl	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	departure	departure	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	Thénardier	Thénardier	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	allowed	allow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	full	full	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	quarter	quarter	NOUN	NN	Number=Sing	12	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	hour	hour	NOUN	NN	Number=Sing	15	nmod	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	elapse	elapse	VERB	VB	VerbForm=Inf	18	acl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	12	punct	_	_
+22	then	then	ADV	RB	PronType=Dem	24	advmod	_	_
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	aside	aside	ADV	RB	_	24	advmod	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	conj	_	_
+29	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	iobj	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+31	fifteen	fifteen	NUM	CD	NumType=Card	32	compound	_	_
+32	hundred	hundred	NUM	CD	NumType=Card	33	nummod	_	_
+33	francs	franc	NOUN	NNS	Number=Plur	28	obj	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

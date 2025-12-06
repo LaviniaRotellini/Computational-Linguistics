@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Will spoke at random: he was merely venting his petulance; it was a little too exasperating to have his grandmother’s portrait offered him at that moment.
+1	Will	will	AUX	MD	VerbForm=Fin	2	aux	_	_
+2	spoke	speak	VERB	VB	VerbForm=Inf	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	random	random	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	merely	merely	ADV	RB	_	9	advmod	_	_
+9	venting	vent	VERB	VBG	VerbForm=Ger	2	parataxis	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	petulance	petulance	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	2	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	18	obl:npmod	_	_
+17	too	too	ADV	RB	_	18	advmod	_	_
+18	exasperating	exasperat	VERB	VBG	VerbForm=Ger	2	parataxis	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	have	have	VERB	VB	VerbForm=Inf	18	advcl	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	grandmother	grandmother	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	_
+24	portrait	portrait	NOUN	NN	Number=Sing	25	nsubj	_	_
+25	offered	offer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	at	at	ADP	IN	_	29	case	_	_
+28	that	that	DET	DT	Number=Sing|PronType=Dem	29	det	_	_
+29	moment	moment	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But to Dorothea’s feeling his words had a peculiar sting.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	to	to	ADP	IN	_	5	mark	_	_
+3	Dorothea	Dorothea	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	’s	's	PART	POS	_	3	case	_	_
+5	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	words	word	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	peculiar	peculiar	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sting	sting	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = She rose and said with a touch of indignation as well as hauteur—
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	touch	touch	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	indignation	indignation	NOUN	NN	Number=Sing	7	nmod	_	_
+10	as	as	ADV	RB	_	13	cc	_	_
+11	well	well	ADV	RB	Degree=Pos	10	fixed	_	_
+12	as	as	ADP	IN	_	10	fixed	_	_
+13	hauteur	hauteur	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+14	—	-	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Presently, Joe came back, saying that the man was gone, but that he, Joe, had left word at the Three Jolly Bargemen concerning the notes.
+1	Presently	presently	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	Joe	Joe	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	back	back	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	saying	say	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	gone	gone	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	21	punct	_	_
+14	but	but	CCONJ	CC	_	21	cc	_	_
+15	that	that	SCONJ	IN	_	21	mark	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	Joe	Joe	PROPN	NNP	Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+21	left	left	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+22	word	word	NOUN	NN	Number=Sing	21	obj	_	_
+23	at	at	ADP	IN	_	27	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	Three	Three	PROPN	NNP	Number=Sing	27	compound	_	_
+26	Jolly	Jolly	PROPN	NNP	Number=Sing	27	compound	_	_
+27	Bargemen	Bargemen	PROPN	NNP	Number=Sing	21	obl	_	_
+28	concerning	concern	VERB	VBG	VerbForm=Ger	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	notes	note	NOUN	NNS	Number=Plur	21	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Then my sister sealed them up in a piece of paper, and put them under some dried rose-leaves in an ornamental teapot on the top of a press in the state parlour.
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	sister	sister	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	sealed	seal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	up	up	ADP	RP	_	4	compound:prt	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	piece	piece	NOUN	NN	Number=Sing	4	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	paper	paper	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	under	under	ADP	IN	_	21	case	_	_
+17	some	some	DET	DT	_	21	det	_	_
+18	dried	dry	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+19	rose	rose	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	leaves	leave	NOUN	NNS	Number=Plur	14	obl	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	ornamental	ornamental	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	teapot	teapot	NOUN	NN	Number=Sing	14	obl	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	top	top	NOUN	NN	Number=Sing	25	nmod	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	press	press	NOUN	NN	Number=Sing	28	nmod	_	_
+32	in	in	ADP	IN	_	35	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	state	state	NOUN	NN	Number=Sing	35	compound	_	_
+35	parlour	parlour	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = There they remained, a nightmare to me, many and many a night and day.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	nightmare	nightmare	NOUN	NN	Number=Sing	3	conj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	many	many	ADJ	JJ	Degree=Pos	3	conj	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	many	many	DET	PDT	_	14	nsubj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	night	night	NOUN	NN	Number=Sing	3	conj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	day	day	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

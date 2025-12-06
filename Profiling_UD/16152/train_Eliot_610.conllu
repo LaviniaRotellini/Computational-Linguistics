@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am sure Mrs. Garth would agree with you there,” said Mr. Farebrother, who for some reason seemed more inclined to ruminate than to speak.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+6	Garth	Garth	PROPN	NNP	Number=Sing	5	flat	_	_
+7	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	agree	agree	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+9	with	with	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	_
+11	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	14	nsubj	_	_
+16	Farebrother	Farebrother	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	15	punct	_	_
+18	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+19	for	for	ADP	IN	_	21	case	_	_
+20	some	some	DET	DT	_	21	det	_	_
+21	reason	reason	NOUN	NN	Number=Sing	22	obl	_	_
+22	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+23	more	more	ADV	RBR	_	24	advmod	_	_
+24	inclined	inclined	ADJ	JJ	Degree=Pos	22	xcomp	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	ruminate	ruminate	VERB	VB	VerbForm=Inf	24	advcl	_	_
+27	than	than	SCONJ	IN	_	29	mark	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	speak	speak	VERB	VB	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “One could hardly say that the feeling you mention about Fred is wrong—or rather, mistaken—though no man ought to make a claim on such feeling.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	One	one	PRON	PRP	_	5	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	hardly	hardly	ADV	RB	_	5	advmod	_	_
+5	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	14	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	feeling	feeling	NOUN	NN	Number=Sing	14	nsubj	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	mention	mention	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	about	about	ADP	IN	_	12	case	_	_
+12	Fred	Fred	PROPN	NNP	Number=Sing	10	obl	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	wrong	wrong	ADJ	JJ	Degree=Pos	5	ccomp	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	19	punct	_	SpaceAfter=No
+16	or	or	CCONJ	CC	_	19	cc	_	_
+17	rather	rather	ADV	RB	_	19	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	mistaken	mistake	ADJ	JJ	Degree=Pos	14	conj	_	SpaceAfter=No
+20	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+21	though	though	SCONJ	IN	_	26	mark	_	_
+22	no	no	DET	DT	_	23	det	_	_
+23	man	man	NOUN	NN	Number=Sing	26	nsubj	_	_
+24	ought	ought	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	make	make	VERB	VB	VerbForm=Inf	5	advcl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	claim	claim	NOUN	NN	Number=Sing	26	obj	_	_
+29	on	on	ADP	IN	_	31	case	_	_
+30	such	such	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	feeling	feeling	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	26	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

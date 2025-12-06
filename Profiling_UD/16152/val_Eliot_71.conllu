@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ugh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ugh	ugh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = you coward!” said Tom, and kicked him over, feeling humiliated as a sportsman to possess so poor-spirited an animal.
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	coward	coward	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	kicked	kick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	over	over	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	feeling	feel	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	humiliated	humiliate	VERB	VBN	Tense=Past|VerbForm=Part	13	xcomp	_	_
+15	as	as	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	sportsman	sportsman	NOUN	NN	Number=Sing	13	obl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	possess	possess	NOUN	NNS	Number=Plur	17	nmod	_	_
+20	so	so	ADV	RB	_	21	advmod	_	_
+21	poor-spirited	poor-spirit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	animal	animal	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Bob abstained from remark and passed on, choosing, however, to walk in the shallow edge of the overflowing river by way of change.
+1	Bob	Bob	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	abstained	abstain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	from	from	ADP	IN	_	4	case	_	_
+4	remark	remark	NOUN	NN	Number=Sing	2	obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+7	on	on	ADP	RP	_	6	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	choosing	choose	VERB	VBG	VerbForm=Ger	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	however	however	ADV	RB	_	2	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	walk	walk	VERB	VB	VerbForm=Inf	2	advcl	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	shallow	shallow	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	edge	edge	NOUN	NN	Number=Sing	14	obl	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	overflowing	overflow	VERB	VBG	VerbForm=Ger	18	acl	_	_
+22	river	river	NOUN	NN	Number=Sing	21	obj	_	_
+23	by	by	ADP	IN	_	24	case	_	_
+24	way	way	NOUN	NN	Number=Sing	21	obl	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	change	change	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

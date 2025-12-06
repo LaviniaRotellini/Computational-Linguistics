@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How dare you make any comparison between my father and you, Fred?” said Mary, in a deep tone of indignation.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	dare	dare	ADJ	JJ	Degree=Pos	5	obj	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	comparison	comparison	NOUN	NN	Number=Sing	5	obj	_	_
+8	between	between	ADP	IN	_	10	case	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	father	father	NOUN	NN	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	Fred	F	PROPN	NNP	Number=Sing	10	conj	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	Mary	Mary	PROPN	NNP	Number=Sing	17	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	in	in	ADP	IN	_	23	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	deep	deep	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	tone	tone	NOUN	NN	Number=Sing	18	nmod	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	indignation	indignation	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = 2
+# text = “He never got into trouble by thinking of his own idle pleasures, but because he was always thinking of the work he was doing for other people.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	into	into	ADP	IN	_	6	case	_	_
+6	trouble	trouble	NOUN	NN	Number=Sing	4	obl	_	_
+7	by	by	SCONJ	IN	_	8	mark	_	_
+8	thinking	think	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	of	of	ADP	IN	_	13	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+11	own	own	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	idle	idle	NOUN	NN	Number=Sing	13	compound	_	_
+13	pleasures	pleasur	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	but	but	CCONJ	CC	_	20	cc	_	_
+16	because	because	SCONJ	IN	_	20	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	always	always	ADV	RB	_	20	advmod	_	_
+20	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	work	work	NOUN	NN	Number=Sing	20	obl	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	_
+26	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	23	acl:relcl	_	_
+27	for	for	ADP	IN	_	29	case	_	_
+28	other	other	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	people	people	NOUN	NNS	Number=Plur	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And he has fared hard, and worked hard to make good everybody’s loss.”
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fared	far	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	hard	hard	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	hard	hard	ADV	RB	Degree=Pos	8	advmod	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	make	make	VERB	VB	VerbForm=Inf	8	advcl	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	everybody	everybody	PRON	NN	Number=Sing	15	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	loss	lose	VERB	VB	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

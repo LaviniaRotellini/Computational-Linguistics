@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In the morning Miss Murdstone appeared as usual, and told me I was going to school; which was not altogether such news to me as she supposed.
+1	In	in	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	morning	morning	NOUN	NN	Number=Sing	5	compound	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Murdstone	Murdstone	PROPN	NNP	Number=Sing	6	obl	_	_
+6	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	as	as	ADP	IN	_	8	case	_	_
+8	usual	usual	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	going	go	VERB	VBG	VerbForm=Ger	11	ccomp	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	school	school	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	6	punct	_	_
+19	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+21	not	not	PART	RB	_	24	advmod	_	_
+22	altogether	altogether	ADV	RB	_	24	advmod	_	_
+23	such	such	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	news	news	NOUN	NN	Number=Sing	6	acl:relcl	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	nmod	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = 2
+# text = She also informed me that when I was dressed, I was to come downstairs into the parlour, and have my breakfast.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	informed	inform	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	come	come	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+15	downstairs	downstairs	ADV	RB	_	14	advmod	_	_
+16	into	into	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	parlour	parlour	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	have	have	VERB	VB	VerbForm=Inf	12	conj	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	breakfast	breakfast	NOUN	NN	Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = There, I found my mother, very pale and with red eyes: into whose arms I ran, and begged her pardon from my suffering soul.
+1	There	there	PRON	EX	_	4	expl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	mother	mother	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	pale	pale	ADJ	JJ	Degree=Pos	13	amod	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	red	red	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	eyes	eye	NOUN	NNS	Number=Plur	4	conj	_	SpaceAfter=No
+14	:	:	PUNCT	:	_	4	punct	_	_
+15	into	into	ADP	IN	_	17	case	_	_
+16	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	17	nmod:poss	_	_
+17	arms	arm	NOUN	NNS	Number=Plur	19	obl	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	begged	beg	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+23	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	pardon	pardon	NOUN	NN	Number=Sing	22	obj	_	_
+25	from	from	ADP	IN	_	28	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	suffering	suffering	NOUN	NN	Number=Sing	28	compound	_	_
+28	soul	soul	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

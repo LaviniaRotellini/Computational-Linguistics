@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It was understood from the beginning that my services would be gratuitous.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	understood	understand	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	beginning	beginning	NOUN	NN	Number=Sing	4	obl	_	_
+8	that	that	SCONJ	IN	_	13	mark	_	_
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	services	service	NOUN	NNS	Number=Plur	13	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	cop	_	_
+13	gratuitous	gratuitous	ADJ	JJ	Degree=Pos	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = That, again, need not enter into our discussion.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	not	not	ADV	RB	_	7	advmod	_	_
+7	enter	enter	ADJ	JJR	Degree=Cmp	5	xcomp	_	_
+8	into	into	ADP	IN	_	10	case	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	discussion	discussion	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I have pointed out what is the only probability,” said Lydgate, impatiently.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pointed	point	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	what	what	PRON	WP	PronType=Int	3	ccomp	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	only	only	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	probability	probability	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Lydgate	Lydgate	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	impatiently	impatiently	ADV	RB	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Then checking himself, he went on more quietly—
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	checking	check	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	on	on	ADV	RB	_	8	advmod	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	quietly	quietly	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	—	-	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

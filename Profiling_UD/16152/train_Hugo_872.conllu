@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = For many great deeds are performed in petty combats.
+1	For	for	ADP	IN	_	4	case	_	_
+2	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	great	great	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	deeds	deed	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	petty	petty	NOUN	NN	Number=Sing	9	compound	_	_
+9	combats	combat	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = There are instances of bravery ignored and obstinate, which defend themselves step by step in that fatal onslaught of necessities and turpitudes.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	instances	instance	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	bravery	bravery	NOUN	NN	Number=Sing	3	nmod	_	_
+6	ignored	ignore	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	obstinate	obstinate	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	defend	defend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+12	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	step	step	VERB	VBN	Tense=Past|VerbForm=Part	11	xcomp	_	_
+14	by	by	ADP	IN	_	15	case	_	_
+15	step	step	NOUN	NN	Number=Sing	13	obl	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	fatal	fatal	NOUN	NN	Number=Sing	13	obl	_	_
+19	onslaught	onslatch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	necessities	necessity	NOUN	NNS	Number=Plur	19	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	turpitudes	turpitude	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Noble and mysterious triumphs which no eye beholds, which are requited with no renown, which are saluted with no trumpet blast.
+1	Noble	Noble	PROPN	NNP	Number=Sing	0	root	_	_
+2	and	and	CCONJ	CC	_	4	cc	_	_
+3	mysterious	mysterious	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	triumphs	triumph	NOUN	NNS	Number=Plur	1	conj	_	_
+5	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+6	no	no	DET	DT	_	8	det	_	_
+7	eye	eye	NOUN	NN	Number=Sing	8	compound	_	_
+8	beholds	behold	NOUN	NNS	Number=Plur	1	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	which	which	PRON	WDT	PronType=Rel	12	nsubj:pass	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	requited	requit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+13	with	with	ADP	IN	_	15	case	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	renown	renown	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	8	punct	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj:pass	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+19	saluted	salute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+20	with	with	ADP	IN	_	23	case	_	_
+21	no	no	DET	DT	_	23	det	_	_
+22	trumpet	trumpet	NOUN	NN	Number=Sing	23	compound	_	_
+23	blast	blast	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Life, misfortune, isolation, abandonment, poverty, are the fields of battle which have their heroes; obscure heroes, who are, sometimes, grander than the heroes who win renown.
+1	Life	life	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	misfortune	misfortune	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	isolation	isolation	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	abandonment	abandonment	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	poverty	poverty	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	fields	field	NOUN	NNS	Number=Plur	0	root	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	battle	battle	NOUN	NN	Number=Sing	13	nmod	_	_
+16	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	heroes	hero	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	13	punct	_	_
+21	obscure	obscure	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	heroes	hero	NOUN	NNS	Number=Plur	13	appos	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	13	punct	_	_
+24	who	who	PRON	WP	PronType=Rel	29	nsubj	_	_
+25	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	sometimes	sometimes	ADV	RB	_	29	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	_	_
+29	grander	grander	ADJ	JJR	Degree=Cmp	13	acl:relcl	_	_
+30	than	than	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	heroes	hero	NOUN	NNS	Number=Plur	29	obl	_	_
+33	who	who	PRON	WP	PronType=Rel	34	nsubj	_	_
+34	win	win	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	renown	renown	ADV	RB	_	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+

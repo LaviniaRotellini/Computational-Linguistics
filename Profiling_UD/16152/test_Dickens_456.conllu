@@ -1,0 +1,61 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “When he come to the grave,” said our conductor, “he showed his cloak beautiful.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	come	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	grave	grave	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	conductor	conductor	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	cloak	cloak	NOUN	NN	Number=Sing	16	obj	_	_
+19	beautiful	beautiful	ADJ	JJ	Degree=Pos	16	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = But, judging from the wing, it looked to me that when he see the ghost in the queen’s apartment, he might have made more of his stockings.”
+1	But	but	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	judging	judge	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+4	from	from	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	wing	wing	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	that	that	SCONJ	IN	_	27	mark	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	ghost	ghost	NOUN	NN	Number=Sing	15	obj	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	queen	queen	NOUN	NN	Number=Sing	22	nmod:poss	_	SpaceAfter=No
+21	’s	's	PART	POS	_	20	case	_	_
+22	apartment	apartment	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	27	punct	_	_
+24	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+25	might	might	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	have	have	AUX	VB	VerbForm=Inf	27	aux	_	_
+27	made	make	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	_
+28	more	more	ADJ	JJR	Degree=Cmp	27	obj	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	stockings	stocking	NOUN	NNS	Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

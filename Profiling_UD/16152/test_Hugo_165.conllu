@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Claude Frollo had been destined from infancy, by his parents, to the ecclesiastical profession.
+1	Claude	Claude	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+2	Frollo	Frollo	PROPN	NNP	Number=Sing	1	flat	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	destined	destin	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	infancy	infancy	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	by	by	ADP	IN	_	11	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	parents	parent	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	5	punct	_	_
+13	to	to	ADP	IN	_	16	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	ecclesiastical	ecclesiastical	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	profession	profession	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He had been taught to read in Latin; he had been trained to keep his eyes on the ground and to speak low.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	taught	teach	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	read	read	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Latin	latin	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	4	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	aux:pass	_	_
+13	trained	train	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	keep	keep	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	eyes	eye	NOUN	NNS	Number=Plur	15	obj	_	_
+18	on	on	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	ground	ground	NOUN	NN	Number=Sing	15	obl	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	speak	speak	VERB	VB	VerbForm=Inf	4	conj	_	_
+24	low	low	ADV	RB	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = While still a child, his father had cloistered him in the college of Torchi in the University.
+1	While	while	SCONJ	IN	_	4	mark	_	_
+2	still	still	ADV	RB	_	4	advmod	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	child	child	NOUN	NN	Number=Sing	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	father	father	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	cloistered	cloister	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	college	college	NOUN	NN	Number=Sing	9	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	Torchi	Torchi	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	University	University	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = There it was that he had grown up, on the missal and the lexicon.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	missal	missal	NOUN	NN	Number=Sing	7	obl	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	lexicon	lexicon	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

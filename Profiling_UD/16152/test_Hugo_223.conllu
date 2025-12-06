@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The clerk presented the sentence to the provost, who affixed his seal to it, and departed to pursue his round of the audience hall, in a frame of mind which seemed destined to fill all the jails in Paris that day.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	clerk	clerk	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	presented	present	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	sentence	sentence	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	provost	provost	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	affixed	affix	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	seal	seal	NOUN	NN	Number=Sing	11	obj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	departed	depart	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	pursue	pursue	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	round	round	ADP	IN	_	26	case	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	audience	audience	NOUN	NN	Number=Sing	26	compound	_	_
+26	hall	hall	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	3	punct	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	frame	frame	NOUN	NN	Number=Sing	3	obl	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	mind	mind	NOUN	NN	Number=Sing	30	nmod	_	_
+33	which	which	PRON	WDT	PronType=Rel	34	nsubj	_	_
+34	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
+35	destined	destin	NOUN	NN	Number=Sing	34	obj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	fill	fill	VERB	VB	VerbForm=Inf	34	xcomp	_	_
+38	all	all	DET	PDT	_	40	det:predet	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	jails	jail	NOUN	NNS	Number=Plur	37	obj	_	_
+41	in	in	ADP	IN	_	42	case	_	_
+42	Paris	Paris	PROPN	NNP	Number=Sing	37	obl	_	_
+43	that	that	DET	DT	Number=Sing|PronType=Dem	44	det	_	_
+44	day	day	NOUN	NN	Number=Sing	37	obl:tmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Jehan Frollo and Robin Poussepain laughed in their sleeves.
+1	Jehan	Jehan	PROPN	NNP	Number=Sing	6	nsubj	_	_
+2	Frollo	Frollo	PROPN	NNP	Number=Sing	1	flat	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	Robin	Robin	PROPN	NNP	Number=Sing	1	conj	_	_
+5	Poussepain	Poussepain	PROPN	NNP	Number=Sing	4	flat	_	_
+6	laughed	laugh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	sleeves	sleeve	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Quasimodo gazed on the whole with an indifferent and astonished air.
+1	Quasimodo	Quasimodo	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	gazed	gaze	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	on	on	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	whole	whole	ADJ	JJ	Degree=Pos	2	obl	_	_
+6	with	with	ADP	IN	_	11	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	indifferent	indifferent	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	astonished	astonish	ADJ	JJ	Degree=Pos	8	conj	_	_
+11	air	air	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

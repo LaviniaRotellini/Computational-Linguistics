@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Non, je ne comprends pas de plus charmant plaisir
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Non	non	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	je	je	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	ne	ne	PRON	PRP	_	6	nsubj	_	_
+6	comprends	comprend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	pas	pas	NOUN	NNS	Number=Plur	6	obj	_	_
+8	de	de	X	FW	Foreign=Yes	11	case	_	_
+9	plus	plus	CCONJ	CC	_	10	cc	_	_
+10	charmant	charmant	NOUN	NN	Number=Sing	8	conj	_	_
+11	plaisir	plaisir	NOUN	NN	Number=Sing	7	nmod	_	_
+
+# sent_id = 2
+# text = Que de voir d’héritiers une troupe affligée Le maintien interdit, et la mine allongée, Lire un long testament où pales, étonnés
+1	Que	que	PROPN	NNP	Number=Sing	0	root	_	_
+2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+3	voir	voir	PROPN	NNP	Number=Sing	1	flat	_	_
+4	d	would	PROPN	NNP	Number=Sing	5	compound	_	SpaceAfter=No
+5	’héritiers	’héritier	NOUN	NNS	Number=Plur|Typo=Yes	23	compound	_	_
+6	une	une	NUM	CD	NumType=Card	7	nummod	_	_
+7	troupe	troupe	NOUN	NN	Number=Sing	23	compound	_	_
+8	affligée	affligée	ADP	IN	_	9	case	_	_
+9	Le	Le	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	maintien	maintien	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+11	interdit	interdit	NOUN	NN	Number=Sing	9	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	et	et	X	FW	_	15	advmod	_	_
+14	la	la	X	FW	Foreign=Yes	15	goeswith	_	_
+15	mine	mine	PRON	PRP	_	9	parataxis	_	_
+16	allongée	allongée	NOUN	NN	Number=Sing	18	compound	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	Lire	Lire	PROPN	NNP	Number=Sing	15	conj	_	_
+19	un	un	ADJ	JJ	Degree=Pos	23	amod	_	_
+20	long	long	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	testament	testament	NOUN	NN	Number=Sing	23	compound	_	_
+22	où	où	NOUN	NN	Number=Sing	23	compound	_	_
+23	pales	pal	NOUN	NNS	Number=Plur	1	list	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	1	punct	_	_
+25	étonnés	étonné	NOUN	NNS	Number=Plur	1	list	_	_
+
+# sent_id = 3
+# text = On leur laisse un bonsoir avec un pied de nez.
+1	On	on	ADP	IN	_	3	case	_	_
+2	leur	leur	NUM	CD	NumType=Card	3	nummod	_	_
+3	laisse	laisse	NOUN	NN	Number=Sing	10	obl	_	_
+4	un	un	X	GW	_	8	goeswith	_	_
+5	bonsoir	bonsoir	X	GW	_	8	goeswith	_	_
+6	avec	avec	X	GW	_	8	goeswith	_	_
+7	un	un	X	GW	_	8	goeswith	_	_
+8	pied	py	VERB	VBN	Tense=Past|VerbForm=Part	10	conj	_	_
+9	de	de	X	FW	Foreign=Yes	10	goeswith	_	_
+10	nez	nez	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = Pour voir au naturel leur tristesse profonde
+1	Pour	pour	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	voir	voir	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	au	au	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	naturel	naturel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	leur	leur	NUM	CD	NumType=Card	7	nummod	_	_
+6	tristesse	tristesse	NOUN	NN	Number=Sing	7	compound	_	_
+7	profonde	profonde	NOUN	NN	Number=Sing	4	obj	_	_
+
+# sent_id = 5
+# text = Je reviendrais, je crois, exprès de l’autre monde.”
+1	Je	Je	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	reviendrais	reviendrais	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	je	je	NOUN	NN	Number=Sing	5	compound	_	_
+5	crois	crois	NOUN	NNS	Number=Plur	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	exprès	exprè	NOUN	NNS	Number=Plur	2	list	_	_
+8	de	de	X	FW	Foreign=Yes	10	goeswith	_	_
+9	l’autre	l’autre	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	monde	monde	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 6
+# text = —REGNARD: _Le Légataire Universel_.
+1	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+2	REGNARD	Regnard	ADP	IN	_	6	case	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	6	punct	_	_
+4	_Le	_Le	PROPN	NNP	Number=Sing	6	compound	_	_
+5	Légataire	Légataire	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Universel_	universel_	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

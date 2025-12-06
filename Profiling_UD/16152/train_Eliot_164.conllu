@@ -1,0 +1,99 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Come into my room, Rosamond, you will not mind the cold for a little while,” said Mary.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	21	ccomp	_	_
+3	into	into	ADP	IN	_	5	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	room	room	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	Rosamond	Rosamond	PROPN	NNP	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	mind	mind	VERB	VB	VerbForm=Inf	2	conj	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	cold	cold	NOUN	NN	Number=Sing	12	obj	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	while	while	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	21	punct	_	_
+21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Mary	Mary	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = The two girls had not only known each other in childhood, but had been at the same provincial school together (Mary as an articled pupil), so that they had many memories in common, and liked very well to talk in private.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	nummod	_	_
+3	girls	girls	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+5	not	not	PART	RB	_	7	advmod	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	known	know	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	each	each	DET	DT	_	9	det	_	_
+9	other	other	ADJ	JJ	Degree=Pos	7	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	childhood	childhood	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	20	punct	_	_
+13	but	but	CCONJ	CC	_	20	cc	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	cop	_	_
+16	at	at	ADP	IN	_	20	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+18	same	same	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	provincial	provincial	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	school	school	NOUN	NN	Number=Sing	7	conj	_	_
+21	together	together	ADV	RB	_	20	advmod	_	_
+22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
+23	Mary	Mary	PROPN	NNP	Number=Sing	20	appos	_	_
+24	as	as	ADP	IN	_	27	case	_	_
+25	an	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	articled	article	VERB	VBN	Tense=Past|VerbForm=Part	27	amod	_	_
+27	pupil	pupil	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	23	punct	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	7	punct	_	_
+30	so	so	SCONJ	IN	_	33	mark	_	_
+31	that	that	SCONJ	IN	_	30	fixed	_	_
+32	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
+33	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+34	many	many	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	memories	memory	NOUN	NNS	Number=Plur	33	obj	_	_
+36	in	in	ADP	IN	_	37	case	_	_
+37	common	common	ADJ	JJ	Degree=Pos	33	obl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	and	and	CCONJ	CC	_	40	cc	_	_
+40	liked	like	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+41	very	very	ADV	RB	_	42	advmod	_	_
+42	well	well	ADV	RB	Degree=Pos	40	advmod	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	talk	talk	VERB	VB	VerbForm=Inf	40	xcomp	_	_
+45	in	in	ADP	IN	_	46	case	_	_
+46	private	private	ADJ	JJ	Degree=Pos	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Indeed, this _tête-à-tête_ was one of Rosamond’s objects in coming to Stone Court.
+1	Indeed	indeed	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	_tête-à	_tête-à	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	tête_	tête_	SYM	NFP	_	4	discourse	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	one	one	NUM	CD	NumType=Card	0	root	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	Rosamond	Rosamond	PROPN	NNP	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	’s	's	PART	POS	_	10	case	_	_
+12	objects	object	NOUN	NNS	Number=Plur	8	nmod	_	_
+13	in	in	SCONJ	IN	_	14	mark	_	_
+14	coming	come	VERB	VBG	VerbForm=Ger	8	acl	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	Stone	Stone	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Court	Court	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

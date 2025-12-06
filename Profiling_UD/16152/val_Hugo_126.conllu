@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = This term Douvres, applied to rocks and cliffs, is very common.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	term	term	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	Douvres	Douvre	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	rocks	rock	NOUN	NNS	Number=Plur	5	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	cliffs	cliff	NOUN	NNS	Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	common	common	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = There is, for example, near the _Côtes du Nord_, a Douvre, on which a lighthouse is now being constructed, a dangerous reef; but one which must not be confounded with the rock above referred to.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	example	example	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	near	near	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	_Côtes	_Côtes	PROPN	NNP	Number=Sing	11	compound	_	_
+10	du	du	NOUN	NN	Number=Sing	11	compound	_	_
+11	Nord_	nord_	NOUN	NN	Number=Sing	24	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	Douvre	Douvre	NOUN	NN	Number=Sing	11	appos	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	_	_
+16	on	on	ADP	IN	_	17	case	_	_
+17	which	which	PRON	WDT	PronType=Rel	23	obl	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	lighthouse	lighthouse	NOUN	NN	Number=Sing	23	nsubj:pass	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	now	now	ADV	RB	_	23	advmod	_	_
+22	being	be	AUX	VBG	VerbForm=Ger	23	aux:pass	_	_
+23	constructed	construct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	dangerous	dangerous	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	reef	reef	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+28	;	;	PUNCT	,	_	2	punct	_	_
+29	but	but	CCONJ	CC	_	30	cc	_	_
+30	one	one	NUM	CD	NumType=Card	2	conj	_	_
+31	which	which	PRON	WDT	PronType=Rel	35	nsubj:pass	_	_
+32	must	must	AUX	MD	VerbForm=Fin	35	aux	_	_
+33	not	not	PART	RB	_	35	advmod	_	_
+34	be	be	AUX	VB	VerbForm=Inf	35	aux:pass	_	_
+35	confounded	confound	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	acl:relcl	_	_
+36	with	with	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	rock	rock	NOUN	NN	Number=Sing	35	obl	_	_
+39	above	above	ADP	IN	_	40	advmod	_	_
+40	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part	38	acl	_	_
+41	to	to	ADP	IN	_	40	obl	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

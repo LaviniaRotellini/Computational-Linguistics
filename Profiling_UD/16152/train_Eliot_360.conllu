@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I suppose your father wanted your earnings,” said old Mr. Featherstone, with his usual power of unpleasant surmise, when Mary returned to him.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	father	father	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	earnings	earning	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+14	Featherstone	Featherstone	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	with	with	ADP	IN	_	19	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	usual	usual	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	power	power	NOUN	NN	Number=Sing	13	nmod	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	unpleasant	unpleasant	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	surmise	surmise	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	11	punct	_	_
+24	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+25	Mary	Mary	PROPN	NNP	Number=Sing	26	nsubj	_	_
+26	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = “He makes but a tight fit, I reckon.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	but	but	CCONJ	CC	_	7	cc	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	tight	tight	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	fit	fit	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	reckon	reckon	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You’re of age now; you ought to be saving for yourself.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	age	age	NOUN	NN	Number=Sing	2	obl	_	_
+5	now	now	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	2	punct	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+8	ought	ing	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux	_	_
+11	saving	save	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

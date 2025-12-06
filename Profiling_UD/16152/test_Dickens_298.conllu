@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Miss Havisham was taking exercise in the room with the long spread table, leaning on her crutch stick.
+1	Miss	miss	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Havisham	Havisham	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	exercise	exercise	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	room	room	NOUN	NN	Number=Sing	4	obl	_	_
+9	with	with	ADP	IN	_	13	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	spread	spread	NOUN	NN	Number=Sing	13	compound	_	_
+13	table	table	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	leaning	lean	VERB	VBG	VerbForm=Ger	4	conj	_	_
+16	on	on	ADP	IN	_	19	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	crutch	crutch	NOUN	NN	Number=Sing	19	compound	_	_
+19	stick	stick	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The room was lighted as of yore, and at the sound of our entrance, she stopped and turned.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	room	room	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	lighted	lighted	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	of	of	ADP	IN	_	5	fixed	_	_
+7	yore	yore	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	18	punct	_	_
+9	and	and	CCONJ	CC	_	18	cc	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	sound	sound	NOUN	NN	Number=Sing	18	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	entrance	entrance	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She was then just abreast of the rotted bride-cake.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	abreast	abreast	ADV	RBS	Degree=Sup	2	advmod	_	_
+6	of	of	ADP	IN	_	11	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+8	rotted	rot	VERB	VBN	Tense=Past|VerbForm=Part	11	amod	_	_
+9	bride	bride	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	cake	cake	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

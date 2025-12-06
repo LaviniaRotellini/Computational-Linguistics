@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then you don’t?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Very well.
+1	Very	very	ADV	RB	_	2	advmod	_	_
+2	well	well	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It is said, at any rate.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	any	any	DET	DT	_	7	det	_	_
+7	rate	rate	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Miss Havisham will soon be expecting you at your old post, though I think that might be laid aside now, with other old belongings.
+1	Miss	miss	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Havisham	Havisham	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	soon	soon	ADV	RB	Degree=Pos	6	advmod	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux	_	_
+6	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obj	_	_
+8	at	at	ADP	IN	_	11	case	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	old	old	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	post	post	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	though	though	SCONJ	IN	_	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	_	_
+17	might	might	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	laid	laid	ADJ	JJ	Degree=Pos	15	ccomp	_	_
+20	aside	aside	ADV	RB	_	19	advmod	_	_
+21	now	now	ADV	RB	_	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	other	other	ADJ	JJ	Degree=Pos	26	amod	_	_
+25	old	old	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	belongings	belonging	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Let us make one more round of the garden, and then go in.
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	make	make	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	one	one	NUM	CD	NumType=Card	3	obj	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	4	amod	_	_
+6	round	round	ADP	IN	_	9	case	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	garden	garden	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	then	then	ADV	RB	PronType=Dem	13	advmod	_	_
+13	go	go	VERB	VB	VerbForm=Inf	1	conj	_	_
+14	in	in	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Come!
+1	Come	come	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = You shall not shed tears for my cruelty to-day; you shall be my Page, and give me your shoulder.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	shed	shed	VERB	VB	VerbForm=Inf	0	root	_	_
+5	tears	tear	NOUN	NNS	Number=Plur	4	obj	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	cruelty	cruelty	NOUN	NN	Number=Sing	4	obl	_	_
+9	to	to	ADP	IN	_	11	case	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	day	day	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	4	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+14	shall	shall	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	Page	page	NOUN	NN	Number=Sing	4	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	give	give	VERB	VB	VerbForm=Inf	17	conj	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	shoulder	shoulder	NOUN	NN	Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

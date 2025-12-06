@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Afterwards, the wall was whitewashed or scraped down, I know not which, and the inscription disappeared.
+1	Afterwards	afterwards	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	wall	wall	NOUN	NN	Number=Sing	6	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	whitewashed	whitewash	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	or	or	CCONJ	CC	_	8	cc	_	_
+8	scraped	scrape	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+9	down	down	ADP	RP	_	8	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	which	which	PRON	WDT	PronType=Int	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	inscription	inscription	NOUN	NN	Number=Sing	19	nsubj	_	_
+19	disappeared	disappear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = For it is thus that people have been in the habit of proceeding with the marvellous churches of the Middle Ages for the last two hundred years.
+1	For	for	ADP	IN	_	2	case	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	thus	thus	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	11	mark	_	_
+6	people	people	NOUN	NNS	Number=Plur	11	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	habit	habit	NOUN	NN	Number=Sing	4	csubj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	proceeding	proceeding	NOUN	NN	Number=Sing	11	nmod	_	_
+14	with	with	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	marvellous	marvellous	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	churches	churche	NOUN	NNS	Number=Plur	13	nmod	_	_
+18	of	of	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	Middle	Middle	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Ages	Ages	PROPN	NNPS	Number=Plur	17	nmod	_	_
+22	for	for	ADP	IN	_	27	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+24	last	last	ADJ	JJ	Degree=Pos	27	amod	_	_
+25	two	two	NUM	CD	NumType=Card	26	nummod	_	_
+26	hundred	hundred	NUM	CD	NumType=Card	27	nummod	_	_
+27	years	year	NOUN	NNS	Number=Plur	17	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mutilations come to them from every quarter, from within as well as from without.
+1	Mutilations	Mutilation	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	every	every	DET	DT	_	7	det	_	_
+7	quarter	quarter	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	from	from	ADP	IN	_	2	obl	_	_
+10	within	within	ADP	IN	_	9	case	_	_
+11	as	as	ADV	RB	_	15	cc	_	_
+12	well	well	ADV	RB	Degree=Pos	11	fixed	_	_
+13	as	as	ADP	IN	_	11	fixed	_	_
+14	from	from	ADP	IN	_	15	case	_	_
+15	without	without	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The priest whitewashes them, the archdeacon scrapes them down; then the populace arrives and demolishes them.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	priest	priest	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	whitewashes	whitewash	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	archdeacon	archdeacon	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	scrapes	scrap	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	down	down	ADP	RP	_	8	compound:prt	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	3	punct	_	_
+12	then	then	ADV	RB	PronType=Dem	15	advmod	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	populace	populace	NOUN	NN	Number=Sing	15	compound	_	_
+15	arrives	arrive	NOUN	NNS	Number=Plur	3	parataxis	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	demolishes	demolish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

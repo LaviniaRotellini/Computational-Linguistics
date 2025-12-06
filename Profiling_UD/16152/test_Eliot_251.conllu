@@ -1,0 +1,57 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Eh,” said Lisbeth, “it’s poor luck for the platter to wear well when it’s broke i’ two.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Eh	Eh	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Lisbeth	Lisbeth	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+10	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	poor	poor	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	luck	luck	NOUN	NN	Number=Sing	10	nsubj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	platter	platter	NOUN	NN	Number=Sing	12	nmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	wear	wear	VERB	VB	VerbForm=Inf	12	acl	_	_
+18	well	well	ADV	RB	Degree=Pos	17	advmod	_	_
+19	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+21	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	broke	break	VERB	VB	VerbForm=Inf	25	advcl	_	_
+23	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	’	'	PUNCT	''	_	25	punct	_	_
+25	two	two	NUM	CD	NumType=Card	17	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The sooner I’m laid under the thorn the better.
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	sooner	sooner	ADV	RBR	Degree=Cmp	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	laid	lay	ADJ	JJ	Degree=Pos	0	root	_	_
+6	under	under	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	thorn	thorn	NOUN	NN	Number=Sing	5	obl	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	mark	_	_
+10	better	better	ADJ	JJR	Degree=Cmp	5	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I’m no good to nobody now.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	no	no	ADV	RB	_	4	advmod	_	_
+4	good	good	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	nobody	nobody	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	now	now	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

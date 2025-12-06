@@ -1,0 +1,115 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I think I see one resource which would free us from a good deal of the present difficulty.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	one	one	NUM	CD	NumType=Card	7	nummod	_	_
+7	resource	resource	NOUN	NN	Number=Sing	5	obj	_	_
+8	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	free	free	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	from	from	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	good	good	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	deal	deal	NOUN	NN	Number=Sing	10	obl	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	present	present	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	difficulty	difficulty	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I hear that young Ned Plymdale is going to be married to Miss Sophy Toller.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	young	young	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Ned	Ned	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Plymdale	Plymdale	PROPN	NNP	Number=Sing	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	Miss	miss	PROPN	NNP	Number=Sing	14	compound	_	_
+14	Sophy	Sophy	PROPN	NNP	Number=Sing	11	obl	_	_
+15	Toller	Toller	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = They are rich, and it is not often that a good house is vacant in Middlemarch.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	rich	rich	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	often	ofe	ADV	RB	_	3	conj	_	_
+10	that	that	SCONJ	IN	_	15	mark	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	house	house	NOUN	NN	Number=Sing	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	vacant	vacant	ADJ	JJ	Degree=Pos	9	ccomp	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I feel sure that they would be glad to take this house from us with most of our furniture, and they would be willing to pay handsomely for the lease.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	_
+8	glad	glad	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	take	take	VERB	VB	VerbForm=Inf	8	advcl	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	house	house	NOUN	NN	Number=Sing	10	obj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	_
+15	with	with	ADP	IN	_	16	case	_	_
+16	most	most	ADJ	JJS	Degree=Sup	10	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	furniture	furniture	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	25	punct	_	_
+21	and	and	CCONJ	CC	_	25	cc	_	_
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+23	would	would	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	be	be	AUX	VB	VerbForm=Inf	25	cop	_	_
+25	willing	willing	ADJ	JJ	Degree=Pos	10	conj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	pay	pay	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	handsomely	handsomely	ADV	RB	_	27	advmod	_	_
+29	for	for	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	lease	lease	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I can employ Trumbull to speak to Plymdale about it.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	employ	employ	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Trumbull	Trumbull	PROPN	NNP	Number=Sing	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	speak	speak	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	Plymdale	Plymdale	VERB	VB	VerbForm=Inf	6	advcl	_	_
+9	about	about	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

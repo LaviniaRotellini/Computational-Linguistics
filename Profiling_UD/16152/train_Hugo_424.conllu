@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On emerging from the chapel, a well is visible on the left.
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	emerging	emerging	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+3	from	from	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	chapel	chapel	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	well	well	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	visible	visible	ADJ	JJ	Degree=Pos	0	root	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	left	left	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = There are two in this courtyard.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	two	two	NUM	CD	NumType=Card	2	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	courtyard	courtyard	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = One inquires, Why is there no bucket and pulley to this?
+1	One	one	PRON	PRP	_	2	nsubj	_	_
+2	inquires	inquire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Why	why	PRON	PRP$	_	5	nsubj	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	there	there	PRON	EX	_	5	expl	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	bucket	bucket	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	pulley	pulley	VERB	VB	VerbForm=Inf	5	conj	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+13	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It is because water is no longer drawn there.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	8	mark	_	_
+4	water	water	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	no	no	ADV	RB	_	7	advmod	_	_
+7	longer	longer	ADV	RBR	Degree=Cmp	8	advmod	_	_
+8	drawn	draw	VERB	VB	VerbForm=Inf	2	advcl	_	_
+9	there	there	ADV	RB	PronType=Dem	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Why is water not drawn there?
+1	Why	why	ADV	WRB	PronType=Int	5	advmod	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	water	water	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	drawn	draw	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Because it is full of skeletons.
+1	Because	because	SCONJ	IN	_	4	mark	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	full	full	ADJ	JJ	Degree=Pos	0	root	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	skeletons	skeleton	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

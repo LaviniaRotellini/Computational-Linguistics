@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He was looking at her fondly, and his strong hand held hers in its grasp.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	fondly	fondly	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	strong	strong	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	hand	hand	NOUN	NN	Number=Sing	3	conj	_	_
+12	held	hold	VERB	VBN	Tense=Past|VerbForm=Part	11	acl	_	_
+13	hers	hers	PRON	PRP	_	12	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	grasp	grasp	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Hetty felt a sense of protection in his presence—she was used to it now: if she could have had the past undone and known no other love than her quiet liking for Adam!
+1	Hetty	Hetty	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	sense	sense	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	protection	protection	NOUN	NN	Number=Sing	4	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	presence	presence	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	now	now	ADV	RB	_	13	advmod	_	SpaceAfter=No
+17	:	:	PUNCT	:	_	13	punct	_	_
+18	if	if	SCONJ	IN	_	22	mark	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+20	could	could	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	had	have	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	past	past	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	undone	undone	NOUN	NN	Number=Sing	22	obj	_	_
+26	and	and	CCONJ	CC	_	27	cc	_	_
+27	known	know	VERB	VBN	Tense=Past|VerbForm=Part	22	conj	_	_
+28	no	no	DET	DT	_	30	det	_	_
+29	other	other	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	love	love	NOUN	NN	Number=Sing	27	obj	_	_
+31	than	than	ADP	IN	_	34	case	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+33	quiet	quiet	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	liking	like	NOUN	NN	Number=Sing	27	obl	_	_
+35	for	for	ADP	IN	_	36	case	_	_
+36	Adam	Adam	PROPN	NNP	Number=Sing	34	nmod	_	SpaceAfter=No
+37	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = The tears rose as she gave him the last look.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	tears	tear	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	last	last	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	look	look	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

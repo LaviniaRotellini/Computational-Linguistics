@@ -1,0 +1,100 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Half-a-crown, these times!
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Half	half	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+4	a	a	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	crown	crown	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	9	det	_	_
+9	times	time	NOUN	NNS	Number=Plur	6	appos	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Come now—for the Rector’s chicken-broth on a Sunday.
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	now	now	ADV	RB	_	1	advmod	_	SpaceAfter=No
+3	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+4	for	for	ADP	IN	_	10	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+6	Rector	rector	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	chicken	chicken	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	broth	broth	NOUN	NN	Number=Sing	1	obl	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	Sunday	Sunday	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = He has consumed all ours that I can spare.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	consumed	consume	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	ours	ours	NOUN	NNS	Number=Plur	3	obj	_	_
+6	that	that	PRON	WDT	PronType=Rel	9	obj	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	spare	spare	VERB	VB	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = You are half paid with the sermon, Mrs. Fitchett, remember that.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj:pass	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	half	half	ADV	RB	_	4	advmod	_	_
+4	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sermon	sermon	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	conj	_	_
+10	Fitchett	Fitchett	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Take a pair of tumbler-pigeons for them—little beauties.
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	pair	pair	NOUN	NN	Number=Sing	1	obj	_	_
+4	of	of	ADP	IN	_	7	case	_	_
+5	tumbler	tumbler	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	pigeons	pigeon	NOUN	NNS	Number=Plur	3	nmod	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	1	punct	_	SpaceAfter=No
+11	little	little	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	beauties	beautie	NOUN	NNS	Number=Plur	1	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = You must come and see them.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	come	come	VERB	VB	VerbForm=Inf	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	conj	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = You have no tumblers among your pigeons.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	tumblers	tumbler	NOUN	NNS	Number=Plur	2	obj	_	_
+5	among	among	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	pigeons	pigeons	NOUN	NNS	Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Vicar did not answer immediately, and Caleb said, “It’s the feeling.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Vicar	Vicar	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	answer	answer	VERB	VB	VerbForm=Inf	0	root	_	_
+6	immediately	immediately	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	Caleb	Caleb	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	feeling	feeling	NOUN	NN	Number=Sing	10	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The child feels in that way, and I feel with her.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	child	child	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	way	way	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You don’t mean your horse to tread on a dog when you’re backing out of the way; but it goes through you, when it’s done.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	horse	horse	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	tread	tread	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	dog	dog	NOUN	NN	Number=Sing	8	obl	_	_
+12	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	SpaceAfter=No
+14	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+15	backing	back	VERB	VBG	VerbForm=Ger	14	xcomp	_	_
+16	out	out	ADP	IN	_	19	case	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	way	way	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	4	punct	_	_
+21	but	but	CCONJ	CC	_	23	cc	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	through	through	ADP	IN	_	25	case	_	_
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	SpaceAfter=No
+29	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	done	done	ADJ	JJ	Degree=Pos	23	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

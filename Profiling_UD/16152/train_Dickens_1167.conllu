@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mostly a-foot,’ he rejoined; ‘sometimes in carts along with people going to market; sometimes in empty coaches.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Mostly	mostly	ADV	RB	_	5	advmod	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	foot	foot	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	rejoined	rejoin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	9	punct	_	_
+11	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+12	sometimes	sometimes	ADV	RB	_	9	advmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	carts	cart	NOUN	NNS	Number=Plur	9	obl	_	_
+15	along	along	ADP	IN	_	17	case	_	_
+16	with	with	ADP	IN	_	17	case	_	_
+17	people	people	NOUN	NNS	Number=Plur	9	obl	_	_
+18	going	go	VERB	VBG	VerbForm=Ger	17	acl	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	market	market	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+21	;	;	PUNCT	,	_	9	punct	_	_
+22	sometimes	sometimes	ADV	RB	_	25	advmod	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	empty	empty	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	coaches	coach	NOUN	NNS	Number=Plur	9	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Many mile a day a-foot, and often with some poor soldier or another, travelling to see his friends.
+1	Many	many	ADJ	JJ	Degree=Pos	2	nsubj	_	_
+2	mile	mile	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	day	day	NOUN	NN	Number=Sing	7	obj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	foot	foot	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	14	punct	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	_
+10	often	often	ADV	RB	_	14	advmod	_	_
+11	with	with	ADP	IN	_	14	case	_	_
+12	some	some	DET	DT	_	14	det	_	_
+13	poor	poor	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	soldier	soldier	NOUN	NN	Number=Sing	2	conj	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	another	another	DET	DT	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	14	punct	_	_
+18	travelling	travel	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	see	see	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	friends	friend	NOUN	NNS	Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I couldn’t talk to him,’ said Mr. Peggotty, ‘nor he to me; but we was company for one another, too, along the dusty roads.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	talk	talk	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+11	Peggotty	Peggotty	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+14	nor	nor	CCONJ	CC	_	15	cc	_	_
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	conj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	9	punct	_	_
+19	but	but	CCONJ	CC	_	22	cc	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	company	company	NOUN	NN	Number=Sing	9	conj	_	_
+23	for	for	ADP	IN	_	25	case	_	_
+24	one	one	NUM	CD	NumType=Card	25	nummod	_	_
+25	another	another	DET	DT	_	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	22	punct	_	_
+27	too	too	ADV	RB	_	32	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	32	punct	_	_
+29	along	along	ADP	IN	_	32	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	dusty	dusty	NOUN	NN	Number=Sing	32	compound	_	_
+32	roads	road	NOUN	NNS	Number=Plur	22	appos	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	22	punct	_	SpaceAfter=No
+34	’	'	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

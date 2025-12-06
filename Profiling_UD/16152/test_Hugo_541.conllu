@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I love the fire, my dear lord.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	fire	fire	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+8	dear	dear	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	lord	lord	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Not for the trivial reason that fire warms the feet or cooks our soup, but because it has sparks.
+1	Not	not	PART	RB	_	8	advmod	_	_
+2	for	for	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	trivial	trivial	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reason	reason	NOUN	NN	Number=Sing	8	obl	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	fire	fire	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	warms	warm	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	feet	foot	NOUN	NNS	Number=Plur	8	obj	_	_
+11	or	or	CCONJ	CC	_	12	cc	_	_
+12	cooks	cook	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	soup	soup	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	but	but	CCONJ	CC	_	19	cc	_	_
+17	because	because	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+20	sparks	spark	NOUN	NNS	Number=Plur	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Sometimes I pass whole hours in watching the sparks.
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	pass	pass	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	whole	whole	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	hours	hour	NOUN	NNS	Number=Plur	3	obj	_	_
+6	in	in	SCONJ	IN	_	7	mark	_	_
+7	watching	watch	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sparks	spark	NOUN	NNS	Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I discover a thousand things in those stars which are sprinkled over the black background of the hearth.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	discover	discover	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	thousand	thousand	NUM	CD	NumType=Card	5	nummod	_	_
+5	things	thing	NOUN	NNS	Number=Plur	2	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	those	those	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	stars	star	NOUN	NNS	Number=Plur	2	obl	_	_
+9	which	which	PRON	WDT	PronType=Rel	11	nsubj:pass	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	sprinkled	sprinkle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	over	over	ADP	IN	_	15	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	black	black	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	background	background	NOUN	NN	Number=Sing	11	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	hearth	hearth	NOUN	NN	Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Those stars are also worlds.”
+1	Those	those	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	stars	star	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	also	also	ADV	RB	_	5	advmod	_	_
+5	worlds	world	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

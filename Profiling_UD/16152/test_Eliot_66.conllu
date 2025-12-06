@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In half an hour all was quiet; no sound was to be heard in the house but the loud ticking of the old day-clock and the ringing of Adam’s tools.
+1	In	in	ADP	IN	_	4	case	_	_
+2	half	half	DET	PDT	_	4	nummod	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	hour	hour	NOUN	NN	Number=Sing	7	obl	_	_
+5	all	all	DET	DT	_	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	quiet	quiet	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	7	punct	_	_
+9	no	no	DET	DT	_	10	det	_	_
+10	sound	sound	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	11	xcomp	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	house	house	NOUN	NN	Number=Sing	14	obl	_	_
+18	but	but	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	loud	loud	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	ticking	ticking	NOUN	NN	Number=Sing	11	conj	_	_
+22	of	of	ADP	IN	_	27	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+24	old	old	ADJ	JJ	Degree=Pos	27	amod	_	_
+25	day	day	NOUN	NN	Number=Sing	27	compound	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	clock	clock	NOUN	NN	Number=Sing	21	nmod	_	_
+28	and	and	CCONJ	CC	_	30	cc	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	ringing	ringing	NOUN	NN	Number=Sing	27	conj	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	Adam	Adam	PROPN	NNP	Number=Sing	34	nmod:poss	_	SpaceAfter=No
+33	’s	's	PART	POS	_	32	case	_	_
+34	tools	tool	NOUN	NNS	Number=Plur	30	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = The night was very still: when Adam opened the door to look out at twelve o’clock, the only motion seemed to be in the glowing, twinkling stars; every blade of grass was asleep.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	night	night	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	still	still	ADV	RB	_	9	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	:	_	9	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	door	door	NOUN	NN	Number=Sing	9	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	look	look	VERB	VB	VerbForm=Inf	9	advcl	_	_
+14	out	out	ADP	RP	_	13	compound:prt	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	twelve	twelve	NUM	CD	NumType=Card	17	nummod	_	_
+17	o’clock	o’clock	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	only	only	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	motion	motion	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+23	to	to	PART	TO	_	27	mark	_	_
+24	be	be	AUX	VB	VerbForm=Inf	27	cop	_	_
+25	in	in	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	glowing	glowing	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	22	punct	_	_
+29	twinkling	twinkl	VERB	VBG	VerbForm=Ger	22	xcomp	_	_
+30	stars	star	NOUN	NNS	Number=Plur	29	obj	_	SpaceAfter=No
+31	;	;	PUNCT	,	_	22	punct	_	_
+32	every	every	DET	DT	_	33	det	_	_
+33	blade	blade	NOUN	NN	Number=Sing	37	nsubj	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	grass	grass	NOUN	NN	Number=Sing	33	nmod	_	_
+36	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	cop	_	_
+37	asleep	asleep	ADJ	JJ	Degree=Pos	22	conj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

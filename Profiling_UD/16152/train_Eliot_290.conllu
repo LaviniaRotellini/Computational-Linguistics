@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But you do forgive me?” said Dorothea, with a quick sob.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	5	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	forgive	forgive	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Dorothea	Dorothea	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	with	with	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	quick	quick	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	sob	sob	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = In her need for some manifestation of feeling she was ready to exaggerate her own fault.
+1	In	in	ADP	IN	_	3	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	need	need	NOUN	NN	Number=Sing	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	manifestation	manifestation	NOUN	NN	Number=Sing	3	nmod	_	_
+7	of	of	SCONJ	IN	_	8	mark	_	_
+8	feeling	feeling	VERB	VBG	VerbForm=Ger	6	acl	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	ready	ready	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	exaggerate	exaggerate	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+15	own	own	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	fault	fault	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Would not love see returning penitence afar off, and fall on its neck and kiss it?
+1	Would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	not	not	PART	RB	_	3	advmod	_	_
+3	love	love	VERB	VB	VerbForm=Inf	0	root	_	_
+4	see	see	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+5	returning	return	VERB	VBG	VerbForm=Ger	4	xcomp	_	_
+6	penitence	penitence	NOUN	NN	Number=Sing	5	obj	_	_
+7	afar	afar	ADV	RB	Degree=Pos	5	advmod	_	_
+8	off	off	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	fall	fall	NOUN	NN	Number=Sing	4	conj	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	neck	neck	NOUN	NN	Number=Sing	11	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	kiss	kiss	VERB	VB	VerbForm=Inf	4	conj	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

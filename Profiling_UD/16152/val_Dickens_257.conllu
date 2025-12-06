@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Thank’ee,’ said Tom.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Thank	thank	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+3	’ee	’ee	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = ‘Thank’ee.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Thank	thank	NOUN	NN	Number=Sing	3	compound	_	SpaceAfter=No
+3	’ee	’ee	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Well, Mr. Harthouse, I hope you have had about a dose of old Bounderby to-night.’
+1	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	7	vocative	_	_
+4	Harthouse	Harthouse	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	about	about	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	dose	dose	NOUN	NN	Number=Sing	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	old	old	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	Bounderby	Bounderby	PROPN	NNP	Number=Sing	13	nmod	_	_
+17	to	to	ADP	IN	_	19	case	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	night	night	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 4
+# text = Tom said this with one eye shut up again, and looking over his glass knowingly, at his entertainer.
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	eye	eye	NOUN	NN	Number=Sing	3	nmod	_	_
+7	shut	shut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	up	up	ADP	RP	_	7	compound:prt	_	_
+9	again	again	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	2	conj	_	_
+13	over	over	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	glass	glass	NOUN	NN	Number=Sing	12	obl	_	_
+16	knowingly	knowingly	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	12	punct	_	_
+18	at	at	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	entertainer	entertainer	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

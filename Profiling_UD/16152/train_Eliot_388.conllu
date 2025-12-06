@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “As new as eating thistles,” would have been an answer to represent Mr. Casaubon’s feelings.
+1	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	As	as	SCONJ	IN	_	3	mark	_	_
+3	new	new	ADJ	JJ	Degree=Pos	13	advcl	_	_
+4	as	as	SCONJ	IN	_	5	mark	_	_
+5	eating	eat	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	thistles	thistle	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	13	punct	_	_
+9	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+10	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	cop	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	answer	answer	NOUN	NN	Number=Sing	0	root	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	represent	represent	VERB	VB	VerbForm=Inf	13	acl	_	_
+16	Mr.	Mr.	PROPN	NNP	Number=Sing	19	nmod:poss	_	_
+17	Casaubon	Casaubon	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	’s	's	PART	POS	_	16	case	_	_
+19	feelings	feeling	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = But he only bowed resignedly, with due respect to his wife’s uncle, and observed that doubtless the works he mentioned had “served as a resource to a certain order of minds.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	bowed	bow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	resignedly	resignedly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	due	due	ADP	IN	_	9	case	_	_
+9	respect	respect	NOUN	NN	Number=Sing	4	obl	_	_
+10	to	to	ADP	IN	_	14	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	wife	wife	NOUN	NN	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	uncle	uncle	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	that	that	SCONJ	IN	_	26	mark	_	_
+19	doubtless	doubtless	SCONJ	IN	_	26	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	works	work	NOUN	NNS	Number=Plur	26	nsubj	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	mentioned	mention	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+24	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+25	“	"	PUNCT	``	_	26	punct	_	SpaceAfter=No
+26	served	serve	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+27	as	as	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	resource	resource	NOUN	NN	Number=Sing	26	obl	_	_
+30	to	to	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	certain	certain	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	order	order	NOUN	NN	Number=Sing	29	nmod	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	minds	mind	NOUN	NNS	Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

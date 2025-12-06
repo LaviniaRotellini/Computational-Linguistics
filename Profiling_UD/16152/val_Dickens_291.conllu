@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Here’s a gentleman from London present,’ Mr. Bounderby made a backhanded point at Mr. James Harthouse with his thumb, ‘a Parliament gentleman.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	gentleman	gentleman	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	from	from	ADP	IN	_	8	case	_	_
+7	London	London	PROPN	NNP	Number=Sing	8	compound	_	_
+8	present	present	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	SpaceAfter=No
+10	’	’	PUNCT	''	_	2	punct	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+12	Bounderby	Bounderby	PROPN	NNP	Number=Sing	11	flat	_	_
+13	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	backhanded	backhanded	VERB	VBN	Tense=Past|VerbForm=Part	16	amod	_	_
+16	point	point	NOUN	NN	Number=Sing	13	obj	_	_
+17	at	at	ADP	IN	_	18	case	_	_
+18	Mr.	Mr.	PROPN	NNP	Number=Sing	13	obl	_	_
+19	James	James	PROPN	NNP	Number=Sing	18	flat	_	_
+20	Harthouse	Harthouse	PROPN	NNP	Number=Sing	18	flat	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	thumb	thumb	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	‘a	‘a	NOUN	NN	Number=Sing	26	compound	_	_
+26	Parliament	parliament	NOUN	NN	Number=Sing	27	compound	_	_
+27	gentleman	gentleman	NOUN	NN	Number=Sing	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I should like him to hear a short bit of dialogue between you and me, instead of taking the substance of it—for I know precious well, beforehand, what it will be; nobody knows better than I do, take notice!—instead of receiving it on trust from my mouth.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	hear	hear	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	short	short	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	bit	bit	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	dialogue	dialogue	NOUN	NN	Number=Sing	9	nmod	_	_
+12	between	between	ADP	IN	_	13	case	_	_
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	instead	instead	ADV	RB	_	19	mark	_	_
+18	of	of	SCONJ	IN	_	17	fixed	_	_
+19	taking	take	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	substance	substance	NOUN	NN	Number=Sing	19	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No
+24	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+25	for	for	SCONJ	IN	_	27	mark	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	advcl	_	_
+28	precious	precious	ADV	RB	_	29	advmod	_	_
+29	well	well	ADV	RB	Degree=Pos	27	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	beforehand	beforehand	ADV	RB	_	33	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	_	_
+33	what	what	PRON	WP	PronType=Int	3	obj	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+35	will	will	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	be	be	AUX	VB	VerbForm=Inf	33	cop	_	SpaceAfter=No
+37	;	;	PUNCT	,	_	3	punct	_	_
+38	nobody	nobody	PRON	NN	Number=Sing	39	nsubj	_	_
+39	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+40	better	better	ADJ	JJR	Degree=Cmp	39	xcomp	_	_
+41	than	than	SCONJ	IN	_	43	mark	_	_
+42	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+43	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	39	advcl	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	3	punct	_	_
+45	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+46	notice	notice	NOUN	NN	Number=Sing	45	obj	_	SpaceAfter=No
+47	!	!	PUNCT	.	_	45	punct	_	SpaceAfter=No
+48	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+49	instead	instead	ADV	RB	_	51	mark	_	_
+50	of	of	SCONJ	IN	_	49	fixed	_	_
+51	receiving	receive	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+52	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	51	obj	_	_
+53	on	on	ADP	IN	_	54	case	_	_
+54	trust	trust	NOUN	NN	Number=Sing	51	obl	_	_
+55	from	from	ADP	IN	_	57	case	_	_
+56	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	57	nmod:poss	_	_
+57	mouth	mouth	NOUN	NN	Number=Sing	54	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+59	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

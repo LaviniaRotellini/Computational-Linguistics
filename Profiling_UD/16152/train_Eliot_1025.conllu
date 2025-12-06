@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Glad to hear it.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	hear	hear	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = But I say, my prompting was to look on and see you take the wrong turning, wear out Garth’s patience, and lose the best opportunity of your life—the opportunity which you made some rather difficult effort to secure.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	prompting	prompting	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	look	look	VERB	VB	VerbForm=Inf	7	ccomp	_	_
+10	on	on	ADP	IN	_	9	compound:prt	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	see	see	VERB	VB	VerbForm=Inf	9	conj	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	take	take	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	wrong	wrong	NOUN	NN	Number=Sing	14	obj	_	_
+17	turning	turning	VERB	VBG	Tense=Pres|VerbForm=Part	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	wear	wear	VERB	VB	VerbForm=Inf	17	conj	_	_
+20	out	out	ADP	RP	_	19	compound:prt	_	_
+21	Garth	Garth	PROPN	NNP	Number=Sing	23	nmod:poss	_	SpaceAfter=No
+22	’s	's	PART	POS	_	21	case	_	_
+23	patience	patience	NOUN	NN	Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	lose	lose	VERB	VB	VerbForm=Inf	3	conj	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	best	best	ADJ	JJS	Degree=Sup	29	amod	_	_
+29	opportunity	opportunity	NOUN	NN	Number=Sing	26	obj	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+32	life	life	NOUN	NN	Number=Sing	29	nmod	_	SpaceAfter=No
+33	—	-	PUNCT	,	_	26	punct	_	SpaceAfter=No
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	opportunity	opportunity	NOUN	NN	Number=Sing	26	obj	_	_
+36	which	which	PRON	WDT	PronType=Rel	38	obj	_	_
+37	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	38	nsubj	_	_
+38	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	acl:relcl	_	_
+39	some	some	DET	DT	_	42	det	_	_
+40	rather	rather	ADV	RB	_	42	case	_	_
+41	difficult	difficult	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	effort	effort	NOUN	NN	Number=Sing	38	obj	_	_
+43	to	to	PART	TO	_	44	mark	_	_
+44	secure	secure	VERB	VB	VerbForm=Inf	42	acl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You can guess the feeling which raised that temptation in me—I am sure you know it.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	guess	guess	VERB	VB	VerbForm=Inf	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	feeling	feeling	NOUN	NN	Number=Sing	3	obj	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	temptation	temptation	NOUN	NN	Number=Sing	7	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	3	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	sure	sure	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+17	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I am sure you know that the satisfaction of your affections stands in the way of mine.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	satisfaction	satisfaction	NOUN	NN	Number=Sing	12	nsubj	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	affections	affections	NOUN	NNS	Number=Plur	8	nmod	_	_
+12	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	way	way	NOUN	NN	Number=Sing	12	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	mine	mine	PRON	PRP	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = One day she received from the Thénardiers a letter couched in the following terms: “Cosette is ill with a malady which is going the rounds of the neighborhood.
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	day	day	NOUN	NN	Number=Sing	4	obl:tmod	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Thénardiers	Thénardier	PROPN	NNPS	Number=Plur	9	nmod	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	letter	letter	NOUN	NN	Number=Sing	4	obj	_	_
+10	couched	couch	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	in	in	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	following	follow	VERB	VBG	VerbForm=Ger	14	amod	_	_
+14	terms	term	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	:	_	4	punct	_	_
+16	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+17	Cosette	Cosette	PROPN	NNP	Number=Sing	19	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	ill	ill	ADJ	JJ	Degree=Pos	4	parataxis	_	_
+20	with	with	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	malady	malady	NOUN	NN	Number=Sing	19	obl	_	_
+23	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	22	acl:relcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	rounds	round	NOUN	NNS	Number=Plur	25	obj	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	neighborhood	neighborhood	NOUN	NN	Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = A miliary fever, they call it.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	miliary	miliary	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	fever	fever	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Expensive drugs are required.
+1	Expensive	expensive	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	drugs	drug	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = This is ruining us, and we can no longer pay for them.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ruining	ruin	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	and	and	CCONJ	CC	_	11	cc	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+9	no	no	ADV	RB	_	10	advmod	_	_
+10	longer	longer	ADV	RBR	Degree=Cmp	11	advmod	_	_
+11	pay	pay	VERB	VB	VerbForm=Inf	3	conj	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = If you do not send us forty francs before the week is out, the little one will be dead.”
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	send	send	VERB	VB	VerbForm=Inf	20	advcl	_	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+7	forty	forty	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	francs	franc	NOUN	NNS	Number=Plur	5	obj	_	_
+9	before	before	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	week	week	NOUN	NN	Number=Sing	5	obl	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	out	out	ADV	RB	_	5	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	one	one	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+20	dead	dead	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	20	punct	_	SpacesAfter=\n
+

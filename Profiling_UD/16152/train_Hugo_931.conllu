@@ -1,0 +1,123 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = What became of these men?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	men	man	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = They still exist.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	still	still	ADV	RB	_	3	advmod	_	_
+3	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = They have always existed.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	existed	exist	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Horace speaks of them: _Ambubaiarum collegia, pharmacopolæ, mendici, mimæ_; and so long as society remains what it is, they will remain what they are.
+1	Horace	Horace	NOUN	NN	Number=Sing	2	compound	_	_
+2	speaks	speak	NOUN	NNS	Number=Plur	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	_
+6	_Ambubaiarum	_Ambubaiarum	PROPN	NNP	Number=Sing	7	compound	_	_
+7	collegia	collegia	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	pharmacopolæ	pharmacopolæ	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	mendici	mendici	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	mimæ_	mimæ_	SYM	NFP	_	2	discourse	_	SpaceAfter=No
+14	;	;	PUNCT	,	_	2	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	long	long	ADV	RB	Degree=Pos	2	conj	_	_
+18	as	as	SCONJ	IN	_	20	mark	_	_
+19	society	society	NOUN	NN	Number=Sing	20	nsubj	_	_
+20	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+21	what	what	PRON	WP	PronType=Int	23	obj	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	2	punct	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
+26	will	will	AUX	MD	VerbForm=Fin	27	aux	_	_
+27	remain	remain	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+28	what	what	PRON	WP	PronType=Int	27	ccomp	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+30	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Beneath the obscure roof of their cavern, they are continually born again from the social ooze.
+1	Beneath	beneath	SCONJ	IN	_	12	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	obscure	obscure	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	roof	roof	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	cavern	cavern	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj:pass	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	continually	continually	ADV	RB	_	12	advmod	_	_
+12	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	again	again	ADV	RB	_	12	advmod	_	_
+14	from	from	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	social	social	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	ooze	ooze	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 6
+# text = They return, spectres, but always identical; only, they no longer bear the same names and they are no longer in the same skins.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	return	return	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	spectres	spectre	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	always	always	ADV	RB	_	8	advmod	_	_
+8	identical	identical	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	8	punct	_	_
+10	only	only	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+13	no	no	ADV	RB	_	14	advmod	_	_
+14	longer	longer	ADV	RBR	Degree=Cmp	15	advmod	_	_
+15	bear	bear	VERB	VB	VerbForm=Inf	2	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	names	name	NOUN	NNS	Number=Plur	15	obj	_	_
+19	and	and	CCONJ	CC	_	23	cc	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+21	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	no	no	ADV	RB	_	23	advmod	_	_
+23	longer	longer	ADV	RBR	Degree=Cmp	2	conj	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	same	same	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	skins	skin	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = The individuals extirpated, the tribe subsists.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	individuals	individual	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	extirpated	extirpate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	tribe	tribe	NOUN	NN	Number=Sing	7	compound	_	_
+7	subsists	subsist	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

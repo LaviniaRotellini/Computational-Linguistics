@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He stood, long after I had ceased to read, still looking at me.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	long	long	ADV	RB	Degree=Pos	2	advmod	_	_
+5	after	after	SCONJ	IN	_	8	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	ceased	cease	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	read	read	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	still	still	ADV	RB	_	13	advmod	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = At length I ventured to take his hand, and to entreat him, as well as I could, to endeavour to get some command of himself.
+1	At	at	ADP	IN	_	2	case	_	_
+2	length	length	NOUN	NN	Number=Sing	4	obl	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	ventured	venture	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	take	take	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	hand	hand	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	entreat	entreat	VERB	VB	VerbForm=Inf	6	conj	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	as	as	ADV	RB	_	19	cc	_	_
+16	well	well	ADV	RB	Degree=Pos	15	fixed	_	_
+17	as	as	SCONJ	IN	_	15	fixed	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	could	could	AUX	MD	VerbForm=Fin	20	aux	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	endeavour	endeaavor	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	get	get	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	some	some	DET	DT	_	26	det	_	_
+26	command	command	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = He replied, ‘I thankee, sir, I thankee!’ without moving.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+6	thankee	thankee	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	sir	sir	NOUN	NN	Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	thankee	thankee	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	11	punct	_	_
+14	without	without	SCONJ	IN	_	15	mark	_	_
+15	moving	move	VERB	VBG	VerbForm=Ger	11	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

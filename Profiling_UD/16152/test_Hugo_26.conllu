@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “How well I remember that!” exclaimed Gisquette; “God on the cross, and the two thieves on the right and the left.”
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	3	advmod	_	_
+3	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	exclaimed	exclaim	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Gisquette	Gisquette	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	9	punct	_	_
+12	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+13	God	God	PROPN	NNP	Number=Sing	9	obj	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	cross	cross	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	two	two	NUM	CD	NumType=Card	21	nummod	_	_
+21	thieves	thief	NOUN	NNS	Number=Plur	9	conj	_	_
+22	on	on	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	right	right	ADJ	JJ	Degree=Pos	21	nmod	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	left	left	NOUN	NN	Number=Sing	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	9	punct	_	_
+
+# sent_id = 2
+# text = Here the young gossips, growing warm at the memory of the entrance of monsieur the legate, both began to talk at once.
+1	Here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	young	young	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	gossips	gossip	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	growing	grow	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	warm	warm	ADJ	JJ	Degree=Pos	6	xcomp	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	memory	memory	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	entrance	entrance	NOUN	NN	Number=Sing	10	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	monsieur	monsieur	NOUN	NN	Number=Sing	17	nmod	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	legate	legate	NOUN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	both	both	CCONJ	CC	_	20	cc:preconj	_	_
+20	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	talk	talk	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	once	once	ADV	RB	NumType=Mult	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

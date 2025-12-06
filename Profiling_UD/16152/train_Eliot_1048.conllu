@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Certainly,” said Bulstrode, whose mind was very active at this moment.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Certainly	certainly	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	9	nmod:poss	_	_
+9	mind	mind	NOUN	NN	Number=Sing	12	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	active	active	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+13	at	at	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	moment	moment	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = “Perhaps you will yourself oblige me, Mr. Garth, by calling at Mr. Lydgate’s as you pass—or stay!
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Perhaps	perhaps	ADV	RB	_	6	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	nsubj	_	_
+6	oblige	oblige	VERB	VB	VerbForm=Inf	0	root	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	6	obj	_	_
+10	Garth	Garth	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	by	by	SCONJ	IN	_	13	mark	_	_
+13	calling	call	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	Mr.	Mr.	PROPN	NNP	Number=Sing	13	obl	_	_
+16	Lydgate	Lydgate	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	’s	's	PART	POS	_	15	case	_	_
+18	as	as	SCONJ	IN	_	20	mark	_	_
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	_
+20	pass	pass	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+21	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+22	or	or	CCONJ	CC	_	23	cc	_	_
+23	stay	stay	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+24	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = he may at this hour probably be at the Hospital.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	may	may	AUX	MD	VerbForm=Fin	10	aux	_	_
+3	at	at	ADP	IN	_	5	case	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	hour	hour	NOUN	NN	Number=Sing	2	obl	_	_
+6	probably	probably	ADV	RB	_	10	advmod	_	_
+7	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	10	cop	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Hospital	hospital	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 4
+# text = I will first send my man on the horse there with a note this instant, and then I will myself ride to Stone Court.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	first	first	ADV	RB	_	4	advmod	_	_
+4	send	send	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	man	man	NOUN	NN	Number=Sing	4	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	horse	horse	NOUN	NN	Number=Sing	4	obl	_	_
+10	there	there	ADV	RB	PronType=Dem	4	advmod	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	note	note	NOUN	NN	Number=Sing	15	nmod	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	instant	instant	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	and	and	CCONJ	CC	_	22	cc	_	_
+18	then	then	ADV	RB	PronType=Dem	22	advmod	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	22	aux	_	_
+21	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	nsubj	_	_
+22	ride	ride	VERB	VB	VerbForm=Inf	4	conj	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	Stone	Stone	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Court	Court	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+27	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

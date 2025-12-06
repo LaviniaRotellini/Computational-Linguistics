@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, but not my style of woman:
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	but	but	CCONJ	CC	_	7	cc	_	_
+5	not	not	ADV	RB	_	7	advmod	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	style	style	NOUN	NN	Number=Sing	2	conj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	woman	woman	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 2
+# text = I like a woman who lays herself out a little more to please us.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	woman	woman	NOUN	NN	Number=Sing	2	obj	_	_
+5	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+6	lays	lay	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	out	out	ADP	RP	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	obl:npmod	_	_
+11	more	more	ADJ	JJR	Degree=Cmp	6	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	please	please	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = There should be a little filigree about a woman—something of the coquette.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	filigree	filigree	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	woman	woman	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	6	punct	_	SpaceAfter=No
+11	something	something	PRON	NN	Number=Sing	6	appos	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	coquette	coquette	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = A man likes a sort of challenge.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	sort	sort	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	challenge	challenge	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = The more of a dead set she makes at you the better.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	dead	dead	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	set	set	NOUN	NN	Number=Sing	2	obl	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	mark	_	_
+12	better	better	ADJ	JJR	Degree=Cmp	8	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I got down to Yarmouth in the evening, and went to the inn.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	down	down	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Yarmouth	Yarmouth	PROPN	NNP	Number=Sing	2	obl	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	evening	evening	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	inn	inn	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I knew that Peggotty’s spare room--my room--was likely to have occupation enough in a little while, if that great Visitor, before whose presence all the living must give place, were not already in the house; so I betook myself to the inn, and dined there, and engaged my bed.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	13	mark	_	_
+4	Peggotty	Peggotty	PROPN	NNP	Number=Sing	7	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	spare	spare	NOUN	NN	Number=Sing	7	compound	_	_
+7	room	room	NOUN	NN	Number=Sing	13	nsubj	_	SpaceAfter=No
+8	--	--	PUNCT	,	_	7	punct	_	SpaceAfter=No
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	room	room	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	--	--	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	likely	likely	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	have	have	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	occupation	occupation	NOUN	NN	Number=Sing	15	obj	_	_
+17	enough	enough	ADJ	JJ	Degree=Pos	16	amod	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	little	little	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	while	while	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	if	if	SCONJ	IN	_	35	mark	_	_
+24	that	that	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+25	great	great	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	Visitor	visitor	NOUN	NN	Number=Sing	35	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	35	punct	_	_
+28	before	before	SCONJ	IN	_	35	mark	_	_
+29	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	30	nmod:poss	_	_
+30	presence	presence	NOUN	NN	Number=Sing	35	nsubj	_	_
+31	all	all	DET	PDT	_	33	det:predet	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	living	living	NOUN	NN	Number=Sing	35	nsubj	_	_
+34	must	must	AUX	MD	VerbForm=Fin	35	aux	_	_
+35	give	give	VERB	VB	VerbForm=Inf	2	advcl	_	_
+36	place	place	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	2	punct	_	_
+38	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	47	aux	_	_
+39	not	not	PART	RB	_	47	advmod	_	_
+40	already	already	ADV	RB	_	47	advmod	_	_
+41	in	in	ADP	IN	_	43	case	_	_
+42	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+43	house	house	NOUN	NN	Number=Sing	40	obl	_	SpaceAfter=No
+44	;	;	PUNCT	,	_	40	punct	_	_
+45	so	so	ADV	RB	_	47	advmod	_	_
+46	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	_
+47	betook	betake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	52	conj	_	_
+48	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	47	obj	_	_
+49	to	to	ADP	IN	_	51	case	_	_
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+51	inn	inn	NOUN	NN	Number=Sing	47	obl	_	SpaceAfter=No
+52	,	,	PUNCT	,	_	54	punct	_	_
+53	and	and	CCONJ	CC	_	54	cc	_	_
+54	dined	dine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	56	conj	_	_
+55	there	there	ADV	RB	PronType=Dem	54	advmod	_	SpaceAfter=No
+56	,	,	PUNCT	,	_	58	punct	_	_
+57	and	and	CCONJ	CC	_	58	cc	_	_
+58	engaged	engage	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+59	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	60	nmod:poss	_	_
+60	bed	bed	NOUN	NN	Number=Sing	58	obj	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

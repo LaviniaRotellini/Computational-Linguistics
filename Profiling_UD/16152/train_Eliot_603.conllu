@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “He writes handsomely, doesn’t he, Susan?” said Caleb, turning his eyes upward to his wife, who raised her hand from his shoulder to his ear, while she rested her chin on his head.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	handsomely	handsomely	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+7	n’t	n’t	PART	RB	_	13	advmod	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	Susan	Susan	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+14	Caleb	Caleb	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	turning	turn	VERB	VBG	VerbForm=Ger	13	ccomp	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	eyes	eye	NOUN	NNS	Number=Plur	16	obj	_	_
+19	upward	upward	ADP	IN	_	22	case	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	wife	wife	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	16	punct	_	_
+24	who	who	PRON	WP	PronType=Rel	25	nsubj	_	_
+25	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	hand	hand	NOUN	NN	Number=Sing	25	obj	_	_
+28	from	from	ADP	IN	_	30	case	_	_
+29	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+30	shoulder	shoulder	NOUN	NN	Number=Sing	25	obl	_	_
+31	to	to	ADP	IN	_	33	case	_	_
+32	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	ear	ear	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	25	punct	_	_
+35	while	while	SCONJ	IN	_	37	mark	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	rested	rest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	_
+38	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	chin	ching	NOUN	NN	Number=Sing	37	obj	_	_
+40	on	on	ADP	IN	_	42	case	_	_
+41	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	head	head	NOUN	NN	Number=Sing	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Brooke didn’t like to ask me himself, I can see,” he continued, laughing silently.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Brooke	Brooke	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	17	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	ask	ask	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	see	see	VERB	VB	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	17	punct	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	laughing	laugh	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+20	silently	silently	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

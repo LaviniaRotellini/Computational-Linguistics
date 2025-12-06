@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The church of Notre-Dame de Paris is still no doubt, a majestic and sublime edifice.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	church	church	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Notre	Notre	PROPN	NNP	Number=Sing	8	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	Dame	Dame	PROPN	NNP	Number=Sing	4	flat	_	_
+7	de	de	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Paris	Paris	PROPN	NNP	Number=Sing	2	nmod	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	still	still	ADV	RB	_	12	advmod	_	_
+11	no	no	DET	DT	_	12	det	_	_
+12	doubt	doubt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+15	majestic	majestic	ADJ	JJ	Degree=Pos	18	amod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	sublime	sublime	ADJ	JJ	Degree=Pos	15	conj	_	_
+18	edifice	edifice	NOUN	NN	Number=Sing	12	appos	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = But, beautiful as it has been preserved in growing old, it is difficult not to sigh, not to wax indignant, before the numberless degradations and mutilations which time and men have both caused the venerable monument to suffer, without respect for Charlemagne, who laid its first stone, or for Philip Augustus, who laid the last.
+1	But	but	CCONJ	CC	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	_
+4	as	as	SCONJ	IN	_	8	mark	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	preserved	preserve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	growing	grow	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	old	old	ADJ	JJ	Degree=Pos	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	difficult	difficult	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+16	not	not	ADV	RB	_	18	advmod	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	sigh	sigh	INTJ	UH	_	22	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	not	not	ADV	RB	_	22	advmod	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	wax	wax	VERB	VB	VerbForm=Inf	15	csubj	_	_
+23	indignant	indignant	ADJ	JJ	Degree=Pos|Typo=Yes	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	22	punct	_	_
+25	before	before	SCONJ	IN	_	28	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+27	numberless	numberless	NOUN	NN	Number=Sing	28	compound	_	_
+28	degradations	degradation	NOUN	NNS	Number=Plur	22	obl	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	mutilations	mutilation	NOUN	NNS	Number=Plur	28	conj	_	_
+31	which	which	DET	WDT	PronType=Int	32	det	_	_
+32	time	time	NOUN	NN	Number=Sing	35	nsubj	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	men	man	NOUN	NNS	Number=Plur	32	conj	_	_
+35	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+36	both	both	CCONJ	CC	_	37	cc:preconj	_	_
+37	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part	28	acl	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+39	venerable	venerable	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	monument	monument	NOUN	NN	Number=Sing	37	obj	_	_
+41	to	to	PART	TO	_	42	mark	_	_
+42	suffer	suffer	VERB	VB	VerbForm=Inf	37	xcomp	_	SpaceAfter=No
+43	,	,	PUNCT	,	_	42	punct	_	_
+44	without	without	ADP	IN	_	45	case	_	_
+45	respect	respect	NOUN	NN	Number=Sing	42	obl	_	_
+46	for	for	ADP	IN	_	47	case	_	_
+47	Charlemagne	Charlemagne	PROPN	NNP	Number=Sing	45	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	,	_	37	punct	_	_
+49	who	who	PRON	WP	PronType=Rel	50	nsubj	_	_
+50	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	37	acl:relcl	_	_
+51	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
+52	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	53	amod	_	_
+53	stone	stone	NOUN	NN	Number=Sing	50	obj	_	SpaceAfter=No
+54	,	,	PUNCT	,	_	57	punct	_	_
+55	or	or	CCONJ	CC	_	57	cc	_	_
+56	for	for	ADP	IN	_	57	case	_	_
+57	Philip	Philip	PROPN	NNP	Number=Sing	50	conj	_	_
+58	Augustus	Augustus	PROPN	NNP	Number=Sing	57	flat	_	SpaceAfter=No
+59	,	,	PUNCT	,	_	57	punct	_	_
+60	who	who	PRON	WP	PronType=Rel	61	nsubj	_	_
+61	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	57	acl:relcl	_	_
+62	the	the	DET	DT	Definite=Def|PronType=Art	63	det	_	_
+63	last	last	ADJ	JJ	Degree=Pos	61	obj	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

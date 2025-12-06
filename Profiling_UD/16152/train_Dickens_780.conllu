@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear,’ returned Mr. Micawber with sudden seriousness, ‘I have no desire to answer for others.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	dear	dear	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	’	'	PUNCT	''	_	6	punct	_	_
+6	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+8	Micawber	Micawber	PROPN	NNP	Number=Sing	7	flat	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	sudden	sudden	NUM	CD	NumType=Card	11	nummod	_	_
+11	seriousness	seriousness	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	‘	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+16	no	no	DET	DT	_	17	det	_	_
+17	desire	desire	NOUN	NN	Number=Sing	15	obj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	answer	answer	VERB	VB	VerbForm=Inf	17	acl	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	others	other	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I am too well aware that when, in the inscrutable decrees of Fate, you were reserved for me, it is possible you may have been reserved for one, destined, after a protracted struggle, at length to fall a victim to pecuniary involvements of a complicated nature.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	too	too	ADV	RB	_	5	advmod	_	_
+4	well	well	ADV	RB	Degree=Pos	5	advmod	_	_
+5	aware	aware	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	24	mark	_	_
+7	when	when	ADV	WRB	PronType=Int	18	mark	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	18	punct	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	inscrutable	inscrutable	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	decrees	decree	NOUN	NNS	Number=Plur	18	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	Fate	Fate	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj:pass	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	reserved	reserve	VERB	VBN	Tense=Past|VerbForm=Part	24	advcl	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+24	possible	possible	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj:pass	_	_
+26	may	may	AUX	MD	VerbForm=Fin	29	aux	_	_
+27	have	have	AUX	VB	VerbForm=Inf	29	aux	_	_
+28	been	be	AUX	VBN	Tense=Past|VerbForm=Part	29	aux:pass	_	_
+29	reserved	reserve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	one	one	NUM	CD	NumType=Card	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	5	punct	_	_
+33	destined	destin	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	33	punct	_	_
+35	after	after	ADP	IN	_	38	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	protracted	protract	VERB	VBN	Tense=Past|VerbForm=Part	38	amod	_	_
+38	struggle	struggle	NOUN	NN	Number=Sing	33	obl	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	5	punct	_	_
+40	at	at	ADP	IN	_	41	case	_	_
+41	length	length	NOUN	NN	Number=Sing	5	obl	_	_
+42	to	to	PART	TO	_	43	mark	_	_
+43	fall	fall	VERB	VB	VerbForm=Inf	41	acl	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	victim	victim	NOUN	NN	Number=Sing	43	obj	_	_
+46	to	to	PART	TO	_	47	mark	_	_
+47	pecuniary	pecuniary	VERB	VB	VerbForm=Inf	43	advcl	_	_
+48	involvements	involvement	NOUN	NNS	Number=Plur	47	obj	_	_
+49	of	of	ADP	IN	_	52	case	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+51	complicated	complicated	ADJ	JJ	Degree=Pos	52	amod	_	_
+52	nature	nature	NOUN	NN	Number=Sing	48	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = I understand your allusion, my love.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	allusion	allusion	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	love	love	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I regret it, but I can bear it.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	regret	regret	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	but	but	CCONJ	CC	_	8	cc	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	bear	bear	VERB	VB	VerbForm=Inf	2	conj	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

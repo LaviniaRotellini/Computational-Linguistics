@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dom
+1	Dom	Dom	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Claude had barely time to fling himself on the ground in order that he might not be met, stared in the face and recognized by his brother.
+1	Claude	Claude	NOUN	NN	Number=Sing	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	barely	barely	ADV	RB	_	4	advmod	_	_
+4	time	time	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	fling	fl	VERB	VB	VerbForm=Inf	2	advcl	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ground	ground	NOUN	NN	Number=Sing	6	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	order	order	NOUN	NN	Number=Sing	6	obl	_	_
+13	that	that	SCONJ	IN	_	18	mark	_	_
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+15	might	might	AUX	MD	VerbForm=Fin	18	aux	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	met	meet	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	stared	stare	VERB	VBN	Tense=Past|VerbForm=Part	18	advcl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	face	face	NOUN	NN	Number=Sing	20	obl	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part	20	conj	_	_
+26	by	by	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	brother	brother	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Luckily, the street was dark, and the scholar was tipsy.
+1	Luckily	luckily	ADV	RB	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	street	street	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	dark	dark	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	scholar	scholar	NOUN	NN	Number=Sing	12	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	tipsy	tipsy	ADJ	JJ	Degree=Pos	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Nevertheless, he caught sight of the archdeacon prone upon the earth in the mud.
+1	Nevertheless	nevertheless	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sight	sight	NOUN	NN	Number=Sing	4	obj	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	archdeacon	archdeacon	NOUN	NN	Number=Sing	9	compound	_	_
+9	prone	prone	NOUN	NN	Number=Sing	5	nmod	_	_
+10	upon	upon	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	earth	earth	NOUN	NN	Number=Sing	4	obl	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	mud	mud	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

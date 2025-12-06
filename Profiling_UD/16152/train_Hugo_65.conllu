@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Was the bedside of such a dying man as that the proper place for a bishop?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bedside	bedside	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	9	case	_	_
+6	such	such	DET	PDT	_	9	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	dying	die	VERB	VBG	VerbForm=Ger	9	amod	_	_
+9	man	man	NOUN	NN	Number=Sing	4	nmod	_	_
+10	as	as	SCONJ	IN	_	14	case	_	_
+11	that	that	SCONJ	IN	_	10	fixed	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	proper	proper	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	place	place	NOUN	NN	Number=Sing	4	nmod	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+17	bishop	bishop	NOUN	NN	Number=Sing	14	nmod	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = There was evidently no conversion to be expected.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	evidently	evidently	ADV	RB	_	2	advmod	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	conversion	conversion	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	to	to	PART	TO	_	8	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+8	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = All those revolutionists are backsliders.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	those	those	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	revolutionists	revolutionist	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	backsliders	backslider	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Then why go there?
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	why	why	ADV	WRB	PronType=Int	3	advmod	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = What was there to be seen there?
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+7	there	there	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = He must have been very curious indeed to see a soul carried off by the devil.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	must	must	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	curious	curious	ADJ	JJ	Degree=Pos	0	root	_	_
+7	indeed	indeed	ADV	RB	_	6	advmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	see	see	VERB	VB	VerbForm=Inf	6	advcl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	soul	soul	NOUN	NN	Number=Sing	9	obj	_	_
+12	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	_
+13	off	off	ADP	RP	_	12	compound:prt	_	_
+14	by	by	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	devil	devil	PROPN	NNPS	Number=Plur	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

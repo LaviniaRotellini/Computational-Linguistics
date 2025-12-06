@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = From that moment forth, he stirred no more.
+1	From	from	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	7	obl	_	_
+4	forth	forth	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	stirred	stir	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	no	no	ADV	RB	_	9	advmod	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Nothing could force a movement from him.
+1	Nothing	nothing	PRON	NN	Number=Sing	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	force	force	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	movement	movement	NOUN	NN	Number=Sing	3	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Neither his blood, which did not cease to flow, nor the blows which redoubled in fury, nor the wrath of the torturer, who grew excited himself and intoxicated with the execution, nor the sound of the horrible thongs, more sharp and whistling than the claws of scorpions.
+1	Neither	neither	CCONJ	CC	_	3	cc:preconj	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	blood	blood	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	not	not	PART	RB	_	8	advmod	_	_
+8	cease	cease	VERB	VB	VerbForm=Inf	3	acl:relcl	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	flow	flow	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	nor	nor	CCONJ	CC	_	14	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	blows	blow	NOUN	NNS	Number=Plur	3	conj	_	_
+15	which	which	PRON	WDT	PronType=Rel	16	nsubj	_	_
+16	redoubled	redouble	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	fury	fury	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	nor	nor	CCONJ	CC	_	22	cc	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	wrath	wrath	NOUN	NN	Number=Sing	3	conj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	torturer	torturer	NOUN	NN	Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	who	who	PRON	WP	PronType=Rel	28	nsubj	_	_
+28	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+29	excited	excited	ADJ	JJ	Degree=Pos	28	xcomp	_	_
+30	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	29	obj	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	intoxicated	intoxicate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	conj	_	_
+33	with	with	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	execution	execution	NOUN	NN	Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	nor	nor	CCONJ	CC	_	39	cc	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	sound	sound	NOUN	NN	Number=Sing	3	conj	_	_
+40	of	of	ADP	IN	_	43	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	43	det	_	_
+42	horrible	horrible	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	thongs	thong	NOUN	NNS	Number=Plur	39	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	,	_	46	punct	_	_
+45	more	more	ADV	RBR	_	46	advmod	_	_
+46	sharp	sharp	ADJ	JJ	Degree=Pos	3	conj	_	_
+47	and	and	CCONJ	CC	_	48	cc	_	_
+48	whistling	whistle	VERB	VBG	VerbForm=Ger	3	conj	_	_
+49	than	than	ADP	IN	_	51	case	_	_
+50	the	the	DET	DT	Definite=Def|PronType=Art	51	det	_	_
+51	claws	claw	NOUN	NNS	Number=Plur	48	obl	_	_
+52	of	of	ADP	IN	_	53	case	_	_
+53	scorpions	scorpion	NOUN	NNS	Number=Plur	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mrs. Joram tossed her head, endeavouring to be very stern and cross; but she could not command her softer self, and began to cry.
+1	Mrs	Mrs	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	3	punct	_	_
+3	Joram	Joram	PROPN	NNP	Number=Sing	1	flat	_	_
+4	tossed	toss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	head	head	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	endeavouring	endeavour	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+9	to	to	PART	TO	_	12	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	very	very	ADV	RB	_	12	advmod	_	_
+12	stern	stern	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	cross	cross	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	4	punct	_	_
+16	but	but	CCONJ	CC	_	20	cc	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	not	not	PART	RB	_	20	advmod	_	_
+20	command	command	VERB	VB	VerbForm=Inf	4	conj	_	_
+21	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	softer	softer	ADP	IN	_	23	case	_	_
+23	self	self	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	cry	cry	VERB	VB	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I was young, to be sure; but I thought much the better of her for this sympathy, and fancied it became her, as a virtuous wife and mother, very well indeed.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	young	young	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+7	sure	sure	ADJ	JJ	Degree=Pos	3	advcl	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	much	much	ADV	RB	_	14	advmod	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	mark	_	_
+14	better	better	ADJ	JJR	Degree=Cmp	11	xcomp	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	_
+19	sympathy	sympathy	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	fancied	fancy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	conj	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	as	as	ADP	IN	_	30	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	virtuous	virtuous	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	wife	wife	NOUN	NN	Number=Sing	24	ccomp	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	mother	mother	NOUN	NN	Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	30	punct	_	_
+34	very	very	ADV	RB	_	35	advmod	_	_
+35	well	well	ADV	RB	Degree=Pos	36	advmod	_	_
+36	indeed	indeed	ADV	RB	_	30	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

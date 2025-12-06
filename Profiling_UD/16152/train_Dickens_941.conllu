@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We all unpacked our baskets, and employed ourselves in getting dinner ready.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	unpacked	unpack	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	baskets	basket	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	employed	employ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	in	in	SCONJ	IN	_	11	mark	_	_
+11	getting	get	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	dinner	dinner	NOUN	NN	Number=Sing	11	obj	_	_
+13	ready	ready	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Red
+1	Red	red	NOUN	NN	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Whisker pretended he could make a salad (which I don’t believe), and obtruded himself on public notice.
+1	Whisker	Whisker	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	pretended	pretend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	make	make	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	salad	salad	NOUN	NN	Number=Sing	5	obj	_	_
+8	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
+9	which	which	PRON	WDT	PronType=Rel	13	obj	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n’t	not	PART	RB	_	13	advmod	_	_
+13	believe	believe	VERB	VB	VerbForm=Inf	5	acl:relcl	_	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	5	punct	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	obtruded	obtrude	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+19	on	on	ADP	IN	_	21	case	_	_
+20	public	public	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	notice	notice	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Some of the young ladies washed the lettuces for him, and sliced them under his directions.
+1	Some	some	DET	DT	_	6	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	ladies	lady	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	washed	washed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	lettuces	lettuce	NOUN	NNS	Number=Plur	6	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	sliced	slice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	under	under	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	directions	direction	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Dora was among these.
+1	Dora	Dora	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	among	among	ADP	IN	_	4	case	_	_
+4	these	these	PRON	DT	Number=Plur|PronType=Dem	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I felt that fate had pitted me against this man, and one of us must fall.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	fate	fate	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	pitted	pit	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+8	against	against	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	man	man	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	one	one	NUM	CD	NumType=Card	17	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	nmod	_	_
+16	must	must	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	fall	fall	VERB	VB	VerbForm=Inf	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

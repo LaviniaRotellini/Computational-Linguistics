@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = During the twenty-four hours which followed, Mess Lethierry slept not, ate nothing, drank nothing.
+1	During	during	ADP	IN	_	6	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+3	twenty	twenty	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+4	-	-	SYM	SYM	_	5	case	_	SpaceAfter=No
+5	four	four	NUM	CD	NumType=Card	3	nmod	_	_
+6	hours	hour	NOUN	NNS	Number=Plur	12	obl	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+8	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	Mess	mess	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Lethierry	Lethierry	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	slept	sleep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	not	not	PART	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+16	nothing	nothing	PRON	NN	Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	drank	drank	VERB	VB	VerbForm=Inf	12	conj	_	_
+19	nothing	nothing	PRON	NN	Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = He kissed Déruchette on the forehead, asked after Clubin, of whom there was as yet no news, signed a declaration certifying that he had no intention of preferring a charge against anyone, and set Tangrouille at liberty.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Déruchette	Déruchette	PROPN	NNP	Number=Sing	2	obj	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	forehead	forehead	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+9	after	after	ADP	IN	_	10	case	_	_
+10	Clubin	Clubin	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	whom	whom	PRON	WP	PronType=Int	8	obl	_	_
+14	there	there	PRON	EX	_	15	expl	_	_
+15	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	as	as	SCONJ	IN	_	21	mark	_	_
+17	yet	yet	ADV	RB	_	19	advmod	_	_
+18	no	no	DET	DT	_	19	det	_	_
+19	news	news	NOUN	NN	Number=Sing	21	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	signed	sign	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	declaration	declaration	NOUN	NN	Number=Sing	21	obj	_	_
+24	certifying	certifying	VERB	VBG	VerbForm=Ger	23	acl	_	_
+25	that	that	SCONJ	IN	_	27	mark	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	ccomp	_	_
+28	no	no	DET	DT	_	29	det	_	_
+29	intention	intention	NOUN	NN	Number=Sing	27	obj	_	_
+30	of	of	SCONJ	IN	_	31	mark	_	_
+31	preferring	prefer	VERB	VBG	VerbForm=Ger	29	acl	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+33	charge	charge	NOUN	NN	Number=Sing	31	obj	_	_
+34	against	against	ADP	IN	_	35	case	_	_
+35	anyone	anyone	PRON	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	_	_
+37	and	and	CCONJ	CC	_	39	cc	_	_
+38	set	set	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	Tangrouille	Tangrouille	PROPN	NNP	Number=Sing	27	conj	_	_
+40	at	at	ADP	IN	_	41	case	_	_
+41	liberty	liberty	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

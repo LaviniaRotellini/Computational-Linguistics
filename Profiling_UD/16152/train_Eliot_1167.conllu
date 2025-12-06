@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = She was keenly offended, but the signs she made of this were such as only Lydgate was used to interpret.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	keenly	keenly	ADV	RB	_	4	advmod	_	_
+4	offended	offended	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	14	punct	_	_
+6	but	but	CCONJ	CC	_	14	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	signs	sign	NOUN	NNS	Number=Plur	14	nsubj	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	such	such	ADJ	JJ	Degree=Pos	19	mark	_	_
+15	as	as	ADP	IN	_	14	fixed	_	_
+16	only	only	ADV	RB	_	19	advmod	_	_
+17	Lydgate	Lydgate	PROPN	NNP	Number=Sing	19	nsubj:pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	used	used	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	interpret	interpret	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She became suddenly quiet and seated herself, untying her hanging bonnet and laying it down with her shawl.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	suddenly	suddenly	ADV	RB	_	4	advmod	_	_
+4	quiet	quiet	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	seated	seat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	untying	unty	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nsubj	_	_
+11	hanging	hang	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+12	bonnet	bonnet	NOUN	NN	Number=Sing	11	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	laying	lay	VERB	VBG	VerbForm=Ger	11	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	down	down	ADP	RP	_	14	compound:prt	_	_
+17	with	with	ADP	IN	_	19	case	_	_
+18	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	shawl	shawl	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Her little hands which she folded before her were very cold.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	hands	hand	NOUN	NNS	Number=Plur	12	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	obj	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	folded	fold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+7	before	before	SCONJ	IN	_	11	mark	_	_
+8	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	very	very	ADV	RB	_	11	advmod	_	_
+11	cold	cold	ADJ	JJ	Degree=Pos	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	0	root	_	SpacesAfter=\n
+

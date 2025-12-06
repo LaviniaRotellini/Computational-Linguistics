@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Lizzy, a black-eyed child of seven, looked very shy when her mother drew her forward, for the small Mosses were much in awe of their uncle from Dorlcote Mill.
+1	Lizzy	Lizzy	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+4	black	black	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	eyed	eyed	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	child	child	NOUN	NN	Number=Sing	1	appos	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	seven	seven	NUM	CD	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	shy	shy	ADV	RB	_	17	advmod	_	_
+14	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	mother	mother	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	forward	forward	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	_
+21	for	for	ADP	IN	_	24	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	small	small	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	Mosses	Moss	PROPN	NNPS	Number=Plur	26	nsubj	_	_
+25	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	much	much	ADJ	JJ	Degree=Pos	11	parataxis	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	awe	awe	NOUN	NN	Number=Sing	26	obl	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	uncle	uncle	NOUN	NN	Number=Sing	28	nmod	_	_
+32	from	from	ADP	IN	_	34	case	_	_
+33	Dorlcote	Dorlcote	PROPN	NNP	Number=Sing	34	compound	_	_
+34	Mill	mill	PROPN	NNP	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = She was inferior enough to Maggie in fire and strength of expression to make the resemblance between the two entirely flattering to Mr Tulliver’s fatherly love.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	inferior	inferior	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	Maggie	Maggie	VERB	VB	VerbForm=Inf	4	advcl	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	fire	fire	NOUN	NN	Number=Sing	6	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	strength	strength	NOUN	NN	Number=Sing	8	conj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	expression	expression	NOUN	NN	Number=Sing	10	nmod	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	make	make	VERB	VB	VerbForm=Inf	6	advcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	resemblance	resemblance	NOUN	NN	Number=Sing	14	obj	_	_
+17	between	between	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	two	two	NUM	CD	NumType=Card	16	nmod	_	_
+20	entirely	entirely	ADV	RB	_	21	advmod	_	_
+21	flattering	flatter	VERB	VBG	VerbForm=Ger	14	xcomp	_	_
+22	to	to	ADP	IN	_	27	case	_	_
+23	Mr	Mr	PROPN	NNP	Number=Sing	27	nmod:poss	_	_
+24	Tulliver	Tulliver	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	’s	's	PART	POS	_	23	case	_	_
+26	fatherly	fatherly	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	love	love	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

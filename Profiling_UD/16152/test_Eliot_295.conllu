@@ -1,0 +1,58 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That’s likely enough, that’s likely enough,” said Bartle meditatively.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	likely	likely	ADV	RB	_	5	advmod	_	_
+5	enough	enough	ADJ	JJ	Degree=Pos	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	SpaceAfter=No
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	likely	likely	ADV	RB	_	10	advmod	_	_
+10	enough	enough	ADJ	JJ	Degree=Pos	13	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Bartle	Bartle	PROPN	NNP	Number=Sing	13	nsubj	_	_
+15	meditatively	meditatively	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 2
+# text = “The only way to bring him round would be to show him what was for his own interest, and that the captain may do—that the captain may do.”
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	only	only	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	way	way	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	bring	bring	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	round	round	ADV	RB	_	6	advmod	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	show	show	VERB	VB	VerbForm=Inf	10	advcl	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	what	what	PRON	WP	PronType=Int	19	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+16	for	for	ADP	IN	_	19	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	interest	interest	NOUN	NN	Number=Sing	12	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	26	punct	_	_
+21	and	and	CCONJ	CC	_	26	cc	_	_
+22	that	that	SCONJ	IN	_	26	mark	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	captain	captain	NOUN	NN	Number=Sing	26	nsubj	_	_
+25	may	may	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	do	do	VERB	VB	VerbForm=Inf	10	conj	_	SpaceAfter=No
+27	—	-	PUNCT	,	_	26	punct	_	SpaceAfter=No
+28	that	that	SCONJ	IN	_	32	mark	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	captain	captain	NOUN	NN	Number=Sing	32	nsubj	_	_
+31	may	may	AUX	MD	VerbForm=Fin	32	aux	_	_
+32	do	do	VERB	VB	VerbForm=Inf	26	ccomp	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	10	punct	_	SpacesAfter=\n
+

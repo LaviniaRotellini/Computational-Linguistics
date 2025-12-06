@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The masts having snapped short, had fallen over the side; the chimney was not even bent.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	mast	mast	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+3	s	's	PART	POS	_	2	case	_	_
+4	having	have	AUX	VBG	VerbForm=Ger	5	aux	_	_
+5	snapped	snap	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+6	short	short	ADJ	JJ	Degree=Pos	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	over	over	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	side	side	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	;	;	PUNCT	,	_	9	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	chimney	chimney	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	not	not	PART	RB	_	19	advmod	_	_
+18	even	even	ADV	RB	_	19	advmod	_	_
+19	bent	bend	VERB	VB	VerbForm=Inf	9	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = The great iron plating which supported the machinery had kept it together, and in one piece.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	great	great	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	iron	iron	NOUN	NN	Number=Sing	4	compound	_	_
+4	plating	plate	NOUN	NN	Number=Sing	10	nsubj	_	_
+5	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	supported	support	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	machinery	machinery	NOUN	NN	Number=Sing	6	obj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	together	together	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	one	one	NUM	CD	NumType=Card	17	nummod	_	_
+17	piece	piece	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = The planks of the paddle-boxes were disjointed, like the leaves of wooden sunblinds; but through their apertures the paddles themselves could be seen in good condition.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	planks	plank	NOUN	NNS	Number=Plur	9	nsubj:pass	_	_
+3	of	of	ADP	IN	_	7	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	paddle	paddle	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	7	punct	_	SpaceAfter=No
+7	boxes	box	NOUN	NNS	Number=Plur	2	nmod	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+9	disjointed	disjoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	like	like	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	leaves	leafe	NOUN	NNS	Number=Plur	9	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	wooden	wooden	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	sunblinds	sunblind	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	9	punct	_	_
+18	but	but	CCONJ	CC	_	27	cc	_	_
+19	through	through	ADP	IN	_	21	case	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	apertures	aperture	NOUN	NNS	Number=Plur	27	obl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	paddles	paddle	NOUN	NNS	Number=Plur	27	nsubj:pass	_	_
+24	themselves	themselves	PRON	PRP	Number=Plur|Person=3|PronType=Prs	23	nmod:npmod	_	_
+25	could	could	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux:pass	_	_
+27	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	good	good	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	condition	condition	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = A few of their floats only were missing.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	few	few	ADJ	JJ	Degree=Pos	8	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	floats	float	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	only	only	ADV	RB	_	5	advmod	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	missing	missing	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

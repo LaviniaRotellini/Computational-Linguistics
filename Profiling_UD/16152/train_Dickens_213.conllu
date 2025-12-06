@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘What a bad disposition you have, Peggotty!’ returned my mother.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	12	nsubj	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	bad	bad	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	disposition	disposition	NOUN	NN	Number=Sing	2	appos	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	Peggotty	Peggotty	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	2	punct	_	_
+12	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	mother	mother	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = ‘You are as jealous of Miss Murdstone as it is possible for a ridiculous creature to be.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	jealous	jealous	ADJ	JJ	Degree=Pos	0	root	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	Miss	miss	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Murdstone	Murdstone	PROPN	NNP	Number=Sing	5	obl	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	possible	possible	ADJ	JJ	Degree=Pos	5	advcl	_	_
+13	for	for	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	creature	creature	NOUN	NN	Number=Sing	5	obl	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	be	be	VERB	VB	VerbForm=Inf	16	acl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = You want to keep the keys yourself, and give out all the things, I suppose?
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	keep	keep	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	keys	key	NOUN	NNS	Number=Plur	4	obj	_	_
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	give	give	VERB	VB	VerbForm=Inf	2	conj	_	_
+11	out	out	ADP	RP	_	10	compound:prt	_	_
+12	all	all	DET	PDT	_	14	det:predet	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	things	thing	NOUN	NNS	Number=Plur	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	suppose	suppose	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+18	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I shouldn’t be surprised if you did.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	surprised	surprised	ADJ	JJ	Degree=Pos	0	root	_	_
+6	if	if	SCONJ	IN	_	8	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = When you know that she only does it out of kindness and the best intentions!
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	out	out	ADP	IN	_	11	case	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	kindness	kindness	NOUN	NN	Number=Sing	7	obl	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	best	best	ADJ	JJS	Degree=Sup	15	amod	_	_
+15	intentions	intention	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+16	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = You know she does, Peggotty--you know it well.’
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Peggotty	Peggotty	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+7	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	well	well	ADV	RB	Degree=Pos	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

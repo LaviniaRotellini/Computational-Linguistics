@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He re-entered the council-chamber.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	re-entered	re-enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	council	council	NOUN	NN	Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	chamber	chamber	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = The first thing he caught sight of was the knob of the door.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	caught	catch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	sight	sight	NOUN	NN	Number=Sing	5	obl	_	_
+7	of	of	ADP	IN	_	6	case	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	knob	knob	NOUN	NN	Number=Sing	0	root	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	door	door	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = This knob, which was round and of polished brass, shone like a terrible star for him.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	knob	knob	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	round	round	ADV	RB	_	2	acl:relcl	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	polished	polished	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	_
+10	brass	brass	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	2	punct	_	_
+12	shone	shone	NUM	CD	NumType=Card	2	nummod	_	_
+13	like	like	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	terrible	terrible	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	star	star	NOUN	NN	Number=Sing	2	nmod	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = He gazed at it as a lamb might gaze into the eye of a tiger.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gazed	gaze	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	at	at	ADP	IN	_	4	case	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lamb	lamb	NOUN	NN	Number=Sing	2	obl	_	_
+8	might	might	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	gaze	gaze	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	into	into	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	eye	eye	NOUN	NN	Number=Sing	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	tiger	tiger	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

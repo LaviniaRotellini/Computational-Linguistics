@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Meanwhile signs of the equinoctial season had begun to appear.
+1	Meanwhile	meanwhile	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	signs	sign	NOUN	NNS	Number=Plur	8	nsubj	_	_
+3	of	of	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	equinoctial	equinoctial	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	season	season	NOUN	NN	Number=Sing	2	nmod	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	appear	appear	VERB	VB	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = There came rain--an angry rain.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	rain	rain	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No
+4	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	angry	angry	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	rain	rain	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = No showers or steady torrents, but fine, sharp, icy, penetrating points which pierced to his skin through his clothing, and to his bones through his skin.
+1	No	no	DET	DT	_	2	det	_	_
+2	showers	showers	NOUN	NNS	Number=Plur	0	root	_	_
+3	or	or	CCONJ	CC	_	5	cc	_	_
+4	steady	steady	NOUN	NN	Number=Sing	5	compound	_	_
+5	torrents	torrent	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	fine	fine	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	sharp	sharp	ADJ	JJ	Degree=Pos	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	icy	icy	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	penetrating	penetrate	VERB	VBG	VerbForm=Ger	15	amod	_	_
+15	points	point	NOUN	NNS	Number=Plur	2	conj	_	_
+16	which	which	PRON	WDT	PronType=Rel	17	nsubj	_	_
+17	pierced	pierce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+20	skin	skin	NOUN	NN	Number=Sing	17	obl	_	_
+21	through	through	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	clothing	clothing	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	bones	bone	NOUN	NNS	Number=Plur	2	conj	_	_
+29	through	through	ADP	IN	_	31	case	_	_
+30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	skin	skin	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = It was a rain which yielded little water for drinking, but which drenched him none the less.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	rain	rain	NOUN	NN	Number=Sing	0	root	_	_
+5	which	which	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	yielded	yield	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	little	little	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	water	water	NOUN	NN	Number=Sing	6	obj	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	drinking	drinking	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	but	but	CCONJ	CC	_	14	cc	_	_
+13	which	which	PRON	WDT	PronType=Int	14	nsubj	_	_
+14	drenched	drench	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	none	none	NOUN	NN	Number=Sing	18	nsubj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	less	less	ADJ	JJR	Degree=Cmp	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

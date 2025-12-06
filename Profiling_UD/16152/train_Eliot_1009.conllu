@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “When we were married everyone felt that your position was very high.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	5	mark	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+6	everyone	everyone	PRON	NN	Number=Sing	7	nsubj	_	_
+7	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	that	that	SCONJ	IN	_	13	mark	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	position	position	NOUN	NN	Number=Sing	13	nsubj	_	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	high	high	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = I could not have imagined then that you would want to sell our furniture, and take a house in Bride Street, where the rooms are like cages.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	imagined	imagine	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	then	then	ADV	RB	PronType=Dem	5	advmod	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	want	want	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	sell	sell	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	furniture	furniture	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	take	take	VERB	VB	VerbForm=Inf	12	conj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	house	house	NOUN	NN	Number=Sing	17	obj	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	Bride	Bride	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Street	Street	PROPN	NNP	Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	where	where	ADV	WRB	PronType=Rel	29	advmod	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	rooms	room	NOUN	NNS	Number=Plur	29	nsubj	_	_
+27	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	like	like	ADP	IN	_	29	case	_	_
+29	cages	cage	NOUN	NNS	Number=Plur	22	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = If we are to live in that way let us at least leave Middlemarch.”
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	live	live	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	way	way	NOUN	NN	Number=Sing	5	obl	_	_
+9	let	let	VERB	VB	VerbForm=Inf	0	root	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	at	at	ADV	RB	_	13	advmod	_	_
+12	least	least	ADV	RBS	Degree=Sup	11	fixed	_	_
+13	leave	leave	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+14	Middlemarch	Middlemarch	PROPN	NNP	Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+16	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The Raymond referred to, I understood to be the gentleman present, and him I understood to be Mr. Camilla.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Raymond	Raymond	PROPN	NNP	Number=Sing	3	nsubj	_	_
+3	referred	refer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	understood	understand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+8	to	to	PART	TO	_	12	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	gentleman	gentleman	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	present	present	NOUN	NN	Number=Sing	7	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	understood	understand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	to	to	PART	TO	_	20	mark	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+20	Mr.	Mr.	PROPN	NNP	Number=Sing	17	xcomp	_	_
+21	Camilla	Camilla	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He came to the rescue at this point, and said in a consolatory and complimentary voice, “Camilla, my dear, it is well known that your family feelings are gradually undermining you to the extent of making one of your legs shorter than the other.”
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	rescue	rescue	NOUN	NN	Number=Sing	2	obl	_	_
+6	at	at	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	point	point	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	consolatory	consolatory	NOUN	NN	Number=Sing	11	obl	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	complimentary	complimentary	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	voice	voice	NOUN	NN	Number=Sing	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	“	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+20	Camilla	Camilla	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	11	punct	_	_
+22	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	dear	dear	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	11	punct	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+27	well	well	ADV	RB	Degree=Pos	28	advmod	_	_
+28	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	ccomp	_	_
+29	that	that	SCONJ	IN	_	35	mark	_	_
+30	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+31	family	family	NOUN	NN	Number=Sing	32	compound	_	_
+32	feelings	feeling	NOUN	NNS	Number=Plur	35	nsubj	_	_
+33	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	gradually	gradually	ADV	RB	_	35	advmod	_	_
+35	undermining	undermine	VERB	VBG	Tense=Pres|VerbForm=Part	28	ccomp	_	_
+36	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	35	obj	_	_
+37	to	to	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	extent	extent	NOUN	NN	Number=Sing	35	obl	_	_
+40	of	of	SCONJ	IN	_	41	mark	_	_
+41	making	make	VERB	VBG	VerbForm=Ger	39	acl	_	_
+42	one	one	NUM	CD	NumType=Card	41	obj	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	legs	leg	NOUN	NNS	Number=Plur	42	nmod	_	_
+46	shorter	shorter	ADJ	JJR	Degree=Cmp	41	xcomp	_	_
+47	than	than	ADP	IN	_	49	case	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	other	other	ADJ	JJ	Degree=Pos	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+51	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

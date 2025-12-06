@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Em’ly’s run away!
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Em	they	PROPN	NNP	Number=Sing	3	compound	_	SpaceAfter=No
+3	’ly	’ly	PROPN	NNP	Number=Sing	5	nmod:poss	_	SpaceAfter=No
+4	’s	be	PART	POS	_	3	case	_	_
+5	run	run	VERB	VB	VerbForm=Inf	0	root	_	_
+6	away	away	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Oh, Mas’r Davy, think HOW she’s run away, when I pray my good and gracious God to kill her (her that is so dear above all things) sooner than let her come to ruin and disgrace!’
+1	Oh	oh	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Mas’r	Mas’r	PROPN	NNP	Number=Sing	1	vocative	_	_
+4	Davy	Davy	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+7	HOW	how	ADV	WRB	PronType=Int	10	advmod	_	_
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	SpaceAfter=No
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+11	away	away	ADV	RB	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	_	_
+13	when	when	ADV	WRB	PronType=Int	15	mark	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	pray	pray	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	good	good	ADJ	JJ	Degree=Pos	15	obj	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	gracious	gracious	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	God	God	PROPN	NNP	Number=Sing	17	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	kill	kill	VERB	VB	VerbForm=Inf	15	advcl	_	_
+23	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	(	(	PUNCT	-LRB-	_	29	punct	_	SpaceAfter=No
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	29	nsubj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	so	so	ADV	RB	_	29	advmod	_	_
+29	dear	dear	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+30	above	above	ADP	IN	_	32	case	_	_
+31	all	all	DET	DT	_	32	det	_	_
+32	things	thing	NOUN	NNS	Number=Plur	29	obl	_	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	_	29	punct	_	_
+34	sooner	sooner	ADV	RBR	Degree=Cmp	36	advmod	_	_
+35	than	than	SCONJ	IN	_	36	mark	_	_
+36	let	let	VERB	VB	VerbForm=Inf	6	advcl	_	_
+37	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+38	come	come	VERB	VB	VerbForm=Inf	36	xcomp	_	_
+39	to	to	PART	TO	_	40	mark	_	_
+40	ruin	ruin	VERB	VB	VerbForm=Inf	38	xcomp	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	disgrace	disgrace	VERB	VB	VerbForm=Inf	40	conj	_	SpaceAfter=No
+43	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+44	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

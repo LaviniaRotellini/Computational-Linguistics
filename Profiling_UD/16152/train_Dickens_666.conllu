@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At about mid-day, we set out for the office of Messrs Spenlow and Jorkins, in Doctors’ Commons.
+1	At	at	ADP	IN	_	3	case	_	_
+2	about	about	ADP	IN	_	3	case	_	_
+3	mid-day	mid-day	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	out	out	ADP	RP	_	6	compound:prt	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	office	office	NOUN	NN	Number=Sing	6	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Messrs	Messrs	PROPN	NNPS	Number=Plur	10	nmod	_	_
+13	Spenlow	Spenlow	PROPN	NNP	Number=Sing	12	flat	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	Jorkins	Jorkins	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	6	punct	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	Doctors	doctors	NOUN	NNS	Number=Plur	20	nmod:poss	_	SpaceAfter=No
+19	’	's	PART	POS	_	18	case	_	_
+20	Commons	Common	NOUN	NNS	Number=Plur	6	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = My aunt, who had this other general opinion in reference to London, that every man she saw was a pickpocket, gave me her purse to carry for her, which had ten guineas in it and some silver.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aunt	aunt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	general	general	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	opinion	opinion	NOUN	NN	Number=Sing	5	obj	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	reference	reference	NOUN	NN	Number=Sing	5	obl	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	London	London	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	that	that	SCONJ	IN	_	22	mark	_	_
+16	every	every	DET	DT	_	17	det	_	_
+17	man	man	NOUN	NN	Number=Sing	22	nsubj	_	_
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	pickpocket	pickpocket	NOUN	NN	Number=Sing	5	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+26	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	purse	purse	NOUN	NN	Number=Sing	24	obj	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	carry	carry	VERB	VB	VerbForm=Inf	24	advcl	_	_
+30	for	for	ADP	IN	_	31	case	_	_
+31	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	2	punct	_	_
+33	which	which	PRON	WDT	PronType=Rel	34	nsubj	_	_
+34	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+35	ten	ten	NUM	CD	NumType=Card	36	nummod	_	_
+36	guineas	guinea	NOUN	NNS	Number=Plur	34	obj	_	_
+37	in	in	ADP	IN	_	38	case	_	_
+38	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	obl	_	_
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	some	some	DET	DT	_	41	det	_	_
+41	silver	silver	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

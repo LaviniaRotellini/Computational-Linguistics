@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And, my dear!’ whispered Peggotty, ‘tell the pretty little angel that I should so have liked to see her, only for a minute!
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	8	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	8	nsubj	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	whispered	whisper	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+9	Peggotty	Peggotty	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+12	tell	tell	VERB	VB	VerbForm=Inf	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	pretty	pretty	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	little	little	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	angel	angel	NOUN	NN	Number=Sing	12	obj	_	_
+17	that	that	PRON	WDT	PronType=Rel	22	obj	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+19	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	so	so	ADV	RB	_	22	advmod	_	_
+21	have	have	AUX	VB	VerbForm=Inf	22	aux	_	_
+22	liked	like	VERB	VBN	Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	see	see	VERB	VB	VerbForm=Inf	22	advcl	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	12	punct	_	_
+27	only	only	ADV	RB	_	12	advmod	_	_
+28	for	for	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	minute	minute	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+31	!	!	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = And tell her that before she marries my boy, I’ll come and make your house so beautiful for you, if you’ll let me!’
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	that	that	SCONJ	IN	_	13	mark	_	_
+5	before	before	SCONJ	IN	_	7	mark	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	marries	marry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	boy	boy	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	’ll	’ll	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	make	make	VERB	VB	VerbForm=Inf	13	conj	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	house	house	NOUN	NN	Number=Sing	15	obj	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	beautiful	beautiful	ADJ	JJ	Degree=Pos	15	xcomp	_	_
+20	for	for	ADP	IN	_	21	case	_	_
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	2	punct	_	_
+23	if	if	SCONJ	IN	_	26	mark	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	SpaceAfter=No
+25	’ll	’ll	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	let	let	VERB	VB	VerbForm=Inf	2	advcl	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,72 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mrs.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mrs	Mrs	PROPN	NNPS	Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Whimple,” said Herbert, when I told him so, “is the best of housewives, and I really do not know what my Clara would do without her motherly help.
+1	Whimple	Whimple	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	4	punct	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Herbert	Herbert	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	when	when	ADV	WRB	PronType=Int	9	mark	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	so	so	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	“	"	PUNCT	``	_	16	nsubj	_	SpaceAfter=No
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	best	best	ADJ	JJS	Degree=Sup	4	ccomp	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	housewives	housewive	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	25	punct	_	_
+20	and	and	CCONJ	CC	_	25	cc	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	really	really	ADV	RB	_	25	advmod	_	_
+23	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	know	know	VERB	VB	VerbForm=Inf	4	conj	_	_
+26	what	what	PRON	WP	PronType=Int	30	obj	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	Clara	Clara	PROPN	NNP	Number=Sing	30	nsubj	_	_
+29	would	would	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	do	do	VERB	VB	VerbForm=Inf	25	ccomp	_	_
+31	without	without	ADP	IN	_	34	case	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+33	motherly	motherly	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	help	help	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = For, Clara has no mother of her own, Handel, and no relation in the world but old Gruffandgrim.”
+1	For	for	ADP	IN	_	4	case	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	Clara	Clara	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	no	no	DET	DT	_	6	det	_	_
+6	mother	mother	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	own	own	ADJ	JJ	Degree=Pos	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	Handel	Handel	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	relation	relation	NOUN	NN	Number=Sing	6	conj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	world	world	NOUN	NN	Number=Sing	15	nmod	_	_
+19	but	but	CCONJ	CC	_	21	cc	_	_
+20	old	old	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	Gruffandgrim	Gruffandgrim	PROPN	NNP	Number=Sing	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

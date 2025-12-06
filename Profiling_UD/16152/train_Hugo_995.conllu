@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Marius made no attempt to see, not wishing to be seen himself.
+1	Marius	Marius	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	DET	DT	_	4	det	_	_
+4	attempt	attempt	NOUN	NN	Number=Sing	2	obj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	see	see	VERB	VB	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	wishing	wish	VERB	VBG	Tense=Pres|VerbForm=Part	2	parataxis	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	aux:pass	_	_
+12	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+13	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He succeeded in reaching his chamber without being seen and without making any noise.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	succeeded	succeed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	SCONJ	IN	_	4	mark	_	_
+4	reaching	reach	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	chamber	chamber	NOUN	NN	Number=Sing	4	obj	_	_
+7	without	without	SCONJ	IN	_	9	mark	_	_
+8	being	be	AUX	VBG	VerbForm=Ger	9	aux:pass	_	_
+9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	without	without	SCONJ	IN	_	12	mark	_	_
+12	making	make	VERB	VBG	VerbForm=Ger	9	conj	_	_
+13	any	any	DET	DT	_	14	det	_	_
+14	noise	noise	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It was high time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	high	high	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	time	time	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = A moment later he heard Ma’am Bougon take her departure, locking the door of the house behind her.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	moment	moment	NOUN	NN	Number=Sing	5	obl:npmod	_	_
+3	later	later	ADV	RBR	Degree=Cmp	5	advmod	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Ma	ma	NOUN	NN	Number=Sing	7	compound	_	SpaceAfter=No
+7	’am	’am	NOUN	NN	Number=Sing	5	obj	_	_
+8	Bougon	Bougon	PROPN	NNP	Number=Sing	7	flat	_	_
+9	take	take	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	departure	departure	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	locking	loc	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	door	door	NOUN	NN	Number=Sing	13	obj	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	house	house	NOUN	NN	Number=Sing	15	nmod	_	_
+19	behind	behind	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Yes, Peggotty?’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Peggotty	Peggotty	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	’	’	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 2
+# text = ‘I have tried, my dear, all ways I could think of--all the ways there are, and all the ways there ain’t, in short--to get a suitable service here, in Blunderstone; but there’s no such a thing, my love.’
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	dear	dear	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	all	all	DET	DT	_	10	det	_	_
+10	ways	way	NOUN	NNS	Number=Plur	7	appos	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	think	think	VERB	VB	VerbForm=Inf	10	acl:relcl	_	_
+14	of	of	ADP	IN	_	13	obl	_	SpaceAfter=No
+15	--	--	PUNCT	,	_	4	punct	_	SpaceAfter=No
+16	all	all	DET	PDT	_	18	det:predet	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	ways	way	NOUN	NNS	Number=Plur	4	appos	_	_
+19	there	there	PRON	EX	_	20	expl	_	_
+20	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	25	punct	_	_
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	all	all	DET	PDT	_	25	det:predet	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	ways	way	NOUN	NNS	Number=Plur	18	conj	_	_
+26	there	there	ADV	RB	PronType=Dem	31	advmod	_	_
+27	ai	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	cop	_	SpaceAfter=No
+28	n’t	not	PART	RB	_	31	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	28	punct	_	_
+30	in	in	ADP	IN	_	31	case	_	_
+31	short	short	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+32	--	--	PUNCT	,	_	31	punct	_	SpaceAfter=No
+33	to	to	PART	TO	_	34	mark	_	_
+34	get	get	VERB	VB	VerbForm=Inf	31	advcl	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+36	suitable	suitable	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	service	service	NOUN	NN	Number=Sing	34	obj	_	_
+38	here	here	ADV	RB	PronType=Dem	34	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	31	punct	_	_
+40	in	in	ADP	IN	_	41	case	_	_
+41	Blunderstone	Blunderstone	PROPN	NNP	Number=Sing	31	obl	_	SpaceAfter=No
+42	;	;	PUNCT	,	_	4	punct	_	_
+43	but	but	CCONJ	CC	_	45	cc	_	_
+44	there	there	PRON	EX	_	45	expl	_	SpaceAfter=No
+45	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+46	no	no	DET	DT	_	49	det:predet	_	_
+47	such	such	DET	PDT	_	49	det:predet	_	_
+48	a	a	DET	DT	Definite=Ind|PronType=Art	49	det	_	_
+49	thing	thing	NOUN	NN	Number=Sing	45	nsubj	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	52	punct	_	_
+51	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	52	nmod:poss	_	_
+52	love	love	NOUN	NN	Number=Sing	49	appos	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+54	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “There were three little cocks who owned a country where there were a great many flowers.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	_
+3	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	three	three	NUM	CD	NumType=Card	6	nummod	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cocks	cock	NOUN	NNS	Number=Plur	3	nsubj	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	owned	own	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	country	country	NOUN	NN	Number=Sing	8	obj	_	_
+11	where	where	ADV	WRB	PronType=Rel	13	advmod	_	_
+12	there	there	PRON	EX	_	13	expl	_	_
+13	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+15	great	great	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	many	many	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	flowers	flowers	NOUN	NNS	Number=Plur	13	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = They plucked the flowers and put them in their pockets.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	plucked	pluck	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	flowers	flower	NOUN	NNS	Number=Plur	2	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	pockets	pocket	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = After that they plucked the leaves and put them in their playthings.
+1	After	after	SCONJ	IN	_	4	mark	_	_
+2	that	that	SCONJ	IN	_	1	fixed	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	plucked	pluck	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	leaves	leave	NOUN	NNS	Number=Plur	4	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	playthings	plaything	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = There was a wolf in that country; there was a great deal of forest; and the wolf was in the forest; and he ate the little cocks.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	wolf	wolf	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	country	country	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	,	_	2	punct	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	great	great	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	deal	deal	NOUN	NN	Number=Sing	10	nsubj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	forest	forest	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	2	punct	_	_
+17	and	and	CCONJ	CC	_	23	cc	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	wolf	wolf	NOUN	NN	Number=Sing	23	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	forest	forest	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+24	;	;	PUNCT	,	_	2	punct	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	ate	eat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	cocks	cock	NOUN	NNS	Number=Plur	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

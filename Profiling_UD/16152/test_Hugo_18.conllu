@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My cap to you, Chancellor of Sainte-Geneviève!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	cap	cap	NOUN	NN	Number=Sing	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Chancellor	Chancellor	PROPN	NNP	Number=Sing	3	appos	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Sainte	Sainte	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+11	Geneviève	Geneviève	PROPN	NNP	Number=Sing	3	appos	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = You have done me a wrong.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	wrong	wrong	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ’Tis true; he gave my place in the nation of Normandy to little Ascanio Falzapada, who comes from the province of Bourges, since he is an Italian.”
+1	’	'	PUNCT	''	_	3	punct	_	SpaceAfter=No
+2	Tis	tTis	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	place	place	NOUN	NN	Number=Sing	6	obj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	nation	nation	NOUN	NN	Number=Sing	6	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	Normandy	Normandy	PROPN	NNP	Number=Sing	11	nmod	_	_
+14	to	to	ADP	IN	_	17	case	_	_
+15	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	Ascanio	Ascanio	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Falzapada	Falzapada	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	6	punct	_	_
+19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+20	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+21	from	from	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	province	province	NOUN	NN	Number=Sing	20	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	Bourges	Bourges	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	20	punct	_	_
+27	since	since	SCONJ	IN	_	31	mark	_	_
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	an	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	Italian	italian	ADJ	JJ	Degree=Pos	20	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+33	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

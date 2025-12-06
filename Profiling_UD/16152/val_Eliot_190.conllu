@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh yes, thank you,” said Maggie, “I’m very much obliged to you.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	5	discourse	_	_
+3	yes	yes	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Maggie	Maggie	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	“	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj:pass	_	SpaceAfter=No
+14	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
+15	very	very	ADV	RB	_	16	advmod	_	_
+16	much	much	ADV	RB	_	17	advmod	_	_
+17	obliged	oblige	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = But I wish you’d go with me too.”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	’d	’d	ADV	RB	_	6	advmod	_	_
+6	go	go	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 3
+# text = She thought anything was better than going with one of the dreadful men alone; it would be more cheerful to be murdered by a larger party.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	anything	anything	PRON	NN	Number=Sing	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	better	better	ADJ	JJR	Degree=Cmp	2	ccomp	_	_
+6	than	than	SCONJ	IN	_	7	mark	_	_
+7	going	go	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	one	one	NUM	CD	NumType=Card	7	obl	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	dreadful	dreadful	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	men	man	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	alone	alone	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	2	punct	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+19	more	more	ADV	RBR	_	20	advmod	_	_
+20	cheerful	cheerful	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+21	to	to	PART	TO	_	23	mark	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	_
+24	by	by	ADP	IN	_	27	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	larger	larger	ADJ	JJR	Degree=Cmp	27	amod	_	_
+27	party	party	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

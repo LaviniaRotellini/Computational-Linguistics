@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Hello!”
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Hello	hello	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 2
+# text = he said, “the lamp is not lighted yet.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	lamp	lamp	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	not	not	PART	RB	_	9	advmod	_	_
+9	lighted	light	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+10	yet	yet	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But it is dark.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dark	dark	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Can they have gone out?”
+1	Can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	out	out	ADP	RP	_	4	compound:prt	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 5
+# text = He waited until ten o’clock.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	waited	wait	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	until	until	ADP	IN	_	5	case	_	_
+4	ten	ten	NUM	CD	NumType=Card	5	nummod	_	_
+5	o’clock	o’clock	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Until midnight.
+1	Until	until	ADP	IN	_	2	case	_	_
+2	midnight	midnight	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Until one in the morning.
+1	Until	until	ADP	IN	_	2	case	_	_
+2	one	one	NUM	CD	NumType=Card	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	morning	morning	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Not a light appeared in the windows of the third story, and no one entered the house.
+1	Not	not	PART	RB	_	3	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	light	light	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	windows	window	NOUN	NNS	Number=Plur	4	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	11	amod	_	_
+11	story	story	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	one	one	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	house	house	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

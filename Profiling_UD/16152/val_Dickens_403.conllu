@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Perfectly.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Perfectly	perfectly	ADV	RB	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = And an infinitely dreary person he appeared to me to be.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	infinitely	infinitely	ADV	RB	_	4	advmod	_	_
+4	dreary	dreary	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	person	person	NOUN	NN	Number=Sing	0	root	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	be	be	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Lengthy and prosy in the extreme.
+1	Lengthy	lengthy	ADJ	JJ	Degree=Pos	0	root	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	prosy	prosy	ADJ	JJ	Degree=Pos	1	conj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	extreme	extreme	NOUN	NN	Number=Sing	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = It was knowing to hold forth, in the humble-virtue school of eloquence; but, I assure you I thought at the time, “My good fellow, you are over-doing this!”’
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	knowing	know	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	hold	hold	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	forth	forth	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	in	in	ADP	IN	_	13	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+10	humble	humble	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	virtue	virtue	NOUN	NN	Number=Sing	13	compound	_	_
+13	school	school	NOUN	NN	Number=Sing	5	obl	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	eloquence	eloquence	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	but	but	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	assure	assure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	obj	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+24	at	at	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	time	time	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	20	punct	_	_
+28	“	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
+29	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+30	good	good	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	fellow	fellow	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	3	punct	_	_
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	36	nsubj	_	_
+34	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	over	over	ADV	RB	_	36	advmod	_	SpaceAfter=No
+36	-doing	-do	VERB	VBG	Tense=Pres|VerbForm=Part	3	ccomp	_	_
+37	this	this	PRON	DT	Number=Sing|PronType=Dem	36	obj	_	SpaceAfter=No
+38	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	3	punct	_	SpaceAfter=No
+40	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

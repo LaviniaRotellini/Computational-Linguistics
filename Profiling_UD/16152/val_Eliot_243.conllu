@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “But you had a gun and bayonet besides?” said Tom.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	But	but	CCONJ	CC	_	4	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	gun	gun	NOUN	NN	Number=Sing	9	compound	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	bayonet	bayonet	NOUN	NN	Number=Sing	9	compound	_	_
+9	besides	beside	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Tom	Tom	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “_I_ should like the gun and bayonet best, because you could shoot ’em first and spear ’em after.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	_I_	_i_	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	gun	gun	NOUN	NN	Number=Sing	4	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	bayonet	bayonet	ADV	RB	_	9	advmod	_	_
+9	best	best	ADV	RBS	Degree=Sup	4	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	_	_
+11	because	because	SCONJ	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	could	could	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	shoot	shoot	VERB	VB	VerbForm=Inf	4	advcl	_	_
+15	’em	’em	ADV	RB	_	16	advmod	_	_
+16	first	first	ADV	RB	_	14	advmod	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	spear	spear	VERB	VB	VerbForm=Inf	14	conj	_	_
+19	’	'	PUNCT	''	_	18	punct	_	SpaceAfter=No
+20	em	they	PRON	PRP	Abbr=Yes|Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+21	after	after	ADV	RB	_	18	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Bang!
+1	Bang	bang	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ps-s-s-s!”
+1	Ps	ps	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+2	-s	's	PART	POS	_	4	advmod	_	SpaceAfter=No
+3	-s	-	ADJ	JJ	Degree=Pos	4	amod	_	SpaceAfter=No
+4	-s	-	NOUN	NNS	Number=Plur	1	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 5
+# text = Tom gave the requisite pantomime to indicate the double enjoyment of pulling the trigger and thrusting the spear.
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	requisite	requisite	NOUN	NN	Number=Sing	5	compound	_	_
+5	pantomime	pantomime	NOUN	NN	Number=Sing	2	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	indicate	indicate	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	double	double	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	enjoyment	enjoyment	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	SCONJ	IN	_	12	mark	_	_
+12	pulling	pull	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	trigger	trigger	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	thrusting	thrust	VERB	VBG	VerbForm=Ger	12	conj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	spear	spare	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

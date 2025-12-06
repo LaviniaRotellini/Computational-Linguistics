@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = And then they were a sort of hunters accustomed to peril.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	sort	sort	NOUN	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	hunters	hunter	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	accustomed	accustom	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	peril	peril	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = They were children; they were used to search, to rummage, to spy out hidden things.
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	children	child	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	3	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	search	search	VERB	VB	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	3	punct	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	rummage	rummage	VERB	VB	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	spy	spy	VERB	VB	VerbForm=Inf	12	advcl	_	_
+16	out	out	ADP	RP	_	15	compound:prt	_	_
+17	hidden	hidden	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	things	thing	NOUN	NNS	Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = They were in the habit of peeping into holes; why not into this hole?
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	habit	habit	NOUN	NN	Number=Sing	0	root	_	_
+6	of	of	SCONJ	IN	_	7	mark	_	_
+7	peeping	pee	VERB	VBG	VerbForm=Ger	5	acl	_	_
+8	into	into	ADP	IN	_	9	case	_	_
+9	holes	hole	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	why	why	ADV	WRB	PronType=Int	5	parataxis	_	_
+12	not	not	ADV	RB	_	15	advmod	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	hole	hole	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Hunting is exciting.
+1	Hunting	hunting	NOUN	NN	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	exciting	exciting	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Looking into birds' nests perhaps gives an itch for looking a little into a nest of ghosts.
+1	Looking	look	VERB	VBG	VerbForm=Ger	7	csubj	_	_
+2	into	into	ADP	IN	_	5	case	_	_
+3	birds	bird	NOUN	NNS	Number=Plur	5	nmod:poss	_	SpaceAfter=No
+4	'	'	PART	POS	_	3	case	_	_
+5	nests	nests	NOUN	NNS	Number=Plur	1	obl	_	_
+6	perhaps	perhaps	ADV	RB	_	7	advmod	_	_
+7	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	itch	itch	NOUN	NN	Number=Sing	7	obj	_	_
+10	for	for	SCONJ	IN	_	11	mark	_	_
+11	looking	look	VERB	VBG	VerbForm=Ger	9	acl	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	little	little	NOUN	NN	Number=Sing	11	obj	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	nest	nest	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	ghosts	ghost	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 6
+# text = A rummage in the dark regions.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	rummage	rummage	NOUN	NN	Number=Sing	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	dark	dark	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	regions	region	NOUN	NNS	Number=Plur	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Why not?
+1	Why	why	ADV	WRB	PronType=Int	2	advmod	_	_
+2	not	not	PART	RB	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

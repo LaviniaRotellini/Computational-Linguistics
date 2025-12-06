@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Guillaume Rym bowed low, while Coppenole, with his surly mien, had the air of one of the bears of which his majesty was speaking.
+1	Guillaume	Guillaume	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Rym	Rym	PROPN	NNP	Number=Sing	1	flat	_	_
+3	bowed	bow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	low	low	ADJ	JJ	Degree=Pos	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	while	while	SCONJ	IN	_	7	mark	_	_
+7	Coppenole	Coppenole	PROPN	NNP	Number=Sing	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+11	surly	surely	ADV	RB	_	12	advmod	_	_
+12	mien	mien	ADV	RB	_	7	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	air	air	NOUN	NN	Number=Sing	14	obj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	one	one	NUM	CD	NumType=Card	16	nmod	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	bears	bear	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	which	which	PRON	WDT	PronType=Rel	27	obl	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	majesty	majesty	NOUN	NN	Number=Sing	27	nsubj	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The king paid no heed.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	king	king	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	paid	pay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	heed	heed	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = He had just dipped his lips into the goblet, and he spat out the beverage, saying: “Foh!
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	just	just	ADV	RB	_	4	advmod	_	_
+4	dipped	dip	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	lips	lip	NOUN	NNS	Number=Plur	4	obj	_	_
+7	into	into	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	goblet	goblet	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	spat	spat	NOUN	NN	Number=Sing	4	conj	_	_
+14	out	out	ADP	IN	_	13	compound:prt	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	beverage	beverage	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	saying	say	VERB	VBG	VerbForm=Ger	4	parataxis	_	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	_	_
+20	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+21	Foh	Foh	INTJ	UH	_	18	discourse	_	SpaceAfter=No
+22	!	!	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 4
+# text = what a disagreeable potion!”
+1	what	what	PRON	WP	PronType=Int	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	disagreeable	disagreeable	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	potion	potion	NOUN	NN	Number=Sing	1	appos	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 5
+# text = The man who was reading continued:—
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	man	man	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	continued:—	continued:-	PUNCT	:	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Properly speaking, he did not enter.
+1	Properly	properly	ADV	RB	_	2	advmod	_	_
+2	speaking	speak	VERB	VBG	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	not	not	PART	RB	_	7	advmod	_	_
+7	enter	enter	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He stood erect in the half-open door, his hat on his head and his left hand thrust into his coat, which was buttoned up to the chin.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	erect	erect	ADJ	JJS	Degree=Sup	9	amod	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	half	half	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	open	open	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	door	door	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	hat	hat	NOUN	NN	Number=Sing	9	conj	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	head	head	NOUN	NN	Number=Sing	12	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nsubj	_	_
+18	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+19	hand	hand	NOUN	NN	Number=Sing	18	obj	_	_
+20	thrust	thrust	ADV	RB	_	18	advmod	_	_
+21	into	into	ADP	IN	_	23	case	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	coat	coat	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	18	punct	_	_
+25	which	which	PRON	WDT	PronType=Rel	27	nsubj:pass	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	buttoned	buttone	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+28	up	up	ADP	RP	_	27	compound:prt	_	_
+29	to	to	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	chin	ching	NOUN	NN	Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = In the bend of his elbow the leaden head of his enormous cane, which was hidden behind him, could be seen.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	bend	bend	NOUN	NN	Number=Sing	23	obl	_	_
+4	of	of	ADP	IN	_	23	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+6	elbow	elbow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	leaden	leaden	NOUN	NN	Number=Sing	9	compound	_	_
+9	head	head	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	enormous	enormous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	cane	cane	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	17	nsubj:pass	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	hidden	hide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+18	behind	behind	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	could	could	AUX	MD	VerbForm=Fin	23	aux	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	23	punct	_	SpacesAfter=\n
+

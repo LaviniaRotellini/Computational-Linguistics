@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh!
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = You mean it’s not!’ returned Miss Dartle.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	not	not	PART	RB	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+9	Miss	miss	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Dartle	Dartle	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = ‘Well, I’m very glad to hear it!
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+5	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	hear	hear	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Now, I know what to do!
+1	Now	now	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	what	what	PRON	WP	PronType=Int	7	nsubj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	do	do	VERB	VB	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = That’s the advantage of asking.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	advantage	advantage	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	SCONJ	IN	_	6	mark	_	_
+6	asking	ask	VERB	VBG	VerbForm=Ger	4	acl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = I shall never allow people to talk before me about wastefulness and profligacy, and so forth, in connexion with that life, any more.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	shall	shall	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	allow	allow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	talk	talk	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	before	before	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	about	about	ADP	IN	_	11	case	_	_
+11	wastefulness	wastefulness	NOUN	NN	Number=Sing	7	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	profligacy	profligacy	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	so	so	ADV	RB	_	17	advmod	_	_
+17	forth	forth	ADV	RB	_	4	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	4	punct	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	connexion	connexion	NOUN	NN	Number=Sing	4	obl	_	_
+21	with	with	ADP	IN	_	23	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	life	life	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	4	punct	_	_
+25	any	any	DET	DT	_	26	det	_	_
+26	more	more	ADV	RBR	_	4	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+28	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

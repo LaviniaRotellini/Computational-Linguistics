@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I gave him my hand.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	hand	hand	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = After a moment of suspense, I went and kissed my mother:
+1	After	after	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	moment	moment	NOUN	NN	Number=Sing	8	obl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	suspense	suspense	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	mother	mother	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	8	punct	_	_
+
+# sent_id = 3
+# text = she kissed me, patted me gently on the shoulder, and sat down again to her work.
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kissed	kiss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	patted	patt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	gently	gently	ADV	RB	_	5	advmod	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	shoulder	shoulder	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	down	down	ADV	RB	_	13	advmod	_	_
+15	again	again	ADV	RB	_	13	advmod	_	_
+16	to	to	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	work	work	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I could not look at her, I could not look at him, I knew quite well that he was looking at us both; and I turned to the window and looked out there, at some shrubs that were drooping their heads in the cold.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	look	look	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+17	quite	quite	ADV	RB	_	18	advmod	_	_
+18	well	well	ADV	RB	Degree=Pos	16	advmod	_	_
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+22	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	16	ccomp	_	_
+23	at	at	ADP	IN	_	24	case	_	_
+24	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	obl	_	_
+25	both	both	CCONJ	CC	_	22	obj	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	4	punct	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+30	to	to	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	window	window	NOUN	NN	Number=Sing	29	obl	_	_
+33	and	and	CCONJ	CC	_	34	cc	_	_
+34	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	conj	_	_
+35	out	out	ADP	RP	_	36	case	_	_
+36	there	there	ADV	RB	PronType=Dem	34	obl	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	29	punct	_	_
+38	at	at	ADP	IN	_	40	case	_	_
+39	some	some	DET	DT	_	40	det	_	_
+40	shrubs	shrub	NOUN	NNS	Number=Plur	29	obl	_	_
+41	that	that	PRON	WDT	PronType=Rel	43	nsubj	_	_
+42	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	43	aux	_	_
+43	drooping	droop	VERB	VBG	Tense=Pres|VerbForm=Part	40	acl:relcl	_	_
+44	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+45	heads	head	NOUN	NNS	Number=Plur	43	obj	_	_
+46	in	in	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	cold	cold	NOUN	NN	Number=Sing	43	obl	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

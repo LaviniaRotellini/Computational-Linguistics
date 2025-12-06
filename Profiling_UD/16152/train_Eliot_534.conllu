@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No; but my father had made himself known to Mr. Casaubon, and that was my last hungry day.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	21	discourse	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	2	punct	_	_
+4	but	but	CCONJ	CC	_	8	cc	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	father	father	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+9	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	known	know	VERB	VBN	Tense=Past|VerbForm=Part	8	xcomp	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	10	obl	_	_
+13	Casaubon	Casaubon	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	21	punct	_	_
+15	and	and	CCONJ	CC	_	21	cc	_	_
+16	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+19	last	last	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	hungry	hungry	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	day	day	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = 2
+# text = My father died soon after, and my mother and I were well taken care of.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	soon	soon	ADV	RB	Degree=Pos	3	advmod	_	_
+5	after	after	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	14	punct	_	_
+7	and	and	CCONJ	CC	_	14	cc	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	mother	mother	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	conj	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+13	well	well	ADV	RB	Degree=Pos	14	advmod	_	_
+14	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+15	care	care	NOUN	NN	Number=Sing	14	obj	_	_
+16	of	of	ADP	IN	_	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Mr. Casaubon always expressly recognized it as his duty to take care of us because of the harsh injustice which had been shown to his mother’s sister.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Casaubon	Casaubon	PROPN	NNP	Number=Sing	1	flat	_	_
+3	always	always	ADV	RB	_	5	advmod	_	_
+4	expressly	expressly	ADV	RB	_	5	advmod	_	_
+5	recognized	recognize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	as	as	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	duty	duty	NOUN	NN	Number=Sing	5	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	take	take	VERB	VB	VerbForm=Inf	5	advcl	_	_
+12	care	care	NOUN	NN	Number=Sing	11	obj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+15	because	because	ADP	IN	_	19	case	_	_
+16	of	of	ADP	IN	_	15	fixed	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	harsh	harsh	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	injustice	injustice	NOUN	NN	Number=Sing	11	obl	_	_
+20	which	which	PRON	WDT	PronType=Rel	23	nsubj:pass	_	_
+21	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	_
+22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	aux:pass	_	_
+23	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+24	to	to	ADP	IN	_	28	case	_	_
+25	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	mother	mother	NOUN	NN	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+27	’s	's	PART	POS	_	26	case	_	_
+28	sister	sister	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = But now I am telling you what is not new to you.”
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	now	now	ADV	RB	_	5	advmod	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	what	what	PRON	WP	PronType=Int	5	ccomp	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	new	new	ADJ	JJ	Degree=Pos	7	acl:relcl	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

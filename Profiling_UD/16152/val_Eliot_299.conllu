@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Maggie, almost choked with mingled grief and anger, left the room, and took her old place on her father’s bed.
+1	Maggie	Maggie	PROPN	NNP	Number=Sing	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	almost	almost	ADV	RB	_	4	advmod	_	_
+4	choked	chok	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	mingled	mingled	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	grief	grief	NOUN	NN	Number=Sing	4	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	anger	anger	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	room	room	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	old	old	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	place	place	NOUN	NN	Number=Sing	16	obj	_	_
+20	on	on	ADP	IN	_	24	case	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	father	father	NOUN	NN	Number=Sing	24	nmod:poss	_	SpaceAfter=No
+23	’s	's	PART	POS	_	22	case	_	_
+24	bed	bed	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Her heart went out to him with a stronger movement than ever, at the thought that people would blame him.
+1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	heart	heart	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+7	with	with	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	stronger	stronger	ADJ	JJR	Degree=Cmp	10	amod	_	_
+10	movement	movement	NOUN	NN	Number=Sing	3	obl	_	_
+11	than	than	ADP	IN	_	12	case	_	_
+12	ever	ever	ADV	RB	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	thought	thought	NOUN	NN	Number=Sing	3	obl	_	_
+17	that	that	SCONJ	IN	_	20	mark	_	_
+18	people	people	NOUN	NNS	Number=Plur	20	nsubj	_	_
+19	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	blame	blame	VERB	VB	VerbForm=Inf	16	acl	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Maggie hated blame; she had been blamed all her life, and nothing had come of it but evil tempers.
+1	Maggie	Maggie	X	FW	_	2	advmod	_	_
+2	hated	hate	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+3	blame	blame	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	2	punct	_	_
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+8	blamed	blame	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+9	all	all	DET	DT	_	11	det:predet	_	_
+10	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	life	life	NOUN	NN	Number=Sing	8	obl:tmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	nothing	nothing	PRON	NN	Number=Sing	16	nsubj	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	_
+16	come	come	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	but	but	CCONJ	CC	_	21	cc	_	_
+20	evil	evill	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	tempers	tempers	NOUN	NNS	Number=Plur	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

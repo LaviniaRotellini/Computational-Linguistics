@@ -1,0 +1,98 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The bridge once crossed, he perceived some timber-yards on his right.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bridge	bridge	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	once	once	ADV	RB	NumType=Mult	4	advmod	_	_
+4	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	perceived	perceive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	some	some	DET	DT	_	11	det	_	_
+9	timber	timber	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	yards	yard	NOUN	NNS	Number=Plur	7	obj	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	right	right	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He directed his course thither.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	directed	direct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	course	course	NOUN	NN	Number=Sing	5	compound	_	_
+5	thither	thither	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = In order to reach them, it was necessary to risk himself in a tolerably large unsheltered and illuminated space.
+1	In	in	ADP	IN	_	4	mark	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	reach	reach	VERB	VB	VerbForm=Inf	9	advcl	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+9	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	risk	risk	VERB	VB	VerbForm=Inf	9	advcl	_	_
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	in	in	ADP	IN	_	20	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+15	tolerably	tolerably	ADV	RB	_	17	advmod	_	_
+16	large	large	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	unsheltered	unsheltered	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	illuminated	illuminate	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	_
+20	space	space	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = He did not hesitate.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	hesitate	hesitate	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Those who were on his track had evidently lost the scent, and Jean Valjean believed himself to be out of danger.
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	9	nsubj	_	_
+2	who	who	PRON	WP	PronType=Rel	6	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	track	track	NOUN	NN	Number=Sing	1	acl:relcl	_	_
+7	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	evidently	evidently	ADV	RB	_	9	advmod	_	_
+9	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	scent	scent	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	and	and	CCONJ	CC	_	16	cc	_	_
+14	Jean	Jean	PROPN	NNP	Number=Sing	16	nsubj	_	_
+15	Valjean	Valjean	PROPN	NNP	Number=Sing	14	flat	_	_
+16	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	to	to	PART	TO	_	22	mark	_	_
+19	be	be	AUX	VB	VerbForm=Inf	22	cop	_	_
+20	out	out	ADP	IN	_	22	case	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	danger	danger	NOUN	NN	Number=Sing	16	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Hunted, yes; followed, no.
+1	Hunted	Hunt	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	yes	yes	INTJ	UH	_	1	discourse	_	SpaceAfter=No
+4	;	;	PUNCT	,	_	1	punct	_	_
+5	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	no	no	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

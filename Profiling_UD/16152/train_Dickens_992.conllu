@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Not at all.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Not	not	PART	RB	_	4	advmod	_	_
+3	at	at	ADV	RB	_	4	case	_	_
+4	all	all	ADV	RB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Don’t mention it,’ said Mr. Spenlow.
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	SpaceAfter=No
+2	n’t	not	PART	RB	_	3	advmod	_	_
+3	mention	mention	VERB	VB	Mood=Imp|VerbForm=Fin	7	ccomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Spenlow	Spenlow	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = ‘At the same time, I was going to say, if it had been my lot to have my hands unfettered--if I had not a partner--Mr. Jorkins--’
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	At	at	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	same	same	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	time	time	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	say	say	VERB	VB	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	if	if	SCONJ	IN	_	18	mark	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	_
+17	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	lot	lot	NOUN	NN	Number=Sing	11	advcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	have	have	VERB	VB	VerbForm=Inf	18	acl	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	hands	hand	NOUN	NNS	Number=Plur	20	obj	_	_
+23	unfettered	unfettered	ADJ	JJ	Degree=Pos	20	xcomp	_	SpaceAfter=No
+24	--	--	PUNCT	,	_	9	punct	_	SpaceAfter=No
+25	if	if	SCONJ	IN	_	27	mark	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+28	not	not	PART	RB	_	30	advmod	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	partner	partner	NOUN	NN	Number=Sing	27	xcomp	_	SpaceAfter=No
+31	--	--	PUNCT	,	_	9	punct	_	SpaceAfter=No
+32	Mr.	Mr.	PROPN	NNP	Number=Sing	9	obj	_	_
+33	Jorkins	Jorkins	PROPN	NNP	Number=Sing	32	flat	_	SpaceAfter=No
+34	--’	--’	PUNCT	.	_	9	punct	_	SpacesAfter=\n
+

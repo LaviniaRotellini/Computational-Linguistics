@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “My health?” replied Gringoire.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	health	health	NOUN	NN	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+6	replied	reply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Gringoire	Gringoire	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “Eh! eh!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Eh	Eh	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+4	eh	eh	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = one can say both one thing and another on that score.
+1	one	one	PRON	PRP	_	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	say	say	VERB	VB	VerbForm=Inf	0	root	_	_
+4	both	both	CCONJ	CC	_	6	cc:preconj	_	_
+5	one	one	NUM	CD	NumType=Card	6	nummod	_	_
+6	thing	thing	NOUN	NN	Number=Sing	3	obj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	another	another	DET	DT	_	6	conj	_	_
+9	on	on	ADP	IN	_	11	case	_	_
+10	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	score	score	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Still, it is good, on the whole.
+1	Still	still	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	whole	whole	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = I take not too much of anything.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	too	too	ADV	RB	_	5	advmod	_	_
+5	much	much	ADJ	JJ	Degree=Pos	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	anything	anything	PRON	NN	Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = You know, master, that the secret of keeping well, according to Hippocrates; _id est: cibi, potus, somni, venus, omnia moderata sint_.”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	master	master	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	that	that	SCONJ	IN	_	18	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	secret	secret	NOUN	NN	Number=Sing	18	nsubj	_	_
+9	of	of	SCONJ	IN	_	10	mark	_	_
+10	keeping	keep	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	well	well	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	10	punct	_	_
+13	according	accord	VERB	VBG	VerbForm=Ger	15	case	_	_
+14	to	to	ADP	IN	_	13	fixed	_	_
+15	Hippocrates	Hippocrates	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	8	punct	_	_
+17	_id	_o	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	est	est	ADJ	JJS	Degree=Sup	2	ccomp	_	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	_	_
+20	cibi	cibi	NOUN	NN	Number=Sing	18	appos	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	potus	potus	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	somni	somnus	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	20	punct	_	_
+26	venus	venus	NOUN	NN	Number=Sing	20	list	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	26	punct	_	_
+28	omnia	omnia	NOUN	NN	Number=Sing	29	compound	_	_
+29	moderata	moderata	NOUN	NN	Number=Sing	30	compound	_	_
+30	sint	sint	NOUN	NN	Number=Sing	26	appos	_	SpaceAfter=No
+31	_.	_.	PUNCT	.	_	20	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	18	punct	_	SpacesAfter=\n
+

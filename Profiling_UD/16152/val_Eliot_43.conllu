@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh, Luke, Tom told me to be sure and remember the rabbits every day; but how could I, when they didn’t come into my head, you know?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Luke	Luke	PROPN	NNP	Number=Sing	7	vocative	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	sure	sure	ADJ	JJ	Degree=Pos	7	xcomp	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	remember	remember	VERB	VB	VerbForm=Inf	7	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	rabbits	rabbit	NOUN	NNS	Number=Plur	13	obj	_	_
+16	every	every	DET	DT	_	17	det	_	_
+17	day	day	NOUN	NN	Number=Sing	15	nmod:npmod	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	7	punct	_	_
+19	but	but	CCONJ	CC	_	34	cc	_	_
+20	how	how	ADV	WRB	PronType=Int	21	advmod	_	_
+21	could	could	AUX	MD	VerbForm=Fin	34	aux	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	34	punct	_	_
+24	when	when	ADV	WRB	PronType=Int	28	mark	_	_
+25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+26	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
+27	n’t	not	PART	RB	_	28	advmod	_	_
+28	come	come	VERB	VB	VerbForm=Inf	34	advcl	_	_
+29	into	into	ADP	IN	_	31	case	_	_
+30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	head	head	NOUN	NN	Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	34	punct	_	_
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	_
+34	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+35	?	?	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Oh, he will be so angry with me, I know he will, and so sorry about his rabbits, and so am I sorry.
+1	Oh	oh	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	7	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	angry	angry	ADJ	JJ	Degree=Pos	0	root	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	12	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	so	so	ADV	RB	_	18	advmod	_	_
+18	sorry	sorry	ADJ	JJ	Degree=Pos	7	conj	_	_
+19	about	about	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	rabbits	rabbit	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	27	punct	_	_
+23	and	and	CCONJ	CC	_	27	cc	_	_
+24	so	so	ADV	RB	_	27	advmod	_	_
+25	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	sorry	sorry	ADJ	JJ	Degree=Pos	7	conj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Oh, what _shall_
+1	Oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	_	_	SYM	NFP	_	5	punct	_	SpaceAfter=No
+5	shall	shall	AUX	MD	VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+6	_	_	SYM	NFP	_	3	punct	_	_
+
+# sent_id = 4
+# text = I do?”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

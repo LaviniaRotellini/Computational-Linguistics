@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, if you please.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	please	please	INTJ	UH	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = I find that Mr. Ned Plymdale has taken a house—the one in St. Peter’s Place next to Mr. Hackbutt’s.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	8	mark	_	_
+4	Mr.	Mr.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+5	Ned	Ned	PROPN	NNP	Number=Sing	4	flat	_	_
+6	Plymdale	Plymdale	PROPN	NNP	Number=Sing	4	flat	_	_
+7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	house	house	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	one	one	NOUN	NN	Number=Sing	2	obj	_	_
+14	in	in	ADP	IN	_	18	case	_	_
+15	St.	St.	PROPN	NNP	Number=Sing	18	nmod:poss	_	_
+16	Peter	Peter	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+17	’s	's	PART	POS	_	15	case	_	_
+18	Place	place	NOUN	NN	Number=Sing	13	nmod	_	_
+19	next	next	ADV	RB	_	21	case	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	Mr.	Mr.	PROPN	NNP	Number=Sing	13	nmod	_	_
+22	Hackbutt	Hackbutt	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	’s	's	PART	POS	_	21	case	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mr. Lydgate would be annoyed that his orders should be fulfilled uselessly.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Lydgate	Lydgate	PROPN	NNP	Number=Sing	1	flat	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	annoyed	annoyed	ADJ	JJ	Degree=Pos	0	root	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	orders	order	NOUN	NNS	Number=Plur	11	nsubj:pass	_	_
+9	should	should	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	fulfilled	fulfil	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+12	uselessly	uselessly	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = And besides that, there are other circumstances which render the proposal unnecessary.”
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	besides	besides	ADP	IN	_	3	case	_	_
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	circumstances	circumstance	NOUN	NNS	Number=Plur	6	nsubj	_	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	render	render	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	proposal	proposal	NOUN	NN	Number=Sing	10	obj	_	_
+13	unnecessary	unnecessary	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

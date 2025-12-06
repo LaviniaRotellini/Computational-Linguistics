@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Oh dear, oh dear!” said Mrs
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	3	discourse	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	9	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	oh	oh	ADV	RB	_	6	advmod	_	_
+6	dear	dear	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs	Mrs	PROPN	NNP	Number=Sing	9	nsubj	_	_
+
+# sent_id = 2
+# text = Tulliver, thinking of the bankruptcy, and not of Mrs Moss’s concern in it.
+1	Tulliver	Tulliver	ADV	RB	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	thinking	think	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	bankruptcy	bankruptcy	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	14	punct	_	_
+8	and	and	CCONJ	CC	_	14	cc	_	_
+9	not	not	ADV	RB	_	14	advmod	_	_
+10	of	of	ADP	IN	_	14	case	_	_
+11	Mrs	Mrs	PROPN	NNP	Number=Sing	14	nmod:poss	_	_
+12	Moss	Moss	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	’s	's	PART	POS	_	11	case	_	_
+14	concern	concern	NOUN	NN	Number=Sing	3	conj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Poor Mrs
+1	Poor	poor	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	Mrs	Mrs	NOUN	NNS	Number=Plur	0	root	_	_
+
+# sent_id = 4
+# text = Moss herself listened in trembling submission, while Maggie looked with bewildered distress at Tom to see if _he_ showed any signs of understanding this trouble, and caring about poor aunt Moss.
+1	Moss	Moss	PROPN	NNP	Number=Sing	2	compound	_	_
+2	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	_
+3	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	in	in	SCONJ	IN	_	5	mark	_	_
+5	trembling	trembling	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	submission	submission	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	while	while	SCONJ	IN	_	10	mark	_	_
+9	Maggie	Maggie	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	bewildered	bewildered	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	distress	distress	NOUN	NN	Number=Sing	10	obl	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	Tom	Tom	PROPN	NNP	Number=Sing	13	nmod	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	see	see	VERB	VB	VerbForm=Inf	10	advcl	_	_
+18	if	if	SCONJ	IN	_	21	mark	_	_
+19	_	_	SYM	NFP	_	20	punct	_	SpaceAfter=No
+20	he_	he_	SYM	NFP	_	21	punct	_	_
+21	showed	show	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+22	any	any	DET	DT	_	23	det	_	_
+23	signs	sign	NOUN	NNS	Number=Plur	21	obj	_	_
+24	of	of	SCONJ	IN	_	25	mark	_	_
+25	understanding	understand	VERB	VBG	VerbForm=Ger	23	acl	_	_
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	_
+27	trouble	trouble	NOUN	NN	Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	caring	caring	ADJ	JJ	Degree=Pos	3	conj	_	_
+31	about	about	ADP	IN	_	34	case	_	_
+32	poor	poor	ADJ	JJ	Degree=Pos	34	amod	_	_
+33	aunt	aunt	NOUN	NN	Number=Sing	34	compound	_	_
+34	Moss	Moss	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Tom was only looking thoughtful, with his eyes on the tablecloth.
+1	Tom	Tom	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	thoughtful	thoughtful	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	eyes	eye	NOUN	NNS	Number=Plur	4	obl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	tablecloth	tablecloth	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

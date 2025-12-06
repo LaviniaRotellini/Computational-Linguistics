@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Quinion lay at our house that night.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Quinion	Quinion	PROPN	NNP	Number=Sing	1	flat	_	_
+3	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	house	house	NOUN	NN	Number=Sing	3	obl	_	_
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	night	night	NOUN	NN	Number=Sing	3	obl:tmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = After breakfast, the next morning, I had put my chair away, and was going out of the room, when Mr. Murdstone called me back.
+1	After	after	ADP	IN	_	2	case	_	_
+2	breakfast	breakfast	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	next	next	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	morning	morning	NOUN	NN	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	put	put	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	chair	chair	NOUN	NN	Number=Sing	10	obj	_	_
+13	away	away	ADV	RB	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	10	conj	_	_
+18	out	out	ADP	IN	_	21	case	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	room	room	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	17	punct	_	_
+23	when	when	ADV	WRB	PronType=Int	26	mark	_	_
+24	Mr.	Mr.	PROPN	NNP	Number=Sing	26	nsubj	_	_
+25	Murdstone	Murdstone	PROPN	NNP	Number=Sing	24	flat	_	_
+26	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obj	_	_
+28	back	back	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = He then gravely repaired to another table, where his sister sat herself at her desk.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+3	gravely	gravely	ADV	RB	_	4	advmod	_	_
+4	repaired	repair	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	another	another	DET	DT	_	7	det	_	_
+7	table	table	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	where	where	ADV	WRB	PronType=Rel	12	advmod	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sister	sister	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	desk	desk	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mr. Quinion, with his hands in his pockets, stood looking out of window; and I stood looking at them all.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	Quinion	Quinion	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	hands	hand	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	pockets	pockets	NOUN	NNS	Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	looking	look	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+13	out	out	ADP	IN	_	15	case	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	window	window	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	11	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+20	looking	look	VERB	VBG	VerbForm=Ger	19	xcomp	_	_
+21	at	at	ADP	IN	_	22	case	_	_
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obl	_	_
+23	all	all	DET	DT	_	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+

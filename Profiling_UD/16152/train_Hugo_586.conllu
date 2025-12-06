@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = His first care on arriving in Paris had been to buy mourning clothes for a little girl of from seven to eight years of age; then to procure a lodging.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	amod	_	_
+3	care	care	NOUN	NN	Number=Sing	11	nsubj	_	_
+4	on	on	SCONJ	IN	_	5	mark	_	_
+5	arriving	arrive	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Paris	Paris	PROPN	NNP	Number=Sing	5	obl	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	cop	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	_
+12	mourning	mourn	VERB	VBG	VerbForm=Ger	11	xcomp	_	_
+13	clothes	clothes	NOUN	NNS	Number=Plur	12	obj	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	girl	girl	NOUN	NN	Number=Sing	12	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	from	from	ADP	IN	_	20	case	_	_
+20	seven	seven	NUM	CD	NumType=Card	17	nmod	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	eight	eight	NUM	CD	NumType=Card	23	nummod	_	_
+23	years	year	NOUN	NNS	Number=Plur	12	obl	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	age	age	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	;	;	PUNCT	,	_	11	punct	_	_
+27	then	then	ADV	RB	PronType=Dem	29	advmod	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	procure	procure	VERB	VB	VerbForm=Inf	11	advcl	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	lodging	lodging	NOUN	NN	Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = That done, he had betaken himself to Montfermeil.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	done	do	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	betaken	betake	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	Montfermeil	Montfermeil	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = It will be remembered that already, during his preceding escape, he had made a mysterious trip thither, or somewhere in that neighborhood, of which the law had gathered an inkling.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	_
+4	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	that	that	SCONJ	IN	_	15	mark	_	_
+6	already	already	ADV	RB	_	15	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	15	punct	_	_
+8	during	during	ADP	IN	_	11	case	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	preceding	preceding	NOUN	NN	Number=Sing	11	compound	_	_
+11	escape	escape	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	made	make	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+17	mysterious	mysterious	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	trip	trip	NOUN	NN	Number=Sing	19	compound	_	_
+19	thither	thither	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	or	or	CCONJ	CC	_	22	cc	_	_
+22	somewhere	somewhere	ADV	RB	_	19	conj	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	that	that	DET	DT	Number=Sing|PronType=Dem	25	det	_	_
+25	neighborhood	neighborhood	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	15	punct	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	which	which	PRON	WDT	PronType=Rel	32	obl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	law	law	NOUN	NN	Number=Sing	32	nsubj	_	_
+31	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part	15	acl:relcl	_	_
+33	an	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	inkling	inkling	NOUN	NN	Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

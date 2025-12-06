@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = At the bank Tom was admitted into the private room where his uncle was, immediately after sending in his name.
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	bank	bank	NOUN	NN	Number=Sing	6	obl	_	_
+4	Tom	Tom	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	admitted	admit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	into	into	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	private	private	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	room	room	NOUN	NN	Number=Sing	6	obl	_	_
+11	where	where	ADV	WRB	PronType=Rel	18	advmod	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	uncle	uncle	NOUN	NN	Number=Sing	18	nsubj	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	immediately	immediately	ADV	RB	_	18	advmod	_	_
+17	after	after	SCONJ	IN	_	18	mark	_	_
+18	sending	send	VERB	VBG	VerbForm=Ger	10	acl:relcl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	name	name	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mr
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 3
+# text = Deane was auditing accounts; but he looked up as Tom entered, and putting out his hand, said, “Well, Tom, nothing fresh the matter at home, I hope?
+1	Deane	Deane	PRON	PRP	_	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	auditing	audit	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	accounts	account	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+5	;	;	PUNCT	,	_	3	punct	_	_
+6	but	but	CCONJ	CC	_	8	cc	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	up	up	ADP	RP	_	8	compound:prt	_	_
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	Tom	Tom	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	8	conj	_	_
+16	out	out	ADP	RP	_	15	compound:prt	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hand	hand	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	20	punct	_	_
+22	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+23	Well	well	INTJ	UH	_	25	discourse	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	Tom	Tom	PROPN	NNP	Number=Sing	28	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	nothing	nothing	PRON	NN	Number=Sing	25	appos	_	_
+28	fresh	fresh	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	matter	matter	NOUN	NN	Number=Sing	28	obj	_	_
+31	at	at	ADP	IN	_	32	case	_	_
+32	home	home	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	35	punct	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	parataxis	_	SpaceAfter=No
+36	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = How’s your father?”
+1	How	how	ADV	WRB	PronType=Int	0	root	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	father	father	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

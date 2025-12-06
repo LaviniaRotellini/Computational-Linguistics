@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Girl number twenty unable to define a horse!’ said Mr. Gradgrind, for the general behoof of all the little pitchers.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Girl	girl	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	number	number	NOUN	NN	Number=Sing	2	appos	_	_
+4	twenty	twenty	NUM	CD	NumType=Card	3	nummod	_	_
+5	unable	unable	ADJ	JJ	Degree=Pos	12	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	define	define	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	horse	horse	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	for	for	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	general	general	ADJ	JJ	Degree=Pos	13	nmod	_	_
+19	behoof	behoof	ADP	IN	_	24	case	_	_
+20	of	of	ADP	IN	_	24	case	_	_
+21	all	all	DET	PDT	_	24	det:predet	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	pitchers	pitcher	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = ‘Girl number twenty possessed of no facts, in reference to one of the commonest of animals!
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Girl	girl	PROPN	NNP	Number=Sing	3	compound	_	_
+3	number	number	NOUN	NN	Number=Sing	0	root	_	_
+4	twenty	twenty	NUM	CD	NumType=Card	5	nummod	_	_
+5	possessed	possess	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	no	no	DET	DT	_	8	det	_	_
+8	facts	fact	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	reference	reference	NOUN	NN	Number=Sing	3	nmod	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	one	one	NUM	CD	NumType=Card	3	nmod	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	commonest	commonest	NOUN	NN	Number=Sing	13	nmod	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	animals	animal	NOUN	NNS	Number=Plur	16	nmod	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Some boy’s definition of a horse.
+1	Some	some	DET	DT	_	2	det	_	_
+2	boy	boy	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	definition	definition	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	horse	horse	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Bitzer, yours.’
+1	Bitzer	Bitzer	PROPN	NNP	Number=Sing	3	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	yours	yours	PRON	PRP	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	’	’	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

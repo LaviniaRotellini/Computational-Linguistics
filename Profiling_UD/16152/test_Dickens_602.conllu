@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Then,” said I, “after all, stopping short here, never taking another penny from him, think what I owe him already!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Then	then	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+9	after	after	ADV	RB	_	10	advmod	_	_
+10	all	all	ADV	RB	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	stopping	stop	VERB	VBG	VerbForm=Ger	5	parataxis	_	_
+13	short	short	ADJ	JJ	Degree=Pos	12	obj	_	_
+14	here	here	ADV	RB	PronType=Dem	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	12	punct	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	taking	take	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+18	another	another	DET	DT	_	19	det	_	_
+19	penny	penny	NOUN	NN	Number=Sing	17	obj	_	_
+20	from	from	ADP	IN	_	21	case	_	_
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	5	punct	_	_
+23	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+24	what	what	PRON	WP	PronType=Int	26	obj	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	owe	owe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	already	already	ADV	RB	_	26	advmod	_	SpaceAfter=No
+29	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Then again:
+1	Then	then	ADV	RB	PronType=Dem	2	advmod	_	_
+2	again	again	ADV	RB	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+
+# sent_id = 3
+# text = I am heavily in debt,—very heavily for me, who have now no expectations,—and I have been bred to no calling, and I am fit for nothing.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	heavily	heavily	ADV	RB	_	5	advmod	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	debt	debt	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	,—	,—	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	very	very	ADV	RB	_	8	advmod	_	_
+8	heavily	heavily	ADV	RB	_	5	advmod	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+14	now	now	ADV	RB	_	13	advmod	_	_
+15	no	no	DET	DT	_	16	det	_	_
+16	expectations	expectation	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+17	,—	,—	PUNCT	.	_	22	punct	_	SpaceAfter=No
+18	and	and	CCONJ	CC	_	22	cc	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj:pass	_	_
+20	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+22	bred	breed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+23	to	to	ADP	IN	_	25	case	_	_
+24	no	no	DET	DT	_	25	det	_	_
+25	calling	calling	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	_	_
+27	and	and	CCONJ	CC	_	30	cc	_	_
+28	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+29	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	fit	fit	VERB	VB	VerbForm=Inf	5	conj	_	_
+31	for	for	ADP	IN	_	32	case	_	_
+32	nothing	nothing	PRON	NN	Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+34	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

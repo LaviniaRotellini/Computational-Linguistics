@@ -1,0 +1,108 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It is not necessary for you to tell me again,” said Rosamond, in a voice that fell and trickled like cold water-drops.
+1	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	necessary	necessary	ADJ	JJ	Degree=Pos	14	ccomp	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	obl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	tell	tell	VERB	VB	VerbForm=Inf	5	advcl	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	again	again	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Rosamond	Rosamond	PROPN	NNP	Number=Sing	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	in	in	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	voice	voice	NOUN	NN	Number=Sing	15	obl	_	_
+20	that	that	PRON	WDT	PronType=Rel	21	nsubj	_	_
+21	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	trickled	trickle	VERB	VBN	Tense=Past|VerbForm=Part	21	conj	_	_
+24	like	like	ADP	IN	_	28	case	_	_
+25	cold	cold	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	water	water	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	drops	drop	NOUN	NNS	Number=Plur	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “I remembered what you said.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	remembered	remembe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	what	what	PRON	WP	PronType=Int	6	obj	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = You spoke just as violently as you do now.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	just	just	ADV	RB	_	5	advmod	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	violently	violently	ADV	RB	_	2	advmod	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	now	now	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But that does not alter my opinion that you ought to try every other means rather than take a step which is so painful to me.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	alter	alter	VERB	VB	VerbForm=Inf	0	root	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	opinion	opinion	NOUN	NN	Number=Sing	5	obj	_	_
+8	that	that	SCONJ	IN	_	12	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+10	ought	ought	AUX	MD	VerbForm=Fin	12	aux	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	try	try	VERB	VB	VerbForm=Inf	5	advcl	_	_
+13	every	every	DET	DT	_	15	det	_	_
+14	other	other	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	means	means	NOUN	NNS	Number=Plur	12	obj	_	_
+16	rather	rather	ADV	RB	_	18	mark	_	_
+17	than	than	SCONJ	IN	_	16	fixed	_	_
+18	take	take	VERB	VB	VerbForm=Inf	15	acl	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	step	step	NOUN	NN	Number=Sing	18	obj	_	_
+21	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	so	so	ADV	RB	_	24	advmod	_	_
+24	painful	painful	ADJ	JJ	Degree=Pos	18	acl:relcl	_	_
+25	to	to	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = And as to advertising the house, I think it would be perfectly degrading to you.”
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	as	as	ADP	IN	_	4	mark	_	_
+3	to	to	SCONJ	IN	_	2	fixed	_	_
+4	advertising	advertise	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	house	house	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	14	aux	_	_
+13	perfectly	perfectly	ADV	RB	_	14	advmod	_	_
+14	degrading	degrad	VERB	VBG	VerbForm=Ger	9	ccomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	9	punct	_	SpacesAfter=\n
+

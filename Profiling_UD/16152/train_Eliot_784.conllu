@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “If I remember rightly,” Mr. Bulstrode observed, with chill anger, “our acquaintance many years ago had not the sort of intimacy which you are now assuming, Mr. Raffles.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+5	rightly	rightly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	10	punct	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	Bulstrode	Bulstrode	PROPN	NNP	Number=Sing	8	flat	_	_
+10	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	with	with	ADP	IN	_	14	case	_	_
+13	chill	chill	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	anger	anger	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	10	punct	_	_
+16	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	acquaintance	acquaintance	NOUN	NN	Number=Sing	10	obj	_	_
+19	many	many	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	years	year	NOUN	NNS	Number=Plur	21	obl:npmod	_	_
+21	ago	ago	ADV	RB	_	10	advmod	_	_
+22	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+23	not	not	PART	RB	_	25	advmod	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	sort	sort	NOUN	NN	Number=Sing	10	obj	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	intimacy	intimacy	NOUN	NN	Number=Sing	25	nmod	_	_
+28	which	which	PRON	WDT	PronType=Rel	32	obj	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	_
+30	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	now	now	ADV	RB	_	32	advmod	_	_
+32	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	25	acl:relcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	25	punct	_	_
+34	Mr.	Mr.	PROPN	NNP	Number=Sing	25	parataxis	_	_
+35	Raffles	Raffles	PROPN	NNP	Number=Sing	34	flat	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Any services you desire of me will be the more readily rendered if you will avoid a tone of familiarity which did not lie in our former intercourse, and can hardly be warranted by more than twenty years of separation.”
+1	Any	any	DET	DT	_	2	det	_	_
+2	services	service	NOUN	NNS	Number=Plur	12	nsubj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	desire	desire	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	will	will	AUX	MD	VerbForm=Fin	12	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	12	aux	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	more	more	ADV	RBR	_	12	advmod	_	_
+11	readily	readily	ADV	RB	_	12	advmod	_	_
+12	rendered	render	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	if	if	SCONJ	IN	_	16	mark	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	avoid	avoid	VERB	VB	VerbForm=Inf	12	advcl	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	tone	tone	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	familiarity	familiarity	NOUN	NN	Number=Sing	18	nmod	_	_
+21	which	which	PRON	WDT	PronType=Int	24	nsubj	_	_
+22	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	lie	lie	VERB	VB	VerbForm=Inf	12	acl:relcl	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	former	former	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	intercourse	intercourse	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	34	punct	_	_
+30	and	and	CCONJ	CC	_	34	cc	_	_
+31	can	can	AUX	MD	VerbForm=Fin	34	aux	_	_
+32	hardly	hardly	ADV	RB	_	34	advmod	_	_
+33	be	be	AUX	VB	VerbForm=Inf	34	aux:pass	_	_
+34	warranted	warrant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+35	by	by	ADP	IN	_	39	case	_	_
+36	more	more	ADJ	JJR	Degree=Cmp	38	advmod	_	_
+37	than	than	ADP	IN	_	36	fixed	_	_
+38	twenty	twenty	NUM	CD	NumType=Card	39	nummod	_	_
+39	years	year	NOUN	NNS	Number=Plur	34	obl	_	_
+40	of	of	ADP	IN	_	41	case	_	_
+41	separation	separation	NOUN	NN	Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	12	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = so it was you, master!” said Clopin.
+1	so	so	ADV	RB	_	4	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	master	master	VERB	VB	Mood=Imp|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Clopin	Clopin	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = “I was there, _par la tête Dieu_!
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	there	there	ADV	RB	PronType=Dem	9	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	_par	_par	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	la	la	NOUN	NN	Number=Sing	8	compound	_	_
+8	tête	tête	NOUN	NN	Number=Sing	9	compound	_	_
+9	Dieu_!	Dieu_!	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 4
+# text = Well!
+1	Well	well	INTJ	UH	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = comrade, is that any reason, because you bored us to death this morning, that you should not be hung this evening?”
+1	comrade	comrade	NOUN	NN	Number=Sing	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	22	mark	_	_
+5	any	any	DET	DT	_	6	det	_	_
+6	reason	reason	NOUN	NN	Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	22	punct	_	_
+8	because	because	SCONJ	IN	_	10	mark	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	bored	bo	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	death	death	NOUN	NN	Number=Sing	10	obl	_	_
+14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+15	morning	morning	NOUN	NN	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	that	that	SCONJ	IN	_	22	mark	_	_
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj:pass	_	_
+19	should	should	AUX	MD	VerbForm=Fin	22	aux	_	_
+20	not	not	PART	RB	_	22	advmod	_	_
+21	be	be	AUX	VB	VerbForm=Inf	22	aux:pass	_	_
+22	hung	hang	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	evening	evening	NOUN	NN	Number=Sing	22	obl:tmod	_	SpaceAfter=No
+25	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+26	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

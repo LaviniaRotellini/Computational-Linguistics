@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “So much the worse, I don’t care.
+1	“	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+2	So	so	ADV	RB	_	3	advmod	_	_
+3	much	much	ADV	RB	_	5	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	worse	worse	ADJ	JJR	Degree=Cmp	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+9	n’t	not	PART	RB	_	10	advmod	_	_
+10	care	care	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = You have a melancholy air, I want you to be pleased.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	melancholy	melancholy	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	air	air	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	obj	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	pleased	pleased	ADJ	JJ	Degree=Pos	8	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Only promise me that you will smile.
+1	Only	only	ADV	RB	_	2	advmod	_	_
+2	promise	promise	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	smile	smile	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = I want to see you smile and hear you say: ‘Ah, well, that’s good.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	see	see	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	smile	smile	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	hear	hear	VERB	VB	VerbForm=Inf	6	conj	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	say	say	VERB	VB	VerbForm=Inf	13	parataxis	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	_	_
+12	‘	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+13	Ah	ah	INTJ	UH	_	19	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	_	_
+15	well	well	INTJ	UH	_	19	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	_	SpaceAfter=No
+18	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	good	good	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+21	’	'	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 5
+# text = Poor Mr. Marius!
+1	Poor	poor	CCONJ	CC	_	2	cc	_	_
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+3	Marius	Marius	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = you know?
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = You promised me that you would give me anything I like—”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	promised	promise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+6	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	give	give	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	anything	anything	PRON	NN	Number=Sing	7	obj	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	—	-	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

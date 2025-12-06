@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He had expected anything but that.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	anything	anything	PRON	NN	Number=Sing	3	obj	_	_
+5	but	but	ADP	IN	_	6	case	_	_
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = The person who thus addressed him was a bent and lame old man, dressed almost like a peasant, who wore on his left knee a leather knee-cap, whence hung a moderately large bell.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	thus	thus	ADV	RB	_	5	advmod	_	_
+5	addressed	address	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	bent	bent	NOUN	NN	Number=Sing	0	root	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	lame	lame	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	old	old	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	man	man	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+16	almost	almost	ADV	RB	_	19	advmod	_	_
+17	like	like	ADP	IN	_	19	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	peasant	peasant	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	19	punct	_	_
+21	who	who	PRON	WP	PronType=Rel	22	nsubj	_	_
+22	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
+23	on	on	ADP	IN	_	26	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	left	left	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	knee	knee	NOUN	NN	Number=Sing	22	obl	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+28	leather	leather	NOUN	NN	Number=Sing	31	compound	_	_
+29	knee	knee	NOUN	NN	Number=Sing	31	compound	_	SpaceAfter=No
+30	-	-	PUNCT	HYPH	_	31	punct	_	SpaceAfter=No
+31	cap	cap	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	9	punct	_	_
+33	whence	whence	ADV	RB	NumType=Mult	34	advmod	_	_
+34	hung	hang	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+36	moderately	moderately	ADV	RB	_	37	advmod	_	_
+37	large	large	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	bell	bell	NOUN	NN	Number=Sing	34	obj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = His face, which was in the shadow, was not distinguishable.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	face	face	NOUN	NN	Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	which	which	PRON	WDT	PronType=Rel	8	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	shadow	shadow	NOUN	NN	Number=Sing	2	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	not	not	PART	RB	_	12	advmod	_	_
+12	distinguishable	distinguishable	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

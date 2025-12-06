@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Tell him that, and he’ll take it as a compliment,” answered Wemmick; “he don’t mean that you _should_
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+8	’ll	’ll	AUX	MD	VerbForm=Fin	9	aux	_	_
+9	take	take	VERB	VB	VerbForm=Inf	2	conj	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	as	as	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	compliment	compliment	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	SpaceAfter=No
+15	”	"	PUNCT	''	_	16	punct	_	_
+16	answered	answer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	Wemmick	Wemmick	PROPN	NNP	Number=Sing	16	obj	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	2	punct	_	_
+19	“	"	PUNCT	``	_	23	punct	_	SpaceAfter=No
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	23	advmod	_	_
+23	mean	mean	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	_should	_should	AUX	MD	VerbForm=Fin	23	ccomp	_	SpaceAfter=No
+27	_	_	SYM	NFP	_	26	punct	_	_
+
+# sent_id = 2
+# text = know what to make of it.
+1	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	what	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	make	make	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	it.	it	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+
+# sent_id = 3
+# text = —Oh!” for I looked surprised, “it’s not personal; it’s professional: only professional.”
+1	—	-	PUNCT	,	_	2	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	14	punct	_	_
+5	for	for	SCONJ	IN	_	7	mark	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	_
+8	surprised	surprised	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	_	_
+10	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	personal	personal	ADJ	JJ	Degree=Pos	18	advcl	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	14	punct	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	professional	professional	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+19	:	:	PUNCT	:	_	18	punct	_	_
+20	only	only	ADV	RB	_	21	advmod	_	_
+21	professional	professional	ADJ	JJ	Degree=Pos	18	parataxis	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	18	punct	_	SpacesAfter=\n
+

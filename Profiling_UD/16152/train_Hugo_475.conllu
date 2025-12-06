@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But what matters it to the Infinite?
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	3	nsubj	_	_
+3	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Infinite	infinite	PROPN	NNP	Number=Sing	3	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = all that tempest, all that cloud, that war, then that peace?
+1	all	all	DET	PDT	_	3	det:predet	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	tempest	tempest	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	all	all	DET	DT	_	7	det:predet	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	cloud	cloud	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	war	war	NOUN	NN	Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	peace	peace	NOUN	NN	Number=Sing	3	parataxis	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = All that darkness did not trouble for a moment the light of that immense
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	darkness	darkness	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	trouble	trouble	VERB	VB	VerbForm=Inf	0	root	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	moment	moment	NOUN	NN	Number=Sing	6	obl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	light	light	NOUN	NN	Number=Sing	6	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	immense	immense	NOUN	NN	Number=Sing	11	nmod	_	_
+
+# sent_id = 4
+# text = Eye before which a grub skipping from one blade of grass to another equals the eagle soaring from belfry to belfry on the towers of Notre Dame.
+1	Eye	Eye	PROPN	NNP	Number=Sing	0	root	_	_
+2	before	before	SCONJ	IN	_	3	case	_	_
+3	which	which	DET	WDT	PronType=Int	5	det	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	grub	grub	NOUN	NN	Number=Sing	1	appos	_	_
+6	skipping	skip	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+9	blade	blade	NOUN	NN	Number=Sing	6	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	grass	grass	NOUN	NN	Number=Sing	9	nmod	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	another	another	DET	DT	_	14	det	_	_
+14	equals	equal	NOUN	NNS	Number=Plur	6	obl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	eagle	eagle	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	soaring	soar	VERB	VBG	VerbForm=Ger	14	acl	_	_
+18	from	from	ADP	IN	_	19	case	_	_
+19	belfry	belfry	NOUN	NN	Number=Sing	17	obl	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	belfry	belfry	VERB	VB	VerbForm=Inf	17	advcl	_	_
+22	on	on	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	towers	towers	NOUN	NNS	Number=Plur	21	obl	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	Notre	Notre	PROPN	NNP	Number=Sing	24	nmod	_	_
+27	Dame	Dame	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

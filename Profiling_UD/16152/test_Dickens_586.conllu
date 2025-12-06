@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Stop!” said I, almost in a frenzy of fear and dislike, “I want to speak to you.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	5	punct	_	_
+8	almost	almost	ADV	RB	_	11	advmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	frenzy	frenzy	NOUN	NN	Number=Sing	5	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	fear	fear	NOUN	NN	Number=Sing	11	nmod	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	_
+15	dislike	dislike	INTJ	UH	_	19	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	“	"	PUNCT	``	_	19	punct	_	SpaceAfter=No
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	speak	speak	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I want to know what is to be done.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	what	what	PRON	WP	PronType=Int	6	nsubj	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I want to know how you are to be kept out of danger, how long you are going to stay, what projects you have.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	know	know	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+11	out	out	ADP	IN	_	13	case	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	danger	danger	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	2	punct	_	_
+15	how	how	ADV	WRB	PronType=Int	16	advmod	_	_
+16	long	long	ADV	RB	Degree=Pos	19	advmod	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	24	ccomp	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	stay	stay	VERB	VB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	what	what	PRON	WP	PronType=Int	24	nsubj	_	_
+24	projects	project	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+28	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

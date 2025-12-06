@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m very glad, indeed, sir.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	indeed	indeed	ADV	RB	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	sir	sir	ADJ	JJR	Degree=Cmp	5	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = It is but seldom I make one, but I remembered Mrs. Irwine was fond of ’em.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	but	but	CCONJ	CC	_	6	cc	_	_
+4	seldom	seldom	ADV	RB	_	6	advmod	_	_
+5	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	one	one	NUM	CD	NumType=Card	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	remembered	remember	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	Mrs.	Mrs.	PROPN	NNP	Number=Sing	15	nsubj	_	_
+13	Irwine	Irwine	PROPN	NNP	Number=Sing	12	flat	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	_
+15	fond	fond	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	’em	’em	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Please to give my duty to her, and to Miss Kate and Miss Anne.
+1	Please	please	INTJ	UH	_	0	root	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	give	give	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	duty	duty	NOUN	NN	Number=Sing	3	obj	_	_
+6	to	to	ADP	IN	_	7	case	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	12	punct	_	_
+9	and	and	CCONJ	CC	_	12	cc	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	Miss	miss	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Kate	Kate	PROPN	NNP	Number=Sing	3	conj	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	Miss	miss	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Anne	Anne	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = They’ve never been to look at my poultry this long while, and I’ve got some beautiful speckled chickens, black and white, as Miss Kate might like to have some of amongst hers.”
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	never	never	ADV	RB	_	6	advmod	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	look	look	VERB	VB	VerbForm=Inf	0	root	_	_
+7	at	at	ADP	IN	_	9	case	_	_
+8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	poultry	poultry	NOUN	NN	Number=Sing	6	obl	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	while	while	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	and	and	CCONJ	CC	_	17	cc	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+16	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	got	get	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+18	some	some	DET	DT	_	21	det	_	_
+19	beautiful	beautiful	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	speckled	speckled	VERB	VBN	Tense=Past|VerbForm=Part	21	amod	_	_
+21	chickens	chicken	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	black	black	ADJ	JJ	Degree=Pos	26	amod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	white	white	ADJ	JJ	Degree=Pos	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	6	punct	_	_
+27	as	as	SCONJ	IN	_	31	mark	_	_
+28	Miss	miss	PROPN	NNP	Number=Sing	31	nsubj	_	_
+29	Kate	Kate	PROPN	NNP	Number=Sing	28	flat	_	_
+30	might	might	AUX	MD	VerbForm=Fin	31	aux	_	_
+31	like	like	VERB	VB	VerbForm=Inf	6	advcl	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	have	have	VERB	VB	VerbForm=Inf	31	xcomp	_	_
+34	some	some	DET	DT	_	33	obj	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	amongst	amongst	ADP	IN	_	37	case	_	_
+37	hers	hers	PRON	PRP	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+39	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

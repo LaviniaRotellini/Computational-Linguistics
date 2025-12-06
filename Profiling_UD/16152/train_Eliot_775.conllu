@@ -1,0 +1,83 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr. Farebrother paused a moment and looked at Mary.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Farebrother	Farebrother	PROPN	NNP	Number=Sing	1	flat	_	_
+3	paused	pause	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	moment	moment	NOUN	NN	Number=Sing	3	obj	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	Mary	Mary	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He meant to give Fred his full advantage, but it would be well, he thought, to clear her mind of any superstitions, such as women sometimes follow when they do a man the wrong of marrying him as an act of atonement.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	give	give	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	Fred	F	PROPN	NNP	Number=Sing	4	iobj	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	full	full	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	advantage	advantage	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	but	but	CCONJ	CC	_	17	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+12	would	would	AUX	MD	VerbForm=Fin	17	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	17	cop	_	_
+14	well	well	INTJ	UH	_	17	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	clear	clear	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	mind	mind	NOUN	NN	Number=Sing	20	obj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	any	any	DET	DT	_	25	det	_	_
+25	superstitions	superstition	NOUN	NNS	Number=Plur	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	20	punct	_	_
+27	such	such	ADJ	JJ	Degree=Pos	31	mark	_	_
+28	as	as	ADP	IN	_	27	fixed	_	_
+29	women	woman	NOUN	NNS	Number=Plur	31	nsubj	_	_
+30	sometimes	sometimes	ADV	RB	_	31	advmod	_	_
+31	follow	follow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+32	when	when	ADV	WRB	PronType=Int	34	mark	_	_
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+34	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	advcl	_	_
+35	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+36	man	man	NOUN	NN	Number=Sing	34	obj	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	wrong	wrong	NOUN	NN	Number=Sing	36	obj	_	_
+39	of	of	SCONJ	IN	_	40	mark	_	_
+40	marrying	marry	VERB	VBG	VerbForm=Ger	38	acl	_	_
+41	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+42	as	as	ADP	IN	_	44	case	_	_
+43	an	a	DET	DT	Definite=Ind|PronType=Art	44	det	_	_
+44	act	act	NOUN	NN	Number=Sing	40	obl	_	_
+45	of	of	ADP	IN	_	46	case	_	_
+46	atonement	atonement	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mary’s cheeks had begun to burn a little, and she was mute.
+1	Mary	Mary	PROPN	NNP	Number=Sing	3	nmod:poss	_	SpaceAfter=No
+2	’s	's	PART	POS	_	1	case	_	_
+3	cheeks	cheek	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	burn	burn	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	little	little	ADJ	JJ	Degree=Pos	7	obl:npmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+14	mute	mute	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

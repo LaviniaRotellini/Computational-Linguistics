@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Which I meantersay, Pip,” Joe now observed in a manner that was at once expressive of forcible argumentation, strict confidence, and great politeness, “as I hup and married your sister, and I were at the time what you might call (if you was anyways inclined) a single man.”
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Which	which	PRON	WDT	PronType=Int	4	obj	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	meantersay	meantersay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Pip	Pip	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	Joe	Joe	PROPN	NNP	Number=Sing	4	appos	_	_
+10	now	now	ADV	RB	_	11	advmod	_	_
+11	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	manner	manner	NOUN	NN	Number=Sing	11	obl	_	_
+15	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	at	at	ADP	IN	_	19	case	_	_
+18	once	once	ADV	RB	NumType=Mult	19	advmod	_	_
+19	expressive	expressive	NUM	CD	NumType=Card	14	acl:relcl	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	forcible	forcible	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	argumentation	argumentation	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	_	_
+24	strict	strict	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	confidence	confidence	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	great	great	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	politeness	politeness	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	36	punct	_	_
+31	“	"	PUNCT	``	_	36	punct	_	SpaceAfter=No
+32	as	as	SCONJ	IN	_	34	mark	_	_
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+34	hup	hup	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+37	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	sister	sister	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	45	punct	_	_
+40	and	and	CCONJ	CC	_	45	cc	_	_
+41	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+42	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	45	cop	_	_
+43	at	at	ADP	IN	_	45	case	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	time	time	NOUN	NN	Number=Sing	4	conj	_	_
+46	what	what	PRON	WDT	PronType=Rel	49	obj	_	_
+47	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	49	nsubj	_	_
+48	might	might	AUX	MD	VerbForm=Fin	49	aux	_	_
+49	call	call	VERB	VB	VerbForm=Inf	45	acl:relcl	_	_
+50	(	(	PUNCT	-LRB-	_	49	punct	_	SpaceAfter=No
+51	if	if	SCONJ	IN	_	55	mark	_	_
+52	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	55	nsubj:pass	_	_
+53	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	55	aux:pass	_	_
+54	anyways	anyways	ADV	RB	_	55	advmod	_	_
+55	inclined	incline	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	49	advcl	_	SpaceAfter=No
+56	)	)	PUNCT	-RRB-	_	4	punct	_	_
+57	a	a	DET	DT	Definite=Ind|PronType=Art	59	det	_	_
+58	single	single	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	man	man	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+61	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

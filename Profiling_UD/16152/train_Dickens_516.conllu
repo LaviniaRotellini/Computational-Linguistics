@@ -1,0 +1,109 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Annie, my dear,’ returned her mother, ‘once for all, I must really beg that you will not interfere with me, unless it is to confirm what I say.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Annie	Annie	X	FW	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dear	dear	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+6	,’	,’	PUNCT	.	_	7	punct	_	_
+7	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	parataxis	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	mother	mother	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+12	once	once	ADV	RB	NumType=Mult	7	advmod	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	all	all	DET	DT	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	19	punct	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	must	must	AUX	MD	VerbForm=Fin	19	aux	_	_
+18	really	really	ADV	RB	_	19	advmod	_	_
+19	beg	beg	VERB	VB	VerbForm=Inf	0	root	_	_
+20	that	that	SCONJ	IN	_	24	mark	_	_
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+22	will	will	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	not	not	PART	RB	_	24	advmod	_	_
+24	interfere	interfere	VERB	VB	VerbForm=Inf	19	ccomp	_	_
+25	with	with	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	24	punct	_	_
+28	unless	unless	SCONJ	IN	_	30	mark	_	_
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
+30	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	confirm	confirm	VERB	VB	VerbForm=Inf	30	csubj	_	_
+33	what	what	PRON	WP	PronType=Int	32	obj	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+35	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 2
+# text = You know as well as I do that your cousin Maldon would be dragged at the heels of any number of wild horses--why should I confine myself to four!
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	as	as	ADV	RB	_	7	cc	_	_
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	_
+5	as	as	SCONJ	IN	_	3	fixed	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	that	that	SCONJ	IN	_	14	mark	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	cousin	cousin	NOUN	NN	Number=Sing	11	compound	_	_
+11	Maldon	Maldon	PROPN	NNP	Number=Sing	14	nsubj:pass	_	_
+12	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	dragged	drag	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+15	at	at	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	heels	heel	NOUN	NNS	Number=Plur	14	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	any	any	DET	DT	_	20	det	_	_
+20	number	number	NOUN	NN	Number=Sing	17	nmod	_	_
+21	of	of	ADP	IN	_	23	case	_	_
+22	wild	wild	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	horses	horse	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No
+24	--	--	PUNCT	,	_	2	punct	_	SpaceAfter=No
+25	why	why	ADV	WRB	PronType=Int	28	advmod	_	_
+26	should	should	AUX	MD	VerbForm=Fin	28	aux	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	confine	confine	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+29	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	28	obj	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	four	four	VERB	VB	VerbForm=Inf	28	xcomp	_	SpaceAfter=No
+32	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I WON’T confine myself to four--eight, sixteen, two-and-thirty, rather than say anything calculated to overturn the Doctor’s plans.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	WON’T	Wonot	PART	RB	_	3	mark	_	_
+3	confine	confine	VERB	VB	VerbForm=Inf	0	root	_	_
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	four	four	NUM	CD	NumType=Card	3	obl	_	SpaceAfter=No
+7	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+8	eight	eight	NOUN	NN	Number=Sing	20	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	sixteen	sixteen	NUM	CD	NumType=Card	8	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	two	two	NUM	CD	NumType=Card	8	appos	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+14	and	and	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	thirty	thirty	ADJ	JJ	Degree=Pos	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	rather	rather	ADV	RB	_	20	mark	_	_
+19	than	than	SCONJ	IN	_	18	fixed	_	_
+20	say	say	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+21	anything	anything	PRON	NN	Number=Sing	20	obj	_	_
+22	calculated	calculate	VERB	VBN	Tense=Past|VerbForm=Part	21	acl	_	_
+23	to	to	PART	TO	_	24	mark	_	_
+24	overturn	overturn	VERB	VB	VerbForm=Inf	22	xcomp	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	Doctor	Doctor	NOUN	NN	Number=Sing	28	nmod:poss	_	SpaceAfter=No
+27	’s	's	PART	POS	_	26	case	_	_
+28	plans	plan	NOUN	NNS	Number=Plur	24	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

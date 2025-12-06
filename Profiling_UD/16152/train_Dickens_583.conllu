@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘It was as true,’ said Mr. Barkis, ‘as turnips is.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	as	as	ADV	RB	_	5	advmod	_	_
+5	true	true	ADJ	JJ	Degree=Pos	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	'	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	8	nsubj	_	_
+10	Barkis	Barkis	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+13	as	as	SCONJ	IN	_	15	mark	_	_
+14	turnips	turnip	NOUN	NNS	Number=Plur	15	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = It was as true,’ said Mr. Barkis, nodding his nightcap, which was his only means of emphasis, ‘as taxes is.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	as	as	ADV	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	’	'	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	Mr.	Mr.	PROPN	NNP	Number=Sing	7	nsubj	_	_
+9	Barkis	Barkis	PROPN	NNPS	Number=Plur	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	nodding	nodd	VERB	VBG	VerbForm=Ger	7	ccomp	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	nightcap	nightcap	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	11	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+18	only	only	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	means	means	NOUN	NNS	Number=Plur	11	acl:relcl	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	emphasis	emphasis	NOUN	NN	Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	19	punct	_	_
+23	‘	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
+24	as	as	SCONJ	IN	_	26	mark	_	_
+25	taxes	tax	NOUN	NNS	Number=Plur	26	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = And nothing’s truer than them.’
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	nothing	nothing	PRON	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	truer	truer	ADJ	JJR	Degree=Cmp	0	root	_	_
+5	than	than	ADP	IN	_	6	case	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

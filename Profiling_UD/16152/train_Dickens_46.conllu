@@ -1,0 +1,59 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I write of her just as she was when I had gone to bed after this talk, and she came to bid me good night.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	write	write	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	obl	_	_
+5	just	just	ADV	RB	_	2	advmod	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	when	when	ADV	WRB	PronType=Int	12	mark	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	bed	be	NOUN	NN	Number=Sing	12	obl	_	_
+15	after	after	ADP	IN	_	17	case	_	_
+16	this	this	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+17	talk	talk	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	bid	bid	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+25	good	good	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	night	night	NOUN	NN	Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = She kneeled down playfully by the side of the bed, and laying her chin upon her hands, and laughing, said:
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kneeled	knee	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	ccomp	_	_
+3	down	down	ADV	RB	_	2	advmod	_	_
+4	playfully	playfully	ADV	RB	_	2	advmod	_	_
+5	by	by	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	side	side	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	bed	bed	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	laying	lay	VERB	VBG	VerbForm=Ger	2	conj	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	chin	ching	NOUN	NN	Number=Sing	13	obj	_	_
+16	upon	upon	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	hands	hand	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	laughing	laugh	VERB	VBG	VerbForm=Ger	2	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	:	:	PUNCT	:	_	23	punct	_	SpacesAfter=\n
+

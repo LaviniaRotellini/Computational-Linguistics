@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That would be a capital match for Adam.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	7	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	capital	capital	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	match	match	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	Adam	Adam	PROPN	NNP	Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = He would slip into old Burge’s shoes and make a fine thing of that building business, I’ll answer for him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	slip	slip	VERB	VB	VerbForm=Inf	0	root	_	_
+4	into	into	ADP	IN	_	8	case	_	_
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	Burge	Burge	PROPN	NNP	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	shoes	shoe	NOUN	NNS	Number=Plur	3	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	make	make	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	fine	fine	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	thing	thing	NOUN	NN	Number=Sing	10	obj	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+16	building	building	NOUN	NN	Number=Sing	17	compound	_	_
+17	business	business	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+20	’ll	’ll	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	answer	answer	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I should like to see him well settled in this parish; he would be ready then to act as my grand-vizier when I wanted one.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	well	well	ADV	RB	Degree=Pos	8	advmod	_	_
+8	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+11	parish	parish	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	3	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	ready	ready	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+17	then	then	ADV	RB	PronType=Dem	16	advmod	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	act	act	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+20	as	as	ADP	IN	_	24	case	_	_
+21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+22	grand	grand	NOUN	NN	Number=Sing	24	compound	_	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	24	punct	_	SpaceAfter=No
+24	vizier	vizier	NOUN	NN	Number=Sing	19	obl	_	_
+25	when	when	ADV	WRB	PronType=Int	27	mark	_	_
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+28	one	one	NUM	CD	NumType=Card	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = We could plan no end of repairs and improvements together.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	plan	plan	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	end	end	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	repairs	repair	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	improvements	improvement	NOUN	NNS	Number=Plur	7	conj	_	_
+10	together	together	ADV	RB	_	3	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = I’ve never seen the girl, though, I think—at least I’ve never looked at her.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	girl	girl	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	though	though	ADV	RB	_	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	11	punct	_	SpaceAfter=No
+13	at	at	ADV	RB	_	14	case	_	_
+14	least	least	ADV	RBS	Degree=Sup	15	nmod	_	_
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
+16	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	never	never	ADV	RB	_	18	advmod	_	_
+18	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	11	ccomp	_	_
+19	at	at	ADP	IN	_	20	case	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+22	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

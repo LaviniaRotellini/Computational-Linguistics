@@ -1,0 +1,62 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘And didn’t YOU know who it was?’ said Em’ly.
+1	‘	'	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	6	cc	_	_
+3	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	6	advmod	_	_
+5	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	know	know	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+7	who	who	PRON	WP	PronType=Int	9	nsubj	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+11	’	'	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Em	em	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+14	’ly	’ly	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = I was going to kiss her, but she covered her cherry lips with her hands, and said she wasn’t a baby now, and ran away, laughing more than ever, into the house.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	kiss	kiss	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	covered	cover	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	cherry	cherry	NOUN	NN	Number=Sing	13	nsubj	_	_
+13	lips	lip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	hands	hand	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	24	advmod	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	baby	baby	NOUN	NN	Number=Sing	19	ccomp	_	_
+25	now	now	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+29	away	away	ADV	RB	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	28	punct	_	_
+31	laughing	laugh	VERB	VBG	VerbForm=Ger	28	advcl	_	_
+32	more	more	ADJ	JJR	Degree=Cmp	31	obj	_	_
+33	than	than	ADP	IN	_	34	case	_	_
+34	ever	ever	ADV	RB	_	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	3	punct	_	_
+36	into	into	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	house	house	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

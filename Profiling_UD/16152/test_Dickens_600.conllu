@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Do so, as he wishes it,” I said to Herbert.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	12	ccomp	_	_
+3	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	as	as	SCONJ	IN	_	7	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	wishes	wish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	Herbert	Herbert	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = So, Herbert, looking at me with a friendly uneasiness and amazement, complied, and Provis immediately shaking hands with him, said, “Now you’re on your oath, you know.
+1	So	so	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	Herbert	Herbert	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	looking	look	VERB	VBG	VerbForm=Ger	25	advcl	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	friendly	friendly	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	uneasiness	uneasiness	NOUN	NN	Number=Sing	5	obl	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	amazement	amazement	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	complied	comply	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	Provis	Provis	PROPN	NNP	Number=Sing	19	conj	_	_
+19	immediately	immediately	ADV	RB	_	5	advmod	_	_
+20	shaking	shake	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+21	hands	hand	NOUN	NNS	Number=Plur	20	obj	_	_
+22	with	with	ADP	IN	_	23	case	_	_
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	25	punct	_	_
+25	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	_	_
+27	“	"	PUNCT	``	_	25	punct	_	SpaceAfter=No
+28	Now	now	ADV	RB	_	30	advmod	_	_
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	SpaceAfter=No
+30	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
+31	on	on	ADP	IN	_	33	case	_	_
+32	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	oath	oath	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	25	punct	_	_
+35	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	36	nsubj	_	_
+36	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = 3
+# text = And never believe me on mine, if Pip shan’t make a gentleman on you!”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	never	never	ADV	RB	_	3	advmod	_	_
+3	believe	believe	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	mine	mine	PRON	PRP	_	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	if	if	SCONJ	IN	_	12	mark	_	_
+9	Pip	Pip	PROPN	NNP	Number=Sing	12	nsubj	_	_
+10	sha	sha	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	n’t	not	PART	RB	_	12	advmod	_	_
+12	make	make	VERB	VB	VerbForm=Inf	3	advcl	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	gentleman	gentleman	NOUN	NN	Number=Sing	12	obj	_	_
+15	on	on	ADP	IN	_	16	case	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

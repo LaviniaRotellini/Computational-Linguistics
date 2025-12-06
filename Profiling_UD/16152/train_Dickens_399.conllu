@@ -1,0 +1,110 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Mr.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Murdstone,’ she said, shaking her finger at him, ‘you were a tyrant to the simple baby, and you broke her heart.
+1	Murdstone	Murdstone	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+2	,’	,’	PUNCT	.	_	4	punct	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	shaking	shake	VERB	VBG	VerbForm=Ger	4	ccomp	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	finger	finger	NOUN	NN	Number=Sing	6	obj	_	_
+9	at	at	ADP	IN	_	10	case	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	4	punct	_	_
+12	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	tyrant	tyrent	NOUN	NN	Number=Sing	4	ccomp	_	_
+17	to	to	ADP	IN	_	20	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	simple	simple	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	baby	baby	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	_
+24	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+26	heart	heart	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = She was a loving baby--I know that; I knew it, years before you ever saw her--and through the best part of her weakness you gave her the wounds she died of.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	loving	loving	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	baby	baby	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	--	--	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+9	that	that	SCONJ	IN	_	8	obj	_	SpaceAfter=No
+10	;	;	PUNCT	,	_	5	punct	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	knew	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	5	punct	_	_
+15	years	year	NOUN	NNS	Number=Plur	19	obl:npmod	_	_
+16	before	before	SCONJ	IN	_	19	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+18	ever	ever	ADV	RB	_	19	advmod	_	_
+19	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+20	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	--	--	PUNCT	,	_	19	punct	_	SpaceAfter=No
+22	and	and	CCONJ	CC	_	31	cc	_	_
+23	through	through	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	best	best	ADJ	JJS	Degree=Sup	26	amod	_	_
+26	part	part	NOUN	NN	Number=Sing	31	obl	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	weakness	weakness	NOUN	NN	Number=Sing	26	nmod	_	_
+30	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	_
+31	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+32	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	wounds	wound	NOUN	NNS	Number=Plur	31	obj	_	_
+35	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	34	acl:relcl	_	_
+37	of	of	ADP	IN	_	36	obl	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = There is the truth for your comfort, however you like it.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	truth	truth	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	comfort	comfort	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	however	however	ADV	RB	_	11	advmod	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = And you and your instruments may make the most of it.’
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	instruments	instrument	NOUN	NNS	Number=Plur	2	conj	_	_
+6	may	may	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	most	most	ADJ	JJS	Degree=Sup	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	7	punct	_	SpacesAfter=\n
+

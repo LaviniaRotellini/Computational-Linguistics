@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = do you think the parson’ll teach him to know a good sample o’ wheat when he sees it, neighbour Tulliver?” said Mr
+1	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VB	VerbForm=Inf	26	ccomp	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	parson	parson	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+6	’ll	’ll	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	teach	teach	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	know	know	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+12	good	good	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	sample	sample	NOUN	NN	Number=Sing	14	compound	_	_
+14	o	of	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	’	'	PUNCT	''	_	14	punct	_	_
+16	wheat	wheat	NOUN	NN	Number=Sing	14	appos	_	_
+17	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	14	punct	_	_
+22	neighbour	neighbour	NUM	CD	NumType=Card	23	nummod	_	_
+23	Tulliver	Tulliver	NOUN	NNS	Number=Plur	14	appos	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	26	punct	_	_
+26	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+27	Mr	Mr	PROPN	NNP	Number=Sing	26	nsubj	_	_
+
+# sent_id = 3
+# text = Glegg, who was fond of his jest, and having retired from business, felt that it was not only allowable but becoming in him to take a playful view of things.
+1	Glegg	Glegg	PROPN	NNP	Number=Sing	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+5	fond	fond	ADJ	JJ	Degree=Pos	1	acl:relcl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	jest	jest	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	having	have	AUX	VBG	VerbForm=Ger	12	aux	_	_
+12	retired	retire	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	business	business	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	_	_
+16	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	that	that	SCONJ	IN	_	22	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	not	not	PART	RB	_	22	advmod	_	_
+21	only	only	ADV	RB	_	22	advmod	_	_
+22	allowable	allowable	ADJ	JJ	Degree=Pos	16	ccomp	_	_
+23	but	but	CCONJ	CC	_	24	cc	_	_
+24	becoming	become	VERB	VBG	VerbForm=Ger	22	conj	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	take	take	VERB	VB	VerbForm=Inf	24	xcomp	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	playful	playful	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	view	view	NOUN	NN	Number=Sing	28	obj	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	things	thing	NOUN	NNS	Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\n
+

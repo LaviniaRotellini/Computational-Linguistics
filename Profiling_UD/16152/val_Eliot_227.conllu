@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Father,” said Tom, one evening near the end of the holidays, “uncle Glegg says Lawyer Wakem _is_ going to send his son to Mr Stelling.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Father	father	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	ccomp	_	_
+6	Tom	Tom	PROPN	NNP	Number=Sing	20	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	one	one	NUM	CD	NumType=Card	9	nummod	_	_
+9	evening	evening	NOUN	NN	Number=Sing	6	nmod:tmod	_	_
+10	near	near	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	end	end	NOUN	NN	Number=Sing	6	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	holidays	holiday	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	6	punct	_	_
+17	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	uncle	uncle	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	Glegg	Glegg	PROPN	NNP	Number=Sing	18	flat	_	_
+20	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	Lawyer	lawyer	PROPN	NNP	Number=Sing	25	nsubj	_	_
+22	Wakem	Wakem	PROPN	NNP	Number=Sing	21	flat	_	_
+23	_is	_is	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+24	_	_	SYM	NFP	_	25	punct	_	_
+25	going	go	VERB	VBG	VerbForm=Ger	20	ccomp	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	send	send	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	son	son	NOUN	NN	Number=Sing	27	obj	_	_
+30	to	to	ADP	IN	_	31	case	_	_
+31	Mr	Mr	PROPN	NNP	Number=Sing	27	obl	_	_
+32	Stelling	Stelling	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = 2
+# text = It isn’t true, what they said about his going to be sent to France.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	what	what	PRON	WP	PronType=Int	8	obj	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	about	about	SCONJ	IN	_	11	mark	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nsubj	_	_
+11	going	go	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux:pass	_	_
+14	sent	send	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	France	France	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = You won’t like me to go to school with Wakem’s son, shall you?”
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	like	like	VERB	VB	VerbForm=Inf	16	ccomp	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	go	go	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	school	school	NOUN	NN	Number=Sing	7	obl	_	_
+10	with	with	ADP	IN	_	13	case	_	_
+11	Wakem	Wakem	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	son	son	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	shall	shall	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+17	?	?	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	16	punct	_	SpacesAfter=\n
+

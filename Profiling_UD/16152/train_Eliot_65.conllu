@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Perhaps Celia had never turned so pale before.
+1	Perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+2	Celia	Celia	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	never	never	ADV	RB	_	5	advmod	_	_
+5	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	so	so	ADV	RB	_	7	advmod	_	_
+7	pale	pale	ADJ	JJ	Degree=Pos	5	xcomp	_	_
+8	before	before	ADV	RB	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = The paper man she was making would have had his leg injured, but for her habitual care of whatever she held in her hands.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	paper	paper	NOUN	NN	Number=Sing	3	compound	_	_
+3	man	man	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	have	have	AUX	VB	VerbForm=Inf	9	aux	_	_
+9	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	leg	leg	NOUN	NN	Number=Sing	9	obj	_	_
+12	injured	injured	ADJ	JJ	Degree=Pos	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	but	but	CCONJ	CC	_	18	cc	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	habitual	habitual	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	care	care	NOUN	NN	Number=Sing	9	conj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	whatever	whatever	NOUN	NN	Number=Sing	18	nmod	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	hands	hand	NOUN	NNS	Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = She laid the fragile figure down at once, and sat perfectly still for a few moments.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	laid	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	fragile	fragile	NOUN	NN	Number=Sing	2	obj	_	_
+5	figure	figure	VERB	VB	Mood=Imp|VerbForm=Fin	2	advcl	_	_
+6	down	down	ADP	RP	_	5	compound:prt	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	once	once	ADV	RB	NumType=Mult	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	sat	sit	VERB	VB	Mood=Imp|VerbForm=Fin	5	conj	_	_
+12	perfectly	perfectly	ADV	RB	_	11	advmod	_	_
+13	still	still	ADV	RB	_	11	advmod	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	few	few	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	moments	moment	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = When she spoke there was a tear gathering.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
+4	there	there	PRON	EX	_	7	expl	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	tear	tear	NOUN	NN	Number=Sing	0	root	_	_
+8	gathering	gather	VERB	VBG	VerbForm=Ger	7	acl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

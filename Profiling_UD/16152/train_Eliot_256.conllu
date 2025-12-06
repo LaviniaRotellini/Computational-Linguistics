@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And a devilish deal better than too much,” said Mr. Hawley, whose bad language was notorious in that part of the county.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	devilish	devilish	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	deal	deal	NOUN	NN	Number=Sing	12	ccomp	_	_
+6	better	better	ADJ	JJR	Degree=Cmp	5	amod	_	_
+7	than	than	ADP	IN	_	9	case	_	_
+8	too	too	ADV	RB	_	9	advmod	_	_
+9	much	much	ADJ	JJ	Degree=Pos	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+11	”	"	PUNCT	''	_	12	punct	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Mr.	Mr.	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Hawley	Hawley	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	whose	whose	PRON	WP$	Poss=Yes|PronType=Int	18	nmod:poss	_	_
+17	bad	bad	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	language	language	NOUN	NN	Number=Sing	20	nsubj	_	_
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	notorious	notorious	ADJ	JJ	Degree=Pos	13	acl:relcl	_	_
+21	in	in	ADP	IN	_	23	case	_	_
+22	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+23	part	part	NOUN	NN	Number=Sing	20	obl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	county	county	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 2
+# text = “Sick people can’t bear so much praying and preaching.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Sick	sick	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	ca	can	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n’t	not	PART	RB	_	6	advmod	_	_
+6	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	much	much	ADV	RB	_	9	advmod	_	_
+9	praying	pray	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	preaching	preach	VERB	VBG	VerbForm=Ger	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = And that methodistical sort of religion is bad for the spirits—bad for the inside, eh?”
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	methodistical	methodistical	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	sort	sort	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	religion	religion	NOUN	NN	Number=Sing	4	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	spirits	spirits	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+13	bad	bad	ADJ	JJ	Degree=Pos	8	parataxis	_	_
+14	for	for	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	inside	inside	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	13	punct	_	_
+18	eh	eh	INTJ	UH	_	13	discourse	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+20	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 4
+# text = he added, turning quickly round to the four medical men who were assembled.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	turning	turn	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	quickly	quickly	ADV	RB	_	4	advmod	_	_
+6	round	round	ADV	RB	_	4	advmod	_	_
+7	to	to	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	four	four	NUM	CD	NumType=Card	11	nummod	_	_
+10	medical	medical	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	men	man	NOUN	NNS	Number=Plur	4	obl	_	_
+12	who	who	PRON	WP	PronType=Rel	14	nsubj:pass	_	_
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+14	assembled	assemble	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

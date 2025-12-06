@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Only for my good.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Only	only	ADV	RB	_	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	good	good	ADJ	JJ	Degree=Pos	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Nobody understands him as I do; nobody knows him as I do.
+1	Nobody	nobody	PRON	NN	Number=Sing	2	nsubj	_	_
+2	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	as	as	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	nobody	nobody	PRON	NN	Number=Sing	9	nsubj	_	_
+9	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = When he left me for my good—he never would have left me for his own—I know he was almost broken-hearted with the trial.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	_
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	good	good	ADJ	JJ	Degree=Pos	3	obl	_	SpaceAfter=No
+8	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+10	never	never	ADV	RB	_	13	advmod	_	_
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	have	have	AUX	VB	VerbForm=Inf	13	aux	_	_
+13	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	13	obl	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	13	punct	_	SpaceAfter=No
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+23	almost	almost	ADV	RB	_	24	advmod	_	_
+24	broken	broken	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	ccomp	_	SpaceAfter=No
+25	-	-	PUNCT	,	_	26	punct	_	SpaceAfter=No
+26	hearted	hear	VERB	VBN	Tense=Past|VerbForm=Part	24	xcomp	_	_
+27	with	with	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	trial	trial	NOUN	NN	Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 4
+# text = He will not be happy for a single minute, till he comes back.’
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	not	not	PART	RB	_	5	advmod	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+5	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+6	for	for	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	single	single	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	minute	minute	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	5	punct	_	_
+11	till	till	SCONJ	IN	_	13	mark	_	_
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	back	back	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

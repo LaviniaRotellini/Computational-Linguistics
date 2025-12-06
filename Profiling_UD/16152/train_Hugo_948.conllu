@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Do you ever go to the play, Monsieur Marius?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	ever	ever	ADV	RB	_	5	advmod	_	_
+5	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	play	play	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	Monsieur	Monsieur	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Marius	Marius	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I do.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = I have a little brother who is a friend of the artists, and who gives me tickets sometimes.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	brother	brother	NOUN	NN	Number=Sing	2	obj	_	_
+6	who	who	PRON	WP	PronType=Rel	9	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	friend	friend	NOUN	NN	Number=Sing	5	acl:relcl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	artists	artist	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	and	and	CCONJ	CC	_	16	cc	_	_
+15	who	who	PRON	WP	PronType=Int	16	nsubj	_	_
+16	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+18	tickets	ticket	NOUN	NNS	Number=Plur	16	obj	_	_
+19	sometimes	sometimes	ADV	RB	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = But I don’t like the benches in the galleries.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	like	like	VERB	VB	VerbForm=Inf	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	benches	benche	NOUN	NNS	Number=Plur	5	obj	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	galleries	galleries	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = One is cramped and uncomfortable there.
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cramped	cramped	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	3	conj	_	_
+6	there	there	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = There are rough people there sometimes; and people who smell bad.”
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rough	rough	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	there	there	ADV	RB	PronType=Dem	2	advmod	_	_
+6	sometimes	sometimes	ADV	RB	_	2	advmod	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	2	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	people	people	NOUN	NNS	Number=Plur	2	conj	_	_
+10	who	who	PRON	WP	PronType=Rel	11	nsubj	_	_
+11	smell	smell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	bad	bad	ADJ	JJ	Degree=Pos	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

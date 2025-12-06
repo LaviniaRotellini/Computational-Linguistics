@@ -1,0 +1,121 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Jehan!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Jehan	Jehan	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = my friend Jehan!
+1	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	friend	friend	NOUN	NN	Number=Sing	0	root	_	_
+3	Jehan	Jehan	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = You know that I made an appointment with that little girl at the end of the Pont Saint-Michel, and I can only take her to the Falourdel’s, the old crone of the bridge, and that I must pay for a chamber.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	5	mark	_	_
+4	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	appointment	appointment	NOUN	NN	Number=Sing	5	obj	_	_
+8	with	with	ADP	IN	_	11	case	_	_
+9	that	that	DET	DT	Number=Sing|PronType=Dem	11	det	_	_
+10	little	little	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	girl	girl	NOUN	NN	Number=Sing	7	nmod	_	_
+12	at	at	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	end	end	NOUN	NN	Number=Sing	5	obl	_	_
+15	of	of	ADP	IN	_	20	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+17	Pont	Pont	PROPN	NNP	Number=Sing	20	compound	_	_
+18	Saint	Saint	PROPN	NNP	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	Michel	Michel	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	can	can	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	only	only	ADV	RB	_	26	advmod	_	_
+26	take	take	VERB	VB	VerbForm=Inf	2	conj	_	_
+27	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+28	to	to	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	Falourdel	Falourdel	PROPN	NNP	Number=Sing	26	obl	_	SpaceAfter=No
+31	’s	's	PART	POS	_	30	case	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	2	punct	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	old	old	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	crone	crone	NOUN	NN	Number=Sing	2	appos	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	bridge	bridge	NOUN	NN	Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	44	punct	_	_
+40	and	and	CCONJ	CC	_	44	cc	_	_
+41	that	that	SCONJ	IN	_	44	mark	_	_
+42	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
+43	must	must	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	pay	pay	VERB	VB	VerbForm=Inf	35	conj	_	_
+45	for	for	ADP	IN	_	47	case	_	_
+46	a	a	DET	DT	Definite=Ind|PronType=Art	47	det	_	_
+47	chamber	chamber	NOUN	NN	Number=Sing	44	obl	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = The old witch with a white moustache would not trust me.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	witch	witch	NOUN	NN	Number=Sing	10	nsubj	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	white	white	NOUN	NN	Number=Sing	3	nmod	_	_
+7	moustache	moustache	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	trust	trust	VERB	VB	VerbForm=Inf	0	root	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Jehan!
+1	Jehan	Jehan	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = for pity’s sake!
+1	for	for	ADP	IN	_	4	case	_	_
+2	pity	pity	NOUN	NN	Number=Sing	4	nmod:poss	_	SpaceAfter=No
+3	’s	's	PART	POS	_	2	case	_	_
+4	sake	sake	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Have we drunk up the whole of the curé’s purse?
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	drunk	drink	VERB	VB	VerbForm=Inf	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	whole	whole	ADJ	JJ	Degree=Pos	3	obj	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	curé	curé	NOUN	NN	Number=Sing	11	nmod:poss	_	SpaceAfter=No
+10	’s	's	PART	POS	_	9	case	_	_
+11	purse	purse	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Have you not a single parisis left?”
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+3	not	not	PART	RB	_	6	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	single	single	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	parisis	parisis	NOUN	NN	Number=Sing	0	root	_	_
+7	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

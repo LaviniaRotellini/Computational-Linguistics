@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jondrette had evidently just returned.
+1	Jondrette	Jondrette	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	evidently	evidently	ADV	RB	_	5	advmod	_	_
+4	just	just	ADV	RB	_	5	advmod	_	_
+5	returned	return	VERB	VBN	Tense=Past|VerbForm=Part	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He still had the breathlessness of out of doors.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	still	still	ADV	RB	_	3	advmod	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	breathlessness	breathlessness	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	out	our	NOUN	NN	Number=Sing	5	nmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	doors	door	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = His daughters were seated on the floor near the fireplace, the elder engaged in dressing the younger’s wounded hand.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	daughters	daughter	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	on	on	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	floor	floor	NOUN	NN	Number=Sing	4	obl	_	_
+8	near	near	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fireplace	fireplace	NOUN	NN	Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	elder	elder	NOUN	NN	Number=Sing	4	appos	_	_
+14	engaged	engage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+15	in	in	SCONJ	IN	_	16	mark	_	_
+16	dressing	dress	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	younger	younger	NOUN	NN	Number=Sing	21	nmod:poss	_	SpaceAfter=No
+19	’s	's	PART	POS	_	18	case	_	_
+20	wounded	wounded	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	hand	hand	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = His wife had sunk back on the bed near the fireplace, with a face indicative of astonishment.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	sunk	sink	VERB	VB	VerbForm=Inf	0	root	_	_
+5	back	back	ADV	RB	_	4	advmod	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	bed	bed	NOUN	NN	Number=Sing	4	obl	_	_
+9	near	near	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	fireplace	fireplace	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	with	with	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	face	face	NOUN	NN	Number=Sing	16	compound	_	_
+16	indicative	indicative	NOUN	NN	Number=Sing	4	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	astonishment	astonishment	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Jondrette was pacing up and down the garret with long strides.
+1	Jondrette	Jondrette	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	pacing	pace	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	down	down	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	garret	garret	NOUN	NN	Number=Sing	3	obl	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	long	long	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	strides	stride	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 6
+# text = His eyes were extraordinary.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

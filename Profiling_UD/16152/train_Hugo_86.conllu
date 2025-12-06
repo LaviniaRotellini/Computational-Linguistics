@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Pardon me, sir,” said the wayfarer, “Could you, in consideration of payment, give me a plate of soup and a corner of that shed yonder in the garden, in which to sleep?
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Pardon	pardon	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	sir	sir	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	wayfarer	wayfarer	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+13	Could	could	AUX	MD	VerbForm=Fin	21	aux	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	21	punct	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	consideration	consideration	NOUN	NN	Number=Sing	21	obl	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	payment	payment	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	give	give	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	plate	plate	NOUN	NN	Number=Sing	21	obj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	soup	soup	NOUN	NN	Number=Sing	24	nmod	_	_
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	corner	corner	NOUN	NN	Number=Sing	26	conj	_	_
+30	of	of	ADP	IN	_	33	case	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+32	shed	she	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	yonder	yonder	NOUN	NN	Number=Sing	29	nmod	_	_
+34	in	in	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	garden	garden	NOUN	NN	Number=Sing	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	21	punct	_	_
+38	in	in	ADP	IN	_	39	case	_	_
+39	which	which	PRON	WDT	PronType=Rel	41	obl	_	_
+40	to	to	PART	TO	_	41	mark	_	_
+41	sleep	sleep	VERB	VB	VerbForm=Inf	21	acl:relcl	_	SpaceAfter=No
+42	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tell me; can you?
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	;	;	PUNCT	,	_	1	punct	_	_
+4	can	can	AUX	MD	VerbForm=Fin	1	ccomp	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = For money?”
+1	For	for	ADP	IN	_	2	case	_	_
+2	money	money	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

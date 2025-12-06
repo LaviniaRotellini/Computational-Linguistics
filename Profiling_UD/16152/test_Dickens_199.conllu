@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = It was agreed to be done; and a most melancholy day I passed.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	to	to	PART	TO	_	6	mark	_	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	_	_
+6	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	and	and	CCONJ	CC	_	12	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	most	most	ADV	RBS	_	11	advmod	_	_
+11	melancholy	melancholy	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	day	day	NOUN	NN	Number=Sing	3	conj	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	passed	pass	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = For, it inscrutably appeared to stand to reason, in the minds of the whole company, that I was an excrescence on the entertainment.
+1	For	for	ADP	IN	_	5	obl	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	inscrutably	inscrutably	ADV	RB	_	5	advmod	_	_
+5	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stand	stand	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	to	to	ADP	IN	_	9	case	_	_
+9	reason	reason	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	minds	minds	NOUN	NNS	Number=Plur	7	obl	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	whole	whole	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	company	company	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	7	punct	_	_
+19	that	that	SCONJ	IN	_	23	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	excrescence	excrescence	NOUN	NN	Number=Sing	7	parataxis	_	_
+24	on	on	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	entertainment	entertainment	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = And to make it worse, they all asked me from time to time,—in short, whenever they had nothing else to do,—why I didn’t enjoy myself?
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	make	make	VERB	VB	VerbForm=Inf	9	advcl	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	worse	worse	ADJ	JJR	Degree=Cmp	3	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	all	all	DET	DT	_	7	det	_	_
+9	asked	ask	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	from	from	ADP	IN	_	12	case	_	_
+12	time	time	NOUN	NN	Number=Sing	9	obl	_	_
+13	to	to	ADP	IN	_	14	case	_	_
+14	time	time	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,—	,—	PUNCT	.	_	9	punct	_	SpaceAfter=No
+16	in	in	ADP	IN	_	17	case	_	_
+17	short	short	ADJ	JJ	Degree=Pos	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	whenever	whenever	ADV	WRB	PronType=Int	21	advmod	_	_
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+22	nothing	nothing	PRON	NN	Number=Sing	21	obj	_	_
+23	else	else	ADJ	JJ	Degree=Pos	22	amod	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	do	do	VERB	VB	VerbForm=Inf	22	acl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+27	—	-	PUNCT	,	_	9	punct	_	SpaceAfter=No
+28	why	why	ADV	WRB	PronType=Int	32	advmod	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+30	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	SpaceAfter=No
+31	n’t	not	PART	RB	_	32	advmod	_	_
+32	enjoy	enjoy	VERB	VB	VerbForm=Inf	9	parataxis	_	_
+33	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	32	obj	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = And what could I possibly do then, but say I _was_ enjoying myself,—when I wasn’t!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	6	obj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	possibly	possibly	ADV	RB	_	6	advmod	_	_
+6	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	then	then	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	but	but	CCONJ	CC	_	10	cc	_	_
+10	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+12	_	_	SYM	NFP	_	22	punct	_	SpaceAfter=No
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No
+14	_	_	SYM	NFP	_	22	punct	_	_
+15	enjoying	enjoy	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+16	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	22	punct	_	SpaceAfter=No
+18	—	-	PUNCT	,	_	22	punct	_	SpaceAfter=No
+19	when	when	ADV	WRB	PronType=Int	22	mark	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No
+22	n’t	not	PART	RB	_	10	ccomp	_	SpaceAfter=No
+23	!	!	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,96 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He kept me waiting so long, that I fervently hoped the Club would fine him for being late.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	waiting	wait	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+5	so	so	ADV	RB	_	6	advmod	_	_
+6	long	long	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	_	_
+8	that	that	SCONJ	IN	_	11	mark	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	fervently	fervently	ADV	RB	_	11	advmod	_	_
+11	hoped	hope	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Club	club	PROPN	NNP	Number=Sing	15	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	fine	fine	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	for	for	SCONJ	IN	_	19	mark	_	_
+18	being	be	AUX	VBG	VerbForm=Ger	19	cop	_	_
+19	late	late	ADJ	JJ	Degree=Pos	15	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = At last he came out; and then I saw my own Dora hang up the bird-cage, and peep into the balcony to look for me, and run in again when she saw I was there, while Jip remained behind, to bark injuriously at an immense butcher’s dog in the street, who could have taken him like a pill.
+1	At	at	ADP	IN	_	2	case	_	_
+2	last	last	ADJ	JJ	Degree=Pos	4	obl	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	out	out	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	;	;	PUNCT	,	_	4	punct	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	own	own	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	Dora	Dora	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	hang	hang	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+15	up	up	ADP	RP	_	14	compound:prt	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+17	bird	bird	NOUN	NN	Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	cage	cage	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	peep	peep	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+23	into	into	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	balcony	balcony	NOUN	NN	Number=Sing	22	obl	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	look	look	VERB	VB	VerbForm=Inf	22	advcl	_	_
+28	for	for	ADP	IN	_	29	case	_	_
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	obl	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	32	punct	_	_
+31	and	and	CCONJ	CC	_	32	cc	_	_
+32	run	run	VERB	VB	VerbForm=Inf	4	conj	_	_
+33	in	in	ADP	RP	_	32	compound:prt	_	_
+34	again	again	ADV	RB	_	32	advmod	_	_
+35	when	when	ADV	WRB	PronType=Int	37	mark	_	_
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	advcl	_	_
+38	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+39	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	40	cop	_	_
+40	there	there	ADV	RB	PronType=Dem	37	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	,	_	32	punct	_	_
+42	while	while	SCONJ	IN	_	44	mark	_	_
+43	Jip	Jip	PROPN	NNP	Number=Sing	44	nsubj	_	_
+44	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	advcl	_	_
+45	behind	behind	ADP	IN	_	44	advmod	_	SpaceAfter=No
+46	,	,	PUNCT	,	_	32	punct	_	_
+47	to	to	PART	TO	_	48	mark	_	_
+48	bark	bark	VERB	VB	VerbForm=Inf	32	advcl	_	_
+49	injuriously	injuriously	ADV	RB	_	48	advmod	_	_
+50	at	at	ADP	IN	_	55	case	_	_
+51	an	a	DET	DT	Definite=Ind|PronType=Art	53	det	_	_
+52	immense	immense	ADJ	JJ	Degree=Pos	53	amod	_	_
+53	butcher	butcher	NOUN	NN	Number=Sing	55	nmod:poss	_	SpaceAfter=No
+54	’s	's	PART	POS	_	53	case	_	_
+55	dog	dog	NOUN	NN	Number=Sing	48	obl	_	_
+56	in	in	ADP	IN	_	58	case	_	_
+57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	_
+58	street	street	NOUN	NN	Number=Sing	48	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	,	_	32	punct	_	_
+60	who	who	PRON	WP	PronType=Rel	63	nsubj	_	_
+61	could	could	AUX	MD	VerbForm=Fin	63	aux	_	_
+62	have	have	AUX	VB	VerbForm=Inf	63	aux	_	_
+63	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	32	acl:relcl	_	_
+64	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	obj	_	_
+65	like	like	ADP	IN	_	67	case	_	_
+66	a	a	DET	DT	Definite=Ind|PronType=Art	67	det	_	_
+67	pill	pill	NOUN	NN	Number=Sing	63	obl	_	SpaceAfter=No
+68	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

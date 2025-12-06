@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The words had produced no less strange an effect on Fantine.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	words	word	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	no	no	ADV	RB	_	7	advmod	_	_
+6	less	less	ADV	RBR	Degree=Cmp	7	advmod	_	_
+7	strange	strange	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	effect	effect	NOUN	NN	Number=Sing	7	obj	_	_
+10	on	on	ADP	IN	_	11	case	_	_
+11	Fantine	Fantine	PROPN	NNP	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = She raised her bare arm, and clung to the damper of the stove, like a person who is reeling.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	raised	raise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	bare	bare	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	arm	arm	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	clung	cling	NOUN	NNS	Number=Plur	2	conj	_	_
+9	to	to	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	damper	damper	NOUN	NN	Number=Sing	8	nmod	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	stove	stove	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	2	punct	_	_
+16	like	like	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	person	person	NOUN	NN	Number=Sing	2	obl	_	_
+19	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	reeling	reel	VERB	VBG	Tense=Pres|VerbForm=Part	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Nevertheless, she glanced about her, and began to speak in a low voice, as though talking to herself:—
+1	Nevertheless	nevertheless	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	glanced	glance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	about	about	ADP	IN	_	6	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	speak	speak	VERB	VB	VerbForm=Inf	9	xcomp	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	low	low	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	voice	voice	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	4	punct	_	_
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	though	though	SCONJ	IN	_	19	mark	_	_
+19	talking	talk	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obl	_	SpaceAfter=No
+22	:—	:—	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

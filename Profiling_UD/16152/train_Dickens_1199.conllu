@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Affection,’ said Miss Lavinia, glancing at her sister for corroboration, which she gave in the form of a little nod to every clause, ‘mature affection, homage, devotion, does not easily express itself.
+1	‘	'	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Affection	affection	NOUN	NN	Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	SpaceAfter=No
+4	’	’	PUNCT	''	_	5	punct	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Miss	miss	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Lavinia	Lavinia	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	glancing	glance	VERB	VBG	VerbForm=Ger	5	ccomp	_	_
+10	at	at	ADP	IN	_	12	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	sister	sister	NOUN	NN	Number=Sing	9	obl	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	corroboration	corroboration	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	9	punct	_	_
+16	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	form	form	NOUN	NN	Number=Sing	18	obl	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	nod	nod	NOUN	NN	Number=Sing	21	nmod	_	_
+26	to	to	ADP	IN	_	28	case	_	_
+27	every	every	DET	DT	_	28	det	_	_
+28	clause	clause	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	32	punct	_	_
+30	‘	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
+31	mature	mature	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	affection	affection	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	homage	homage	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+35	,	,	PUNCT	,	_	36	punct	_	_
+36	devotion	devotion	NOUN	NN	Number=Sing	25	conj	_	SpaceAfter=No
+37	,	,	PUNCT	,	_	41	punct	_	_
+38	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+39	not	not	PART	RB	_	41	advmod	_	_
+40	easily	easily	ADV	RB	_	41	advmod	_	_
+41	express	express	VERB	VB	VerbForm=Inf	18	conj	_	_
+42	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	41	obj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Its voice is low.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	voice	voice	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	low	low	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = It is modest and retiring, it lies in ambush, waits and waits.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	modest	modest	ADJ	JJ	Degree=Pos	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	retiring	retire	VERB	VBG	VerbForm=Ger	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	ambush	ambush	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	waits	wait	NOUN	NNS	Number=Plur	3	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	waits	wait	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Such is the mature fruit.
+1	Such	such	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	mature	mature	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fruit	fruit	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Sometimes a life glides away, and finds it still ripening in the shade.’
+1	Sometimes	sometimes	ADV	RB	_	4	advmod	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	life	life	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	glides	glide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	away	away	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	finds	find	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	still	still	ADV	RB	_	11	advmod	_	_
+11	ripening	ripen	VERB	VBG	VerbForm=Ger	8	ccomp	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	shade	shade	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

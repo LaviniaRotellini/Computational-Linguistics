@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “They said of old the Soul had human shape, But smaller, subtler than the fleshly self, So wandered forth for airing when it pleased.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	old	old	ADJ	JJ	Degree=Pos	3	obl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Soul	soul	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+9	human	human	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	shape	shape	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	But	but	CCONJ	CC	_	13	cc	_	_
+13	smaller	smaller	ADJ	JJR	Degree=Cmp	15	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	subtler	subtler	ADJ	JJR	Degree=Cmp	3	conj	_	_
+16	than	than	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	fleshly	fleshly	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	self	self	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	15	punct	_	_
+21	So	so	ADV	RB	_	22	advmod	_	_
+22	wandered	wander	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	parataxis	_	_
+23	forth	forth	ADV	RB	_	22	advmod	_	_
+24	for	for	SCONJ	IN	_	25	mark	_	_
+25	airing	airing	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+26	when	when	ADV	WRB	PronType=Int	28	mark	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	pleased	pleas	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = And see!
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = beside her cherub-face there floats
+1	beside	beside	ADP	IN	_	5	case	_	_
+2	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+3	cherub	cherub	NOUN	NN	Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No
+5	face	face	NOUN	NN	Number=Sing	7	obl	_	_
+6	there	there	PRON	EX	_	7	expl	_	_
+7	floats	float	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = 4
+# text = A pale-lipped form aerial whispering
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	pale	pale	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	lipped	lip	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	form	form	NOUN	NN	Number=Sing	0	root	_	_
+6	aerial	aerial	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	whispering	whispering	NOUN	NN	Number=Sing	5	appos	_	_
+
+# sent_id = 5
+# text = Its promptings in that little shell her ear.”
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	promptings	prompting	NOUN	NNS	Number=Plur	0	root	_	_
+3	in	in	ADP	IN	_	6	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	shell	shell	NOUN	NN	Number=Sing	2	nmod	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	ear	ear	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, no, Pip!” said Joe, in a comfortable tone, “_I_’m sure of that.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	no	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Pip	Pip	VERB	VB	Mood=Imp|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Joe	Joe	PROPN	NNP	Number=Sing	21	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+14	comfortable	comfortable	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	tone	tone	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	10	punct	_	_
+17	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	_I	_I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	SpaceAfter=No
+19	_	_	SYM	NFP	_	18	punct	_	SpaceAfter=No
+20	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	sure	sure	ADJ	JJ	Degree=Pos	9	parataxis	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ay, ay, old chap!
+1	Ay	ay	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	6	punct	_	_
+3	ay	ay	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	chap	chap	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Bless you, it were only necessary to get it well round in a man’s mind, to be certain on it.
+1	Bless	bless	SCONJ	IN	_	7	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	only	only	ADV	RB	_	7	advmod	_	_
+7	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	well	well	ADV	RB	Degree=Pos	12	advmod	_	_
+12	round	round	ADV	RB	_	9	advmod	_	_
+13	in	in	ADP	IN	_	17	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	man	man	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+16	’s	's	PART	POS	_	15	case	_	_
+17	mind	mind	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+21	certain	certain	ADJ	JJ	Degree=Pos	9	advcl	_	_
+22	on	on	ADP	IN	_	23	case	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = But it took a bit of time to get it well round, the change come so oncommon plump; didn’t it?”
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	bit	bit	NOUN	NN	Number=Sing	3	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	time	time	NOUN	NN	Number=Sing	5	nmod	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	get	get	VERB	VB	VerbForm=Inf	3	advcl	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	well	well	ADV	RB	Degree=Pos	12	advmod	_	_
+12	round	round	ADV	RB	_	9	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	change	change	NOUN	NN	Number=Sing	16	nsubj	_	_
+16	come	come	VERB	VB	VerbForm=Inf	3	conj	_	_
+17	so	so	ADV	RB	_	19	advmod	_	_
+18	oncommon	oncommon	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	plump	plump	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	3	punct	_	_
+21	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
+22	n’t	not	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

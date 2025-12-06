@@ -1,0 +1,84 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “What have I done with him, Lord?
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	What	what	PRON	WP	PronType=Int	5	obj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	with	with	ADP	IN	_	7	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	Lord	Lord	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I received him, I reared him, I nourished him, I loved him, I idolized him, and I have slain him!
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	reared	rear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	nourished	nourished	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	2	punct	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	idolized	idolize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+24	slain	slain	ADP	IN	_	25	case	_	_
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Yes, Lord, they have just dashed his head before my eyes on the stone of thine house, and it is because of me, because of this woman, because of her.”
+1	Yes	yes	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	Lord	Lord	PROPN	NNP	Number=Sing	4	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	just	just	ADV	RB	_	8	advmod	_	_
+8	dashed	dash	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	head	head	NOUN	NN	Number=Sing	8	obj	_	_
+11	before	before	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	eyes	eye	NOUN	NNS	Number=Plur	8	obl	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	stone	stone	NOUN	NN	Number=Sing	8	obl	_	_
+17	of	of	ADP	IN	_	19	case	_	_
+18	thine	thine	NUM	CD	NumType=Card	19	nummod	_	_
+19	house	house	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+24	because	because	SCONJ	IN	_	31	mark	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	_	_
+28	because	because	ADP	IN	_	31	case	_	_
+29	of	of	ADP	IN	_	28	fixed	_	_
+30	this	this	DET	DT	Number=Sing|PronType=Dem	31	det	_	_
+31	woman	woman	NOUN	NN	Number=Sing	23	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	because	because	ADP	IN	_	35	case	_	_
+34	of	of	ADP	IN	_	33	fixed	_	_
+35	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+37	”	"	PUNCT	''	_	8	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,63 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Ah, there’s enormous patience wanted with the way of the world.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	there	there	PRON	EX	_	5	expl	_	SpaceAfter=No
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	enormous	enormous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	patience	patience	NOUN	NN	Number=Sing	5	nsubj	_	_
+8	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	way	way	NOUN	NN	Number=Sing	8	obl	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	world	world	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = But it is the easier for a man to wait patiently when he has friends who love him, and ask for nothing better than to help him through, so far as it lies in their power.”
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	easier	easier	ADJ	JJR	Degree=Cmp	0	root	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	man	man	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	wait	wait	VERB	VB	VerbForm=Inf	21	ccomp	_	_
+11	patiently	patiently	ADV	RB	_	10	advmod	_	_
+12	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	friends	friend	NOUN	NNS	Number=Plur	14	obj	_	_
+16	who	who	PRON	WP	PronType=Rel	17	nsubj	_	_
+17	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	nothing	nothing	PRON	NN	Number=Sing	21	obl	_	_
+24	better	better	ADJ	JJR	Degree=Cmp	23	amod	_	_
+25	than	than	SCONJ	IN	_	27	mark	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	help	help	VERB	VB	VerbForm=Inf	24	advcl	_	_
+28	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29	through	through	ADP	RP	_	27	compound:prt	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	21	punct	_	_
+31	so	so	ADV	RB	_	32	advmod	_	_
+32	far	far	ADV	RB	Degree=Pos	21	advmod	_	_
+33	as	as	SCONJ	IN	_	35	mark	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	power	power	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+40	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

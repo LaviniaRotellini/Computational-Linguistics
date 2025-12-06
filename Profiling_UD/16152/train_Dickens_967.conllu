@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I was unwilling to damp my good friend’s confidence, and therefore assented.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	unwilling	unwilling	ADJ	JJ	Degree=Pos	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	damp	damp	VERB	VB	VerbForm=Inf	3	advcl	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	good	good	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	friend	friend	NOUN	NN	Number=Sing	10	nmod:poss	_	SpaceAfter=No
+9	’s	's	PART	POS	_	8	case	_	_
+10	confidence	confidence	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	therefore	therefore	ADV	RB	_	14	advmod	_	_
+14	assented	assent	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = After a little further conversation, we went round to the chandler’s shop, to enlist Peggotty; Traddles declining to pass the evening with me, both because he endured the liveliest apprehensions that his property would be bought by somebody else before he could re-purchase it, and because it was the evening he always devoted to writing to the dearest girl in the world.
+1	After	after	ADP	IN	_	5	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+3	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	further	further	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	conversation	conversation	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	round	round	ADV	RB	_	8	advmod	_	_
+10	to	to	ADP	IN	_	14	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	chandler	chandler	NOUN	NN	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	shop	shop	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	8	punct	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	enlist	enlist	VERB	VB	VerbForm=Inf	8	advcl	_	_
+18	Peggotty	Peggotty	PROPN	NNP	Number=Sing	17	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	8	punct	_	_
+20	Traddles	Traddles	PROPN	NNPS	Number=Plur	21	nsubj	_	_
+21	declining	decline	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	pass	pass	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	evening	evening	NOUN	NN	Number=Sing	23	obj	_	_
+26	with	with	ADP	IN	_	27	case	_	_
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	23	punct	_	_
+29	both	both	CCONJ	CC	_	32	cc:preconj	_	_
+30	because	because	SCONJ	IN	_	32	mark	_	_
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	endured	endure	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+34	liveliest	liveliest	ADJ	JJS	Degree=Sup	35	amod	_	_
+35	apprehensions	apprehension	NOUN	NNS	Number=Plur	32	obj	_	_
+36	that	that	PRON	WDT	PronType=Rel	41	obj	_	_
+37	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	property	property	NOUN	NN	Number=Sing	41	nsubj:pass	_	_
+39	would	would	AUX	MD	VerbForm=Fin	41	aux	_	_
+40	be	be	AUX	VB	VerbForm=Inf	41	aux:pass	_	_
+41	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	35	acl:relcl	_	_
+42	by	by	ADP	IN	_	43	case	_	_
+43	somebody	somebody	PRON	NN	Number=Sing	41	obl	_	_
+44	else	else	ADJ	JJ	Degree=Pos	43	amod	_	_
+45	before	before	SCONJ	IN	_	48	mark	_	_
+46	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
+47	could	could	AUX	MD	VerbForm=Fin	48	aux	_	_
+48	re-purchase	re-purchase	VERB	VB	VerbForm=Inf	8	advcl	_	_
+49	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	48	obj	_	SpaceAfter=No
+50	,	,	PUNCT	,	_	56	punct	_	_
+51	and	and	CCONJ	CC	_	56	cc	_	_
+52	because	because	SCONJ	IN	_	56	mark	_	_
+53	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
+54	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	56	cop	_	_
+55	the	the	DET	DT	Definite=Def|PronType=Art	56	det	_	_
+56	evening	evening	NOUN	NN	Number=Sing	8	conj	_	_
+57	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
+58	always	always	ADV	RB	_	59	advmod	_	_
+59	devoted	devote	VERB	VBN	Tense=Past|VerbForm=Part	56	acl	_	_
+60	to	to	ADP	IN	_	61	case	_	_
+61	writing	write	NOUN	NN	Number=Sing	59	obl	_	_
+62	to	to	ADP	IN	_	65	case	_	_
+63	the	the	DET	DT	Definite=Def|PronType=Art	65	det	_	_
+64	dearest	dearest	ADJ	JJ	Degree=Pos|NumType=Ord	65	amod	_	_
+65	girl	girl	NOUN	NN	Number=Sing	59	obl	_	_
+66	in	in	ADP	IN	_	68	case	_	_
+67	the	the	DET	DT	Definite=Def|PronType=Art	68	det	_	_
+68	world	world	NOUN	NN	Number=Sing	65	nmod	_	SpaceAfter=No
+69	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+

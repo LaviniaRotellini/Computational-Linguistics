@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Holà hé!”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Holà	Holà	NOUN	NN	Number=Sing	3	compound	_	_
+3	hé	hé	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = he shouted suddenly, in the midst of the peaceable waiting which had followed the tumult.
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	shouted	shoute	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	suddenly	suddenly	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	midst	midst	NOUN	NN	Number=Sing	2	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	peaceable	peaceable	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	waiting	waiting	NOUN	NN	Number=Sing	7	nmod	_	_
+12	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+13	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	tumult	tumult	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = “Jupiter, Madame the Virgin, buffoons of the devil!
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Jupiter	Jupiter	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Madame	Madame	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	Virgin	Virgin	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	buffoons	buffoon	NOUN	NNS	Number=Plur	6	appos	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	devil	devil	PROPN	NNPS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = are you jeering at us?
+1	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	jeering	jeer	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = The piece!
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	piece	piece	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = the piece!
+1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	piece	piece	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 7
+# text = commence or we will commence again!”
+1	commence	commence	NOUN	NN	Number=Sing	0	root	_	_
+2	or	or	CCONJ	CC	_	5	cc	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	commence	commence	VERB	VB	VerbForm=Inf	1	conj	_	_
+6	again	again	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

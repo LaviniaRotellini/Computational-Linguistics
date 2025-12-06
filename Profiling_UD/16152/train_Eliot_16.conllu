@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I am sure—at least, I trust,” thought Celia, “that the wearing of a necklace will not interfere with my prayers.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	—	—	PUNCT	,	_	4	punct	_	SpaceAfter=No
+6	at	at	ADV	RB	_	10	advmod	_	_
+7	least	least	ADV	RBS	Degree=Sup	6	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	trust	trust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+12	”	"	PUNCT	''	_	13	punct	_	_
+13	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	appos	_	_
+14	Celia	Celia	PROPN	NNP	Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	_	_
+16	“	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+17	that	that	SCONJ	IN	_	25	mark	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	wearing	wearing	NOUN	NN	Number=Sing	25	nsubj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	necklace	necklace	NOUN	NN	Number=Sing	19	nmod	_	_
+23	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+24	not	not	PART	RB	_	25	advmod	_	_
+25	interfere	interfere	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+28	prayers	prayer	NOUN	NNS	Number=Plur	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = And I do not see that I should be bound by Dorothea’s opinions now we are going into society, though of course she herself ought to be bound by them.
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+6	that	that	SCONJ	IN	_	10	mark	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	should	should	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	bound	bound	ADJ	JJ	Degree=Pos	5	ccomp	_	_
+11	by	by	ADP	IN	_	14	case	_	_
+12	Dorothea	Dorothea	PROPN	NNP	Number=Sing	14	nmod:poss	_	SpaceAfter=No
+13	’s	's	PART	POS	_	12	case	_	_
+14	opinions	opinion	NOUN	NNS	Number=Plur	10	obl	_	_
+15	now	now	ADV	RB	_	18	advmod	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	10	ccomp	_	_
+19	into	into	ADP	IN	_	20	case	_	_
+20	society	society	NOUN	NN	Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	18	punct	_	_
+22	though	though	ADP	IN	_	30	case	_	_
+23	of	of	ADV	RB	_	30	advmod	_	_
+24	course	course	ADV	RB	_	23	fixed	_	_
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+26	herself	herself	PRON	PRP	Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+27	ought	ing	AUX	MD	VerbForm=Fin	30	aux	_	_
+28	to	to	PART	TO	_	30	mark	_	_
+29	be	be	AUX	VB	VerbForm=Inf	30	cop	_	_
+30	bound	bound	ADJ	JJ	Degree=Pos	18	obl	_	_
+31	by	by	ADP	IN	_	32	case	_	_
+32	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = But Dorothea is not always consistent.”
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	Dorothea	Dorothea	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	not	not	PART	RB	_	6	advmod	_	_
+5	always	always	ADV	RB	_	6	advmod	_	_
+6	consistent	consistent	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

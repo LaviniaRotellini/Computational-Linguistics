@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, I do,” said Tom, decidedly.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	8	punct	_	_
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Tom	Tom	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	decidedly	decidedly	ADV	RB	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = “I know if I owe money to one man, I’ve no right to give it to another.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	owe	owe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7	money	money	NOUN	NN	Number=Sing	6	obj	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+10	man	man	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+13	’ve	’ve	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	no	no	DET	DT	_	15	det	_	_
+15	right	right	NOUN	NN	Number=Sing	13	obj	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	give	give	VERB	VB	VerbForm=Inf	15	acl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	another	another	DET	DT	_	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = But if my father had made up his mind to give my aunt the money before he was in debt, he had a right to do it.”
+1	But	but	CCONJ	CC	_	23	cc	_	_
+2	if	if	SCONJ	IN	_	6	mark	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	father	father	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	made	make	VERB	VBN	Tense=Past|VerbForm=Part	23	advcl	_	_
+7	up	up	ADP	RP	_	6	compound:prt	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	mind	mind	NOUN	NN	Number=Sing	6	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	give	give	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	aunt	aunt	NOUN	NN	Number=Sing	11	iobj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	money	money	NOUN	NN	Number=Sing	11	obj	_	_
+16	before	before	SCONJ	IN	_	20	mark	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	in	in	ADP	IN	_	20	case	_	_
+20	debt	debt	NOUN	NN	Number=Sing	6	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+25	right	right	NOUN	NN	Number=Sing	23	obj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	do	do	VERB	VB	VerbForm=Inf	25	acl	_	_
+28	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	23	punct	_	SpaceAfter=No
+30	”	"	PUNCT	''	_	23	punct	_	SpacesAfter=\n
+

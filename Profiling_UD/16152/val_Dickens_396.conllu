@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You learnt a great deal, Louisa, and so did your brother.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	lear	lear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	nt	not	PART	RB	_	3	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	great	great	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	deal	deal	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	Louisa	Louisa	PROPN	NNP	Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	_	_
+11	and	and	CCONJ	CC	_	15	cc	_	_
+12	so	so	ADV	RB	_	15	advmod	_	_
+13	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	brother	brother	NOUN	NN	Number=Sing	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Ologies of all kinds from morning to night.
+1	Ologies	Ology	NOUN	NNS	Number=Plur	0	root	_	_
+2	of	of	ADP	IN	_	4	case	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4	kinds	kind	NOUN	NNS	Number=Plur	1	nmod	_	_
+5	from	from	ADP	IN	_	6	case	_	_
+6	morning	morning	NOUN	NN	Number=Sing	1	obl	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	night	night	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = If there is any Ology left, of any description, that has not been worn to rags in this house, all I can say is, I hope I shall never hear its name.’
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	any	any	DET	DT	_	5	det	_	_
+5	Ology	Ology	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	any	any	DET	DT	_	10	det	_	_
+10	description	description	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	16	nsubj	_	_
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	16	cop	_	_
+16	worn	worn	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	rags	rag	NOUN	NNS	Number=Plur	16	obl	_	_
+19	in	in	ADP	IN	_	21	case	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	house	house	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	6	punct	_	_
+23	all	all	DET	DT	_	6	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+25	can	can	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	say	say	VERB	VB	VerbForm=Inf	23	acl:relcl	_	_
+27	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	6	punct	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+30	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+32	shall	shall	AUX	MD	VerbForm=Fin	34	aux	_	_
+33	never	never	ADV	RB	_	34	advmod	_	_
+34	hear	hear	VERB	VB	VerbForm=Inf	30	ccomp	_	_
+35	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	SpaceAfter=No
+36	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+37	name	name	NOUN	NN	Number=Sing	34	ccomp	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+39	’	'	PUNCT	''	_	6	punct	_	SpacesAfter=\n
+

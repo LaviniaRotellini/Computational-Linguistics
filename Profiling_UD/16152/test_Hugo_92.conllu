@@ -1,0 +1,78 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “It appears,” said Gringoire, “that this one can also talk; but ’tis a rude language, and he is more fortunate than I if he understands it.”
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Gringoire	Gringoire	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	_	_
+9	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+10	that	that	SCONJ	IN	_	15	mark	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	one	one	NOUN	NN	Number=Sing	15	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+14	also	also	ADV	RB	_	15	advmod	_	_
+15	talk	talk	VERB	VB	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	15	punct	_	_
+17	but	but	CCONJ	CC	_	22	cc	_	_
+18	’	'	PUNCT	''	_	22	punct	_	SpaceAfter=No
+19	tis	te	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nsubj	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	rude	rude	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	language	language	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	_	_
+24	and	and	CCONJ	CC	_	28	cc	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	more	more	ADV	RBR	_	28	advmod	_	_
+28	fortunate	fortunate	ADJ	JJ	Degree=Pos	15	conj	_	_
+29	than	than	SCONJ	IN	_	30	mark	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	advcl	_	_
+31	if	if	SCONJ	IN	_	33	mark	_	_
+32	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+34	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No
+36	”	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 2
+# text = Then, smiting his brow, in a sudden transition of ideas:
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	smiting	smit	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	brow	brow	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	sudden	sudden	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	transition	transition	NOUN	NN	Number=Sing	3	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	ideas	idea	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	:	_	3	punct	_	_
+
+# sent_id = 3
+# text = “By the way, what the deuce did they mean this morning with their _Esmeralda?_”
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	By	by	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	way	way	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	what	what	PRON	WP	PronType=Int	11	obj	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	deuce	deuce	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	morning	morning	NOUN	NN	Number=Sing	11	obj	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	_Esmeralda	_Esmeralda	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	?_	?_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	11	punct	_	SpacesAfter=\n
+

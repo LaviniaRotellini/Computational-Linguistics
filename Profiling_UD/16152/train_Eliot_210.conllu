@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mary looked up with some roguishness at Fred, and that look of hers was very dear to him, though the eyes were nothing more than clear windows where observation sat laughingly.
+1	Mary	Mary	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADV	RB	_	2	advmod	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	roguishness	roguishness	NOUN	NNS	Number=Plur	2	obl	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	Fred	Fred	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	17	punct	_	_
+10	and	and	CCONJ	CC	_	17	cc	_	_
+11	that	that	SCONJ	IN	_	17	mark	_	_
+12	look	look	NOUN	NN	Number=Sing	17	nsubj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	hers	hers	PRON	PRP	_	12	nmod	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	dear	dear	ADJ	JJ	Degree=Pos	2	conj	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	2	punct	_	_
+21	though	though	SCONJ	IN	_	25	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	eyes	eye	NOUN	NNS	Number=Plur	25	nsubj	_	_
+24	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	_
+25	nothing	nothing	PRON	NN	Number=Sing	2	advcl	_	_
+26	more	more	ADJ	JJR	Degree=Cmp	25	amod	_	_
+27	than	than	ADP	IN	_	29	case	_	_
+28	clear	clear	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	windows	window	NOUN	NNS	Number=Plur	26	obl	_	_
+30	where	where	ADV	WRB	PronType=Rel	32	advmod	_	_
+31	observation	observation	NOUN	NN	Number=Sing	32	nsubj	_	_
+32	sat	sit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+33	laughingly	laughingly	ADV	RB	_	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = He was certainly an affectionate fellow, and as he had grown from boy to man, he had grown in love with his old playmate, notwithstanding that share in the higher education of the country which had exalted his views of rank and income.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	certainly	certainly	ADV	RB	_	6	advmod	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	affectionate	affectionate	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fellow	fellow	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	20	punct	_	_
+8	and	and	CCONJ	CC	_	20	cc	_	_
+9	as	as	SCONJ	IN	_	12	mark	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	20	advcl	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	boy	boy	NOUN	NN	Number=Sing	12	obl	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	man	man	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	love	love	NOUN	NN	Number=Sing	20	obl	_	_
+23	with	with	ADP	IN	_	26	case	_	_
+24	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+25	old	old	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	playmate	playmate	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	6	punct	_	_
+28	notwithstanding	notwithstand	VERB	VBG	VerbForm=Ger	6	acl	_	_
+29	that	that	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	share	share	NOUN	NN	Number=Sing	28	obj	_	_
+31	in	in	ADP	IN	_	34	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+33	higher	higher	ADJ	JJR	Degree=Cmp	34	amod	_	_
+34	education	education	NOUN	NN	Number=Sing	28	obl	_	_
+35	of	of	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	country	country	NOUN	NN	Number=Sing	34	nmod	_	_
+38	which	which	PRON	WDT	PronType=Rel	40	nsubj	_	_
+39	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	aux	_	_
+40	exalted	exalt	VERB	VBN	Tense=Past|VerbForm=Part	37	acl:relcl	_	_
+41	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	views	view	NOUN	NNS	Number=Plur	40	obj	_	_
+43	of	of	ADP	IN	_	44	case	_	_
+44	rank	rank	NOUN	NN	Number=Sing	42	nmod	_	_
+45	and	and	CCONJ	CC	_	46	cc	_	_
+46	income	income	NOUN	NN	Number=Sing	44	conj	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+

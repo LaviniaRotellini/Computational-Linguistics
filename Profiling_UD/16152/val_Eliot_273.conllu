@@ -1,0 +1,68 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Not quite,” said Maggie.
+1	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+2	Not	not	ADV	RB	_	3	advmod	_	_
+3	quite	quite	ADV	RB	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Maggie	Maggie	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = “He’s very unhappy, Tom.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	unhappy	unhappy	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = The lawsuit is ended, and I came to tell you because I thought it would be better for you to know it before you came home, and I didn’t like only to send you a letter.”
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	lawsuit	lawsuit	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ended	end	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	tell	tell	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	because	because	SCONJ	IN	_	14	mark	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	cop	_	_
+18	better	better	ADJ	JJR	Degree=Cmp	14	ccomp	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	know	know	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+24	before	before	SCONJ	IN	_	26	mark	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+27	home	home	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	33	punct	_	_
+29	and	and	CCONJ	CC	_	33	cc	_	_
+30	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+31	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	SpaceAfter=No
+32	n’t	not	PART	RB	_	33	advmod	_	_
+33	like	like	VERB	VB	VerbForm=Inf	4	conj	_	_
+34	only	only	ADV	RB	_	36	advmod	_	_
+35	to	to	PART	TO	_	36	mark	_	_
+36	send	send	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+37	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	36	iobj	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	letter	letter	NOUN	NN	Number=Sing	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

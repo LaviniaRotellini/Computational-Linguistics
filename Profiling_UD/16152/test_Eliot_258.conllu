@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, Mother,” said Adam, quietly.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Mother	mother	NOUN	NN	Number=Sing	7	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Adam	Adam	PROPN	NNP	Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	quietly	quietly	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = “I’m going to the Hall Farm, but mayhap I may go to the school after, so thee mustna wonder if I’m a bit late.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Hall	hall	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Farm	farm	PROPN	NNP	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	23	punct	_	_
+10	but	but	CCONJ	CC	_	23	cc	_	_
+11	mayhap	mayhap	NOUN	NN	Number=Sing	23	nsubj	_	_
+12	I	i	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	may	may	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	go	go	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	school	school	NOUN	NN	Number=Sing	14	obl	_	_
+18	after	after	ADV	RB	_	14	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	so	so	ADV	RB	_	23	advmod	_	_
+21	thee	thee	ADV	RB	_	23	advmod	_	_
+22	mustna	mustna	ADV	RB	_	23	advmod	_	_
+23	wonder	wonder	ADJ	JJR	Degree=Cmp	4	conj	_	_
+24	if	if	SCONJ	IN	_	29	mark	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	SpaceAfter=No
+26	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	bit	bit	NOUN	NN	Number=Sing	29	obl:npmod	_	_
+29	late	late	ADJ	JJ	Degree=Pos	23	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Seth ’ull be at home in half an hour—he’s only gone to the village; so thee wutna mind.”
+1	Seth	Seth	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	’ull	’ull	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	be	be	AUX	VB	VerbForm=Inf	5	cop	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	home	home	NOUN	NN	Number=Sing	0	root	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	half	half	DET	PDT	_	9	det:predet	_	_
+8	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	hour	hour	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	only	only	ADV	RB	_	14	advmod	_	_
+14	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	5	parataxis	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	village	village	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	;	;	PUNCT	,	_	5	punct	_	_
+19	so	so	ADV	RB	_	22	advmod	_	_
+20	thee	thee	NUM	CD	NumType=Card	22	nummod	_	_
+21	wutna	wutna	NOUN	NN	Number=Sing	22	compound	_	_
+22	mind	mind	NOUN	NN	Number=Sing	5	appos	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+24	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

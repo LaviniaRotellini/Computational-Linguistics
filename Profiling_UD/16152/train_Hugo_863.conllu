@@ -1,0 +1,70 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “That is because of the treaty which we have made.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	because	because	ADP	IN	_	7	case	_	_
+5	of	of	ADP	IN	_	4	fixed	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	treaty	treaty	NOUN	NN	Number=Sing	0	root	_	_
+8	which	which	PRON	WDT	PronType=Rel	11	obj	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	made	make	VERB	VBN	Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = On forming our little Holy Alliance we assigned ourselves each our frontier, which we never cross.
+1	On	on	SCONJ	IN	_	2	mark	_	_
+2	forming	for	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+3	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+4	little	little	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	Holy	holy	ADV	RB	_	6	advmod	_	_
+6	Alliance	Alliance	PROPN	NNP	Number=Sing	2	obj	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	assigned	assign	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	each	each	DET	DT	_	12	det	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	frontier	frontier	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	which	which	PRON	WDT	PronType=Rel	15	nsubj	_	_
+15	we	we	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	never	never	ADV	RB	_	17	advmod	_	_
+17	cross	cross	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 3
+# text = What is situated on the side of winter belongs to Vaud, on the side of the wind to Gex.
+1	What	what	PRON	WP	PronType=Int	3	nsubj:pass	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	situated	situate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	on	on	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	side	side	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	winter	winter	NOUN	NN	Number=Sing	6	nmod	_	_
+9	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	Vaud	Vaud	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	on	on	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	side	side	NOUN	NN	Number=Sing	9	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	wind	wind	NOUN	NN	Number=Sing	15	nmod	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	Gex	Gex	PROPN	NNP	Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Hence the peace.”
+1	Hence	hence	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	peace	peace	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

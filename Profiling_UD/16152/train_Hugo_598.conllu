@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = All the passion and affection within him awoke, and rushed towards that child.
+1	All	all	DET	PDT	_	3	det:predet	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	passion	passion	NOUN	NN	Number=Sing	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	affection	affection	NOUN	NN	Number=Sing	3	conj	_	_
+6	within	within	ADP	IN	_	8	case	_	_
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+8	awoke	awoke	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	rushed	rush	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+12	towards	towards	ADP	IN	_	14	case	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	child	child	NOUN	NN	Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He approached the bed, where she lay sleeping, and trembled with joy.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bed	bed	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	where	where	ADV	WRB	PronType=Rel	8	advmod	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+9	sleeping	sleep	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	trembled	tremble	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	joy	joy	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = He suffered all the pangs of a mother, and he knew not what it meant; for that great and singular movement of a heart which begins to love is a very obscure and a very sweet thing.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	suffered	suffer	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	all	all	DET	PDT	_	5	det:predet	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	pangs	pang	NOUN	NNS	Number=Plur	2	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	mother	mother	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+13	not	not	PART	RB	_	14	advmod	_	_
+14	what	what	PRON	WP	PronType=Int	12	obj	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	meant	mean	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	2	punct	_	_
+18	for	for	ADP	IN	_	23	case	_	_
+19	that	that	DET	DT	Number=Sing|PronType=Dem	23	det	_	_
+20	great	great	ADJ	JJ	Degree=Pos	23	amod	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	singular	singular	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	movement	movement	NOUN	NN	Number=Sing	34	nsubj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	heart	heart	NOUN	NN	Number=Sing	23	nmod	_	_
+27	which	which	PRON	WDT	PronType=Rel	28	nsubj	_	_
+28	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	love	love	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+33	very	very	ADV	RB	_	34	advmod	_	_
+34	obscure	obscure	ADJ	JJ	Degree=Pos	2	parataxis	_	_
+35	and	and	CCONJ	CC	_	39	cc	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+37	very	very	ADV	RB	_	38	advmod	_	_
+38	sweet	sweet	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	thing	thing	NOUN	NN	Number=Sing	34	conj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

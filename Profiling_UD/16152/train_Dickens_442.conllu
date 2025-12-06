@@ -1,0 +1,89 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Oh, thank you, Master Copperfield,’ said Uriah Heep, ‘for that remark!
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	Master	master	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Copperfield	Copperfield	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	11	punct	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	Uriah	Uriah	PROPN	NNP	Number=Sing	11	nsubj	_	_
+13	Heep	Heep	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	12	punct	_	_
+15	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+16	for	for	ADP	IN	_	18	case	_	_
+17	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	remark	remark	NOUN	NN	Number=Sing	12	nmod	_	SpaceAfter=No
+19	!	!	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = It is so true!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Umble as I am, I know it is so true!
+1	Umble	Umble	ADJ	JJ	Degree=Pos	0	root	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	am	be	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	so	so	ADV	RB	_	11	advmod	_	_
+11	true	true	ADJ	JJ	Degree=Pos	7	ccomp	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Oh, thank you, Master Copperfield!’
+1	Oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Master	master	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Copperfield	Copperfield	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 5
+# text = He writhed himself quite off his stool in the excitement of his feelings, and, being off, began to make arrangements for going home.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	writhed	writh	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	quite	quite	ADV	RB	_	7	advmod	_	_
+5	off	off	ADP	IN	_	7	case	_	_
+6	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	stool	stool	NOUN	NN	Number=Sing	2	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	excitement	excitement	NOUN	NN	Number=Sing	2	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	feelings	feeling	NOUN	NNS	Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	_
+15	and	and	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	_	_
+17	being	be	AUX	VBG	VerbForm=Ger	18	cop	_	_
+18	off	off	ADV	RB	_	20	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	make	make	VERB	VB	VerbForm=Inf	20	advcl	_	_
+23	arrangements	arrangement	NOUN	NNS	Number=Plur	22	obj	_	_
+24	for	for	SCONJ	IN	_	25	mark	_	_
+25	going	go	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+26	home	home	ADV	RB	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

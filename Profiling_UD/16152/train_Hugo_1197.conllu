@@ -1,0 +1,93 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = That evening, Cosette was alone in the drawing-room.
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	evening	evening	NOUN	NN	Number=Sing	6	obl:tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	Cosette	Cosette	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	alone	alone	ADJ	JJ	Degree=Pos	0	root	_	_
+7	in	in	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	drawing	drawing	NOUN	NN	Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No
+11	room	room	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = In order to get rid of her ennui, she had opened her piano-organ, and had begun to sing, accompanying herself the while, the chorus from _Euryanthe_: “Hunters astray in the wood!”
+1	In	in	ADP	IN	_	4	mark	_	_
+2	order	order	NOUN	NN	Number=Sing	1	fixed	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	get	get	VERB	VB	VerbForm=Inf	12	advcl	_	_
+5	rid	rid	ADJ	JJ	Degree=Pos	4	obj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	ennui	ennui	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	opened	open	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+14	piano	piano	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	organ	organ	NOUN	NN	Number=Sing	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	_
+21	to	to	SCONJ	IN	_	22	mark	_	_
+22	sing	s	VERB	VBG	VerbForm=Ger	20	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	22	punct	_	_
+24	accompanying	accompany	VERB	VBG	VerbForm=Ger	22	advcl	_	_
+25	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	24	iobj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	while	while	NOUN	NN	Number=Sing	24	obj	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	12	punct	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	chorus	chorus	NOUN	NN	Number=Sing	12	obj	_	_
+31	from	from	ADP	IN	_	32	case	_	_
+32	_Euryanthe	_Euryanthe	PROPN	NNP	Number=Sing	30	nmod	_	SpaceAfter=No
+33	_	_	SYM	NFP	_	30	punct	_	SpaceAfter=No
+34	:	:	PUNCT	:	_	30	punct	_	_
+35	“	"	PUNCT	``	_	30	punct	_	SpaceAfter=No
+36	Hunters	hunters	PROPN	NNPS	Number=Plur	30	appos	_	_
+37	astray	astray	ADV	RB	_	30	advmod	_	_
+38	in	in	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	wood	wood	NOUN	NN	Number=Sing	30	nmod	_	SpaceAfter=No
+41	!	!	PUNCT	.	_	12	punct	_	SpaceAfter=No
+42	”	"	PUNCT	''	_	12	punct	_	_
+
+# sent_id = 3
+# text = which is probably the most beautiful thing in all the sphere of music.
+1	which	which	PRON	WDT	PronType=Int	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	probably	probably	ADV	RB	_	7	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+8	in	in	ADP	IN	_	11	case	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	sphere	sphere	NOUN	NN	Number=Sing	7	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	music	music	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 4
+# text = When she had finished, she remained wrapped in thought.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	remained	remain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	wrapped	wrap	VERB	VBN	Tense=Past|VerbForm=Part	7	xcomp	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	thought	thought	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+

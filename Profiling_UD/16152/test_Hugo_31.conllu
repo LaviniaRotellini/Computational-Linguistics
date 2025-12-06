@@ -1,0 +1,105 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Well—upon my soul,” resumed Joannes, “it’s Clopin Trouillefou!
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	Well	well	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	—	—	PUNCT	,	_	9	punct	_	SpaceAfter=No
+4	upon	upon	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	soul	soul	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	resumed	resume	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Joannes	Joannes	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	“	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	Clopin	Clopin	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Trouillefou	Trouillefou	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+17	!	!	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Holà hé, my friend, did your sore bother you on the leg, that you have transferred it to your arm?”
+1	Holà	Holà	NOUN	NN	Number=Sing	2	compound	_	_
+2	hé	hé	NOUN	NN	Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	friend	friend	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nsubj	_	_
+9	sore	sore	ADV	RBR	_	10	advmod	_	_
+10	bother	bother	VERB	VB	VerbForm=Inf	0	root	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obj	_	_
+12	on	on	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	leg	leg	NOUN	NN	Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	10	punct	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	_
+18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	transferred	transfer	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	to	to	ADP	IN	_	23	case	_	_
+22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+23	arm	arm	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+24	?	?	PUNCT	.	_	10	punct	_	SpaceAfter=No
+25	”	"	PUNCT	''	_	10	punct	_	_
+
+# sent_id = 3
+# text = So saying, with the dexterity of a monkey, he flung a bit of silver into the gray felt hat which the beggar held in his ailing arm.
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	saying	say	VERB	VBG	VerbForm=Ger	12	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	with	with	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	dexterity	dexterity	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	monkey	monkey	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	flung	fling	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	bit	bit	NOUN	NN	Number=Sing	12	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	silver	silver	NOUN	NN	Number=Sing	14	nmod	_	_
+17	into	into	ADP	IN	_	21	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+19	gray	gray	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	felt	feel	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	hat	hat	NOUN	NN	Number=Sing	12	obl	_	_
+22	which	which	PRON	WDT	PronType=Rel	25	obj	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	beggar	beggar	NOUN	NN	Number=Sing	25	nsubj	_	_
+25	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	ailing	ailing	NOUN	NN	Number=Sing	29	compound	_	_
+29	arm	arm	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = 4
+# text = The mendicant received both the alms and the sarcasm without wincing, and continued, in lamentable tones,—
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	mendicant	mendicant	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	both	both	CCONJ	CC	_	6	cc:preconj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	alms	alm	NOUN	NNS	Number=Plur	3	obj	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	sarcasm	sarcasm	NOUN	NN	Number=Sing	6	conj	_	_
+10	without	without	ADP	IN	_	11	case	_	_
+11	wincing	wincing	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	lamentable	lamentable	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	tones	ton	NOUN	NNS	Number=Plur	14	obl	_	SpaceAfter=No
+19	,—	,—	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Adam, my dear friend, you have had some hard trials in your life.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Adam	Adam	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	dear	dear	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	friend	friend	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+11	some	some	DET	DT	_	13	det	_	_
+12	hard	hard	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	trials	trial	NOUN	NNS	Number=Plur	10	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	life	life	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = You can bear sorrow manfully, as well as act manfully.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	bear	bear	VERB	VB	VerbForm=Inf	0	root	_	_
+4	sorrow	sorrow	ADV	RB	_	5	advmod	_	_
+5	manfully	manfully	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	as	as	ADV	RB	_	10	cc	_	_
+8	well	well	ADV	RB	Degree=Pos	7	fixed	_	_
+9	as	as	ADP	IN	_	7	fixed	_	_
+10	act	act	NOUN	NN	Number=Sing	3	conj	_	_
+11	manfully	manfully	ADV	RB	_	3	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = God requires both tasks at our hands.
+1	God	God	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	requires	require	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	both	both	DET	DT	_	4	det	_	_
+4	tasks	tasnks	NOUN	NNS	Number=Plur	2	obj	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hands	hand	NOUN	NNS	Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And there is a heavier sorrow coming upon you than any you have yet known.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	heavier	heavier	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	sorrow	sorrow	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	coming	come	VERB	VBG	VerbForm=Ger	6	acl	_	_
+8	upon	upon	ADP	IN	_	9	case	_	_
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obl	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	any	any	DET	DT	_	3	obl	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	yet	yet	ADV	RB	_	15	advmod	_	_
+15	known	know	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = But you are not guilty—you have not the worst of all sorrows.
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	not	not	PART	RB	_	5	advmod	_	_
+5	guilty	guilty	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+6	—	-	PUNCT	,	_	5	punct	_	SpaceAfter=No
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	worst	worst	ADJ	JJS	Degree=Sup	5	parataxis	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	all	all	DET	DT	_	14	det	_	_
+14	sorrows	sorrow	NOUN	NNS	Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = God help him who has!”
+1	God	God	INTJ	UH	_	2	discourse	_	_
+2	help	help	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	who	who	PRON	WP	PronType=Rel	5	nsubj	_	_
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

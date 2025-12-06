@@ -1,0 +1,75 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Just ride slowly on, Irwine,” said Captain Donnithorne, mounting also.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Just	just	ADV	RB	_	3	advmod	_	_
+3	ride	ride	VERB	VB	Mood=Imp|VerbForm=Fin	10	ccomp	_	_
+4	slowly	slowly	ADV	RB	_	5	advmod	_	_
+5	on	on	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	Irwine	Irwine	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	10	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+11	Captain	captain	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Donnithorne	Donnithorne	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	10	punct	_	_
+14	mounting	mount	VERB	VBG	VerbForm=Ger	0	root	_	_
+15	also	also	ADV	RB	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = “I’ll overtake you in three minutes.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	’ll	’ll	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	overtake	overtake	VERB	VB	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	three	three	NUM	CD	NumType=Card	8	nummod	_	_
+8	minutes	minute	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I’m only going to speak to the shepherd about the whelps.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	speak	speak	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	shepherd	shepherd	NOUN	NN	Number=Sing	6	obl	_	_
+10	about	about	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	whelps	whelp	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Good-bye, Mrs. Poyser; tell your husband I shall come and have a long talk with him soon.”
+1	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+3	bye	bye	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Mrs.	Mrs.	PROPN	NNP	Number=Sing	3	appos	_	_
+6	Poyser	Poyser	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+9	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	husband	husband	NOUN	NN	Number=Sing	8	iobj	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	shall	shall	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	come	come	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	have	have	VERB	VB	VerbForm=Inf	13	conj	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	long	long	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	talk	talk	NOUN	NN	Number=Sing	15	obj	_	_
+19	with	with	ADP	IN	_	20	case	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
+21	soon	soon	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+23	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

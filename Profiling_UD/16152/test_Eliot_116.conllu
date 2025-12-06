@@ -1,0 +1,65 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And you must bring all your children, you know, Mrs. Poyser; your little Totty, as well as the boys.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	5	cc	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+6	all	all	DET	PDT	_	8	det:predet	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	children	child	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	obj	_	_
+14	Poyser	Poyser	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	;	;	PUNCT	,	_	5	punct	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	Totty	Totty	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	as	as	ADV	RB	_	24	cc	_	_
+21	well	well	ADV	RB	Degree=Pos	20	fixed	_	_
+22	as	as	ADP	IN	_	20	fixed	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	boys	boy	NOUN	NNS	Number=Plur	18	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = I want all the youngest children on the estate to be there—all those who will be fine young men and women when I’m a bald old fellow.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	all	all	DET	PDT	_	6	det:predet	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	youngest	youngest	ADJ	JJS	Degree=Sup	6	amod	_	_
+6	children	child	NOUN	NNS	Number=Plur	2	obj	_	_
+7	on	on	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	estate	estate	NOUN	NN	Number=Sing	6	nmod	_	_
+10	to	to	PART	TO	_	12	mark	_	_
+11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+12	there	there	ADV	RB	PronType=Dem	2	xcomp	_	SpaceAfter=No
+13	—	—	PUNCT	,	_	2	punct	_	SpaceAfter=No
+14	all	all	DET	DT	_	15	det:predet	_	_
+15	those	those	DET	DT	Number=Plur|PronType=Dem	21	det	_	_
+16	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+17	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+18	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+19	fine	fine	ADJ	JJ	Degree=Pos	21	amod	_	_
+20	young	young	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	men	man	NOUN	NNS	Number=Plur	2	acl:relcl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	women	woman	NOUN	NNS	Number=Plur	21	conj	_	_
+24	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	SpaceAfter=No
+26	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+28	bald	bald	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	old	old	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	fellow	fellow	NOUN	NN	Number=Sing	21	advcl	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+32	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

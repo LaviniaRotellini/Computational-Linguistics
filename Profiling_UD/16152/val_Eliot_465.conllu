@@ -1,0 +1,79 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, sir,” said Tom, colouring; “but my father is unwilling to risk it, and I don’t like to press him.
+1	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	7	punct	_	_
+7	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Tom	Tom	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
+10	colouring	colour	VERB	VBG	VerbForm=Ger	7	advcl	_	SpaceAfter=No
+11	;	;	PUNCT	,	_	7	punct	_	_
+12	“	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	father	father	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	unwilling	unwilling	ADJ	JJ	Degree=Pos	7	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	risk	risk	VERB	VB	VerbForm=Inf	17	advcl	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	_	_
+22	and	and	CCONJ	CC	_	26	cc	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
+25	n’t	not	PART	RB	_	26	advmod	_	_
+26	like	like	VERB	VB	VerbForm=Inf	17	conj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	press	press	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = If I could get twenty or thirty pounds to begin with, I could pay five per cent for it, and then I could gradually make a little capital of my own, and do without a loan.”
+1	If	if	SCONJ	IN	_	4	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	get	get	VERB	VB	VerbForm=Inf	15	advcl	_	_
+5	twenty	twenty	NUM	CD	NumType=Card	8	nummod	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	thirty	thirty	NUM	CD	NumType=Card	5	conj	_	_
+8	pounds	pound	NOUN	NNS	Number=Plur	4	obj	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	begin	begin	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+11	with	with	ADP	IN	_	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	could	could	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	pay	pay	VERB	VB	VerbForm=Inf	0	root	_	_
+16	five	five	NUM	CD	NumType=Card	18	nummod	_	_
+17	per	per	NOUN	NN	Number=Sing	18	compound	_	_
+18	cent	cent	NOUN	NN	Number=Sing	15	obj	_	_
+19	for	for	ADP	IN	_	20	case	_	_
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	27	punct	_	_
+22	and	and	CCONJ	CC	_	27	cc	_	_
+23	then	then	ADV	RB	PronType=Dem	27	advmod	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+25	could	could	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	gradually	gradually	ADV	RB	_	27	advmod	_	_
+27	make	make	VERB	VB	VerbForm=Inf	15	conj	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	little	little	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	capital	capital	NOUN	NN	Number=Sing	27	obj	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+33	own	own	ADJ	JJ	Degree=Pos	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	36	punct	_	_
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	do	do	VERB	VB	VerbForm=Inf	15	conj	_	_
+37	without	without	ADP	IN	_	39	case	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	loan	loan	NOUN	NN	Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+41	”	"	PUNCT	''	_	15	punct	_	SpacesAfter=\n
+

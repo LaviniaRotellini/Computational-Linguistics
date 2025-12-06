@@ -1,0 +1,120 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Yes, Monseigneur.
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	Yes	yes	INTJ	UH	_	4	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = That is how it is.
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	5	advmod	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = There will be some sort of catastrophe in this town to-night.
+1	There	there	PRON	EX	_	3	expl	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	some	some	DET	DT	_	5	det	_	_
+5	sort	sort	NOUN	NN	Number=Sing	3	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	catastrophe	catastrophe	NOUN	NN	Number=Sing	5	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	town	town	NOUN	NN	Number=Sing	5	nmod	_	_
+11	to	to	ADP	IN	_	13	case	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	night	night	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Every one says so.
+1	Every	every	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	so	so	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = And withal, the police is so badly regulated” (a useful repetition).
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	withal	withal	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	police	police	NOUN	NN	Number=Sing	9	nsubj:pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	badly	badly	ADV	RB	Degree=Pos	9	advmod	_	_
+9	regulated	regulated	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	2	punct	_	_
+11	(	(	PUNCT	-LRB-	_	14	punct	_	SpaceAfter=No
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	useful	useful	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	repetition	repetition	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 6
+# text = “The idea of living in a mountainous country, and not even having lights in the streets at night!
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	idea	idea	NOUN	NN	Number=Sing	0	root	_	_
+4	of	of	SCONJ	IN	_	5	mark	_	_
+5	living	live	VERB	VBG	VerbForm=Ger	3	acl	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	mountainous	mountainous	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	country	country	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	and	and	CCONJ	CC	_	14	cc	_	_
+12	not	not	ADV	RB	_	14	advmod	_	_
+13	even	even	ADV	RB	_	14	advmod	_	_
+14	having	have	VERB	VBG	VerbForm=Ger	3	conj	_	_
+15	lights	light	NOUN	NNS	Number=Plur	14	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	streets	street	NOUN	NNS	Number=Plur	15	nmod	_	_
+19	at	at	ADP	IN	_	20	case	_	_
+20	night	night	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+21	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 7
+# text = One goes out.
+1	One	one	PRON	PRP	_	2	nsubj	_	_
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	out	out	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Black as ovens, indeed!
+1	Black	black	ADJ	JJ	Degree=Pos	0	root	_	_
+2	as	as	ADP	IN	_	3	case	_	_
+3	ovens	oven	NOUN	NNS	Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	indeed	indeed	ADV	RB	_	1	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = And I say, Monseigneur, and Mademoiselle there says with me—”
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	Monseigneur	Monseigneur	PROPN	NNP	Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Mademoiselle	Mademoiselle	PROPN	NNP	Number=Sing	5	conj	_	_
+9	there	there	ADV	RB	PronType=Dem	8	advmod	_	_
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	with	with	ADP	IN	_	12	case	_	_
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+13	—	-	PUNCT	.	_	10	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

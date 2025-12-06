@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “So, sir, you’ve been paying ten per cent for money which you’ve promised to pay off by mortgaging my land when I’m dead and gone, eh?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	So	so	ADV	RB	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	sir	sir	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	aux	_	_
+9	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	ten	ten	NUM	CD	NumType=Card	12	nummod	_	_
+11	per	per	NOUN	NN	Number=Sing	12	compound	_	_
+12	cent	cent	NOUN	NN	Number=Sing	9	obj	_	_
+13	for	for	ADP	IN	_	14	case	_	_
+14	money	money	NOUN	NN	Number=Sing	9	obl	_	_
+15	which	which	PRON	WDT	PronType=Rel	18	obj	_	_
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	SpaceAfter=No
+17	’ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	pay	pay	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+21	off	off	ADP	RP	_	20	compound:prt	_	_
+22	by	by	SCONJ	IN	_	23	mark	_	_
+23	mortgaging	mortgage	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+24	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	land	land	NOUN	NN	Number=Sing	23	obj	_	_
+26	when	when	ADV	WRB	PronType=Int	29	mark	_	_
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	SpaceAfter=No
+28	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	dead	dead	ADJ	JJ	Degree=Pos	9	advcl	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	gone	gone	ADJ	JJ	Degree=Pos	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	,	_	9	punct	_	_
+33	eh	eh	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+34	?	?	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = You put my life at a twelvemonth, say.
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	life	life	NOUN	NN	Number=Sing	2	obj	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	twelvemonth	twelvemonth	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	2	punct	_	_
+9	say	say	INTJ	UH	_	2	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But I can alter my will yet.”
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	alter	alter	VERB	VB	VerbForm=Inf	0	root	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	will	will	AUX	MD	VerbForm=Fin	4	obj	_	_
+7	yet	yet	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,64 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = We insensibly approached the old boat, and entered.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	insensibly	insensibly	ADV	RB	_	3	advmod	_	_
+3	approached	approach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	boat	boat	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Mrs. Gummidge, no longer moping in her especial corner, was busy preparing breakfast.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	13	nsubj	_	_
+2	Gummidge	Gummidge	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	longer	longer	ADV	RBR	Degree=Cmp	6	advmod	_	_
+6	moping	mo	VERB	VBG	VerbForm=Ger	1	advcl	_	_
+7	in	in	ADP	IN	_	10	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	especial	especial	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	corner	corner	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	_
+14	preparing	prepare	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+15	breakfast	breakfast	NOUN	NN	Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = 3
+# text = She took Mr. Peggotty’s hat, and placed his seat for him, and spoke so comfortably and softly, that I hardly knew her.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Mr.	Mr.	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+4	Peggotty	Peggotty	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	’s	's	PART	POS	_	3	case	_	_
+6	hat	hat	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	placed	place	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	seat	seat	NOUN	NN	Number=Sing	9	obj	_	_
+12	for	for	ADP	IN	_	13	case	_	_
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	spoke	speak	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+17	so	so	ADV	RB	_	18	advmod	_	_
+18	comfortably	comfortably	ADV	RB	_	16	advmod	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	softly	softly	ADV	RB	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	2	punct	_	_
+22	that	that	SCONJ	IN	_	25	mark	_	_
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	hardly	hardly	ADV	RB	_	25	advmod	_	_
+25	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+26	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

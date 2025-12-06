@@ -1,0 +1,69 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A capital error which led this family to lay its hand once more on the guarantees “granted” in 1814, on the concessions, as it termed them.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	capital	capital	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	error	error	NOUN	NN	Number=Sing	9	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	5	nsubj	_	_
+5	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	family	family	NOUN	NN	Number=Sing	5	obj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	lay	lay	VERB	VB	VerbForm=Inf	0	root	_	_
+10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	hand	hand	NOUN	NN	Number=Sing	9	obj	_	_
+12	once	once	ADV	RB	NumType=Mult	13	advmod	_	_
+13	more	more	ADV	RBR	_	16	advmod	_	_
+14	on	on	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	guarantees	guarantee	NOUN	NNS	Number=Plur	9	obl	_	_
+17	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+18	granted	grant	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	18	punct	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	1814	1814	NUM	CD	NumType=Card	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	18	punct	_	_
+23	on	on	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	concessions	concession	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	18	punct	_	_
+27	as	as	SCONJ	IN	_	29	mark	_	_
+28	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	termed	term	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+30	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Sad.
+1	Sad	sad	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = A sad thing!
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	sad	sad	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = What it termed its concessions were our conquests; what it termed our encroachments were our rights.
+1	What	what	PRON	WP	PronType=Int	3	obj	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	termed	term	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	csubj	_	_
+4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	concessions	concession	NOUN	NNS	Number=Plur	3	obj	_	_
+6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	conquests	conquests	NOUN	NNS	Number=Plur	17	nsubj	_	SpaceAfter=No
+9	;	;	PUNCT	,	_	8	punct	_	_
+10	what	what	PRON	WP	PronType=Int	12	obj	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	termed	term	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+13	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	encroachments	encroachment	NOUN	NNS	Number=Plur	12	nsubj	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	rights	rights	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

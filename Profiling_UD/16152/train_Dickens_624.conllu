@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘You’re a pretty fellow!’ said Miss Mowcher, after a brief inspection.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’re	’re	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	pretty	pretty	ADV	RB	_	6	advmod	_	_
+6	fellow	fellow	ADJ	JJ	Degree=Pos	3	obj	_	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Miss	miss	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Mowcher	Mowcher	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	after	after	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	brief	brief	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	inspection	inspection	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘You’d be as bald as a friar on the top of your head in twelve months, but for me.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+3	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	as	as	ADV	RB	_	6	advmod	_	_
+6	bald	bald	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+7	as	as	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	friar	friar	NOUN	NN	Number=Sing	6	obl	_	_
+10	on	on	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	top	top	NOUN	NN	Number=Sing	9	nmod	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	head	head	NOUN	NN	Number=Sing	12	nmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	twelve	twelve	NUM	CD	NumType=Card	18	nummod	_	_
+18	months	month	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Just half a minute, my young friend, and we’ll give you a polishing that shall keep your curls on for the next ten years!’
+1	Just	just	ADV	RB	_	2	advmod	_	_
+2	half	half	DET	PDT	_	4	det:predet	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	minute	minute	NOUN	NN	Number=Sing	13	obl:tmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	young	young	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	friend	friend	NOUN	NN	Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	’ll	’ll	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	give	give	VERB	VB	VerbForm=Inf	0	root	_	_
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	iobj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	polishing	polishing	NOUN	NN	Number=Sing	13	obj	_	_
+17	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	shall	shall	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	keep	keep	VERB	VB	VerbForm=Inf	16	acl:relcl	_	_
+20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	curls	curl	NOUN	NNS	Number=Plur	19	obj	_	_
+22	on	on	ADP	IN	_	19	compound:prt	_	_
+23	for	for	ADP	IN	_	27	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+25	next	next	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	ten	ten	NUM	CD	NumType=Card	27	nummod	_	_
+27	years	year	NOUN	NNS	Number=Plur	19	obl	_	SpaceAfter=No
+28	!	!	PUNCT	.	_	13	punct	_	SpaceAfter=No
+29	’	'	PUNCT	''	_	13	punct	_	SpacesAfter=\n
+

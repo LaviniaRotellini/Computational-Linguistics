@@ -1,0 +1,102 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Stephen Blackpool in the parlour.
+1	Stephen	Stephen	PROPN	NNP	Number=Sing	0	root	_	_
+2	Blackpool	Blackpool	PROPN	NNP	Number=Sing	1	flat	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	parlour	parlour	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mr. Bounderby (whom he just knew by sight), at lunch on chop and sherry.
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	0	root	_	_
+2	Bounderby	Bounderby	PROPN	NNP	Number=Sing	1	flat	_	_
+3	(	(	PUNCT	-LRB-	_	4	punct	_	SpaceAfter=No
+4	whom	whom	PRON	WP	PronType=Rel	7	obl	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	just	just	ADV	RB	_	7	advmod	_	_
+7	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	sight	sight	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	1	punct	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	lunch	lunch	NOUN	NN	Number=Sing	1	nmod	_	_
+14	on	on	ADP	IN	_	15	case	_	_
+15	chop	chop	NOUN	NN	Number=Sing	1	nmod	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	sherry	sherry	NOUN	NN	Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Mrs. Sparsit netting at the fireside, in a side-saddle attitude, with one foot in a cotton stirrup.
+1	Mrs.	Mrs.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Sparsit	Sparsit	SCONJ	IN	_	3	mark	_	_
+3	netting	nett	VERB	VBG	VerbForm=Ger	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	fireside	fireside	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	in	in	ADP	IN	_	13	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+10	side	side	NOUN	NN	Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
+12	saddle	saddle	NOUN	NN	Number=Sing	13	compound	_	_
+13	attitude	attitude	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	with	with	ADP	IN	_	17	case	_	_
+16	one	one	NUM	CD	NumType=Card	17	nummod	_	_
+17	foot	foot	NOUN	NN	Number=Sing	3	obl	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	cotton	cotton	NOUN	NN	Number=Sing	21	compound	_	_
+21	stirrup	stirrup	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = It was a part, at once of Mrs. Sparsit’s dignity and service, not to lunch.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	part	part	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	at	at	ADV	RB	_	18	case	_	_
+7	once	once	ADV	RB	NumType=Mult	18	advmod	_	_
+8	of	of	ADP	IN	_	12	case	_	_
+9	Mrs.	Mrs.	PROPN	NNP	Number=Sing	12	nmod:poss	_	_
+10	Sparsit	Sparsit	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	’s	's	PART	POS	_	9	case	_	_
+12	dignity	dignity	NOUN	NN	Number=Sing	7	obl	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	service	service	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	not	not	ADV	RB	_	18	advmod	_	_
+17	to	to	ADP	IN	_	18	case	_	_
+18	lunch	lunch	NOUN	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = She supervised the meal officially, but implied that in her own stately person she considered lunch a weakness.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	supervised	supervise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	meal	meal	NOUN	NN	Number=Sing	2	obj	_	_
+5	officially	officially	ADV	RB	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	but	but	CCONJ	CC	_	8	cc	_	_
+8	implied	imply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	that	that	SCONJ	IN	_	16	mark	_	_
+10	in	in	ADP	IN	_	14	case	_	_
+11	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	own	own	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	stately	stately	NOUN	NN	Number=Sing	14	compound	_	_
+14	person	person	NOUN	NN	Number=Sing	16	obl	_	_
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	considered	consider	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	_
+17	lunch	lunch	NOUN	NN	Number=Sing	16	obj	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	weakness	weakness	NOUN	NN	Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

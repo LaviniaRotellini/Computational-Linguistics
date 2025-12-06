@@ -1,0 +1,77 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, no, Mother,” said Mr. Irwine; “it was a little bit of irregular justice on Mrs. Poyser’s part, but a magistrate like me must not countenance irregular justice.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	no	no	INTJ	UH	_	6	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Mother	mother	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mr.	Mr.	PROPN	NNP	Number=Sing	9	nsubj	_	_
+11	Irwine	Irwine	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	;	;	PUNCT	,	_	9	punct	_	_
+13	“	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	little	little	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	bit	bit	NOUN	NN	Number=Sing	9	parataxis	_	_
+19	of	of	ADP	IN	_	21	case	_	_
+20	irregular	irregular	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	justice	justice	NOUN	NN	Number=Sing	18	nmod	_	_
+22	on	on	ADP	IN	_	26	case	_	_
+23	Mrs.	Mrs.	PROPN	NNP	Number=Sing	26	nmod:poss	_	_
+24	Poyser	Poyser	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+25	’s	's	PART	POS	_	23	case	_	_
+26	part	part	NOUN	NN	Number=Sing	18	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	30	punct	_	_
+28	but	but	CCONJ	CC	_	30	cc	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	magistrate	magistrate	NOUN	NN	Number=Sing	18	conj	_	_
+31	like	like	SCONJ	IN	_	35	mark	_	_
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
+33	must	must	AUX	MD	VerbForm=Fin	35	aux	_	_
+34	not	not	PART	RB	_	35	advmod	_	_
+35	countenance	countenance	VERB	VB	VerbForm=Inf	30	advcl	_	_
+36	irregular	irregular	ADJ	JJ	Degree=Pos	37	amod	_	_
+37	justice	justice	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = There must be no report spread that I have taken notice of the quarrel, else I shall lose the little good influence I have over the old man.”
+1	There	there	PRON	EX	_	3	expl	_	_
+2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+4	no	no	DET	DT	_	6	det	_	_
+5	report	report	NOUN	NN	Number=Sing	6	compound	_	_
+6	spread	spread	NOUN	NN	Number=Sing	3	nsubj	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	obj	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	notice	notice	NOUN	NN	Number=Sing	10	obj	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	quarrel	quarrel	NOUN	NN	Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	6	punct	_	_
+16	else	else	ADJ	JJ	Degree=Pos	6	amod	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	shall	shall	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	lose	lose	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+21	little	little	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	good	good	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	influence	influence	NOUN	NN	Number=Sing	19	obj	_	_
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	over	over	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	old	old	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	man	man	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+31	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

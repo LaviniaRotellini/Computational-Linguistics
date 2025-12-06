@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My country rounds,’ she added at length, ‘brought me to Norwich, Mr. Copperfield, the night before last.
+1	‘	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	country	country	NOUN	NN	Number=Sing	4	compound	_	_
+4	rounds	round	NOUN	NNS	Number=Plur	7	nsubj	_	SpaceAfter=No
+5	,’	,’	PUNCT	.	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	at	at	ADP	IN	_	9	case	_	_
+9	length	length	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	7	punct	_	_
+11	‘	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+12	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	_
+14	to	to	ADP	IN	_	15	case	_	_
+15	Norwich	Norwich	PROPN	NNP	Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	7	punct	_	_
+17	Mr.	Mr.	PROPN	NNP	Number=Sing	7	appos	_	_
+18	Copperfield	Copperfield	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	night	night	NOUN	NN	Number=Sing	23	obl:tmod	_	_
+22	before	before	ADV	RB	_	21	advmod	_	_
+23	last	last	ADJ	JJ	Degree=Pos	17	amod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = What I happened to find there, about their secret way of coming and going, without you--which was strange--led to my suspecting something wrong.
+1	What	what	PRON	WP	PronType=Int	3	obj	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	find	find	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	_	_
+8	about	about	ADP	IN	_	11	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+10	secret	secret	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	way	way	NOUN	NN	Number=Sing	3	obl	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	coming	come	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	going	go	VERB	VBG	VerbForm=Ger	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	_	_
+17	without	without	ADP	IN	_	18	case	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+19	--	--	PUNCT	,	_	3	punct	_	SpaceAfter=No
+20	which	which	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+22	strange	strange	ADJ	JJ	Degree=Pos	24	acl:relcl	_	SpaceAfter=No
+23	--	--	PUNCT	,	_	24	punct	_	SpaceAfter=No
+24	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	_
+25	to	to	ADP	IN	_	27	case	_	_
+26	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	suspecting	suspect	VERB	VBG	VerbForm=Ger	24	obl	_	_
+28	something	something	PRON	NN	Number=Sing	27	obj	_	_
+29	wrong	wrong	ADJ	JJ	Degree=Pos	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I got into the coach from London last night, as it came through Norwich, and was here this morning.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	into	into	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	coach	coach	NOUN	NN	Number=Sing	2	obl	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	London	London	PROPN	NNP	Number=Sing	2	obl	_	_
+8	last	last	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	night	night	NOUN	NN	Number=Sing	2	obl:tmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	_	_
+11	as	as	SCONJ	IN	_	13	mark	_	_
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+14	through	through	ADP	IN	_	15	case	_	_
+15	Norwich	Norwich	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+19	here	here	ADV	RB	PronType=Dem	2	conj	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	morning	morning	NOUN	NN	Number=Sing	19	obl:tmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Oh, oh, oh!
+1	Oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	_	_
+3	oh	oh	INTJ	UH	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	oh	oh	INTJ	UH	_	3	discourse	_	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = too late!’
+1	too	too	ADV	RB	_	2	advmod	_	_
+2	late	late	ADV	RB	Degree=Pos	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

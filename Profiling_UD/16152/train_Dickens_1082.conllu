@@ -1,0 +1,113 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘Last evening after tea,’ pursued Miss Murdstone, ‘I observed the little dog starting, rolling, and growling about the drawing-room, worrying something.
+1	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+2	Last	last	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	evening	evening	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	after	after	ADP	IN	_	5	case	_	_
+5	tea	tea	NOUN	NN	Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	pursued	pursue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Miss	miss	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Murdstone	Murdstone	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	‘	'	PUNCT	``	_	14	punct	_	SpaceAfter=No
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	observed	observe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	little	little	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	dog	dog	NOUN	NN	Number=Sing	14	obj	_	_
+18	starting	start	VERB	VBG	VerbForm=Ger	14	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	rolling	roll	VERB	VBG	VerbForm=Ger	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	growling	grow	VERB	VBG	VerbForm=Ger	8	conj	_	_
+24	about	about	ADP	IN	_	28	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	drawing	drawing	NOUN	NN	Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	room	room	NOUN	NN	Number=Sing	23	obl	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	8	punct	_	_
+30	worrying	worry	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+31	something	something	PRON	NN	Number=Sing	30	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = I said to Miss Spenlow, “Dora, what is that the dog has in his mouth?
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	Miss	miss	PROPN	NNP	Number=Sing	2	obl	_	_
+5	Spenlow	Spenlow	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+8	Dora	Dora	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	what	what	PRON	WP	PronType=Int	11	nsubj	_	_
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	dog	dog	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	mouth	mouth	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+19	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = It’s paper.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	paper	paper	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 4
+# text = Miss Spenlow immediately put her hand to her frock, gave a sudden cry, and ran to the dog.
+1	Miss	miss	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Spenlow	Spenlow	PROPN	NNP	Number=Sing	1	flat	_	_
+3	immediately	immediately	ADV	RB	_	4	advmod	_	_
+4	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	hand	hand	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	frock	frock	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+13	sudden	sudden	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	cry	cry	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	ran	run	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	dog	dog	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 5
+# text = I interposed, and said, “Dora, my love, you must permit me.”’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	interposed	interpose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+8	Dora	Dora	INTJ	UH	_	15	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	15	punct	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	must	must	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	permit	permit	VERB	VB	VerbForm=Inf	5	ccomp	_	_
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	2	punct	_	SpaceAfter=No
+19	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

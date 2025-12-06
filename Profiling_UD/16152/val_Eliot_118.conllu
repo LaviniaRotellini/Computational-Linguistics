@@ -1,0 +1,81 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Mr Glegg,” said Mrs G., in a tone which implied that her indignation would fizz and ooze a little, though she was determined to keep it corked up, “you’d far better hold your tongue.
+1	“	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	Mr	Mr	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Glegg	Glegg	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+5	”	"	PUNCT	''	_	6	punct	_	_
+6	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mrs	Mrs	PROPN	NNP	Number=Sing	6	nsubj	_	_
+8	G.	G.	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	7	punct	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	tone	tone	NOUN	NN	Number=Sing	7	nmod	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+14	implied	imply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	that	that	SCONJ	IN	_	19	mark	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	indignation	indignation	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	would	would	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	fizz	fizz	NOUN	NN	Number=Sing	14	ccomp	_	_
+20	and	and	CCONJ	CC	_	28	cc	_	_
+21	ooze	ooze	ADP	IN	_	23	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	28	obl	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	_	_
+25	though	though	SCONJ	IN	_	28	mark	_	_
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+28	determined	determined	ADJ	JJ	Degree=Pos	19	conj	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	keep	keep	VERB	VB	VerbForm=Inf	28	xcomp	_	_
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	corked	corke	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	xcomp	_	_
+33	up	up	ADP	RP	_	32	compound:prt	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	19	punct	_	_
+35	“	"	PUNCT	``	_	37	punct	_	SpaceAfter=No
+36	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	SpaceAfter=No
+37	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+38	far	far	ADV	RB	Degree=Pos	39	advmod	_	_
+39	better	better	ADV	RBR	Degree=Cmp	37	advmod	_	_
+40	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	37	parataxis	_	_
+41	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+42	tongue	tongue	NOUN	NN	Number=Sing	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mr Tulliver doesn’t want to know your opinion nor mine either.
+1	Mr	Mr	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Tulliver	Tulliver	PROPN	NNP	Number=Sing	1	flat	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	want	want	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	know	know	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	opinion	opinion	NOUN	NN	Number=Sing	7	obj	_	_
+10	nor	nor	CCONJ	CC	_	11	cc	_	_
+11	mine	mine	PRON	PRP	_	9	conj	_	_
+12	either	either	DET	DT	_	7	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 3
+# text = There’s folks in the world as know better than everybody else.”
+1	There	there	PRON	EX	_	2	expl	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	folks	folk	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	world	world	NOUN	NN	Number=Sing	3	nmod	_	_
+7	as	as	SCONJ	IN	_	8	mark	_	_
+8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	better	better	ADJ	JJR	Degree=Cmp	8	xcomp	_	_
+10	than	than	ADP	IN	_	11	case	_	_
+11	everybody	everybody	PRON	NN	Number=Sing	9	obl	_	_
+12	else	else	ADJ	JJ	Degree=Pos	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

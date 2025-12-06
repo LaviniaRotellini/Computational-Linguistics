@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Of course he’d much the best of it to the last,—his character was so good.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Of	of	ADV	RB	_	5	advmod	_	_
+3	course	course	ADV	RB	_	2	fixed	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	much	much	ADV	RB	_	8	advmod	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	best	best	ADJ	JJS	Degree=Sup	5	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	last	last	ADJ	JJ	Degree=Pos	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	20	punct	_	SpaceAfter=No
+15	—	-	PUNCT	,	_	20	punct	_	SpaceAfter=No
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	character	character	NOUN	NN	Number=Sing	20	nsubj	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	so	so	ADV	RB	_	20	advmod	_	_
+20	good	good	ADJ	JJ	Degree=Pos	5	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = He had escaped when he was made half wild by me and my murderous intentions; and his punishment was light.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	escaped	escap	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	_
+8	half	half	PRON	PRP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	wild	wild	AUX	MD	VerbForm=Fin	7	ccomp	_	_
+10	by	by	ADP	IN	_	11	case	_	_
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	murderous	murderous	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	intentions	intention	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
+16	;	;	PUNCT	,	_	3	punct	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	punishment	punishment	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	light	light	ADJ	JJ	Degree=Pos	3	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = I was put in irons, brought to trial again, and sent for life.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	irons	iron	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	trial	trial	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	again	again	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	sent	send	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+14	for	for	ADP	IN	_	15	case	_	_
+15	life	life	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = I didn’t stop for life, dear boy and Pip’s comrade, being here.”
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	stop	stop	VERB	VB	VerbForm=Inf	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	life	life	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	dear	dear	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	boy	boy	NOUN	NN	Number=Sing	4	obj	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	Pip	Pip	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	comrade	comrade	NOUN	NN	Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	being	be	AUX	VBG	VerbForm=Ger	16	cop	_	_
+16	here	here	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

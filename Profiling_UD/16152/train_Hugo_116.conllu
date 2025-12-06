@@ -1,0 +1,88 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Jean Valjean came from a poor peasant family of Brie.
+1	Jean	Jean	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Valjean	Valjean	PROPN	NNP	Number=Sing	1	flat	_	_
+3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	from	from	ADP	IN	_	8	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+6	poor	poor	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	peasant	peasant	NOUN	NN	Number=Sing	8	compound	_	_
+8	family	family	NOUN	NN	Number=Sing	3	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	Brie	Brie	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = He had not learned to read in his childhood.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	RB	_	4	advmod	_	_
+4	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	read	read	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	childhood	childhood	NOUN	NN	Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = When he reached man’s estate, he became a tree-pruner at Faverolles.
+1	When	when	ADV	WRB	PronType=Int	3	mark	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	man	man	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	estate	estate	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	tree	tree	NOUN	NN	Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	pruner	pruner	NOUN	NN	Number=Sing	9	obj	_	_
+14	at	at	ADP	IN	_	15	case	_	_
+15	Faverolles	Faverolles	NOUN	NNS	Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = His mother was named Jeanne Mathieu; his father was called Jean Valjean or Vlajean, probably a sobriquet, and a contraction of _voilà_
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	mother	mother	NOUN	NN	Number=Sing	4	nsubj:pass	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	named	name	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	Jeanne	Jeanne	PROPN	NNP	Number=Sing	4	xcomp	_	_
+6	Mathieu	Mathieu	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	4	punct	_	_
+8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	father	father	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+12	Jean	Jean	PROPN	NNP	Number=Sing	11	xcomp	_	_
+13	Valjean	Valjean	PROPN	NNP	Number=Sing	12	flat	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	Vlajean	Vlajean	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	_	_
+17	probably	probably	ADV	RB	_	19	advmod	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	sobriquet	sobriquet	NOUN	NN	Number=Sing	11	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	and	and	CCONJ	CC	_	23	cc	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	contraction	contraction	NOUN	NN	Number=Sing	11	conj	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	_voilà	_voilà	NOUN	NN	Number=Sing	23	nmod	_	SpaceAfter=No
+26	_	_	SYM	NFP	_	4	punct	_	_
+
+# sent_id = 5
+# text = Jean, “here’s Jean.”
+1	Jean	Jean	PROPN	NNP	Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+4	here	here	ADV	RB	PronType=Dem	0	root	_	SpaceAfter=No
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	Jean	Jean	PROPN	NNP	Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

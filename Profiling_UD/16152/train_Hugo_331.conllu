@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = In the meantime, Fantine was staring at the tester of her bed.
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	meantime	meantime	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	Fantine	Fantine	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	at	at	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	tester	tester	NOUN	NN	Number=Sing	7	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	bed	bed	NOUN	NN	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = She seemed to be endeavoring to recall something.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	endeavoring	endeavor	VERB	VBG	Tense=Pres|VerbForm=Part	2	xcomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	recall	recall	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	something	something	PRON	NN	Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = All at once she began to sing in a voice as feeble as a breath.
+1	All	all	DET	DT	_	5	det	_	_
+2	at	at	ADV	RB	_	3	advmod	_	_
+3	once	once	ADV	RB	NumType=Mult	5	advmod	_	_
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	SCONJ	IN	_	7	mark	_	_
+7	sing	s	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	voice	voice	NOUN	NN	Number=Sing	7	obl	_	_
+11	as	as	ADP	IN	_	12	case	_	_
+12	feeble	feeble	NOUN	NN	Number=Sing	10	nmod	_	_
+13	as	as	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	breath	breath	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = The nun listened.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	nun	nun	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	listened	listen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 5
+# text = This is what Fantine was singing:—
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	Fantine	Fantine	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	singing	singe	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	SpaceAfter=No
+7	:—	:—	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

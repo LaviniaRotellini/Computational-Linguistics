@@ -1,0 +1,76 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = My convict never looked at me, except that once.
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	convict	convict	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	except	except	ADP	IN	_	9	case	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	10	obl	_	_
+10	once	once	ADV	RB	NumType=Mult	4	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = While we stood in the hut, he stood before the fire looking thoughtfully at it, or putting up his feet by turns upon the hob, and looking thoughtfully at them as if he pitied them for their recent adventures.
+1	While	while	SCONJ	IN	_	3	mark	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	hut	hut	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	stood	stand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	before	before	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	fire	fire	NOUN	NN	Number=Sing	9	obl	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+14	thoughtfully	thoughtfully	ADV	RB	_	13	advmod	_	_
+15	at	at	ADP	IN	_	16	case	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	or	or	CCONJ	CC	_	19	cc	_	_
+19	putting	put	VERB	VBG	VerbForm=Ger	13	conj	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	feet	foot	NOUN	NNS	Number=Plur	19	obj	_	_
+23	by	by	ADP	IN	_	24	case	_	_
+24	turns	turn	NOUN	NNS	Number=Plur	19	obl	_	_
+25	upon	upon	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	hob	hob	NOUN	NN	Number=Sing	19	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	looking	look	VERB	VBG	VerbForm=Ger	9	conj	_	_
+31	thoughtfully	thoughtfully	ADV	RB	_	30	advmod	_	_
+32	at	at	ADP	IN	_	33	case	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obl	_	_
+34	as	as	SCONJ	IN	_	37	mark	_	_
+35	if	if	SCONJ	IN	_	37	mark	_	_
+36	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	pitied	pitie	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	_
+38	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
+39	for	for	ADP	IN	_	42	case	_	_
+40	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+41	recent	recent	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	adventures	adventure	NOUN	NNS	Number=Plur	37	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Suddenly, he turned to the sergeant, and remarked,—
+1	Suddenly	suddenly	ADV	RB	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	turned	turn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	sergeant	sergeant	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	remarked	remark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	,—	,—	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+

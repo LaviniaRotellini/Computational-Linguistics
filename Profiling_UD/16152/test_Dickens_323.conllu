@@ -1,0 +1,82 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = He was arranging his fruit in plates while we talked, which divided his attention, and was the cause of his having made this lapse of a word.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	arranging	arrange	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	fruit	fruit	NOUN	NN	Number=Sing	3	obj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	plates	plate	NOUN	NNS	Number=Plur	3	obl	_	_
+8	while	while	SCONJ	IN	_	10	mark	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	talked	talk	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+13	divided	divide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	attention	attention	NOUN	NN	Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	cause	cause	NOUN	NN	Number=Sing	3	conj	_	_
+21	of	of	SCONJ	IN	_	24	mark	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nsubj	_	_
+23	having	have	AUX	VBG	VerbForm=Ger	24	aux	_	_
+24	made	make	VERB	VBN	Tense=Past|VerbForm=Part	20	acl	_	_
+25	this	this	DET	DT	Number=Sing|PronType=Dem	26	det	_	_
+26	lapse	lapse	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	_
+29	word	word	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = “Affianced,” he explained, still busy with the fruit.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Affianced	Affiance	PROPN	NNP	Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	SpaceAfter=No
+4	”	"	PUNCT	''	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	_	_
+8	still	still	ADV	RB	_	9	advmod	_	_
+9	busy	busy	ADJ	JJ	Degree=Pos	0	root	_	_
+10	with	with	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	fruit	fruit	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 3
+# text = “Betrothed.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Betrothed	Betroth	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Engaged.
+1	Engaged	engage	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = What’s-his-named.
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	SpaceAfter=No
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+6	named	name	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Any word of that sort.”
+1	Any	any	DET	DT	_	2	det	_	_
+2	word	word	NOUN	NN	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	sort	sort	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

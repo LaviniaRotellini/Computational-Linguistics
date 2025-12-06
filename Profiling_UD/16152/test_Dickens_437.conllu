@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ah me!
+1	Ah	ah	INTJ	UH	_	2	discourse	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = I thought those were high and great emotions.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	those	those	PRON	DT	Number=Plur|PronType=Dem	8	nsubj	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	high	high	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	great	great	ADJ	JJ	Degree=Pos	5	conj	_	_
+8	emotions	emotion	NOUN	NNS	Number=Plur	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = But I never thought there was anything low and small in my keeping away from Joe, because I knew she would be contemptuous of him.
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	there	there	PRON	EX	_	6	expl	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+7	anything	anything	PRON	NN	Number=Sing	6	nsubj	_	_
+8	low	low	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	small	small	ADJ	JJ	Degree=Pos	8	conj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	keeping	keeping	NOUN	NN	Number=Sing	7	nmod	_	_
+14	away	away	ADV	RB	_	7	advmod	_	_
+15	from	from	ADP	IN	_	16	case	_	_
+16	Joe	Joe	PROPN	NNP	Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	because	because	SCONJ	IN	_	20	mark	_	_
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+22	would	would	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	be	be	AUX	VB	VerbForm=Inf	24	cop	_	_
+24	contemptuous	contemptuous	ADJ	JJ	Degree=Pos	20	ccomp	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It was but a day gone, and Joe had brought the tears into my eyes; they had soon dried, God forgive me!
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	but	but	CCONJ	CC	_	6	cc	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	day	day	NOUN	NN	Number=Sing	6	obl:npmod	_	_
+6	gone	gone	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	Joe	Joe	PROPN	NNP	Number=Sing	11	nsubj	_	_
+10	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	tears	tear	NOUN	NNS	Number=Plur	11	obj	_	_
+14	into	into	ADP	IN	_	16	case	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	eyes	eye	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+17	;	;	PUNCT	,	_	2	punct	_	_
+18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	soon	soon	ADV	RB	Degree=Pos	21	advmod	_	_
+21	dried	dried	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	21	punct	_	_
+23	God	God	PROPN	NNP	Number=Sing	24	nsubj	_	_
+24	forgive	forgive	VERB	VB	VerbForm=Inf	21	parataxis	_	_
+25	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	SpaceAfter=No
+26	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = soon dried.
+1	soon	soon	ADV	RB	Degree=Pos	2	advmod	_	_
+2	dried	dry	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘In idle imagination, Gradgrind,’ repeated Bounderby.
+1	‘	'	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	In	in	ADP	IN	_	4	case	_	_
+3	idle	idle	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	imagination	imagination	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	’	PUNCT	''	_	9	punct	_	_
+9	repeated	repeat	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Bounderby	Bounderby	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = ‘A very bad thing for anybody, but a cursed bad thing for a girl like Louisa.
+1	‘A	‘a	ADV	RB	_	3	advmod	_	_
+2	very	very	ADV	RB	_	3	advmod	_	_
+3	bad	bad	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	thing	thing	NOUN	NN	Number=Sing	0	root	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	anybody	anybody	PRON	NN	Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	12	punct	_	_
+8	but	but	CCONJ	CC	_	12	cc	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	cursed	curse	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	bad	bad	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	thing	thing	NOUN	NN	Number=Sing	4	conj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	girl	girl	NOUN	NN	Number=Sing	12	nmod	_	_
+16	like	like	ADP	IN	_	17	case	_	_
+17	Louisa	Louisa	PROPN	NNP	Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 3
+# text = I should ask Mrs. Gradgrind’s pardon for strong expressions, but that she knows very well I am not a refined character.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	ask	ask	VERB	VB	VerbForm=Inf	0	root	_	_
+4	Mrs.	Mrs.	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
+5	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	’s	's	PART	POS	_	4	case	_	_
+7	pardon	pardon	NOUN	NN	Number=Sing	3	obj	_	_
+8	for	for	ADP	IN	_	10	case	_	_
+9	strong	strong	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	expressions	expression	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	very	very	ADV	RB	_	17	advmod	_	_
+17	well	well	ADV	RB	Degree=Pos	15	advmod	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+19	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+20	not	not	PART	RB	_	23	advmod	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	refined	refin	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+23	character	character	NOUN	NN	Number=Sing	15	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Whoever expects refinement in _me_ will be disappointed.
+1	Whoever	whoever	PRON	WP	PronType=Int	2	nsubj	_	_
+2	expects	expect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	refinement	refinement	NOUN	NN	Number=Sing	2	obj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	_	_	SYM	NFP	_	6	punct	_	SpaceAfter=No
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+7	_	_	SYM	NFP	_	10	punct	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	disappointed	disappoint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I hadn’t a refined bringing up.’
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	5	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	refined	refin	NOUN	NN	Number=Sing	6	obj	_	_
+6	bringing	bring	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+7	up	up	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+9	’	'	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+

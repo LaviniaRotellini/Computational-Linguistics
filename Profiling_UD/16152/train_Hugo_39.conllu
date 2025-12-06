@@ -1,0 +1,55 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = On some semi-official occasion or other, I do not recollect what, Count*** [this senator] and M. Myriel were to dine with the prefect.
+1	On	on	ADP	IN	_	4	case	_	_
+2	some	some	DET	DT	_	4	det	_	_
+3	semi-official	semi-official	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	occasion	occasion	NOUN	NN	Number=Sing	11	obl	_	_
+5	or	or	CCONJ	CC	_	6	cc	_	_
+6	other	other	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	not	not	PART	RB	_	11	advmod	_	_
+11	recollect	recollect	VERB	VB	VerbForm=Inf	0	root	_	_
+12	what	what	PRON	WP	PronType=Int	14	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	_	_
+14	Count	count	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+15	***	***	PUNCT	NFP	_	11	punct	_	_
+16	[	[	PUNCT	-LRB-	_	11	punct	_	SpaceAfter=No
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	senator	senator	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+19	]	]	PUNCT	-RRB-	_	11	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	M.	M.	PROPN	NNP	Number=Sing	23	nsubj	_	_
+22	Myriel	Myriel	PROPN	NNP	Number=Sing	21	flat	_	_
+23	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	dine	dine	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	with	with	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	prefect	prefect	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = At dessert, the senator, who was slightly exhilarated, though still perfectly dignified, exclaimed:—
+1	At	at	ADP	IN	_	2	case	_	_
+2	dessert	dessert	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	senator	senator	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	2	punct	_	_
+7	who	who	PRON	WP	PronType=Rel	10	nsubj:pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+9	slightly	slightly	ADV	RB	_	10	advmod	_	_
+10	exhilarated	exhilarate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	_	_
+12	though	though	SCONJ	IN	_	15	mark	_	_
+13	still	still	ADV	RB	_	15	advmod	_	_
+14	perfectly	perfectly	ADV	RB	_	15	advmod	_	_
+15	dignified	dignify	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	exclaimed	exclaim	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+18	:—	:—	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+

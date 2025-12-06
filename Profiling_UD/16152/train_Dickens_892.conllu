@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘My dear young soul,’ returned Miss Mowcher, squeezing her hands upon her heart one over the other.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+3	dear	dear	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	young	young	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	soul	soul	NOUN	NN	Number=Sing	8	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	SpaceAfter=No
+7	’	’	PUNCT	''	_	8	punct	_	_
+8	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Miss	miss	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Mowcher	Mowcher	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	squeezing	squeeze	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	hands	hand	NOUN	NNS	Number=Plur	12	obj	_	_
+15	upon	upon	ADP	IN	_	17	case	_	_
+16	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	heart	heart	NOUN	NN	Number=Sing	12	obl	_	_
+18	one	one	NUM	CD	NumType=Card	17	conj	_	_
+19	over	over	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	other	other	ADJ	JJ	Degree=Pos	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 2
+# text = ‘I am ill here, I am very ill.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ill	ill	ADV	RB	_	5	advmod	_	_
+5	here	here	ADV	RB	PronType=Dem	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	_	_
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	ill	ill	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 3
+# text = To think that it should come to this, when I might have known it and perhaps prevented it, if I hadn’t been a thoughtless fool!’
+1	To	to	PART	TO	_	2	mark	_	_
+2	think	think	VERB	VB	VerbForm=Inf	28	advcl	_	_
+3	that	that	SCONJ	IN	_	6	mark	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	should	should	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	come	come	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	_	_
+10	when	when	ADV	WRB	PronType=Int	14	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	might	might	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	have	have	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	known	know	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	perhaps	perhaps	ADV	RB	_	18	advmod	_	_
+18	prevented	prevent	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	28	punct	_	_
+21	if	if	SCONJ	IN	_	28	mark	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+23	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
+24	n’t	not	PART	RB	_	28	advmod	_	_
+25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	28	cop	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+27	thoughtless	thoughtless	NOUN	NN	Number=Sing	28	compound	_	_
+28	fool	fool	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+29	!	!	PUNCT	.	_	28	punct	_	SpaceAfter=No
+30	’	'	PUNCT	''	_	28	punct	_	SpacesAfter=\n
+

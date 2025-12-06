@@ -1,0 +1,92 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A great many rumors were in circulation with regard to this adventure.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	great	great	ADJ	JJ	Degree=Pos	4	amod	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	rumors	rumor	NOUN	NNS	Number=Plur	7	nsubj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	circulation	circulation	NOUN	NN	Number=Sing	0	root	_	_
+8	with	with	ADP	IN	_	9	case	_	_
+9	regard	regard	NOUN	NN	Number=Sing	7	nmod	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	adventure	adventure	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 2
+# text = No one doubted but that the day had come when, in accordance with their compact, Quasimodo, that is to say, the devil, was to carry off Claude Frollo, that is to say, the sorcerer.
+1	No	no	DET	DT	_	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	doubted	doubte	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	but	but	CCONJ	CC	_	9	cc	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	day	day	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	come	come	VERB	VB	VerbForm=Inf	3	conj	_	_
+10	when	when	ADV	WRB	PronType=Int	21	mark	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	21	punct	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	accordance	accordance	NOUN	NN	Number=Sing	21	obl	_	_
+14	with	with	ADP	IN	_	16	case	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	compact	compact	NOUN	NN	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	Quasimodo	Quasimodo	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	say	say	VERB	VB	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	devil	devil	PROPN	NNP	Number=Sing	23	obj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	9	punct	_	_
+28	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	parataxis	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	carry	carry	VERB	VB	VerbForm=Inf	28	advcl	_	_
+31	off	off	ADP	RP	_	33	case	_	_
+32	Claude	Claude	PROPN	NNP	Number=Sing	33	compound	_	_
+33	Frollo	Frollo	PROPN	NNP	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	9	punct	_	_
+35	that	that	PRON	DT	Number=Sing|PronType=Dem	36	nsubj	_	_
+36	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+37	to	to	PART	TO	_	38	mark	_	_
+38	say	say	VERB	VB	VerbForm=Inf	36	ccomp	_	SpaceAfter=No
+39	,	,	PUNCT	,	_	38	punct	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	sorcerer	sorcerer	NOUN	NN	Number=Sing	38	obj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = It was presumed that he had broken the body when taking the soul, like monkeys who break the shell to get at the nut.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	presumed	presume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	7	mark	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	body	body	NOUN	NN	Number=Sing	7	obj	_	_
+10	when	when	ADV	WRB	PronType=Int	11	mark	_	_
+11	taking	take	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	soul	soul	NOUN	NN	Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	3	punct	_	_
+15	like	like	SCONJ	IN	_	16	mark	_	_
+16	monkeys	monkey	NOUN	NNS	Number=Plur	3	obl	_	_
+17	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+18	break	break	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	shell	shell	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	get	get	VERB	VB	VerbForm=Inf	18	advcl	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	nut	nut	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

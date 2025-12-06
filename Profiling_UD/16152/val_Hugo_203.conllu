@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Here, however, was nothing of the kind.
+1	Here	here	ADV	RB	PronType=Dem	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	however	however	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	0	root	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	kind	kind	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 2
+# text = The Douvres, lifting above the level of the waters the shattered hull of the Durande, had an air of triumph.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Douvres	Douvre	NOUN	NNS	Number=Plur	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	lifting	lif	VERB	VBG	VerbForm=Ger	2	acl	_	_
+5	above	above	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	level	level	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	waters	water	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	shattered	shatter	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	hull	hull	NOUN	NN	Number=Sing	4	obj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	Durande	Durande	PROPN	NNP	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	air	air	NOUN	NN	Number=Sing	18	obj	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	triumph	triumph	NOUN	NN	Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = 3
+# text = The imagination might have pictured them as two monstrous arms, reaching upwards from the gulf, and exhibiting to the tempest the lifeless body of the ship.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	imagination	imagination	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	have	have	AUX	VB	VerbForm=Inf	5	aux	_	_
+5	pictured	picture	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	as	as	ADP	IN	_	10	case	_	_
+8	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+9	monstrous	monstrous	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	arms	arm	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	reaching	reach	VERB	VBG	VerbForm=Ger	5	conj	_	_
+13	upwards	upward	NOUN	NNS	Number=Plur	12	obj	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	gulf	gulf	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	exhibiting	exhibit	VERB	VBG	VerbForm=Ger	5	conj	_	_
+20	to	to	ADP	IN	_	25	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+22	tempest	tempest	ADJ	JJ	Degree=Pos|NumType=Ord	25	amod	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+24	lifeless	lifeless	ADJ	JJR	Degree=Cmp	25	amod	_	_
+25	body	body	NOUN	NN	Number=Sing	19	obl	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	ship	ship	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Their aspect was like that of an assassin boasting of his evil deeds.
+1	Their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	aspect	aspect	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	assassin	assassin	NOUN	NN	Number=Sing	9	compound	_	_
+9	boasting	boasting	NOUN	NN	Number=Sing	5	nmod	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	evil	evil	NOUN	NN	Number=Sing	13	compound	_	_
+13	deeds	deed	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

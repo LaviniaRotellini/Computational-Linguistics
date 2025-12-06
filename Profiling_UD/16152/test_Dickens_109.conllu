@@ -1,0 +1,101 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “No, ma’am, I am very sorry for you, and very sorry I can’t play just now.
+1	“	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
+2	No	no	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	ma’am	ma’am	INTJ	UH	_	9	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	ADV	RB	_	9	advmod	_	_
+9	sorry	sorry	ADJ	JJ	Degree=Pos	0	root	_	_
+10	for	for	ADP	IN	_	11	case	_	_
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	very	very	ADV	RB	_	15	advmod	_	_
+15	sorry	sorry	ADJ	JJ	Degree=Pos	9	conj	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	ca	can	AUX	MD	VerbForm=Fin	19	aux	_	SpaceAfter=No
+18	n’t	not	PART	RB	_	19	advmod	_	_
+19	play	play	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+20	just	just	ADV	RB	_	21	advmod	_	_
+21	now	now	ADV	RB	_	19	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = If you complain of me I shall get into trouble with my sister, so I would do it if I could; but it’s so new here, and so strange, and so fine,—and melancholy—.”
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	complain	complain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	of	of	ADP	IN	_	5	case	_	_
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	shall	shall	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	get	get	VERB	VB	VerbForm=Inf	0	root	_	_
+9	into	into	ADP	IN	_	10	case	_	_
+10	trouble	trouble	NOUN	NN	Number=Sing	8	obl	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	sister	sister	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	so	so	ADV	RB	_	18	advmod	_	_
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	would	would	AUX	MD	VerbForm=Fin	18	aux	_	_
+18	do	do	VERB	VB	VerbForm=Inf	8	parataxis	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	if	if	SCONJ	IN	_	22	mark	_	_
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	could	could	AUX	MD	VerbForm=Fin	18	advcl	_	SpaceAfter=No
+23	;	;	PUNCT	,	_	8	punct	_	_
+24	but	but	CCONJ	CC	_	29	cc	_	_
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	SpaceAfter=No
+26	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+27	so	so	ADV	RB	_	28	advmod	_	_
+28	new	new	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	here	here	ADV	RB	PronType=Dem	8	conj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	_	_
+31	and	and	CCONJ	CC	_	33	cc	_	_
+32	so	so	ADV	RB	_	33	advmod	_	_
+33	strange	strange	ADJ	JJ	Degree=Pos	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	37	punct	_	_
+35	and	and	CCONJ	CC	_	37	cc	_	_
+36	so	so	ADV	RB	_	37	advmod	_	_
+37	fine	fine	ADJ	JJ	Degree=Pos	29	conj	_	SpaceAfter=No
+38	,—	,—	PUNCT	.	_	41	punct	_	SpaceAfter=No
+39	and	and	CCONJ	CC	_	41	cc	_	_
+40	melancholy	melancholy	ADV	RB	_	41	advmod	_	SpaceAfter=No
+41	—	-	PUNCT	,	_	29	conj	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+43	”	"	PUNCT	''	_	8	punct	_	_
+
+# sent_id = 3
+# text = I stopped, fearing I might say too much, or had already said it, and we took another look at each other.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	fearing	fear	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	might	might	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	say	say	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+8	too	too	ADV	RB	_	9	advmod	_	_
+9	much	much	ADJ	JJ	Degree=Pos	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	or	or	CCONJ	CC	_	14	cc	_	_
+12	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	already	already	ADV	RB	_	14	advmod	_	_
+14	said	say	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+20	another	another	DET	DT	_	21	det	_	_
+21	look	look	NOUN	NN	Number=Sing	19	obj	_	_
+22	at	at	ADP	IN	_	24	case	_	_
+23	each	each	DET	DT	_	24	det	_	_
+24	other	other	ADJ	JJ	Degree=Pos	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

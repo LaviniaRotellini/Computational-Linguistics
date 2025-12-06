@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Sister, for goodness’ sake let ’em put the horse in the carriage and take me home; we shall perhaps find her on the road.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Sister	sister	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	goodness	goodness	NOUN	NN	Number=Sing	2	nmod	_	SpaceAfter=No
+6	’	's	PUNCT	''	_	2	punct	_	_
+7	sake	sake	NOUN	NN	Number=Sing	2	appos	_	_
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	parataxis	_	_
+9	’em	th’ey	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	put	put	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	horse	horse	NOUN	NN	Number=Sing	10	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	carriage	carriage	NOUN	NN	Number=Sing	10	obl	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	take	take	VERB	VB	VerbForm=Inf	8	conj	_	_
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	_
+19	home	home	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	2	punct	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+22	shall	shall	AUX	MD	VerbForm=Fin	24	aux	_	_
+23	perhaps	perhaps	ADV	RB	_	24	advmod	_	_
+24	find	find	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+25	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+26	on	on	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	road	road	NOUN	NN	Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Lucy can’t walk in her dirty clothes,” she said, looking at that innocent victim, who was wrapped up in a shawl, and sitting with naked feet on the sofa.
+1	Lucy	Lucy	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No
+3	n’t	not	PART	RB	_	4	advmod	_	_
+4	walk	walk	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+7	dirty	dirty	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	clothes	clothes	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+10	”	"	PUNCT	''	_	12	punct	_	_
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	looking	look	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	at	at	ADP	IN	_	18	case	_	_
+16	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+17	innocent	innocent	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	victim	victim	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	18	punct	_	_
+20	who	who	PRON	WP	PronType=Rel	22	nsubj:pass	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+22	wrapped	wrap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+23	up	up	ADP	RP	_	22	compound:prt	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	shawl	shawl	NOUN	NN	Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part	22	conj	_	_
+30	with	with	ADP	IN	_	32	case	_	_
+31	naked	naked	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	feet	foot	NOUN	NNS	Number=Plur	29	obl	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	sofa	sofa	NOUN	NN	Number=Sing	29	obl	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\n
+

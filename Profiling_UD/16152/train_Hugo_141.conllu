@@ -1,0 +1,87 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = His eye never quitted the old man.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eye	eye	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	never	never	ADV	RB	_	4	advmod	_	_
+4	quitted	quit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	old	old	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	man	man	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = The only thing which was clearly to be inferred from his attitude and his physiognomy was a strange indecision.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	only	only	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	19	nsubj	_	_
+4	which	which	PRON	WDT	PronType=Rel	9	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	_	_
+6	clearly	clearly	ADV	RB	_	9	advmod	_	_
+7	to	to	PART	TO	_	9	mark	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	inferred	infer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+10	from	from	ADP	IN	_	12	case	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	attitude	attitude	NOUN	NN	Number=Sing	9	obl	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	physiognomy	physiognomy	NOUN	NN	Number=Sing	3	conj	_	_
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	strange	strange	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	indecision	indecision	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = 3
+# text = One would have said that he was hesitating between the two abysses,—the one in which one loses one’s self and that in which one saves one’s self.
+1	One	one	PRON	PRP	_	4	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	_
+4	said	say	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	8	mark	_	_
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	hesitating	hesitate	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	_
+9	between	between	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	two	two	NUM	CD	NumType=Card	12	nummod	_	_
+12	abysses	abyss	NOUN	NNS	Number=Plur	8	obl	_	SpaceAfter=No
+13	,—	,—	PUNCT	.	_	8	punct	_	SpaceAfter=No
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	one	one	NOUN	NN	Number=Sing	8	obj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	which	which	PRON	WDT	PronType=Rel	19	obl	_	_
+18	one	one	NUM	CD	NumType=Card	19	nsubj	_	_
+19	loses	lose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20	one	one	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+21	’s	's	NOUN	NNS	Number=Plur	22	compound	_	_
+22	self	self	NOUN	NN	Number=Sing	19	obj	_	_
+23	and	and	CCONJ	CC	_	31	cc	_	_
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	31	nsubj	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	which	which	PRON	WDT	PronType=Rel	31	obl	_	_
+27	one	one	NUM	CD	NumType=Card	28	nummod	_	_
+28	saves	save	NOUN	NNS	Number=Plur	31	compound	_	_
+29	one	one	NUM	CD	NumType=Card	30	nummod	_	SpaceAfter=No
+30	’s	’	NOUN	NNS	Number=Plur	31	compound	_	_
+31	self	self	NOUN	NN	Number=Sing	8	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = He seemed prepared to crush that skull or to kiss that hand.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	prepared	prepared	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	crush	crush	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	skull	skull	NOUN	NN	Number=Sing	5	obj	_	_
+8	or	or	CCONJ	CC	_	10	cc	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	kiss	kiss	VERB	VB	VerbForm=Inf	3	conj	_	_
+11	that	that	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	hand	hand	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+

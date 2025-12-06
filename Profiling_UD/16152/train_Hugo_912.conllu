@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = A full month elapsed, during which Marius went every day to the Luxembourg.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+2	full	full	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	month	month	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+4	elapsed	elapsed	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	during	during	ADP	IN	_	7	case	_	_
+7	which	which	PRON	WDT	PronType=Rel	9	obl	_	_
+8	Marius	Marius	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	every	every	DET	DT	_	11	det	_	_
+11	day	day	NOUN	NN	Number=Sing	9	obl:tmod	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Luxembourg	Luxembourg	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = When the hour arrived, nothing could hold him back.
+1	When	when	ADV	WRB	PronType=Int	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	hour	hour	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	nothing	nothing	PRON	NN	Number=Sing	8	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	hold	hold	VERB	VB	VerbForm=Inf	0	root	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	back	back	ADV	RB	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 3
+# text = —“He is on duty,” said Courfeyrac.
+1	—	-	PUNCT	:	_	9	punct	_	SpaceAfter=No
+2	“	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+3	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	on	on	ADP	IN	_	6	case	_	_
+6	duty	duty	NOUN	NN	Number=Sing	9	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	”	"	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Courfeyrac	Courfeyrac	PROPN	NNP	Number=Sing	9	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Marius lived in a state of delight.
+1	Marius	Marius	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	state	state	NOUN	NN	Number=Sing	2	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	delight	delight	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 5
+# text = It is certain that the young girl did look at him.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	certain	certain	ADJ	JJ	Degree=Pos	0	root	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	girl	girl	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+9	look	look	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+10	at	at	ADP	IN	_	11	case	_	_
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

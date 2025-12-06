@@ -1,0 +1,80 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘This is your doing, Peggotty, you cruel thing!’ said my mother.
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nsubj	_	_
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Peggotty	Peggotty	INTJ	UH	_	5	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	cruel	cruel	ADJ	JJ	Degree=Pos	9	amod	_	_
+11	thing	thing	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+12	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+13	’	'	PUNCT	''	_	14	punct	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	mother	mother	NOUN	NN	Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = 2
+# text = ‘I have no doubt at all about it.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	doubt	doubt	NOUN	NN	Number=Sing	3	obj	_	_
+6	at	at	ADV	RB	_	7	case	_	_
+7	all	all	ADV	RB	_	9	advmod	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = How can you reconcile it to your conscience, I wonder, to prejudice my own boy against me, or against anybody who is dear to me?
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	reconcile	reconcile	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	conscience	conscience	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	prejudice	prejudice	VERB	VB	VerbForm=Inf	11	advcl	_	_
+15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	own	own	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	boy	boy	NOUN	NN	Number=Sing	14	obj	_	_
+18	against	against	ADP	IN	_	19	case	_	_
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	or	or	CCONJ	CC	_	23	cc	_	_
+22	against	against	ADP	IN	_	23	case	_	_
+23	anybody	anybody	PRON	NN	Number=Sing	14	conj	_	_
+24	who	who	PRON	WP	PronType=Rel	26	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	dear	dear	ADJ	JJ	Degree=Pos	23	acl:relcl	_	_
+27	to	to	ADP	IN	_	28	case	_	_
+28	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	obl	_	SpaceAfter=No
+29	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = What do you mean by it, Peggotty?’
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	mean	mean	VERB	VB	VerbForm=Inf	0	root	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	_	_
+8	Peggotty	Peggotty	PROPN	NNP	Number=Sing	4	vocative	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

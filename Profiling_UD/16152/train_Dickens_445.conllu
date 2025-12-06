@@ -1,0 +1,66 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘I have forgotten, Doctor,’ said Mrs. Strong’s mama, when we were seated, ‘to pay you the compliments of the day--though they are, as you may suppose, very far from being mere compliments in my case.
+1	‘	'	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	9	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	Doctor	Doctor	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	SpaceAfter=No
+8	’	'	PUNCT	''	_	9	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Mrs.	Mrs.	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Strong	Strong	PROPN	NNP	Number=Sing	13	nmod:poss	_	SpaceAfter=No
+12	’s	's	PART	POS	_	11	case	_	_
+13	mama	mama	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	9	punct	_	_
+15	when	when	ADV	WRB	PronType=Int	18	mark	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj:pass	_	_
+17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	_
+18	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	‘	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
+21	to	to	PART	TO	_	22	mark	_	_
+22	pay	pay	VERB	VB	VerbForm=Inf	9	ccomp	_	_
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	iobj	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	compliments	compliment	NOUN	NNS	Number=Plur	22	obj	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	day	day	NOUN	NN	Number=Sing	25	nmod	_	SpaceAfter=No
+29	--	--	PUNCT	,	_	22	punct	_	SpaceAfter=No
+30	though	though	SCONJ	IN	_	32	mark	_	_
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+32	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	32	punct	_	_
+34	as	as	SCONJ	IN	_	37	mark	_	_
+35	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	_
+36	may	may	AUX	MD	VerbForm=Fin	37	aux	_	_
+37	suppose	suppose	VERB	VB	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+38	,	,	PUNCT	,	_	40	punct	_	_
+39	very	very	ADV	RB	_	40	advmod	_	_
+40	far	far	ADV	RB	Degree=Pos	37	advmod	_	_
+41	from	from	SCONJ	IN	_	44	mark	_	_
+42	being	be	AUX	VBG	VerbForm=Ger	44	cop	_	_
+43	mere	mere	ADJ	JJ	Degree=Pos	44	amod	_	_
+44	compliments	compliment	NOUN	NNS	Number=Plur	40	advcl	_	_
+45	in	in	ADP	IN	_	47	case	_	_
+46	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+47	case	case	NOUN	NN	Number=Sing	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Allow me to wish you many happy returns.’
+1	Allow	allow	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	wish	wish	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	many	many	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	happy	happy	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	returns	return	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+10	’	'	PUNCT	''	_	1	punct	_	SpacesAfter=\n
+

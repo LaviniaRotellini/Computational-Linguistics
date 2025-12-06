@@ -1,0 +1,71 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = But she went out and had a hearty cry to make up for the suppression of her words.
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	out	out	ADV	RB	_	3	advmod	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	hearty	hearty	NOUN	NN	Number=Sing	9	compound	_	_
+9	cry	cry	NOUN	NN	Number=Sing	6	obj	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	make	make	VERB	VB	VerbForm=Inf	9	acl	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	suppression	suppression	NOUN	NN	Number=Sing	11	obl	_	_
+16	of	of	ADP	IN	_	18	case	_	_
+17	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	words	word	NOUN	NNS	Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = She felt sure that her husband’s conduct would be misunderstood, and about Fred she was rational and unhopeful.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sure	sure	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	husband	husband	NOUN	NN	Number=Sing	8	nmod:poss	_	SpaceAfter=No
+7	’s	's	PART	POS	_	6	case	_	_
+8	conduct	conduct	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+9	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	misunderstood	misunderstood	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	_	_
+13	and	and	CCONJ	CC	_	18	cc	_	_
+14	about	about	ADP	IN	_	15	case	_	_
+15	Fred	Fred	PROPN	NNP	Number=Sing	18	obl	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+18	rational	rational	ADJ	JJ	Degree=Pos	11	conj	_	_
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	unhopeful	unhopeful	ADJ	JJ	Degree=Pos	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Which would turn out to have the more foresight in it—her rationality or Caleb’s ardent generosity?
+1	Which	which	PRON	WDT	PronType=Int	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	turn	turn	VERB	VB	VerbForm=Inf	0	root	_	_
+4	out	out	ADP	RP	_	3	compound:prt	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	have	have	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+8	more	more	ADV	RBR	_	9	advmod	_	_
+9	foresight	foresight	ADJ	JJ	Degree=Pos	19	amod	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No
+12	—	-	PUNCT	,	_	14	punct	_	SpaceAfter=No
+13	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	rationality	rationality	NOUN	NN	Number=Sing	19	compound	_	_
+15	or	or	CCONJ	CC	_	16	cc	_	_
+16	Caleb	Caleb	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
+17	’s	's	PART	POS	_	16	case	_	_
+18	ardent	ardent	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	generosity	generosity	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

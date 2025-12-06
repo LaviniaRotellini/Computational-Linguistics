@@ -1,0 +1,67 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “I’m the Duke of Wellington!
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	’m	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Duke	Duke	PROPN	NNP	Number=Sing	0	root	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Wellington	Wellington	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 2
+# text = March!”
+1	March	March	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+3	”	"	PUNCT	''	_	1	punct	_	_
+
+# sent_id = 3
+# text = stamping forward with the right leg a little bent, and the sword still pointing toward Maggie, who, trembling, and with tear-filled eyes, got upon the bed, as the only means of widening the space between them.
+1	stamping	stampe	VERB	VBG	VerbForm=Ger	0	root	_	_
+2	forward	forward	ADV	RB	_	1	advmod	_	_
+3	with	with	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	right	right	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	leg	leg	NOUN	NN	Number=Sing	1	obl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	little	little	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	bent	bent	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	sword	sword	NOUN	NN	Number=Sing	1	conj	_	_
+14	still	still	ADV	RB	_	15	advmod	_	_
+15	pointing	point	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	toward	toward	ADP	IN	_	17	case	_	_
+17	Maggie	Maggie	PROPN	NNP	Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	_	_
+19	who	who	PRON	WP	PronType=Rel	30	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	trembling	trembl	NOUN	NN	Number=Sing	30	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	28	punct	_	_
+23	and	and	CCONJ	CC	_	28	cc	_	_
+24	with	with	ADP	IN	_	28	case	_	_
+25	tear	tear	NOUN	NN	Number=Sing	27	obl:npmod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+28	eyes	eye	NOUN	NNS	Number=Plur	21	conj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+31	upon	upon	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	bed	bed	NOUN	NN	Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	,	_	30	punct	_	_
+35	as	as	SCONJ	IN	_	38	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+37	only	only	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	means	means	NOUN	NNS	Number=Plur	1	conj	_	_
+39	of	of	SCONJ	IN	_	40	mark	_	_
+40	widening	wide	VERB	VBG	VerbForm=Ger	38	acl	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	space	space	NOUN	NN	Number=Sing	40	obj	_	_
+43	between	between	ADP	IN	_	44	case	_	_
+44	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+

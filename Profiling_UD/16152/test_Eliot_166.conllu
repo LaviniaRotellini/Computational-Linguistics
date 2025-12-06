@@ -1,0 +1,85 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Nay, my lad, nay,” Lisbeth burst out in an eager, wailing tone; “thee wotna let nobody make thy feyther’s coffin but thysen?
+1	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	Nay	Nay	INTJ	UH	_	11	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	11	punct	_	_
+4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	lad	lad	NOUN	NN	Number=Sing	11	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	_	_
+7	nay	nay	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	11	punct	_	_
+10	Lisbeth	Lisbeth	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	burst	burst	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	out	out	ADP	RP	_	11	compound:prt	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	eager	eager	ADJ	JJ	Degree=Pos	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	11	punct	_	_
+17	wailing	wail	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+18	tone	tone	NOUN	NN	Number=Sing	17	obj	_	SpaceAfter=No
+19	;	;	PUNCT	,	_	11	punct	_	_
+20	“	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
+21	thee	thee	ADV	RB	_	23	advmod	_	_
+22	wotna	wotna	X	AFX	_	23	goeswith	_	_
+23	let	let	VERB	VB	VerbForm=Inf	11	parataxis	_	_
+24	nobody	nobody	PRON	NN	Number=Sing	23	obj	_	_
+25	make	make	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+26	thy	thy	PRON	PRP$	_	27	nmod:poss	_	_
+27	feyther	feyther	NOUN	NN	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+28	’s	's	PART	POS	_	27	case	_	_
+29	coffin	coffin	NOUN	NNS	Number=Plur	25	obj	_	_
+30	but	but	CCONJ	CC	_	31	cc	_	_
+31	thysen	thysen	NOUN	NNS	Number=Plur	29	conj	_	SpaceAfter=No
+32	?	?	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Who’d make it so well?
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	SpaceAfter=No
+2	’d	’d	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	make	make	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	so	so	ADV	RB	_	3	advmod	_	_
+6	well	well	ADV	RB	Degree=Pos	5	fixed	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = An’ him as know’d what good work war, an’s got a son as is the head o’ the village an’ all Treddles’on too, for cleverness.”
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	SpaceAfter=No
+2	’	'	PUNCT	''	_	3	punct	_	_
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	as	have	ADV	RB	_	5	advmod	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	’d	’d	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+7	what	what	PRON	WP	PronType=Int	10	det	_	_
+8	good	good	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	work	work	NOUN	NN	Number=Sing	10	compound	_	_
+10	war	war	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	an	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	SpaceAfter=No
+13	’s	’	PRON	PRP	_	14	nsubj	_	_
+14	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	ccomp	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	son	son	NOUN	NN	Number=Sing	14	obj	_	_
+17	as	as	ADV	RB	_	5	advmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	head	head	NOUN	NN	Number=Sing	17	nsubj	_	_
+21	o	of	ADP	IN	Abbr=Yes	24	case	_	SpaceAfter=No
+22	’	'	PUNCT	''	_	24	punct	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	village	village	NOUN	NN	Number=Sing	20	nmod	_	_
+25	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	28	punct	_	_
+27	all	all	DET	DT	_	28	det	_	_
+28	Treddles	Treddles	NOUN	NNS	Number=Plur	17	obj	_	SpaceAfter=No
+29	’on	’on	ADP	IN	_	33	case	_	_
+30	too	too	ADV	RB	_	33	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	for	for	ADP	IN	_	33	case	_	_
+33	cleverness	cleverness	NOUN	NNS	Number=Plur	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+35	”	"	PUNCT	''	_	5	punct	_	SpacesAfter=\n
+

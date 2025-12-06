@@ -1,0 +1,91 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “Now, I tell you what!” said Mr. Jaggers.
+1	“	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	Now	now	ADV	RB	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	tell	tell	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	iobj	_	_
+7	what	what	PRON	WP	PronType=Int	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No
+9	”	"	PUNCT	''	_	5	punct	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nsubj	_	_
+12	Jaggers	Jaggers	PROPN	NNPS	Number=Plur	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = 2
+# text = “Once for all.
+1	“	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+2	Once	once	SCONJ	IN	_	0	root	_	_
+3	for	for	ADP	IN	_	4	case	_	_
+4	all	all	DET	DT	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = If you don’t know that your Bill’s in good hands, I know it.
+1	If	if	SCONJ	IN	_	5	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+4	n’t	not	PART	RB	_	5	advmod	_	_
+5	know	know	VERB	VB	VerbForm=Inf	15	advcl	_	_
+6	that	that	SCONJ	IN	_	12	mark	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	Bill	bill	PROPN	NNP	Number=Sing	12	nsubj	_	SpaceAfter=No
+9	’s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	good	good	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	hands	hand	NOUN	NNS	Number=Plur	5	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = 4
+# text = And if you come here bothering about your
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	here	here	ADV	RB	PronType=Dem	4	advmod	_	_
+6	bothering	bothere	VERB	VBG	VerbForm=Ger	0	root	_	_
+7	about	about	ADP	IN	_	8	case	_	_
+8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	obl	_	_
+
+# sent_id = 5
+# text = Bill, I’ll make an example of both your Bill and you, and let him slip through my fingers.
+1	Bill	Bill	PROPN	NNP	Number=Sing	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	’ll	’ll	AUX	MD	VerbForm=Fin	5	aux	_	_
+5	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	example	example	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	both	both	CCONJ	CC	_	11	cc:preconj	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	Bill	bill	PROPN	NNP	Number=Sing	7	nmod	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	let	let	VERB	VB	VerbForm=Inf	5	conj	_	_
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	slip	slip	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	through	through	ADP	IN	_	21	case	_	_
+20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	fingers	finger	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Have you paid Wemmick?”
+1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	Wemmick	Wemmick	PROPN	NNP	Number=Sing	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

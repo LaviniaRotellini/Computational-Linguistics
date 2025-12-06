@@ -1,0 +1,103 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ‘There’s no more to tell, Miss Louisa.
+1	‘	'	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	PRON	EX	_	3	expl	_	SpaceAfter=No
+3	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	ADV	RB	_	5	advmod	_	_
+5	more	more	ADJ	JJR	Degree=Cmp	10	amod	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	tell	tell	VERB	VB	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	Miss	miss	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Louisa	Louisa	PROPN	NNP	Number=Sing	3	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 2
+# text = I keep the nine oils ready for him, and I know he will come back.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	nine	nine	NUM	CD	NumType=Card	5	nummod	_	_
+5	oils	oil	NOUN	NNS	Number=Plur	2	obj	_	_
+6	ready	ready	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	will	will	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	come	come	VERB	VB	VerbForm=Inf	12	ccomp	_	_
+16	back	back	ADV	RB	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Every letter that I see in Mr. Gradgrind’s hand takes my breath away and blinds my eyes, for I think it comes from father, or from Mr. Sleary about father.
+1	Every	every	DET	DT	_	2	det	_	_
+2	letter	letter	NOUN	NN	Number=Sing	11	nsubj	_	_
+3	that	that	PRON	WDT	PronType=Rel	5	obj	_	_
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	in	in	ADP	IN	_	10	case	_	_
+7	Mr.	Mr.	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+8	Gradgrind	Gradgrind	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+9	’s	's	PART	POS	_	7	case	_	_
+10	hand	hand	NOUN	NN	Number=Sing	5	obl	_	_
+11	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	breath	breath	NOUN	NN	Number=Sing	11	obj	_	_
+14	away	away	ADV	RB	_	11	advmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	blind	blind	ADJ	JJ	Degree=Pos	11	conj	_	SpaceAfter=No
+17	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	eyes	eye	NOUN	NNS	Number=Plur	11	obj	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	for	for	CCONJ	CC	_	23	cc	_	_
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	_
+24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+26	from	from	ADP	IN	_	27	case	_	_
+27	father	father	NOUN	NN	Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	or	or	CCONJ	CC	_	31	cc	_	_
+30	from	from	ADP	IN	_	31	case	_	_
+31	Mr.	Mr.	PROPN	NNP	Number=Sing	25	conj	_	_
+32	Sleary	Sleary	PROPN	NNP	Number=Sing	31	flat	_	_
+33	about	about	ADP	IN	_	34	case	_	_
+34	father	father	NOUN	NN	Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Mr. Sleary promised to write as soon as ever father should be heard of, and I trust to him to keep his word.’
+1	Mr.	Mr.	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Sleary	Sleary	PROPN	NNP	Number=Sing	1	flat	_	_
+3	promised	promise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	write	write	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	as	as	ADV	RB	_	7	advmod	_	_
+7	soon	soon	ADV	RB	Degree=Pos	5	advmod	_	_
+8	as	as	SCONJ	IN	_	13	mark	_	_
+9	ever	ever	DET	WDT	PronType=Int	10	det	_	_
+10	father	father	NOUN	NN	Number=Sing	13	nsubj:pass	_	_
+11	should	should	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	be	be	AUX	VB	VerbForm=Inf	13	aux:pass	_	_
+13	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+14	of	of	ADP	IN	_	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	trust	trust	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	keep	keep	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	word	word	NOUN	NN	Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+26	’	'	PUNCT	''	_	3	punct	_	SpacesAfter=\n
+

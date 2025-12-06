@@ -1,0 +1,73 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = “And he told you,” interposed the Bishop with a smile, “that it had been given to him by a kind old fellow of a priest with whom he had passed the night?
+1	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+2	And	and	CCONJ	CC	_	4	cc	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+7	”	"	PUNCT	''	_	4	punct	_	_
+8	interposed	interpose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Bishop	Bishop	PROPN	NNP	Number=Sing	8	obj	_	_
+11	with	with	ADP	IN	_	13	case	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	smile	smile	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	8	punct	_	_
+15	“	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
+16	that	that	SCONJ	IN	_	20	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
+18	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	ccomp	_	_
+21	to	to	ADP	IN	_	22	case	_	_
+22	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	by	by	ADP	IN	_	27	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+25	kind	kind	ADJ	JJ	Degree=Pos	27	amod	_	_
+26	old	old	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	fellow	fellow	NOUN	NN	Number=Sing	20	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	priest	priest	NOUN	NN	Number=Sing	27	nmod	_	_
+31	with	with	ADP	IN	_	32	case	_	_
+32	whom	whom	PRON	WP	PronType=Rel	35	obl	_	_
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	_
+35	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	night	night	NOUN	NN	Number=Sing	35	obl:tmod	_	SpaceAfter=No
+38	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = I see how the matter stands.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	matter	matter	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 3
+# text = And you have brought him back here?
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	back	back	ADV	RB	_	4	advmod	_	_
+7	here	here	ADV	RB	PronType=Dem	4	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 4
+# text = It is a mistake.”
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	mistake	mistake	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	”	"	PUNCT	''	_	4	punct	_	SpacesAfter=\n
+

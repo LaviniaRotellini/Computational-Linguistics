@@ -1,0 +1,95 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Mr Stelling put his hand on Tom’s shoulder and said: “God bless you, my boy; let me know how you get on.”
+1	Mr	Mr	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	Stelling	Stelling	PROPN	NNP	Number=Sing	1	flat	_	_
+3	put	put	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	hand	hand	NOUN	NN	Number=Sing	3	obj	_	_
+6	on	on	ADP	IN	_	9	case	_	_
+7	Tom	Tom	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	’s	's	PART	POS	_	7	case	_	_
+9	shoulder	shoulder	NOUN	NN	Number=Sing	3	obl	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	:	:	PUNCT	:	_	11	punct	_	_
+13	“	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
+14	God	God	PROPN	NNP	Number=Sing	15	nsubj	_	_
+15	bless	bless	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	16	punct	_	_
+18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	boy	boy	NOUN	NN	Number=Sing	16	appos	_	SpaceAfter=No
+20	;	;	PUNCT	,	_	3	punct	_	_
+21	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	_
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+23	know	know	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	how	how	ADV	WRB	PronType=Int	26	advmod	_	_
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+26	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+27	on	on	ADV	RB	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+29	”	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 2
+# text = Then he pressed Maggie’s hand; but there were no audible good-byes.
+1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	pressed	presse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Maggie	Maggie	PROPN	NNP	Number=Sing	6	nmod:poss	_	SpaceAfter=No
+5	’s	's	PART	POS	_	4	case	_	_
+6	hand	hand	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	;	;	PUNCT	,	_	3	punct	_	_
+8	but	but	CCONJ	CC	_	10	cc	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	no	no	DET	DT	_	15	det	_	_
+12	audible	audible	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	good	good	ADJ	JJ	Degree=Pos	15	amod	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	byes	by	NOUN	NNS	Number=Plur	10	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Tom had so often thought how joyful he should be the day he left school “for good”!
+1	Tom	Tom	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	RB	_	5	advmod	_	_
+4	often	often	ADV	RB	_	5	advmod	_	_
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	how	how	ADV	WRB	PronType=Int	12	advmod	_	_
+7	joyful	joyful	SCONJ	IN	_	12	mark	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	should	should	AUX	MD	VerbForm=Fin	12	aux	_	_
+10	be	be	AUX	VB	VerbForm=Inf	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	day	day	NOUN	NN	Number=Sing	5	advcl	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+15	school	school	NOUN	NN	Number=Sing	14	obj	_	_
+16	“	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+17	for	for	ADP	IN	_	18	case	_	_
+18	good	good	ADJ	JJ	Degree=Pos	14	obl	_	SpaceAfter=No
+19	”	"	PUNCT	''	_	5	punct	_	SpaceAfter=No
+20	!	!	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 4
+# text = And now his school years seemed like a holiday that had come to an end.
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	now	now	ADV	RB	_	6	advmod	_	_
+3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	school	school	NOUN	NN	Number=Sing	5	compound	_	_
+5	years	year	NOUN	NNS	Number=Plur	6	nsubj	_	_
+6	seemed	seem	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	like	like	ADP	IN	_	9	case	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	holiday	holiday	NOUN	NN	Number=Sing	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	come	come	VERB	VBN	Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	an	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	end	end	NOUN	NN	Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
