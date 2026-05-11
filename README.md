@@ -1,2 +1,6 @@
 # Computational-Linguistics
-Project for the computational linguistics course at University of Pisa.
+Project for the computational linguistics course at University of Pisa. The project revolved around the linguistic analysis of two texts chosen by the student: I have chosen a report on education standards by the OECD and Mrs. Dalloway by Virginia Woolf.\\
+Contents of each Jupyer Notebook:
+- Programma1: collection of sentences and tokens, their POS tagging and lemmatization of two texts. Comparison between the number of tokens and sentences, average length of sentences and tokens, total number of hapax, calculation of the type/token ratio and vocabulary, number of distinct lemmas, distribution of sentences of positive and negative polarity.
+- Programma2.1: Finding the fifty most frequent nouns, adjectives and adverbs, twenty most frequent n-grams, n-grams of POS, ten most frequent bigrams noun/adjective by conditional probability, mutual information and local mutual information. Calculation of the different frequency distributions and application of Markov's model of the second order. Extraction of the fifteen most frequent name entities and elements.
+- Programma 2.1: Calculation of further frequency distributions of POS and n-grams, classification of movie reviews as positive/negative. 
